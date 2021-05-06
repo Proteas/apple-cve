@@ -630,6 +630,16 @@
         "page": "https://support.apple.com/en-us/HT211100"
     }, 
     {
+        "impact": "A malicious application may be able to execute arbitrary code with kernel privileges", 
+        "available": "macOS Catalina 10.15.3", 
+        "description": "A use after free issue was addressed with improved memory management.", 
+        "update": "March 16, 2021", 
+        "module": "Intel Graphics Driver", 
+        "id": "CVE-2020-3886", 
+        "credit": "Proteas", 
+        "page": "https://support.apple.com/en-us/HT211100"
+    }, 
+    {
         "impact": "A local user may be able to read arbitrary files", 
         "available": "macOS Catalina 10.15.3", 
         "description": "A logic issue was addressed with improved state management.", 
@@ -657,6 +667,16 @@
         "module": "Bluetooth", 
         "id": "CVE-2020-3893", 
         "credit": "Yu Wang of Didi Research America", 
+        "page": "https://support.apple.com/en-us/HT211100"
+    }, 
+    {
+        "impact": "A malicious application may be able to overwrite arbitrary files", 
+        "available": "macOS Catalina 10.15.3", 
+        "description": "This issue was addressed by removing the vulnerable code.", 
+        "update": "March 16, 2021", 
+        "module": "iTunes", 
+        "id": "CVE-2020-3896", 
+        "credit": "Christoph Falta", 
         "page": "https://support.apple.com/en-us/HT211100"
     }, 
     {
@@ -756,7 +776,7 @@
         "update": "", 
         "module": "Vim", 
         "id": "CVE-2020-9769", 
-        "credit": "Steve Hahn from LinkedIn", 
+        "credit": "Steve Hahn of LinkedIn", 
         "page": "https://support.apple.com/en-us/HT211100"
     }, 
     {
@@ -1736,7 +1756,7 @@
         "update": "", 
         "module": "WebRTC", 
         "id": "CVE-2019-20503", 
-        "credit": "Natalie Silvanovich of Google Project Zero", 
+        "credit": "natashenka of Google Project Zero", 
         "page": "https://support.apple.com/en-us/HT211177"
     }, 
     {
@@ -1956,7 +1976,7 @@
         "update": "August 5, 2020", 
         "module": "Audio", 
         "id": "CVE-2020-9888", 
-        "credit": "JunDong Xie and XingWei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "JunDong Xie and Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211288"
     }, 
     {
@@ -1966,7 +1986,7 @@
         "update": "August 5, 2020", 
         "module": "Audio", 
         "id": "CVE-2020-9889", 
-        "credit": "Anonymous working with Trend Micro\u2019s Zero Day Initiative, JunDong Xie and XingWei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Anonymous working with Trend Micro\u2019s Zero Day Initiative, JunDong Xie and Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211288"
     }, 
     {
@@ -1976,7 +1996,7 @@
         "update": "August 5, 2020", 
         "module": "Audio", 
         "id": "CVE-2020-9890", 
-        "credit": "JunDong Xie and XingWei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "JunDong Xie and Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211288"
     }, 
     {
@@ -1986,7 +2006,7 @@
         "update": "August 5, 2020", 
         "module": "Audio", 
         "id": "CVE-2020-9891", 
-        "credit": "JunDong Xie and XingWei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "JunDong Xie and Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211288"
     }, 
     {
@@ -2220,6 +2240,16 @@
         "page": "https://support.apple.com/en-us/HT211289"
     }, 
     {
+        "impact": "An integer overflow in the Perl regular expression compiler may allow a remote attacker to insert instructions into the compiled form of a regular expression", 
+        "available": "macOS Catalina 10.15.5", 
+        "description": "This issue was addressed with improved checks.", 
+        "update": "March 16, 2021", 
+        "module": "Perl", 
+        "id": "CVE-2020-10878", 
+        "credit": "Hugo van der Sanden and Slaven Rezic", 
+        "page": "https://support.apple.com/en-us/HT211289"
+    }, 
+    {
         "impact": "A remote attacker may be able to cause a denial of service", 
         "available": "macOS Mojave 10.14.6, macOS High Sierra 10.13.6, macOS Catalina 10.15.5", 
         "description": "This issue was addressed with improved checks.", 
@@ -2227,6 +2257,16 @@
         "module": "OpenLDAP", 
         "id": "CVE-2020-12243", 
         "credit": "", 
+        "page": "https://support.apple.com/en-us/HT211289"
+    }, 
+    {
+        "impact": "A remote attacker may be able to cause arbitrary code execution", 
+        "available": "macOS Catalina 10.15.5", 
+        "description": "This issue was addressed with improved checks.", 
+        "update": "March 16, 2021", 
+        "module": "Perl", 
+        "id": "CVE-2020-12723", 
+        "credit": "Sergey Aleynikov", 
         "page": "https://support.apple.com/en-us/HT211289"
     }, 
     {
@@ -2266,7 +2306,7 @@
         "update": "", 
         "module": "CoreAudio", 
         "id": "CVE-2020-9866", 
-        "credit": "Yu Zhou of \u5c0f\u9e21\u5e2e and Jundong Xie of Ant-financial Light-Year Security Lab", 
+        "credit": "Yu Zhou of \u5c0f\u9e21\u5e2e and Jundong Xie of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211289"
     }, 
     {
@@ -2456,7 +2496,7 @@
         "update": "September 21, 2020", 
         "module": "WebRTC", 
         "id": "CVE-2020-6514", 
-        "credit": "Natalie Silvanovich of Google Project Zero", 
+        "credit": "natashenka of Google Project Zero", 
         "page": "https://support.apple.com/en-us/HT211292"
     }, 
     {
@@ -2506,7 +2546,7 @@
         "update": "September 8, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-11758", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2516,7 +2556,7 @@
         "update": "September 8, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-11759", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2526,7 +2566,7 @@
         "update": "September 8, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-11760", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2536,7 +2576,7 @@
         "update": "September 8, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-11761", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2546,7 +2586,7 @@
         "update": "September 8, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-11762", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2556,7 +2596,7 @@
         "update": "September 8, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-11763", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2566,7 +2606,7 @@
         "update": "September 8, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-11764", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2576,7 +2616,17 @@
         "update": "September 8, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-11765", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
+        "page": "https://support.apple.com/en-us/HT211294 "
+    }, 
+    {
+        "impact": "Processing a maliciously crafted image may lead to arbitrary code execution", 
+        "available": "Windows 10 and later via the Microsoft Store", 
+        "description": "A memory corruption issue was addressed with improved input validation.", 
+        "update": "March 16, 2021", 
+        "module": "ImageIO", 
+        "id": "CVE-2020-27933", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2596,7 +2646,7 @@
         "update": "", 
         "module": "ImageIO", 
         "id": "CVE-2020-9871", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2606,7 +2656,7 @@
         "update": "", 
         "module": "ImageIO", 
         "id": "CVE-2020-9872", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2616,7 +2666,7 @@
         "update": "September 21, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-9873", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2626,7 +2676,7 @@
         "update": "", 
         "module": "ImageIO", 
         "id": "CVE-2020-9874", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2646,7 +2696,7 @@
         "update": "", 
         "module": "ImageIO", 
         "id": "CVE-2020-9877", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2750,6 +2800,16 @@
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
+        "impact": "Processing maliciously crafted XML may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 10 and later via the Microsoft Store", 
+        "description": "A use after free issue was addressed with improved memory management.", 
+        "update": "March 16, 2021", 
+        "module": "libxml2", 
+        "id": "CVE-2020-9926", 
+        "credit": "Found by OSS-Fuzz", 
+        "page": "https://support.apple.com/en-us/HT211294 "
+    }, 
+    {
         "impact": "Processing a maliciously crafted image may lead to arbitrary code execution", 
         "available": "Windows 10 and later via the Microsoft Store", 
         "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
@@ -2776,7 +2836,7 @@
         "update": "September 21, 2020", 
         "module": "ImageIO", 
         "id": "CVE-2020-9938", 
-        "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab", 
+        "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab", 
         "page": "https://support.apple.com/en-us/HT211294 "
     }, 
     {
@@ -2788,16 +2848,6 @@
         "id": "CVE-2020-9984", 
         "credit": "an anonymous researcher", 
         "page": "https://support.apple.com/en-us/HT211294 "
-    }, 
-    {
-        "impact": "An application may be able to execute arbitrary code with kernel privileges", 
-        "available": "Apple TV 4K and Apple TV HD", 
-        "description": "A logic issue was addressed with improved state management.", 
-        "update": "November 12, 2020", 
-        "module": "Wi-Fi", 
-        "id": "CVE-2020-10013", 
-        "credit": "Yu Wang of Didi Research America", 
-        "page": "https://support.apple.com/en-us/HT211843"
     }, 
     {
         "impact": "An application may be able to execute arbitrary code with kernel privileges", 
@@ -2970,13 +3020,13 @@
         "page": "https://support.apple.com/en-us/HT211847"
     }, 
     {
-        "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution", 
-        "available": "macOS Mojave 10.14.6, macOS Catalina 10.15", 
-        "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
-        "update": "November 12, 2020", 
-        "module": "Model I/O", 
-        "id": "CVE-2020-13520", 
-        "credit": "Aleksandar Nikolic of Cisco Talos", 
+        "impact": "An application may be able to execute arbitrary code with kernel privileges", 
+        "available": "macOS Mojave 10.14.6, macOS High Sierra 10.13.6, macOS Catalina 10.15", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "update": "March 16, 2021", 
+        "module": "Wi-Fi", 
+        "id": "CVE-2020-10013", 
+        "credit": "Yu Wang of Didi Research America", 
         "page": "https://support.apple.com/en-us/HT211849"
     }, 
     {
@@ -3031,7 +3081,7 @@
     }, 
     {
         "impact": "An attacker in a privileged network position may be able to inject into active connections within a VPN tunnel", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A routing issue was addressed with improved restrictions.", 
         "update": "November 12, 2020", 
         "module": "Kernel", 
@@ -3040,8 +3090,18 @@
         "page": "https://support.apple.com/en-us/HT211850"
     }, 
     {
+        "impact": "Processing a maliciously crafted font may result in the disclosure of process memory", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "An out-of-bounds read was addressed with improved input validation.", 
+        "update": "February 25, 2021", 
+        "module": "FontParser", 
+        "id": "CVE-2020-29639", 
+        "credit": "Mickey Jin & Qi Sun of Trend Micro", 
+        "page": "https://support.apple.com/en-us/HT211850"
+    }, 
+    {
         "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A buffer overflow issue was addressed with improved memory handling.", 
         "update": "November 12, 2020", 
         "module": "Model I/O", 
@@ -3051,7 +3111,7 @@
     }, 
     {
         "impact": "A malicious application may be able to identify what other applications a user has installed", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "The issue was addressed with improved handling of icon caches.", 
         "update": "", 
         "module": "Icons", 
@@ -3061,7 +3121,7 @@
     }, 
     {
         "impact": "An application may be able to cause unexpected system termination or write kernel memory", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
         "update": "", 
         "module": "AppleAVD", 
@@ -3071,7 +3131,7 @@
     }, 
     {
         "impact": "A person with physical access to an iOS device may be able to view notification contents from the lockscreen", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A lock screen issue allowed access to messages on a locked device. This issue was addressed with improved state management.", 
         "update": "December 15, 2020", 
         "module": "Siri", 
@@ -3081,7 +3141,7 @@
     }, 
     {
         "impact": "A malicious app may be able to determine the existence of files on the computer", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "The issue was addressed with improved handling of icon caches.", 
         "update": "November 12, 2020", 
         "module": "Quick Look", 
@@ -3091,7 +3151,7 @@
     }, 
     {
         "impact": "A local user may be able to read kernel memory", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A memory initialization issue was addressed with improved memory handling.", 
         "update": "", 
         "module": "IOSurfaceAccelerator", 
@@ -3100,18 +3160,8 @@
         "page": "https://support.apple.com/en-us/HT211850"
     }, 
     {
-        "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
-        "description": "A buffer overflow issue was addressed with improved memory handling.", 
-        "update": "November 12, 2020", 
-        "module": "Model I/O", 
-        "id": "CVE-2020-9972", 
-        "credit": "Aleksandar Nikolic of Cisco Talos", 
-        "page": "https://support.apple.com/en-us/HT211850"
-    }, 
-    {
         "impact": "A malicious application may be able to determine a user's open tabs in Safari", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A validation issue existed in the entitlement verification. This issue was addressed with improved validation of the process entitlement.", 
         "update": "November 12, 2020", 
         "module": "Safari", 
@@ -3121,7 +3171,7 @@
     }, 
     {
         "impact": "A local user may be able to discover a user\u2019s deleted messages", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "The issue was addressed with improved deletion.", 
         "update": "November 12, 2020", 
         "module": "Messages", 
@@ -3131,7 +3181,7 @@
     }, 
     {
         "impact": "An attacker in a privileged network position may be able to execute arbitrary code on a paired device during a debug session over the network", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "This issue was addressed by encrypting communications over the network to devices running iOS 14, iPadOS 14, tvOS 14, and watchOS 7.", 
         "update": "September 17, 2020", 
         "module": "IDE Device Support", 
@@ -3141,7 +3191,7 @@
     }, 
     {
         "impact": "A malicious application may be able to elevate privileges", 
-        "available": "iPhone 6s and later, iPod touch (7th generation), iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A use after free issue was addressed with improved memory management.", 
         "update": "November 12, 2020", 
         "module": "NetworkExtension", 
@@ -3193,7 +3243,7 @@
         "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution", 
         "available": "Apple Watch Series 3 and later", 
         "description": "An out-of-bounds read was addressed with improved input validation.", 
-        "update": "", 
+        "update": "March 16, 2021", 
         "module": "CoreAudio", 
         "id": "CVE-2020-27909", 
         "credit": "Anonymous working with Trend Micro Zero Day Initiative, JunDong Xie and XingWei Lin of Ant Security Light-Year Lab", 
@@ -3276,7 +3326,7 @@
         "update": "", 
         "module": "Safari", 
         "id": "CVE-2020-9945", 
-        "credit": "Narendra Bhati From Suma Soft Pvt. Ltd. Pune (India) @imnarendrabhati", 
+        "credit": "Narendra Bhati of Suma Soft Pvt. Ltd. Pune (India) @imnarendrabhati", 
         "page": "https://support.apple.com/en-us/HT211934"
     }, 
     {
@@ -3471,7 +3521,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution", 
-        "available": "iPhone 6s and later, iPod touch 7th generation, iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A memory corruption issue existed in the processing of font files. This issue was addressed with improved input validation.", 
         "update": "December 22, 2020", 
         "module": "FontParser", 
@@ -3481,7 +3531,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution", 
-        "available": "iPhone 6s and later, iPod touch 7th generation, iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A memory corruption issue existed in the processing of font files. This issue was addressed with improved input validation.", 
         "update": "December 22, 2020", 
         "module": "FontParser", 
@@ -3520,8 +3570,28 @@
         "page": "https://support.apple.com/en-us/HT212003"
     }, 
     {
+        "impact": "A remote attacker may be able to leak memory", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "An out-of-bounds read was addressed with improved bounds checking.", 
+        "update": "March 16, 2021", 
+        "module": "FontParser", 
+        "id": "CVE-2020-29608", 
+        "credit": "Xingwei Lin of Ant Security Light-Year Lab", 
+        "page": "https://support.apple.com/en-us/HT212003"
+    }, 
+    {
+        "impact": "Processing a maliciously crafted audio file may disclose restricted memory", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "An out-of-bounds read was addressed with improved input validation.", 
+        "update": "March 16, 2021", 
+        "module": "Audio", 
+        "id": "CVE-2020-29610", 
+        "credit": "Anonymous working with Trend Micro Zero Day Initiative", 
+        "page": "https://support.apple.com/en-us/HT212003"
+    }, 
+    {
         "impact": "Processing a maliciously crafted image may lead to arbitrary code execution", 
-        "available": "iPhone 6s and later, iPod touch 7th generation, iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
         "update": "December 17, 2020", 
         "module": "ImageIO", 
@@ -3540,44 +3610,94 @@
         "page": "https://support.apple.com/en-us/HT212003"
     }, 
     {
+        "impact": "Processing a maliciously crafted file may lead to heap corruption", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "This issue was addressed with improved checks.", 
+        "update": "March 16, 2021", 
+        "module": "Model I/O", 
+        "id": "CVE-2020-29614", 
+        "credit": "ZhiWei Sun(@5n1p3r0010) of Topsec Alpha Lab", 
+        "page": "https://support.apple.com/en-us/HT212003"
+    }, 
+    {
+        "impact": "Processing a maliciously crafted image may lead to a denial of service", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "An out-of-bounds read was addressed with improved input validation.", 
+        "update": "March 16, 2021", 
+        "module": "ImageIO", 
+        "id": "CVE-2020-29615", 
+        "credit": "Xingwei Lin of Ant Security Light-Year Lab", 
+        "page": "https://support.apple.com/en-us/HT212003"
+    }, 
+    {
         "impact": "Processing a maliciously crafted image may lead to heap corruption", 
         "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "An out-of-bounds read was addressed with improved input validation.", 
-        "update": "", 
+        "update": "March 16, 2021", 
         "module": "ImageIO", 
         "id": "CVE-2020-29617", 
-        "credit": "XingWei Lin of Ant Security Light-Year Lab", 
+        "credit": "Xingwei Lin of Ant Security Light-Year Lab", 
         "page": "https://support.apple.com/en-us/HT212003"
     }, 
     {
         "impact": "Processing a maliciously crafted image may lead to arbitrary code execution", 
         "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "An out-of-bounds read was addressed with improved input validation.", 
-        "update": "", 
+        "update": "March 16, 2021", 
         "module": "ImageIO", 
         "id": "CVE-2020-29618", 
-        "credit": "XingWei Lin of Ant Security Light-Year Lab", 
+        "credit": "Xingwei Lin of Ant Security Light-Year Lab", 
         "page": "https://support.apple.com/en-us/HT212003"
     }, 
     {
         "impact": "Processing a maliciously crafted image may lead to heap corruption", 
         "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "An out-of-bounds read was addressed with improved input validation.", 
-        "update": "", 
+        "update": "March 16, 2021", 
         "module": "ImageIO", 
         "id": "CVE-2020-29619", 
-        "credit": "XingWei Lin of Ant Security Light-Year Lab", 
+        "credit": "Xingwei Lin of Ant Security Light-Year Lab", 
+        "page": "https://support.apple.com/en-us/HT212003"
+    }, 
+    {
+        "impact": "A user may be unable to fully delete browsing history", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "\"Clear History and Website Data\" did not clear the history. The issue was addressed with improved data deletion.", 
+        "update": "March 16, 2021", 
+        "module": "WebKit Storage", 
+        "id": "CVE-2020-29623", 
+        "credit": "Simon Hunt of OvalTwo LTD", 
         "page": "https://support.apple.com/en-us/HT212003"
     }, 
     {
         "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution", 
-        "available": "iPhone 6s and later, iPod touch 7th generation, iPad Air 2 and later, and iPad mini 4 and later", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A memory corruption issue existed in the processing of font files. This issue was addressed with improved input validation.", 
         "update": "December 22, 2020", 
         "module": "FontParser", 
         "id": "CVE-2020-29624", 
         "credit": "Mateusz Jurczyk of Google Project Zero", 
         "page": "https://support.apple.com/en-us/HT212003"
+    }, 
+    {
+        "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution", 
+        "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "A buffer overflow issue was addressed with improved memory handling.", 
+        "update": "March 16, 2021", 
+        "module": "Model I/O", 
+        "id": "CVE-2020-9972", 
+        "credit": "Aleksandar Nikolic of Cisco Talos", 
+        "page": "https://support.apple.com/en-us/HT212003"
+    }, 
+    {
+        "impact": "A malicious application may be able to read restricted memory", 
+        "available": "macOS Mojave 10.14.6, macOS Catalina 10.15.7", 
+        "description": "An input validation issue was addressed with improved memory handling.", 
+        "update": "February 1, 2021", 
+        "module": "CUPS", 
+        "id": "CVE-2020-10001", 
+        "credit": "Niky <kittymore83@gmail.com> of China Mobile", 
+        "page": "https://support.apple.com/en-us/HT212011"
     }, 
     {
         "impact": "A local user may be able to read arbitrary files", 
@@ -3681,6 +3801,16 @@
     }, 
     {
         "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution", 
+        "available": "macOS Catalina 10.15.7", 
+        "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
+        "update": "February 1, 2021", 
+        "module": "Model I/O", 
+        "id": "CVE-2020-13520", 
+        "credit": "Aleksandar Nikolic of Cisco Talos", 
+        "page": "https://support.apple.com/en-us/HT212011"
+    }, 
+    {
+        "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution", 
         "available": "macOS Mojave 10.14.6, macOS Catalina 10.15.7", 
         "description": "An out-of-bounds read was addressed with improved input validation.", 
         "update": "", 
@@ -3753,20 +3883,20 @@
         "impact": "An application may be able to execute arbitrary code with kernel privileges", 
         "available": "macOS Mojave 10.14.6, macOS Catalina 10.15.7", 
         "description": "A memory corruption issue was addressed with improved memory handling.", 
-        "update": "", 
+        "update": "March 16, 2021", 
         "module": "Intel Graphics Driver", 
         "id": "CVE-2020-27907", 
-        "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative", 
+        "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative, Liu Long of Ant Security Light-Year Lab", 
         "page": "https://support.apple.com/en-us/HT212011"
     }, 
     {
         "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution", 
         "available": "macOS Mojave 10.14.6, macOS Catalina 10.15.7", 
         "description": "An out-of-bounds read was addressed with improved input validation.", 
-        "update": "", 
+        "update": "March 16, 2021", 
         "module": "CoreAudio", 
         "id": "CVE-2020-27908", 
-        "credit": "JunDong Xie and XingWei Lin of Ant Security Light-Year Lab", 
+        "credit": "Anonymous working with Trend Micro Zero Day Initiative, JunDong Xie and Xingwei Lin of Ant Security Light-Year Lab", 
         "page": "https://support.apple.com/en-us/HT212011"
     }, 
     {
@@ -3910,10 +4040,30 @@
         "page": "https://support.apple.com/en-us/HT212011"
     }, 
     {
+        "impact": "A local user may be able to cause unexpected system termination or read kernel memory", 
+        "available": "macOS Big Sur 11.0.1", 
+        "description": "An out-of-bounds read issue existed that led to the disclosure of kernel memory. This was addressed with improved input validation.", 
+        "update": "February 1, 2021", 
+        "module": "AMD", 
+        "id": "CVE-2020-27936", 
+        "credit": "Yu Wang of Didi Research America", 
+        "page": "https://support.apple.com/en-us/HT212011"
+    }, 
+    {
+        "impact": "A malicious application may be able to elevate privileges", 
+        "available": "macOS Big Sur 11.0.1", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "update": "February 1, 2021", 
+        "module": "Power Management", 
+        "id": "CVE-2020-27938", 
+        "credit": "Tim Michaud (@TimGMichaud) of Leviathan", 
+        "page": "https://support.apple.com/en-us/HT212011"
+    }, 
+    {
         "impact": "Processing a maliciously crafted image may lead to arbitrary code execution", 
-        "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6", 
+        "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.7", 
         "description": "This issue was addressed with improved checks.", 
-        "update": "December 22, 2020", 
+        "update": "December 22, 2020, updated February 1, 2021", 
         "module": "ImageIO", 
         "id": "CVE-2020-27939", 
         "credit": "Xingwei Lin of Ant Security Light-Year Lab", 
@@ -3933,10 +4083,10 @@
         "impact": "An application may be able to execute arbitrary code with kernel privileges", 
         "available": "macOS Mojave 10.14.6, macOS Catalina 10.15.7, macOS Big Sur 11.0.1", 
         "description": "A memory corruption issue was addressed with improved input validation.", 
-        "update": "", 
+        "update": "March 16, 2021", 
         "module": "Graphics Drivers", 
         "id": "CVE-2020-27947", 
-        "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative", 
+        "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative, Liu Long of Ant Security Light-Year Lab", 
         "page": "https://support.apple.com/en-us/HT212011"
     }, 
     {
@@ -4000,6 +4150,26 @@
         "page": "https://support.apple.com/en-us/HT212011"
     }, 
     {
+        "impact": "Processing a maliciously crafted image may lead to arbitrary code execution", 
+        "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.7", 
+        "description": "This issue was addressed with improved checks.", 
+        "update": "December 22, 2020, updated February 1, 2021", 
+        "module": "ImageIO", 
+        "id": "CVE-2020-29625", 
+        "credit": "XingWei Lin of Ant Security Light-Year Lab", 
+        "page": "https://support.apple.com/en-us/HT212011"
+    }, 
+    {
+        "impact": "An attacker in a privileged network position may be able to bypass authentication policy", 
+        "available": "macOS Big Sur 11.0.1", 
+        "description": "An authentication issue was addressed with improved state management.", 
+        "update": "February 1, 2021", 
+        "module": "Login Window", 
+        "id": "CVE-2020-29633", 
+        "credit": "Jewel Lambert of Original Spin, LLC.", 
+        "page": "https://support.apple.com/en-us/HT212011"
+    }, 
+    {
         "impact": "A malicious application may be able to read restricted memory", 
         "available": "macOS Mojave 10.14.6, macOS Catalina 10.15.7", 
         "description": "An out-of-bounds read was addressed with improved bounds checking.", 
@@ -4033,10 +4203,10 @@
         "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution", 
         "available": "macOS Mojave 10.14.6, macOS Catalina 10.15.7", 
         "description": "An out-of-bounds read was addressed with improved input validation.", 
-        "update": "", 
+        "update": "March 16, 2021", 
         "module": "CoreAudio", 
         "id": "CVE-2020-9960", 
-        "credit": "JunDong Xie and XingWei Lin of Ant Security Light-Year Lab", 
+        "credit": "JunDong Xie and Xingwei Lin of Ant Security Light-Year Lab", 
         "page": "https://support.apple.com/en-us/HT212011"
     }, 
     {
@@ -4088,5 +4258,15 @@
         "id": "CVE-2020-9978", 
         "credit": "Luyi Xing, Dongfang Zhao, and Xiaofeng Wang of Indiana University Bloomington, Yan Jia of Xidian University and University of Chinese Academy of Sciences, and Bin Yuan of HuaZhong University of Science and Technology", 
         "page": "https://support.apple.com/en-us/HT212011"
+    }, 
+    {
+        "impact": "An attacker with file system access may modify scripts used by the app", 
+        "available": "Apple TV version 5.1 and later", 
+        "description": "This issue was addressed with improved file handling.", 
+        "update": "", 
+        "module": "Apple TV app", 
+        "id": "CVE-2020-27940", 
+        "credit": "Razvan Sima (0xraaz)", 
+        "page": "https://support.apple.com/en-us/HT212197"
     }
 ]

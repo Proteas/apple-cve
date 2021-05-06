@@ -6,17 +6,17 @@
 | Module Name        | CVE Count |
 | ------------------:| ---------:|
 | Kernel | 42 |
-| ImageIO | 38 |
+| ImageIO | 41 |
 | WebKit | 36 |
 | Bluetooth | 17 |
+| FontParser | 14 |
+| Model I/O | 14 |
 | Wi-Fi | 13 |
-| Model I/O | 13 |
-| Audio | 12 |
-| FontParser | 12 |
+| Audio | 13 |
+| Intel Graphics Driver | 11 |
 | Safari | 11 |
-| Intel Graphics Driver | 10 |
+| libxml2 | 10 |
 | Mail | 9 |
-| libxml2 | 9 |
 | SQLite | 8 |
 | Messages | 7 |
 | Sandbox | 7 |
