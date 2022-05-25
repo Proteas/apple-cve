@@ -1673,10 +1673,10 @@
         "impact": "A malicious unsandboxed app on a system with Remote Login enabled may bypass Privacy preferences", 
         "available": "macOS Big Sur", 
         "description": "This issue was addressed by adding a new Remote Login option for opting into Full Disk Access for Secure Shell sessions.", 
-        "update": "January 19, 2022", 
+        "update": "January 19, 2022, updated May 25, 2022", 
         "module": "TCC", 
         "id": "CVE-2021-30856", 
-        "credit": "Csaba Fitzl (@theevilbit) of Offensive Security, Wojciech Regu\u0142a of SecuRing (wojciechregula.blog), Cody Thomas of SpecterOps, Mickey Jin of Trend Micro", 
+        "credit": "Csaba Fitzl (@theevilbit) of Offensive Security, Andy Grant of Zoom Video Communications, Thijs Alkemade of Computest Research Division, Wojciech Regu\u0142a of SecuRing (wojciechregula.blog), Cody Thomas of SpecterOps, Mickey Jin of Trend Micro", 
         "page": "https://support.apple.com/en-us/HT212325"
     }, 
     {
@@ -1830,6 +1830,16 @@
         "page": "https://support.apple.com/en-us/HT212528"
     }, 
     {
+        "impact": "A user may be unable to fully delete browsing history", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "The issue was addressed with improved permissions logic.", 
+        "update": "May 25, 2022", 
+        "module": "Safari", 
+        "id": "CVE-2021-30999", 
+        "credit": "an anonymous researcher", 
+        "page": "https://support.apple.com/en-us/HT212528"
+    }, 
+    {
         "impact": "A person with physical access to a Mac may be able to bypass Login Window during a software update", 
         "available": "macOS Big Sur", 
         "description": "This issue was addressed with improved checks.", 
@@ -1968,6 +1978,16 @@
         "id": "CVE-2021-30771", 
         "credit": "Mickey Jin (@patch1t) of Trend Micro, CFF of Topsec Alpha Team", 
         "page": "https://support.apple.com/en-us/HT212529"
+    }, 
+    {
+        "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution", 
+        "available": "macOS Catalina", 
+        "description": "A memory corruption issue was addressed with improved state management.", 
+        "update": "May 25, 2022", 
+        "module": "FontParser", 
+        "id": "CVE-2020-29629", 
+        "credit": "an anonymous researcher", 
+        "page": "https://support.apple.com/en-us/HT212530"
     }, 
     {
         "impact": "A remote attacker may be able to cause a denial of service", 
@@ -3222,11 +3242,31 @@
     {
         "impact": "A local attacker may be able to access analytics data", 
         "available": "macOS Big Sur", 
-        "description": "This issue was addressed with a new entitlement.", 
-        "update": "October 25, 2021", 
+        "description": "A logic issue was addressed with improved restrictions.", 
+        "update": "October 25, 2021, updated May 25, 2022", 
         "module": "Analytics", 
         "id": "CVE-2021-30871", 
         "credit": "Denis Tokarev (@illusionofcha0s)", 
+        "page": "https://support.apple.com/en-us/HT212602"
+    }, 
+    {
+        "impact": "An application may be able to gain elevated privileges", 
+        "available": "macOS Big Sur", 
+        "description": "A race condition was addressed with improved locking.", 
+        "update": "May 25, 2022", 
+        "module": "Security", 
+        "id": "CVE-2021-31004", 
+        "credit": "Csaba Fitzl (@theevilbit) of Offensive Security", 
+        "page": "https://support.apple.com/en-us/HT212602"
+    }, 
+    {
+        "impact": "A malicious application may be able to bypass certain Privacy preferences", 
+        "available": "macOS Big Sur", 
+        "description": "A permissions issue was addressed with improved validation.", 
+        "update": "May 25, 2022", 
+        "module": "App Store", 
+        "id": "CVE-2021-31006", 
+        "credit": "Csaba Fitzl (@theevilbit) of Offensive Security", 
         "page": "https://support.apple.com/en-us/HT212602"
     }, 
     {
@@ -3270,6 +3310,16 @@
         "page": "https://support.apple.com/en-us/HT212713"
     }, 
     {
+        "impact": "A person with access to a host Mac may be able to bypass the Login Window in Remote Desktop for a locked instance of macOS", 
+        "available": "macOS Big Sur", 
+        "description": "A logic issue was addressed with improved checks.", 
+        "update": "May 25, 2022", 
+        "module": "Login Window", 
+        "id": "CVE-2021-30813", 
+        "credit": "Benjamin Berger of BBetterTech LLC, Aaron Hines of AHDesigns916, Peter Goedtkindt of Informatique-MTF S.A.", 
+        "page": "https://support.apple.com/en-us/HT212804"
+    }, 
+    {
         "impact": "A local user may be able to read kernel memory", 
         "available": "macOS Big Sur", 
         "description": "An out-of-bounds read was addressed with improved bounds checking.", 
@@ -3300,6 +3350,16 @@
         "page": "https://support.apple.com/en-us/HT212804"
     }, 
     {
+        "impact": "A malicious application may be able to execute arbitrary code with kernel privileges", 
+        "available": "macOS Big Sur", 
+        "description": "A race condition was addressed with improved state handling.", 
+        "update": "May 25, 2022", 
+        "module": "Graphics Drivers", 
+        "id": "CVE-2021-30933", 
+        "credit": "Jack Dates of RET2 Systems, Inc.", 
+        "page": "https://support.apple.com/en-us/HT212804"
+    }, 
+    {
         "impact": "Mounting a maliciously crafted NFS network share may lead to arbitrary code execution with system privileges", 
         "available": "macOS Catalina", 
         "description": "A race condition was addressed with additional validation.", 
@@ -3313,10 +3373,10 @@
         "impact": "curl could potentially reveal sensitive internal information to the server using a clear-text network protocol", 
         "available": "macOS Catalina", 
         "description": "A buffer overflow was addressed with improved input validation.", 
-        "update": "September 20, 2021", 
+        "update": "September 20, 2021, updated May 25, 2022", 
         "module": "curl", 
         "id": "CVE-2021-22925", 
-        "credit": "", 
+        "credit": "Red Hat Product Security", 
         "page": "https://support.apple.com/en-us/HT212805"
     }, 
     {
@@ -3343,30 +3403,30 @@
         "impact": "A local attacker may be able to elevate their privileges", 
         "available": "macOS Catalina", 
         "description": "A permissions issue existed. This issue was addressed with improved permission validation.", 
-        "update": "September 20, 2021", 
+        "update": "September 20, 2021, updated May 25, 2022", 
         "module": "CUPS", 
         "id": "CVE-2021-30827", 
-        "credit": "an anonymous researcher", 
+        "credit": "Nathan Nye of WhiteBeam Security, Inc.", 
         "page": "https://support.apple.com/en-us/HT212805"
     }, 
     {
         "impact": "A local user may be able to read arbitrary files as root", 
         "available": "macOS Catalina", 
         "description": "This issue was addressed with improved checks.", 
-        "update": "September 20, 2021", 
+        "update": "September 20, 2021, updated May 25, 2022", 
         "module": "CUPS", 
         "id": "CVE-2021-30828", 
-        "credit": "an anonymous researcher", 
+        "credit": "Nathan Nye of WhiteBeam Security, Inc.", 
         "page": "https://support.apple.com/en-us/HT212805"
     }, 
     {
         "impact": "A local user may be able to execute arbitrary files", 
         "available": "macOS Catalina", 
         "description": "A URI parsing issue was addressed with improved parsing.", 
-        "update": "September 20, 2021", 
+        "update": "September 20, 2021, updated May 25, 2022", 
         "module": "CUPS", 
         "id": "CVE-2021-30829", 
-        "credit": "an anonymous researcher", 
+        "credit": "Nathan Nye of WhiteBeam Security, Inc.", 
         "page": "https://support.apple.com/en-us/HT212805"
     }, 
     {
@@ -3387,16 +3447,6 @@
         "module": "CVMS", 
         "id": "CVE-2021-30832", 
         "credit": "Mickey Jin (@patch1t) of Trend Micro", 
-        "page": "https://support.apple.com/en-us/HT212805"
-    }, 
-    {
-        "impact": "A remote attacker may be able to leak memory", 
-        "available": "macOS Catalina", 
-        "description": "A logic issue was addressed with improved state management.", 
-        "update": "September 20, 2021", 
-        "module": "SMB", 
-        "id": "CVE-2021-30844", 
-        "credit": "Peter Nguyen Vu Hoang of STAR Labs", 
         "page": "https://support.apple.com/en-us/HT212805"
     }, 
     {
@@ -3490,16 +3540,6 @@
         "page": "https://support.apple.com/en-us/HT212814"
     }, 
     {
-        "impact": "A malicious application may be able to execute arbitrary code with system privileges on devices with an Apple Neural Engine", 
-        "available": "iPhone 8 and later, iPad Pro (3rd generation) and later, iPad Air (3rd generation) and later, and iPad mini (5th generation)", 
-        "description": "A memory corruption issue was addressed with improved memory handling.", 
-        "update": "", 
-        "module": "Apple Neural Engine", 
-        "id": "CVE-2021-30838", 
-        "credit": "proteas wang", 
-        "page": "https://support.apple.com/en-us/HT212814"
-    }, 
-    {
         "impact": "A 3D model constructed to look like the enrolled user may be able to authenticate via Face ID", 
         "available": "iPhone X, iPhone XR, iPhone XS (all models), iPhone 11 (all models), iPhone 12 (all models), iPad Pro (11-inch), and iPad Pro (3rd generation)", 
         "description": "This issue was addressed by improving Face ID anti-spoofing models.", 
@@ -3550,6 +3590,26 @@
         "page": "https://support.apple.com/en-us/HT212814"
     }, 
     {
+        "impact": "An attacker in a privileged network position may be able to leak sensitive user information", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "An access issue was addressed with improved access restrictions.", 
+        "update": "May 25, 2022", 
+        "module": "Telephony", 
+        "id": "CVE-2021-31001", 
+        "credit": "Rajanish Pathak (@h4ckologic) and Hardik Mehta (@hardw00t)", 
+        "page": "https://support.apple.com/en-us/HT212814"
+    }, 
+    {
+        "impact": "Turning off \"Block all remote content\" may not apply to all remote content types", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "update": "March 31, 2022", 
+        "module": "WebKit", 
+        "id": "CVE-2021-31005", 
+        "credit": "Jonathan Austin of Wells Fargo, Attila Soki", 
+        "page": "https://support.apple.com/en-us/HT212814"
+    }, 
+    {
         "impact": "A remote attacker may be able to cause a denial of service", 
         "available": "Apple TV 4K and Apple TV HD", 
         "description": "This issue was addressed by updating expat to version 2.4.1.", 
@@ -3597,6 +3657,16 @@
         "module": "Accessory Manager", 
         "id": "CVE-2021-30837", 
         "credit": "Siddharth Aeri (@b1n4r1b01)", 
+        "page": "https://support.apple.com/en-us/HT212815"
+    }, 
+    {
+        "impact": "A malicious application may be able to execute arbitrary code with system privileges", 
+        "available": "Apple TV 4K and Apple TV HD", 
+        "description": "A memory corruption issue was addressed with improved memory handling.", 
+        "update": "May 25, 2022", 
+        "module": "Apple Neural Engine", 
+        "id": "CVE-2021-30838", 
+        "credit": "proteas wang", 
         "page": "https://support.apple.com/en-us/HT212815"
     }, 
     {
@@ -3673,10 +3743,10 @@
         "impact": "A malicious application may be able to execute arbitrary code with kernel privileges", 
         "available": "Apple TV 4K and Apple TV HD", 
         "description": "A race condition was addressed with improved locking.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "Kernel", 
         "id": "CVE-2021-30857", 
-        "credit": "Zweig of Kunlun Lab", 
+        "credit": "Manish Bhatt of Red Team X @Meta, Zweig of Kunlun Lab", 
         "page": "https://support.apple.com/en-us/HT212815"
     }, 
     {
@@ -3707,16 +3777,6 @@
         "module": "WebKit", 
         "id": "CVE-2021-30897", 
         "credit": "an anonymous researcher", 
-        "page": "https://support.apple.com/en-us/HT212815"
-    }, 
-    {
-        "impact": "Processing a maliciously crafted image may lead to arbitrary code execution", 
-        "available": "Apple TV 4K and Apple TV HD", 
-        "description": "A memory corruption issue was addressed with improved input validation.", 
-        "update": "January 19, 2022", 
-        "module": "CoreGraphics", 
-        "id": "CVE-2021-30928", 
-        "credit": "Mickey Jin (@patch1t) of Trend Micro", 
         "page": "https://support.apple.com/en-us/HT212815"
     }, 
     {
@@ -3787,6 +3847,16 @@
         "module": "WebKit", 
         "id": "CVE-2021-30861", 
         "credit": "Ryan Pickren (ryanpickren.com), Wojciech Regu\u0142a (@_r3ggi)", 
+        "page": "https://support.apple.com/en-us/HT212816"
+    }, 
+    {
+        "impact": "An attacker may be able to track users through their IP address", 
+        "available": "macOS Big Sur and macOS Catalina", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "update": "May 25, 2022", 
+        "module": "WebRTC", 
+        "id": "CVE-2021-30930", 
+        "credit": "Matthias Keller (m-keller.com)", 
         "page": "https://support.apple.com/en-us/HT212816"
     }, 
     {
@@ -3920,6 +3990,16 @@
         "page": "https://support.apple.com/en-us/HT212824"
     }, 
     {
+        "impact": "A sandboxed process may be able to circumvent sandbox restrictions. Apple was aware of a report that this issue may have been actively exploited at the time of release.", 
+        "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)", 
+        "description": "A deserialization issue was addressed through improved validation.", 
+        "update": "May 25, 2022", 
+        "module": "Core Telephony", 
+        "id": "CVE-2021-31010", 
+        "credit": "Citizen Lab and Google Project Zero", 
+        "page": "https://support.apple.com/en-us/HT212824"
+    }, 
+    {
         "impact": "A malicious application may be able to execute arbitrary code with kernel privileges. Apple is aware of reports that an exploit for this issue exists in the wild.", 
         "available": "macOS Catalina", 
         "description": "A type confusion issue was addressed with improved state handling.", 
@@ -3963,10 +4043,10 @@
         "impact": "A malicious application may be able to execute arbitrary code with kernel privileges", 
         "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A race condition was addressed with improved locking.", 
-        "update": "January 19, 2022", 
+        "update": "January 19, 2022, updated May 25, 2022", 
         "module": "File System", 
         "id": "CVE-2021-30923", 
-        "credit": "Pan ZhenPeng (@Peterpan0927) of Alibaba Security", 
+        "credit": "Pan ZhenPeng (@Peterpan0927) of Alibaba Security Pandora Lab", 
         "page": "https://support.apple.com/en-us/HT212867"
     }, 
     {
@@ -4002,11 +4082,11 @@
     {
         "impact": "A local attacker may be able to cause unexpected application termination or arbitrary code execution", 
         "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
-        "description": "This issue was addressed with improved checks.", 
-        "update": "", 
+        "description": "An uncontrolled format string issue was addressed with improved input validation.", 
+        "update": "May 25, 2022", 
         "module": "Continuity Camera", 
         "id": "CVE-2021-30903", 
-        "credit": "an anonymous researcher", 
+        "credit": "Gongyu Ma of Hangzhou Dianzi University", 
         "page": "https://support.apple.com/en-us/HT212868"
     }, 
     {
@@ -4070,6 +4150,16 @@
         "page": "https://support.apple.com/en-us/HT212871"
     }, 
     {
+        "impact": "A malicious application may be able to elevate privileges", 
+        "available": "macOS Catalina", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "update": "May 25, 2022", 
+        "module": "AppKit", 
+        "id": "CVE-2021-30873", 
+        "credit": "Thijs Alkemade of Computest Research Division", 
+        "page": "https://support.apple.com/en-us/HT212871"
+    }, 
+    {
         "impact": "A malicious application may be able to execute arbitrary code with kernel privileges", 
         "available": "macOS Big Sur", 
         "description": "A memory corruption issue was addressed with improved memory handling.", 
@@ -4097,6 +4187,16 @@
         "module": "xar", 
         "id": "CVE-2021-30833", 
         "credit": "Richard Warren of NCC Group", 
+        "page": "https://support.apple.com/en-us/HT212872"
+    }, 
+    {
+        "impact": "A remote attacker may be able to leak memory", 
+        "available": "macOS Big Sur", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "update": "May 25, 2022", 
+        "module": "SMB", 
+        "id": "CVE-2021-30844", 
+        "credit": "Peter Nguyen Vu Hoang of STAR Labs", 
         "page": "https://support.apple.com/en-us/HT212872"
     }, 
     {
@@ -4183,10 +4283,10 @@
         "impact": "A malicious application may be able to execute arbitrary code with kernel privileges", 
         "available": "macOS Big Sur", 
         "description": "Multiple out-of-bounds write issues were addressed with improved bounds checking.", 
-        "update": "January 19, 2022", 
+        "update": "January 19, 2022, updated May 25, 2022", 
         "module": "Intel Graphics Driver", 
         "id": "CVE-2021-30901", 
-        "credit": "Zuozhi Fan (@pattern_F_) of Ant Security TianQiong Lab, Jack Dates of RET2 Systems, Inc., Yinyi Wu (@3ndy1) of Ant Security Light-Year Lab", 
+        "credit": "Zuozhi Fan (@pattern_F_) of Ant Security TianQiong Lab, Jack Dates of RET2 Systems, Inc., Liu Long of Ant Security Light-Year Lab, Yinyi Wu (@3ndy1) of Ant Security Light-Year Lab", 
         "page": "https://support.apple.com/en-us/HT212872"
     }, 
     {
@@ -4252,8 +4352,8 @@
     {
         "impact": "An unprivileged application may be able to edit NVRAM variables", 
         "available": "macOS Big Sur", 
-        "description": "The issue was addressed with improved permissions logic.", 
-        "update": "", 
+        "description": "A logic issue was addressed with improved restrictions.", 
+        "update": "May 25, 2022", 
         "module": "SoftwareUpdate", 
         "id": "CVE-2021-30913", 
         "credit": "Kirin (@Pwnrin) and chenyuwang (@mzzzz__) of Tencent Security Xuanwu Lab", 
@@ -4273,10 +4373,10 @@
         "impact": "A malicious application may be able to execute arbitrary code with kernel privileges", 
         "available": "macOS Big Sur", 
         "description": "Multiple out-of-bounds write issues were addressed with improved bounds checking.", 
-        "update": "January 19, 2022", 
+        "update": "January 19, 2022, updated May 25, 2022", 
         "module": "Intel Graphics Driver", 
         "id": "CVE-2021-30922", 
-        "credit": "Yinyi Wu (@3ndy1) of Ant Security Light-Year Lab, an anonymous researcher", 
+        "credit": "Jack Dates of RET2 Systems, Inc., Yinyi Wu (@3ndy1)", 
         "page": "https://support.apple.com/en-us/HT212872"
     }, 
     {
@@ -4290,23 +4390,13 @@
         "page": "https://support.apple.com/en-us/HT212874"
     }, 
     {
-        "impact": "A malicious application may be able to access information about a user's contacts", 
-        "available": "Apple Watch Series 3 and later", 
-        "description": "A logic issue was addressed with improved restrictions.", 
-        "update": "", 
-        "module": "Game Center", 
-        "id": "CVE-2021-30895", 
-        "credit": "Denis Tokarev", 
-        "page": "https://support.apple.com/en-us/HT212874"
-    }, 
-    {
         "impact": "A malicious application may be able to read user's gameplay data", 
         "available": "Apple Watch Series 3 and later", 
         "description": "A logic issue was addressed with improved restrictions.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "Game Center", 
         "id": "CVE-2021-30896", 
-        "credit": "Denis Tokarev", 
+        "credit": "Denis Tokarev (@illusionofcha0s)", 
         "page": "https://support.apple.com/en-us/HT212874"
     }, 
     {
@@ -4357,6 +4447,16 @@
         "module": "WebKit", 
         "id": "CVE-2021-30890", 
         "credit": "an anonymous researcher", 
+        "page": "https://support.apple.com/en-us/HT212875"
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to code execution", 
+        "available": "macOS Big Sur and macOS Catalina", 
+        "description": "A type confusion issue was addressed with improved memory handling.", 
+        "update": "March 31, 2022", 
+        "module": "WebKit", 
+        "id": "CVE-2021-31008", 
+        "credit": "", 
         "page": "https://support.apple.com/en-us/HT212875"
     }, 
     {
@@ -4417,6 +4517,16 @@
         "module": "Foundation", 
         "id": "CVE-2021-30852", 
         "credit": "Yinyi Wu (@3ndy1) of Ant Security Light-Year Lab", 
+        "page": "https://support.apple.com/en-us/HT212953"
+    }, 
+    {
+        "impact": "Processing a maliciously crafted image may lead to arbitrary code execution", 
+        "available": "Windows 10 and later via the Microsoft Store", 
+        "description": "A memory corruption issue was addressed with improved input validation.", 
+        "update": "May 25, 2022", 
+        "module": "CoreGraphics", 
+        "id": "CVE-2021-30928", 
+        "credit": "Mickey Jin (@patch1t) of Trend Micro", 
         "page": "https://support.apple.com/en-us/HT212953"
     }, 
     {
@@ -4483,10 +4593,10 @@
         "impact": "Processing a maliciously crafted image may lead to arbitrary code execution", 
         "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "An out-of-bounds read was addressed with improved bounds checking.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "ImageIO", 
         "id": "CVE-2021-30939", 
-        "credit": "Rui Yang and Xingwei Lin of Ant Security Light-Year Lab, Mickey Jin (@patch1t) of Trend Micro", 
+        "credit": "Mickey Jin (@patch1t) of Trend Micro, Jaewon Min of Cisco Talos, Rui Yang and Xingwei Lin of Ant Security Light-Year Lab", 
         "page": "https://support.apple.com/en-us/HT212976"
     }, 
     {
@@ -4517,6 +4627,26 @@
         "module": "ColorSync", 
         "id": "CVE-2021-30942", 
         "credit": "Mateusz Jurczyk of Google Project Zero", 
+        "page": "https://support.apple.com/en-us/HT212976"
+    }, 
+    {
+        "impact": "A malicious user may be able to leave a messages group but continue to receive messages in that group", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "An issue in the handling of group membership was resolved with improved logic.", 
+        "update": "May 25, 2022", 
+        "module": "Messages", 
+        "id": "CVE-2021-30943", 
+        "credit": "Joshua Sardella", 
+        "page": "https://support.apple.com/en-us/HT212976"
+    }, 
+    {
+        "impact": "A malicious app may be able to access data from other apps by enabling additional logging", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "update": "May 25, 2022", 
+        "module": "SQLite", 
+        "id": "CVE-2021-30944", 
+        "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing", 
         "page": "https://support.apple.com/en-us/HT212976"
     }, 
     {
@@ -4580,10 +4710,20 @@
         "page": "https://support.apple.com/en-us/HT212976"
     }, 
     {
+        "impact": "An attacker with physical access to a device may be able to see private contact information", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "A lock screen issue allowed access to contacts on a locked device. This issue was addressed with improved state management.", 
+        "update": "May 25, 2022", 
+        "module": "FaceTime", 
+        "id": "CVE-2021-30956", 
+        "credit": "Akiva Fordsham of Rishon Group (rishon.co.uk)", 
+        "page": "https://support.apple.com/en-us/HT212976"
+    }, 
+    {
         "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution", 
         "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
-        "description": "A buffer overflow issue was addressed with improved memory handling.", 
-        "update": "", 
+        "description": "A buffer overflow was addressed with improved memory handling.", 
+        "update": "May 25, 2022", 
         "module": "CoreAudio", 
         "id": "CVE-2021-30957", 
         "credit": "JunDong Xie of Ant Security Light-Year Lab", 
@@ -4693,10 +4833,10 @@
         "impact": "An application may be able to execute arbitrary code with kernel privileges", 
         "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
         "description": "A buffer overflow issue was addressed with improved memory handling.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "IOMobileFrameBuffer", 
         "id": "CVE-2021-30983", 
-        "credit": "Pangu", 
+        "credit": "Pangu via Tianfu Cup", 
         "page": "https://support.apple.com/en-us/HT212976"
     }, 
     {
@@ -4770,6 +4910,56 @@
         "page": "https://support.apple.com/en-us/HT212976"
     }, 
     {
+        "impact": "An attacker may be able to recover plaintext contents of an S/MIME-encrypted e-mail", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "A S/MIME issue existed in the handling of encrypted email. This issue was addressed by not automatically loading some MIME parts.", 
+        "update": "May 25, 2022", 
+        "module": "Mail", 
+        "id": "CVE-2021-30997", 
+        "credit": "Damian Poddebniak of M\u00fcnster University of Applied Sciences, Christian Dresen of M\u00fcnster University of Applied Sciences, Jens M\u00fcller of Ruhr University Bochum, Fabian Ising of M\u00fcnster University of Applied Sciences, Sebastian Schinzel of M\u00fcnster University of Applied Sciences, Simon Friedberger of KU Leuven, Juraj Somorovsky of Ruhr University Bochum, J\u00f6rg Schwenk of Ruhr University Bochum", 
+        "page": "https://support.apple.com/en-us/HT212976"
+    }, 
+    {
+        "impact": "A sender's email address may be leaked when sending an S/MIME encrypted email using a certificate with more than one email address", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "A S/MIME issue existed in the handling of encrypted email. This issue was addressed with improved selection of the encryption certificate.", 
+        "update": "May 25, 2022", 
+        "module": "Mail", 
+        "id": "CVE-2021-30998", 
+        "credit": "Benjamin Ehrfeld of CISPA Helmholtz Center for Information Security", 
+        "page": "https://support.apple.com/en-us/HT212976"
+    }, 
+    {
+        "impact": "A malicious application may be able to read sensitive contact information", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "A permissions issue was addressed with improved validation.", 
+        "update": "May 25, 2022", 
+        "module": "Game Center", 
+        "id": "CVE-2021-31000", 
+        "credit": "Denis Tokarev (@illusionofcha0s)", 
+        "page": "https://support.apple.com/en-us/HT212976"
+    }, 
+    {
+        "impact": "Multiple issues in HDF5", 
+        "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)", 
+        "description": "Multiple issues were addressed by removing HDF5.", 
+        "update": "May 25, 2022", 
+        "module": "Model I/O", 
+        "id": "CVE-2021-31009", 
+        "credit": "Mickey Jin (@patch1t) of Trend Micro", 
+        "page": "https://support.apple.com/en-us/HT212976"
+    }, 
+    {
+        "impact": "An application may be able to execute arbitrary code with kernel privileges", 
+        "available": "macOS Monterey", 
+        "description": "A logic issue was addressed with improved validation.", 
+        "update": "May 25, 2022", 
+        "module": "CoreBluetooth", 
+        "id": "CVE-2021-30935", 
+        "credit": "an anonymous researcher", 
+        "page": "https://support.apple.com/en-us/HT212978"
+    }, 
+    {
         "impact": "A local user may be able to cause unexpected system termination or read kernel memory", 
         "available": "macOS Monterey", 
         "description": "This issue was addressed with improved checks.", 
@@ -4810,6 +5000,16 @@
         "page": "https://support.apple.com/en-us/HT212978"
     }, 
     {
+        "impact": "A malicious application may be able to bypass certain Privacy preferences", 
+        "available": "macOS Monterey", 
+        "description": "This issue was addressed with improved checks.", 
+        "update": "May 25, 2022", 
+        "module": "TCC", 
+        "id": "CVE-2021-30972", 
+        "credit": "Xuxiang Yang (@another1024), Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com), Csaba Fitzl (@theevilbit) of Offensive Security, jhftss (@patch1t), Wojciech Regu\u0142a (@_r3ggi)", 
+        "page": "https://support.apple.com/en-us/HT212978"
+    }, 
+    {
         "impact": "A malicious OSAX scripting addition may bypass Gatekeeper checks and circumvent sandbox restrictions", 
         "available": "macOS Monterey", 
         "description": "This issue was addressed by disabling execution of JavaScript when viewing a scripting dictionary.", 
@@ -4843,10 +5043,10 @@
         "impact": "An application may be able to execute arbitrary code with kernel privileges", 
         "available": "macOS Monterey", 
         "description": "A buffer overflow was addressed with improved bounds checking.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "Intel Graphics Driver", 
         "id": "CVE-2021-30981", 
-        "credit": "Liu Long of Ant Security Light-Year Lab, an anonymous researcher", 
+        "credit": "Liu Long of Ant Security Light-Year Lab, Jack Dates of RET2 Systems, Inc.", 
         "page": "https://support.apple.com/en-us/HT212978"
     }, 
     {
@@ -4890,6 +5090,26 @@
         "page": "https://support.apple.com/en-us/HT212978"
     }, 
     {
+        "impact": "A malicious application may be able to bypass Privacy preferences", 
+        "available": "macOS Monterey", 
+        "description": "A permissions issue was addressed with improved validation.", 
+        "update": "May 25, 2022", 
+        "module": "File Provider", 
+        "id": "CVE-2021-31007", 
+        "credit": "Csaba Fitzl (@theevilbit) of Offensive Security", 
+        "page": "https://support.apple.com/en-us/HT212978"
+    }, 
+    {
+        "impact": "A malicious application may be able to access information about a user's contacts", 
+        "available": "macOS Big Sur", 
+        "description": "A logic issue was addressed with improved restrictions.", 
+        "update": "May 25, 2022", 
+        "module": "Game Center", 
+        "id": "CVE-2021-30895", 
+        "credit": "Denis Tokarev (@illusionofcha0s)", 
+        "page": "https://support.apple.com/en-us/HT212979"
+    }, 
+    {
         "impact": "A malicious application may be able to disclose kernel memory", 
         "available": "macOS Big Sur", 
         "description": "A logic issue was addressed with improved validation.", 
@@ -4900,20 +5120,10 @@
         "page": "https://support.apple.com/en-us/HT212979"
     }, 
     {
-        "impact": "An application may be able to execute arbitrary code with kernel privileges", 
-        "available": "macOS Big Sur", 
-        "description": "A logic issue was addressed with improved validation.", 
-        "update": "", 
-        "module": "Bluetooth", 
-        "id": "CVE-2021-30935", 
-        "credit": "an anonymous researcher", 
-        "page": "https://support.apple.com/en-us/HT212979"
-    }, 
-    {
         "impact": "Parsing a maliciously crafted audio file may lead to disclosure of user information", 
         "available": "macOS Big Sur", 
         "description": "A buffer overflow issue was addressed with improved memory handling.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "CoreAudio", 
         "id": "CVE-2021-30959", 
         "credit": "JunDong Xie of Ant Security Light-Year Lab", 
@@ -4923,17 +5133,27 @@
         "impact": "Parsing a maliciously crafted audio file may lead to disclosure of user information", 
         "available": "macOS Big Sur", 
         "description": "A buffer overflow issue was addressed with improved memory handling.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "CoreAudio", 
         "id": "CVE-2021-30961", 
-        "credit": "an anonymous researcher", 
+        "credit": "JunDong Xie of Ant Security Light-Year Lab", 
+        "page": "https://support.apple.com/en-us/HT212979"
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted audio file may lead to disclosure of user information", 
+        "available": "macOS Big Sur", 
+        "description": "A memory initialization issue was addressed with improved memory handling.", 
+        "update": "May 25, 2022", 
+        "module": "CoreAudio", 
+        "id": "CVE-2021-30962", 
+        "credit": "JunDong Xie of Ant Security Light-Year Lab", 
         "page": "https://support.apple.com/en-us/HT212979"
     }, 
     {
         "impact": "Parsing a maliciously crafted audio file may lead to disclosure of user information", 
         "available": "macOS Big Sur", 
         "description": "A buffer overflow issue was addressed with improved memory handling.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "CoreAudio", 
         "id": "CVE-2021-30963", 
         "credit": "JunDong Xie of Ant Security Light-Year Lab", 
@@ -4973,7 +5193,7 @@
         "impact": "Processing maliciously crafted web content may lead to arbitrary code execution", 
         "available": "macOS Big Sur and macOS Catalina", 
         "description": "A use after free issue was addressed with improved memory management.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "WebKit", 
         "id": "CVE-2021-30936", 
         "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab", 
@@ -4983,50 +5203,50 @@
         "impact": "Processing maliciously crafted web content may lead to arbitrary code execution", 
         "available": "macOS Big Sur and macOS Catalina", 
         "description": "A use after free issue was addressed with improved memory management.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "WebKit", 
         "id": "CVE-2021-30951", 
-        "credit": "Pangu", 
+        "credit": "Pangu via Tianfu Cup", 
         "page": "https://support.apple.com/en-us/HT212982"
     }, 
     {
         "impact": "Processing maliciously crafted web content may lead to arbitrary code execution", 
         "available": "macOS Big Sur and macOS Catalina", 
         "description": "An integer overflow was addressed with improved input validation.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "WebKit", 
         "id": "CVE-2021-30952", 
-        "credit": "WeBin", 
+        "credit": "@18f and @jq0904 of DBAPP Security\u2018s weibin lab via Tianfu Cup", 
         "page": "https://support.apple.com/en-us/HT212982"
     }, 
     {
         "impact": "Processing maliciously crafted web content may lead to arbitrary code execution", 
         "available": "macOS Big Sur and macOS Catalina", 
         "description": "An out-of-bounds read was addressed with improved bounds checking.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "WebKit", 
         "id": "CVE-2021-30953", 
-        "credit": "VRIJ", 
+        "credit": "Jianjun Dai of 360 Vulnerability Research Institute via Tianfu Cup", 
         "page": "https://support.apple.com/en-us/HT212982"
     }, 
     {
         "impact": "Processing maliciously crafted web content may lead to arbitrary code execution", 
         "available": "macOS Big Sur and macOS Catalina", 
         "description": "A type confusion issue was addressed with improved memory handling.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "WebKit", 
         "id": "CVE-2021-30954", 
-        "credit": "Kunlun Lab", 
+        "credit": "Kunlun Lab via Tianfu Cup", 
         "page": "https://support.apple.com/en-us/HT212982"
     }, 
     {
         "impact": "Processing maliciously crafted web content may lead to arbitrary code execution", 
         "available": "macOS Big Sur and macOS Catalina", 
         "description": "A race condition was addressed with improved state handling.", 
-        "update": "", 
+        "update": "May 25, 2022", 
         "module": "WebKit", 
         "id": "CVE-2021-30984", 
-        "credit": "Kunlun Lab", 
+        "credit": "Kunlun Lab via Tianfu Cup", 
         "page": "https://support.apple.com/en-us/HT212982"
     }
 ]
