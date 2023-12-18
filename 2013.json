@@ -1,0 +1,3432 @@
+[
+    {
+        "impact": "Visiting a maliciously crafted website may lead to a cross-site scripting attack", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "A canonicalization issue existed in the handling of the EUC-JP encoding, which could lead to a cross-site scripting attack on EUC-JP encoded websites. This issue was addressed by updating the EUC-JP mapping table.", 
+        "update": "", 
+        "module": "International Components for Unicode", 
+        "id": "CVE-2011-3058 ", 
+        "credit": "Masato Kinugawa", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2012-3606 ", 
+        "credit": "Abhishek Arya (Inferno) of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2012-3607 ", 
+        "credit": "Abhishek Arya (Inferno) of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2012-3621 ", 
+        "credit": "Skylined of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2012-3632 ", 
+        "credit": "Abhishek Arya (Inferno) of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2012-3687 ", 
+        "credit": "kuzzcc", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2012-3701 ", 
+        "credit": "Abhishek Arya (Inferno) of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "Authentication relying on certificate-based Apple ID authentication may be bypassed", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "An error handling issue existed in Identity Services. If the user's AppleID certificate failed to validate, the user's AppleID was assumed to be the empty string. If multiple systems belonging to different users enter this state, applications relying on this identity determination may erroneously extend trust. This issue was addressed by ensuring that NULL is returned instead of an empty string.", 
+        "update": "", 
+        "module": "Identity Services", 
+        "id": "CVE-2013-0963", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-0968 ", 
+        "credit": "Aaron Nelson", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "JavaScript may be enabled in Mobile Safari without user interaction", 
+        "available": "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later", 
+        "description": "If a user disabled JavaScript in Safari Preferences, visiting a site which displayed a Smart App Banner would re-enable JavaScript without warning the user. This issue was addressed by not enabling JavaScript when visiting a site with a Smart App Banner.", 
+        "update": "", 
+        "module": "StoreKit", 
+        "id": "CVE-2013-0974 ", 
+        "credit": "Andrew Plotkin of Zarfhome Software Consulting, Ben Madison of BitCloud, Marek Durcek", 
+        "page": "http://support.apple.com/en-us/HT5642"
+    }, 
+    {
+        "impact": "A remote attacker on the same Wi-Fi network may be able to cause an unexpected system termination", 
+        "available": "Apple TV 2nd generation", 
+        "description": "An out of bounds read issue exists in Broadcom's BCM4325 and BCM4329 firmware's handling of 802.11i information elements. This issue was addressed through additional validation of 802.11i information elements.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2012-2619 ", 
+        "credit": "Andres Blanco and Matias Eissler of Core Security", 
+        "page": "http://support.apple.com/en-us/HT5643"
+    }, 
+    {
+        "impact": "A user-mode process may be able to access the first page of kernel memory", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "The kernel has checks to validate that the user-mode pointer and length passed to the copyin and copyout functions would not result in a user-mode process being able to directly access kernel memory. The checks were not being used if the length was smaller than one page. This issue was addressed through additional validation of the arguments to copyin and copyout.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0964 ", 
+        "credit": "Mark Dowd of Azimuth Security", 
+        "page": "http://support.apple.com/en-us/HT5643"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to a cross-site scripting attack", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.2", 
+        "description": "A cross-site scripting issue existed in the handling of frame elements. This issue was addressed through improved origin tracking.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2012-2889 ", 
+        "credit": "Sergey Glazunov", 
+        "page": "http://support.apple.com/en-us/HT5671"
+    }, 
+    {
+        "impact": "Copying and pasting content on a malicious website may lead to a cross-site scripting attack", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.2", 
+        "description": "A cross-site scripting issue existed in the handling of content pasted from a different origin. This issue was addressed through additional validation of pasted content.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-0962 ", 
+        "credit": "Mario Heiderich of Cure53", 
+        "page": "http://support.apple.com/en-us/HT5671"
+    }, 
+    {
+        "impact": "A local user may be able to execute unsigned code", 
+        "available": "iPhone 3GS and later, iPod touch &lpar;4th generation&rpar; and later, iPad 2 and later", 
+        "description": "A state management issue existed in the handling of Mach-O executable files with overlapping segments. This issue was addressed by refusing to load an executable with overlapping segments.", 
+        "update": "", 
+        "module": "dyld", 
+        "id": "CVE-2013-0977 ", 
+        "credit": "evad3rs", 
+        "page": "http://support.apple.com/en-us/HT5704"
+    }, 
+    {
+        "impact": "A local user may be able to determine the address of structures in the kernel", 
+        "available": "iPhone 3GS and later, iPod touch &lpar;4th generation&rpar; and later, iPad 2 and later", 
+        "description": "An information disclosure issue existed in the ARM prefetch abort handler. This issue was addressed by panicking if the prefetch abort handler is not being called from an abort context.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-0978 ", 
+        "credit": "evad3rs", 
+        "page": "http://support.apple.com/en-us/HT5704"
+    }, 
+    {
+        "impact": "A local user may be able to change permissions on arbitrary files", 
+        "available": "iPhone 3GS and later, iPod touch &lpar;4th generation&rpar; and later, iPad 2 and later", 
+        "description": "When restoring from backup, lockdownd changed permissions on certain files even if the path to the file included a symbolic link. This issue was addressed by not changing permissions on any file with a symlink in its path.", 
+        "update": "", 
+        "module": "Lockdown", 
+        "id": "CVE-2013-0979 ", 
+        "credit": "evad3rs", 
+        "page": "http://support.apple.com/en-us/HT5704"
+    }, 
+    {
+        "impact": "A person with physical access to the device may be able to bypass the screen lock", 
+        "available": "iPhone 3GS and later, iPod touch &lpar;4th generation&rpar; and later, iPad 2 and later", 
+        "description": "A logic issue existed in the handling of emergency calls from the lock screen. This issue was addressed through improved lock state management.", 
+        "update": "", 
+        "module": "Passcode Lock", 
+        "id": "CVE-2013-0980 ", 
+        "credit": "Christopher Heffley of theMedium.ca, videosdebarraquito", 
+        "page": "http://support.apple.com/en-us/HT5704"
+    }, 
+    {
+        "impact": "A local user may be able to execute arbitrary code in the kernel", 
+        "available": "iPhone 3GS and later, iPod touch &lpar;4th generation&rpar; and later, iPad 2 and later", 
+        "description": "The IOUSBDeviceFamily driver used pipe object pointers that came from userspace. This issue was addressed by performing additional validation of pipe object pointers.", 
+        "update": "", 
+        "module": "USB", 
+        "id": "CVE-2013-0981 ", 
+        "credit": "evad3rs", 
+        "page": "http://support.apple.com/en-us/HT5704"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-1491", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-1537", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-1540", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-1557", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-1558", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-1563", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-1569", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2383", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2384", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2394", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2417", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2419", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2420", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2422", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2424", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2429", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2430", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2432", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2435", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;43", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2440", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5734"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2012-2824 ", 
+        "credit": "miaubiz", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2012-2857 ", 
+        "credit": "Arthur Gerkis", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2012-3748 ", 
+        "credit": "Joost Pol and Daan Keuper of Certified Secure working with HP TippingPoint's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2012-5112 ", 
+        "credit": "Pinkie Pie working with Google's Pwnium 2 contest", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0912 ", 
+        "credit": "Nils and Jon from MWR Labs working with HP TippingPoint's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0948 ", 
+        "credit": "Abhishek Arya &lpar;Inferno&rpar; of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0949 ", 
+        "credit": "Abhishek Arya &lpar;Inferno&rpar; of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0950 ", 
+        "credit": "Abhishek Arya &lpar;Inferno&rpar; of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0951 ", 
+        "credit": "Apple", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0952 ", 
+        "credit": "Abhishek Arya &lpar;Inferno&rpar; of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0953 ", 
+        "credit": "Abhishek Arya &lpar;Inferno&rpar; of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0954 ", 
+        "credit": "Dominic Cooney of Google and Martin Barbella of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0955 ", 
+        "credit": "Apple", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0956 ", 
+        "credit": "Apple Product Security", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0958 ", 
+        "credit": "Abhishek Arya &lpar;Inferno&rpar; of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0959 ", 
+        "credit": "Abhishek Arya &lpar;Inferno&rpar; of the Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0960 ", 
+        "credit": "Apple", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-0961 ", 
+        "credit": "wushi of team509 working with iDefense VCP", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "A man-in-the-middle attack while browsing the iTunes Store via iTunes may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-1011 ", 
+        "credit": "Google Chrome Security Team &lpar;Inferno&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "An attacker in a privileged network position may manipulate HTTPS server certificates, leading to the disclosure of sensitive information", 
+        "available": "Mac OS X v10.6.8 or later, Windows 7, Vista, XP SP2 or later", 
+        "description": "A certificate validation issue existed in iTunes. In certain contexts, an active network attacker could present untrusted certificates to iTunes and they would be accepted without warning. This issue was resolved by improved certificate validation.", 
+        "update": "", 
+        "module": "iTunes", 
+        "id": "CVE-2013-1014 ", 
+        "credit": "Christopher of ThinkSECURE Pte Ltd, Christopher Hickstein of University of Minnesota", 
+        "page": "http://support.apple.com/en-us/HT5766"
+    }, 
+    {
+        "impact": "Opening a maliciously crafted TeXML file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "A memory corruption issue existed in the handling of TeXML files.  This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-1015 ", 
+        "credit": "Aniway.Anyway&commat;gmail.com working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5770"
+    }, 
+    {
+        "impact": "Playing a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "A buffer overflow existed in the handling of H.263 encoded movie files. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-1016 ", 
+        "credit": "Tom Gallagher &lpar;Microsoft&rpar; & Paul Bates &lpar;Microsoft&rpar; working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5770"
+    }, 
+    {
+        "impact": "Playing a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "A buffer overflow existed in the handling of 'dref' atoms. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-1017 ", 
+        "credit": "Tom Gallagher &lpar;Microsoft&rpar; & Paul Bates &lpar;Microsoft&rpar; working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5770"
+    }, 
+    {
+        "impact": "Playing a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "A memory corruption issue existed in the handling of JPEG encoded data. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-1020 ", 
+        "credit": "Tom Gallagher &lpar;Microsoft&rpar; & Paul Bates &lpar;Microsoft&rpar; working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5770"
+    }, 
+    {
+        "impact": "Opening a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Windows 7, Vista, XP SP2 or later", 
+        "description": "A buffer overflow existed in the handling of JPEG encoded data. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-1021 ", 
+        "credit": "Mil3s beep working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5770"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2011-1945", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2011-3207", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2011-3210", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2011-4108", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2011-4109", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2011-4576", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2011-4577", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2011-4619", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2012-0050", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2012-2110", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2012-2131", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2012-2333", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "An attacker may be able to decrypt data protected by SSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "There were known attacks on the confidentiality of TLS 1.0 when compression was enabled. This issue was addressed by disabling compression in OpenSSL.", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2012-4929 ", 
+        "credit": "Juliano Rizzo and Thai Duong", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "A local user in the lpadmin group may be able to read or write arbitrary files with system privileges", 
+        "available": "OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "A privilege escalation issue existed in the handling of CUPS configuration via the CUPS web interface. A local user in the lpadmin group may be able to read or write arbitrary files with system privileges. This issue was addressed by moving certain configuration directives to cups-files.conf, which can not be modified from the CUPS web interface.", 
+        "update": "", 
+        "module": "CUPS", 
+        "id": "CVE-2012-5519", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Ruby on Rails", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8", 
+        "description": "Multiple vulnerabilities existed in Ruby on Rails, the most serious of which may lead to arbitrary code execution on systems running Ruby on Rails applications. These issues were addressed by updating Ruby on Rails to version 2.3.18. This issue may affect OS X Lion or OS X Mountain Lion systems that were upgraded from Mac OS X 10.6.8 or earlier. Users can update affected gems on such systems by using the /usr/bin/gem utility.", 
+        "update": "", 
+        "module": "Ruby", 
+        "id": "CVE-2013-0155", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Ruby on Rails", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8", 
+        "description": "Multiple vulnerabilities existed in Ruby on Rails, the most serious of which may lead to arbitrary code execution on systems running Ruby on Rails applications. These issues were addressed by updating Ruby on Rails to version 2.3.18. This issue may affect OS X Lion or OS X Mountain Lion systems that were upgraded from Mac OS X 10.6.8 or earlier. Users can update affected gems on such systems by using the /usr/bin/gem utility.", 
+        "update": "", 
+        "module": "Ruby", 
+        "id": "CVE-2013-0276", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Ruby on Rails", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8", 
+        "description": "Multiple vulnerabilities existed in Ruby on Rails, the most serious of which may lead to arbitrary code execution on systems running Ruby on Rails applications. These issues were addressed by updating Ruby on Rails to version 2.3.18. This issue may affect OS X Lion or OS X Mountain Lion systems that were upgraded from Mac OS X 10.6.8 or earlier. Users can update affected gems on such systems by using the /usr/bin/gem utility.", 
+        "update": "", 
+        "module": "Ruby", 
+        "id": "CVE-2013-0277", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Ruby on Rails", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8", 
+        "description": "Multiple vulnerabilities existed in Ruby on Rails, the most serious of which may lead to arbitrary code execution on systems running Ruby on Rails applications. These issues were addressed by updating Ruby on Rails to version 2.3.18. This issue may affect OS X Lion or OS X Mountain Lion systems that were upgraded from Mac OS X 10.6.8 or earlier. Users can update affected gems on such systems by using the /usr/bin/gem utility.", 
+        "update": "", 
+        "module": "Ruby", 
+        "id": "CVE-2013-0333", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Opening a maliciously crafted PICT image may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.2", 
+        "description": "A buffer overflow existed in the handling of PICT images. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickDraw Manager", 
+        "id": "CVE-2013-0975 ", 
+        "credit": "Tobias Klein working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "An attacker with access to a user's session may be able to log into previously accessed sites, even if Private Browsing was used", 
+        "available": "OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "Permanent cookies were saved after quitting Safari, even when Private Browsing was enabled. This issue was addressed by improved handling of cookies.", 
+        "update": "", 
+        "module": "CFNetwork", 
+        "id": "CVE-2013-0982 ", 
+        "credit": "Alexander Traud of www.traud.de", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted site may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "An unbounded stack allocation issue existed in the handling of text glyphs. This could be triggered by maliciously crafted URLs in Safari. The issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "CoreAnimation", 
+        "id": "CVE-2013-0983 ", 
+        "credit": "David Fifield of Stanford University, Ben Syverson", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "A remote attacker may execute arbitrary code with system privileges on systems with Directory Service enabled", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8", 
+        "description": "An issue existed in the directory server's handling of messages from the network. By sending a maliciously crafted message, a remote attacker could cause the directory server to terminate or execute arbitrary code with system privileges. This issue was addressed through improved bounds checking. This issue does not affect OS X Lion or OS X Mountain Lion systems.", 
+        "update": "", 
+        "module": "Directory Service", 
+        "id": "CVE-2013-0984 ", 
+        "credit": "Nicolas Economou of Core Security", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "A local user may disable FileVault", 
+        "available": "OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "A local user who is not an administrator may disable FileVault using the command-line. This issue was addressed by adding additional authentication.", 
+        "update": "", 
+        "module": "Disk Management", 
+        "id": "CVE-2013-0985", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "A buffer overflow existed in the handling of 'enof' atoms. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-0986 ", 
+        "credit": "Tom Gallagher (Microsoft) & Paul Bates (Microsoft) working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted QTIF file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "A memory corruption issue existed in the handling of QTIF files. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-0987 ", 
+        "credit": "roob working with iDefense VCP", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted FPX file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "A buffer overflow existed in the handling of FPX files. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-0988 ", 
+        "credit": "G. Geshev working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Playing a maliciously crafted MP3 file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "A buffer overflow existed in the handling of MP3 files. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-0989 ", 
+        "credit": "G. Geshev working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "An authenticated user may be able to write files outside the shared directory", 
+        "available": "OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "If SMB file sharing is enabled, an authenticated user may be able to write files outside the shared directory. This issue was addressed through improved access control.", 
+        "update": "", 
+        "module": "SMB", 
+        "id": "CVE-2013-0990 ", 
+        "credit": "Ward van Wanrooij", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7 to v10.7.5, OS X Lion Server v10.7 to v10.7.5, OS X Mountain Lion v10.8 to v10.8.3", 
+        "description": "An uninitialized memory access issue existed in the handling of text tracks. This issue was addressed by additional validation of text tracks.", 
+        "update": "", 
+        "module": "CoreMedia Playback", 
+        "id": "CVE-2013-1024 ", 
+        "credit": "Richard Kuo and Billy Suguitan of Triemt Corporation", 
+        "page": "http://support.apple.com/en-us/HT5784"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-1500", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-1571", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2407", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2412", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2437", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2442", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2443", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2444", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2445", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2446", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2447", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2448", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2450", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2451", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2452", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2453", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2454", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2455", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2456", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2457", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2459", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2461", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2463", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2464", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2465", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2466", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2468", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2469", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2470", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2471", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2472", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-2473", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;45", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion v10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-3743", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5797"
+    }, 
+    {
+        "impact": "Playing a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.4", 
+        "description": "A buffer overflow existed in the handling of H.264 encoded movie files. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-1018 ", 
+        "credit": "G. Geshev working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5806"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.4", 
+        "description": "A buffer underflow existed in the handling of 'mvhd' atoms. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-1022 ", 
+        "credit": "Andrea Micalizzi aka rgod working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5806"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Apache", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in Apache, the most serious of which may lead to cross-site scripting. These issues were addressed by updating Apache to version 2.2.24.", 
+        "update": "", 
+        "module": "Apache", 
+        "id": "CVE-2012-0883", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in OpenSSL, the most serious of which may lead to disclosure of user data. These issues were addressed by updating OpenSSL to version 0.9.8y.", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2012-2686", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Apache", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in Apache, the most serious of which may lead to cross-site scripting. These issues were addressed by updating Apache to version 2.2.24.", 
+        "update": "", 
+        "module": "Apache", 
+        "id": "CVE-2012-2687", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Apache", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in Apache, the most serious of which may lead to cross-site scripting. These issues were addressed by updating Apache to version 2.2.24.", 
+        "update": "", 
+        "module": "Apache", 
+        "id": "CVE-2012-3499", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in BIND", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in BIND, the most serious of which may lead to a denial of service. These issues were addressed by updating BIND to version 9.8.5-P1. CVE-2012-5688 did not affect Mac OS X v10.7 systems.", 
+        "update": "", 
+        "module": "Bind", 
+        "id": "CVE-2012-3817", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in BIND", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in BIND, the most serious of which may lead to a denial of service. These issues were addressed by updating BIND to version 9.8.5-P1. CVE-2012-5688 did not affect Mac OS X v10.7 systems.", 
+        "update": "", 
+        "module": "Bind", 
+        "id": "CVE-2012-4244", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Apache", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in Apache, the most serious of which may lead to cross-site scripting. These issues were addressed by updating Apache to version 2.2.24.", 
+        "update": "", 
+        "module": "Apache", 
+        "id": "CVE-2012-4558", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in BIND", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in BIND, the most serious of which may lead to a denial of service. These issues were addressed by updating BIND to version 9.8.5-P1. CVE-2012-5688 did not affect Mac OS X v10.7 systems.", 
+        "update": "", 
+        "module": "Bind", 
+        "id": "CVE-2012-5166", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in BIND", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in BIND, the most serious of which may lead to a denial of service. These issues were addressed by updating BIND to version 9.8.5-P1. CVE-2012-5688 did not affect Mac OS X v10.7 systems.", 
+        "update": "", 
+        "module": "Bind", 
+        "id": "CVE-2012-5688", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in OpenSSL, the most serious of which may lead to disclosure of user data. These issues were addressed by updating OpenSSL to version 0.9.8y.", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2013-0166", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in OpenSSL, the most serious of which may lead to disclosure of user data. These issues were addressed by updating OpenSSL to version 0.9.8y.", 
+        "update": "", 
+        "module": "OpenSSL", 
+        "id": "CVE-2013-0169", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Packages could be opened after certificate revocation", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "When Installer encountered a revoked certificate, it would present a dialog with an option to continue. The issue was addressed by removing the dialog and refusing any revoked package.", 
+        "update": "", 
+        "module": "Installer", 
+        "id": "CVE-2013-1027", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "A local network user may cause a denial of service", 
+        "available": "OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "An incorrect check in the IGMP packet parsing code in the kernel allowed a user who could send IGMP packets to the system to cause a kernel panic. The issue was addressed by removing the check.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-1029 ", 
+        "credit": "Christopher Bohn of PROTECTSTAR INC.", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Passwords may be disclosed to other local users", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "A password was passed on the command-line to mdmclient, which made it visible to other users on the same system. The issue was addressed by communicating the password through a pipe.", 
+        "update": "", 
+        "module": "Mobile Device Management", 
+        "id": "CVE-2013-1030 ", 
+        "credit": "Per Olofsson at the University of Gothenburg", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "The screen saver may not start after the specified time period", 
+        "available": "OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "A power assertion lock issue existed. This issue was addressed through improved lock handling.", 
+        "update": "", 
+        "module": "Power Management", 
+        "id": "CVE-2013-1031", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "A memory corruption issue existed in the handling of 'idsc' atoms in QuickTime movie files. This issue was addressed through additional bounds checking.", 
+        "update": "", 
+        "module": "QuickTime", 
+        "id": "CVE-2013-1032 ", 
+        "credit": "Jason Kratzer working with iDefense VCP", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "A user with screen sharing access may be able to bypass the screen lock when another user is logged in", 
+        "available": "OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "A session management issue existed in the screen lock's handling of screen sharing sessions. This issue was addressed through improved session tracking.", 
+        "update": "", 
+        "module": "Screen Lock", 
+        "id": "CVE-2013-1033 ", 
+        "credit": "Jeff Grisso of Atos IT Solutions, S\u00e9bastien Stormacq", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in PHP", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in PHP, the most serious of which may lead to arbitrary code execution. These issues were addressed by updating PHP to version 5.3.26.", 
+        "update": "", 
+        "module": "PHP", 
+        "id": "CVE-2013-1635", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in PHP", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in PHP, the most serious of which may lead to arbitrary code execution. These issues were addressed by updating PHP to version 5.3.26.", 
+        "update": "", 
+        "module": "PHP", 
+        "id": "CVE-2013-1643", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "An attacker with control of an admin user's account may be able to gain root privileges without knowing the user's password", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "By setting the system clock, an attacker may be able to use sudo to gain root privileges on systems where sudo has been used before. On OS X, only admin users can change the system clock. This issue was addressed by checking for an invalid timestamp.", 
+        "update": "", 
+        "module": "sudo", 
+        "id": "CVE-2013-1775", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in PHP", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in PHP, the most serious of which may lead to arbitrary code execution. These issues were addressed by updating PHP to version 5.3.26.", 
+        "update": "", 
+        "module": "PHP", 
+        "id": "CVE-2013-1824", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in PHP", 
+        "available": "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in PHP, the most serious of which may lead to arbitrary code execution. These issues were addressed by updating PHP to version 5.3.26.", 
+        "update": "", 
+        "module": "PHP", 
+        "id": "CVE-2013-2110", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in BIND", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8 to v10.8.4", 
+        "description": "Multiple vulnerabilities existed in BIND, the most serious of which may lead to a denial of service. These issues were addressed by updating BIND to version 9.8.5-P1. CVE-2012-5688 did not affect Mac OS X v10.7 systems.", 
+        "update": "", 
+        "module": "Bind", 
+        "id": "CVE-2013-2266", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5880"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Wiki Server", 
+        "available": "OS X Mountain Lion v10.8 or later", 
+        "description": "Multiple cross-site scripting issues existed in Wiki Server. These issues were addressed by improved encoding of HTML output.", 
+        "update": "", 
+        "module": "Wiki Server", 
+        "id": "CVE-2013-1034 ", 
+        "credit": "David Hoyt of Hoyt LLC Research", 
+        "page": "http://support.apple.com/en-us/HT5892"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in PostgreSQL", 
+        "available": "OS X Mountain Lion v10.8 or later", 
+        "description": "Multiple vulnerabilities existed in PostgreSQL, the most serious of which may lead to data corruption or privilege escalation. This update addresses the issues by updating PostgreSQL to version 9.2.4", 
+        "update": "", 
+        "module": "PostgreSQL", 
+        "id": "CVE-2013-1899", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5892"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in PostgreSQL", 
+        "available": "OS X Mountain Lion v10.8 or later", 
+        "description": "Multiple vulnerabilities existed in PostgreSQL, the most serious of which may lead to data corruption or privilege escalation. This update addresses the issues by updating PostgreSQL to version 9.2.4", 
+        "update": "", 
+        "module": "PostgreSQL", 
+        "id": "CVE-2013-1900", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5892"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in PostgreSQL", 
+        "available": "OS X Mountain Lion v10.8 or later", 
+        "description": "Multiple vulnerabilities existed in PostgreSQL, the most serious of which may lead to data corruption or privilege escalation. This update addresses the issues by updating PostgreSQL to version 9.2.4", 
+        "update": "", 
+        "module": "PostgreSQL", 
+        "id": "CVE-2013-1901", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5892"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in ClamAV", 
+        "available": "OS X Mountain Lion v10.8 or later", 
+        "description": "Multiple vulnerabilities existed in ClamAV, the most serious of which may lead to arbitrary code execution. This update addresses the issues by updating ClamAV to version 0.97.8.", 
+        "update": "", 
+        "module": "ClamAV", 
+        "id": "CVE-2013-2020", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5892"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in ClamAV", 
+        "available": "OS X Mountain Lion v10.8 or later", 
+        "description": "Multiple vulnerabilities existed in ClamAV, the most serious of which may lead to arbitrary code execution. This update addresses the issues by updating ClamAV to version 0.97.8.", 
+        "update": "", 
+        "module": "ClamAV", 
+        "id": "CVE-2013-2021", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5892"
+    }, 
+    {
+        "impact": "Copying and pasting a malicious HTML snippet may lead to a cross-site scripting attack", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "A cross-site scripting issue existed in the handling of copied and pasted data in HTML documents. This issue was addressed through additional validation of pasted content.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-0926 ", 
+        "credit": "Aditya Gupta, Subho Halder, and Dev Kar of xys3c &lpar;xysec.com&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Apps could bypass passcode-attempt restrictions", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "A privilege separation issue existed in Data Protection. An app within the third-party sandbox could repeatedly attempt to determine the user's passcode regardless of the user's \"Erase Data\" setting. This issue was addressed by requiring additional entitlement checks.", 
+        "update": "", 
+        "module": "Data Protection", 
+        "id": "CVE-2013-0957 ", 
+        "credit": "Jin Han of the Institute for Infocomm Research working with Qiang Yan and Su Mon Kywe of Singapore Management University", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to a cross-site scripting attack", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "A cross-site scripting issue existed in the handling of iframes. This issue was addressed through improved origin tracking.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1012 ", 
+        "credit": "Subodh Iyengar and Erling Ellingsen of Facebook", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "An attacker may intercept data protected with IPSec Hybrid Auth", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "The DNS name of an IPSec Hybrid Auth server was not being matched against the certificate, allowing an attacker with a certificate for any server to impersonate any other. This issue was addressed by improved certificate checking.", 
+        "update": "", 
+        "module": "IPSec", 
+        "id": "CVE-2013-1028 ", 
+        "credit": "Alexander Traud of www.traud.de", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "An attacker who can mount a non-HFS filesystem may be able to cause an unexpected system termination or arbitrary code execution with kernel privileges", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "A memory corruption issue existed in the handling of AppleDouble files. This issue was addressed by removing support for AppleDouble files.", 
+        "update": "", 
+        "module": "File Systems", 
+        "id": "CVE-2013-3955 ", 
+        "credit": "Stefan Esser", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "An attacker may be able to join a Personal Hotspot network", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "An issue existed in the generation of Personal Hotspot passwords, resulting in passwords that could be predicted by an attacker to join a user's Personal Hotspot. The issue was addressed by generating passwords with higher entropy.", 
+        "update": "", 
+        "module": "Personal Hotspot", 
+        "id": "CVE-2013-4616 ", 
+        "credit": "Andreas Kurtz of NESO Security Labs and Daniel Metz of University Erlangen-Nuremberg", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Background applications could inject user interface events into the foreground app", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "It was possible for background applications to inject user interface events into the foreground application using the task completion or VoIP APIs. This issue was addressed by enforcing access controls on foreground and background processes that handle interface events.", 
+        "update": "", 
+        "module": "IOKit", 
+        "id": "CVE-2013-5137 ", 
+        "credit": "Mackenzie Straight at Mobile Labs", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "A person with physical access to the device may be able to bypass the screen lock", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "A race condition issue existed in the handling of phone calls and SIM card ejection at the lock screen. This issue was addressed through improved lock state management.", 
+        "update": "", 
+        "module": "Passcode Lock", 
+        "id": "CVE-2013-5147 ", 
+        "credit": "videosdebarraquito", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "The push notification token may be disclosed to an app contrary to the user's decision", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "An information disclosure issue existed in push notification registration. Apps requesting access to the push notification access received the token before the user approved the app's use of push notifications. This issue was addressed by withholding access to the token until the user has approved access.", 
+        "update": "", 
+        "module": "Push Notifications", 
+        "id": "CVE-2013-5149 ", 
+        "credit": "Jack Flintermann of Grouper, Inc.", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "History of pages recently visited in an open tab may remain after clearing of history", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "Clearing Safari's history did not clear the back/forward history for open tabs. This issue was addressed by clearing the back/forward history.", 
+        "update": "", 
+        "module": "Safari", 
+        "id": "CVE-2013-5150", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "", 
+        "update": "", 
+        "module": "Safari", 
+        "id": "CVE-2013-5151 ", 
+        "credit": "Ben Toews of Github", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Visiting a malicious website may allow an arbitrary URL to be displayed", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "A URL bar spoofing issue existed in Mobile Safari. This issue was addressed through improved URL tracking.", 
+        "update": "", 
+        "module": "Safari", 
+        "id": "CVE-2013-5152 ", 
+        "credit": "Keita Haga of keitahaga.com, &Lstrok;ukasz Pilorz of RBS", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "A person with physical access to a device in Lost Mode may be able to view notifications", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "An issue existed in the handling of notifications when a device is in Lost Mode. This update addresses the issue with improved lock state management.", 
+        "update": "", 
+        "module": "Springboard", 
+        "id": "CVE-2013-5153 ", 
+        "credit": "Daniel Stangroom", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Applications that are scripts were not sandboxed", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "Third-party applications which used the &num;&excl; syntax to run a script were sandboxed based on the identity of the script interpreter, not the script. The interpreter may not have a sandbox defined, leading to the application being run unsandboxed. This issue was addressed by creating the sandbox based on the identity of the script.", 
+        "update": "", 
+        "module": "Sandbox", 
+        "id": "CVE-2013-5154 ", 
+        "credit": "evad3rs", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Applications can cause a system hang", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "Malicious third-party applications that wrote specific values to the /dev/random device could force the CPU to enter an infinite loop. This issue was addressed by preventing third-party applications from writing to /dev/random.", 
+        "update": "", 
+        "module": "Sandbox", 
+        "id": "CVE-2013-5155 ", 
+        "credit": "CESG", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Malicious apps could interfere with or control telephony functionality", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "An access control issue existed in the telephony subsystem. Bypassing supported APIs, sandboxed apps could make requests directly to a system daemon interfering with or controlling telephony functionality. This issue was addressed by enforcing access controls on interfaces exposed by the telephony daemon.", 
+        "update": "", 
+        "module": "Telephony", 
+        "id": "CVE-2013-5156 ", 
+        "credit": "Jin Han of the Institute for Infocomm Research working with Qiang Yan and Su Mon Kywe of Singapore Management University&semi; Tielei Wang, Kangjie Lu, Long Lu, Simon Chung, and Wenke Lee from the Georgia Institute of Technology", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Sandboxed apps could send tweets without user interaction or permission", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "An access control issue existed in the Twitter subsystem. Bypassing supported APIs, sandboxed apps could make requests directly to a system daemon interfering with or controlling Twitter functionality. This issue was addressed by enforcing access controls on interfaces exposed by the Twitter daemon.", 
+        "update": "", 
+        "module": "Twitter", 
+        "id": "CVE-2013-5157 ", 
+        "credit": "Jin Han of the Institute for Infocomm Research working with Qiang Yan and Su Mon Kywe of Singapore Management University&semi; Tielei Wang, Kangjie Lu, Long Lu, Simon Chung, and Wenke Lee from the Georgia Institute of Technology", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Users recent Twitter activity could be disclosed on devices with no passcode.", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "An issue existed where it was possible to determine what Twitter accounts a user had recently interacted with. This issue was resolved by restricting access to the Twitter icon cache.", 
+        "update": "", 
+        "module": "Social", 
+        "id": "CVE-2013-5158 ", 
+        "credit": "Jonathan Zdziarski", 
+        "page": "http://support.apple.com/en-us/HT5934"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in libxml. These issues were addressed by updating libxml to version 2.9.0.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2011-3102 ", 
+        "credit": "J\u00fcri Aedla", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in libxml. These issues were addressed by updating libxml to version 2.9.0.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2012-0841", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in libxml. These issues were addressed by updating libxml to version 2.9.0.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2012-2807 ", 
+        "credit": "J\u00fcri Aedla", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in libxslt. These issues were addressed by updating libxslt to version 1.1.28.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2012-2825 ", 
+        "credit": "Nicolas Gregoire", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in libxslt. These issues were addressed by updating libxslt to version 1.1.28.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2012-2870 ", 
+        "credit": "Nicolas Gregoire", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in libxslt. These issues were addressed by updating libxslt to version 1.1.28.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2012-2871 ", 
+        "credit": "Kai Lu of Fortinet's FortiGuard Labs, Nicolas Gregoire", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in libxml. These issues were addressed by updating libxml to version 2.9.0.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2012-5134 ", 
+        "credit": "Google Chrome Security Team &lpar;J\u00fcri Aedla&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0879 ", 
+        "credit": "Atte Kettunen of OUSPG", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0991 ", 
+        "credit": "Jay Civelli of the Chromium development community", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0992 ", 
+        "credit": "Google Chrome Security Team &lpar;Martin Barbella&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0993 ", 
+        "credit": "Google Chrome Security Team &lpar;Inferno&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0994 ", 
+        "credit": "David German of Google", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0995 ", 
+        "credit": "Google Chrome Security Team &lpar;Inferno&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0996 ", 
+        "credit": "Google Chrome Security Team &lpar;Inferno&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0997 ", 
+        "credit": "Vitaliy Toropov working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0998 ", 
+        "credit": "pa&lowbar;kt working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-0999 ", 
+        "credit": "pa&lowbar;kt working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1000 ", 
+        "credit": "Fermin J. Serna of the Google Security Team", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1001 ", 
+        "credit": "Ryan Humenick", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1002 ", 
+        "credit": "Sergey Glazunov", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1003 ", 
+        "credit": "Google Chrome Security Team &lpar;Inferno&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1004 ", 
+        "credit": "Google Chrome Security Team &lpar;Martin Barbella&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1005 ", 
+        "credit": "Google Chrome Security Team &lpar;Martin Barbella&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1006 ", 
+        "credit": "Google Chrome Security Team &lpar;Martin Barbella&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1007 ", 
+        "credit": "Google Chrome Security Team &lpar;Inferno&rpar;", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1008 ", 
+        "credit": "Sergey Glazunov", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1010 ", 
+        "credit": "miaubiz", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1011", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Playing a maliciously crafted movie file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "A buffer overflow existed in the handling of Sorenson encoded movie files. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1019 ", 
+        "credit": "Tom Gallagher &lpar;Microsoft&rpar; & Paul Bates &lpar;Microsoft&rpar; working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "A buffer overflow existed in the handling of JBIG2 encoded data in PDF files. This issue was addressed through additional bounds checking.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1025 ", 
+        "credit": "Felix Groebert of the Google Security Team", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "A buffer overflow existed in the handling of JPEG2000 encoded data in PDF files. This issue was addressed through additional bounds checking.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-1026 ", 
+        "credit": "Felix Groebert of the Google Security Team", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "Unprivileged processes could get access to the contents of kernel memory which could lead to privilege escalation", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "An information disclosure issue existed in the mach&lowbar;port&lowbar;space&lowbar;info API. This issue was addressed by initializing the iin&lowbar;collision field in structures returned from the kernel.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-3953 ", 
+        "credit": "Stefan Esser", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "An attacker with a privileged network position may intercept user credentials or other sensitive information", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "TrustWave, a trusted root CA, has issued, and subsequently revoked, a sub-CA certificate from one of its trusted anchors. This sub-CA facilitated the interception of communications secured by Transport Layer Security &lpar;TLS&rpar;. This update added the involved sub-CA certificate to OS X's list of untrusted certificates.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-5134", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "A remote attacker can cause a device to unexpectedly restart", 
+        "available": "Apple TV 2nd generation and later", 
+        "description": "Sending an invalid packet fragment to a device can cause a kernel assert to trigger, leading to a device restart. The issue was addressed through additional validation of packet fragments.", 
+        "update": "", 
+        "module": "Apple TV", 
+        "id": "CVE-2013-5140 ", 
+        "credit": "Joonas Kuorilehto of Codenomicon, an anonymous researcher working with CERT-FI, Antti Levom\u00c3\u00a4ki and Lauri Virtanen of Vulnerability Analysis Group, Stonesoft", 
+        "page": "http://support.apple.com/en-us/HT5935"
+    }, 
+    {
+        "impact": "An attacker with a privileged network position may intercept user credentials or other sensitive information", 
+        "available": "OS X Mountain Lion v10.8.4 or later", 
+        "description": "When using the imap-send command, git did not verify that the server hostname matched a domain name in the X.509 certificate, which allowed a man-in-the-middle attacker to spoof SSL servers via an arbitrary valid certificate. This issue was addressed by updating git to version 1.8.3.1.", 
+        "update": "", 
+        "module": "Git", 
+        "id": "CVE-2013-0308", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5937"
+    }, 
+    {
+        "impact": "A person with physical access to the device may be able to make calls to any number", 
+        "available": "iPhone 4 and later", 
+        "description": "A NULL dereference existed in the lock screen which would cause it to restart if the emergency call button was tapped repeatedly. While the lock screen was restarting, the call dialer could not get the lock screen state and assumed the device was unlocked, and so allowed non-emergency numbers to be dialed. This issue was addressed by avoiding the NULL dereference.", 
+        "update": "", 
+        "module": "Passcode Lock", 
+        "id": "CVE-2013-5160 ", 
+        "credit": "Karam Daoud of PART - Marketing & Business Development, Andrew Chung, Mariusz Rysz", 
+        "page": "http://support.apple.com/en-us/HT5957"
+    }, 
+    {
+        "impact": "A person with physical access to the device may be able to see recently used apps, see, edit, and share photos", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "The list of apps you opened could be accessed during some transitions while the device was locked, and the Camera app could be opened while the device was locked.", 
+        "update": "", 
+        "module": "Passcode Lock", 
+        "id": "CVE-2013-5161 ", 
+        "credit": "videosdebarraquito", 
+        "page": "http://support.apple.com/en-us/HT5957"
+    }, 
+    {
+        "impact": "A local user may modify Directory Services records with system privileges", 
+        "available": "OS X Mountain Lion v10.8 to v10.8.5", 
+        "description": "A logic issue existed in Directory Services's verification of authentication credentials allowing a local attacker to bypass password validation. The issue was addressed through improved credential validation.", 
+        "update": "", 
+        "module": "Directory Services", 
+        "id": "CVE-2013-5163 ", 
+        "credit": "The rookies of 42", 
+        "page": "http://support.apple.com/en-us/HT5964"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-3829", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-4002", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5772", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5774", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5776", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5778", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5780", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5782", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5783", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5784", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5787", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5789", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5790", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5797", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5801", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5802", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5803", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5804", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5809", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5812", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5814", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5817", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5818", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5819", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5820", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5823", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5824", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5825", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5829", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5830", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5831", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5832", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5840", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5842", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5843", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5848", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5849", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in Java 1.6.0&lowbar;51", 
+        "available": "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 or later, OS X Lion Server v10.7 or later, OS X Mountain Lion 10.8 or later", 
+        "description": "", 
+        "update": "", 
+        "module": "Java", 
+        "id": "CVE-2013-5850", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5982"
+    }, 
+    {
+        "impact": "A remote attacker may be able to cause arbitrary code execution", 
+        "available": "Apple Remote Desktop 3.0 or later", 
+        "description": "A format string vulnerability existed in Remote Desktop's handling of the VNC username.", 
+        "update": "", 
+        "module": "Apple Remote Desktop", 
+        "id": "CVE-2013-5135", 
+        "credit": "SilentSignal working with iDefense VCP", 
+        "page": "http://support.apple.com/en-us/HT5997"
+    }, 
+    {
+        "impact": "A remote attacker may be able to cause arbitrary code execution", 
+        "available": "Apple Remote Desktop 3.0 or later", 
+        "description": "A format string vulnerability existed in Remote Desktop's handling of the VNC username.", 
+        "update": "", 
+        "module": "Apple Remote Desktop", 
+        "id": "CVE-2013-5135 ", 
+        "credit": "SilentSignal working with iDefense VCP", 
+        "page": "http://support.apple.com/en-us/HT5998"
+    }, 
+    {
+        "impact": "A warning about use of VNC without encryption may not appear", 
+        "available": "Apple Remote Desktop 3.0 or later", 
+        "description": "If a third-party VNC server reported certain authentication types, Remote Desktop may have used password authentication but not warned that the connection would be unencrypted. This issue was addressed through improved handling of authentication types.", 
+        "update": "", 
+        "module": "Apple Remote Desktop", 
+        "id": "CVE-2013-5136 ", 
+        "credit": "Mark S. C. Smith studying at Central Connecticut State University", 
+        "page": "http://support.apple.com/en-us/HT5998"
+    }, 
+    {
+        "impact": "A remote attacker may be able to cause a denial of service or arbitrary code execution", 
+        "available": "OS X Mavericks v10.9 or later", 
+        "description": "A buffer overflow existed in FreeRADIUS when parsing the 'not after' timestamp in a client certificate, when using TLS-based EAP methods. This issue was addressed by updating FreeRADIUS to version 2.2.0.", 
+        "update": "", 
+        "module": "FreeRADIUS", 
+        "id": "CVE-2012-3547", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5999"
+    }, 
+    {
+        "impact": "A remote attacker may be able to cause a denial of service", 
+        "available": "OS X Mavericks v10.9 or later", 
+        "description": "The JSON Ruby Gem permanently allocated memory when parsing certain constructs in its input. An attacker could exploit this to use all available memory leading to a denial of service. This issue was addressed through additional validation of JSON data.", 
+        "update": "", 
+        "module": "Profile Manager", 
+        "id": "CVE-2013-0269", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5999"
+    }, 
+    {
+        "impact": "Multiple issues in Ruby on Rails", 
+        "available": "OS X Mavericks v10.9 or later", 
+        "description": "Multiple issues existed in Ruby on Rails, the most serious of which may lead to cross site scripting. These issues were addressed by updating the Rails implementation used by Profile Manager to version 2.3.18.", 
+        "update": "", 
+        "module": "Profile Manager", 
+        "id": "CVE-2013-1854", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5999"
+    }, 
+    {
+        "impact": "Multiple issues in Ruby on Rails", 
+        "available": "OS X Mavericks v10.9 or later", 
+        "description": "Multiple issues existed in Ruby on Rails, the most serious of which may lead to cross site scripting. These issues were addressed by updating the Rails implementation used by Profile Manager to version 2.3.18.", 
+        "update": "", 
+        "module": "Profile Manager", 
+        "id": "CVE-2013-1855", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5999"
+    }, 
+    {
+        "impact": "Multiple issues in Ruby on Rails", 
+        "available": "OS X Mavericks v10.9 or later", 
+        "description": "Multiple issues existed in Ruby on Rails, the most serious of which may lead to cross site scripting. These issues were addressed by updating the Rails implementation used by Profile Manager to version 2.3.18.", 
+        "update": "", 
+        "module": "Profile Manager", 
+        "id": "CVE-2013-1856", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5999"
+    }, 
+    {
+        "impact": "Multiple issues in Ruby on Rails", 
+        "available": "OS X Mavericks v10.9 or later", 
+        "description": "Multiple issues existed in Ruby on Rails, the most serious of which may lead to cross site scripting. These issues were addressed by updating the Rails implementation used by Profile Manager to version 2.3.18.", 
+        "update": "", 
+        "module": "Profile Manager", 
+        "id": "CVE-2013-1857", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT5999"
+    }, 
+    {
+        "impact": "Server may use a fallback certificate during authentication", 
+        "available": "OS X Mavericks v10.9 or later", 
+        "description": "A logic issue existed whereby the RADIUS service could choose an incorrect certificate from the list of configured certificates. The issue was addressed by using the same certificate as other services.", 
+        "update": "", 
+        "module": "Server App", 
+        "id": "CVE-2013-5143 ", 
+        "credit": "Arek Dreyer of Dreyer Network Consultants, Inc.", 
+        "page": "http://support.apple.com/en-us/HT5999"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5", 
+        "description": "A memory corruption issue existed in the handling of XML files. This issue was addressed through additional bounds checking.", 
+        "update": "", 
+        "module": "Safari", 
+        "id": "CVE-2013-1036 ", 
+        "credit": "Kai Lu of Fortinet's FortiGuard Labs", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1037 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1038 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1039 ", 
+        "credit": "own-hero Research working with iDefense VCP", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1040 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1041 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1042 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1043 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1044 ", 
+        "credit": "Apple", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1045 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1046 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-1047 ", 
+        "credit": "miaubiz", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-2842 ", 
+        "credit": "Cyril Cattiaux", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an information disclosure", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5", 
+        "description": "An information disclosure issue existed in XSSAuditor. This issue was addressed through improved handling of URLs.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-2848 ", 
+        "credit": "Egor Homakov", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5125 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5126 ", 
+        "credit": "Apple", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5127 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.3", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5128 ", 
+        "credit": "Apple", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Dragging or pasting a selection may lead to a cross-site scripting attack", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5", 
+        "description": "Dragging or pasting a selection from one site to another may allow scripts contained in the selection to be executed in the context of the new site. This issue is addressed through additional validation of content before a paste or a drag and drop operation.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5129 ", 
+        "credit": "Mario Heiderich", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Using the Web Inspector disabled Private Browsing", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5", 
+        "description": "Using the Web Inspector disabled Private Browsing without warning. This issue was addressed by improved state management.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5130 ", 
+        "credit": "L\u00e1szl\u00f3 V\u00e1rady of E\u00f6tv\u00f6s Lor\u00e1nd University", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to a cross-site scripting attack", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5", 
+        "description": "A cross-site scripting issue existed in the handling of URLs. This issue was addressed through improved origin tracking.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5131 ", 
+        "credit": "Erling A Ellingsen&NewLine;", 
+        "page": "http://support.apple.com/en-us/HT6000"
+    }, 
+    {
+        "impact": "The screen may be unlocked if the computer was put to sleep while in Keynote presentation mode", 
+        "available": "OS X Mavericks v10.9 or later", 
+        "description": "In some circumstances, the screen lock would not be engaged if the computer was put to sleep while in Keynote presentation mode. This issue was addressed by improved state management.", 
+        "update": "", 
+        "module": "Keynote", 
+        "id": "CVE-2013-5148", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6002"
+    }, 
+    {
+        "impact": "A person with physical access to the device may be able to make calls to any number", 
+        "available": "iPhone 4 and later", 
+        "description": "A NULL dereference existed in the lock screen which would cause it to restart if the emergency call button was tapped while a notification was being swiped and while the camera pane was partly visible. While the lock screen was restarting, the call dialer could not get the lock screen state and assumed the device was unlocked, and so allowed non-emergency numbers to be dialed. This issue was addressed by avoiding the NULL dereference.", 
+        "update": "", 
+        "module": "Passcode Lock", 
+        "id": "CVE-2013-5144 ", 
+        "credit": "Dany Lisiansky", 
+        "page": "http://support.apple.com/en-us/HT6010"
+    }, 
+    {
+        "impact": "The time delay for incorrect passcode attempts may be bypassed", 
+        "available": "iPhone 4 and later", 
+        "description": "When returning to the passcode lock from the Phone app, the passcode entry view is sometimes visible when it should not be, and so may be accessed even if the iPhone has been disabled due to many incorrect passcode attempts. This issue was addressed by updating the visibility of the passcode entry view on state changes.", 
+        "update": "", 
+        "module": "Passcode Lock", 
+        "id": "CVE-2013-5162 ", 
+        "credit": "Tomer and Mor", 
+        "page": "http://support.apple.com/en-us/HT6010"
+    }, 
+    {
+        "impact": "A person with physical access to the device may be able to call arbitrary contacts", 
+        "available": "iPhone 4 and later", 
+        "description": "Race conditions existed in the Phone app at the lock screen. Under various circumstances, the Phone app may allow access to the Contacts pane. This issue was addressed by preventing this display of the Contacts pane while the phone is locked.", 
+        "update": "", 
+        "module": "Phone", 
+        "id": "CVE-2013-5164 ", 
+        "credit": "Dany Lisiansky", 
+        "page": "http://support.apple.com/en-us/HT6010"
+    }, 
+    {
+        "impact": "An attacker on a local network can cause a denial of service", 
+        "available": "", 
+        "description": "An attacker on a local network can send specially crafted IPv6 ICMP packets and cause high CPU load. The issue was addressed by rate limiting ICMP packets before verifying their checksum.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2011-2391 ", 
+        "credit": "Marc Heuse", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "An attacker could decrypt part of a SSL connection", 
+        "available": "", 
+        "description": "Only the SSLv3 and TLS 1.0 versions of SSL were used. These versions are subject to a protocol weakness when using block ciphers. A man-in-the-middle attacker could have injected invalid data, causing the connection to close but revealing some information about the previous data. If the same connection was attempted repeatedly the attacker may eventually have been able to decrypt the data being sent, such as a password. This issue was addressed by enabling TLS 1.2.", 
+        "update": "", 
+        "module": "CFNetwork SSL", 
+        "id": "CVE-2011-3389", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Support for X.509 certificates with MD5 hashes may expose users to spoofing and information disclosure as attacks improve", 
+        "available": "", 
+        "description": "Certificates signed using the MD5 hash algorithm were accepted by OS X. This algorithm has known cryptographic weaknesses. Further research or a misconfigured certificate authority could have allowed the creation of X.509 certificates with attacker controlled values that would have been trusted by the system. This would have exposed X.509 based protocols to spoofing, man in the middle attacks, and information disclosure. This update disables support for an X.509 certificate with an MD5 hash for any use other than as a trusted root certificate.", 
+        "update": "", 
+        "module": "Security", 
+        "id": "CVE-2011-3427", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in python 2.7", 
+        "available": "", 
+        "description": "", 
+        "update": "", 
+        "module": "python", 
+        "id": "CVE-2011-4944", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in python 2.7", 
+        "available": "", 
+        "description": "", 
+        "update": "", 
+        "module": "python", 
+        "id": "CVE-2012-0845", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in python 2.7", 
+        "available": "", 
+        "description": "", 
+        "update": "", 
+        "module": "python", 
+        "id": "CVE-2012-0876", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in python 2.7", 
+        "available": "", 
+        "description": "", 
+        "update": "", 
+        "module": "python", 
+        "id": "CVE-2012-1150", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in curl", 
+        "available": "", 
+        "description": "Multiple vulnerabilities existed in curl, the most serious of which may lead to arbitrary code execution. These issues were addressed by updating curl to version 7.30.0", 
+        "update": "", 
+        "module": "curl", 
+        "id": "CVE-2013-0249", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Perl scripts may be vulnerable to denial of service.", 
+        "available": "", 
+        "description": "The rehash mechanism in outdated versions of Perl may be vulnerable to denial of service in scripts that use untrusted input as hash keys. The issue is addressed by updating to Perl 5.16.2.", 
+        "update": "", 
+        "module": "perl", 
+        "id": "CVE-2013-1667", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Multiple vulnerabilities in curl", 
+        "available": "", 
+        "description": "Multiple vulnerabilities existed in curl, the most serious of which may lead to arbitrary code execution. These issues were addressed by updating curl to version 7.30.0", 
+        "update": "", 
+        "module": "curl", 
+        "id": "CVE-2013-1944", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "An attacker who has arbitrary code execution on a device may be able to persist code execution across reboots", 
+        "available": "", 
+        "description": "Multiple buffer overflows existed in dyld's openSharedCacheFile() function. These issues were addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "dyld", 
+        "id": "CVE-2013-3950 ", 
+        "credit": "Stefan Esser", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Unprivileged processes may be able to cause an unexpected system termination or arbitrary code execution in the kernel", 
+        "available": "", 
+        "description": "A memory corruption issue existed in the handling of arguments to the posix_spawn API. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-3954 ", 
+        "credit": "Stefan Esser", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "An attacker with a privileged network position may intercept user credentials or other sensitive information", 
+        "available": "", 
+        "description": "A hostname validation issue existed in Ruby's handling of SSL certificates. This issue was addressed by updating Ruby to version 2.0.0p247.", 
+        "update": "", 
+        "module": "ruby", 
+        "id": "CVE-2013-4073", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A malicious local application could cause an unexpected system termination", 
+        "available": "", 
+        "description": "A null pointer dereference existed in IOCatalogue. This issue was addressed through additional type checking.", 
+        "update": "", 
+        "module": "IOKitUser", 
+        "id": "CVE-2013-5138 ", 
+        "credit": "Will Estes", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Executing a malicious application may result in arbitrary code execution within the kernel", 
+        "available": "", 
+        "description": "An out of bounds array access existed in the IOSerialFamily driver. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "IOSerialFamily", 
+        "id": "CVE-2013-5139 ", 
+        "credit": "@dent1zt", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A malicious local application could cause a system hang", 
+        "available": "", 
+        "description": "An integer truncation issue existed in the kernel socket interface, which could be leveraged to force the CPU into an infinite loop. The issue was addressed by using a larger sized variable.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-5141 ", 
+        "credit": "CESG", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Kernel stack memory may be disclosed to local users", 
+        "available": "", 
+        "description": "An information disclosure issue existed in the msgctl and segctl APIs. This issue was addressed by initializing data structures returned from the kernel.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-5142 ", 
+        "credit": "Kenzley Alphonse of Kenx Technology, Inc", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "An unauthorized process can disable some loaded kernel extensions", 
+        "available": "", 
+        "description": "An issue existed in kext management's handling of IPC messages from unauthenticated senders. This issue was addressed by adding additional authorization checks.", 
+        "update": "", 
+        "module": "Kext Management", 
+        "id": "CVE-2013-5145 ", 
+        "credit": "\"Rainbow PRISM\"", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "socketfilterfw --blockApp may not block applications from receiving network connections", 
+        "available": "", 
+        "description": "The socketfilterfw command line tool's --blockApp option did not properly block applications from receiving network connections. This issue was addressed through improved handling of the --blockApp options.", 
+        "update": "", 
+        "module": "Application Firewall", 
+        "id": "CVE-2013-5165 ", 
+        "credit": "Alexander Frangis of PopCap Games", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A malicious local application could cause an unexpected system termination", 
+        "available": "", 
+        "description": "The Bluetooth USB host controller deleted interfaces needed for later operations. This issue was addressed by retaining the interface until it is no longer needed.", 
+        "update": "", 
+        "module": "Bluetooth", 
+        "id": "CVE-2013-5166 ", 
+        "credit": "Stefano Bianchi Mazzone, Mattia Pagnozzi, and Aristide Fattori of Computer and Network Security Lab (LaSER), Universit\u00e0 degli Studi di Milano", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Session cookies may persist even after resetting Safari", 
+        "available": "", 
+        "description": "Resetting Safari did not always delete session cookies until Safari was closed. This issue was addressed through improved handling of session cookies.", 
+        "update": "", 
+        "module": "CFNetwork", 
+        "id": "CVE-2013-5167 ", 
+        "credit": "Graham Bennett, Rob Ansaldo of Amherst College", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Clicking on a malicious log entry may lead to unexpected application execution", 
+        "available": "", 
+        "description": "This update modified the behavior of Console when clicking on a log entry with an attached URL. Rather than opening the URL, Console will now preview the URL with Quick Look.", 
+        "update": "", 
+        "module": "Console", 
+        "id": "CVE-2013-5168 ", 
+        "credit": "Aaron Sigel of vtty.com", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Windows may be visible over the lock screen after display sleep", 
+        "available": "", 
+        "description": "A logic issue existed in CoreGraphics's handling of display sleep mode, resulting in data corruption that could result in windows being visible over the lock screen. The issue is addressed through improved handling of display sleep.", 
+        "update": "", 
+        "module": "CoreGraphics", 
+        "id": "CVE-2013-5169", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Viewing a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "", 
+        "description": "A buffer underflow existed in the handling of PDF files. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "CoreGraphics", 
+        "id": "CVE-2013-5170 ", 
+        "credit": "Will Dormann of the CERT/CC", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "An unprivileged application may be able to log keystrokes entered into other applications even when secure input mode is enabled", 
+        "available": "", 
+        "description": "By registering for a hotkey event, an unprivileged application could log keystrokes entered into other applications even when secure input mode was enabled. This issue was addressed by additional validation of hotkey events.", 
+        "update": "", 
+        "module": "CoreGraphics", 
+        "id": "CVE-2013-5171", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Use of SHA-2 digest functions in the kernel may result in an unexpected system termination", 
+        "available": "", 
+        "description": "An incorrect output length was used for the SHA-2 family of digest functions, resulting in a kernel panic when these functions were used, primarily during IPSec connections. The issue was addressed through use of the expected output length.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-5172 ", 
+        "credit": "Christoph Nadig of Lobotomo Software", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A local user may cause a denial of service", 
+        "available": "", 
+        "description": "The kernel random number generator would hold a lock while satisfying a request from userspace, allowing a local user to make a large request and hold the lock for long periods of time, denying service to other users of the random number generator. This issue was addressed by releasing and reacquiring the lock for large requests more frequently.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-5173 ", 
+        "credit": "Jaakko Pero of Aalto University", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A local, unprivileged user may be able to cause an unexpected system termination", 
+        "available": "", 
+        "description": "An integer sign issue existed in the handling of tty reads. This issue was addressed through improved handling of tty reads.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-5174 ", 
+        "credit": "CESG", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A local user may be able to cause kernel memory information disclosure or an unexpected system termination", 
+        "available": "", 
+        "description": "An out of bounds read issue existed in the handling of Mach-O files. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-5175", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A local user may be able to cause a system hang", 
+        "available": "", 
+        "description": "An integer truncation issue existed in the handling of tty devices. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-5176 ", 
+        "credit": "CESG", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A local user may be able to cause an unexpected system termination", 
+        "available": "", 
+        "description": "The kernel would panic when an invalid user-supplied iovec structure was detected. This issue was addressed through improved validation of iovec structures.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-5177 ", 
+        "credit": "CESG", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A file could show the wrong extension.", 
+        "available": "", 
+        "description": "An issue exited in the handling of certain unicode characters that could allow filenames to show incorrect extensions. The issue was addressed by filtering unsafe unicode characters from display in filenames.", 
+        "update": "", 
+        "module": "LaunchServices", 
+        "id": "CVE-2013-5178 ", 
+        "credit": "Jesse Ruderman of Mozilla Corporation, Stephane Sudre of Intego", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "The App Sandbox may be bypassed", 
+        "available": "", 
+        "description": "The LaunchServices interface for launching an application allowed sandboxed apps to specify the list of arguments passed to the new process. A compromised sandboxed application could abuse this to bypass the sandbox. This issue was addressed by disallowing sandboxed applications from specifying arguments.", 
+        "update": "", 
+        "module": "App Sandbox", 
+        "id": "CVE-2013-5179 ", 
+        "credit": "Friedrich Graeter of The Soulmen GbR", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Under unusual circumstances some random numbers may be predictable", 
+        "available": "", 
+        "description": "If the kernel random number generator was not accessible to srandomdev(), the function fell back to an alternative method which had been removed by optimization, leading to a lack of randomness. This issue was addressed by modifying the code to be correct under optimization.", 
+        "update": "", 
+        "module": "Libc", 
+        "id": "CVE-2013-5180 ", 
+        "credit": "Xi Wang", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Mail may not choose the most secure authentication method available", 
+        "available": "", 
+        "description": "When auto-configuring a mail account on certain mailservers, the Mail app would choose plaintext authentication over CRAM-MD5 authentication. This issue was addressed through improved logic handling.", 
+        "update": "", 
+        "module": "Mail Accounts", 
+        "id": "CVE-2013-5181", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "An unsigned message may appear to be validly signed.", 
+        "available": "", 
+        "description": "A logic issue existed in Mail's handling of unsigned messages that nevertheless contained a multipart/signed part. The issue was addressed through improved handling of unsigned messages.", 
+        "update": "", 
+        "module": "Mail Header Display", 
+        "id": "CVE-2013-5182 ", 
+        "credit": "Michael Roitzsch of Technische Universit\u00e4t Dresden", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Information may be briefly transferred in plain text when non-TLS encryption is configured.", 
+        "available": "", 
+        "description": "When Kerberos authentication was enabled and Transport Layer Security was disabled, Mail would send some unencrypted data to the mail server, leading to an unexpected termination of the connection. The issue was addressed through improved handling of this configuration.", 
+        "update": "", 
+        "module": "Mail Networking", 
+        "id": "CVE-2013-5183 ", 
+        "credit": "Richard E. Silverman of www.qoxp.net", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Source specific multicast program may cause an unexpected system termination when using Wi-Fi network", 
+        "available": "", 
+        "description": "An error checking issue existed in the handling of a multicast packets. This issue was addressed through improved handling of multicast packets.", 
+        "update": "", 
+        "module": "Kernel", 
+        "id": "CVE-2013-5184 ", 
+        "credit": "Octoshape", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "The ldapsearch command line tool did not honor the minssf configuration", 
+        "available": "", 
+        "description": "The ldapsearch command line tool did not honor the minssf configuration, which could lead to weak encryption being allowed unexpectedly. This issue was addressed through improved handling of the minssf configuration.", 
+        "update": "", 
+        "module": "OpenLDAP", 
+        "id": "CVE-2013-5185", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "The screen lock may not engage after the specified time period", 
+        "available": "", 
+        "description": "A locking issue existed in power assertion management. The issue was addressed through improved lock handling.", 
+        "update": "", 
+        "module": "Power Management", 
+        "id": "CVE-2013-5186 ", 
+        "credit": "David Herman at Sensible DB Design", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "The \"Lock Screen\" command may not take effect immediately", 
+        "available": "", 
+        "description": "The \"Lock Screen\" command in the Keychain Status menu bar item did not take effect until after the \"Require password [amount of time] after sleep or screen saver begins\" setting had elapsed.", 
+        "update": "", 
+        "module": "Screen Lock", 
+        "id": "CVE-2013-5187 ", 
+        "credit": "Michael Kisor of OrganicOrb.com, Christian Knappskog of NTNU (Norwegian University of Science and Technology), Stefan Gr\u00f6nke (CCC Trier), Patrick Reed", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A hibernated Mac with Autologin may not require a password to wake", 
+        "available": "", 
+        "description": "A Mac with hibernation and autologin enabled may allow waking from hibernation without prompting for a password. This issue was addressed through improved lock handling.", 
+        "update": "", 
+        "module": "Screen Lock", 
+        "id": "CVE-2013-5188 ", 
+        "credit": "Levi Musters", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "An administrator's security preferences may not be respected", 
+        "available": "", 
+        "description": "The \"Require an administrator password to access system preferences with lock icons\" setting allows administrators to add an additional layer of protection to sensitive system settings. In some cases where an administrator had enabled this setting, applying a software update or upgrade could have subsequently disabled the setting. This issue was addressed through improved handling of authorization rights.", 
+        "update": "", 
+        "module": "Security - Authorization", 
+        "id": "CVE-2013-5189 ", 
+        "credit": "Greg Onufer", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "Smart Card Services may be unavailable when certificate revocation checks are enabled", 
+        "available": "", 
+        "description": "\"A logic issue existed in OS X's handling of Smart Card certificate revocation checks. The issue was addressed through improved certificate revocation support.", 
+        "update": "", 
+        "module": "Security - Smart Card Services", 
+        "id": "CVE-2013-5190 ", 
+        "credit": "Yongjun Jeon of Centrify Corporation", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A Guest user may be able to see log messages from previous Guests", 
+        "available": "", 
+        "description": "The console log was visible to the Guest user and contained messages from previous Guest user sessions. This issue was addressed by making the console log for Guest users visible only to administrators.", 
+        "update": "", 
+        "module": "syslog", 
+        "id": "CVE-2013-5191 ", 
+        "credit": "Sven-S. Porst of earthlingsoft", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A malicious local application could cause an unexpected system termination", 
+        "available": "", 
+        "description": "The USB hub controller didn't check the port and port number of requests. The issue was addressed by adding checks of the port and port number.", 
+        "update": "", 
+        "module": "USB", 
+        "id": "CVE-2013-5192 ", 
+        "credit": "Stefano Bianchi Mazzone, Mattia Pagnozzi, and Aristide Fattori of Computer and Network Security Lab (LaSER), Universit\u00e0 degli Studi di Milano", 
+        "page": "http://support.apple.com/en-us/HT6011"
+    }, 
+    {
+        "impact": "A maliciously crafted .motn file could lead to arbitrary code execution", 
+        "available": "OS X Mavericks v10.9 or later", 
+        "description": "An integer overflow existed in the handling of .motn files which led to an out of bounds memory access. This issue was addressed through improved bounds checking.", 
+        "update": "", 
+        "module": "Motion", 
+        "id": "CVE-2013-6114 ", 
+        "credit": "Jean Pascal Pereira", 
+        "page": "http://support.apple.com/en-us/HT6041"
+    }, 
+    {
+        "impact": "App and In-App purchases may be completed with insufficient authorization", 
+        "available": "iPhone 4 and later, iPod touch &lpar;5th generation&rpar; and later, iPad 2 and later", 
+        "description": "A signed-in user may be able to complete a transaction without providing a password when prompted. This issue was addressed by additional enforcement of purchase authorization.", 
+        "update": "", 
+        "module": "App Store", 
+        "id": "CVE-2013-5193", 
+        "credit": "", 
+        "page": "http://support.apple.com/en-us/HT6058"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5, OS X Mavericks v10.9", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-2909 ", 
+        "credit": "Atte Kettunen of OUSPG", 
+        "page": "http://support.apple.com/en-us/HT6082"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5, OS X Mavericks v10.9", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5195 ", 
+        "credit": "Apple", 
+        "page": "http://support.apple.com/en-us/HT6082"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5, OS X Mavericks v10.9", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5196 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6082"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5, OS X Mavericks v10.9", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5197 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6082"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5, OS X Mavericks v10.9", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5198 ", 
+        "credit": "Apple", 
+        "page": "http://support.apple.com/en-us/HT6082"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5, OS X Mavericks v10.9", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5199 ", 
+        "credit": "Apple", 
+        "page": "http://support.apple.com/en-us/HT6082"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5, OS X Mavericks v10.9", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5225 ", 
+        "credit": "Google Chrome Security Team", 
+        "page": "http://support.apple.com/en-us/HT6082"
+    }, 
+    {
+        "impact": "User credentials may be disclosed to an unexpected site via autofill", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5, OS X Mavericks v10.9", 
+        "description": "Safari may have autofilled user names and passwords into a subframe from a different domain than the main frame. This issue was addressed through improved origin tracking.", 
+        "update": "", 
+        "module": "Safari", 
+        "id": "CVE-2013-5227 ", 
+        "credit": "Niklas Malmgren of Klarna AB", 
+        "page": "http://support.apple.com/en-us/HT6082"
+    }, 
+    {
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
+        "available": "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.5, OS X Mavericks v10.9", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2013-5228 ", 
+        "credit": "Keen Team &lpar;&commat;K33nTeam&rpar; working with HP's Zero Day Initiative", 
+        "page": "http://support.apple.com/en-us/HT6082"
+    }
+]
