@@ -2322,7 +2322,7 @@
         "impact": "An app may be able to execute arbitrary code with kernel privileges", 
         "available": "macOS Sonoma", 
         "description": "A buffer overflow issue was addressed with improved memory handling.", 
-        "update": "October 15, 2024", 
+        "update": "November 13, 2024", 
         "module": "ASP TCP", 
         "id": "CVE-2024-27878", 
         "credit": "CertiK SkyFall Team", 
@@ -4366,13 +4366,13 @@
     }, 
     {
         "impact": "Private browsing may leak some browsing history", 
-        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "available": "macOS Ventura and macOS Sonoma", 
         "description": "An information leakage was addressed with additional validation.", 
         "update": "", 
         "module": "Safari Private Browsing", 
         "id": "CVE-2024-44229", 
         "credit": "Lucas Di Tomase", 
-        "page": "https://support.apple.com/en-us/121563", 
+        "page": "https://support.apple.com/en-us/121571", 
         "rsr": ""
     }, 
     {
@@ -4384,6 +4384,39 @@
         "id": "CVE-2024-44231", 
         "credit": "Toomas R\u00f6mer", 
         "page": "https://support.apple.com/en-us/121564", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted video file may lead to unexpected system termination", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved bounds checks.", 
+        "update": "November 1, 2024", 
+        "module": "AppleAVD", 
+        "id": "CVE-2024-44232", 
+        "credit": "Ivan Fratric of Google Project Zero", 
+        "page": "https://support.apple.com/en-us/121563", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted video file may lead to unexpected system termination", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved bounds checks.", 
+        "update": "November 1, 2024", 
+        "module": "AppleAVD", 
+        "id": "CVE-2024-44233", 
+        "credit": "Ivan Fratric of Google Project Zero", 
+        "page": "https://support.apple.com/en-us/121563", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted video file may lead to unexpected system termination", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved bounds checks.", 
+        "update": "November 1, 2024", 
+        "module": "AppleAVD", 
+        "id": "CVE-2024-44234", 
+        "credit": "Ivan Fratric of Google Project Zero", 
+        "page": "https://support.apple.com/en-us/121563", 
         "rsr": ""
     }, 
     {
@@ -4443,14 +4476,14 @@
     }, 
     {
         "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
-        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "available": "macOS Ventura and macOS Sonoma", 
         "description": "A memory corruption issue was addressed with improved input validation.", 
         "update": "", 
         "module": "WebKit", 
         "id": "CVE-2024-44244", 
         "credit": "an anonymous researcher, Q1IQ (@q1iqF) and P1umer (@p1umer)", 
         "bugzilla": "279780", 
-        "page": "https://support.apple.com/en-us/121563", 
+        "page": "https://support.apple.com/en-us/121571", 
         "rsr": ""
     }, 
     {
@@ -4554,13 +4587,13 @@
     }, 
     {
         "impact": "An attacker may be able to misuse a trust relationship to download malicious content", 
-        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "available": "macOS Ventura and macOS Sonoma", 
         "description": "This issue was addressed through improved state management.", 
         "update": "", 
         "module": "Safari Downloads", 
         "id": "CVE-2024-44259", 
         "credit": "Narendra Bhati, Manager of Cyber Security at Suma Soft Pvt. Ltd, Pune (India)", 
-        "page": "https://support.apple.com/en-us/121563", 
+        "page": "https://support.apple.com/en-us/121571", 
         "rsr": ""
     }, 
     {
@@ -4862,14 +4895,14 @@
     }, 
     {
         "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced", 
-        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "available": "macOS Ventura and macOS Sonoma", 
         "description": "The issue was addressed with improved checks.", 
         "update": "", 
         "module": "WebKit", 
         "id": "CVE-2024-44296", 
         "credit": "Narendra Bhati, Manager of Cyber Security at Suma Soft Pvt. Ltd, Pune (India)", 
         "bugzilla": "278765", 
-        "page": "https://support.apple.com/en-us/121563", 
+        "page": "https://support.apple.com/en-us/121571", 
         "rsr": ""
     }, 
     {
@@ -4914,6 +4947,52 @@
         "id": "CVE-2024-44302", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
         "page": "https://support.apple.com/en-us/121563", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to execute arbitrary code with kernel privileges", 
+        "available": "macOS Sonoma", 
+        "description": "A buffer overflow issue was addressed with improved memory handling.", 
+        "update": "November 13, 2024", 
+        "module": "ASP TCP", 
+        "id": "CVE-2024-44306", 
+        "credit": "CertiK SkyFall Team", 
+        "page": "https://support.apple.com/en-us/120911", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to execute arbitrary code with kernel privileges", 
+        "available": "macOS Sonoma", 
+        "description": "A buffer overflow issue was addressed with improved memory handling.", 
+        "update": "November 13, 2024", 
+        "module": "ASP TCP", 
+        "id": "CVE-2024-44307", 
+        "credit": "CertiK SkyFall Team", 
+        "page": "https://support.apple.com/en-us/120911", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems.", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "The issue was addressed with improved checks.", 
+        "update": "", 
+        "module": "JavaScriptCore", 
+        "id": "CVE-2024-44308", 
+        "credit": "Cl\u00e9ment Lecigne and Beno\u00eet Sevens of Google's Threat Analysis Group", 
+        "bugzilla": "283063", 
+        "page": "https://support.apple.com/en-us/121756", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack. Apple is aware of a report that this issue may have been actively exploited on Intel-based Mac systems.", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "A cookie management issue was addressed with improved state management.", 
+        "update": "", 
+        "module": "WebKit", 
+        "id": "CVE-2024-44309", 
+        "credit": "Cl\u00e9ment Lecigne and Beno\u00eet Sevens of Google's Threat Analysis Group", 
+        "bugzilla": "283095", 
+        "page": "https://support.apple.com/en-us/121756", 
         "rsr": ""
     }, 
     {
