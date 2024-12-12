@@ -8,8 +8,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2022-42816", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2022-42816", 
         "rsr": ""
     }, 
     {
@@ -24,8 +24,8 @@
         ], 
         "update": "", 
         "module": "file", 
-        "id": "CVE-2022-48554", 
         "credit": "", 
+        "id": "CVE-2022-48554", 
         "rsr": ""
     }, 
     {
@@ -37,8 +37,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2023-27952", 
         "credit": "Csaba Fitzl (@theevilbit) of Offensive Security", 
+        "id": "CVE-2023-27952", 
         "rsr": ""
     }, 
     {
@@ -52,8 +52,21 @@
         ], 
         "update": "", 
         "module": "MediaRemote", 
-        "id": "CVE-2023-28826", 
         "credit": "Meng Zhang (\u9cb8\u843d) of NorthSea", 
+        "id": "CVE-2023-28826", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to modify protected parts of the file system", 
+        "available": "macOS Sequoia", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "Perl", 
+        "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2023-32395", 
         "rsr": ""
     }, 
     {
@@ -66,8 +79,8 @@
         ], 
         "update": "February 13, 2024", 
         "module": "curl", 
+        "credit": "", 
         "id": "CVE-2023-38039", 
-        "credit": "", 
         "rsr": ""
     }, 
     {
@@ -80,8 +93,8 @@
         ], 
         "update": "February 13, 2024", 
         "module": "curl", 
+        "credit": "", 
         "id": "CVE-2023-38545", 
-        "credit": "", 
         "rsr": ""
     }, 
     {
@@ -94,8 +107,8 @@
         ], 
         "update": "February 13, 2024", 
         "module": "curl", 
-        "id": "CVE-2023-38546", 
         "credit": "", 
+        "id": "CVE-2023-38546", 
         "rsr": ""
     }, 
     {
@@ -107,8 +120,8 @@
         ], 
         "update": "", 
         "module": "apache", 
-        "id": "CVE-2023-38709", 
         "credit": "Yeto", 
+        "id": "CVE-2023-38709", 
         "rsr": ""
     }, 
     {
@@ -121,8 +134,8 @@
         ], 
         "update": "May 31, 2024", 
         "module": "Transparency", 
-        "id": "CVE-2023-40389", 
         "credit": "Csaba Fitzl (@theevilbit) of Offensive Security and Joshua Jewett (@JoshJewett33)", 
+        "id": "CVE-2023-40389", 
         "rsr": ""
     }, 
     {
@@ -134,8 +147,8 @@
         ], 
         "update": "", 
         "module": "Core Data", 
-        "id": "CVE-2023-40528", 
         "credit": "Kirin (@Pwnrin) of NorthSea", 
+        "id": "CVE-2023-40528", 
         "rsr": ""
     }, 
     {
@@ -147,8 +160,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2023-42853", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2023-42853", 
         "rsr": ""
     }, 
     {
@@ -160,8 +173,8 @@
         ], 
         "update": "", 
         "module": "Login Window", 
-        "id": "CVE-2023-42861", 
         "credit": "an anonymous researcher, \u51ef \u738b, Steven Maser, Matthew McLean, Brandon Chesser, CPU IT, inc, and Avalon IT Team of Concentrix", 
+        "id": "CVE-2023-42861", 
         "rsr": ""
     }, 
     {
@@ -173,8 +186,8 @@
         ], 
         "update": "", 
         "module": "NSOpenPanel", 
-        "id": "CVE-2023-42887", 
         "credit": "Ron Masas of BreakPoint.sh", 
+        "id": "CVE-2023-42887", 
         "rsr": ""
     }, 
     {
@@ -188,8 +201,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2023-42888", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2023-42888", 
         "rsr": ""
     }, 
     {
@@ -202,8 +215,8 @@
         ], 
         "update": "", 
         "module": "Libsystem", 
-        "id": "CVE-2023-42893", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2023-42893", 
         "rsr": ""
     }, 
     {
@@ -215,9 +228,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2023-42916", 
         "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group", 
         "bugzilla": "265041", 
+        "id": "CVE-2023-42916", 
         "rsr": ""
     }, 
     {
@@ -229,9 +242,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2023-42917", 
         "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group", 
         "bugzilla": "265067", 
+        "id": "CVE-2023-42917", 
         "rsr": ""
     }, 
     {
@@ -243,8 +256,8 @@
         ], 
         "update": "April 24, 2024", 
         "module": "LoginWindow", 
-        "id": "CVE-2023-42935", 
         "credit": "ASentientBot", 
+        "id": "CVE-2023-42935", 
         "rsr": ""
     }, 
     {
@@ -258,8 +271,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2023-42937", 
         "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)", 
+        "id": "CVE-2023-42937", 
         "rsr": ""
     }, 
     {
@@ -271,8 +284,8 @@
         ], 
         "update": "", 
         "module": "CUPS", 
+        "credit": "", 
         "id": "CVE-2023-4504", 
-        "credit": "", 
         "rsr": ""
     }, 
     {
@@ -284,8 +297,8 @@
         ], 
         "update": "", 
         "module": "OpenSSH", 
+        "credit": "", 
         "id": "CVE-2023-48795", 
-        "credit": "", 
         "rsr": ""
     }, 
     {
@@ -297,8 +310,8 @@
         ], 
         "update": "", 
         "module": "OpenSSH", 
+        "credit": "", 
         "id": "CVE-2023-51384", 
-        "credit": "", 
         "rsr": ""
     }, 
     {
@@ -310,8 +323,8 @@
         ], 
         "update": "", 
         "module": "OpenSSH", 
-        "id": "CVE-2023-51385", 
         "credit": "", 
+        "id": "CVE-2023-51385", 
         "rsr": ""
     }, 
     {
@@ -330,8 +343,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2023-52356", 
         "credit": "", 
+        "id": "CVE-2023-52356", 
         "rsr": ""
     }, 
     {
@@ -346,8 +359,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2023-5841", 
         "credit": "", 
+        "id": "CVE-2023-5841", 
         "rsr": ""
     }, 
     {
@@ -366,8 +379,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2023-6277", 
         "credit": "", 
+        "id": "CVE-2023-6277", 
         "rsr": ""
     }, 
     {
@@ -379,8 +392,8 @@
         ], 
         "update": "", 
         "module": "Bluetooth", 
-        "id": "CVE-2024-0230", 
         "credit": "Marc Newlin of SkySafe", 
+        "id": "CVE-2024-0230", 
         "rsr": ""
     }, 
     {
@@ -395,8 +408,8 @@
         ], 
         "update": "", 
         "module": "libxpc", 
-        "id": "CVE-2024-0258", 
         "credit": "ali yabuz", 
+        "id": "CVE-2024-0258", 
         "rsr": ""
     }, 
     {
@@ -418,8 +431,8 @@
         ], 
         "update": "", 
         "module": "WebRTC", 
-        "id": "CVE-2024-1580", 
         "credit": "Nick Galloway of Google Project Zero", 
+        "id": "CVE-2024-1580", 
         "rsr": ""
     }, 
     {
@@ -433,8 +446,8 @@
         ], 
         "update": "", 
         "module": "curl", 
-        "id": "CVE-2024-2004", 
         "credit": "", 
+        "id": "CVE-2024-2004", 
         "rsr": ""
     }, 
     {
@@ -451,8 +464,8 @@
         ], 
         "update": "", 
         "module": "libxpc", 
-        "id": "CVE-2024-23201", 
         "credit": "Koh M. Nakagawa of FFRI Security, Inc., an anonymous researcher", 
+        "id": "CVE-2024-23201", 
         "rsr": ""
     }, 
     {
@@ -467,8 +480,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-23203", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-23203", 
         "rsr": ""
     }, 
     {
@@ -485,8 +498,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-23204", 
         "credit": "Jubaer Alnazi (@h33tjubaer)", 
+        "id": "CVE-2024-23204", 
         "rsr": ""
     }, 
     {
@@ -499,8 +512,8 @@
         ], 
         "update": "", 
         "module": "ExtensionKit", 
-        "id": "CVE-2024-23205", 
         "credit": "", 
+        "id": "CVE-2024-23205", 
         "rsr": ""
     }, 
     {
@@ -517,9 +530,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-23206", 
         "credit": "an anonymous researcher", 
         "bugzilla": "262699", 
+        "id": "CVE-2024-23206", 
         "rsr": ""
     }, 
     {
@@ -535,8 +548,8 @@
         ], 
         "update": "", 
         "module": "Mail Search", 
-        "id": "CVE-2024-23207", 
         "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab), and Ian de Marcellus", 
+        "id": "CVE-2024-23207", 
         "rsr": ""
     }, 
     {
@@ -551,8 +564,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-23208", 
         "credit": "fmyy(@binary_fmyy) and lime From TIANGONG Team of Legendsec at QI-ANXIN Group", 
+        "id": "CVE-2024-23208", 
         "rsr": ""
     }, 
     {
@@ -564,8 +577,8 @@
         ], 
         "update": "", 
         "module": "LLVM", 
-        "id": "CVE-2024-23209", 
         "credit": "", 
+        "id": "CVE-2024-23209", 
         "rsr": ""
     }, 
     {
@@ -580,8 +593,8 @@
         ], 
         "update": "", 
         "module": "Time Zone", 
-        "id": "CVE-2024-23210", 
         "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)", 
+        "id": "CVE-2024-23210", 
         "rsr": ""
     }, 
     {
@@ -597,8 +610,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2024-23211", 
         "credit": "Mark Bowers", 
+        "id": "CVE-2024-23211", 
         "rsr": ""
     }, 
     {
@@ -616,8 +629,8 @@
         ], 
         "update": "", 
         "module": "Apple Neural Engine", 
-        "id": "CVE-2024-23212", 
         "credit": "Ye Zhang of Baidu Security", 
+        "id": "CVE-2024-23212", 
         "rsr": ""
     }, 
     {
@@ -634,9 +647,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-23213", 
         "credit": "Wangtaiyu of Zhongfu info", 
         "bugzilla": "266619", 
+        "id": "CVE-2024-23213", 
         "rsr": ""
     }, 
     {
@@ -650,9 +663,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-23214", 
         "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute", 
         "bugzilla": "265129", 
+        "id": "CVE-2024-23214", 
         "rsr": ""
     }, 
     {
@@ -667,8 +680,8 @@
         ], 
         "update": "", 
         "module": "TCC", 
-        "id": "CVE-2024-23215", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2024-23215", 
         "rsr": ""
     }, 
     {
@@ -682,8 +695,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-23216", 
         "credit": "Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2024-23216", 
         "rsr": ""
     }, 
     {
@@ -698,8 +711,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-23217", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-23217", 
         "rsr": ""
     }, 
     {
@@ -717,8 +730,8 @@
         ], 
         "update": "", 
         "module": "CoreCrypto", 
-        "id": "CVE-2024-23218", 
         "credit": "Clemens Lang", 
+        "id": "CVE-2024-23218", 
         "rsr": ""
     }, 
     {
@@ -730,8 +743,8 @@
         ], 
         "update": "", 
         "module": "Reset Services", 
-        "id": "CVE-2024-23219", 
         "credit": "Peter Watthey and Christian Scalese", 
+        "id": "CVE-2024-23219", 
         "rsr": ""
     }, 
     {
@@ -744,8 +757,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2024-23220", 
         "credit": "", 
+        "id": "CVE-2024-23220", 
         "rsr": ""
     }, 
     {
@@ -764,9 +777,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-23222", 
         "credit": "", 
         "bugzilla": "267134", 
+        "id": "CVE-2024-23222", 
         "rsr": ""
     }, 
     {
@@ -781,8 +794,8 @@
         ], 
         "update": "", 
         "module": "NSSpellChecker", 
-        "id": "CVE-2024-23223", 
         "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)", 
+        "id": "CVE-2024-23223", 
         "rsr": ""
     }, 
     {
@@ -795,8 +808,8 @@
         ], 
         "update": "", 
         "module": "Finder", 
-        "id": "CVE-2024-23224", 
         "credit": "Brian McNulty", 
+        "id": "CVE-2024-23224", 
         "rsr": ""
     }, 
     {
@@ -815,8 +828,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-23225", 
         "credit": "", 
+        "id": "CVE-2024-23225", 
         "rsr": ""
     }, 
     {
@@ -832,9 +845,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-23226", 
         "credit": "Pwn2car", 
         "bugzilla": "259694", 
+        "id": "CVE-2024-23226", 
         "rsr": ""
     }, 
     {
@@ -848,8 +861,8 @@
         ], 
         "update": "", 
         "module": "Airport", 
-        "id": "CVE-2024-23227", 
         "credit": "Brian McNulty", 
+        "id": "CVE-2024-23227", 
         "rsr": ""
     }, 
     {
@@ -861,8 +874,8 @@
         ], 
         "update": "April 24, 2024", 
         "module": "Notes", 
-        "id": "CVE-2024-23228", 
         "credit": "Harsh Tyagi", 
+        "id": "CVE-2024-23228", 
         "rsr": ""
     }, 
     {
@@ -876,8 +889,8 @@
         ], 
         "update": "", 
         "module": "Find My", 
-        "id": "CVE-2024-23229", 
         "credit": "Joshua Jewett (@JoshJewett33)", 
+        "id": "CVE-2024-23229", 
         "rsr": ""
     }, 
     {
@@ -891,8 +904,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2024-23230", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-23230", 
         "rsr": ""
     }, 
     {
@@ -908,8 +921,8 @@
         ], 
         "update": "", 
         "module": "Share Sheet", 
-        "id": "CVE-2024-23231", 
         "credit": "Kirin (@Pwnrin) and luckyu (@uuulucky)", 
+        "id": "CVE-2024-23231", 
         "rsr": ""
     }, 
     {
@@ -921,8 +934,8 @@
         ], 
         "update": "", 
         "module": "Screen Capture", 
-        "id": "CVE-2024-23232", 
         "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)", 
+        "id": "CVE-2024-23232", 
         "rsr": ""
     }, 
     {
@@ -934,8 +947,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-23233", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-23233", 
         "rsr": ""
     }, 
     {
@@ -949,8 +962,8 @@
         ], 
         "update": "", 
         "module": "Intel Graphics Driver", 
-        "id": "CVE-2024-23234", 
         "credit": "Murray Mike", 
+        "id": "CVE-2024-23234", 
         "rsr": ""
     }, 
     {
@@ -967,8 +980,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-23235", 
         "credit": "", 
+        "id": "CVE-2024-23235", 
         "rsr": ""
     }, 
     {
@@ -980,8 +993,8 @@
         ], 
         "update": "", 
         "module": "CFNetwork", 
-        "id": "CVE-2024-23236", 
         "credit": "Ron Masas of Imperva", 
+        "id": "CVE-2024-23236", 
         "rsr": ""
     }, 
     {
@@ -993,8 +1006,8 @@
         ], 
         "update": "", 
         "module": "Wi-Fi", 
-        "id": "CVE-2024-23237", 
         "credit": "Charly Suchanek", 
+        "id": "CVE-2024-23237", 
         "rsr": ""
     }, 
     {
@@ -1006,8 +1019,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2024-23238", 
         "credit": "", 
+        "id": "CVE-2024-23238", 
         "rsr": ""
     }, 
     {
@@ -1022,8 +1035,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2024-23239", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-23239", 
         "rsr": ""
     }, 
     {
@@ -1035,8 +1048,8 @@
         ], 
         "update": "March 7, 2024", 
         "module": "Photos", 
-        "id": "CVE-2024-23240", 
         "credit": "Harsh Tyagi", 
+        "id": "CVE-2024-23240", 
         "rsr": ""
     }, 
     {
@@ -1050,8 +1063,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2024-23241", 
         "credit": "", 
+        "id": "CVE-2024-23241", 
         "rsr": ""
     }, 
     {
@@ -1064,8 +1077,8 @@
         ], 
         "update": "", 
         "module": "Synapse", 
-        "id": "CVE-2024-23242", 
         "credit": "", 
+        "id": "CVE-2024-23242", 
         "rsr": ""
     }, 
     {
@@ -1077,8 +1090,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2024-23243", 
         "credit": "Cristian Dinca of \"Tudor Vianu\" National High School of Computer Science, Romania", 
+        "id": "CVE-2024-23243", 
         "rsr": ""
     }, 
     {
@@ -1091,8 +1104,8 @@
         ], 
         "update": "", 
         "module": "Dock", 
-        "id": "CVE-2024-23244", 
         "credit": "Csaba Fitzl (@theevilbit) of OffSec", 
+        "id": "CVE-2024-23244", 
         "rsr": ""
     }, 
     {
@@ -1106,8 +1119,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-23245", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-23245", 
         "rsr": ""
     }, 
     {
@@ -1124,8 +1137,8 @@
         ], 
         "update": "", 
         "module": "UIKit", 
-        "id": "CVE-2024-23246", 
         "credit": "Deutsche Telekom Security GmbH sponsored by Bundesamt f\u00fcr Sicherheit in der Informationstechnik", 
+        "id": "CVE-2024-23246", 
         "rsr": ""
     }, 
     {
@@ -1139,8 +1152,8 @@
         ], 
         "update": "", 
         "module": "ColorSync", 
+        "credit": "m4yfly with TianGong Team of Legendsec at Qi'anxin Group", 
         "id": "CVE-2024-23247", 
-        "credit": "m4yfly with TianGong Team of Legendsec at Qi'anxin Group", 
         "rsr": ""
     }, 
     {
@@ -1152,8 +1165,8 @@
         ], 
         "update": "", 
         "module": "ColorSync", 
+        "credit": "m4yfly with TianGong Team of Legendsec at Qi'anxin Group", 
         "id": "CVE-2024-23248", 
-        "credit": "m4yfly with TianGong Team of Legendsec at Qi'anxin Group", 
         "rsr": ""
     }, 
     {
@@ -1165,8 +1178,8 @@
         ], 
         "update": "", 
         "module": "ColorSync", 
-        "id": "CVE-2024-23249", 
         "credit": "m4yfly with TianGong Team of Legendsec at Qi'anxin Group", 
+        "id": "CVE-2024-23249", 
         "rsr": ""
     }, 
     {
@@ -1181,8 +1194,8 @@
         ], 
         "update": "", 
         "module": "CoreBluetooth - LE", 
-        "id": "CVE-2024-23250", 
         "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)", 
+        "id": "CVE-2024-23250", 
         "rsr": ""
     }, 
     {
@@ -1197,8 +1210,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "Mail", 
-        "id": "CVE-2024-23251", 
         "credit": "Gil Pedersen", 
+        "id": "CVE-2024-23251", 
         "rsr": ""
     }, 
     {
@@ -1210,8 +1223,8 @@
         ], 
         "update": "", 
         "module": "Image Capture", 
-        "id": "CVE-2024-23253", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-23253", 
         "rsr": ""
     }, 
     {
@@ -1228,9 +1241,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-23254", 
         "credit": "James Lee (@Windowsrcer)", 
         "bugzilla": "263795", 
+        "id": "CVE-2024-23254", 
         "rsr": ""
     }, 
     {
@@ -1243,8 +1256,8 @@
         ], 
         "update": "", 
         "module": "Photos", 
-        "id": "CVE-2024-23255", 
         "credit": "Harsh Tyagi", 
+        "id": "CVE-2024-23255", 
         "rsr": ""
     }, 
     {
@@ -1256,8 +1269,8 @@
         ], 
         "update": "", 
         "module": "Safari Private Browsing", 
-        "id": "CVE-2024-23256", 
         "credit": "Om Kothawade", 
+        "id": "CVE-2024-23256", 
         "rsr": ""
     }, 
     {
@@ -1273,8 +1286,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2024-23257", 
         "credit": "Junsung Lee working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-23257", 
         "rsr": ""
     }, 
     {
@@ -1287,8 +1300,8 @@
         ], 
         "update": "May 29, 2024", 
         "module": "ImageIO", 
-        "id": "CVE-2024-23258", 
         "credit": "Zhenjiang Zhao of pangu team, Qianxin, and Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations", 
+        "id": "CVE-2024-23258", 
         "rsr": ""
     }, 
     {
@@ -1302,8 +1315,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2024-23259", 
         "credit": "Lyra Rebane (rebane2001)", 
+        "id": "CVE-2024-23259", 
         "rsr": ""
     }, 
     {
@@ -1315,8 +1328,8 @@
         ], 
         "update": "", 
         "module": "TV App", 
-        "id": "CVE-2024-23260", 
         "credit": "Joshua Jewett (@JoshJewett33)", 
+        "id": "CVE-2024-23260", 
         "rsr": ""
     }, 
     {
@@ -1330,8 +1343,8 @@
         ], 
         "update": "", 
         "module": "Time Zone", 
-        "id": "CVE-2024-23261", 
         "credit": "Matthew Loewen", 
+        "id": "CVE-2024-23261", 
         "rsr": ""
     }, 
     {
@@ -1345,8 +1358,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2024-23262", 
         "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)", 
+        "id": "CVE-2024-23262", 
         "rsr": ""
     }, 
     {
@@ -1364,9 +1377,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-23263", 
         "credit": "Johan Carlsson (joaxcar)", 
         "bugzilla": "264811", 
+        "id": "CVE-2024-23263", 
         "rsr": ""
     }, 
     {
@@ -1384,8 +1397,8 @@
         ], 
         "update": "", 
         "module": "Metal", 
-        "id": "CVE-2024-23264", 
         "credit": "Meysam Firouzi @R00tkitsmm working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-23264", 
         "rsr": ""
     }, 
     {
@@ -1404,8 +1417,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-23265", 
         "credit": "Xinru Chi of Pangu Lab", 
+        "id": "CVE-2024-23265", 
         "rsr": ""
     }, 
     {
@@ -1419,8 +1432,8 @@
         ], 
         "update": "", 
         "module": "Kerberos v5 PAM module", 
-        "id": "CVE-2024-23266", 
         "credit": "Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2024-23266", 
         "rsr": ""
     }, 
     {
@@ -1434,8 +1447,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-23267", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-23267", 
         "rsr": ""
     }, 
     {
@@ -1449,8 +1462,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-23268", 
         "credit": "Mickey Jin (@patch1t), Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2024-23268", 
         "rsr": ""
     }, 
     {
@@ -1464,8 +1477,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-23269", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-23269", 
         "rsr": ""
     }, 
     {
@@ -1481,8 +1494,8 @@
         ], 
         "update": "", 
         "module": "Image Processing", 
-        "id": "CVE-2024-23270", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-23270", 
         "rsr": ""
     }, 
     {
@@ -1498,9 +1511,9 @@
         ], 
         "update": "April 24, 2024", 
         "module": "WebKit", 
-        "id": "CVE-2024-23271", 
         "credit": "James Lee (@Windowsrcer)", 
         "bugzilla": "265812", 
+        "id": "CVE-2024-23271", 
         "rsr": ""
     }, 
     {
@@ -1514,8 +1527,8 @@
         ], 
         "update": "May 13, 2024", 
         "module": "Storage Services", 
-        "id": "CVE-2024-23272", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-23272", 
         "rsr": ""
     }, 
     {
@@ -1529,8 +1542,8 @@
         ], 
         "update": "", 
         "module": "Safari Private Browsing", 
-        "id": "CVE-2024-23273", 
         "credit": "Matej Rabzelj", 
+        "id": "CVE-2024-23273", 
         "rsr": ""
     }, 
     {
@@ -1544,8 +1557,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-23274", 
         "credit": "Bohdan Stasiuk (@Bohdan_Stasiuk)", 
+        "id": "CVE-2024-23274", 
         "rsr": ""
     }, 
     {
@@ -1559,8 +1572,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-23275", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-23275", 
         "rsr": ""
     }, 
     {
@@ -1574,8 +1587,8 @@
         ], 
         "update": "", 
         "module": "Admin Framework", 
-        "id": "CVE-2024-23276", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-23276", 
         "rsr": ""
     }, 
     {
@@ -1588,8 +1601,8 @@
         ], 
         "update": "", 
         "module": "Bluetooth", 
-        "id": "CVE-2024-23277", 
         "credit": "Marc Newlin of SkySafe", 
+        "id": "CVE-2024-23277", 
         "rsr": ""
     }, 
     {
@@ -1606,8 +1619,8 @@
         ], 
         "update": "", 
         "module": "libxpc", 
-        "id": "CVE-2024-23278", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-23278", 
         "rsr": ""
     }, 
     {
@@ -1619,8 +1632,8 @@
         ], 
         "update": "", 
         "module": "MediaRemote", 
-        "id": "CVE-2024-23279", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-23279", 
         "rsr": ""
     }, 
     {
@@ -1636,9 +1649,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-23280", 
         "credit": "an anonymous researcher", 
         "bugzilla": "266703", 
+        "id": "CVE-2024-23280", 
         "rsr": ""
     }, 
     {
@@ -1650,8 +1663,8 @@
         ], 
         "update": "", 
         "module": "System Settings", 
-        "id": "CVE-2024-23281", 
         "credit": "Joshua Jewett (@JoshJewett33)", 
+        "id": "CVE-2024-23281", 
         "rsr": ""
     }, 
     {
@@ -1666,8 +1679,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "Mail", 
-        "id": "CVE-2024-23282", 
         "credit": "Dohyun Lee (@l33d0hyun)", 
+        "id": "CVE-2024-23282", 
         "rsr": ""
     }, 
     {
@@ -1682,8 +1695,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2024-23283", 
         "credit": "", 
+        "id": "CVE-2024-23283", 
         "rsr": ""
     }, 
     {
@@ -1701,9 +1714,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-23284", 
         "credit": "Georg Felber and Marco Squarcina", 
         "bugzilla": "267241", 
+        "id": "CVE-2024-23284", 
         "rsr": ""
     }, 
     {
@@ -1715,8 +1728,8 @@
         ], 
         "update": "", 
         "module": "Music", 
-        "id": "CVE-2024-23285", 
         "credit": "@08Tc3wBB of Jamf", 
+        "id": "CVE-2024-23285", 
         "rsr": ""
     }, 
     {
@@ -1735,8 +1748,8 @@
         ], 
         "update": "May 29, 2024", 
         "module": "ImageIO", 
-        "id": "CVE-2024-23286", 
         "credit": "Junsung Lee working with Trend Micro Zero Day Initiative, Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations, Dohyun Lee (@l33d0hyun), and Lyutoon and Mr.R", 
+        "id": "CVE-2024-23286", 
         "rsr": ""
     }, 
     {
@@ -1750,8 +1763,8 @@
         ], 
         "update": "", 
         "module": "Messages", 
-        "id": "CVE-2024-23287", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-23287", 
         "rsr": ""
     }, 
     {
@@ -1766,8 +1779,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-23288", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog) and Kirin (@Pwnrin)", 
+        "id": "CVE-2024-23288", 
         "rsr": ""
     }, 
     {
@@ -1782,8 +1795,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-23289", 
         "credit": "Lewis Hardy", 
+        "id": "CVE-2024-23289", 
         "rsr": ""
     }, 
     {
@@ -1798,8 +1811,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2024-23290", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2024-23290", 
         "rsr": ""
     }, 
     {
@@ -1814,8 +1827,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2024-23291", 
         "credit": "", 
+        "id": "CVE-2024-23291", 
         "rsr": ""
     }, 
     {
@@ -1828,8 +1841,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-23292", 
         "credit": "K\u5b9d and LFY@secsys from Fudan University", 
+        "id": "CVE-2024-23292", 
         "rsr": ""
     }, 
     {
@@ -1844,8 +1857,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-23293", 
         "credit": "Bistrit Dahal", 
+        "id": "CVE-2024-23293", 
         "rsr": ""
     }, 
     {
@@ -1857,8 +1870,8 @@
         ], 
         "update": "", 
         "module": "QuartzCore", 
-        "id": "CVE-2024-23294", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2024-23294", 
         "rsr": ""
     }, 
     {
@@ -1870,8 +1883,8 @@
         ], 
         "update": "", 
         "module": "Persona", 
-        "id": "CVE-2024-23295", 
         "credit": "Patrick Reardon", 
+        "id": "CVE-2024-23295", 
         "rsr": ""
     }, 
     {
@@ -1890,8 +1903,8 @@
         ], 
         "update": "", 
         "module": "RTKit", 
-        "id": "CVE-2024-23296", 
         "credit": "", 
+        "id": "CVE-2024-23296", 
         "rsr": ""
     }, 
     {
@@ -1905,8 +1918,8 @@
         ], 
         "update": "", 
         "module": "MediaRemote", 
-        "id": "CVE-2024-23297", 
         "credit": "scj643", 
+        "id": "CVE-2024-23297", 
         "rsr": ""
     }, 
     {
@@ -1918,8 +1931,8 @@
         ], 
         "update": "", 
         "module": "Xcode", 
-        "id": "CVE-2024-23298", 
         "credit": "Jacopo Carloni", 
+        "id": "CVE-2024-23298", 
         "rsr": ""
     }, 
     {
@@ -1933,8 +1946,8 @@
         ], 
         "update": "May 29, 2024", 
         "module": "Disk Images", 
-        "id": "CVE-2024-23299", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-23299", 
         "rsr": ""
     }, 
     {
@@ -1946,8 +1959,8 @@
         ], 
         "update": "", 
         "module": "GarageBand", 
-        "id": "CVE-2024-23300", 
         "credit": "Marc Schoenefeld, Dr. rer. nat.", 
+        "id": "CVE-2024-23300", 
         "rsr": ""
     }, 
     {
@@ -1961,8 +1974,8 @@
         ], 
         "update": "", 
         "module": "curl", 
+        "credit": "", 
         "id": "CVE-2024-2379", 
-        "credit": "", 
         "rsr": ""
     }, 
     {
@@ -1976,8 +1989,8 @@
         ], 
         "update": "", 
         "module": "curl", 
+        "credit": "", 
         "id": "CVE-2024-2398", 
-        "credit": "", 
         "rsr": ""
     }, 
     {
@@ -1991,8 +2004,8 @@
         ], 
         "update": "", 
         "module": "curl", 
-        "id": "CVE-2024-2466", 
         "credit": "", 
+        "id": "CVE-2024-2466", 
         "rsr": ""
     }, 
     {
@@ -2004,8 +2017,8 @@
         ], 
         "update": "", 
         "module": "apache", 
+        "credit": "Yeto", 
         "id": "CVE-2024-24795", 
-        "credit": "Yeto", 
         "rsr": ""
     }, 
     {
@@ -2017,8 +2030,8 @@
         ], 
         "update": "", 
         "module": "apache", 
-        "id": "CVE-2024-27316", 
         "credit": "Yeto", 
+        "id": "CVE-2024-27316", 
         "rsr": ""
     }, 
     {
@@ -2033,8 +2046,8 @@
         ], 
         "update": "", 
         "module": "Foundation", 
-        "id": "CVE-2024-27789", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27789", 
         "rsr": ""
     }, 
     {
@@ -2051,8 +2064,8 @@
         ], 
         "update": "April 24, 2024", 
         "module": "Power Manager", 
-        "id": "CVE-2024-27791", 
         "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd.", 
+        "id": "CVE-2024-27791", 
         "rsr": ""
     }, 
     {
@@ -2064,8 +2077,8 @@
         ], 
         "update": "May 29, 2024", 
         "module": "TCC", 
-        "id": "CVE-2024-27792", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27792", 
         "rsr": ""
     }, 
     {
@@ -2077,8 +2090,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2024-27793", 
         "credit": "Willy R. Vasquez of The University of Texas at Austin", 
+        "id": "CVE-2024-27793", 
         "rsr": ""
     }, 
     {
@@ -2090,8 +2103,8 @@
         ], 
         "update": "", 
         "module": "AppSandbox", 
-        "id": "CVE-2024-27795", 
         "credit": "Halle Winkler, Politepix @hallewinkler", 
+        "id": "CVE-2024-27795", 
         "rsr": ""
     }, 
     {
@@ -2107,8 +2120,8 @@
         ], 
         "update": "", 
         "module": "Voice Control", 
-        "id": "CVE-2024-27796", 
         "credit": "ajajfxhj", 
+        "id": "CVE-2024-27796", 
         "rsr": ""
     }, 
     {
@@ -2122,8 +2135,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2024-27798", 
         "credit": "Yann GASCUEL of Alter Solutions", 
+        "id": "CVE-2024-27798", 
         "rsr": ""
     }, 
     {
@@ -2138,8 +2151,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "IOHIDFamily", 
-        "id": "CVE-2024-27799", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27799", 
         "rsr": ""
     }, 
     {
@@ -2158,8 +2171,8 @@
         ], 
         "update": "", 
         "module": "Messages", 
-        "id": "CVE-2024-27800", 
         "credit": "Daniel Zajork and Joshua Zajork", 
+        "id": "CVE-2024-27800", 
         "rsr": ""
     }, 
     {
@@ -2175,8 +2188,8 @@
         ], 
         "update": "", 
         "module": "Foundation", 
-        "id": "CVE-2024-27801", 
         "credit": "CertiK SkyFall Team", 
+        "id": "CVE-2024-27801", 
         "rsr": ""
     }, 
     {
@@ -2194,8 +2207,8 @@
         ], 
         "update": "", 
         "module": "Metal", 
-        "id": "CVE-2024-27802", 
         "credit": "Meysam Firouzi (@R00tkitsmm) working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-27802", 
         "rsr": ""
     }, 
     {
@@ -2207,8 +2220,8 @@
         ], 
         "update": "", 
         "module": "Screenshots", 
-        "id": "CVE-2024-27803", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27803", 
         "rsr": ""
     }, 
     {
@@ -2224,8 +2237,8 @@
         ], 
         "update": "", 
         "module": "AppleAVD", 
-        "id": "CVE-2024-27804", 
         "credit": "Meysam Firouzi (@R00tkitSMM)", 
+        "id": "CVE-2024-27804", 
         "rsr": ""
     }, 
     {
@@ -2243,8 +2256,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "Core Data", 
-        "id": "CVE-2024-27805", 
         "credit": "Kirin (@Pwnrin) and \u5c0f\u6765\u6765 (@Smi1eSEC)", 
+        "id": "CVE-2024-27805", 
         "rsr": ""
     }, 
     {
@@ -2262,8 +2275,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "Spotlight", 
-        "id": "CVE-2024-27806", 
         "credit": "", 
+        "id": "CVE-2024-27806", 
         "rsr": ""
     }, 
     {
@@ -2276,8 +2289,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "Symptom Framework", 
-        "id": "CVE-2024-27807", 
         "credit": "Romy R.", 
+        "id": "CVE-2024-27807", 
         "rsr": ""
     }, 
     {
@@ -2294,9 +2307,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-27808", 
         "credit": "Lukas Bernhard of CISPA Helmholtz Center for Information Security", 
         "bugzilla": "268221", 
+        "id": "CVE-2024-27808", 
         "rsr": ""
     }, 
     {
@@ -2308,8 +2321,8 @@
         ], 
         "update": "July 29, 2024", 
         "module": "Music", 
-        "id": "CVE-2024-27809", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27809", 
         "rsr": ""
     }, 
     {
@@ -2326,8 +2339,8 @@
         ], 
         "update": "", 
         "module": "Maps", 
-        "id": "CVE-2024-27810", 
         "credit": "LFY@secsys of Fudan University", 
+        "id": "CVE-2024-27810", 
         "rsr": ""
     }, 
     {
@@ -2343,8 +2356,8 @@
         ], 
         "update": "", 
         "module": "libiconv", 
-        "id": "CVE-2024-27811", 
         "credit": "Nick Wellnhofer", 
+        "id": "CVE-2024-27811", 
         "rsr": ""
     }, 
     {
@@ -2356,8 +2369,8 @@
         ], 
         "update": "June 20, 2024", 
         "module": "WebKit", 
-        "id": "CVE-2024-27812", 
         "credit": "Ryan Pickren (ryanpickren.com)", 
+        "id": "CVE-2024-27812", 
         "rsr": ""
     }, 
     {
@@ -2370,8 +2383,8 @@
         ], 
         "update": "", 
         "module": "PrintCenter", 
-        "id": "CVE-2024-27813", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27813", 
         "rsr": ""
     }, 
     {
@@ -2383,8 +2396,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "Phone", 
-        "id": "CVE-2024-27814", 
         "credit": "Dalibor Milanovic", 
+        "id": "CVE-2024-27814", 
         "rsr": ""
     }, 
     {
@@ -2400,8 +2413,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-27815", 
         "credit": "an anonymous researcher, and Joseph Ravichandran (@0xjprx) of MIT CSAIL", 
+        "id": "CVE-2024-27815", 
         "rsr": ""
     }, 
     {
@@ -2421,8 +2434,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-27816", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27816", 
         "rsr": ""
     }, 
     {
@@ -2440,8 +2453,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2024-27817", 
         "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab", 
+        "id": "CVE-2024-27817", 
         "rsr": ""
     }, 
     {
@@ -2455,8 +2468,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-27818", 
         "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab", 
+        "id": "CVE-2024-27818", 
         "rsr": ""
     }, 
     {
@@ -2468,8 +2481,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "Siri", 
-        "id": "CVE-2024-27819", 
         "credit": "Srijan Poudel", 
+        "id": "CVE-2024-27819", 
         "rsr": ""
     }, 
     {
@@ -2487,9 +2500,9 @@
         ], 
         "update": "", 
         "module": "WebKit Web Inspector", 
-        "id": "CVE-2024-27820", 
         "credit": "Jeff Johnson of underpassapp.com", 
         "bugzilla": "270139", 
+        "id": "CVE-2024-27820", 
         "rsr": ""
     }, 
     {
@@ -2503,8 +2516,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-27821", 
         "credit": "Kirin (@Pwnrin), zbleet, and Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-27821", 
         "rsr": ""
     }, 
     {
@@ -2516,8 +2529,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-27822", 
         "credit": "Scott Johnson, Mykola Grymalyuk of RIPEDA Consulting, Jordy Witteman, and Carlos Polop", 
+        "id": "CVE-2024-27822", 
         "rsr": ""
     }, 
     {
@@ -2536,8 +2549,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-27823", 
         "credit": "Prof. Benny Pinkas of Bar-Ilan University, Prof. Amit Klein of Hebrew University, and EP", 
+        "id": "CVE-2024-27823", 
         "rsr": ""
     }, 
     {
@@ -2551,8 +2564,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-27824", 
         "credit": "Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2024-27824", 
         "rsr": ""
     }, 
     {
@@ -2564,8 +2577,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-27825", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-27825", 
         "rsr": ""
     }, 
     {
@@ -2583,8 +2596,8 @@
         ], 
         "update": "", 
         "module": "Apple Neural Engine", 
-        "id": "CVE-2024-27826", 
         "credit": "Minghao Lin, and Ye Zhang (@VAR10CK) of Baidu Security", 
+        "id": "CVE-2024-27826", 
         "rsr": ""
     }, 
     {
@@ -2597,8 +2610,8 @@
         ], 
         "update": "", 
         "module": "Finder", 
-        "id": "CVE-2024-27827", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27827", 
         "rsr": ""
     }, 
     {
@@ -2613,8 +2626,8 @@
         ], 
         "update": "", 
         "module": "IOSurface", 
-        "id": "CVE-2024-27828", 
         "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd.", 
+        "id": "CVE-2024-27828", 
         "rsr": ""
     }, 
     {
@@ -2626,8 +2639,8 @@
         ], 
         "update": "July 29, 2024", 
         "module": "AppleVA", 
-        "id": "CVE-2024-27829", 
         "credit": "Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations, Pwn2car working with Trend Micro's Zero Day Initiative, and Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative", 
+        "id": "CVE-2024-27829", 
         "rsr": ""
     }, 
     {
@@ -2644,9 +2657,9 @@
         ], 
         "update": "", 
         "module": "WebKit Canvas", 
-        "id": "CVE-2024-27830", 
         "credit": "Joe Rutkowski (@Joe12387) of Crawless and @abrahamjuliot", 
         "bugzilla": "271159", 
+        "id": "CVE-2024-27830", 
         "rsr": ""
     }, 
     {
@@ -2664,8 +2677,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2024-27831", 
         "credit": "Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations", 
+        "id": "CVE-2024-27831", 
         "rsr": ""
     }, 
     {
@@ -2681,8 +2694,8 @@
         ], 
         "update": "", 
         "module": "Disk Images", 
-        "id": "CVE-2024-27832", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27832", 
         "rsr": ""
     }, 
     {
@@ -2698,9 +2711,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-27833", 
         "credit": "Manfred Paul (@_manfp) working with Trend Micro Zero Day Initiative", 
         "bugzilla": "271491", 
+        "id": "CVE-2024-27833", 
         "rsr": ""
     }, 
     {
@@ -2719,9 +2732,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-27834", 
         "credit": "Manfred Paul (@_manfp) working with Trend Micro's Zero Day Initiative", 
         "bugzilla": "272750", 
+        "id": "CVE-2024-27834", 
         "rsr": ""
     }, 
     {
@@ -2733,8 +2746,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2024-27835", 
         "credit": "Andr.Ess", 
+        "id": "CVE-2024-27835", 
         "rsr": ""
     }, 
     {
@@ -2748,8 +2761,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2024-27836", 
         "credit": "Junsung Lee working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-27836", 
         "rsr": ""
     }, 
     {
@@ -2761,8 +2774,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-27837", 
         "credit": "Mickey Jin (@patch1t) and ajajfxhj", 
+        "id": "CVE-2024-27837", 
         "rsr": ""
     }, 
     {
@@ -2780,9 +2793,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-27838", 
         "credit": "Emilio Cobos of Mozilla", 
         "bugzilla": "262337", 
+        "id": "CVE-2024-27838", 
         "rsr": ""
     }, 
     {
@@ -2794,8 +2807,8 @@
         ], 
         "update": "", 
         "module": "Find My", 
-        "id": "CVE-2024-27839", 
         "credit": "Alexander Heinrich, SEEMOO, TU Darmstadt (@Sn0wfreeze), and Shai Mishali (@freak4pc)", 
+        "id": "CVE-2024-27839", 
         "rsr": ""
     }, 
     {
@@ -2813,8 +2826,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-27840", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27840", 
         "rsr": ""
     }, 
     {
@@ -2827,8 +2840,8 @@
         ], 
         "update": "", 
         "module": "AVEVideoEncoder", 
-        "id": "CVE-2024-27841", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27841", 
         "rsr": ""
     }, 
     {
@@ -2840,8 +2853,8 @@
         ], 
         "update": "", 
         "module": "udf", 
-        "id": "CVE-2024-27842", 
         "credit": "CertiK SkyFall Team", 
+        "id": "CVE-2024-27842", 
         "rsr": ""
     }, 
     {
@@ -2855,8 +2868,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2024-27843", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27843", 
         "rsr": ""
     }, 
     {
@@ -2870,8 +2883,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2024-27844", 
         "credit": "Narendra Bhati of Suma Soft Pvt. Ltd in Pune (India), Shaheen Fazim", 
+        "id": "CVE-2024-27844", 
         "rsr": ""
     }, 
     {
@@ -2883,8 +2896,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "Notes", 
-        "id": "CVE-2024-27845", 
         "credit": "Adam Berry", 
+        "id": "CVE-2024-27845", 
         "rsr": ""
     }, 
     {
@@ -2900,8 +2913,8 @@
         ], 
         "update": "", 
         "module": "Sync Services", 
-        "id": "CVE-2024-27847", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27847", 
         "rsr": ""
     }, 
     {
@@ -2914,8 +2927,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "StorageKit", 
-        "id": "CVE-2024-27848", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-27848", 
         "rsr": ""
     }, 
     {
@@ -2927,8 +2940,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Core Data", 
-        "id": "CVE-2024-27849", 
         "credit": "Kirin (@Pwnrin), Rodolphe Brunetti (@eisw0lf)", 
+        "id": "CVE-2024-27849", 
         "rsr": ""
     }, 
     {
@@ -2943,9 +2956,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-27850", 
         "credit": "an anonymous researcher", 
         "bugzilla": "270767", 
+        "id": "CVE-2024-27850", 
         "rsr": ""
     }, 
     {
@@ -2962,9 +2975,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-27851", 
         "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute", 
         "bugzilla": "272106", 
+        "id": "CVE-2024-27851", 
         "rsr": ""
     }, 
     {
@@ -2976,8 +2989,8 @@
         ], 
         "update": "", 
         "module": "MarketplaceKit", 
-        "id": "CVE-2024-27852", 
         "credit": "Talal Haj Bakry and Tommy Mysk of Mysk Inc. (@mysk_co)", 
+        "id": "CVE-2024-27852", 
         "rsr": ""
     }, 
     {
@@ -2989,8 +3002,8 @@
         ], 
         "update": "July 29, 2024", 
         "module": "libarchive", 
-        "id": "CVE-2024-27853", 
         "credit": "koocola", 
+        "id": "CVE-2024-27853", 
         "rsr": ""
     }, 
     {
@@ -3005,8 +3018,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-27855", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27855", 
         "rsr": ""
     }, 
     {
@@ -3021,8 +3034,8 @@
         ], 
         "update": "", 
         "module": "Metal", 
-        "id": "CVE-2024-27857", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-27857", 
         "rsr": ""
     }, 
     {
@@ -3034,8 +3047,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Music", 
-        "id": "CVE-2024-27858", 
         "credit": "Meng Zhang (\u9cb8\u843d) of NorthSea, Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-27858", 
         "rsr": ""
     }, 
     {
@@ -3047,8 +3060,8 @@
         ], 
         "update": "", 
         "module": "AppleVA", 
+        "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
         "id": "CVE-2024-27860", 
-        "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
         "rsr": ""
     }, 
     {
@@ -3060,8 +3073,8 @@
         ], 
         "update": "", 
         "module": "AppleVA", 
-        "id": "CVE-2024-27861", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-27861", 
         "rsr": ""
     }, 
     {
@@ -3073,8 +3086,8 @@
         ], 
         "update": "", 
         "module": "Setup Assistant", 
-        "id": "CVE-2024-27862", 
         "credit": "Jiwon Park", 
+        "id": "CVE-2024-27862", 
         "rsr": ""
     }, 
     {
@@ -3090,8 +3103,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-27863", 
         "credit": "CertiK SkyFall Team", 
+        "id": "CVE-2024-27863", 
         "rsr": ""
     }, 
     {
@@ -3103,8 +3116,8 @@
         ], 
         "update": "", 
         "module": "Bluetooth", 
-        "id": "CVE-2024-27867", 
         "credit": "Jonas Dre\u00dfler", 
+        "id": "CVE-2024-27867", 
         "rsr": ""
     }, 
     {
@@ -3117,8 +3130,8 @@
         ], 
         "update": "", 
         "module": "Control Center", 
-        "id": "CVE-2024-27869", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-27869", 
         "rsr": ""
     }, 
     {
@@ -3131,8 +3144,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2024-27871", 
         "credit": "Mickey Jin (@patch1t), Csaba Fitzl (@theevilbit) of Kandji, and Zhongquan Li (@Guluisacat) of Dawn Security Lab of JingDong", 
+        "id": "CVE-2024-27871", 
         "rsr": ""
     }, 
     {
@@ -3144,8 +3157,8 @@
         ], 
         "update": "", 
         "module": "Security Initialization", 
-        "id": "CVE-2024-27872", 
         "credit": "Zhongquan Li (@Guluisacat) of Dawn Security Lab of JingDong", 
+        "id": "CVE-2024-27872", 
         "rsr": ""
     }, 
     {
@@ -3161,8 +3174,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2024-27873", 
         "credit": "Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations", 
+        "id": "CVE-2024-27873", 
         "rsr": ""
     }, 
     {
@@ -3174,8 +3187,8 @@
         ], 
         "update": "", 
         "module": "Cellular", 
-        "id": "CVE-2024-27874", 
         "credit": "Tuan D. Hoang", 
+        "id": "CVE-2024-27874", 
         "rsr": ""
     }, 
     {
@@ -3187,8 +3200,8 @@
         ], 
         "update": "", 
         "module": "Control Center", 
-        "id": "CVE-2024-27875", 
         "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)", 
+        "id": "CVE-2024-27875", 
         "rsr": ""
     }, 
     {
@@ -3205,8 +3218,8 @@
         ], 
         "update": "", 
         "module": "Compression", 
-        "id": "CVE-2024-27876", 
         "credit": "Snoolie Keffaber (@0xilis)", 
+        "id": "CVE-2024-27876", 
         "rsr": ""
     }, 
     {
@@ -3220,8 +3233,8 @@
         ], 
         "update": "", 
         "module": "AppleVA", 
-        "id": "CVE-2024-27877", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-27877", 
         "rsr": ""
     }, 
     {
@@ -3233,8 +3246,8 @@
         ], 
         "update": "November 13, 2024", 
         "module": "ASP TCP", 
-        "id": "CVE-2024-27878", 
         "credit": "CertiK SkyFall Team", 
+        "id": "CVE-2024-27878", 
         "rsr": ""
     }, 
     {
@@ -3247,8 +3260,8 @@
         ], 
         "update": "", 
         "module": "UIKit", 
-        "id": "CVE-2024-27879", 
         "credit": "Justin Cohen", 
+        "id": "CVE-2024-27879", 
         "rsr": ""
     }, 
     {
@@ -3266,8 +3279,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2024-27880", 
         "credit": "Junsung Lee", 
+        "id": "CVE-2024-27880", 
         "rsr": ""
     }, 
     {
@@ -3281,8 +3294,8 @@
         ], 
         "update": "", 
         "module": "Scripting Bridge", 
-        "id": "CVE-2024-27881", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-27881", 
         "rsr": ""
     }, 
     {
@@ -3296,8 +3309,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-27882", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27882", 
         "rsr": ""
     }, 
     {
@@ -3311,8 +3324,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-27883", 
         "credit": "Mickey Jin (@patch1t), and Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-27883", 
         "rsr": ""
     }, 
     {
@@ -3328,8 +3341,8 @@
         ], 
         "update": "July 29, 2024", 
         "module": "Transparency", 
-        "id": "CVE-2024-27884", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27884", 
         "rsr": ""
     }, 
     {
@@ -3343,8 +3356,8 @@
         ], 
         "update": "June 10, 2024", 
         "module": "PackageKit", 
-        "id": "CVE-2024-27885", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27885", 
         "rsr": ""
     }, 
     {
@@ -3357,8 +3370,8 @@
         ], 
         "update": "", 
         "module": "AppKit", 
-        "id": "CVE-2024-27886", 
         "credit": "Stephan Casas, an anonymous researcher", 
+        "id": "CVE-2024-27886", 
         "rsr": ""
     }, 
     {
@@ -3370,8 +3383,8 @@
         ], 
         "update": "July 29, 2024", 
         "module": "NSSpellChecker", 
-        "id": "CVE-2024-27887", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27887", 
         "rsr": ""
     }, 
     {
@@ -3383,8 +3396,8 @@
         ], 
         "update": "July 29, 2024", 
         "module": "PackageKit", 
-        "id": "CVE-2024-27888", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-27888", 
         "rsr": ""
     }, 
     {
@@ -3396,8 +3409,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Git", 
-        "id": "CVE-2024-32002", 
         "credit": "", 
+        "id": "CVE-2024-32002", 
         "rsr": ""
     }, 
     {
@@ -3409,8 +3422,8 @@
         ], 
         "update": "", 
         "module": "OpenSSH", 
-        "id": "CVE-2024-39894", 
         "credit": "", 
+        "id": "CVE-2024-39894", 
         "rsr": ""
     }, 
     {
@@ -3422,8 +3435,8 @@
         ], 
         "update": "", 
         "module": "Wi-Fi", 
-        "id": "CVE-2024-40770", 
         "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)", 
+        "id": "CVE-2024-40770", 
         "rsr": ""
     }, 
     {
@@ -3440,8 +3453,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-40774", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40774", 
         "rsr": ""
     }, 
     {
@@ -3455,8 +3468,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-40775", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40775", 
         "rsr": ""
     }, 
     {
@@ -3474,9 +3487,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-40776", 
         "credit": "Huang Xilin of Ant Group Light-Year Security Lab", 
         "bugzilla": "273176", 
+        "id": "CVE-2024-40776", 
         "rsr": ""
     }, 
     {
@@ -3492,8 +3505,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2024-40777", 
         "credit": "Junsung Lee working with Trend Micro Zero Day Initiative, and Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations", 
+        "id": "CVE-2024-40777", 
         "rsr": ""
     }, 
     {
@@ -3507,8 +3520,8 @@
         ], 
         "update": "", 
         "module": "Photos Storage", 
-        "id": "CVE-2024-40778", 
         "credit": "Mateen Alinaghi", 
+        "id": "CVE-2024-40778", 
         "rsr": ""
     }, 
     {
@@ -3526,9 +3539,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-40779", 
         "credit": "Huang Xilin of Ant Group Light-Year Security Lab", 
         "bugzilla": "275431", 
+        "id": "CVE-2024-40779", 
         "rsr": ""
     }, 
     {
@@ -3546,9 +3559,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-40780", 
         "credit": "Huang Xilin of Ant Group Light-Year Security Lab", 
         "bugzilla": "275273", 
+        "id": "CVE-2024-40780", 
         "rsr": ""
     }, 
     {
@@ -3562,8 +3575,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-40781", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40781", 
         "rsr": ""
     }, 
     {
@@ -3581,9 +3594,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-40782", 
         "credit": "Maksymilian Motyl", 
         "bugzilla": "268770", 
+        "id": "CVE-2024-40782", 
         "rsr": ""
     }, 
     {
@@ -3597,8 +3610,8 @@
         ], 
         "update": "", 
         "module": "APFS", 
-        "id": "CVE-2024-40783", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-40783", 
         "rsr": ""
     }, 
     {
@@ -3616,8 +3629,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2024-40784", 
         "credit": "Junsung Lee working with Trend Micro Zero Day Initiative, Gandalf4a", 
+        "id": "CVE-2024-40784", 
         "rsr": ""
     }, 
     {
@@ -3635,9 +3648,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-40785", 
         "credit": "Johan Carlsson (joaxcar)", 
         "bugzilla": "273805", 
+        "id": "CVE-2024-40785", 
         "rsr": ""
     }, 
     {
@@ -3651,8 +3664,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-40786", 
         "credit": "Bistrit Dahal", 
+        "id": "CVE-2024-40786", 
         "rsr": ""
     }, 
     {
@@ -3668,8 +3681,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40787", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-40787", 
         "rsr": ""
     }, 
     {
@@ -3688,8 +3701,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-40788", 
         "credit": "Minghao Lin and Jiaxun Zhu from Zhejiang University", 
+        "id": "CVE-2024-40788", 
         "rsr": ""
     }, 
     {
@@ -3707,8 +3720,8 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-40789", 
         "credit": "Seunghyun Lee (@0x10n) of KAIST Hacking Lab working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-40789", 
         "rsr": ""
     }, 
     {
@@ -3720,8 +3733,8 @@
         ], 
         "update": "", 
         "module": "Presence", 
-        "id": "CVE-2024-40790", 
         "credit": "Max Thomas", 
+        "id": "CVE-2024-40790", 
         "rsr": ""
     }, 
     {
@@ -3737,8 +3750,8 @@
         ], 
         "update": "", 
         "module": "Mail Accounts", 
-        "id": "CVE-2024-40791", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf)", 
+        "id": "CVE-2024-40791", 
         "rsr": ""
     }, 
     {
@@ -3750,8 +3763,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Airport", 
-        "id": "CVE-2024-40792", 
         "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)", 
+        "id": "CVE-2024-40792", 
         "rsr": ""
     }, 
     {
@@ -3768,8 +3781,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40793", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-40793", 
         "rsr": ""
     }, 
     {
@@ -3783,9 +3796,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-40794", 
         "credit": "Matthew Butler", 
         "bugzilla": "275272", 
+        "id": "CVE-2024-40794", 
         "rsr": ""
     }, 
     {
@@ -3800,8 +3813,8 @@
         ], 
         "update": "", 
         "module": "Family Sharing", 
-        "id": "CVE-2024-40795", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-40795", 
         "rsr": ""
     }, 
     {
@@ -3816,8 +3829,8 @@
         ], 
         "update": "", 
         "module": "NetworkExtension", 
-        "id": "CVE-2024-40796", 
         "credit": "Adam M.", 
+        "id": "CVE-2024-40796", 
         "rsr": ""
     }, 
     {
@@ -3831,8 +3844,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2024-40797", 
         "credit": "Rifa'i Rejal Maynando", 
+        "id": "CVE-2024-40797", 
         "rsr": ""
     }, 
     {
@@ -3847,8 +3860,8 @@
         ], 
         "update": "", 
         "module": "Security", 
-        "id": "CVE-2024-40798", 
         "credit": "Adam M.", 
+        "id": "CVE-2024-40798", 
         "rsr": ""
     }, 
     {
@@ -3867,8 +3880,8 @@
         ], 
         "update": "", 
         "module": "CoreGraphics", 
-        "id": "CVE-2024-40799", 
         "credit": "D4m0n", 
+        "id": "CVE-2024-40799", 
         "rsr": ""
     }, 
     {
@@ -3882,8 +3895,8 @@
         ], 
         "update": "", 
         "module": "Restore Framework", 
-        "id": "CVE-2024-40800", 
         "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos", 
+        "id": "CVE-2024-40800", 
         "rsr": ""
     }, 
     {
@@ -3896,8 +3909,8 @@
         ], 
         "update": "", 
         "module": "Security Initialization", 
-        "id": "CVE-2024-40801", 
         "credit": "Zhongquan Li (@Guluisacat), Pedro Jos\u00e9 Pereira Vieito (@pvieito), an anonymous researcher", 
+        "id": "CVE-2024-40801", 
         "rsr": ""
     }, 
     {
@@ -3911,8 +3924,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-40802", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40802", 
         "rsr": ""
     }, 
     {
@@ -3926,8 +3939,8 @@
         ], 
         "update": "", 
         "module": "Keychain Access", 
-        "id": "CVE-2024-40803", 
         "credit": "Patrick Wardle of DoubleYou & the Objective-See Foundation", 
+        "id": "CVE-2024-40803", 
         "rsr": ""
     }, 
     {
@@ -3939,8 +3952,8 @@
         ], 
         "update": "", 
         "module": "Accounts", 
-        "id": "CVE-2024-40804", 
         "credit": "IES Red Team of ByteDance", 
+        "id": "CVE-2024-40804", 
         "rsr": ""
     }, 
     {
@@ -3955,8 +3968,8 @@
         ], 
         "update": "", 
         "module": "libxpc", 
-        "id": "CVE-2024-40805", 
         "credit": "", 
+        "id": "CVE-2024-40805", 
         "rsr": ""
     }, 
     {
@@ -3975,8 +3988,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2024-40806", 
         "credit": "Yisumi", 
+        "id": "CVE-2024-40806", 
         "rsr": ""
     }, 
     {
@@ -3990,8 +4003,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40807", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-40807", 
         "rsr": ""
     }, 
     {
@@ -4009,8 +4022,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40809", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-40809", 
         "rsr": ""
     }, 
     {
@@ -4022,8 +4035,8 @@
         ], 
         "update": "October 15, 2024", 
         "module": "IOMobileFrameBuffer", 
-        "id": "CVE-2024-40810", 
         "credit": "Ye Zhang (@VAR10CK) of Baidu Security", 
+        "id": "CVE-2024-40810", 
         "rsr": ""
     }, 
     {
@@ -4035,8 +4048,8 @@
         ], 
         "update": "", 
         "module": "sudo", 
-        "id": "CVE-2024-40811", 
         "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2024-40811", 
         "rsr": ""
     }, 
     {
@@ -4054,8 +4067,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40812", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-40812", 
         "rsr": ""
     }, 
     {
@@ -4068,8 +4081,8 @@
         ], 
         "update": "", 
         "module": "Phone", 
-        "id": "CVE-2024-40813", 
         "credit": "Jacob Braun", 
+        "id": "CVE-2024-40813", 
         "rsr": ""
     }, 
     {
@@ -4082,8 +4095,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-40814", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40814", 
         "rsr": ""
     }, 
     {
@@ -4099,8 +4112,8 @@
         ], 
         "update": "", 
         "module": "dyld", 
-        "id": "CVE-2024-40815", 
         "credit": "w0wbox", 
+        "id": "CVE-2024-40815", 
         "rsr": ""
     }, 
     {
@@ -4114,8 +4127,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-40816", 
         "credit": "sqrtpwn", 
+        "id": "CVE-2024-40816", 
         "rsr": ""
     }, 
     {
@@ -4130,8 +4143,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2024-40817", 
         "credit": "Yadhu Krishna M and Narendra Bhati, Manager of Cyber Security At Suma Soft Pvt. Ltd, Pune (India)", 
+        "id": "CVE-2024-40817", 
         "rsr": ""
     }, 
     {
@@ -4147,8 +4160,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-40818", 
         "credit": "Bistrit Dahal and Srijan Poudel", 
+        "id": "CVE-2024-40818", 
         "rsr": ""
     }, 
     {
@@ -4162,8 +4175,8 @@
         ], 
         "update": "", 
         "module": "Security", 
-        "id": "CVE-2024-40821", 
         "credit": "Joshua Jones", 
+        "id": "CVE-2024-40821", 
         "rsr": ""
     }, 
     {
@@ -4178,8 +4191,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-40822", 
         "credit": "Srijan Poudel", 
+        "id": "CVE-2024-40822", 
         "rsr": ""
     }, 
     {
@@ -4193,8 +4206,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-40823", 
         "credit": "Zhongquan Li (@Guluisacat) from Dawn Security Lab of JingDong", 
+        "id": "CVE-2024-40823", 
         "rsr": ""
     }, 
     {
@@ -4209,8 +4222,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2024-40824", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog), and Zhongquan Li (@Guluisacat) from Dawn Security Lab of JingDong", 
+        "id": "CVE-2024-40824", 
         "rsr": ""
     }, 
     {
@@ -4223,8 +4236,8 @@
         ], 
         "update": "", 
         "module": "APFS", 
-        "id": "CVE-2024-40825", 
         "credit": "Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2024-40825", 
         "rsr": ""
     }, 
     {
@@ -4237,8 +4250,8 @@
         ], 
         "update": "", 
         "module": "Printing", 
-        "id": "CVE-2024-40826", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-40826", 
         "rsr": ""
     }, 
     {
@@ -4252,8 +4265,8 @@
         ], 
         "update": "", 
         "module": "DesktopServices", 
-        "id": "CVE-2024-40827", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-40827", 
         "rsr": ""
     }, 
     {
@@ -4267,8 +4280,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2024-40828", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40828", 
         "rsr": ""
     }, 
     {
@@ -4283,8 +4296,8 @@
         ], 
         "update": "", 
         "module": "VoiceOver", 
-        "id": "CVE-2024-40829", 
         "credit": "Abhay Kailasia (@abhay_kailasia) of Lakshmi Narain College of Technology Bhopal India", 
+        "id": "CVE-2024-40829", 
         "rsr": ""
     }, 
     {
@@ -4296,8 +4309,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2024-40830", 
         "credit": "Chloe Surett", 
+        "id": "CVE-2024-40830", 
         "rsr": ""
     }, 
     {
@@ -4309,8 +4322,8 @@
         ], 
         "update": "", 
         "module": "Image Capture", 
-        "id": "CVE-2024-40831", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40831", 
         "rsr": ""
     }, 
     {
@@ -4322,8 +4335,8 @@
         ], 
         "update": "", 
         "module": "Messages", 
-        "id": "CVE-2024-40832", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf)", 
+        "id": "CVE-2024-40832", 
         "rsr": ""
     }, 
     {
@@ -4338,8 +4351,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40833", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-40833", 
         "rsr": ""
     }, 
     {
@@ -4353,8 +4366,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40834", 
         "credit": "Marcio Almeida from Tanto Security", 
+        "id": "CVE-2024-40834", 
         "rsr": ""
     }, 
     {
@@ -4371,8 +4384,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40835", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-40835", 
         "rsr": ""
     }, 
     {
@@ -4387,8 +4400,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40836", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-40836", 
         "rsr": ""
     }, 
     {
@@ -4401,8 +4414,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-40837", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-40837", 
         "rsr": ""
     }, 
     {
@@ -4414,8 +4427,8 @@
         ], 
         "update": "", 
         "module": "Notification Center", 
-        "id": "CVE-2024-40838", 
         "credit": "Brian McNulty, Cristian Dinca of \"Tudor Vianu\" National High School of Computer Science, Romania, Vaibhav Prajapati", 
+        "id": "CVE-2024-40838", 
         "rsr": ""
     }, 
     {
@@ -4427,8 +4440,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2024-40840", 
         "credit": "Abhay Kailasia (@abhay_kailasia) of Lakshmi Narain College of Technology Bhopal India", 
+        "id": "CVE-2024-40840", 
         "rsr": ""
     }, 
     {
@@ -4441,8 +4454,8 @@
         ], 
         "update": "", 
         "module": "AppleVA", 
-        "id": "CVE-2024-40841", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-40841", 
         "rsr": ""
     }, 
     {
@@ -4454,8 +4467,8 @@
         ], 
         "update": "", 
         "module": "XProtect", 
-        "id": "CVE-2024-40842", 
         "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2024-40842", 
         "rsr": ""
     }, 
     {
@@ -4467,8 +4480,8 @@
         ], 
         "update": "", 
         "module": "XProtect", 
-        "id": "CVE-2024-40843", 
         "credit": "Koh M. Nakagawa (@tsunek0h)", 
+        "id": "CVE-2024-40843", 
         "rsr": ""
     }, 
     {
@@ -4483,8 +4496,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-40844", 
         "credit": "Kirin (@Pwnrin) and luckyu (@uuulucky) of NorthSea", 
+        "id": "CVE-2024-40844", 
         "rsr": ""
     }, 
     {
@@ -4497,8 +4510,8 @@
         ], 
         "update": "", 
         "module": "AppleGraphicsControl", 
-        "id": "CVE-2024-40845", 
         "credit": "Pwn2car working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-40845", 
         "rsr": ""
     }, 
     {
@@ -4511,8 +4524,8 @@
         ], 
         "update": "", 
         "module": "AppleGraphicsControl", 
-        "id": "CVE-2024-40846", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-40846", 
         "rsr": ""
     }, 
     {
@@ -4526,8 +4539,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-40847", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40847", 
         "rsr": ""
     }, 
     {
@@ -4541,8 +4554,21 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-40848", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40848", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to break out of its sandbox", 
+        "available": "macOS Sequoia", 
+        "description": "A race condition was addressed with additional validation.", 
+        "links": [
+            "https://support.apple.com/en-us/121564"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "LaunchServices", 
+        "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2024-40849", 
         "rsr": ""
     }, 
     {
@@ -4561,8 +4587,8 @@
         ], 
         "update": "", 
         "module": "Game Center", 
-        "id": "CVE-2024-40850", 
         "credit": "Denis Tokarev (@illusionofcha0s)", 
+        "id": "CVE-2024-40850", 
         "rsr": ""
     }, 
     {
@@ -4574,8 +4600,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-40851", 
         "credit": "Abhay Kailasia (@abhay_kailasia) of Lakshmi Narain College of Technology Bhopal India, Srijan Poudel", 
+        "id": "CVE-2024-40851", 
         "rsr": ""
     }, 
     {
@@ -4587,8 +4613,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2024-40852", 
         "credit": "Abhay Kailasia (@abhay_kailasia) of Lakshmi Narain College of Technology Bhopal India", 
+        "id": "CVE-2024-40852", 
         "rsr": ""
     }, 
     {
@@ -4600,8 +4626,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Siri", 
-        "id": "CVE-2024-40853", 
         "credit": "Chi Yuan Chang of ZUSO ART and taikosoup", 
+        "id": "CVE-2024-40853", 
         "rsr": ""
     }, 
     {
@@ -4615,8 +4641,8 @@
         ], 
         "update": "", 
         "module": "DiskArbitration", 
-        "id": "CVE-2024-40855", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-40855", 
         "rsr": ""
     }, 
     {
@@ -4630,8 +4656,8 @@
         ], 
         "update": "", 
         "module": "Wi-Fi", 
-        "id": "CVE-2024-40856", 
         "credit": "Domien Schepers", 
+        "id": "CVE-2024-40856", 
         "rsr": ""
     }, 
     {
@@ -4648,9 +4674,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-40857", 
         "credit": "Ron Masas", 
         "bugzilla": "268724", 
+        "id": "CVE-2024-40857", 
         "rsr": ""
     }, 
     {
@@ -4662,8 +4688,8 @@
         ], 
         "update": "", 
         "module": "Photos", 
-        "id": "CVE-2024-40858", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-40858", 
         "rsr": ""
     }, 
     {
@@ -4675,8 +4701,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "TV App", 
-        "id": "CVE-2024-40859", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-40859", 
         "rsr": ""
     }, 
     {
@@ -4689,8 +4715,8 @@
         ], 
         "update": "", 
         "module": "sudo", 
-        "id": "CVE-2024-40860", 
         "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2024-40860", 
         "rsr": ""
     }, 
     {
@@ -4702,8 +4728,8 @@
         ], 
         "update": "", 
         "module": "Installer", 
-        "id": "CVE-2024-40861", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-40861", 
         "rsr": ""
     }, 
     {
@@ -4715,8 +4741,8 @@
         ], 
         "update": "", 
         "module": "IDE Tools", 
-        "id": "CVE-2024-40862", 
         "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)", 
+        "id": "CVE-2024-40862", 
         "rsr": ""
     }, 
     {
@@ -4728,8 +4754,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Sandbox", 
-        "id": "CVE-2024-40863", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-40863", 
         "rsr": ""
     }, 
     {
@@ -4741,8 +4767,8 @@
         ], 
         "update": "September 5, 2024", 
         "module": "Presence", 
-        "id": "CVE-2024-40865", 
         "credit": "Hanqiu Wang of University of Florida, Zihao Zhan of Texas Tech University, Haoqi Shan of Certik, Siqi Dai of University of Florida, Max Panoff of University of Florida, and Shuo Wang of University of Florida", 
+        "id": "CVE-2024-40865", 
         "rsr": ""
     }, 
     {
@@ -4755,9 +4781,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-40866", 
         "credit": "Hafiizh and YoKo Kho (@yokoacc) of HakTrak", 
         "bugzilla": "279451", 
+        "id": "CVE-2024-40866", 
         "rsr": ""
     }, 
     {
@@ -4769,8 +4795,8 @@
         ], 
         "update": "", 
         "module": "iTunes", 
-        "id": "CVE-2024-40867", 
         "credit": "Ziyi Zhou (@Shanghai Jiao Tong University), Tianxiao Hou (@Shanghai Jiao Tong University)", 
+        "id": "CVE-2024-40867", 
         "rsr": ""
     }, 
     {
@@ -4782,8 +4808,8 @@
         ], 
         "update": "", 
         "module": "Vim", 
-        "id": "CVE-2024-41957", 
         "credit": "", 
+        "id": "CVE-2024-41957", 
         "rsr": ""
     }, 
     {
@@ -4797,8 +4823,8 @@
         ], 
         "update": "", 
         "module": "LaunchServices", 
-        "id": "CVE-2024-44122", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44122", 
         "rsr": ""
     }, 
     {
@@ -4811,8 +4837,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Security", 
-        "id": "CVE-2024-44123", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2024-44123", 
         "rsr": ""
     }, 
     {
@@ -4824,8 +4850,8 @@
         ], 
         "update": "", 
         "module": "Core Bluetooth", 
-        "id": "CVE-2024-44124", 
         "credit": "Daniele Antonioli", 
+        "id": "CVE-2024-44124", 
         "rsr": ""
     }, 
     {
@@ -4838,8 +4864,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2024-44125", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2024-44125", 
         "rsr": ""
     }, 
     {
@@ -4856,8 +4882,8 @@
         ], 
         "update": "", 
         "module": "ARKit", 
-        "id": "CVE-2024-44126", 
         "credit": "Holger Fuhrmannek", 
+        "id": "CVE-2024-44126", 
         "rsr": ""
     }, 
     {
@@ -4870,8 +4896,8 @@
         ], 
         "update": "", 
         "module": "Safari Private Browsing", 
-        "id": "CVE-2024-44127", 
         "credit": "Anamika Adhikari", 
+        "id": "CVE-2024-44127", 
         "rsr": ""
     }, 
     {
@@ -4885,8 +4911,8 @@
         ], 
         "update": "", 
         "module": "Automator", 
-        "id": "CVE-2024-44128", 
         "credit": "Anton Boegler", 
+        "id": "CVE-2024-44128", 
         "rsr": ""
     }, 
     {
@@ -4899,8 +4925,8 @@
         ], 
         "update": "", 
         "module": "Accounts", 
-        "id": "CVE-2024-44129", 
         "credit": "", 
+        "id": "CVE-2024-44129", 
         "rsr": ""
     }, 
     {
@@ -4912,8 +4938,8 @@
         ], 
         "update": "", 
         "module": "APNs", 
-        "id": "CVE-2024-44130", 
         "credit": "", 
+        "id": "CVE-2024-44130", 
         "rsr": ""
     }, 
     {
@@ -4926,8 +4952,8 @@
         ], 
         "update": "", 
         "module": "FileProvider", 
-        "id": "CVE-2024-44131", 
         "credit": "@08Tc3wBB of Jamf", 
+        "id": "CVE-2024-44131", 
         "rsr": ""
     }, 
     {
@@ -4939,8 +4965,8 @@
         ], 
         "update": "", 
         "module": "ArchiveService", 
-        "id": "CVE-2024-44132", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44132", 
         "rsr": ""
     }, 
     {
@@ -4952,8 +4978,8 @@
         ], 
         "update": "", 
         "module": "TCC", 
-        "id": "CVE-2024-44133", 
         "credit": "Jonathan Bar Or (@yo_yo_yo_jbo) of Microsoft", 
+        "id": "CVE-2024-44133", 
         "rsr": ""
     }, 
     {
@@ -4965,8 +4991,8 @@
         ], 
         "update": "", 
         "module": "Wi-Fi", 
-        "id": "CVE-2024-44134", 
         "credit": "", 
+        "id": "CVE-2024-44134", 
         "rsr": ""
     }, 
     {
@@ -4979,8 +5005,8 @@
         ], 
         "update": "", 
         "module": "AppSandbox", 
-        "id": "CVE-2024-44135", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44135", 
         "rsr": ""
     }, 
     {
@@ -4994,8 +5020,8 @@
         ], 
         "update": "", 
         "module": "Screen Capture", 
-        "id": "CVE-2024-44137", 
         "credit": "Halle Winkler, Politepix @hallewinkler", 
+        "id": "CVE-2024-44137", 
         "rsr": ""
     }, 
     {
@@ -5007,8 +5033,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-44139", 
         "credit": "Srijan Poudel", 
+        "id": "CVE-2024-44139", 
         "rsr": ""
     }, 
     {
@@ -5020,8 +5046,8 @@
         ], 
         "update": "October 15, 2024", 
         "module": "DiskArbitration", 
-        "id": "CVE-2024-44141", 
         "credit": "Yann Gascuel of Alter Solutions", 
+        "id": "CVE-2024-44141", 
         "rsr": ""
     }, 
     {
@@ -5039,8 +5065,8 @@
         ], 
         "update": "", 
         "module": "SceneKit", 
-        "id": "CVE-2024-44144", 
         "credit": "\ub0e5\ub0e5", 
+        "id": "CVE-2024-44144", 
         "rsr": ""
     }, 
     {
@@ -5053,8 +5079,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Sidecar", 
-        "id": "CVE-2024-44145", 
         "credit": "Om Kothawade of Zaprico Digital, Omar A. Alanis from the UNTHSC College of Pharmacy", 
+        "id": "CVE-2024-44145", 
         "rsr": ""
     }, 
     {
@@ -5066,8 +5092,8 @@
         ], 
         "update": "", 
         "module": "copyfile", 
-        "id": "CVE-2024-44146", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44146", 
         "rsr": ""
     }, 
     {
@@ -5079,8 +5105,8 @@
         ], 
         "update": "", 
         "module": "NetworkExtension", 
-        "id": "CVE-2024-44147", 
         "credit": "Alexander Heinrich, SEEMOO, DistriNet, KU Leuven (@vanhoefm), TU Darmstadt (@Sn0wfreeze) and Mathy Vanhoef", 
+        "id": "CVE-2024-44147", 
         "rsr": ""
     }, 
     {
@@ -5092,8 +5118,8 @@
         ], 
         "update": "", 
         "module": "Disk Images", 
-        "id": "CVE-2024-44148", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44148", 
         "rsr": ""
     }, 
     {
@@ -5105,8 +5131,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Quick Look", 
-        "id": "CVE-2024-44149", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog), Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-44149", 
         "rsr": ""
     }, 
     {
@@ -5120,8 +5146,8 @@
         ], 
         "update": "", 
         "module": "bless", 
-        "id": "CVE-2024-44151", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44151", 
         "rsr": ""
     }, 
     {
@@ -5133,8 +5159,8 @@
         ], 
         "update": "", 
         "module": "System Settings", 
-        "id": "CVE-2024-44152", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44152", 
         "rsr": ""
     }, 
     {
@@ -5147,8 +5173,8 @@
         ], 
         "update": "", 
         "module": "Accounts", 
-        "id": "CVE-2024-44153", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44153", 
         "rsr": ""
     }, 
     {
@@ -5161,8 +5187,8 @@
         ], 
         "update": "", 
         "module": "AppleGraphicsControl", 
-        "id": "CVE-2024-44154", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44154", 
         "rsr": ""
     }, 
     {
@@ -5178,8 +5204,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2024-44155", 
         "credit": "Narendra Bhati, Manager of Cyber Security at Suma Soft Pvt. Ltd, Pune (India)", 
+        "id": "CVE-2024-44155", 
         "rsr": ""
     }, 
     {
@@ -5193,8 +5219,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44156", 
         "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2024-44156", 
         "rsr": ""
     }, 
     {
@@ -5207,8 +5233,8 @@
         ], 
         "update": "", 
         "module": "Video Playback", 
-        "id": "CVE-2024-44157", 
         "credit": "Willy R. Vasquez of The University of Texas at Austin and Srikanth Narayanaraju", 
+        "id": "CVE-2024-44157", 
         "rsr": ""
     }, 
     {
@@ -5223,8 +5249,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-44158", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44158", 
         "rsr": ""
     }, 
     {
@@ -5238,8 +5264,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44159", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44159", 
         "rsr": ""
     }, 
     {
@@ -5253,8 +5279,8 @@
         ], 
         "update": "", 
         "module": "Intel Graphics Driver", 
-        "id": "CVE-2024-44160", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44160", 
         "rsr": ""
     }, 
     {
@@ -5268,8 +5294,8 @@
         ], 
         "update": "", 
         "module": "Intel Graphics Driver", 
-        "id": "CVE-2024-44161", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44161", 
         "rsr": ""
     }, 
     {
@@ -5281,8 +5307,8 @@
         ], 
         "update": "", 
         "module": "IDE Documentation", 
-        "id": "CVE-2024-44162", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44162", 
         "rsr": ""
     }, 
     {
@@ -5296,8 +5322,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2024-44163", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2024-44163", 
         "rsr": ""
     }, 
     {
@@ -5312,8 +5338,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-44164", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44164", 
         "rsr": ""
     }, 
     {
@@ -5330,8 +5356,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-44165", 
         "credit": "Andrew Lytvynov", 
+        "id": "CVE-2024-44165", 
         "rsr": ""
     }, 
     {
@@ -5345,8 +5371,8 @@
         ], 
         "update": "", 
         "module": "System Settings", 
-        "id": "CVE-2024-44166", 
         "credit": "Kirin (@Pwnrin) and LFY (@secsys) from Fudan University", 
+        "id": "CVE-2024-44166", 
         "rsr": ""
     }, 
     {
@@ -5362,8 +5388,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2024-44167", 
         "credit": "ajajfxhj", 
+        "id": "CVE-2024-44167", 
         "rsr": ""
     }, 
     {
@@ -5377,8 +5403,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-44168", 
         "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos", 
+        "id": "CVE-2024-44168", 
         "rsr": ""
     }, 
     {
@@ -5397,8 +5423,8 @@
         ], 
         "update": "", 
         "module": "IOSurfaceAccelerator", 
-        "id": "CVE-2024-44169", 
         "credit": "Antonio Zeki\u0107", 
+        "id": "CVE-2024-44169", 
         "rsr": ""
     }, 
     {
@@ -5412,8 +5438,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-44170", 
         "credit": "K\u5b9d, LFY (@secsys), Smi1e, yulige, Cristian Dinca (icmd.tech), Rodolphe BRUNETTI (@eisw0lf)", 
+        "id": "CVE-2024-44170", 
         "rsr": ""
     }, 
     {
@@ -5427,8 +5453,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2024-44171", 
         "credit": "Jake Derouin", 
+        "id": "CVE-2024-44171", 
         "rsr": ""
     }, 
     {
@@ -5440,8 +5466,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Screen Capture", 
-        "id": "CVE-2024-44174", 
         "credit": "Vivek Dhar", 
+        "id": "CVE-2024-44174", 
         "rsr": ""
     }, 
     {
@@ -5454,8 +5480,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-44175", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-44175", 
         "rsr": ""
     }, 
     {
@@ -5474,8 +5500,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2024-44176", 
         "credit": "dw0r of ZeroPointer Lab working with Trend Micro Zero Day Initiative and an anonymous researcher", 
+        "id": "CVE-2024-44176", 
         "rsr": ""
     }, 
     {
@@ -5489,8 +5515,8 @@
         ], 
         "update": "", 
         "module": "Dock", 
-        "id": "CVE-2024-44177", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44177", 
         "rsr": ""
     }, 
     {
@@ -5504,8 +5530,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44178", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44178", 
         "rsr": ""
     }, 
     {
@@ -5517,8 +5543,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-44180", 
         "credit": "Bistrit Dahal", 
+        "id": "CVE-2024-44180", 
         "rsr": ""
     }, 
     {
@@ -5532,8 +5558,8 @@
         ], 
         "update": "", 
         "module": "Maps", 
-        "id": "CVE-2024-44181", 
         "credit": "Kirin(@Pwnrin) and LFY(@secsys) from Fudan University", 
+        "id": "CVE-2024-44181", 
         "rsr": ""
     }, 
     {
@@ -5547,8 +5573,8 @@
         ], 
         "update": "", 
         "module": "App Intents", 
-        "id": "CVE-2024-44182", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44182", 
         "rsr": ""
     }, 
     {
@@ -5567,8 +5593,8 @@
         ], 
         "update": "", 
         "module": "mDNSResponder", 
-        "id": "CVE-2024-44183", 
         "credit": "Olivier Levon", 
+        "id": "CVE-2024-44183", 
         "rsr": ""
     }, 
     {
@@ -5584,8 +5610,8 @@
         ], 
         "update": "", 
         "module": "Transparency", 
-        "id": "CVE-2024-44184", 
         "credit": "Bohdan Stasiuk (@Bohdan_Stasiuk)", 
+        "id": "CVE-2024-44184", 
         "rsr": ""
     }, 
     {
@@ -5602,9 +5628,9 @@
         ], 
         "update": "October 15, 2024", 
         "module": "WebKit", 
-        "id": "CVE-2024-44185", 
         "credit": "Gary Kwong", 
         "bugzilla": "276097", 
+        "id": "CVE-2024-44185", 
         "rsr": ""
     }, 
     {
@@ -5616,8 +5642,8 @@
         ], 
         "update": "", 
         "module": "NSColor", 
-        "id": "CVE-2024-44186", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44186", 
         "rsr": ""
     }, 
     {
@@ -5634,9 +5660,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-44187", 
         "credit": "Narendra Bhati, Manager of Cyber Security at Suma Soft Pvt. Ltd, Pune (India)", 
         "bugzilla": "279452", 
+        "id": "CVE-2024-44187", 
         "rsr": ""
     }, 
     {
@@ -5648,8 +5674,8 @@
         ], 
         "update": "", 
         "module": "Accounts", 
-        "id": "CVE-2024-44188", 
         "credit": "Bohdan Stasiuk (@Bohdan_Stasiuk)", 
+        "id": "CVE-2024-44188", 
         "rsr": ""
     }, 
     {
@@ -5661,8 +5687,8 @@
         ], 
         "update": "", 
         "module": "WindowServer", 
-        "id": "CVE-2024-44189", 
         "credit": "Tim Clem", 
+        "id": "CVE-2024-44189", 
         "rsr": ""
     }, 
     {
@@ -5676,8 +5702,8 @@
         ], 
         "update": "", 
         "module": "System Settings", 
-        "id": "CVE-2024-44190", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf)", 
+        "id": "CVE-2024-44190", 
         "rsr": ""
     }, 
     {
@@ -5695,8 +5721,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-44191", 
         "credit": "Alexander Heinrich, SEEMOO, DistriNet, KU Leuven (@vanhoefm), TU Darmstadt (@Sn0wfreeze) and Mathy Vanhoef", 
+        "id": "CVE-2024-44191", 
         "rsr": ""
     }, 
     {
@@ -5708,8 +5734,8 @@
         ], 
         "update": "", 
         "module": "iTunes", 
-        "id": "CVE-2024-44193", 
         "credit": "Mads Ball, Bocheng Xiang with Fudan University", 
+        "id": "CVE-2024-44193", 
         "rsr": ""
     }, 
     {
@@ -5724,8 +5750,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-44194", 
         "credit": "Rodolphe Brunetti (@eisw0lf)", 
+        "id": "CVE-2024-44194", 
         "rsr": ""
     }, 
     {
@@ -5737,8 +5763,8 @@
         ], 
         "update": "", 
         "module": "Quick Look", 
-        "id": "CVE-2024-44195", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44195", 
         "rsr": ""
     }, 
     {
@@ -5752,8 +5778,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44196", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-44196", 
         "rsr": ""
     }, 
     {
@@ -5767,8 +5793,8 @@
         ], 
         "update": "", 
         "module": "IOGPUFamily", 
-        "id": "CVE-2024-44197", 
         "credit": "Wang Yu of Cyberserval", 
+        "id": "CVE-2024-44197", 
         "rsr": ""
     }, 
     {
@@ -5784,8 +5810,39 @@
         ], 
         "update": "", 
         "module": "libxml2", 
-        "id": "CVE-2024-44198", 
         "credit": "OSS-Fuzz, Ned Williamson of Google Project Zero", 
+        "id": "CVE-2024-44198", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to read sensitive location information", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "This issue was addressed with improved redaction of sensitive information.", 
+        "links": [
+            "https://support.apple.com/en-us/121563", 
+            "https://support.apple.com/en-us/121564"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "Siri", 
+        "credit": "Cristian Dinca (icmd.tech)", 
+        "id": "CVE-2024-44200", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing a malicious crafted file may lead to a denial-of-service", 
+        "available": "iPad Pro 12.9-inch 2nd generation, iPad Pro 10.5-inch, and iPad 6th generation", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121563", 
+            "https://support.apple.com/en-us/121564", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "libarchive", 
+        "credit": "Ben Roeder", 
+        "id": "CVE-2024-44201", 
         "rsr": ""
     }, 
     {
@@ -5798,8 +5855,8 @@
         ], 
         "update": "", 
         "module": "Safari Private Browsing", 
-        "id": "CVE-2024-44202", 
         "credit": "Kenneth Chew", 
+        "id": "CVE-2024-44202", 
         "rsr": ""
     }, 
     {
@@ -5811,8 +5868,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Sandbox", 
-        "id": "CVE-2024-44203", 
         "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit), Wojciech Regula of SecuRing (wojciechregula.blog), Kirin (@Pwnrin) of NorthSea", 
+        "id": "CVE-2024-44203", 
         "rsr": ""
     }, 
     {
@@ -5824,8 +5881,8 @@
         ], 
         "update": "", 
         "module": "Passwords", 
-        "id": "CVE-2024-44204", 
         "credit": "Bistrit Dahal", 
+        "id": "CVE-2024-44204", 
         "rsr": ""
     }, 
     {
@@ -5841,8 +5898,8 @@
         ], 
         "update": "October 15, 2024", 
         "module": "Siri", 
-        "id": "CVE-2024-44205", 
         "credit": "Jiahui Hu (\u6885\u96f6\u843d) and Meng Zhang (\u9cb8\u843d) of NorthSea", 
+        "id": "CVE-2024-44205", 
         "rsr": ""
     }, 
     {
@@ -5859,9 +5916,9 @@
         ], 
         "update": "October 15, 2024", 
         "module": "WebKit", 
-        "id": "CVE-2024-44206", 
         "credit": "Andreas Jaegersberger and Ro Achterberg", 
         "bugzilla": "280765", 
+        "id": "CVE-2024-44206", 
         "rsr": ""
     }, 
     {
@@ -5873,8 +5930,8 @@
         ], 
         "update": "", 
         "module": "Media Session", 
-        "id": "CVE-2024-44207", 
         "credit": "Michael Jimenez and an anonymous researcher", 
+        "id": "CVE-2024-44207", 
         "rsr": ""
     }, 
     {
@@ -5886,8 +5943,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "WindowServer", 
-        "id": "CVE-2024-44208", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44208", 
         "rsr": ""
     }, 
     {
@@ -5899,8 +5956,27 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2024-44211", 
         "credit": "Gergely Kalman (@gergely_kalman) and Csaba Fitzl (@theevilbit)", 
+        "id": "CVE-2024-44211", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Cookies belonging to one origin may be sent to another origin", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "A cookie management issue was addressed with improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/121563", 
+            "https://support.apple.com/en-us/121564", 
+            "https://support.apple.com/en-us/121565", 
+            "https://support.apple.com/en-us/121566", 
+            "https://support.apple.com/en-us/121569", 
+            "https://support.apple.com/en-us/121571"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "WebKit", 
+        "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "bugzilla": "279226", 
+        "id": "CVE-2024-44212", 
         "rsr": ""
     }, 
     {
@@ -5914,8 +5990,8 @@
         ], 
         "update": "", 
         "module": "CUPS", 
-        "id": "CVE-2024-44213", 
         "credit": "Alexandre Bedard", 
+        "id": "CVE-2024-44213", 
         "rsr": ""
     }, 
     {
@@ -5934,8 +6010,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2024-44215", 
         "credit": "Junsung Lee working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44215", 
         "rsr": ""
     }, 
     {
@@ -5949,8 +6025,8 @@
         ], 
         "update": "", 
         "module": "Installer", 
-        "id": "CVE-2024-44216", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2024-44216", 
         "rsr": ""
     }, 
     {
@@ -5962,8 +6038,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Passwords", 
-        "id": "CVE-2024-44217", 
         "credit": "Bistrit Dahal, an anonymous researcher, Joshua Keller", 
+        "id": "CVE-2024-44217", 
         "rsr": ""
     }, 
     {
@@ -5978,8 +6054,35 @@
         ], 
         "update": "", 
         "module": "SceneKit", 
-        "id": "CVE-2024-44218", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44218", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious application with root privileges may be able to access private information", 
+        "available": "macOS Sequoia", 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/121564"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "Sandbox", 
+        "credit": "Ryan Dowd (@_rdowd)", 
+        "id": "CVE-2024-44219", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted video file may lead to unexpected system termination", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840"
+        ], 
+        "update": "", 
+        "module": "AppleGraphicsControl", 
+        "credit": "D4m0n", 
+        "id": "CVE-2024-44220", 
         "rsr": ""
     }, 
     {
@@ -5993,8 +6096,8 @@
         ], 
         "update": "", 
         "module": "Maps", 
-        "id": "CVE-2024-44222", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44222", 
         "rsr": ""
     }, 
     {
@@ -6006,8 +6109,42 @@
         ], 
         "update": "", 
         "module": "Login Window", 
-        "id": "CVE-2024-44223", 
         "credit": "Jaime Bertran", 
+        "id": "CVE-2024-44223", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious app may be able to gain root privileges", 
+        "available": "macOS Sequoia", 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "StorageKit", 
+        "credit": "Amy (@asentientbot)", 
+        "id": "CVE-2024-44224", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to gain elevated privileges", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "A logic issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844"
+        ], 
+        "update": "", 
+        "module": "libxpc", 
+        "credit": "\u98ce\u6c90\u4e91\u70df(@binary_fmyy)", 
+        "id": "CVE-2024-44225", 
         "rsr": ""
     }, 
     {
@@ -6019,8 +6156,8 @@
         ], 
         "update": "October 28, 2024", 
         "module": "Playgrounds", 
-        "id": "CVE-2024-44228", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2024-44228", 
         "rsr": ""
     }, 
     {
@@ -6035,8 +6172,8 @@
         ], 
         "update": "", 
         "module": "Safari Private Browsing", 
-        "id": "CVE-2024-44229", 
         "credit": "Lucas Di Tomase", 
+        "id": "CVE-2024-44229", 
         "rsr": ""
     }, 
     {
@@ -6048,8 +6185,8 @@
         ], 
         "update": "", 
         "module": "Login Window", 
-        "id": "CVE-2024-44231", 
         "credit": "Toomas R\u00f6mer", 
+        "id": "CVE-2024-44231", 
         "rsr": ""
     }, 
     {
@@ -6068,8 +6205,8 @@
         ], 
         "update": "November 1, 2024", 
         "module": "AppleAVD", 
+        "credit": "Ivan Fratric of Google Project Zero", 
         "id": "CVE-2024-44232", 
-        "credit": "Ivan Fratric of Google Project Zero", 
         "rsr": ""
     }, 
     {
@@ -6088,8 +6225,8 @@
         ], 
         "update": "November 1, 2024", 
         "module": "AppleAVD", 
+        "credit": "Ivan Fratric of Google Project Zero", 
         "id": "CVE-2024-44233", 
-        "credit": "Ivan Fratric of Google Project Zero", 
         "rsr": ""
     }, 
     {
@@ -6108,8 +6245,8 @@
         ], 
         "update": "November 1, 2024", 
         "module": "AppleAVD", 
-        "id": "CVE-2024-44234", 
         "credit": "Ivan Fratric of Google Project Zero", 
+        "id": "CVE-2024-44234", 
         "rsr": ""
     }, 
     {
@@ -6121,8 +6258,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2024-44235", 
         "credit": "Rizki Maulana (rmrizki.my.id), Dalibor Milanovic, Richard Hyunho Im (@richeeta) with Route Zero Security", 
+        "id": "CVE-2024-44235", 
         "rsr": ""
     }, 
     {
@@ -6136,8 +6273,8 @@
         ], 
         "update": "", 
         "module": "sips", 
+        "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
         "id": "CVE-2024-44236", 
-        "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
         "rsr": ""
     }, 
     {
@@ -6151,8 +6288,8 @@
         ], 
         "update": "", 
         "module": "sips", 
-        "id": "CVE-2024-44237", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44237", 
         "rsr": ""
     }, 
     {
@@ -6171,8 +6308,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2024-44239", 
         "credit": "Mateusz Krzywicki (@krzywix)", 
+        "id": "CVE-2024-44239", 
         "rsr": ""
     }, 
     {
@@ -6191,8 +6328,49 @@
         ], 
         "update": "", 
         "module": "CoreText", 
-        "id": "CVE-2024-44240", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44240", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker may be able to cause unexpected system termination or arbitrary code execution in DCP firmware", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved bounds checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121563", 
+            "https://support.apple.com/en-us/121564"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "IOMobileFrameBuffer", 
+        "credit": "Ye Zhang (@VAR10CK) of Baidu Security", 
+        "id": "CVE-2024-44241", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker may be able to cause unexpected system termination or arbitrary code execution in DCP firmware", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved bounds checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121563", 
+            "https://support.apple.com/en-us/121564"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "IOMobileFrameBuffer", 
+        "credit": "Ye Zhang (@VAR10CK) of Baidu Security", 
+        "id": "CVE-2024-44242", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to modify protected parts of the file system", 
+        "available": "macOS Sequoia", 
+        "description": "A configuration issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "StorageKit", 
+        "credit": "Mickey Jin (@patch1t), Jonathan Bar Or (@yo_yo_yo_jbo) of Microsoft", 
+        "id": "CVE-2024-44243", 
         "rsr": ""
     }, 
     {
@@ -6209,9 +6387,42 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-44244", 
         "credit": "an anonymous researcher, Q1IQ (@q1iqF) and P1umer (@p1umer)", 
         "bugzilla": "279780", 
+        "id": "CVE-2024-44244", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121845"
+        ], 
+        "update": "", 
+        "module": "Kernel", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44245", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "On a device with Private Relay enabled, adding a website to the Safari Reading List may reveal the originating IP address to the website", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "The issue was addressed with improved routing of Safari-originated requests.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121846"
+        ], 
+        "update": "", 
+        "module": "Safari", 
+        "credit": "Jacob Braun", 
+        "id": "CVE-2024-44246", 
         "rsr": ""
     }, 
     {
@@ -6223,10 +6434,25 @@
             "https://support.apple.com/en-us/121568", 
             "https://support.apple.com/en-us/121570"
         ], 
-        "update": "", 
+        "update": "December 11, 2024", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44247", 
         "credit": "Un3xploitable of CW Research Inc", 
+        "id": "CVE-2024-44247", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A user with screen sharing access may be able to view another user's screen", 
+        "available": "macOS Sonoma", 
+        "description": "This issue was addressed through improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/121564", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "Screen Sharing Server", 
+        "credit": "Halle Winkler, Politepix (theoffcuts.org)", 
+        "id": "CVE-2024-44248", 
         "rsr": ""
     }, 
     {
@@ -6238,8 +6464,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2024-44251", 
         "credit": "Abhay Kailasia (@abhay_kailasia) of Lakshmi Narain College of Technology Bhopal India", 
+        "id": "CVE-2024-44251", 
         "rsr": ""
     }, 
     {
@@ -6254,8 +6480,8 @@
         ], 
         "update": "", 
         "module": "MobileBackup", 
-        "id": "CVE-2024-44252", 
         "credit": "Nimrat Khalsa, Davis Dai, James Gill (@jjtech@infosec.exchange)", 
+        "id": "CVE-2024-44252", 
         "rsr": ""
     }, 
     {
@@ -6269,8 +6495,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44253", 
         "credit": "Mickey Jin (@patch1t), Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-44253", 
         "rsr": ""
     }, 
     {
@@ -6286,8 +6512,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2024-44254", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44254", 
         "rsr": ""
     }, 
     {
@@ -6305,8 +6531,8 @@
         ], 
         "update": "", 
         "module": "App Support", 
-        "id": "CVE-2024-44255", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44255", 
         "rsr": ""
     }, 
     {
@@ -6320,8 +6546,8 @@
         ], 
         "update": "", 
         "module": "Messages", 
-        "id": "CVE-2024-44256", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44256", 
         "rsr": ""
     }, 
     {
@@ -6335,8 +6561,8 @@
         ], 
         "update": "", 
         "module": "WindowServer", 
-        "id": "CVE-2024-44257", 
         "credit": "Bohdan Stasiuk (@Bohdan_Stasiuk)", 
+        "id": "CVE-2024-44257", 
         "rsr": ""
     }, 
     {
@@ -6351,8 +6577,8 @@
         ], 
         "update": "", 
         "module": "Managed Configuration", 
-        "id": "CVE-2024-44258", 
         "credit": "Hichem Maloufi, Christian Mina, Ismail Amzdak", 
+        "id": "CVE-2024-44258", 
         "rsr": ""
     }, 
     {
@@ -6368,8 +6594,8 @@
         ], 
         "update": "", 
         "module": "Safari Downloads", 
-        "id": "CVE-2024-44259", 
         "credit": "Narendra Bhati, Manager of Cyber Security at Suma Soft Pvt. Ltd, Pune (India)", 
+        "id": "CVE-2024-44259", 
         "rsr": ""
     }, 
     {
@@ -6383,8 +6609,8 @@
         ], 
         "update": "", 
         "module": "Assets", 
-        "id": "CVE-2024-44260", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44260", 
         "rsr": ""
     }, 
     {
@@ -6397,8 +6623,8 @@
         ], 
         "update": "", 
         "module": "VoiceOver", 
-        "id": "CVE-2024-44261", 
         "credit": "Braylon (@softwarescool)", 
+        "id": "CVE-2024-44261", 
         "rsr": ""
     }, 
     {
@@ -6410,8 +6636,8 @@
         ], 
         "update": "", 
         "module": "Lock Screen", 
-        "id": "CVE-2024-44262", 
         "credit": "Justin Saboo", 
+        "id": "CVE-2024-44262", 
         "rsr": ""
     }, 
     {
@@ -6423,8 +6649,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-44263", 
         "credit": "Kirin (@Pwnrin) and 7feilee", 
+        "id": "CVE-2024-44263", 
         "rsr": ""
     }, 
     {
@@ -6438,8 +6664,8 @@
         ], 
         "update": "", 
         "module": "SystemMigration", 
-        "id": "CVE-2024-44264", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44264", 
         "rsr": ""
     }, 
     {
@@ -6453,8 +6679,8 @@
         ], 
         "update": "", 
         "module": "Game Controllers", 
-        "id": "CVE-2024-44265", 
         "credit": "Ronny Stiftel", 
+        "id": "CVE-2024-44265", 
         "rsr": ""
     }, 
     {
@@ -6466,10 +6692,10 @@
             "https://support.apple.com/en-us/121568", 
             "https://support.apple.com/en-us/121570"
         ], 
-        "update": "", 
+        "update": "December 11, 2024", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44267", 
         "credit": "Bohdan Stasiuk (@Bohdan_Stasiuk), Un3xploitable of CW Research Inc, Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2024-44267", 
         "rsr": ""
     }, 
     {
@@ -6485,10 +6711,10 @@
             "https://support.apple.com/en-us/121568", 
             "https://support.apple.com/en-us/121570"
         ], 
-        "update": "", 
+        "update": "December 11, 2024", 
         "module": "Shortcuts", 
+        "credit": "Kirin (@Pwnrin) and an anonymous researcher", 
         "id": "CVE-2024-44269", 
-        "credit": "an anonymous researcher", 
         "rsr": ""
     }, 
     {
@@ -6502,8 +6728,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-44270", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44270", 
         "rsr": ""
     }, 
     {
@@ -6520,8 +6746,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia Playback", 
-        "id": "CVE-2024-44273", 
         "credit": "pattern-f (@pattern_F_), Hikerell of Loadshine Lab", 
+        "id": "CVE-2024-44273", 
         "rsr": ""
     }, 
     {
@@ -6535,8 +6761,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2024-44274", 
         "credit": "Rizki Maulana (rmrizki.my.id), Matthew Butler, Jake Derouin", 
+        "id": "CVE-2024-44274", 
         "rsr": ""
     }, 
     {
@@ -6548,10 +6774,10 @@
             "https://support.apple.com/en-us/121568", 
             "https://support.apple.com/en-us/121570"
         ], 
-        "update": "", 
+        "update": "December 11, 2024", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44275", 
         "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2024-44275", 
         "rsr": ""
     }, 
     {
@@ -6566,8 +6792,8 @@
         ], 
         "update": "", 
         "module": "Pro Res", 
-        "id": "CVE-2024-44277", 
         "credit": "an anonymous researcher and Yinyi Wu(@_3ndy1) from Dawn Security Lab of JD.com, Inc.", 
+        "id": "CVE-2024-44277", 
         "rsr": ""
     }, 
     {
@@ -6585,8 +6811,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2024-44278", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44278", 
         "rsr": ""
     }, 
     {
@@ -6600,8 +6826,8 @@
         ], 
         "update": "", 
         "module": "sips", 
-        "id": "CVE-2024-44279", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44279", 
         "rsr": ""
     }, 
     {
@@ -6615,8 +6841,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2024-44280", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44280", 
         "rsr": ""
     }, 
     {
@@ -6630,8 +6856,8 @@
         ], 
         "update": "", 
         "module": "sips", 
-        "id": "CVE-2024-44281", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44281", 
         "rsr": ""
     }, 
     {
@@ -6650,8 +6876,8 @@
         ], 
         "update": "", 
         "module": "Foundation", 
-        "id": "CVE-2024-44282", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44282", 
         "rsr": ""
     }, 
     {
@@ -6665,8 +6891,8 @@
         ], 
         "update": "", 
         "module": "sips", 
-        "id": "CVE-2024-44283", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44283", 
         "rsr": ""
     }, 
     {
@@ -6680,8 +6906,8 @@
         ], 
         "update": "", 
         "module": "sips", 
-        "id": "CVE-2024-44284", 
         "credit": "Junsung Lee, dw0r! working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44284", 
         "rsr": ""
     }, 
     {
@@ -6697,8 +6923,8 @@
         ], 
         "update": "", 
         "module": "IOSurface", 
-        "id": "CVE-2024-44285", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44285", 
         "rsr": ""
     }, 
     {
@@ -6712,8 +6938,8 @@
         ], 
         "update": "", 
         "module": "Installer", 
-        "id": "CVE-2024-44287", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44287", 
         "rsr": ""
     }, 
     {
@@ -6727,8 +6953,38 @@
         ], 
         "update": "", 
         "module": "Find My", 
-        "id": "CVE-2024-44289", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44289", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to determine a user\u2019s current location", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "This issue was addressed with improved redaction of sensitive information.", 
+        "links": [
+            "https://support.apple.com/en-us/121563", 
+            "https://support.apple.com/en-us/121564", 
+            "https://support.apple.com/en-us/121565"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "Weather", 
+        "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44290", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious app may be able to gain root privileges", 
+        "available": "macOS Sequoia", 
+        "description": "A logic issue was addressed with improved file handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "Foundation", 
+        "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2024-44291", 
         "rsr": ""
     }, 
     {
@@ -6740,8 +6996,8 @@
         ], 
         "update": "", 
         "module": "Notification Center", 
-        "id": "CVE-2024-44292", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44292", 
         "rsr": ""
     }, 
     {
@@ -6753,8 +7009,8 @@
         ], 
         "update": "", 
         "module": "Notification Center", 
-        "id": "CVE-2024-44293", 
         "credit": "Kirin (@Pwnrin) and 7feilee", 
+        "id": "CVE-2024-44293", 
         "rsr": ""
     }, 
     {
@@ -6768,8 +7024,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44294", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44294", 
         "rsr": ""
     }, 
     {
@@ -6783,8 +7039,8 @@
         ], 
         "update": "", 
         "module": "CoreServicesUIAgent", 
-        "id": "CVE-2024-44295", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44295", 
         "rsr": ""
     }, 
     {
@@ -6802,9 +7058,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-44296", 
         "credit": "Narendra Bhati, Manager of Cyber Security at Suma Soft Pvt. Ltd, Pune (India)", 
         "bugzilla": "278765", 
+        "id": "CVE-2024-44296", 
         "rsr": ""
     }, 
     {
@@ -6823,8 +7079,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2024-44297", 
         "credit": "Jex Amro", 
+        "id": "CVE-2024-44297", 
         "rsr": ""
     }, 
     {
@@ -6836,8 +7092,37 @@
         ], 
         "update": "", 
         "module": "Contacts", 
-        "id": "CVE-2024-44298", 
         "credit": "Kirin (@Pwnrin) and 7feilee", 
+        "id": "CVE-2024-44298", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker may be able to cause unexpected system termination or arbitrary code execution in DCP firmware", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved bounds checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121563", 
+            "https://support.apple.com/en-us/121564"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "IOMobileFrameBuffer", 
+        "credit": "Ye Zhang (@VAR10CK) of Baidu Security", 
+        "id": "CVE-2024-44299", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access protected user data", 
+        "available": "macOS Sequoia", 
+        "description": "A logic issue was addressed with improved file handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "Crash Reporter", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44300", 
         "rsr": ""
     }, 
     {
@@ -6849,10 +7134,10 @@
             "https://support.apple.com/en-us/121568", 
             "https://support.apple.com/en-us/121570"
         ], 
-        "update": "", 
+        "update": "December 11, 2024", 
         "module": "PackageKit", 
-        "id": "CVE-2024-44301", 
         "credit": "Bohdan Stasiuk (@Bohdan_Stasiuk), Un3xploitable of CW Research Inc, Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2024-44301", 
         "rsr": ""
     }, 
     {
@@ -6871,8 +7156,21 @@
         ], 
         "update": "", 
         "module": "CoreText", 
-        "id": "CVE-2024-44302", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-44302", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious application may be able to modify protected parts of the file system", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121564"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "PackageKit", 
+        "credit": "Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2024-44303", 
         "rsr": ""
     }, 
     {
@@ -6884,8 +7182,8 @@
         ], 
         "update": "November 13, 2024", 
         "module": "ASP TCP", 
+        "credit": "CertiK SkyFall Team", 
         "id": "CVE-2024-44306", 
-        "credit": "CertiK SkyFall Team", 
         "rsr": ""
     }, 
     {
@@ -6897,8 +7195,8 @@
         ], 
         "update": "November 13, 2024", 
         "module": "ASP TCP", 
-        "id": "CVE-2024-44307", 
         "credit": "CertiK SkyFall Team", 
+        "id": "CVE-2024-44307", 
         "rsr": ""
     }, 
     {
@@ -6914,9 +7212,9 @@
         ], 
         "update": "", 
         "module": "JavaScriptCore", 
-        "id": "CVE-2024-44308", 
         "credit": "Cl\u00e9ment Lecigne and Beno\u00eet Sevens of Google's Threat Analysis Group", 
         "bugzilla": "283063", 
+        "id": "CVE-2024-44308", 
         "rsr": ""
     }, 
     {
@@ -6932,9 +7230,29 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-44309", 
         "credit": "Cl\u00e9ment Lecigne and Beno\u00eet Sevens of Google's Threat Analysis Group", 
         "bugzilla": "283095", 
+        "id": "CVE-2024-44309", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A remote attacker may cause an unexpected app termination or arbitrary code execution", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845"
+        ], 
+        "update": "", 
+        "module": "libexpat", 
+        "credit": "", 
+        "id": "CVE-2024-45490", 
         "rsr": ""
     }, 
     {
@@ -6948,9 +7266,598 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-4558", 
         "credit": "", 
         "bugzilla": "274165", 
+        "id": "CVE-2024-4558", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to elevate privileges", 
+        "available": "macOS Sequoia", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "LaunchServices", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-54465", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An encrypted volume may be accessed by a different user without prompting for the password", 
+        "available": "macOS Sequoia", 
+        "description": "An authorization issue was addressed with improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "DiskArbitration", 
+        "credit": "Michael Cohen", 
+        "id": "CVE-2024-54466", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious application may be able to leak a user's credentials", 
+        "available": "macOS Sequoia", 
+        "description": "This issue was addressed with additional entitlement checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121564", 
+            "https://support.apple.com/en-us/121568", 
+            "https://support.apple.com/en-us/121570"
+        ], 
+        "update": "December 11, 2024", 
+        "module": "NetAuth", 
+        "credit": "Noah Gregory (wts.dev)", 
+        "id": "CVE-2024-54471", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access user-sensitive data", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "PackageKit", 
+        "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-54474", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access user-sensitive data", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "PackageKit", 
+        "credit": "Mickey Jin (@patch1t), Bohdan Stasiuk (@Bohdan_Stasiuk)", 
+        "id": "CVE-2024-54476", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access user-sensitive data", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "Apple Software Restore", 
+        "credit": "Mickey Jin (@patch1t), Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2024-54477", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845", 
+            "https://support.apple.com/en-us/121846"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Seunghyun Lee", 
+        "bugzilla": "278497", 
+        "id": "CVE-2024-54479", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access user-sensitive data", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was resolved by sanitizing logging.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "MediaRemote", 
+        "credit": "Meng Zhang (\u9cb8\u843d) of NorthSea", 
+        "id": "CVE-2024-54484", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker with physical access to an iOS device may be able to view notification content from the lock screen", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed by adding additional logic.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838"
+        ], 
+        "update": "", 
+        "module": "VoiceOver", 
+        "credit": "Abhay Kailasia (@abhay_kailasia) from C-DAC Thiruvananthapuram India", 
+        "id": "CVE-2024-54485", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing a maliciously crafted font may result in the disclosure of process memory", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845"
+        ], 
+        "update": "", 
+        "module": "FontParser", 
+        "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-54486", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Running a mount command may unexpectedly execute arbitrary code", 
+        "available": "macOS Sequoia", 
+        "description": "A path handling issue was addressed with improved validation.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "Disk Utility", 
+        "credit": "D\u2019Angelo Gonzalez of CrowdStrike", 
+        "id": "CVE-2024-54489", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A local attacker may gain access to user's Keychain items", 
+        "available": "macOS Sequoia", 
+        "description": "This issue was addressed by enabling hardened runtime.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "AppleMobileFileIntegrity", 
+        "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-54490", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious application may be able to determine a user's current location", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was resolved by sanitizing logging", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "Logging", 
+        "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-54491", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker in a privileged network position may be able to alter network traffic", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "This issue was addressed by using HTTPS when sending information over the network.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121845"
+        ], 
+        "update": "", 
+        "module": "Passwords", 
+        "credit": "Talal Haj Bakry and Tommy Mysk of Mysk Inc. (@mysk_co)", 
+        "id": "CVE-2024-54492", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Privacy indicators for microphone access may be attributed incorrectly", 
+        "available": "macOS Sequoia", 
+        "description": "This issue was addressed through improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "Shortcuts", 
+        "credit": "Yokesh Muthu K", 
+        "id": "CVE-2024-54493", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker may be able to create a read-only memory mapping that can be written to", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "A race condition was addressed with additional validation.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845"
+        ], 
+        "update": "", 
+        "module": "Kernel", 
+        "credit": "sohybbyk", 
+        "id": "CVE-2024-54494", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to modify protected parts of the file system", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved permissions logic.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840"
+        ], 
+        "update": "", 
+        "module": "Swift", 
+        "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2024-54495", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to break out of its sandbox", 
+        "available": "macOS Sequoia", 
+        "description": "A path handling issue was addressed with improved validation.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "SharedFileList", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-54498", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing a maliciously crafted image may result in disclosure of process memory", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845"
+        ], 
+        "update": "", 
+        "module": "ImageIO", 
+        "credit": "Junsung Lee working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-54500", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing a maliciously crafted file may lead to a denial of service", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845"
+        ], 
+        "update": "", 
+        "module": "SceneKit", 
+        "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative", 
+        "id": "CVE-2024-54501", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845", 
+            "https://support.apple.com/en-us/121846"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Brendon Tiszka of Google Project Zero", 
+        "bugzilla": "281912", 
+        "id": "CVE-2024-54502", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Muting a call while ringing may not result in mute being enabled", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "An inconsistent user interface issue was addressed with improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/121837"
+        ], 
+        "update": "", 
+        "module": "Audio", 
+        "credit": "Micheal Chukwu and an anonymous researcher", 
+        "id": "CVE-2024-54503", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access user-sensitive data", 
+        "available": "macOS Sequoia", 
+        "description": "A privacy issue was addressed with improved private data redaction for log entries.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "Notification Center", 
+        "credit": "\u795e\u7f5a(@Pwnrin)", 
+        "id": "CVE-2024-54504", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to memory corruption", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "A type confusion issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845", 
+            "https://support.apple.com/en-us/121846"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Gary Kwong", 
+        "bugzilla": "282661", 
+        "id": "CVE-2024-54505", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker may be able to cause unexpected system termination or arbitrary code execution in DCP firmware", 
+        "available": "macOS Sequoia", 
+        "description": "An out-of-bounds access issue was addressed with improved bounds checking.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "IOMobileFrameBuffer", 
+        "credit": "Ye Zhang (@VAR10CK) of Baidu Security", 
+        "id": "CVE-2024-54506", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845", 
+            "https://support.apple.com/en-us/121846"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "linjy of HKUS3Lab and chluo of WHUSecLab, Xiangwei Zhang of Tencent Security YUNDING LAB", 
+        "bugzilla": "282180", 
+        "id": "CVE-2024-54508", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to leak sensitive kernel state", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "A race condition was addressed with improved locking.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121838", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844"
+        ], 
+        "update": "", 
+        "module": "Kernel", 
+        "credit": "Joseph Ravichandran (@0xjprx) of MIT CSAIL", 
+        "id": "CVE-2024-54510", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845"
+        ], 
+        "update": "", 
+        "module": "Crash Reporter", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-54513", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to break out of its sandbox", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844"
+        ], 
+        "update": "", 
+        "module": "libxpc", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-54514", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious app may be able to gain root privileges", 
+        "available": "macOS Sequoia", 
+        "description": "A logic issue was addressed with improved restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "SharedFileList", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-54515", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious app may be able to access arbitrary files", 
+        "available": "macOS Sequoia", 
+        "description": "A logic issue was addressed with improved file handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "SharedFileList", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-54524", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious app may be able to access private information", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844"
+        ], 
+        "update": "", 
+        "module": "AppleMobileFileIntegrity", 
+        "credit": "Mickey Jin (@patch1t), Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2024-54526", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "This issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844"
+        ], 
+        "update": "", 
+        "module": "AppleMobileFileIntegrity", 
+        "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-54527", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to overwrite arbitrary files", 
+        "available": "macOS Sequoia", 
+        "description": "A logic issue was addressed with improved restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "SharedFileList", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-54528", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to execute arbitrary code with kernel privileges", 
+        "available": "macOS Sequoia", 
+        "description": "A logic issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121840", 
+            "https://support.apple.com/en-us/121842"
+        ], 
+        "update": "", 
+        "module": "Audio", 
+        "credit": "Dillon Franke working with Google Project Zero", 
+        "id": "CVE-2024-54529", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to bypass kASLR", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "", 
+        "module": "Kernel", 
+        "credit": "Hyerean Jang, Taehun Kim, and Youngjoo Shin", 
+        "id": "CVE-2024-54531", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to memory corruption", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845", 
+            "https://support.apple.com/en-us/121846"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Tashita Software Security", 
+        "bugzilla": "277967", 
+        "id": "CVE-2024-54534", 
         "rsr": ""
     }, 
     {
@@ -6964,8 +7871,8 @@
         ], 
         "update": "", 
         "module": "OpenSSH", 
-        "id": "CVE-2024-6387", 
         "credit": "", 
+        "id": "CVE-2024-6387", 
         "rsr": ""
     }
 ]
