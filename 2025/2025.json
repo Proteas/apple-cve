@@ -1095,5 +1095,22 @@
         "credit": "Bill Marczak of The Citizen Lab at The University of Toronto\u2019s Munk School", 
         "id": "CVE-2025-24200", 
         "rsr": ""
+    }, 
+    {
+        "impact": "Maliciously crafted web content may be able to break out of Web Content sandbox. This is a supplementary fix for an attack that was blocked in iOS 17.2. (Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 17.2.)", 
+        "available": "macOS Ventura and macOS Sonoma", 
+        "description": "An out-of-bounds write issue was addressed with improved checks to prevent unauthorized actions.", 
+        "links": [
+            "https://support.apple.com/en-us/122281", 
+            "https://support.apple.com/en-us/122283", 
+            "https://support.apple.com/en-us/122284", 
+            "https://support.apple.com/en-us/122285"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Apple", 
+        "bugzilla": "285858", 
+        "id": "CVE-2025-24201", 
+        "rsr": ""
     }
 ]
