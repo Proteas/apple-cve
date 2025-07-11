@@ -5161,13 +5161,11 @@
         "impact": "An app may be able to break out of its sandbox", 
         "available": [
             "macOS Sequoia", 
-            "macOS Sonoma", 
             "macOS Ventura"
         ], 
         "description": "A file quarantine bypass was addressed with additional checks.", 
         "links": [
             "https://support.apple.com/en-us/122373", 
-            "https://support.apple.com/en-us/122374", 
             "https://support.apple.com/en-us/122375"
         ], 
         "update": "May 28, 2025", 
@@ -5314,13 +5312,11 @@
         "impact": "A path handling issue was addressed with improved validation", 
         "available": [
             "macOS Sequoia", 
-            "macOS Sonoma", 
             "macOS Ventura"
         ], 
         "description": "This issue was addressed with improved validation of symlinks.", 
         "links": [
             "https://support.apple.com/en-us/122373", 
-            "https://support.apple.com/en-us/122374", 
             "https://support.apple.com/en-us/122375"
         ], 
         "update": "May 28, 2025", 
@@ -6468,13 +6464,11 @@
         "impact": "An app may be able to access protected user data", 
         "available": [
             "macOS Sequoia", 
-            "macOS Sonoma", 
             "macOS Ventura"
         ], 
         "description": "A permissions issue was addressed with additional sandbox restrictions.", 
         "links": [
             "https://support.apple.com/en-us/122373", 
-            "https://support.apple.com/en-us/122374", 
             "https://support.apple.com/en-us/122375"
         ], 
         "update": "May 28, 2025", 
@@ -6525,19 +6519,32 @@
         "impact": "An attacker with physical access to a locked device may be able to view sensitive user information", 
         "available": [
             "macOS Sequoia", 
-            "macOS Sonoma", 
             "macOS Ventura"
         ], 
         "description": "An authentication issue was addressed with improved state management.", 
         "links": [
             "https://support.apple.com/en-us/122373", 
-            "https://support.apple.com/en-us/122374", 
             "https://support.apple.com/en-us/122375"
         ], 
         "update": "May 28, 2025", 
         "module": "macOS Recovery", 
         "credit": "Diamant Osmani & Valdrin Haliti [Kosov\u00eb], dbpeppe, Solitechworld", 
         "id": "CVE-2025-31264", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker with physical access to an unlocked device may be able to view sensitive user information", 
+        "available": [
+            "iOS 17.0 and iPadOS 17.0 and later"
+        ], 
+        "description": "An authentication issue was addressed with improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/123356"
+        ], 
+        "update": "", 
+        "module": "App Store Connect", 
+        "credit": "Adam Sot\u00e1k, Tim Kl\u00f6\u00df", 
+        "id": "CVE-2025-31267", 
         "rsr": ""
     }, 
     {
