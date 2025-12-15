@@ -347,6 +347,35 @@
         "rsr": ""
     }, 
     {
+        "impact": "Multiple issues in curl", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "curl", 
+        "credit": "", 
+        "id": "CVE-2024-7264", 
+        "rsr": ""
+    }, 
+    {
         "impact": "Multiple issues in libexpat, including unexpected app termination or arbitrary code execution", 
         "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
@@ -373,6 +402,23 @@
         "module": "libexpat", 
         "credit": "", 
         "id": "CVE-2024-8176", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A download's origin may be incorrectly associated", 
+        "available": [
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "Safari Downloads", 
+        "credit": "@retsew0x01", 
+        "id": "CVE-2024-8906", 
         "rsr": ""
     }, 
     {
@@ -417,6 +463,34 @@
         "module": "Passkeys", 
         "credit": "mastersplinter", 
         "id": "CVE-2024-9956", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to memory corruption. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26. CVE-2025-43529 was also issued in response to this report.", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A memory corruption issue was addressed with improved validation.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Apple and Google Threat Analysis Group", 
+        "bugzilla": "303614", 
+        "id": "CVE-2025-14174", 
         "rsr": ""
     }, 
     {
@@ -9623,6 +9697,23 @@
         "rsr": ""
     }, 
     {
+        "impact": "An app may be able to bypass launch constraint protections and execute malicious code with elevated privileges", 
+        "available": [
+            "Mac Studio (2022 and later), iMac (2020 and later), Mac Pro (2019 and later), Mac mini (2020 and later), MacBook Air with Apple silicon (2020 and later), MacBook Pro (16-inch, 2019), MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports), and MacBook Pro with Apple silicon (2020 and later)", 
+            "macOS Sequoia"
+        ], 
+        "description": "The issue was addressed by adding additional logic.", 
+        "links": [
+            "https://support.apple.com/en-us/125110", 
+            "https://support.apple.com/en-us/125887"
+        ], 
+        "update": "", 
+        "module": "AppleMobileFileIntegrity", 
+        "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos", 
+        "id": "CVE-2025-43320", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An app may be able to access protected user data", 
         "available": [
             "Mac Pro (2019), iMac (27-inch, 2020), MacBook Pro (16-inch, 2019), and MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)", 
@@ -11317,6 +11408,25 @@
         "rsr": ""
     }, 
     {
+        "impact": "An attacker with physical access may be able to view deleted notes", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "The issue was addressed with improved handling of caches.", 
+        "links": [
+            "https://support.apple.com/en-us/125635", 
+            "https://support.apple.com/en-us/125636", 
+            "https://support.apple.com/en-us/125886"
+        ], 
+        "update": "", 
+        "module": "Notes", 
+        "credit": "Atul R V", 
+        "id": "CVE-2025-43410", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An app may be able to access user-sensitive data", 
         "available": [
             "macOS Sequoia", 
@@ -11401,12 +11511,33 @@
         "rsr": ""
     }, 
     {
+        "impact": "An app may be able to access protected user data", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A logic issue was addressed with improved restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "sudo", 
+        "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-43416", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An attacker with physical access to a locked device may be able to view sensitive user information", 
         "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later"
         ], 
         "description": "This issue was addressed by restricting options offered on a locked device.", 
         "links": [
+            "https://support.apple.com/en-us/125632", 
             "https://support.apple.com/en-us/125633"
         ], 
         "update": "", 
@@ -11574,9 +11705,9 @@
             "https://support.apple.com/en-us/125632", 
             "https://support.apple.com/en-us/125634"
         ], 
-        "update": "", 
+        "update": "December 12, 2025", 
         "module": "Contacts", 
-        "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "credit": "Wojciech Regula of SecuRing (wojciechregula.blog), Kirin (@Pwnrin) and LFY (@secsys) from Fudan University", 
         "id": "CVE-2025-43426", 
         "rsr": ""
     }, 
@@ -11602,6 +11733,25 @@
         "credit": "Gary Kwong, rheza (@ginggilBesel)", 
         "bugzilla": "298628", 
         "id": "CVE-2025-43427", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Photos in the Hidden Photos Album may be viewed without authentication", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "description": "A configuration issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "Photos", 
+        "credit": "an anonymous researcher, Michael Schmutzer of Technische Hochschule Ingolstadt", 
+        "id": "CVE-2025-43428", 
         "rsr": ""
     }, 
     {
@@ -11759,7 +11909,7 @@
             "https://support.apple.com/en-us/125639", 
             "https://support.apple.com/en-us/125640"
         ], 
-        "update": "", 
+        "update": "December 12, 2025", 
         "module": "WebKit", 
         "credit": "Google Big Sleep", 
         "bugzilla": "297958", 
@@ -11818,6 +11968,21 @@
         "rsr": ""
     }, 
     {
+        "impact": "An app may be able to fingerprint the user", 
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later"
+        ], 
+        "description": "An information disclosure issue was addressed with improved privacy controls.", 
+        "links": [
+            "https://support.apple.com/en-us/125632"
+        ], 
+        "update": "December 12, 2025", 
+        "module": "Managed Configuration", 
+        "credit": "Rosyna Keller of Totally Not Malicious Software", 
+        "id": "CVE-2025-43437", 
+        "rsr": ""
+    }, 
+    {
         "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
         "available": [
             "Apple Vision Pro (all models)", 
@@ -11836,9 +12001,9 @@
             "https://support.apple.com/en-us/125639", 
             "https://support.apple.com/en-us/125640"
         ], 
-        "update": "", 
+        "update": "December 12, 2025", 
         "module": "WebKit", 
-        "credit": "shandikri working with Trend Micro Zero Day Initiative", 
+        "credit": "rheza (@ginggilBesel), shandikri working with Trend Micro Zero Day Initiative", 
         "bugzilla": "297662", 
         "id": "CVE-2025-43438", 
         "rsr": ""
@@ -12123,9 +12288,9 @@
         "links": [
             "https://support.apple.com/en-us/125632"
         ], 
-        "update": "", 
+        "update": "December 12, 2025", 
         "module": "Text Input", 
-        "credit": "Thomas Salomon, Sufiyan Gouri (TU Darmstadt), Phil Scott (@MrPeriPeri) & Richard Hyunho Im (@richeeta), Mark Bowers, Joey Hewitt, Dylan Rollins, Arthur Baudoin, an anonymous researcher, Andr.Ess", 
+        "credit": "Thomas Salomon, Sufiyan Gouri (TU Darmstadt), Phil Scott (@MrPeriPeri) & Richard Hyunho Im (@richeeta), Mark Bowers, Joey Hewitt, Dylan Rollins, Arthur Baudoin, an anonymous researcher, Andr.Ess, Mikael Kinnman", 
         "id": "CVE-2025-43452", 
         "rsr": ""
     }, 
@@ -12184,7 +12349,7 @@
             "https://support.apple.com/en-us/125639", 
             "https://support.apple.com/en-us/125640"
         ], 
-        "update": "", 
+        "update": "December 12, 2025", 
         "module": "WebKit", 
         "credit": "Gary Kwong, Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
         "bugzilla": "298606", 
@@ -12290,15 +12455,19 @@
     {
         "impact": "An app may be able to access sensitive user data", 
         "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
             "macOS Tahoe"
         ], 
         "description": "A parsing issue in the handling of directory paths was addressed with improved path validation.", 
         "links": [
-            "https://support.apple.com/en-us/125634"
+            "https://support.apple.com/en-us/125634", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "credit": "Amy (@asentientbot), Mickey Jin (@patch1t)", 
+        "credit": "Mickey Jin (@patch1t), Amy (@asentientbot)", 
         "id": "CVE-2025-43463", 
         "rsr": ""
     }, 
@@ -12469,6 +12638,21 @@
         "rsr": ""
     }, 
     {
+        "impact": "An app may be able to access user-sensitive data", 
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later"
+        ], 
+        "description": "A logging issue was addressed with improved data redaction.", 
+        "links": [
+            "https://support.apple.com/en-us/125884"
+        ], 
+        "update": "", 
+        "module": "MediaExperience", 
+        "credit": "Rosyna Keller of Totally Not Malicious Software", 
+        "id": "CVE-2025-43475", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An app may be able to break out of its sandbox", 
         "available": [
             "macOS Sequoia", 
@@ -12588,6 +12772,25 @@
         "rsr": ""
     }, 
     {
+        "impact": "An app may be able to cause a denial-of-service", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "The issue was addressed with improved input validation.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "Audio", 
+        "credit": "Jex Amro, Michael Reeves (@IntegralPilot)", 
+        "id": "CVE-2025-43482", 
+        "rsr": ""
+    }, 
+    {
         "impact": "Visiting a malicious website may lead to address bar spoofing", 
         "available": [
             "Apple Vision Pro (all models)", 
@@ -12608,6 +12811,27 @@
         "module": "Safari", 
         "credit": "@RenwaX23", 
         "id": "CVE-2025-43493", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker may be able to cause a persistent denial-of-service", 
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma"
+        ], 
+        "description": "A mail header parsing issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/125632", 
+            "https://support.apple.com/en-us/125633", 
+            "https://support.apple.com/en-us/125635", 
+            "https://support.apple.com/en-us/125636"
+        ], 
+        "update": "December 12, 2025", 
+        "module": "Mail", 
+        "credit": "Taavi Eom\u00e4e of Zone Media (zone.ee)", 
+        "id": "CVE-2025-43494", 
         "rsr": ""
     }, 
     {
@@ -12734,6 +12958,30 @@
         "rsr": ""
     }, 
     {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A buffer overflow issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "bugzilla": "301371", 
+        "id": "CVE-2025-43501", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An app may be able to bypass certain Privacy preferences", 
         "available": [
             "Apple Vision Pro (all models)", 
@@ -12848,6 +13096,129 @@
         "rsr": ""
     }, 
     {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "This issue was addressed with improved data protection.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "Networking", 
+        "credit": "Haoling Zhou, Shixuan Zhao (@NSKernel), Chao Wang (@evi0s), Zhiqiang Lin from SecLab of The Ohio State University", 
+        "id": "CVE-2025-43509", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious application may cause unexpected changes in memory shared between processes", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma"
+        ], 
+        "description": "A memory corruption issue was addressed with improved lock state checking.", 
+        "links": [
+            "https://support.apple.com/en-us/125632", 
+            "https://support.apple.com/en-us/125633", 
+            "https://support.apple.com/en-us/125635", 
+            "https://support.apple.com/en-us/125636", 
+            "https://support.apple.com/en-us/125637"
+        ], 
+        "update": "December 12, 2025", 
+        "module": "Kernel", 
+        "credit": "Apple", 
+        "id": "CVE-2025-43510", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "links": [
+            "https://support.apple.com/en-us/125633", 
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit Web Inspector", 
+        "credit": "\uc774\ub3d9\ud558 (Lee Dong Ha of BoB 14th)", 
+        "bugzilla": "300926", 
+        "id": "CVE-2025-43511", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to elevate privileges", 
+        "available": [
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A logic issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "Kernel", 
+        "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
+        "id": "CVE-2025-43512", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to read sensitive location information", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A permissions issue was addressed by removing the vulnerable code.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "MDM Configuration Tools", 
+        "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
+        "id": "CVE-2025-43513", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access protected user data", 
+        "available": [
+            "macOS Tahoe"
+        ], 
+        "description": "The issue was addressed with improved handling of caches.", 
+        "links": [
+            "https://support.apple.com/en-us/125886"
+        ], 
+        "update": "", 
+        "module": "Siri", 
+        "credit": "Morris Richman (@morrisinlife)", 
+        "id": "CVE-2025-43514", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An unauthenticated user on the same network as a Compressor server may be able to execute arbitrary code", 
         "available": [
             "macOS Sequoia 15.6 and later"
@@ -12860,6 +13231,731 @@
         "module": "Compressor", 
         "credit": "CodeColorist and Pedro T\u00f4rres(@t0rr3sp3dr0)", 
         "id": "CVE-2025-43515", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A user with Voice Control enabled may be able to transcribe another user's activity", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A session management issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "Voice Control", 
+        "credit": "Kay Belardinelli (Harvard University)", 
+        "id": "CVE-2025-43516", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access protected user data", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A privacy issue was addressed with improved private data redaction for log entries.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "Call History", 
+        "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2025-43517", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to inappropriately access files through the spellcheck API", 
+        "available": [
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A logic issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888", 
+            "https://support.apple.com/en-us/125890"
+        ], 
+        "update": "", 
+        "module": "Foundation", 
+        "credit": "Noah Gregory (wts.dev)", 
+        "id": "CVE-2025-43518", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "AppleMobileFileIntegrity", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43519", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious application may be able to cause unexpected system termination or write kernel memory", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma"
+        ], 
+        "description": "A memory corruption issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/125632", 
+            "https://support.apple.com/en-us/125633", 
+            "https://support.apple.com/en-us/125635", 
+            "https://support.apple.com/en-us/125636", 
+            "https://support.apple.com/en-us/125637"
+        ], 
+        "update": "December 12, 2025", 
+        "module": "Kernel", 
+        "credit": "Apple", 
+        "id": "CVE-2025-43520", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A downgrade issue affecting Intel-based Mac computers was addressed with additional code-signing restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887"
+        ], 
+        "update": "", 
+        "module": "AppleMobileFileIntegrity", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43521", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access user-sensitive data", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A downgrade issue affecting Intel-based Mac computers was addressed with additional code-signing restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887"
+        ], 
+        "update": "", 
+        "module": "AppleMobileFileIntegrity", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43522", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887"
+        ], 
+        "update": "", 
+        "module": "AppleMobileFileIntegrity", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43523", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "On a Mac with Lockdown Mode enabled, web content opened via a file URL may be able to use Web APIs that should be restricted", 
+        "available": [
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "This issue was addressed with improved URL validation.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "Safari", 
+        "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
+        "id": "CVE-2025-43526", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to gain root privileges", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887"
+        ], 
+        "update": "", 
+        "module": "StorageKit", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43527", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 26. CVE-2025-14174 was also issued in response to this report.", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Google Threat Analysis Group", 
+        "bugzilla": "302502", 
+        "id": "CVE-2025-43529", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": [
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "This issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "Settings", 
+        "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43530", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A race condition was addressed with improved state handling.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Phil Pizlo of Epic Games", 
+        "bugzilla": "301940", 
+        "id": "CVE-2025-43531", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing malicious data may lead to unexpected app termination", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A memory corruption issue was addressed with improved bounds checking.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "Foundation", 
+        "credit": "Andrew Calvano and Lucas Pinheiro of Meta Product Security", 
+        "id": "CVE-2025-43532", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A malicious HID device may cause an unexpected process crash", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "description": "Multiple memory corruption issues were addressed with improved input validation.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "Multi-Touch", 
+        "credit": "Google Threat Analysis Group", 
+        "id": "CVE-2025-43533", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Google Big Sleep, Nan Wang (@eternalsakura13)", 
+        "id": "CVE-2025-43535", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Nan Wang (@eternalsakura13)", 
+        "bugzilla": "301726", 
+        "id": "CVE-2025-43536", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A logging issue was addressed with improved data redaction.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125888", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "Screen Time", 
+        "credit": "Iv\u00e1n Savransky", 
+        "id": "CVE-2025-43538", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing a file may lead to memory corruption", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "The issue was addressed with improved bounds checks.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "AppleJPEG", 
+        "credit": "Michael Reeves (@IntegralPilot)", 
+        "id": "CVE-2025-43539", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "A type confusion issue was addressed with improved state handling.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "bugzilla": "301257", 
+        "id": "CVE-2025-43541", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Password fields may be unintentionally revealed when remotely controlling a device over FaceTime", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "This issue was addressed with improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "FaceTime", 
+        "credit": "Yi\u011fit Ocak", 
+        "id": "CVE-2025-43542", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "An information disclosure issue was addressed with improved privacy controls.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "Messages", 
+        "credit": "Rosyna Keller of Totally Not Malicious Software", 
+        "id": "CVE-2025-46276", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access a user\u2019s Safari history", 
+        "available": [
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "description": "A logging issue was addressed with improved data redaction.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125890"
+        ], 
+        "update": "", 
+        "module": "Screen Time", 
+        "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-46277", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access protected user data", 
+        "available": [
+            "macOS Tahoe"
+        ], 
+        "description": "The issue was addressed with improved handling of caches.", 
+        "links": [
+            "https://support.apple.com/en-us/125886"
+        ], 
+        "update": "", 
+        "module": "Game Center", 
+        "credit": "Kirin (@Pwnrin) and LFY (@secsys) of Fudan University", 
+        "id": "CVE-2025-46278", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to identify what other apps a user has installed", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "Icons", 
+        "credit": "Duy Tr\u1ea7n (@khanhduytran0)", 
+        "id": "CVE-2025-46279", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to break out of its sandbox", 
+        "available": [
+            "macOS Tahoe"
+        ], 
+        "description": "A logic issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/125886"
+        ], 
+        "update": "", 
+        "module": "File Bookmark", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2025-46281", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": [
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "The issue was addressed with additional permissions checks.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "bugzilla": "295941", 
+        "id": "CVE-2025-46282", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": [
+            "macOS Tahoe"
+        ], 
+        "description": "A logic issue was addressed with improved validation.", 
+        "links": [
+            "https://support.apple.com/en-us/125886"
+        ], 
+        "update": "", 
+        "module": "CoreServices", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2025-46283", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to gain root privileges", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "An integer overflow was addressed by adopting 64-bit timestamps.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "Kernel", 
+        "credit": "Kaitao Xie and Xiaolong Bai of Alibaba Group", 
+        "id": "CVE-2025-46285", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An attacker may be able to spoof their FaceTime caller ID", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "An inconsistent user interface issue was addressed with improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "Calling Framework", 
+        "credit": "an anonymous researcher, Riley Walz", 
+        "id": "CVE-2025-46287", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive payment tokens", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "App Store", 
+        "credit": "floeki, Zhongcheng Li from IES Red Team of ByteDance", 
+        "id": "CVE-2025-46288", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access protected user data", 
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "A logic issue was addressed with improved file handling.", 
+        "links": [
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "AppSandbox", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2025-46289", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may bypass Gatekeeper checks", 
+        "available": [
+            "macOS Tahoe"
+        ], 
+        "description": "A logic issue was addressed with improved validation.", 
+        "links": [
+            "https://support.apple.com/en-us/125886"
+        ], 
+        "update": "", 
+        "module": "LaunchServices", 
+        "credit": "Kenneth Chew", 
+        "id": "CVE-2025-46291", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access user-sensitive data", 
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later"
+        ], 
+        "description": "This issue was addressed with additional entitlement checks.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885"
+        ], 
+        "update": "", 
+        "module": "Telephony", 
+        "credit": "Rosyna Keller of Totally Not Malicious Software", 
+        "id": "CVE-2025-46292", 
         "rsr": ""
     }, 
     {
@@ -12890,6 +13986,29 @@
         "module": "Vim", 
         "credit": "", 
         "id": "CVE-2025-53906", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing a file may lead to memory corruption", 
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888"
+        ], 
+        "update": "", 
+        "module": "libarchive", 
+        "credit": "", 
+        "id": "CVE-2025-5918", 
         "rsr": ""
     }, 
     {
@@ -13021,6 +14140,59 @@
         "module": "libxml2", 
         "credit": "Sergei Glazunov of Google Project Zero", 
         "id": "CVE-2025-7425", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Multiple issues in curl", 
+        "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125887", 
+            "https://support.apple.com/en-us/125888", 
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891"
+        ], 
+        "update": "", 
+        "module": "curl", 
+        "credit": "", 
+        "id": "CVE-2025-9086", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
+            "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
+        ], 
+        "update": "", 
+        "module": "WebKit", 
+        "credit": "301338", 
+        "bugzilla": "300774", 
+        "id": "WebKit Bugzilla", 
         "rsr": ""
     }
 ]
