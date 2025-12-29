@@ -1,4 +1,4 @@
-# Apple CVE 2024
+# Apple CVE 2025
 * data source: https://support.apple.com/en-us/HT201222
 * [2025.json](2025.json)
 
