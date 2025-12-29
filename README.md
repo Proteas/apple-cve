@@ -1,7 +1,7 @@
 # Apple CVE List
 * data source: https://support.apple.com/en-us/HT201222
 
-1. [2012](2012.json), count: 442
+1. [2012](./2012/), count: 442
 2. [2013](./2013/), count: 343
 3. [2014](./2014/), count: 356
 4. [2015](./2015/), count: 820
