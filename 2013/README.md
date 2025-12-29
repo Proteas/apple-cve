@@ -1,0 +1,86 @@
+# Apple CVE 2013
+* data source: https://support.apple.com/en-us/HT201222
+* [2013.json](2013.json)
+
+## Modules
+| Index | Module Name        | CVE Count | CVE ID |
+|:-----:|:------------------ |:---------:|:--------:|
+| 1 | Java | 91 | CVE-2013-1491<br/>CVE-2013-1537<br/>CVE-2013-1540<br/>CVE-2013-1557<br/>CVE-2013-1558<br/>CVE-2013-1563<br/>CVE-2013-1569<br/>CVE-2013-2383<br/>CVE-2013-2384<br/>CVE-2013-2394<br/>CVE-2013-2417<br/>CVE-2013-2419<br/>CVE-2013-2420<br/>CVE-2013-2422<br/>CVE-2013-2424<br/>CVE-2013-2429<br/>CVE-2013-2430<br/>CVE-2013-2432<br/>CVE-2013-2435<br/>CVE-2013-2440<br/>CVE-2013-1500<br/>CVE-2013-1571<br/>CVE-2013-2407<br/>CVE-2013-2412<br/>CVE-2013-2437<br/>CVE-2013-2442<br/>CVE-2013-2443<br/>CVE-2013-2444<br/>CVE-2013-2445<br/>CVE-2013-2446<br/>CVE-2013-2447<br/>CVE-2013-2448<br/>CVE-2013-2450<br/>CVE-2013-2451<br/>CVE-2013-2452<br/>CVE-2013-2453<br/>CVE-2013-2454<br/>CVE-2013-2455<br/>CVE-2013-2456<br/>CVE-2013-2457<br/>CVE-2013-2459<br/>CVE-2013-2461<br/>CVE-2013-2463<br/>CVE-2013-2464<br/>CVE-2013-2465<br/>CVE-2013-2466<br/>CVE-2013-2468<br/>CVE-2013-2469<br/>CVE-2013-2470<br/>CVE-2013-2471<br/>CVE-2013-2472<br/>CVE-2013-2473<br/>CVE-2013-3743<br/>CVE-2013-3829<br/>CVE-2013-4002<br/>CVE-2013-5772<br/>CVE-2013-5774<br/>CVE-2013-5776<br/>CVE-2013-5778<br/>CVE-2013-5780<br/>CVE-2013-5782<br/>CVE-2013-5783<br/>CVE-2013-5784<br/>CVE-2013-5787<br/>CVE-2013-5789<br/>CVE-2013-5790<br/>CVE-2013-5797<br/>CVE-2013-5801<br/>CVE-2013-5802<br/>CVE-2013-5803<br/>CVE-2013-5804<br/>CVE-2013-5809<br/>CVE-2013-5812<br/>CVE-2013-5814<br/>CVE-2013-5817<br/>CVE-2013-5818<br/>CVE-2013-5819<br/>CVE-2013-5820<br/>CVE-2013-5823<br/>CVE-2013-5824<br/>CVE-2013-5825<br/>CVE-2013-5829<br/>CVE-2013-5830<br/>CVE-2013-5831<br/>CVE-2013-5832<br/>CVE-2013-5840<br/>CVE-2013-5842<br/>CVE-2013-5843<br/>CVE-2013-5848<br/>CVE-2013-5849<br/>CVE-2013-5850 |
+| 2 | WebKit | 39 | CVE-2012-3606 <br/>CVE-2012-3607 <br/>CVE-2012-3621 <br/>CVE-2012-3632 <br/>CVE-2012-3687 <br/>CVE-2012-3701 <br/>CVE-2013-0968 <br/>CVE-2012-2889 <br/>CVE-2013-0962 <br/>CVE-2013-0926 <br/>CVE-2013-1012 <br/>CVE-2013-1037 <br/>CVE-2013-1038 <br/>CVE-2013-1039 <br/>CVE-2013-1040 <br/>CVE-2013-1041 <br/>CVE-2013-1042 <br/>CVE-2013-1043 <br/>CVE-2013-1044 <br/>CVE-2013-1045 <br/>CVE-2013-1046 <br/>CVE-2013-1047 <br/>CVE-2013-2842 <br/>CVE-2013-2848 <br/>CVE-2013-5125 <br/>CVE-2013-5126 <br/>CVE-2013-5127 <br/>CVE-2013-5128 <br/>CVE-2013-5129 <br/>CVE-2013-5130 <br/>CVE-2013-5131 <br/>CVE-2013-2909 <br/>CVE-2013-5195 <br/>CVE-2013-5196 <br/>CVE-2013-5197 <br/>CVE-2013-5198 <br/>CVE-2013-5199 <br/>CVE-2013-5225 <br/>CVE-2013-5228  |
+| 3 | Apple TV | 36 | CVE-2012-2619 <br/>CVE-2013-0964 <br/>CVE-2011-3102 <br/>CVE-2012-0841<br/>CVE-2012-2807 <br/>CVE-2012-2825 <br/>CVE-2012-2870 <br/>CVE-2012-2871 <br/>CVE-2012-5134 <br/>CVE-2013-0879 <br/>CVE-2013-0991 <br/>CVE-2013-0992 <br/>CVE-2013-0993 <br/>CVE-2013-0994 <br/>CVE-2013-0995 <br/>CVE-2013-0996 <br/>CVE-2013-0997 <br/>CVE-2013-0998 <br/>CVE-2013-0999 <br/>CVE-2013-1000 <br/>CVE-2013-1001 <br/>CVE-2013-1002 <br/>CVE-2013-1003 <br/>CVE-2013-1004 <br/>CVE-2013-1005 <br/>CVE-2013-1006 <br/>CVE-2013-1007 <br/>CVE-2013-1008 <br/>CVE-2013-1010 <br/>CVE-2013-1011<br/>CVE-2013-1019 <br/>CVE-2013-1025 <br/>CVE-2013-1026 <br/>CVE-2013-3953 <br/>CVE-2013-5134<br/>CVE-2013-5140  |
+| 4 | iTunes | 20 | CVE-2012-2824 <br/>CVE-2012-2857 <br/>CVE-2012-3748 <br/>CVE-2012-5112 <br/>CVE-2013-0912 <br/>CVE-2013-0948 <br/>CVE-2013-0949 <br/>CVE-2013-0950 <br/>CVE-2013-0951 <br/>CVE-2013-0952 <br/>CVE-2013-0953 <br/>CVE-2013-0954 <br/>CVE-2013-0955 <br/>CVE-2013-0956 <br/>CVE-2013-0958 <br/>CVE-2013-0959 <br/>CVE-2013-0960 <br/>CVE-2013-0961 <br/>CVE-2013-1011 <br/>CVE-2013-1014  |
+| 5 | OpenSSL | 16 | CVE-2011-1945<br/>CVE-2011-3207<br/>CVE-2011-3210<br/>CVE-2011-4108<br/>CVE-2011-4109<br/>CVE-2011-4576<br/>CVE-2011-4577<br/>CVE-2011-4619<br/>CVE-2012-0050<br/>CVE-2012-2110<br/>CVE-2012-2131<br/>CVE-2012-2333<br/>CVE-2012-4929 <br/>CVE-2012-2686<br/>CVE-2013-0166<br/>CVE-2013-0169 |
+| 6 | Kernel | 13 | CVE-2013-0978 <br/>CVE-2013-1029 <br/>CVE-2011-2391 <br/>CVE-2013-3954 <br/>CVE-2013-5141 <br/>CVE-2013-5142 <br/>CVE-2013-5172 <br/>CVE-2013-5173 <br/>CVE-2013-5174 <br/>CVE-2013-5175<br/>CVE-2013-5176 <br/>CVE-2013-5177 <br/>CVE-2013-5184  |
+| 7 | QuickTime | 12 | CVE-2013-1015 <br/>CVE-2013-1016 <br/>CVE-2013-1017 <br/>CVE-2013-1020 <br/>CVE-2013-1021 <br/>CVE-2013-0986 <br/>CVE-2013-0987 <br/>CVE-2013-0988 <br/>CVE-2013-0989 <br/>CVE-2013-1018 <br/>CVE-2013-1022 <br/>CVE-2013-1032  |
+| 8 | Passcode Lock | 6 | CVE-2013-0980 <br/>CVE-2013-5147 <br/>CVE-2013-5160 <br/>CVE-2013-5161 <br/>CVE-2013-5144 <br/>CVE-2013-5162  |
+| 9 | Bind | 5 | CVE-2012-3817<br/>CVE-2012-4244<br/>CVE-2012-5166<br/>CVE-2012-5688<br/>CVE-2013-2266 |
+| 10 | Safari | 5 | CVE-2013-5150<br/>CVE-2013-5151 <br/>CVE-2013-5152 <br/>CVE-2013-1036 <br/>CVE-2013-5227  |
+| 11 | Profile Manager | 5 | CVE-2013-0269<br/>CVE-2013-1854<br/>CVE-2013-1855<br/>CVE-2013-1856<br/>CVE-2013-1857 |
+| 12 | Ruby | 4 | CVE-2013-0155<br/>CVE-2013-0276<br/>CVE-2013-0277<br/>CVE-2013-0333 |
+| 13 | Apache | 4 | CVE-2012-0883<br/>CVE-2012-2687<br/>CVE-2012-3499<br/>CVE-2012-4558 |
+| 14 | PHP | 4 | CVE-2013-1635<br/>CVE-2013-1643<br/>CVE-2013-1824<br/>CVE-2013-2110 |
+| 15 | python | 4 | CVE-2011-4944<br/>CVE-2012-0845<br/>CVE-2012-0876<br/>CVE-2012-1150 |
+| 16 | Screen Lock | 3 | CVE-2013-1033 <br/>CVE-2013-5187 <br/>CVE-2013-5188  |
+| 17 | PostgreSQL | 3 | CVE-2013-1899<br/>CVE-2013-1900<br/>CVE-2013-1901 |
+| 18 | Apple Remote Desktop | 3 | CVE-2013-5135<br/>CVE-2013-5135 <br/>CVE-2013-5136  |
+| 19 | CoreGraphics | 3 | CVE-2013-5169<br/>CVE-2013-5170 <br/>CVE-2013-5171 |
+| 20 | dyld | 2 | CVE-2013-0977 <br/>CVE-2013-3950  |
+| 21 | USB | 2 | CVE-2013-0981 <br/>CVE-2013-5192  |
+| 22 | CFNetwork | 2 | CVE-2013-0982 <br/>CVE-2013-5167  |
+| 23 | Power Management | 2 | CVE-2013-1031<br/>CVE-2013-5186  |
+| 24 | ClamAV | 2 | CVE-2013-2020<br/>CVE-2013-2021 |
+| 25 | Sandbox | 2 | CVE-2013-5154 <br/>CVE-2013-5155  |
+| 26 | curl | 2 | CVE-2013-0249<br/>CVE-2013-1944 |
+| 27 | International Components for Unicode | 1 | CVE-2011-3058  |
+| 28 | Identity Services | 1 | CVE-2013-0963 |
+| 29 | StoreKit | 1 | CVE-2013-0974  |
+| 30 | Lockdown | 1 | CVE-2013-0979  |
+| 31 | CUPS | 1 | CVE-2012-5519 |
+| 32 | QuickDraw Manager | 1 | CVE-2013-0975  |
+| 33 | CoreAnimation | 1 | CVE-2013-0983  |
+| 34 | Directory Service | 1 | CVE-2013-0984  |
+| 35 | Disk Management | 1 | CVE-2013-0985 |
+| 36 | SMB | 1 | CVE-2013-0990  |
+| 37 | CoreMedia Playback | 1 | CVE-2013-1024  |
+| 38 | Installer | 1 | CVE-2013-1027 |
+| 39 | Mobile Device Management | 1 | CVE-2013-1030  |
+| 40 | sudo | 1 | CVE-2013-1775 |
+| 41 | Wiki Server | 1 | CVE-2013-1034  |
+| 42 | Data Protection | 1 | CVE-2013-0957  |
+| 43 | IPSec | 1 | CVE-2013-1028  |
+| 44 | File Systems | 1 | CVE-2013-3955  |
+| 45 | Personal Hotspot | 1 | CVE-2013-4616  |
+| 46 | IOKit | 1 | CVE-2013-5137  |
+| 47 | Push Notifications | 1 | CVE-2013-5149  |
+| 48 | Springboard | 1 | CVE-2013-5153  |
+| 49 | Telephony | 1 | CVE-2013-5156  |
+| 50 | Twitter | 1 | CVE-2013-5157  |
+| 51 | Social | 1 | CVE-2013-5158  |
+| 52 | Git | 1 | CVE-2013-0308 |
+| 53 | Directory Services | 1 | CVE-2013-5163  |
+| 54 | FreeRADIUS | 1 | CVE-2012-3547 |
+| 55 | Server App | 1 | CVE-2013-5143  |
+| 56 | Keynote | 1 | CVE-2013-5148 |
+| 57 | Phone | 1 | CVE-2013-5164  |
+| 58 | CFNetwork SSL | 1 | CVE-2011-3389 |
+| 59 | Security | 1 | CVE-2011-3427 |
+| 60 | perl | 1 | CVE-2013-1667 |
+| 61 | ruby | 1 | CVE-2013-4073 |
+| 62 | IOKitUser | 1 | CVE-2013-5138  |
+| 63 | IOSerialFamily | 1 | CVE-2013-5139  |
+| 64 | Kext Management | 1 | CVE-2013-5145  |
+| 65 | Application Firewall | 1 | CVE-2013-5165  |
+| 66 | Bluetooth | 1 | CVE-2013-5166  |
+| 67 | Console | 1 | CVE-2013-5168  |
+| 68 | LaunchServices | 1 | CVE-2013-5178  |
+| 69 | App Sandbox | 1 | CVE-2013-5179  |
+| 70 | Libc | 1 | CVE-2013-5180  |
+| 71 | Mail Accounts | 1 | CVE-2013-5181 |
+| 72 | Mail Header Display | 1 | CVE-2013-5182  |
+| 73 | Mail Networking | 1 | CVE-2013-5183  |
+| 74 | OpenLDAP | 1 | CVE-2013-5185 |
+| 75 | Security - Authorization | 1 | CVE-2013-5189  |
+| 76 | Security - Smart Card Services | 1 | CVE-2013-5190  |
+| 77 | syslog | 1 | CVE-2013-5191  |
+| 78 | Motion | 1 | CVE-2013-6114  |
+| 79 | App Store | 1 | CVE-2013-5193 |
