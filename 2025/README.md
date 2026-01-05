@@ -16,238 +16,238 @@
 | 9 | CVE-2025-43529 | WebKit |
 
 ## Modules
-| Index | Module Name        | CVE Count | CVE ID |
-|:-----:|:------------------ |:---------:|:--------:|
-| 1 | WebKit | 71 | CVE-2024-54502<br/>CVE-2024-54508<br/>CVE-2024-54534<br/>CVE-2024-54543<br/>CVE-2025-14174<br/>CVE-2025-24143<br/>CVE-2025-24158<br/>CVE-2025-24162<br/>CVE-2025-24189<br/>CVE-2025-24201<br/>CVE-2025-24208<br/>CVE-2025-24209<br/>CVE-2025-24213<br/>CVE-2025-24216<br/>CVE-2025-24223<br/>CVE-2025-24264<br/>CVE-2025-30425<br/>CVE-2025-30427<br/>CVE-2025-31204<br/>CVE-2025-31205<br/>CVE-2025-31206<br/>CVE-2025-31215<br/>CVE-2025-31217<br/>CVE-2025-31223<br/>CVE-2025-31238<br/>CVE-2025-31257<br/>CVE-2025-31273<br/>CVE-2025-31277<br/>CVE-2025-31278<br/>CVE-2025-43211<br/>CVE-2025-43212<br/>CVE-2025-43213<br/>CVE-2025-43214<br/>CVE-2025-43216<br/>CVE-2025-43227<br/>CVE-2025-43228<br/>CVE-2025-43229<br/>CVE-2025-43240<br/>CVE-2025-43265<br/>CVE-2025-43272<br/>CVE-2025-43342<br/>CVE-2025-43343<br/>CVE-2025-43356<br/>CVE-2025-43376<br/>CVE-2025-43419<br/>CVE-2025-43421<br/>CVE-2025-43425<br/>CVE-2025-43427<br/>CVE-2025-43429<br/>CVE-2025-43430<br/>CVE-2025-43431<br/>CVE-2025-43432<br/>CVE-2025-43433<br/>CVE-2025-43434<br/>CVE-2025-43435<br/>CVE-2025-43438<br/>CVE-2025-43440<br/>CVE-2025-43441<br/>CVE-2025-43443<br/>CVE-2025-43457<br/>CVE-2025-43458<br/>CVE-2025-43480<br/>CVE-2025-43495<br/>CVE-2025-43501<br/>CVE-2025-43529<br/>CVE-2025-43531<br/>CVE-2025-43535<br/>CVE-2025-43536<br/>CVE-2025-43541<br/>CVE-2025-46282<br/>CVE-2025-6558 |
-| 2 | AppleMobileFileIntegrity | 29 | CVE-2025-24100<br/>CVE-2025-24109<br/>CVE-2025-24114<br/>CVE-2025-24121<br/>CVE-2025-24122<br/>CVE-2025-24233<br/>CVE-2025-24239<br/>CVE-2025-24272<br/>CVE-2025-31243<br/>CVE-2025-43245<br/>CVE-2025-43248<br/>CVE-2025-43249<br/>CVE-2025-43253<br/>CVE-2025-43317<br/>CVE-2025-43320<br/>CVE-2025-43331<br/>CVE-2025-43337<br/>CVE-2025-43340<br/>CVE-2025-43378<br/>CVE-2025-43379<br/>CVE-2025-43382<br/>CVE-2025-43388<br/>CVE-2025-43390<br/>CVE-2025-43466<br/>CVE-2025-43468<br/>CVE-2025-43519<br/>CVE-2025-43521<br/>CVE-2025-43522<br/>CVE-2025-43523 |
-| 3 | Kernel | 21 | CVE-2025-24107<br/>CVE-2025-24118<br/>CVE-2025-24144<br/>CVE-2025-24159<br/>CVE-2025-24196<br/>CVE-2025-24203<br/>CVE-2025-24204<br/>CVE-2025-24224<br/>CVE-2025-30432<br/>CVE-2025-31219<br/>CVE-2025-31241<br/>CVE-2025-43268<br/>CVE-2025-43276<br/>CVE-2025-43282<br/>CVE-2025-43345<br/>CVE-2025-43359<br/>CVE-2025-43398<br/>CVE-2025-43510<br/>CVE-2025-43512<br/>CVE-2025-43520<br/>CVE-2025-46285 |
-| 4 | Safari | 15 | CVE-2025-24113<br/>CVE-2025-24128<br/>CVE-2025-24167<br/>CVE-2025-24188<br/>CVE-2025-30466<br/>CVE-2025-30467<br/>CVE-2025-31185<br/>CVE-2025-31192<br/>CVE-2025-31254<br/>CVE-2025-31266<br/>CVE-2025-43327<br/>CVE-2025-43493<br/>CVE-2025-43502<br/>CVE-2025-43503<br/>CVE-2025-43526 |
-| 5 | AirPlay | 14 | CVE-2025-24126<br/>CVE-2025-24129<br/>CVE-2025-24131<br/>CVE-2025-24137<br/>CVE-2025-24177<br/>CVE-2025-24179<br/>CVE-2025-24206<br/>CVE-2025-24251<br/>CVE-2025-24252<br/>CVE-2025-24270<br/>CVE-2025-24271<br/>CVE-2025-30445<br/>CVE-2025-31197<br/>CVE-2025-31202 |
-| 6 | Siri | 14 | CVE-2025-24198<br/>CVE-2025-24205<br/>CVE-2025-24214<br/>CVE-2025-24217<br/>CVE-2025-24248<br/>CVE-2025-30435<br/>CVE-2025-30436<br/>CVE-2025-30468<br/>CVE-2025-31183<br/>CVE-2025-43367<br/>CVE-2025-43399<br/>CVE-2025-43454<br/>CVE-2025-43477<br/>CVE-2025-43514 |
-| 7 | StorageKit | 13 | CVE-2024-44243<br/>CVE-2025-24176<br/>CVE-2025-24240<br/>CVE-2025-24253<br/>CVE-2025-30449<br/>CVE-2025-31188<br/>CVE-2025-31261<br/>CVE-2025-43256<br/>CVE-2025-43304<br/>CVE-2025-43314<br/>CVE-2025-43351<br/>CVE-2025-43463<br/>CVE-2025-43527 |
-| 8 | Model I/O | 13 | CVE-2025-31280<br/>CVE-2025-31281<br/>CVE-2025-43215<br/>CVE-2025-43218<br/>CVE-2025-43219<br/>CVE-2025-43221<br/>CVE-2025-43224<br/>CVE-2025-43264<br/>CVE-2025-43377<br/>CVE-2025-43383<br/>CVE-2025-43384<br/>CVE-2025-43385<br/>CVE-2025-43386 |
-| 9 | PackageKit | 12 | CVE-2025-24099<br/>CVE-2025-24130<br/>CVE-2025-24164<br/>CVE-2025-24261<br/>CVE-2025-30446<br/>CVE-2025-31262<br/>CVE-2025-43194<br/>CVE-2025-43232<br/>CVE-2025-43247<br/>CVE-2025-43260<br/>CVE-2025-43298<br/>CVE-2025-43411 |
-| 10 | CoreMedia | 11 | CVE-2025-24085<br/>CVE-2025-24123<br/>CVE-2025-24124<br/>CVE-2025-24190<br/>CVE-2025-24211<br/>CVE-2025-24236<br/>CVE-2025-31233<br/>CVE-2025-31239<br/>CVE-2025-43210<br/>CVE-2025-43273<br/>CVE-2025-43292 |
-| 11 | Sandbox | 10 | CVE-2025-24093<br/>CVE-2025-24181<br/>CVE-2025-30452<br/>CVE-2025-31224<br/>CVE-2025-31249<br/>CVE-2025-43318<br/>CVE-2025-43328<br/>CVE-2025-43329<br/>CVE-2025-43404<br/>CVE-2025-43406 |
-| 12 | CoreServices | 9 | CVE-2025-24088<br/>CVE-2025-24170<br/>CVE-2025-31191<br/>CVE-2025-43195<br/>CVE-2025-43305<br/>CVE-2025-43313<br/>CVE-2025-43436<br/>CVE-2025-43479<br/>CVE-2025-46283 |
-| 13 | Audio | 9 | CVE-2025-24106<br/>CVE-2025-24243<br/>CVE-2025-24244<br/>CVE-2025-31235<br/>CVE-2025-43205<br/>CVE-2025-43346<br/>CVE-2025-43361<br/>CVE-2025-43423<br/>CVE-2025-43482 |
-| 14 | Notes | 9 | CVE-2025-24262<br/>CVE-2025-31227<br/>CVE-2025-31228<br/>CVE-2025-31256<br/>CVE-2025-43203<br/>CVE-2025-43225<br/>CVE-2025-43270<br/>CVE-2025-43389<br/>CVE-2025-43410 |
-| 15 | Shortcuts | 9 | CVE-2025-24280<br/>CVE-2025-30433<br/>CVE-2025-30465<br/>CVE-2025-31194<br/>CVE-2025-43184<br/>CVE-2025-43358<br/>CVE-2025-43414<br/>CVE-2025-43473<br/>CVE-2025-43499 |
-| 16 | Spotlight | 8 | CVE-2024-54533<br/>CVE-2025-24138<br/>CVE-2025-24197<br/>CVE-2025-31199<br/>CVE-2025-43246<br/>CVE-2025-43333<br/>CVE-2025-43409<br/>CVE-2025-43418 |
-| 17 | ImageIO | 8 | CVE-2025-24086<br/>CVE-2025-24210<br/>CVE-2025-31226<br/>CVE-2025-43226<br/>CVE-2025-43287<br/>CVE-2025-43300<br/>CVE-2025-43338<br/>CVE-2025-43372 |
-| 18 | LaunchServices | 8 | CVE-2025-24094<br/>CVE-2025-24115<br/>CVE-2025-24116<br/>CVE-2025-24117<br/>CVE-2025-24148<br/>CVE-2025-43231<br/>CVE-2025-43362<br/>CVE-2025-46291 |
-| 19 | SharedFileList | 8 | CVE-2025-24108<br/>CVE-2025-31247<br/>CVE-2025-43250<br/>CVE-2025-43286<br/>CVE-2025-43291<br/>CVE-2025-43293<br/>CVE-2025-43369<br/>CVE-2025-43476 |
-| 20 | CoreAudio | 8 | CVE-2025-24160<br/>CVE-2025-24161<br/>CVE-2025-24163<br/>CVE-2025-24230<br/>CVE-2025-31200<br/>CVE-2025-31208<br/>CVE-2025-43277<br/>CVE-2025-43349 |
-| 21 | GPU Drivers | 8 | CVE-2025-24256<br/>CVE-2025-24273<br/>CVE-2025-30464<br/>CVE-2025-43255<br/>CVE-2025-43283<br/>CVE-2025-43284<br/>CVE-2025-43326<br/>CVE-2025-43474 |
-| 22 | Security | 7 | CVE-2025-24103<br/>CVE-2025-24250<br/>CVE-2025-30471<br/>CVE-2025-31213<br/>CVE-2025-31221<br/>CVE-2025-43233<br/>CVE-2025-43335 |
-| 23 | DiskArbitration | 7 | CVE-2025-24258<br/>CVE-2025-24267<br/>CVE-2025-30453<br/>CVE-2025-30456<br/>CVE-2025-43188<br/>CVE-2025-43316<br/>CVE-2025-43387 |
-| 24 | WindowServer | 6 | CVE-2025-24120<br/>CVE-2025-24241<br/>CVE-2025-24247<br/>CVE-2025-43259<br/>CVE-2025-43310<br/>CVE-2025-43402 |
-| 25 | FaceTime | 6 | CVE-2025-24134<br/>CVE-2025-30451<br/>CVE-2025-31210<br/>CVE-2025-31253<br/>CVE-2025-31271<br/>CVE-2025-43542 |
-| 26 | Accessibility | 6 | CVE-2025-24141<br/>CVE-2025-24200<br/>CVE-2025-24202<br/>CVE-2025-31229<br/>CVE-2025-43217<br/>CVE-2025-43442 |
-| 27 | SMB | 6 | CVE-2025-24151<br/>CVE-2025-24152<br/>CVE-2025-24153<br/>CVE-2025-24228<br/>CVE-2025-24269<br/>CVE-2025-30444 |
-| 28 | Foundation | 6 | CVE-2025-24199<br/>CVE-2025-30447<br/>CVE-2025-30461<br/>CVE-2025-31270<br/>CVE-2025-43518<br/>CVE-2025-43532 |
-| 29 | Xsan | 5 | CVE-2025-24156<br/>CVE-2025-24157<br/>CVE-2025-24265<br/>CVE-2025-24266<br/>CVE-2025-43238 |
-| 30 | libxpc | 5 | CVE-2025-24178<br/>CVE-2025-24238<br/>CVE-2025-31182<br/>CVE-2025-43196<br/>CVE-2025-43413 |
-| 31 | Installer | 5 | CVE-2025-24229<br/>CVE-2025-24249<br/>CVE-2025-31232<br/>CVE-2025-43396<br/>CVE-2025-43467 |
-| 32 | Disk Images | 5 | CVE-2025-24255<br/>CVE-2025-31189<br/>CVE-2025-43187<br/>CVE-2025-43470<br/>CVE-2025-43481 |
-| 33 | Photos | 5 | CVE-2025-30428<br/>CVE-2025-30469<br/>CVE-2025-43391<br/>CVE-2025-43405<br/>CVE-2025-43428 |
-| 34 | Ruby | 4 | CVE-2024-27280<br/>CVE-2024-43398<br/>CVE-2024-49761<br/>CVE-2025-6442 |
-| 35 | sips | 4 | CVE-2025-24139<br/>CVE-2025-24185<br/>CVE-2025-43239<br/>CVE-2025-43380 |
-| 36 | WebContentFilter | 4 | CVE-2025-24154<br/>CVE-2025-24155<br/>CVE-2025-43189<br/>CVE-2025-43237 |
-| 37 | Authentication Services | 4 | CVE-2025-24180<br/>CVE-2025-24245<br/>CVE-2025-30430<br/>CVE-2025-43360 |
-| 38 | Software Update | 4 | CVE-2025-24231<br/>CVE-2025-24254<br/>CVE-2025-24282<br/>CVE-2025-43243 |
-| 39 | System Settings | 4 | CVE-2025-24242<br/>CVE-2025-24278<br/>CVE-2025-43206<br/>CVE-2025-43296 |
-| 40 | Dock | 4 | CVE-2025-30455<br/>CVE-2025-31187<br/>CVE-2025-43198<br/>CVE-2025-43420 |
-| 41 | libxslt | 3 | CVE-2024-55549<br/>CVE-2025-24855<br/>CVE-2025-7424 |
-| 42 | libxml2 | 3 | CVE-2024-56171<br/>CVE-2025-27113<br/>CVE-2025-7425 |
-| 43 | curl | 3 | CVE-2024-7264<br/>CVE-2024-9681<br/>CVE-2025-9086 |
-| 44 | Messages | 3 | CVE-2025-24101<br/>CVE-2025-43200<br/>CVE-2025-46276 |
-| 45 | Managed Configuration | 3 | CVE-2025-24104<br/>CVE-2025-43192<br/>CVE-2025-43437 |
-| 46 | Finder | 3 | CVE-2025-24119<br/>CVE-2025-31236<br/>CVE-2025-43348 |
-| 47 | Notification Center | 3 | CVE-2025-24142<br/>CVE-2025-43279<br/>CVE-2025-43301 |
-| 48 | SceneKit | 3 | CVE-2025-24149<br/>CVE-2025-30458<br/>CVE-2025-43241 |
-| 49 | Mail | 3 | CVE-2025-24172<br/>CVE-2025-43494<br/>CVE-2025-43496 |
-| 50 | CoreMedia Playback | 3 | CVE-2025-24184<br/>CVE-2025-30454<br/>CVE-2025-43230 |
-| 51 | libnetcore | 3 | CVE-2025-24194<br/>CVE-2025-31231<br/>CVE-2025-43202 |
-| 52 | Libinfo | 3 | CVE-2025-24195<br/>CVE-2025-30440<br/>CVE-2025-43353 |
-| 53 | CloudKit | 3 | CVE-2025-24215<br/>CVE-2025-43323<br/>CVE-2025-43448 |
-| 54 | OpenSSH | 3 | CVE-2025-24246<br/>CVE-2025-26465<br/>CVE-2025-26466 |
-| 55 | App Store | 3 | CVE-2025-24276<br/>CVE-2025-43444<br/>CVE-2025-46288 |
-| 56 | Voice Control | 3 | CVE-2025-24279<br/>CVE-2025-43185<br/>CVE-2025-43516 |
-| 57 | IOMobileFrameBuffer | 3 | CVE-2025-30437<br/>CVE-2025-31263<br/>CVE-2025-43366 |
-| 58 | SoftwareUpdate | 3 | CVE-2025-30442<br/>CVE-2025-43336<br/>CVE-2025-43397 |
-| 59 | TCC | 3 | CVE-2025-31195<br/>CVE-2025-31250<br/>CVE-2025-43412 |
-| 60 | Wi-Fi | 3 | CVE-2025-31216<br/>CVE-2025-43373<br/>CVE-2025-43374 |
-| 61 | Call History | 3 | CVE-2025-31225<br/>CVE-2025-43357<br/>CVE-2025-43517 |
-| 62 | afpfs | 3 | CVE-2025-31237<br/>CVE-2025-31240<br/>CVE-2025-31246 |
-| 63 | RemoteViewServices | 3 | CVE-2025-31258<br/>CVE-2025-43204<br/>CVE-2025-43274 |
-| 64 | sudo | 3 | CVE-2025-32462<br/>CVE-2025-43334<br/>CVE-2025-43416 |
-| 65 | Admin Framework | 3 | CVE-2025-43191<br/>CVE-2025-43322<br/>CVE-2025-43471 |
-| 66 | Power Management | 3 | CVE-2025-43235<br/>CVE-2025-43236<br/>CVE-2025-43297 |
-| 67 | Bluetooth | 3 | CVE-2025-43303<br/>CVE-2025-43307<br/>CVE-2025-43354 |
-| 68 | Apple Neural Engine | 3 | CVE-2025-43344<br/>CVE-2025-43447<br/>CVE-2025-43462 |
-| 69 | Apple Account | 2 | CVE-2024-40864<br/>CVE-2025-43455 |
-| 70 | Contacts | 2 | CVE-2024-44172<br/>CVE-2025-43426 |
-| 71 | libarchive | 2 | CVE-2024-48958<br/>CVE-2025-5918 |
-| 72 | ICU | 2 | CVE-2024-54478<br/>CVE-2025-43209 |
-| 73 | ASP TCP | 2 | CVE-2024-54509<br/>CVE-2025-43478 |
-| 74 | AppKit | 2 | CVE-2025-24087<br/>CVE-2025-43321 |
-| 75 | NSDocument | 2 | CVE-2025-24096<br/>CVE-2025-24232 |
-| 76 | SDK | 2 | CVE-2025-24132<br/>CVE-2025-30422 |
-| 77 | Photos Storage | 2 | CVE-2025-24146<br/>CVE-2025-30424 |
-| 78 | WebKit Web Inspector | 2 | CVE-2025-24150<br/>CVE-2025-43511 |
-| 79 | CoreText | 2 | CVE-2025-24182<br/>CVE-2025-43445 |
-| 80 | Perl | 2 | CVE-2025-24183<br/>CVE-2025-40909 |
-| 81 | RPAC | 2 | CVE-2025-24191<br/>CVE-2025-31201 |
-| 82 | Web Extensions | 2 | CVE-2025-24192<br/>CVE-2025-31184 |
-| 83 | Calendar | 2 | CVE-2025-24212<br/>CVE-2025-30429 |
-| 84 | Sandbox Profiles | 2 | CVE-2025-24220<br/>CVE-2025-43500 |
-| 85 | Focus | 2 | CVE-2025-24283<br/>CVE-2025-30439 |
-| 86 | NetworkExtension | 2 | CVE-2025-30426<br/>CVE-2025-31218 |
-| 87 | Share Sheet | 2 | CVE-2025-30438<br/>CVE-2025-43408 |
-| 88 | dyld | 2 | CVE-2025-30462<br/>CVE-2025-43464 |
-| 89 | CoreGraphics | 2 | CVE-2025-31196<br/>CVE-2025-31209 |
-| 90 | zip | 2 | CVE-2025-31198<br/>CVE-2025-43252 |
-| 91 | Pro Res | 2 | CVE-2025-31234<br/>CVE-2025-31245 |
-| 92 | quarantine | 2 | CVE-2025-31244<br/>CVE-2025-43393 |
-| 93 | AppleJPEG | 2 | CVE-2025-31251<br/>CVE-2025-43539 |
-| 94 | Mail Drafts | 2 | CVE-2025-31276<br/>CVE-2025-43280 |
-| 95 | Find My | 2 | CVE-2025-31279<br/>CVE-2025-43507 |
-| 96 | CFNetwork | 2 | CVE-2025-43222<br/>CVE-2025-43223 |
-| 97 | AMD | 2 | CVE-2025-43244<br/>CVE-2025-43312 |
-| 98 | Archive Utility | 2 | CVE-2025-43257<br/>CVE-2025-43288 |
-| 99 | File Bookmark | 2 | CVE-2025-43261<br/>CVE-2025-46281 |
-| 100 | NSSpellChecker | 2 | CVE-2025-43266<br/>CVE-2025-43469 |
-| 101 | AppSandbox | 2 | CVE-2025-43285<br/>CVE-2025-46289 |
-| 102 | libc | 2 | CVE-2025-43295<br/>CVE-2025-43299 |
-| 103 | Icons | 2 | CVE-2025-43325<br/>CVE-2025-46279 |
-| 104 | ATS | 2 | CVE-2025-43330<br/>CVE-2025-43465 |
-| 105 | Dev Tools | 2 | CVE-2025-43370<br/>CVE-2025-43375 |
-| 106 | configd | 2 | CVE-2025-43395<br/>CVE-2025-43461 |
-| 107 | Assets | 2 | CVE-2025-43407<br/>CVE-2025-43446 |
-| 108 | Multi-Touch | 2 | CVE-2025-43424<br/>CVE-2025-43533 |
-| 109 | Networking | 2 | CVE-2025-43506<br/>CVE-2025-43509 |
-| 110 | Screen Time | 2 | CVE-2025-43538<br/>CVE-2025-46277 |
-| 111 | Python | 1 | CVE-2023-27043 |
-| 112 | GarageBand | 1 | CVE-2024-44142 |
-| 113 | QuartzCore | 1 | CVE-2024-54497 |
-| 114 | libexpat | 1 | CVE-2024-8176 |
-| 115 | Safari Downloads | 1 | CVE-2024-8906 |
-| 116 | Passkeys | 1 | CVE-2024-9956 |
-| 117 | Libnotify | 1 | CVE-2025-24091 |
-| 118 | TV App | 1 | CVE-2025-24092 |
-| 119 | RepairKit | 1 | CVE-2025-24095 |
-| 120 | AirDrop | 1 | CVE-2025-24097 |
-| 121 | CoreRoutine | 1 | CVE-2025-24102 |
-| 122 | Display | 1 | CVE-2025-24111 |
-| 123 | AppleGraphicsControl | 1 | CVE-2025-24112 |
-| 124 | ARKit | 1 | CVE-2025-24127 |
-| 125 | System Extensions | 1 | CVE-2025-24135 |
-| 126 | Login Window | 1 | CVE-2025-24136 |
-| 127 | iCloud | 1 | CVE-2025-24140 |
-| 128 | Time Zone | 1 | CVE-2025-24145 |
-| 129 | Passwords | 1 | CVE-2025-24169 |
-| 130 | Power Services | 1 | CVE-2025-24173 |
-| 131 | iCloud Photo Library | 1 | CVE-2025-24174 |
-| 132 | MobileLockdown | 1 | CVE-2025-24193 |
-| 133 | Storage Management | 1 | CVE-2025-24207 |
-| 134 | Summarization Services | 1 | CVE-2025-24218 |
-| 135 | Accounts | 1 | CVE-2025-24221 |
-| 136 | BOM | 1 | CVE-2025-24222 |
-| 137 | Mail Addressing | 1 | CVE-2025-24225 |
-| 138 | IDE Assets | 1 | CVE-2025-24226 |
-| 139 | AccountPolicy | 1 | CVE-2025-24234 |
-| 140 | Kerberos Helper | 1 | CVE-2025-24235 |
-| 141 | BiometricKit | 1 | CVE-2025-24237 |
-| 142 | IOGPUFamily | 1 | CVE-2025-24257 |
-| 143 | Parental Controls | 1 | CVE-2025-24259 |
-| 144 | smbx | 1 | CVE-2025-24260 |
-| 145 | StickerKit | 1 | CVE-2025-24263 |
-| 146 | Mobile Device Service | 1 | CVE-2025-24274 |
-| 147 | Crash Reporter | 1 | CVE-2025-24277 |
-| 148 | FeedbackLogger | 1 | CVE-2025-24281 |
-| 149 | Journal | 1 | CVE-2025-30434 |
-| 150 | Instruments | 1 | CVE-2025-30441 |
-| 151 | Found in Apps | 1 | CVE-2025-30443 |
-| 152 | iCloud Document Sharing | 1 | CVE-2025-30448 |
-| 153 | manpages | 1 | CVE-2025-30450 |
-| 154 | SystemMigration | 1 | CVE-2025-30457 |
-| 155 | Automator | 1 | CVE-2025-30460 |
-| 156 | Handoff | 1 | CVE-2025-30463 |
-| 157 | Maps | 1 | CVE-2025-30470 |
-| 158 | CoreUtils | 1 | CVE-2025-31203 |
-| 159 | FrontBoard | 1 | CVE-2025-31207 |
-| 160 | Core Bluetooth | 1 | CVE-2025-31212 |
-| 161 | Baseband | 1 | CVE-2025-31214 |
-| 162 | Weather | 1 | CVE-2025-31220 |
-| 163 | mDNSResponder | 1 | CVE-2025-31222 |
-| 164 | StoreKit | 1 | CVE-2025-31242 |
-| 165 | UserAccountUpdater | 1 | CVE-2025-31248 |
-| 166 | IOKit | 1 | CVE-2025-31255 |
-| 167 | Screenshots | 1 | CVE-2025-31259 |
-| 168 | Apple Intelligence Reports | 1 | CVE-2025-31260 |
-| 169 | macOS Recovery | 1 | CVE-2025-31264 |
-| 170 | App Store Connect | 1 | CVE-2025-31267 |
-| 171 | Apple Online Store Kit | 1 | CVE-2025-31268 |
-| 172 | Printing | 1 | CVE-2025-31269 |
-| 173 | MediaRemote | 1 | CVE-2025-31275 |
-| 174 | afclip | 1 | CVE-2025-43186 |
-| 175 | Spell Check | 1 | CVE-2025-43190 |
-| 176 | SecurityAgent | 1 | CVE-2025-43193 |
-| 177 | Single Sign-On | 1 | CVE-2025-43197 |
-| 178 | Core Services | 1 | CVE-2025-43199 |
-| 179 | Apple Music Classical | 1 | CVE-2025-43201 |
-| 180 | Music | 1 | CVE-2025-43207 |
-| 181 | Airport | 1 | CVE-2025-43208 |
-| 182 | copyfile | 1 | CVE-2025-43220 |
-| 183 | Metal | 1 | CVE-2025-43234 |
-| 184 | User Management | 1 | CVE-2025-43251 |
-| 185 | file | 1 | CVE-2025-43254 |
-| 186 | Trusted Device | 1 | CVE-2025-43262 |
-| 187 | IDE CoreML | 1 | CVE-2025-43263 |
-| 188 | Directory Utility | 1 | CVE-2025-43267 |
-| 189 | NetAuth | 1 | CVE-2025-43275 |
-| 190 | Application Firewall | 1 | CVE-2025-43281 |
-| 191 | MallocStackLogging | 1 | CVE-2025-43294 |
-| 192 | IOHIDFamily | 1 | CVE-2025-43302 |
-| 193 | Touch Bar Controls | 1 | CVE-2025-43308 |
-| 194 | Notifications | 1 | CVE-2025-43309 |
-| 195 | Touch Bar | 1 | CVE-2025-43311 |
-| 196 | MigrationKit | 1 | CVE-2025-43315 |
-| 197 | MediaLibrary | 1 | CVE-2025-43319 |
-| 198 | Security Initialization | 1 | CVE-2025-43332 |
-| 199 | Storage | 1 | CVE-2025-43341 |
-| 200 | System | 1 | CVE-2025-43347 |
-| 201 | Control Center | 1 | CVE-2025-43350 |
-| 202 | MobileStorageMounter | 1 | CVE-2025-43355 |
-| 203 | NetFSFramework | 1 | CVE-2025-43364 |
-| 204 | MetricKit | 1 | CVE-2025-43365 |
-| 205 | WebKit Process Model | 1 | CVE-2025-43368 |
-| 206 | Xcode | 1 | CVE-2025-43371 |
-| 207 | CoreServicesUIAgent | 1 | CVE-2025-43381 |
-| 208 | WebKit Canvas | 1 | CVE-2025-43392 |
-| 209 | bootp | 1 | CVE-2025-43394 |
-| 210 | FontParser | 1 | CVE-2025-43400 |
-| 211 | CoreAnimation | 1 | CVE-2025-43401 |
-| 212 | Stolen Device Protection | 1 | CVE-2025-43422 |
-| 213 | On-device Intelligence | 1 | CVE-2025-43439 |
-| 214 | Apple TV Remote | 1 | CVE-2025-43449 |
-| 215 | Camera | 1 | CVE-2025-43450 |
-| 216 | Text Input | 1 | CVE-2025-43452 |
-| 217 | Phone | 1 | CVE-2025-43459 |
-| 218 | Status Bar | 1 | CVE-2025-43460 |
-| 219 | zsh | 1 | CVE-2025-43472 |
-| 220 | MediaExperience | 1 | CVE-2025-43475 |
-| 221 | BackBoardServices | 1 | CVE-2025-43497 |
-| 222 | FileProvider | 1 | CVE-2025-43498 |
-| 223 | lldb | 1 | CVE-2025-43504 |
-| 224 | GNU | 1 | CVE-2025-43505 |
-| 225 | MDM Configuration Tools | 1 | CVE-2025-43513 |
-| 226 | Compressor | 1 | CVE-2025-43515 |
-| 227 | Settings | 1 | CVE-2025-43530 |
-| 228 | Game Center | 1 | CVE-2025-46278 |
-| 229 | Calling Framework | 1 | CVE-2025-46287 |
-| 230 | Telephony | 1 | CVE-2025-46292 |
-| 231 | Git | 1 | CVE-2025-48384 |
-| 232 | Vim | 1 | CVE-2025-53906 |
-| 233 | SQLite | 1 | CVE-2025-6965 |
+| Index | Module Name        | CVE Count |
+|:-----:|:------------------ |:---------:|
+| 1 | WebKit | 71 |
+| 2 | AppleMobileFileIntegrity | 29 |
+| 3 | Kernel | 21 |
+| 4 | Safari | 15 |
+| 5 | AirPlay | 14 |
+| 6 | Siri | 14 |
+| 7 | StorageKit | 13 |
+| 8 | Model I/O | 13 |
+| 9 | PackageKit | 12 |
+| 10 | CoreMedia | 11 |
+| 11 | Sandbox | 10 |
+| 12 | CoreServices | 9 |
+| 13 | Audio | 9 |
+| 14 | Notes | 9 |
+| 15 | Shortcuts | 9 |
+| 16 | Spotlight | 8 |
+| 17 | ImageIO | 8 |
+| 18 | LaunchServices | 8 |
+| 19 | SharedFileList | 8 |
+| 20 | CoreAudio | 8 |
+| 21 | GPU Drivers | 8 |
+| 22 | Security | 7 |
+| 23 | DiskArbitration | 7 |
+| 24 | WindowServer | 6 |
+| 25 | FaceTime | 6 |
+| 26 | Accessibility | 6 |
+| 27 | SMB | 6 |
+| 28 | Foundation | 6 |
+| 29 | Xsan | 5 |
+| 30 | libxpc | 5 |
+| 31 | Installer | 5 |
+| 32 | Disk Images | 5 |
+| 33 | Photos | 5 |
+| 34 | Ruby | 4 |
+| 35 | sips | 4 |
+| 36 | WebContentFilter | 4 |
+| 37 | Authentication Services | 4 |
+| 38 | Software Update | 4 |
+| 39 | System Settings | 4 |
+| 40 | Dock | 4 |
+| 41 | libxslt | 3 |
+| 42 | libxml2 | 3 |
+| 43 | curl | 3 |
+| 44 | Messages | 3 |
+| 45 | Managed Configuration | 3 |
+| 46 | Finder | 3 |
+| 47 | Notification Center | 3 |
+| 48 | SceneKit | 3 |
+| 49 | Mail | 3 |
+| 50 | CoreMedia Playback | 3 |
+| 51 | libnetcore | 3 |
+| 52 | Libinfo | 3 |
+| 53 | CloudKit | 3 |
+| 54 | OpenSSH | 3 |
+| 55 | App Store | 3 |
+| 56 | Voice Control | 3 |
+| 57 | IOMobileFrameBuffer | 3 |
+| 58 | SoftwareUpdate | 3 |
+| 59 | TCC | 3 |
+| 60 | Wi-Fi | 3 |
+| 61 | Call History | 3 |
+| 62 | afpfs | 3 |
+| 63 | RemoteViewServices | 3 |
+| 64 | sudo | 3 |
+| 65 | Admin Framework | 3 |
+| 66 | Power Management | 3 |
+| 67 | Bluetooth | 3 |
+| 68 | Apple Neural Engine | 3 |
+| 69 | Apple Account | 2 |
+| 70 | Contacts | 2 |
+| 71 | libarchive | 2 |
+| 72 | ICU | 2 |
+| 73 | ASP TCP | 2 |
+| 74 | AppKit | 2 |
+| 75 | NSDocument | 2 |
+| 76 | SDK | 2 |
+| 77 | Photos Storage | 2 |
+| 78 | WebKit Web Inspector | 2 |
+| 79 | CoreText | 2 |
+| 80 | Perl | 2 |
+| 81 | RPAC | 2 |
+| 82 | Web Extensions | 2 |
+| 83 | Calendar | 2 |
+| 84 | Sandbox Profiles | 2 |
+| 85 | Focus | 2 |
+| 86 | NetworkExtension | 2 |
+| 87 | Share Sheet | 2 |
+| 88 | dyld | 2 |
+| 89 | CoreGraphics | 2 |
+| 90 | zip | 2 |
+| 91 | Pro Res | 2 |
+| 92 | quarantine | 2 |
+| 93 | AppleJPEG | 2 |
+| 94 | Mail Drafts | 2 |
+| 95 | Find My | 2 |
+| 96 | CFNetwork | 2 |
+| 97 | AMD | 2 |
+| 98 | Archive Utility | 2 |
+| 99 | File Bookmark | 2 |
+| 100 | NSSpellChecker | 2 |
+| 101 | AppSandbox | 2 |
+| 102 | libc | 2 |
+| 103 | Icons | 2 |
+| 104 | ATS | 2 |
+| 105 | Dev Tools | 2 |
+| 106 | configd | 2 |
+| 107 | Assets | 2 |
+| 108 | Multi-Touch | 2 |
+| 109 | Networking | 2 |
+| 110 | Screen Time | 2 |
+| 111 | Python | 1 |
+| 112 | GarageBand | 1 |
+| 113 | QuartzCore | 1 |
+| 114 | libexpat | 1 |
+| 115 | Safari Downloads | 1 |
+| 116 | Passkeys | 1 |
+| 117 | Libnotify | 1 |
+| 118 | TV App | 1 |
+| 119 | RepairKit | 1 |
+| 120 | AirDrop | 1 |
+| 121 | CoreRoutine | 1 |
+| 122 | Display | 1 |
+| 123 | AppleGraphicsControl | 1 |
+| 124 | ARKit | 1 |
+| 125 | System Extensions | 1 |
+| 126 | Login Window | 1 |
+| 127 | iCloud | 1 |
+| 128 | Time Zone | 1 |
+| 129 | Passwords | 1 |
+| 130 | Power Services | 1 |
+| 131 | iCloud Photo Library | 1 |
+| 132 | MobileLockdown | 1 |
+| 133 | Storage Management | 1 |
+| 134 | Summarization Services | 1 |
+| 135 | Accounts | 1 |
+| 136 | BOM | 1 |
+| 137 | Mail Addressing | 1 |
+| 138 | IDE Assets | 1 |
+| 139 | AccountPolicy | 1 |
+| 140 | Kerberos Helper | 1 |
+| 141 | BiometricKit | 1 |
+| 142 | IOGPUFamily | 1 |
+| 143 | Parental Controls | 1 |
+| 144 | smbx | 1 |
+| 145 | StickerKit | 1 |
+| 146 | Mobile Device Service | 1 |
+| 147 | Crash Reporter | 1 |
+| 148 | FeedbackLogger | 1 |
+| 149 | Journal | 1 |
+| 150 | Instruments | 1 |
+| 151 | Found in Apps | 1 |
+| 152 | iCloud Document Sharing | 1 |
+| 153 | manpages | 1 |
+| 154 | SystemMigration | 1 |
+| 155 | Automator | 1 |
+| 156 | Handoff | 1 |
+| 157 | Maps | 1 |
+| 158 | CoreUtils | 1 |
+| 159 | FrontBoard | 1 |
+| 160 | Core Bluetooth | 1 |
+| 161 | Baseband | 1 |
+| 162 | Weather | 1 |
+| 163 | mDNSResponder | 1 |
+| 164 | StoreKit | 1 |
+| 165 | UserAccountUpdater | 1 |
+| 166 | IOKit | 1 |
+| 167 | Screenshots | 1 |
+| 168 | Apple Intelligence Reports | 1 |
+| 169 | macOS Recovery | 1 |
+| 170 | App Store Connect | 1 |
+| 171 | Apple Online Store Kit | 1 |
+| 172 | Printing | 1 |
+| 173 | MediaRemote | 1 |
+| 174 | afclip | 1 |
+| 175 | Spell Check | 1 |
+| 176 | SecurityAgent | 1 |
+| 177 | Single Sign-On | 1 |
+| 178 | Core Services | 1 |
+| 179 | Apple Music Classical | 1 |
+| 180 | Music | 1 |
+| 181 | Airport | 1 |
+| 182 | copyfile | 1 |
+| 183 | Metal | 1 |
+| 184 | User Management | 1 |
+| 185 | file | 1 |
+| 186 | Trusted Device | 1 |
+| 187 | IDE CoreML | 1 |
+| 188 | Directory Utility | 1 |
+| 189 | NetAuth | 1 |
+| 190 | Application Firewall | 1 |
+| 191 | MallocStackLogging | 1 |
+| 192 | IOHIDFamily | 1 |
+| 193 | Touch Bar Controls | 1 |
+| 194 | Notifications | 1 |
+| 195 | Touch Bar | 1 |
+| 196 | MigrationKit | 1 |
+| 197 | MediaLibrary | 1 |
+| 198 | Security Initialization | 1 |
+| 199 | Storage | 1 |
+| 200 | System | 1 |
+| 201 | Control Center | 1 |
+| 202 | MobileStorageMounter | 1 |
+| 203 | NetFSFramework | 1 |
+| 204 | MetricKit | 1 |
+| 205 | WebKit Process Model | 1 |
+| 206 | Xcode | 1 |
+| 207 | CoreServicesUIAgent | 1 |
+| 208 | WebKit Canvas | 1 |
+| 209 | bootp | 1 |
+| 210 | FontParser | 1 |
+| 211 | CoreAnimation | 1 |
+| 212 | Stolen Device Protection | 1 |
+| 213 | On-device Intelligence | 1 |
+| 214 | Apple TV Remote | 1 |
+| 215 | Camera | 1 |
+| 216 | Text Input | 1 |
+| 217 | Phone | 1 |
+| 218 | Status Bar | 1 |
+| 219 | zsh | 1 |
+| 220 | MediaExperience | 1 |
+| 221 | BackBoardServices | 1 |
+| 222 | FileProvider | 1 |
+| 223 | lldb | 1 |
+| 224 | GNU | 1 |
+| 225 | MDM Configuration Tools | 1 |
+| 226 | Compressor | 1 |
+| 227 | Settings | 1 |
+| 228 | Game Center | 1 |
+| 229 | Calling Framework | 1 |
+| 230 | Telephony | 1 |
+| 231 | Git | 1 |
+| 232 | Vim | 1 |
+| 233 | SQLite | 1 |

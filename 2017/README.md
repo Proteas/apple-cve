@@ -3,174 +3,184 @@
 * [2017.json](2017.json)
 
 ## Modules
-| Index | Module Name        | CVE Count | CVE ID |
-|:-----:|:------------------ |:---------:|:--------:|
-| 1 | WebKit | 136 | CVE-2017-7156<br/>CVE-2017-7157<br/>CVE-2017-13856<br/>CVE-2017-13870<br/>CVE-2017-13866<br/>CVE-2017-7160<br/>CVE-2017-13783<br/>CVE-2017-13784<br/>CVE-2017-13785<br/>CVE-2017-13788<br/>CVE-2017-13791<br/>CVE-2017-13792<br/>CVE-2017-13793<br/>CVE-2017-13794<br/>CVE-2017-13795<br/>CVE-2017-13796<br/>CVE-2017-13797<br/>CVE-2017-13798<br/>CVE-2017-13802<br/>CVE-2017-13803<br/>CVE-2017-7081<br/>CVE-2017-7087<br/>CVE-2017-7091<br/>CVE-2017-7092<br/>CVE-2017-7093<br/>CVE-2017-7094<br/>CVE-2017-7095<br/>CVE-2017-7096<br/>CVE-2017-7098<br/>CVE-2017-7099<br/>CVE-2017-7100<br/>CVE-2017-7102<br/>CVE-2017-7104<br/>CVE-2017-7107<br/>CVE-2017-7111<br/>CVE-2017-7117<br/>CVE-2017-7120<br/>CVE-2017-7089<br/>CVE-2017-7090<br/>CVE-2017-7106<br/>CVE-2017-7109<br/>CVE-2017-7144<br/>CVE-2017-7006<br/>CVE-2017-7018<br/>CVE-2017-7020<br/>CVE-2017-7030<br/>CVE-2017-7034<br/>CVE-2017-7037<br/>CVE-2017-7039<br/>CVE-2017-7040<br/>CVE-2017-7041<br/>CVE-2017-7042<br/>CVE-2017-7043<br/>CVE-2017-7046<br/>CVE-2017-7048<br/>CVE-2017-7052<br/>CVE-2017-7055<br/>CVE-2017-7056<br/>CVE-2017-7061<br/>CVE-2017-7038<br/>CVE-2017-7059<br/>CVE-2017-7049<br/>CVE-2017-7064<br/>CVE-2017-7011<br/>CVE-2017-2504<br/>CVE-2017-2505<br/>CVE-2017-2515<br/>CVE-2017-2521<br/>CVE-2017-2525<br/>CVE-2017-2530<br/>CVE-2017-2531<br/>CVE-2017-6980<br/>CVE-2017-6984<br/>CVE-2017-2536<br/>CVE-2017-2549<br/>CVE-2017-2496<br/>CVE-2017-2506<br/>CVE-2017-2514<br/>CVE-2017-2526<br/>CVE-2017-2538<br/>CVE-2017-2539<br/>CVE-2017-2544<br/>CVE-2017-2547<br/>CVE-2017-2508<br/>CVE-2017-2510<br/>CVE-2017-2528<br/>CVE-2017-2463<br/>CVE-2017-2479<br/>CVE-2017-2480<br/>CVE-2017-2493<br/>CVE-2017-2386<br/>CVE-2017-2394<br/>CVE-2017-2396<br/>CVE-2016-9642<br/>CVE-2017-2395<br/>CVE-2017-2454<br/>CVE-2017-2455<br/>CVE-2017-2459<br/>CVE-2017-2460<br/>CVE-2017-2464<br/>CVE-2017-2465<br/>CVE-2017-2466<br/>CVE-2017-2468<br/>CVE-2017-2469<br/>CVE-2017-2470<br/>CVE-2017-2476<br/>CVE-2017-2481<br/>CVE-2017-2415<br/>CVE-2016-9643<br/>CVE-2017-2367<br/>CVE-2017-2445<br/>CVE-2017-2446<br/>CVE-2017-2447<br/>CVE-2017-2475<br/>CVE-2017-2471<br/>CVE-2017-2378<br/>CVE-2017-2486<br/>CVE-2017-2457<br/>CVE-2017-2419<br/>CVE-2017-2424<br/>CVE-2017-2433<br/>CVE-2017-2364<br/>CVE-2017-2392<br/>CVE-2017-7071<br/>CVE-2017-2354<br/>CVE-2017-2355<br/>CVE-2017-2356<br/>CVE-2017-2366<br/>CVE-2017-2350<br/>CVE-2017-2362<br/>CVE-2017-2373<br/>CVE-2017-2369<br/>CVE-2017-2363<br/>CVE-2017-2365<br/>CVE-2017-2371<br/>CVE-2016-7589 |
-| 2 | tcpdump | 131 | CVE-2017-11108<br/>CVE-2017-11541<br/>CVE-2017-11542<br/>CVE-2017-11543<br/>CVE-2017-12893<br/>CVE-2017-12894<br/>CVE-2017-12895<br/>CVE-2017-12896<br/>CVE-2017-12897<br/>CVE-2017-12898<br/>CVE-2017-12899<br/>CVE-2017-12900<br/>CVE-2017-12901<br/>CVE-2017-12902<br/>CVE-2017-12985<br/>CVE-2017-12986<br/>CVE-2017-12987<br/>CVE-2017-12988<br/>CVE-2017-12989<br/>CVE-2017-12990<br/>CVE-2017-12991<br/>CVE-2017-12992<br/>CVE-2017-12993<br/>CVE-2017-12994<br/>CVE-2017-12995<br/>CVE-2017-12996<br/>CVE-2017-12997<br/>CVE-2017-12998<br/>CVE-2017-12999<br/>CVE-2017-13000<br/>CVE-2017-13001<br/>CVE-2017-13002<br/>CVE-2017-13003<br/>CVE-2017-13004<br/>CVE-2017-13005<br/>CVE-2017-13006<br/>CVE-2017-13007<br/>CVE-2017-13008<br/>CVE-2017-13009<br/>CVE-2017-13010<br/>CVE-2017-13011<br/>CVE-2017-13012<br/>CVE-2017-13013<br/>CVE-2017-13014<br/>CVE-2017-13015<br/>CVE-2017-13016<br/>CVE-2017-13017<br/>CVE-2017-13018<br/>CVE-2017-13019<br/>CVE-2017-13020<br/>CVE-2017-13021<br/>CVE-2017-13022<br/>CVE-2017-13023<br/>CVE-2017-13024<br/>CVE-2017-13025<br/>CVE-2017-13026<br/>CVE-2017-13027<br/>CVE-2017-13028<br/>CVE-2017-13029<br/>CVE-2017-13030<br/>CVE-2017-13031<br/>CVE-2017-13032<br/>CVE-2017-13033<br/>CVE-2017-13034<br/>CVE-2017-13035<br/>CVE-2017-13036<br/>CVE-2017-13037<br/>CVE-2017-13038<br/>CVE-2017-13039<br/>CVE-2017-13040<br/>CVE-2017-13041<br/>CVE-2017-13042<br/>CVE-2017-13043<br/>CVE-2017-13044<br/>CVE-2017-13045<br/>CVE-2017-13046<br/>CVE-2017-13047<br/>CVE-2017-13048<br/>CVE-2017-13049<br/>CVE-2017-13050<br/>CVE-2017-13051<br/>CVE-2017-13052<br/>CVE-2017-13053<br/>CVE-2017-13054<br/>CVE-2017-13055<br/>CVE-2017-13687<br/>CVE-2017-13688<br/>CVE-2017-13689<br/>CVE-2017-13690<br/>CVE-2017-13725<br/>CVE-2016-7922<br/>CVE-2016-7923<br/>CVE-2016-7924<br/>CVE-2016-7925<br/>CVE-2016-7926<br/>CVE-2016-7927<br/>CVE-2016-7928<br/>CVE-2016-7929<br/>CVE-2016-7930<br/>CVE-2016-7931<br/>CVE-2016-7932<br/>CVE-2016-7933<br/>CVE-2016-7934<br/>CVE-2016-7935<br/>CVE-2016-7936<br/>CVE-2016-7937<br/>CVE-2016-7938<br/>CVE-2016-7939<br/>CVE-2016-7940<br/>CVE-2016-7973<br/>CVE-2016-7974<br/>CVE-2016-7975<br/>CVE-2016-7983<br/>CVE-2016-7984<br/>CVE-2016-7985<br/>CVE-2016-7986<br/>CVE-2016-7992<br/>CVE-2016-7993<br/>CVE-2016-8574<br/>CVE-2016-8575<br/>CVE-2017-5202<br/>CVE-2017-5203<br/>CVE-2017-5204<br/>CVE-2017-5205<br/>CVE-2017-5341<br/>CVE-2017-5342<br/>CVE-2017-5482<br/>CVE-2017-5483<br/>CVE-2017-5484<br/>CVE-2017-5485<br/>CVE-2017-5486 |
-| 3 | Kernel | 64 | CVE-2017-13862<br/>CVE-2017-13867<br/>CVE-2017-13833<br/>CVE-2017-13876<br/>CVE-2017-13855<br/>CVE-2017-13865<br/>CVE-2017-13868<br/>CVE-2017-13869<br/>CVE-2017-7154<br/>CVE-2017-13799<br/>CVE-2017-13852<br/>CVE-2017-13810<br/>CVE-2017-13817<br/>CVE-2017-13818<br/>CVE-2017-13836<br/>CVE-2017-13841<br/>CVE-2017-13840<br/>CVE-2017-13842<br/>CVE-2017-13782<br/>CVE-2017-13843<br/>CVE-2017-13834<br/>CVE-2017-7114<br/>CVE-2017-13854<br/>CVE-2017-13873<br/>CVE-2017-7022<br/>CVE-2017-7024<br/>CVE-2017-7026<br/>CVE-2017-7023<br/>CVE-2017-7025<br/>CVE-2017-7027<br/>CVE-2017-7069<br/>CVE-2017-7028<br/>CVE-2017-7029<br/>CVE-2017-7067<br/>CVE-2017-2501<br/>CVE-2017-2507<br/>CVE-2017-6987<br/>CVE-2017-2494<br/>CVE-2017-2509<br/>CVE-2017-2516<br/>CVE-2017-2546<br/>CVE-2017-2401<br/>CVE-2017-2440<br/>CVE-2017-2456<br/>CVE-2017-2472<br/>CVE-2017-2473<br/>CVE-2017-2474<br/>CVE-2017-2478<br/>CVE-2017-2482<br/>CVE-2017-2483<br/>CVE-2017-2490<br/>CVE-2017-2398<br/>CVE-2017-2410<br/>CVE-2017-7070<br/>CVE-2017-2370<br/>CVE-2017-2360<br/>CVE-2016-7606<br/>CVE-2016-7612<br/>CVE-2016-7607<br/>CVE-2016-7615<br/>CVE-2016-7621<br/>CVE-2016-7637<br/>CVE-2016-7644<br/>CVE-2016-7647 |
-| 4 | iTunes | 18 | CVE-2017-7053<br/>CVE-2013-7443<br/>CVE-2015-3414<br/>CVE-2015-3415<br/>CVE-2015-3416<br/>CVE-2015-3717<br/>CVE-2015-6607<br/>CVE-2016-6153<br/>CVE-2009-3270<br/>CVE-2009-3560<br/>CVE-2009-3720<br/>CVE-2012-1147<br/>CVE-2012-1148<br/>CVE-2012-6702<br/>CVE-2015-1283<br/>CVE-2016-0718<br/>CVE-2016-4472<br/>CVE-2016-5300 |
-| 5 | Intel Graphics Driver | 14 | CVE-2017-13883<br/>CVE-2017-7163<br/>CVE-2017-7155<br/>CVE-2017-13878<br/>CVE-2017-13875<br/>CVE-2017-7014<br/>CVE-2017-7017<br/>CVE-2017-7035<br/>CVE-2017-7044<br/>CVE-2017-7036<br/>CVE-2017-7045<br/>CVE-2017-2503<br/>CVE-2017-2443<br/>CVE-2017-2489 |
-| 6 | SQLite | 14 | CVE-2017-7127<br/>CVE-2017-10989<br/>CVE-2017-7128<br/>CVE-2017-7129<br/>CVE-2017-7130<br/>CVE-2017-2513<br/>CVE-2017-2518<br/>CVE-2017-2520<br/>CVE-2017-2519<br/>CVE-2017-6983<br/>CVE-2017-6991<br/>CVE-2017-7000<br/>CVE-2017-7001<br/>CVE-2017-7002 |
-| 7 | apache | 13 | CVE-2017-9798<br/>CVE-2016-0736<br/>CVE-2016-2161<br/>CVE-2016-5387<br/>CVE-2016-8740<br/>CVE-2016-8743<br/>CVE-2017-3167<br/>CVE-2017-3169<br/>CVE-2017-7659<br/>CVE-2017-7668<br/>CVE-2017-7679<br/>CVE-2017-9788<br/>CVE-2017-9789 |
-| 8 | Wi-Fi | 13 | CVE-2017-11120<br/>CVE-2017-11121<br/>CVE-2017-7103<br/>CVE-2017-7105<br/>CVE-2017-7108<br/>CVE-2017-7110<br/>CVE-2017-7112<br/>CVE-2017-7115<br/>CVE-2017-7116<br/>CVE-2017-11122<br/>CVE-2017-7065<br/>CVE-2017-7066<br/>CVE-2017-6975 |
-| 9 | Safari | 12 | CVE-2017-13790<br/>CVE-2017-13789<br/>CVE-2017-7085<br/>CVE-2017-2517<br/>CVE-2017-2495<br/>CVE-2017-2500<br/>CVE-2017-2511<br/>CVE-2017-2376<br/>CVE-2017-2384<br/>CVE-2017-2389<br/>CVE-2017-2453<br/>CVE-2017-2359 |
-| 10 | Security | 12 | CVE-2017-7150<br/>CVE-2017-7080<br/>CVE-2017-7146<br/>CVE-2017-2535<br/>CVE-2017-7004<br/>CVE-2017-2498<br/>CVE-2017-2451<br/>CVE-2017-2485<br/>CVE-2017-2423<br/>CVE-2016-4693<br/>CVE-2016-7636<br/>CVE-2016-7662 |
-| 11 | ntp | 10 | CVE-2017-6451<br/>CVE-2017-6452<br/>CVE-2017-6455<br/>CVE-2017-6458<br/>CVE-2017-6459<br/>CVE-2017-6460<br/>CVE-2017-6462<br/>CVE-2017-6463<br/>CVE-2017-6464<br/>CVE-2016-9042 |
-| 12 | libarchive | 8 | CVE-2017-13813<br/>CVE-2017-13816<br/>CVE-2017-13812<br/>CVE-2016-4736<br/>CVE-2017-7068<br/>CVE-2017-2390<br/>CVE-2016-8687<br/>CVE-2016-7619 |
-| 13 | Bluetooth | 8 | CVE-2017-7131<br/>CVE-2017-7050<br/>CVE-2017-7051<br/>CVE-2017-7054<br/>CVE-2017-2420<br/>CVE-2017-2427<br/>CVE-2017-2449<br/>CVE-2017-2353 |
-| 14 | apache_mod_php | 8 | CVE-2016-10158<br/>CVE-2016-10159<br/>CVE-2016-10160<br/>CVE-2016-10161<br/>CVE-2016-9935<br/>CVE-2016-8670<br/>CVE-2016-9933<br/>CVE-2016-9934 |
-| 15 | curl | 7 | CVE-2017-1000254<br/>CVE-2017-1000100<br/>CVE-2017-1000101<br/>CVE-2016-9586<br/>CVE-2016-9594<br/>CVE-2017-2629<br/>CVE-2017-7468 |
-| 16 | CoreText | 7 | CVE-2017-13849<br/>CVE-2017-13825<br/>CVE-2017-7003<br/>CVE-2017-2435<br/>CVE-2017-2450<br/>CVE-2017-2461<br/>CVE-2016-7595 |
-| 17 | file | 7 | CVE-2017-13815<br/>CVE-2017-7121<br/>CVE-2017-7122<br/>CVE-2017-7123<br/>CVE-2017-7124<br/>CVE-2017-7125<br/>CVE-2017-7126 |
-| 18 | ImageIO | 7 | CVE-2017-13814<br/>CVE-2017-13831<br/>CVE-2017-2416<br/>CVE-2017-2432<br/>CVE-2017-2467<br/>CVE-2016-3619<br/>CVE-2016-7643 |
-| 19 | AVEVideoEncoder | 7 | CVE-2017-6989<br/>CVE-2017-6994<br/>CVE-2017-6995<br/>CVE-2017-6996<br/>CVE-2017-6997<br/>CVE-2017-6998<br/>CVE-2017-6999 |
-| 20 | tiffutil | 7 | CVE-2016-9533<br/>CVE-2016-9535<br/>CVE-2016-9536<br/>CVE-2016-9537<br/>CVE-2016-9538<br/>CVE-2016-9539<br/>CVE-2016-9540 |
-| 21 | IOKit | 6 | CVE-2017-13848<br/>CVE-2017-13858<br/>CVE-2017-13847<br/>CVE-2017-7162<br/>CVE-2016-7657<br/>CVE-2016-7714 |
-| 22 | Audio | 6 | CVE-2017-13807<br/>CVE-2017-7015<br/>CVE-2017-2430<br/>CVE-2017-2462<br/>CVE-2016-7658<br/>CVE-2016-7659 |
-| 23 | FontParser | 6 | CVE-2017-2487<br/>CVE-2017-2406<br/>CVE-2017-2407<br/>CVE-2017-2439<br/>CVE-2016-4688<br/>CVE-2016-4691 |
-| 24 | ld64 | 5 | CVE-2017-7076<br/>CVE-2017-7134<br/>CVE-2017-7135<br/>CVE-2017-7136<br/>CVE-2017-7137 |
-| 25 | iBooks | 5 | CVE-2017-7072<br/>CVE-2017-2497<br/>CVE-2017-6981<br/>CVE-2017-6986<br/>CVE-2017-2426 |
-| 26 | AirPort Base Station Firmware | 4 | CVE-2017-9417<br/>CVE-2017-13077<br/>CVE-2017-13078<br/>CVE-2017-13080 |
-| 27 | zlib | 4 | CVE-2016-9840<br/>CVE-2016-9841<br/>CVE-2016-9842<br/>CVE-2016-9843 |
-| 28 | WebKit Web Inspector | 4 | CVE-2017-7012<br/>CVE-2017-2499<br/>CVE-2017-2377<br/>CVE-2017-2405 |
-| 29 | WindowServer | 4 | CVE-2017-2537<br/>CVE-2017-2541<br/>CVE-2017-2548<br/>CVE-2017-2540 |
-| 30 | OpenSSH | 4 | CVE-2016-10009<br/>CVE-2016-10010<br/>CVE-2016-10011<br/>CVE-2016-10012 |
-| 31 | Mail | 3 | CVE-2017-13871<br/>CVE-2017-13874<br/>CVE-2017-7141 |
-| 32 | Quick Look | 3 | CVE-2017-13822<br/>CVE-2017-7132<br/>CVE-2017-2404 |
-| 33 | Messages | 3 | CVE-2017-13844<br/>CVE-2017-7118<br/>CVE-2017-7063 |
-| 34 | CoreAudio | 3 | CVE-2017-0381<br/>CVE-2017-7008<br/>CVE-2017-2502 |
-| 35 | IOFireWireFamily | 3 | CVE-2017-7077<br/>CVE-2017-7119<br/>CVE-2017-2388 |
-| 36 | Profiles | 3 | CVE-2017-13806<br/>CVE-2017-2380<br/>CVE-2016-7626 |
-| 37 | JavaScriptCore | 3 | CVE-2017-7005<br/>CVE-2017-2491<br/>CVE-2017-2492 |
-| 38 | Multi-Touch | 3 | CVE-2017-2542<br/>CVE-2017-2543<br/>CVE-2017-2422 |
-| 39 | CoreGraphics | 3 | CVE-2017-2417<br/>CVE-2017-2444<br/>CVE-2016-7627 |
-| 40 | APNs Server | 2 | CVE-2017-13864<br/>CVE-2017-2383 |
-| 41 | HomeKit | 2 | CVE-2017-13903<br/>CVE-2017-2434 |
-| 42 | Directory Utility | 2 | CVE-2017-13872<br/>CVE-2017-7138 |
-| 43 | Mail Drafts | 2 | CVE-2017-13860<br/>CVE-2017-7078 |
-| 44 | IOSurface | 2 | CVE-2017-13861<br/>CVE-2017-6979 |
-| 45 | 802.1X | 2 | CVE-2017-13832<br/>CVE-2017-6988 |
-| 46 | APFS | 2 | CVE-2017-13786<br/>CVE-2017-13800 |
-| 47 | HFS | 2 | CVE-2017-13830<br/>CVE-2017-6990 |
-| 48 | Postfix | 2 | CVE-2017-10140<br/>CVE-2017-13826 |
-| 49 | QuickTime | 2 | CVE-2017-13823<br/>CVE-2017-2413 |
-| 50 | Sandbox | 2 | CVE-2017-13838<br/>CVE-2017-2512 |
-| 51 | Siri | 2 | CVE-2017-13805<br/>CVE-2017-2452 |
-| 52 | FreeRadius | 2 | CVE-2017-10978<br/>CVE-2017-10979 |
-| 53 | kext tools | 2 | CVE-2017-13827<br/>CVE-2017-7032 |
-| 54 | libc | 2 | CVE-2017-7086<br/>CVE-2017-1000373 |
-| 55 | libexpat | 2 | CVE-2016-9063<br/>CVE-2017-9233 |
-| 56 | Phone | 2 | CVE-2017-7139<br/>CVE-2017-2484 |
-| 57 | Sandbox Profiles | 2 | CVE-2017-13877<br/>CVE-2017-6976 |
-| 58 | Telephony | 2 | CVE-2017-6211<br/>CVE-2017-8248 |
-| 59 | Contacts | 2 | CVE-2017-7062<br/>CVE-2017-2368 |
-| 60 | libxml2 | 2 | CVE-2017-7010<br/>CVE-2017-7013 |
-| 61 | afclip | 2 | CVE-2017-7016<br/>CVE-2017-7033 |
-| 62 | AppleGraphicsPowerManagement | 2 | CVE-2017-7021<br/>CVE-2017-2421 |
-| 63 | Foundation | 2 | CVE-2017-7031<br/>CVE-2017-2523 |
-| 64 | Notifications | 2 | CVE-2017-7058<br/>CVE-2017-6982 |
-| 65 | CoreFoundation | 2 | CVE-2017-2522<br/>CVE-2016-7663 |
-| 66 | Speech Framework | 2 | CVE-2017-2534<br/>CVE-2017-6977 |
-| 67 | libxslt | 2 | CVE-2017-5029<br/>CVE-2017-2477 |
-| 68 | Accounts | 2 | CVE-2017-2397<br/>CVE-2016-7651 |
-| 69 | IOFireWireAVC | 2 | CVE-2017-2436<br/>CVE-2017-2437 |
-| 70 | Projects | 2 | CVE-2017-2374<br/>CVE-2017-2372 |
-| 71 | IOAcceleratorFamily | 1 | CVE-2017-7159 |
-| 72 | OpenSSL | 1 | CVE-2017-3735 |
-| 73 | Screen Sharing Server | 1 | CVE-2017-7158 |
-| 74 | IOMobileFrameBuffer | 1 | CVE-2017-13879 |
-| 75 | Mail Message Framework | 1 | CVE-2017-7152 |
-| 76 | StreamingZip | 1 | CVE-2017-13804 |
-| 77 | AppleScript | 1 | CVE-2017-13809 |
-| 78 | ATS | 1 | CVE-2017-13820 |
-| 79 | CFNetwork | 1 | CVE-2017-13829 |
-| 80 | CFString | 1 | CVE-2017-13821 |
-| 81 | Dictionary Widget | 1 | CVE-2017-13801 |
-| 82 | Fonts | 1 | CVE-2017-13828 |
-| 83 | fsck_msdos | 1 | CVE-2017-13811 |
-| 84 | Heimdal | 1 | CVE-2017-11103 |
-| 85 | HelpViewer | 1 | CVE-2017-13819 |
-| 86 | Open Scripting Architecture | 1 | CVE-2017-13824 |
-| 87 | PCRE | 1 | CVE-2017-13846 |
-| 88 | Remote Management | 1 | CVE-2017-13808 |
-| 89 | UIKit | 1 | CVE-2017-7113 |
-| 90 | StorageKit | 1 | CVE-2017-7149 |
-| 91 | Application Firewall | 1 | CVE-2017-7084 |
-| 92 | AppSandbox | 1 | CVE-2017-7074 |
-| 93 | Captive Network Assistant | 1 | CVE-2017-7143 |
-| 94 | CFNetwork Proxies | 1 | CVE-2017-7083 |
-| 95 | DesktopServices | 1 | CVE-2017-13851 |
-| 96 | Installer | 1 | CVE-2017-13837 |
-| 97 | Screen Lock | 1 | CVE-2017-7082 |
-| 98 | Spotlight | 1 | CVE-2017-13839 |
-| 99 | Git | 1 | CVE-2017-1000117 |
-| 100 | subversion | 1 | CVE-2017-9800 |
-| 101 | WebKit Storage | 1 | CVE-2017-7142 |
-| 102 | APNs | 1 | CVE-2017-13863 |
-| 103 | Exchange ActiveSync | 1 | CVE-2017-7088 |
-| 104 | Keyboard Suggestions | 1 | CVE-2017-7140 |
-| 105 | Location Framework | 1 | CVE-2017-7148 |
-| 106 | Mail MessageUI | 1 | CVE-2017-7097 |
-| 107 | MobileBackup | 1 | CVE-2017-7133 |
-| 108 | Notes | 1 | CVE-2017-7075 |
-| 109 | Time | 1 | CVE-2017-7145 |
-| 110 | Data Sync | 1 | CVE-2017-7079 |
-| 111 | Analytics | 1 | CVE-2017-7147 |
-| 112 | IOUSBFamily | 1 | CVE-2017-7009 |
-| 113 | libxpc | 1 | CVE-2017-7047 |
-| 114 | WebKit Page Loading | 1 | CVE-2017-7019 |
-| 115 | Safari Printing | 1 | CVE-2017-7060 |
-| 116 | AppleGraphicsControl | 1 | CVE-2017-13853 |
-| 117 | Font Importer | 1 | CVE-2017-13850 |
-| 118 | EventKitUI | 1 | CVE-2017-7007 |
-| 119 | TextInput | 1 | CVE-2017-2524 |
-| 120 | Accessibility Framework | 1 | CVE-2017-6978 |
-| 121 | CoreAnimation | 1 | CVE-2017-2527 |
-| 122 | DiskArbitration | 1 | CVE-2017-2533 |
-| 123 | IOGraphics | 1 | CVE-2017-2545 |
-| 124 | NVIDIA Graphics Drivers | 1 | CVE-2017-6985 |
-| 125 | Apple Music | 1 | CVE-2017-2387 |
-| 126 | Profile Manager | 1 | CVE-2016-0751 |
-| 127 | Web Server | 1 | CVE-2007-6750 |
-| 128 | Wiki Server | 1 | CVE-2017-2382 |
-| 129 | Carbon | 1 | CVE-2017-2379 |
-| 130 | HTTPProtocol | 1 | CVE-2017-2428 |
-| 131 | Keyboards | 1 | CVE-2017-2458 |
-| 132 | Keychain | 1 | CVE-2017-2448 |
-| 133 | libc++abi | 1 | CVE-2017-2441 |
-| 134 | DataAccess | 1 | CVE-2017-2414 |
-| 135 | iTunes Store | 1 | CVE-2017-2412 |
-| 136 | Pasteboard | 1 | CVE-2017-2399 |
-| 137 | Safari Reader | 1 | CVE-2017-2393 |
-| 138 | SafariViewController | 1 | CVE-2017-2400 |
-| 139 | WebKit JavaScript Bindings | 1 | CVE-2017-2442 |
-| 140 | AppleRAID | 1 | CVE-2017-2438 |
-| 141 | CoreMedia | 1 | CVE-2017-2431 |
-| 142 | EFI | 1 | CVE-2016-7585 |
-| 143 | FinderKit | 1 | CVE-2017-2429 |
-| 144 | Hypervisor | 1 | CVE-2017-2418 |
-| 145 | IOATAFamily | 1 | CVE-2017-2408 |
-| 146 | LibreSSL | 1 | CVE-2016-7056 |
-| 147 | MCX Client | 1 | CVE-2017-2402 |
-| 148 | Menus | 1 | CVE-2017-2409 |
-| 149 | Printing | 1 | CVE-2017-2403 |
-| 150 | python | 1 | CVE-2016-5636 |
-| 151 | SecurityFoundation | 1 | CVE-2017-2425 |
-| 152 | sudo | 1 | CVE-2017-2381 |
-| 153 | System Integrity Protection | 1 | CVE-2017-6974 |
-| 154 | Safari Login AutoFill | 1 | CVE-2017-2385 |
-| 155 | Export | 1 | CVE-2017-2391 |
-| 156 | Authentication | 1 | CVE-2017-2488 |
-| 157 | Graphics Drivers | 1 | CVE-2017-2358 |
-| 158 | Help Viewer | 1 | CVE-2017-2361 |
-| 159 | IOAudioFamily | 1 | CVE-2017-2357 |
-| 160 | Vim | 1 | CVE-2016-1248 |
-| 161 | Call History | 1 | CVE-2017-2375 |
-| 162 | Unlock with iPhone | 1 | CVE-2017-2352 |
-| 163 | WiFi | 1 | CVE-2017-2351 |
-| 164 | CoreMedia Playback | 1 | CVE-2016-7588 |
-| 165 | Disk Images | 1 | CVE-2016-7616 |
-| 166 | ICU | 1 | CVE-2016-7594 |
-| 167 | IOHIDFamily | 1 | CVE-2016-7591 |
-| 168 | syslog | 1 | CVE-2016-7660 |
-| 169 | WiFi Manager | 1 | CVE-2016-7699: |
+| Index | Module Name        | CVE Count |
+|:-----:|:------------------ |:---------:|
+| 1 | WebKit | 140 |
+| 2 | tcpdump | 131 |
+| 3 | Kernel | 67 |
+| 4 | iTunes | 18 |
+| 5 | Wi-Fi | 15 |
+| 6 | SQLite | 14 |
+| 7 | Intel Graphics Driver | 14 |
+| 8 | apache | 13 |
+| 9 | Security | 13 |
+| 10 | Safari | 12 |
+| 11 | ntp | 10 |
+| 12 | apache_mod_php | 8 |
+| 13 | libarchive | 8 |
+| 14 | Bluetooth | 8 |
+| 15 | libxml2 | 8 |
+| 16 | ImageIO | 7 |
+| 17 | CoreText | 7 |
+| 18 | tiffutil | 7 |
+| 19 | curl | 7 |
+| 20 | file | 7 |
+| 21 | AVEVideoEncoder | 7 |
+| 22 | FontParser | 6 |
+| 23 | IOKit | 6 |
+| 24 | Audio | 6 |
+| 25 | WebKit Web Inspector | 5 |
+| 26 | iBooks | 5 |
+| 27 | OpenSSH | 4 |
+| 28 | zlib | 4 |
+| 29 | AirPort Base Station Firmware | 4 |
+| 30 | WindowServer | 4 |
+| 31 | Profiles | 3 |
+| 32 | CoreGraphics | 3 |
+| 33 | CoreFoundation | 3 |
+| 34 | CoreAudio | 3 |
+| 35 | APFS | 3 |
+| 36 | Quick Look | 3 |
+| 37 | Messages | 3 |
+| 38 | Mail | 3 |
+| 39 | Contacts | 3 |
+| 40 | IOFireWireFamily | 3 |
+| 41 | Multi-Touch | 3 |
+| 42 | JavaScriptCore | 3 |
+| 43 | ICU | 2 |
+| 44 | Accounts | 2 |
+| 45 | libexpat | 2 |
+| 46 | libc | 2 |
+| 47 | Postfix | 2 |
+| 48 | FreeRadius | 2 |
+| 49 | Siri | 2 |
+| 50 | fsck_msdos | 2 |
+| 51 | QuickTime | 2 |
+| 52 | kext tools | 2 |
+| 53 | CFNetwork | 2 |
+| 54 | HFS | 2 |
+| 55 | 802.1X | 2 |
+| 56 | Sandbox | 2 |
+| 57 | Spotlight | 2 |
+| 58 | Mail Drafts | 2 |
+| 59 | IOSurface | 2 |
+| 60 | APNs Server | 2 |
+| 61 | Directory Utility | 2 |
+| 62 | Sandbox Profiles | 2 |
+| 63 | SafariViewController | 2 |
+| 64 | HomeKit | 2 |
+| 65 | IOAcceleratorFamily | 2 |
+| 66 | Projects | 2 |
+| 67 | AppleGraphicsPowerManagement | 2 |
+| 68 | IOFireWireAVC | 2 |
+| 69 | libxslt | 2 |
+| 70 | Phone | 2 |
+| 71 | Foundation | 2 |
+| 72 | CoreAnimation | 2 |
+| 73 | Speech Framework | 2 |
+| 74 | Telephony | 2 |
+| 75 | Notifications | 2 |
+| 76 | afclip | 2 |
+| 77 | ld64 | 2 |
+| 78 | LinkPresentation | 2 |
+| 79 | Web Server | 1 |
+| 80 | Profile Manager | 1 |
+| 81 | Vim | 1 |
+| 82 | python | 1 |
+| 83 | LibreSSL | 1 |
+| 84 | EFI | 1 |
+| 85 | CoreMedia Playback | 1 |
+| 86 | IOHIDFamily | 1 |
+| 87 | Disk Images | 1 |
+| 88 | syslog | 1 |
+| 89 | Git | 1 |
+| 90 | Heimdal | 1 |
+| 91 | Perl | 1 |
+| 92 | Dictionary Widget | 1 |
+| 93 | StreamingZip | 1 |
+| 94 | Remote Management | 1 |
+| 95 | AppleScript | 1 |
+| 96 | HelpViewer | 1 |
+| 97 | ATS | 1 |
+| 98 | CFString | 1 |
+| 99 | Open Scripting Architecture | 1 |
+| 100 | Fonts | 1 |
+| 101 | Installer | 1 |
+| 102 | PCRE | 1 |
+| 103 | Font Importer | 1 |
+| 104 | DesktopServices | 1 |
+| 105 | AppleGraphicsControl | 1 |
+| 106 | APNs | 1 |
+| 107 | IOMobileFrameBuffer | 1 |
+| 108 | ReplayKit | 1 |
+| 109 | CoreTypes | 1 |
+| 110 | Auto Unlock | 1 |
+| 111 | Login Window | 1 |
+| 112 | SMB | 1 |
+| 113 | Apple Account Settings | 1 |
+| 114 | SIP | 1 |
+| 115 | Unlock with iPhone | 1 |
+| 116 | IOAudioFamily | 1 |
+| 117 | Graphics Drivers | 1 |
+| 118 | Help Viewer | 1 |
+| 119 | Call History | 1 |
+| 120 | Carbon | 1 |
+| 121 | sudo | 1 |
+| 122 | Wiki Server | 1 |
+| 123 | Safari Login AutoFill | 1 |
+| 124 | Apple Music | 1 |
+| 125 | Export | 1 |
+| 126 | Safari Reader | 1 |
+| 127 | Pasteboard | 1 |
+| 128 | MCX Client | 1 |
+| 129 | Printing | 1 |
+| 130 | IOATAFamily | 1 |
+| 131 | Menus | 1 |
+| 132 | Calculator | 1 |
+| 133 | iTunes Store | 1 |
+| 134 | DataAccess | 1 |
+| 135 | Hypervisor | 1 |
+| 136 | SecurityFoundation | 1 |
+| 137 | HTTPProtocol | 1 |
+| 138 | FinderKit | 1 |
+| 139 | CoreMedia | 1 |
+| 140 | AppleRAID | 1 |
+| 141 | libc++abi | 1 |
+| 142 | WebKit JavaScript Bindings | 1 |
+| 143 | Keychain | 1 |
+| 144 | Keyboards | 1 |
+| 145 | Authentication | 1 |
+| 146 | TextInput | 1 |
+| 147 | DiskArbitration | 1 |
+| 148 | IOGraphics | 1 |
+| 149 | OpenSSL | 1 |
+| 150 | System Integrity Protection | 1 |
+| 151 | Accessibility Framework | 1 |
+| 152 | NVIDIA Graphics Drivers | 1 |
+| 153 | EventKitUI | 1 |
+| 154 | IOUSBFamily | 1 |
+| 155 | WebKit Page Loading | 1 |
+| 156 | libxpc | 1 |
+| 157 | Safari Printing | 1 |
+| 158 | AppSandbox | 1 |
+| 159 | Notes | 1 |
+| 160 | Data Sync | 1 |
+| 161 | Screen Lock | 1 |
+| 162 | CFNetwork Proxies | 1 |
+| 163 | Application Firewall | 1 |
+| 164 | Exchange ActiveSync | 1 |
+| 165 | Mail MessageUI | 1 |
+| 166 | UIKit | 1 |
+| 167 | MobileBackup | 1 |
+| 168 | Keyboard Suggestions | 1 |
+| 169 | WebKit Storage | 1 |
+| 170 | Captive Network Assistant | 1 |
+| 171 | Time | 1 |
+| 172 | Analytics | 1 |
+| 173 | Location Framework | 1 |
+| 174 | StorageKit | 1 |
+| 175 | Mail Message Framework | 1 |
+| 176 | Screen Sharing Server | 1 |
+| 177 | App Store | 1 |
+| 178 | CFNetwork Session | 1 |
+| 179 | subversion | 1 |

@@ -1,5 +1,18 @@
 [
     {
+        "impact": "Multiple issues in Perl", 
+        "available": "macOS Sequoia", 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "August 28, 2025", 
+        "module": "Perl", 
+        "credit": "", 
+        "id": "CVE-2016-1246", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An app may be able to modify protected parts of the file system", 
         "available": "macOS Sonoma", 
         "description": "A logic issue was addressed with improved state management.", 
@@ -54,6 +67,32 @@
         "module": "MediaRemote", 
         "credit": "Meng Zhang (\u9cb8\u843d) of NorthSea", 
         "id": "CVE-2023-28826", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Multiple issues in Perl", 
+        "available": "macOS Sequoia", 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "August 28, 2025", 
+        "module": "Perl", 
+        "credit": "", 
+        "id": "CVE-2023-31484", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Multiple issues in Perl", 
+        "available": "macOS Sequoia", 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "August 28, 2025", 
+        "module": "Perl", 
+        "credit": "", 
+        "id": "CVE-2023-31486", 
         "rsr": ""
     }, 
     {
@@ -277,7 +316,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted file may lead to unexpected app termination", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -286,6 +325,19 @@
         "module": "CUPS", 
         "credit": "", 
         "id": "CVE-2023-4504", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Multiple issues in Perl", 
+        "available": "macOS Sequoia", 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "August 28, 2025", 
+        "module": "Perl", 
+        "credit": "", 
+        "id": "CVE-2023-47100", 
         "rsr": ""
     }, 
     {
@@ -999,7 +1051,7 @@
     }, 
     {
         "impact": "An app may be able to cause a denial-of-service", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -2096,7 +2148,7 @@
     }, 
     {
         "impact": "A camera extension may be able to access the internet", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -2608,9 +2660,9 @@
             "https://support.apple.com/en-us/120900", 
             "https://support.apple.com/en-us/120903"
         ], 
-        "update": "", 
+        "update": "May 16, 2025", 
         "module": "Finder", 
-        "credit": "an anonymous researcher", 
+        "credit": "an anonymous researcher and Mickey Jin (@patch1t)", 
         "id": "CVE-2024-27827", 
         "rsr": ""
     }, 
@@ -2933,7 +2985,7 @@
     }, 
     {
         "impact": "An app may be able to read sensitive location information", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A privacy issue was addressed with improved private data redaction for log entries.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -3060,7 +3112,7 @@
     }, 
     {
         "impact": "An app may be able to access protected user data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -3091,7 +3143,7 @@
     }, 
     {
         "impact": "An application may be able to read restricted memory", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -3104,7 +3156,7 @@
     }, 
     {
         "impact": "An application may be able to read restricted memory", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -3231,7 +3283,7 @@
     }, 
     {
         "impact": "Privacy Indicators for microphone or camera access may be attributed  incorrectly", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A logic issue was addressed with improved state management.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -3453,7 +3505,7 @@
     }, 
     {
         "impact": "Multiple issues in OpenSSH", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -3466,7 +3518,7 @@
     }, 
     {
         "impact": "A non-privileged user may be able to modify restricted network settings", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -3814,7 +3866,7 @@
     }, 
     {
         "impact": "A malicious app may be able to change network settings", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -3893,7 +3945,7 @@
     }, 
     {
         "impact": "Visiting a malicious website may lead to user interface spoofing", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed through improved state management.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -3959,7 +4011,7 @@
     }, 
     {
         "impact": "An app may be able to access protected user data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -4286,7 +4338,7 @@
     }, 
     {
         "impact": "A malicious app with root privileges may be able to modify the contents of system files", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -4373,7 +4425,7 @@
     }, 
     {
         "impact": "An app may be able to access a user's Photos Library", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -4464,7 +4516,7 @@
     }, 
     {
         "impact": "An app may be able to access protected user data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -4478,7 +4530,7 @@
     }, 
     {
         "impact": "A malicious app may be able to access notifications from the user's device", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A privacy issue was addressed by moving sensitive data to a protected location.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -4517,7 +4569,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted video file may lead to unexpected app termination", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -4531,7 +4583,7 @@
     }, 
     {
         "impact": "An app may be able to access user-sensitive data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "An issue was addressed with improved validation of environment variables.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -4544,7 +4596,7 @@
     }, 
     {
         "impact": "An app may be able to modify protected parts of the file system", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -4557,7 +4609,7 @@
     }, 
     {
         "impact": "An app may be able to observe data displayed to the user by Shortcuts", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A privacy issue was addressed with improved handling of temporary files.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -4573,7 +4625,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted video file may lead to unexpected app termination", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -4587,7 +4639,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted video file may lead to unexpected app termination", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -4601,7 +4653,7 @@
     }, 
     {
         "impact": "An app may be able to access sensitive user data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with additional code-signing restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -4616,7 +4668,7 @@
     }, 
     {
         "impact": "An attacker may be able to read sensitive information", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A downgrade issue was addressed with additional code-signing restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -4783,7 +4835,7 @@
     }, 
     {
         "impact": "An app may be able to access user-sensitive data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -4796,7 +4848,7 @@
     }, 
     {
         "impact": "An app may be able to modify protected parts of the file system", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A logic issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -4810,7 +4862,7 @@
     }, 
     {
         "impact": "An app may be able to gain root privileges", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -4848,6 +4900,22 @@
         "rsr": ""
     }, 
     {
+        "impact": "An attacker in a privileged network position may be able to track a user's activity", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "The issue was addressed with improved handling of protocols.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844"
+        ], 
+        "update": "April 2, 2025", 
+        "module": "Apple Account", 
+        "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2024-40864", 
+        "rsr": ""
+    }, 
+    {
         "impact": "Inputs to the virtual keyboard may be inferred from Persona", 
         "available": "Apple Vision Pro", 
         "description": "The issue was addressed by suspending Persona when the virtual keyboard is active.", 
@@ -4862,7 +4930,7 @@
     }, 
     {
         "impact": "Visiting a malicious website may lead to address bar spoofing", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved UI.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -4890,7 +4958,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted file may lead to unexpected app termination", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -4946,7 +5014,7 @@
     }, 
     {
         "impact": "A malicious application may be able to leak sensitive user information", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -4992,7 +5060,7 @@
     }, 
     {
         "impact": "An Automator Quick Action workflow may be able to bypass Gatekeeper", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed by adding an additional prompt for user consent.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5007,7 +5075,7 @@
     }, 
     {
         "impact": "An app may be able to leak sensitive user information", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5021,7 +5089,7 @@
     }, 
     {
         "impact": "An app with root privileges may be able to access private information", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved data protection.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5048,7 +5116,7 @@
     }, 
     {
         "impact": "An app may be able to break out of its sandbox", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved handling of symlinks.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5061,7 +5129,7 @@
     }, 
     {
         "impact": "On MDM managed devices, an app may be able to bypass certain Privacy preferences", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed by removing the vulnerable code.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5074,7 +5142,7 @@
     }, 
     {
         "impact": "An app may be able to read sensitive location information", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved redaction of sensitive information.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5087,7 +5155,7 @@
     }, 
     {
         "impact": "An app may be able to access protected files within an App Sandbox container", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -5188,7 +5256,7 @@
     }, 
     {
         "impact": "An app may be able to break out of its sandbox", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A logic issue was addressed with improved file handling.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5214,7 +5282,7 @@
     }, 
     {
         "impact": "An app may be able to break out of its sandbox", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved validation of file attributes.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5227,7 +5295,7 @@
     }, 
     {
         "impact": "An app may be able to access protected user data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5240,7 +5308,7 @@
     }, 
     {
         "impact": "An app may be able to modify protected parts of the file system", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5255,7 +5323,7 @@
     }, 
     {
         "impact": "An app may be able to access user-sensitive data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A privacy issue was addressed with improved private data redaction for log entries.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5268,7 +5336,7 @@
     }, 
     {
         "impact": "An app may be able to access user-sensitive data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved permissions logic.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -5282,7 +5350,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted file may lead to unexpected app termination", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A memory initialization issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/121238", 
@@ -5342,7 +5410,7 @@
     }, 
     {
         "impact": "A shortcut may output sensitive user data without consent", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved redaction of sensitive information.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5373,7 +5441,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted texture may lead to unexpected app termination", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A buffer overflow issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5388,7 +5456,7 @@
     }, 
     {
         "impact": "Processing a maliciously crafted texture may lead to unexpected app termination", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "An out-of-bounds read was addressed with improved bounds checking.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5416,7 +5484,7 @@
     }, 
     {
         "impact": "A malicious application may be able to access private information", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5431,7 +5499,7 @@
     }, 
     {
         "impact": "An app may be able to bypass Privacy preferences", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5465,7 +5533,7 @@
     }, 
     {
         "impact": "An app may be able to access user-sensitive data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A privacy issue was addressed with improved private data redaction for log entries.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5497,7 +5565,7 @@
     }, 
     {
         "impact": "An app may be able to modify protected parts of the file system", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A library injection issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5562,7 +5630,7 @@
     }, 
     {
         "impact": "An app may be able to access contacts", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A privacy issue was addressed with improved private data redaction for log entries.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5575,7 +5643,7 @@
     }, 
     {
         "impact": "An attacker may be able to view restricted content from the lock screen", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5622,7 +5690,7 @@
     }, 
     {
         "impact": "An app may be able to access user-sensitive data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A privacy issue was addressed by removing sensitive data.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5637,7 +5705,7 @@
     }, 
     {
         "impact": "An app may be able to modify protected parts of the file system", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved validation of symlinks.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5680,7 +5748,7 @@
     }, 
     {
         "impact": "An app may be able to read sensitive location information", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "An issue was addressed with improved handling of temporary files.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5695,7 +5763,7 @@
     }, 
     {
         "impact": "An app may be able to access sensitive data logged when a shortcut fails to launch another app", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved redaction of sensitive information.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5766,7 +5834,7 @@
     }, 
     {
         "impact": "An app may be able to access protected user data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "An access issue was addressed with additional sandbox restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5798,7 +5866,7 @@
     }, 
     {
         "impact": "An app may be able to access protected user data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5811,7 +5879,7 @@
     }, 
     {
         "impact": "A logic issue existed where a process may be able to capture screen contents without user consent", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved checks.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -5824,7 +5892,7 @@
     }, 
     {
         "impact": "An app may be able to read arbitrary files", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A path handling issue was addressed with improved validation.", 
         "links": [
             "https://support.apple.com/en-us/121234", 
@@ -5933,7 +6001,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "A malicious app may be able to cause a denial-of-service", 
+        "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
         "available": "macOS Sequoia", 
         "description": "The issue was addressed with improved memory handling.", 
         "links": [
@@ -5941,7 +6009,7 @@
             "https://support.apple.com/en-us/121568", 
             "https://support.apple.com/en-us/121570"
         ], 
-        "update": "", 
+        "update": "August 28, 2025", 
         "module": "IOGPUFamily", 
         "credit": "Wang Yu of Cyberserval", 
         "id": "CVE-2024-44197", 
@@ -5962,6 +6030,19 @@
         "module": "libxml2", 
         "credit": "OSS-Fuzz, Ned Williamson of Google Project Zero", 
         "id": "CVE-2024-44198", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to cause unexpected system termination or read kernel memory", 
+        "available": "macOS Sonoma", 
+        "description": "An out-of-bounds read was addressed with improved input validation.", 
+        "links": [
+            "https://support.apple.com/en-us/120911"
+        ], 
+        "update": "March 20, 2025", 
+        "module": "IOMobileFrameBuffer", 
+        "credit": "Wang Yu of Cyberserval", 
+        "id": "CVE-2024-44199", 
         "rsr": ""
     }, 
     {
@@ -6011,7 +6092,7 @@
     }, 
     {
         "impact": "An app may be able to access a user's Photos Library", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -6086,7 +6167,7 @@
     }, 
     {
         "impact": "An app may be able to bypass certain Privacy preferences", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed through improved state management.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -6910,6 +6991,19 @@
         "rsr": ""
     }, 
     {
+        "impact": "An app may be able to record the screen without an indicator", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "August 28, 2025", 
+        "module": "Control Center", 
+        "credit": "an anonymous researcher", 
+        "id": "CVE-2024-44271", 
+        "rsr": ""
+    }, 
+    {
         "impact": "A malicious app may be able to access private information", 
         "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
         "description": "This issue was addressed with improved handling of symlinks.", 
@@ -6955,6 +7049,19 @@
         "module": "PackageKit", 
         "credit": "Arsenii Kostromin (0x3c3e)", 
         "id": "CVE-2024-44275", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A user in a privileged network position may be able to leak sensitive information", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "This issue was addressed by using HTTPS when sending information over the network.", 
+        "links": [
+            "https://support.apple.com/en-us/121837"
+        ], 
+        "update": "March 17, 2025", 
+        "module": "Passwords", 
+        "credit": "Talal Haj Bakry and Tommy Mysk of Mysk Inc. @mysk_co", 
+        "id": "CVE-2024-44276", 
         "rsr": ""
     }, 
     {
@@ -7364,6 +7471,19 @@
         "rsr": ""
     }, 
     {
+        "impact": "An app may be able to gain root privileges", 
+        "available": "macOS Sonoma", 
+        "description": "This issue was addressed by removing the vulnerable code.", 
+        "links": [
+            "https://support.apple.com/en-us/120911"
+        ], 
+        "update": "March 20, 2025", 
+        "module": "PackageKit", 
+        "credit": "Mickey Jin (@patch1t), Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2024-44305", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An app may be able to execute arbitrary code with kernel privileges", 
         "available": "macOS Sonoma", 
         "description": "A buffer overflow issue was addressed with improved memory handling.", 
@@ -7482,7 +7602,7 @@
     }, 
     {
         "impact": "An app may be able to access removable volumes without user consent", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved entitlements.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -7607,7 +7727,7 @@
     }, 
     {
         "impact": "An app may be able to access user-sensitive data", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "This issue was addressed with improved redaction of sensitive information.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -8301,6 +8421,23 @@
         "rsr": ""
     }, 
     {
+        "impact": "Restoring a maliciously crafted backup file may lead to modification of protected system files", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
+        "description": "A logic issue was addressed with improved file handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121837", 
+            "https://support.apple.com/en-us/121839", 
+            "https://support.apple.com/en-us/121843", 
+            "https://support.apple.com/en-us/121844", 
+            "https://support.apple.com/en-us/121845"
+        ], 
+        "update": "March 17, 2025", 
+        "module": "MobileBackup", 
+        "credit": "Andrew James Gonzalez, Dragon Fruit Security (Davis Dai, ORAC \u843d\u4e91, Frank Du cooperative discovery)", 
+        "id": "CVE-2024-54525", 
+        "rsr": ""
+    }, 
+    {
         "impact": "A malicious app may be able to access private information", 
         "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
         "description": "The issue was addressed with improved checks.", 
@@ -8352,7 +8489,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An app may be able to execute arbitrary code with kernel privileges", 
+        "impact": "An app may be able to execute arbitrary code out of its sandbox or with certain elevated privileges", 
         "available": "macOS Sequoia", 
         "description": "A logic issue was addressed with improved checks.", 
         "links": [
@@ -8360,7 +8497,7 @@
             "https://support.apple.com/en-us/121840", 
             "https://support.apple.com/en-us/121842"
         ], 
-        "update": "", 
+        "update": "May 28, 2025", 
         "module": "Audio", 
         "credit": "Dillon Franke working with Google Project Zero", 
         "id": "CVE-2024-54529", 
@@ -8376,9 +8513,9 @@
             "https://support.apple.com/en-us/121843", 
             "https://support.apple.com/en-us/121845"
         ], 
-        "update": "January 27, 2025", 
+        "update": "January 27, 2025, updated March 17, 2025", 
         "module": "Passkeys", 
-        "credit": "Abhay Kailasia (@abhay_kailasia) from C-DAC Thiruvananthapuram India, Rakeshkumar Talaviya", 
+        "credit": "Abhay Kailasia (@abhay_kailasia) from C-DAC Thiruvananthapuram India, Rakeshkumar Talaviya, Tomomasa Hiraiwa", 
         "id": "CVE-2024-54530", 
         "rsr": ""
     }, 
@@ -8393,6 +8530,19 @@
         "module": "Kernel", 
         "credit": "Hyerean Jang, Taehun Kim, and Youngjoo Shin", 
         "id": "CVE-2024-54531", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": "macOS Sequoia", 
+        "description": "A permissions issue was addressed with additional sandbox restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "April 2, 2025", 
+        "module": "Spotlight", 
+        "credit": "Csaba Fitzl (@theevilbit) of OffSec", 
+        "id": "CVE-2024-54533", 
         "rsr": ""
     }, 
     {
@@ -8562,7 +8712,7 @@
     }, 
     {
         "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
-        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac Mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
+        "available": "Mac Studio (2022 and later), iMac (2019 and later), Mac Pro (2019 and later), Mac mini (2018 and later), MacBook Air (2020 and later), MacBook Pro (2018 and later), and iMac Pro (2017 and later)", 
         "description": "The issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/121238"
@@ -8616,6 +8766,38 @@
         "rsr": ""
     }, 
     {
+        "impact": "Processing web content may lead to a denial-of-service", 
+        "available": "macOS Monterey and macOS Ventura", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/120909", 
+            "https://support.apple.com/en-us/120911", 
+            "https://support.apple.com/en-us/120913", 
+            "https://support.apple.com/en-us/120914", 
+            "https://support.apple.com/en-us/120915", 
+            "https://support.apple.com/en-us/120916"
+        ], 
+        "update": "March 20, 2025", 
+        "module": "WebKit", 
+        "credit": "ajajfxhj", 
+        "bugzilla": "275117", 
+        "id": "CVE-2024-54551", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": "macOS Sequoia", 
+        "description": "This issue was addressed with improved handling of symlinks.", 
+        "links": [
+            "https://support.apple.com/en-us/121564"
+        ], 
+        "update": "August 28, 2025", 
+        "module": "Dock", 
+        "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-54554", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An attacker may gain access to protected parts of the file system", 
         "available": "macOS Sequoia", 
         "description": "A logic issue was addressed with improved restrictions.", 
@@ -8645,6 +8827,19 @@
         "rsr": ""
     }, 
     {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "March 17, 2025, updated August 28, 2025", 
+        "module": "Sandbox", 
+        "credit": "Zhongquan Li (@Guluisacat) and an anonymous researcher", 
+        "id": "CVE-2024-54559", 
+        "rsr": ""
+    }, 
+    {
         "impact": "A malicious app may be able to modify other apps without having App Management permission", 
         "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
         "description": "A logic issue was addressed with improved checks.", 
@@ -8658,6 +8853,47 @@
         "module": "LaunchServices", 
         "credit": "Kirin (@Pwnrin), Jeff Johnson (underpassapp.com)", 
         "id": "CVE-2024-54560", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "A file received from AirDrop may not have the quarantine flag applied", 
+        "available": "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later", 
+        "description": "This issue was addressed through improved state management.", 
+        "links": [
+            "https://support.apple.com/en-us/120909", 
+            "https://support.apple.com/en-us/120911", 
+            "https://support.apple.com/en-us/120915"
+        ], 
+        "update": "March 20, 2025", 
+        "module": "AirDrop", 
+        "credit": "Linwz of DEVCORE", 
+        "id": "CVE-2024-54564", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to access sensitive user data", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved checks.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "March 17, 2025", 
+        "module": "XProtect", 
+        "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-54565", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted file may lead to an unexpected app termination", 
+        "available": "macOS Sequoia", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/121839"
+        ], 
+        "update": "August 28, 2025", 
+        "module": "ATS", 
+        "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-54568", 
         "rsr": ""
     }, 
     {
@@ -8692,6 +8928,19 @@
         "module": "OpenSSH", 
         "credit": "", 
         "id": "CVE-2024-6387", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to cause a denial-of-service", 
+        "available": "iPad Pro 12.9-inch 2nd generation, iPad Pro 10.5-inch, and iPad 6th generation", 
+        "description": "An app could impersonate system notifications. Sensitive notifications now require restricted entitlements.", 
+        "links": [
+            "https://support.apple.com/en-us/121838"
+        ], 
+        "update": "April 30, 2025", 
+        "module": "Libnotify", 
+        "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)", 
+        "id": "CVE-2025-24091", 
         "rsr": ""
     }
 ]

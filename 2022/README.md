@@ -2,56 +2,172 @@
 * data source: https://support.apple.com/en-us/HT201222
 * [2022.json](2022.json)
 
-## Top Modules
-| Index | Module Name        | CVE Count | CVE ID |
-|:-----:|:------------------ |:---------:|:--------:|
-| 1 | Vim | 50 | CVE-2021-4136<br/>CVE-2021-4166<br/>CVE-2021-4173<br/>CVE-2021-4187<br/>CVE-2021-4192<br/>CVE-2021-4193<br/>CVE-2021-46059<br/>CVE-2022-0128<br/>CVE-2022-0156<br/>CVE-2022-0158<br/>CVE-2022-0261<br/>CVE-2022-0318<br/>CVE-2022-0319<br/>CVE-2022-0351<br/>CVE-2022-0359<br/>CVE-2022-0361<br/>CVE-2022-0368<br/>CVE-2022-0392<br/>CVE-2022-0554<br/>CVE-2022-0572<br/>CVE-2022-0629<br/>CVE-2022-0685<br/>CVE-2022-0696<br/>CVE-2022-0714<br/>CVE-2022-0729<br/>CVE-2022-0943<br/>CVE-2022-1381<br/>CVE-2022-1420<br/>CVE-2022-1616<br/>CVE-2022-1619<br/>CVE-2022-1620<br/>CVE-2022-1621<br/>CVE-2022-1629<br/>CVE-2022-1674<br/>CVE-2022-1720<br/>CVE-2022-1725<br/>CVE-2022-1733<br/>CVE-2022-1735<br/>CVE-2022-1769<br/>CVE-2022-1851<br/>CVE-2022-1897<br/>CVE-2022-1898<br/>CVE-2022-1927<br/>CVE-2022-1942<br/>CVE-2022-1968<br/>CVE-2022-2000<br/>CVE-2022-2042<br/>CVE-2022-2124<br/>CVE-2022-2125<br/>CVE-2022-2126 |
-| 2 | WebKit | 41 | CVE-2022-22589<br/>CVE-2022-22590<br/>CVE-2022-22592<br/>CVE-2022-22610<br/>CVE-2022-22620<br/>CVE-2022-22624<br/>CVE-2022-22628<br/>CVE-2022-22629<br/>CVE-2022-22637<br/>CVE-2022-22662<br/>CVE-2022-26700<br/>CVE-2022-26709<br/>CVE-2022-26710<br/>CVE-2022-26716<br/>CVE-2022-26717<br/>CVE-2022-26719<br/>CVE-2022-32792<br/>CVE-2022-32816<br/>CVE-2022-32861<br/>CVE-2022-32863<br/>CVE-2022-32886<br/>CVE-2022-32888<br/>CVE-2022-32891<br/>CVE-2022-32893<br/>CVE-2022-32912<br/>CVE-2022-32923<br/>CVE-2022-42799<br/>CVE-2022-42823<br/>CVE-2022-42824<br/>CVE-2022-42826<br/>CVE-2022-42852<br/>CVE-2022-42856<br/>CVE-2022-42863<br/>CVE-2022-42867<br/>CVE-2022-46691<br/>CVE-2022-46692<br/>CVE-2022-46696<br/>CVE-2022-46698<br/>CVE-2022-46699<br/>CVE-2022-46700<br/>CVE-2022-46705 |
-| 3 | Kernel | 38 | CVE-2022-22593<br/>CVE-2022-22596<br/>CVE-2022-22613<br/>CVE-2022-22614<br/>CVE-2022-22615<br/>CVE-2022-22632<br/>CVE-2022-22638<br/>CVE-2022-22640<br/>CVE-2022-26714<br/>CVE-2022-26743<br/>CVE-2022-26757<br/>CVE-2022-26764<br/>CVE-2022-26765<br/>CVE-2022-32813<br/>CVE-2022-32815<br/>CVE-2022-32817<br/>CVE-2022-32829<br/>CVE-2022-32844<br/>CVE-2022-32864<br/>CVE-2022-32866<br/>CVE-2022-32894<br/>CVE-2022-32911<br/>CVE-2022-32914<br/>CVE-2022-32916<br/>CVE-2022-32917<br/>CVE-2022-32924<br/>CVE-2022-32926<br/>CVE-2022-32944<br/>CVE-2022-42801<br/>CVE-2022-42803<br/>CVE-2022-42808<br/>CVE-2022-42827<br/>CVE-2022-42842<br/>CVE-2022-42844<br/>CVE-2022-42845<br/>CVE-2022-46689<br/>CVE-2022-46701<br/>CVE-2022-46712 |
-| 4 | PackageKit | 14 | CVE-2022-22583<br/>CVE-2022-22617<br/>CVE-2022-22676<br/>CVE-2022-26688<br/>CVE-2022-26690<br/>CVE-2022-26712<br/>CVE-2022-26727<br/>CVE-2022-32786<br/>CVE-2022-32794<br/>CVE-2022-32800<br/>CVE-2022-32895<br/>CVE-2022-32900<br/>CVE-2022-46704<br/>CVE-2022-46713 |
-| 5 | AppleScript | 12 | CVE-2022-22597<br/>CVE-2022-22625<br/>CVE-2022-22626<br/>CVE-2022-22627<br/>CVE-2022-22648<br/>CVE-2022-26697<br/>CVE-2022-26698<br/>CVE-2022-32797<br/>CVE-2022-32831<br/>CVE-2022-32851<br/>CVE-2022-32852<br/>CVE-2022-32853 |
-| 6 | Wi-Fi | 11 | CVE-2015-4142<br/>CVE-2022-22668<br/>CVE-2022-26745<br/>CVE-2022-26760<br/>CVE-2022-26761<br/>CVE-2022-26762<br/>CVE-2022-32837<br/>CVE-2022-32847<br/>CVE-2022-32860<br/>CVE-2022-32925<br/>CVE-2022-32927 |
-| 7 | ImageIO | 11 | CVE-2022-1622<br/>CVE-2022-22611<br/>CVE-2022-22612<br/>CVE-2022-26711<br/>CVE-2022-26725<br/>CVE-2022-32785<br/>CVE-2022-32802<br/>CVE-2022-32830<br/>CVE-2022-32841<br/>CVE-2022-42851<br/>CVE-2022-46693 |
-| 8 | Intel Graphics Driver | 10 | CVE-2022-22591<br/>CVE-2022-22661<br/>CVE-2022-26720<br/>CVE-2022-26748<br/>CVE-2022-26756<br/>CVE-2022-26769<br/>CVE-2022-26770<br/>CVE-2022-32811<br/>CVE-2022-32812<br/>CVE-2022-32936 |
-| 9 | AVEVideoEncoder | 10 | CVE-2022-22634<br/>CVE-2022-22635<br/>CVE-2022-22636<br/>CVE-2022-26736<br/>CVE-2022-26737<br/>CVE-2022-26738<br/>CVE-2022-26739<br/>CVE-2022-26740<br/>CVE-2022-32940<br/>CVE-2022-42848 |
-| 10 | SMB | 10 | CVE-2022-22651<br/>CVE-2022-26715<br/>CVE-2022-26718<br/>CVE-2022-26723<br/>CVE-2022-32796<br/>CVE-2022-32798<br/>CVE-2022-32799<br/>CVE-2022-32818<br/>CVE-2022-32842<br/>CVE-2022-32934 |
-| 11 | AMD | 10 | CVE-2022-22669<br/>CVE-2022-26741<br/>CVE-2022-26742<br/>CVE-2022-26749<br/>CVE-2022-26750<br/>CVE-2022-26752<br/>CVE-2022-26753<br/>CVE-2022-26754<br/>CVE-2022-26772<br/>CVE-2022-42847 |
-| 12 | Apple Neural Engine | 10 | CVE-2022-32810<br/>CVE-2022-32840<br/>CVE-2022-32845<br/>CVE-2022-32858<br/>CVE-2022-32889<br/>CVE-2022-32898<br/>CVE-2022-32899<br/>CVE-2022-32932<br/>CVE-2022-32948<br/>CVE-2022-42805 |
-| 13 | otool | 8 | CVE-2022-22601<br/>CVE-2022-22602<br/>CVE-2022-22603<br/>CVE-2022-22604<br/>CVE-2022-22605<br/>CVE-2022-22606<br/>CVE-2022-22607<br/>CVE-2022-22608 |
-| 14 | AppleAVD | 8 | CVE-2022-22666<br/>CVE-2022-22675<br/>CVE-2022-26702<br/>CVE-2022-32788<br/>CVE-2022-32824<br/>CVE-2022-32827<br/>CVE-2022-32907<br/>CVE-2022-46694 |
-| 15 | GPU Drivers | 8 | CVE-2022-22667<br/>CVE-2022-26744<br/>CVE-2022-32793<br/>CVE-2022-32821<br/>CVE-2022-32903<br/>CVE-2022-32947<br/>CVE-2022-42833<br/>CVE-2022-46702 |
-| 16 | curl | 7 | CVE-2021-22945<br/>CVE-2021-22946<br/>CVE-2021-22947<br/>CVE-2022-32205<br/>CVE-2022-32206<br/>CVE-2022-32207<br/>CVE-2022-32208 |
-| 17 | AppleMobileFileIntegrity | 6 | CVE-2022-26707<br/>CVE-2022-32826<br/>CVE-2022-32880<br/>CVE-2022-42789<br/>CVE-2022-42825<br/>CVE-2022-42865 |
-| 18 | ppp | 6 | CVE-2022-32941<br/>CVE-2022-42829<br/>CVE-2022-42830<br/>CVE-2022-42831<br/>CVE-2022-42832<br/>CVE-2022-42840 |
-| 19 | Sandbox | 5 | CVE-2021-30946<br/>CVE-2022-22600<br/>CVE-2022-32862<br/>CVE-2022-32881<br/>CVE-2022-42811 |
-| 20 | Audio | 5 | CVE-2021-30960<br/>CVE-2022-32820<br/>CVE-2022-32825<br/>CVE-2022-42796<br/>CVE-2022-42798 |
-| 21 | apache | 5 | CVE-2021-44224<br/>CVE-2021-44790<br/>CVE-2022-22719<br/>CVE-2022-22720<br/>CVE-2022-22721 |
-| 22 | subversion | 4 | CVE-2021-28544<br/>CVE-2022-24070<br/>CVE-2022-29046<br/>CVE-2022-29048 |
-| 23 | TCC | 4 | CVE-2021-30972<br/>CVE-2021-30972<br/>CVE-2022-26726<br/>CVE-2022-32834 |
-| 24 | IOMobileFrameBuffer | 4 | CVE-2022-22587<br/>CVE-2022-26768<br/>CVE-2022-46690<br/>CVE-2022-46697 |
-| 25 | FaceTime | 4 | CVE-2022-22642<br/>CVE-2022-22643<br/>CVE-2022-32781<br/>CVE-2022-32935 |
-| 26 | Safari | 4 | CVE-2022-22654<br/>CVE-2022-32795<br/>CVE-2022-42817<br/>CVE-2022-46695 |
-| 27 | libxml2 | 4 | CVE-2022-23308<br/>CVE-2022-32823<br/>CVE-2022-40303<br/>CVE-2022-40304 |
-| 28 | Git | 4 | CVE-2022-24765<br/>CVE-2022-29187<br/>CVE-2022-39253<br/>CVE-2022-39260 |
-| 29 | libresolv | 4 | CVE-2022-26708<br/>CVE-2022-26775<br/>CVE-2022-26776<br/>CVE-2022-32790 |
-| 30 | DriverKit | 4 | CVE-2022-26763<br/>CVE-2022-32865<br/>CVE-2022-32915<br/>CVE-2022-32942 |
-| 31 | zlib | 3 | CVE-2018-25032<br/>CVE-2022-37434<br/>CVE-2022-42800 |
-| 32 | CoreMedia | 3 | CVE-2022-22598<br/>CVE-2022-32828<br/>CVE-2022-42838 |
-| 33 | Ruby | 3 | CVE-2022-24836<br/>CVE-2022-28739<br/>CVE-2022-29181 |
-| 34 | Shortcuts | 3 | CVE-2022-26703<br/>CVE-2022-32872<br/>CVE-2022-32938 |
-| 35 | Calendar | 3 | CVE-2022-32805<br/>CVE-2022-42819<br/>CVE-2022-46723 |
-| 36 | Apple Music on Android | 3 | CVE-2022-32836<br/>CVE-2022-32846<br/>CVE-2022-32906 |
-| 37 | Software Update | 3 | CVE-2022-32857<br/>CVE-2022-42791<br/>CVE-2022-42849 |
-| 38 | ATS | 3 | CVE-2022-32890<br/>CVE-2022-32902<br/>CVE-2022-32904 |
-| 39 | Graphics Driver | 3 | CVE-2022-32939<br/>CVE-2022-42846<br/>CVE-2022-42850 |
-| 40 | iTMSTransporter | 2 | CVE-2019-14379<br/>CVE-2021-44228 |
-| 41 | VoiceOver | 2 | CVE-2021-30918<br/>CVE-2022-22671 |
-| 42 | Graphics Drivers | 2 | CVE-2021-30977<br/>CVE-2022-22674 |
-| 43 | ncurses | 2 | CVE-2021-39537<br/>CVE-2022-29458 |
-| 44 | Crash Reporter | 2 | CVE-2022-22578<br/>CVE-2022-32867 |
-| 45 | Model I/O | 2 | CVE-2022-22579<br/>CVE-2022-42810 |
-| 46 | xar | 2 | CVE-2022-22582<br/>CVE-2022-42841 |
-| 47 | ColorSync | 2 | CVE-2022-22584<br/>CVE-2022-26730 |
-| 48 | WebKit Storage | 2 | CVE-2022-22594<br/>CVE-2022-32833 |
-| 49 | Siri | 2 | CVE-2022-22599<br/>CVE-2022-32870 |
-| 50 | Preferences | 2 | CVE-2022-22609<br/>CVE-2022-42855 |
+## ITW
+| Index | CVE ID | Module             |
+|:-----:|:------:|:------------------ |
+| 1 | CVE-2022-22587 | IOMobileFrameBuffer |
+| 2 | CVE-2022-22620 | WebKit |
+| 3 | CVE-2022-22675 | AppleAVD |
+| 4 | CVE-2022-32893 | WebKit |
+| 5 | CVE-2022-32894 | Kernel |
+| 6 | CVE-2022-42827 | Kernel |
+| 7 | CVE-2022-42856 | WebKit |
+| 8 | CVE-2022-48618 | Kernel |
+
+## Modules
+| Index | Module Name        | CVE Count |
+|:-----:|:------------------ |:---------:|
+| 1 | Vim | 50 |
+| 2 | WebKit | 46 |
+| 3 | Kernel | 41 |
+| 4 | PackageKit | 15 |
+| 5 | ImageIO | 13 |
+| 6 | AppleScript | 13 |
+| 7 | Apple Neural Engine | 13 |
+| 8 | Wi-Fi | 12 |
+| 9 | Intel Graphics Driver | 11 |
+| 10 | AMD | 11 |
+| 11 | AVEVideoEncoder | 10 |
+| 12 | SMB | 10 |
+| 13 | curl | 8 |
+| 14 | otool | 8 |
+| 15 | AppleAVD | 8 |
+| 16 | GPU Drivers | 8 |
+| 17 | AppleMobileFileIntegrity | 7 |
+| 18 | ppp | 7 |
+| 19 | Sandbox | 6 |
+| 20 | Audio | 5 |
+| 21 | TCC | 5 |
+| 22 | apache | 5 |
+| 23 | Safari | 5 |
+| 24 | subversion | 4 |
+| 25 | IOMobileFrameBuffer | 4 |
+| 26 | FaceTime | 4 |
+| 27 | libxml2 | 4 |
+| 28 | Git | 4 |
+| 29 | Shortcuts | 4 |
+| 30 | libresolv | 4 |
+| 31 | DriverKit | 4 |
+| 32 | Weather | 4 |
+| 33 | zlib | 3 |
+| 34 | LaunchServices | 3 |
+| 35 | CoreMedia | 3 |
+| 36 | Siri | 3 |
+| 37 | iTunes | 3 |
+| 38 | Mail | 3 |
+| 39 | Ruby | 3 |
+| 40 | Calendar | 3 |
+| 41 | Apple Music on Android | 3 |
+| 42 | Software Update | 3 |
+| 43 | Maps | 3 |
+| 44 | ATS | 3 |
+| 45 | Photos | 3 |
+| 46 | Graphics Driver | 3 |
+| 47 | iTMSTransporter | 2 |
+| 48 | VoiceOver | 2 |
+| 49 | Graphics Drivers | 2 |
+| 50 | ncurses | 2 |
+| 51 | Crash Reporter | 2 |
+| 52 | Model I/O | 2 |
+| 53 | xar | 2 |
+| 54 | ColorSync | 2 |
+| 55 | WebKit Storage | 2 |
+| 56 | Preferences | 2 |
+| 57 | BOM | 2 |
+| 58 | AppleGraphicsControl | 2 |
+| 59 | Accelerate Framework | 2 |
+| 60 | SoftwareUpdate | 2 |
+| 61 | IOGPUFamily | 2 |
+| 62 | Login Window | 2 |
+| 63 | MIDI | 2 |
+| 64 | NetworkExtension | 2 |
+| 65 | System Preferences | 2 |
+| 66 | Notes | 2 |
+| 67 | WebRTC | 2 |
+| 68 | Contacts | 2 |
+| 69 | IOKit | 2 |
+| 70 | Spotlight | 2 |
+| 71 | CVMS | 2 |
+| 72 | Printing | 2 |
+| 73 | Security | 2 |
+| 74 | Bluetooth | 2 |
+| 75 | Safari Extensions | 2 |
+| 76 | APFS | 2 |
+| 77 | iCloud Photo Library | 2 |
+| 78 | Image Processing | 2 |
+| 79 | Core Bluetooth | 2 |
+| 80 | Find My | 2 |
+| 81 | IOHIDFamily | 2 |
+| 82 | Networking | 2 |
+| 83 | Boot Camp | 2 |
+| 84 | CoreServices | 2 |
+| 85 | SQLite | 1 |
+| 86 | libarchive | 1 |
+| 87 | zsh | 1 |
+| 88 | zip | 1 |
+| 89 | LibreSSL | 1 |
+| 90 | LLVM | 1 |
+| 91 | iCloud | 1 |
+| 92 | AMD Kernel | 1 |
+| 93 | HomeKit | 1 |
+| 94 | Phone | 1 |
+| 95 | UIKit | 1 |
+| 96 | Markup | 1 |
+| 97 | AppleEvents | 1 |
+| 98 | NSSpellChecker | 1 |
+| 99 | QuickTime Player | 1 |
+| 100 | Cellular | 1 |
+| 101 | LoginWindow | 1 |
+| 102 | CoreTypes | 1 |
+| 103 | AppKit | 1 |
+| 104 | MediaRemote | 1 |
+| 105 | MobileAccessoryUpdater | 1 |
+| 106 | CUPS | 1 |
+| 107 | Preview | 1 |
+| 108 | Terminal | 1 |
+| 109 | AuthKit | 1 |
+| 110 | Safari Private Browsing | 1 |
+| 111 | IDE | 1 |
+| 112 | Tcl | 1 |
+| 113 | IOSurfaceAccelerator | 1 |
+| 114 | Mobile Device Service | 1 |
+| 115 | Liblouis | 1 |
+| 116 | Photo Booth | 1 |
+| 117 | ICU | 1 |
+| 118 | Automation | 1 |
+| 119 | Spindump | 1 |
+| 120 | Multi-Touch | 1 |
+| 121 | File System Events | 1 |
+| 122 | Watch app | 1 |
+| 123 | PluginKit | 1 |
+| 124 | CoreText | 1 |
+| 125 | PS Normalizer | 1 |
+| 126 | Windows Server | 1 |
+| 127 | Home | 1 |
+| 128 | Time Zone | 1 |
+| 129 | Notifications | 1 |
+| 130 | Libinfo | 1 |
+| 131 | WebKit Sandboxing | 1 |
+| 132 | iMovie | 1 |
+| 133 | Finder | 1 |
+| 134 | MediaLibrary | 1 |
+| 135 | Apple TV | 1 |
+| 136 | Archive Utility | 1 |
+| 137 | WebKit PDF | 1 |
+| 138 | Exchange | 1 |
+| 139 | Backup | 1 |
+| 140 | Heimdal | 1 |
+| 141 | Sidecar | 1 |
+| 142 | IDE Xcode Server | 1 |
+| 143 | Grapher | 1 |
+| 144 | CFNetwork | 1 |
+| 145 | Directory Utility | 1 |
+| 146 | Beta Access Utility | 1 |
+| 147 | iTunes Store | 1 |
+| 148 | Accounts | 1 |
+| 149 | File System | 1 |
+| 150 | Accessibility | 1 |
+| 151 | dyld | 1 |
+| 152 | Assets | 1 |
+| 153 | JavaScriptCore | 1 |
+| 154 | System Settings | 1 |

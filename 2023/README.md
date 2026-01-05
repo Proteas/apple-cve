@@ -24,42 +24,201 @@
 | 17 | CVE-2023-41992 | Kernel |
 | 18 | CVE-2023-41993 | WebKit |
 | 19 | CVE-2023-42824 | Kernel |
+| 20 | CVE-2023-42916 | WebKit |
+| 21 | CVE-2023-42917 | WebKit |
 
-## Top Modules
-| Index | Module Name | CVE Count | CVE ID |
-|:-----:|:------------------ |:---------:|:--------:|
-| 1 | WebKit | 52 | CVE-2014-1745<br/>CVE-2022-0108<br/>CVE-2022-42856<br/>CVE-2022-46705<br/>CVE-2022-46725<br/>CVE-2023-23496<br/>CVE-2023-23517<br/>CVE-2023-23518<br/>CVE-2023-23529<br/>CVE-2023-27932<br/>CVE-2023-27954<br/>CVE-2023-28198<br/>CVE-2023-28204<br/>CVE-2023-28205<br/>CVE-2023-32359<br/>CVE-2023-32370<br/>CVE-2023-32373<br/>CVE-2023-32393<br/>CVE-2023-32402<br/>CVE-2023-32409<br/>CVE-2023-32423<br/>CVE-2023-32430<br/>CVE-2023-32435<br/>CVE-2023-32439<br/>CVE-2023-32445<br/>CVE-2023-35074<br/>CVE-2023-37450<br/>CVE-2023-38572<br/>CVE-2023-38592<br/>CVE-2023-38594<br/>CVE-2023-38595<br/>CVE-2023-38599<br/>CVE-2023-38600<br/>CVE-2023-38611<br/>CVE-2023-39434<br/>CVE-2023-40385<br/>CVE-2023-40397<br/>CVE-2023-40414<br/>CVE-2023-40447<br/>CVE-2023-40451<br/>CVE-2023-41074<br/>CVE-2023-41976<br/>CVE-2023-41993<br/>CVE-2023-42833<br/>CVE-2023-42843<br/>CVE-2023-42852<br/>CVE-2023-42866<br/>CVE-2023-42883<br/>CVE-2023-42890<br/>CVE-2023-42916<br/>CVE-2023-42917<br/>CVE-2023-42939 |
-| 2 | Kernel | 46 | CVE-2023-23500<br/>CVE-2023-23502<br/>CVE-2023-23504<br/>CVE-2023-23514<br/>CVE-2023-23516<br/>CVE-2023-23536<br/>CVE-2023-27930<br/>CVE-2023-27933<br/>CVE-2023-27940<br/>CVE-2023-27941<br/>CVE-2023-27969<br/>CVE-2023-28185<br/>CVE-2023-28187<br/>CVE-2023-28199<br/>CVE-2023-28200<br/>CVE-2023-32381<br/>CVE-2023-32398<br/>CVE-2023-32413<br/>CVE-2023-32424<br/>CVE-2023-32433<br/>CVE-2023-32434<br/>CVE-2023-32441<br/>CVE-2023-32734<br/>CVE-2023-35993<br/>CVE-2023-36495<br/>CVE-2023-37285<br/>CVE-2023-38261<br/>CVE-2023-38410<br/>CVE-2023-38424<br/>CVE-2023-38425<br/>CVE-2023-38590<br/>CVE-2023-38598<br/>CVE-2023-38603<br/>CVE-2023-38604<br/>CVE-2023-38606<br/>CVE-2023-40429<br/>CVE-2023-41060<br/>CVE-2023-41974<br/>CVE-2023-41981<br/>CVE-2023-41984<br/>CVE-2023-41992<br/>CVE-2023-41995<br/>CVE-2023-42824<br/>CVE-2023-42849<br/>CVE-2023-42870<br/>CVE-2023-42914 |
-| 3 | Vim | 20 | - |
-| 4 | ImageIO | 19 | CVE-2022-3970<br/>CVE-2023-23519<br/>CVE-2023-23535<br/>CVE-2023-27929<br/>CVE-2023-27939<br/>CVE-2023-27946<br/>CVE-2023-27947<br/>CVE-2023-27948<br/>CVE-2023-27957<br/>CVE-2023-32372<br/>CVE-2023-32384<br/>CVE-2023-40416<br/>CVE-2023-41064<br/>CVE-2023-42848<br/>CVE-2023-42862<br/>CVE-2023-42865<br/>CVE-2023-42888<br/>CVE-2023-42898<br/>CVE-2023-42899 |
-| 5 | Apple Neural Engine | 16 | CVE-2023-23532<br/>CVE-2023-23540<br/>CVE-2023-27959<br/>CVE-2023-27970<br/>CVE-2023-32425<br/>CVE-2023-34425<br/>CVE-2023-38136<br/>CVE-2023-38580<br/>CVE-2023-40399<br/>CVE-2023-40409<br/>CVE-2023-40410<br/>CVE-2023-40412<br/>CVE-2023-40432<br/>CVE-2023-41071<br/>CVE-2023-41174<br/>CVE-2023-42871 |
-| 6 | curl | 14 | - |
-| 7 | PackageKit | 14 | CVE-2023-23497<br/>CVE-2023-23538<br/>CVE-2023-27962<br/>CVE-2023-32355<br/>CVE-2023-38259<br/>CVE-2023-38564<br/>CVE-2023-38602<br/>CVE-2023-38609<br/>CVE-2023-42840<br/>CVE-2023-42853<br/>CVE-2023-42859<br/>CVE-2023-42860<br/>CVE-2023-42877<br/>CVE-2023-42889 |
-| 8 | AMD | 14 | CVE-2023-27968<br/>CVE-2023-28209<br/>CVE-2023-28210<br/>CVE-2023-28211<br/>CVE-2023-28212<br/>CVE-2023-28213<br/>CVE-2023-28214<br/>CVE-2023-28215<br/>CVE-2023-32356<br/>CVE-2023-32377<br/>CVE-2023-32379<br/>CVE-2023-32436<br/>CVE-2023-38615<br/>CVE-2023-38616 |
-| 9 | AppleGraphicsControl | 13 | CVE-2023-42901<br/>CVE-2023-42902<br/>CVE-2023-42903<br/>CVE-2023-42904<br/>CVE-2023-42905<br/>CVE-2023-42906<br/>CVE-2023-42907<br/>CVE-2023-42908<br/>CVE-2023-42909<br/>CVE-2023-42910<br/>CVE-2023-42911<br/>CVE-2023-42912<br/>CVE-2023-42926 |
-| 10 | Model I/O | 11 | CVE-2023-1916<br/>CVE-2023-27949<br/>CVE-2023-27950<br/>CVE-2023-32368<br/>CVE-2023-32375<br/>CVE-2023-32380<br/>CVE-2023-32382<br/>CVE-2023-38258<br/>CVE-2023-38421<br/>CVE-2023-42826<br/>CVE-2023-42856 |
-| 11 | Safari | 11 | CVE-2023-23510<br/>CVE-2023-23512<br/>CVE-2023-27952<br/>CVE-2023-28194<br/>CVE-2023-35990<br/>CVE-2023-39233<br/>CVE-2023-40388<br/>CVE-2023-40417<br/>CVE-2023-41977<br/>CVE-2023-42438<br/>CVE-2023-42951 |
-| 12 | Sandbox | 9 | CVE-2023-23533<br/>CVE-2023-28178<br/>CVE-2023-32357<br/>CVE-2023-40425<br/>CVE-2023-40430<br/>CVE-2023-40452<br/>CVE-2023-41996<br/>CVE-2023-42836<br/>CVE-2023-42839 |
-| 13 | AppleMobileFileIntegrity | 8 | CVE-2023-23499<br/>CVE-2023-23527<br/>CVE-2023-27931<br/>CVE-2023-32383<br/>CVE-2023-32411<br/>CVE-2023-32438<br/>CVE-2023-36862<br/>CVE-2023-42872 |
-| 14 | libxpc | 8 | CVE-2023-23506<br/>CVE-2023-32369<br/>CVE-2023-32405<br/>CVE-2023-38565<br/>CVE-2023-38593<br/>CVE-2023-40454<br/>CVE-2023-41073<br/>CVE-2023-42942 |
-| 15 | dcerpc | 8 | - |
-| 16 | ncurses | 7 | - |
-| 17 | Shortcuts | 7 | CVE-2023-23522<br/>CVE-2023-27963<br/>CVE-2023-32391<br/>CVE-2023-32404<br/>CVE-2023-32442<br/>CVE-2023-40541<br/>CVE-2023-41079 |
-| 18 | Find My | 7 | CVE-2023-23537<br/>CVE-2023-28195<br/>CVE-2023-32416<br/>CVE-2023-40413<br/>CVE-2023-40437<br/>CVE-2023-42834<br/>CVE-2023-42922 |
-| 19 | Accessibility | 7 | CVE-2023-23541<br/>CVE-2023-32388<br/>CVE-2023-32400<br/>CVE-2023-40442<br/>CVE-2023-40529<br/>CVE-2023-42874<br/>CVE-2023-42937 |
-| 20 | Bluetooth | 7 | CVE-2023-27964<br/>CVE-2023-35984<br/>CVE-2023-40402<br/>CVE-2023-40426<br/>CVE-2023-42941<br/>CVE-2023-42945<br/>CVE-2023-45866 |
-| 21 | Siri | 7 | CVE-2023-32394<br/>CVE-2023-40428<br/>CVE-2023-41982<br/>CVE-2023-41988<br/>CVE-2023-41997<br/>CVE-2023-42897<br/>CVE-2023-42946 |
-| 22 | Photos | 5 | CVE-2023-23523<br/>CVE-2023-32365<br/>CVE-2023-32390<br/>CVE-2023-40393<br/>CVE-2023-42845 |
-| 23 | LaunchServices | 5 | CVE-2023-23525<br/>CVE-2023-27943<br/>CVE-2023-32352<br/>CVE-2023-41067<br/>CVE-2023-42850 |
-| 24 | Weather | 4 | CVE-2023-23511<br/>CVE-2023-32415<br/>CVE-2023-38605<br/>CVE-2023-41254 |
-| 25 | Security | 4 | CVE-2023-23524<br/>CVE-2023-32367<br/>CVE-2023-41991<br/>CVE-2023-42831 |
-| 26 | Foundation | 4 | CVE-2023-23530<br/>CVE-2023-23531<br/>CVE-2023-27937<br/>CVE-2023-42844 |
-| 27 | Dev Tools | 4 | CVE-2023-27945<br/>CVE-2023-27967<br/>CVE-2023-32396<br/>CVE-2023-42933 |
-| 28 | Mail | 3 | CVE-2022-42834<br/>CVE-2023-28189<br/>CVE-2023-40440 |
-| 29 | Wi-Fi | 3 | CVE-2023-23501<br/>CVE-2023-32389<br/>CVE-2023-38610 |
-| 30 | Maps | 3 | CVE-2023-23503<br/>CVE-2023-40405<br/>CVE-2023-40427 |
-| 31 | System Settings | 3 | CVE-2023-23542<br/>CVE-2023-28192<br/>CVE-2023-28202 |
-| 32 | GarageBand | 3 | CVE-2023-27938<br/>CVE-2023-27960<br/>CVE-2023-42867 |
-| 33 | FontParser | 3 | CVE-2023-27956<br/>CVE-2023-32366<br/>CVE-2023-41990 |
-| 34 | Messages | 3 | CVE-2023-28197<br/>CVE-2023-28208<br/>CVE-2023-32421 |
-| 35 | IOSurfaceAccelerator | 3 | CVE-2023-28206<br/>CVE-2023-32354<br/>CVE-2023-32420 |
+## Modules
+| Index | Module Name        | CVE Count |
+|:-----:|:------------------ |:---------:|
+| 1 | WebKit | 57 |
+| 2 | Kernel | 46 |
+| 3 | Vim | 20 |
+| 4 | ImageIO | 19 |
+| 5 | Apple Neural Engine | 17 |
+| 6 | Model I/O | 16 |
+| 7 | curl | 14 |
+| 8 | PackageKit | 14 |
+| 9 | AMD | 14 |
+| 10 | AppleGraphicsControl | 13 |
+| 11 | Safari | 11 |
+| 12 | Sandbox | 10 |
+| 13 | AppleMobileFileIntegrity | 9 |
+| 14 | libxpc | 8 |
+| 15 | dcerpc | 8 |
+| 16 | ncurses | 7 |
+| 17 | Shortcuts | 7 |
+| 18 | Find My | 7 |
+| 19 | Accessibility | 7 |
+| 20 | Bluetooth | 7 |
+| 21 | Siri | 7 |
+| 22 | Photos | 6 |
+| 23 | LaunchServices | 5 |
+| 24 | System Settings | 5 |
+| 25 | Maps | 4 |
+| 26 | Weather | 4 |
+| 27 | Security | 4 |
+| 28 | Foundation | 4 |
+| 29 | Dev Tools | 4 |
+| 30 | AppSandbox | 4 |
+| 31 | Share Sheet | 4 |
+| 32 | TCC | 4 |
+| 33 | Mail | 3 |
+| 34 | Wi-Fi | 3 |
+| 35 | GarageBand | 3 |
+| 36 | FontParser | 3 |
+| 37 | CoreServices | 3 |
+| 38 | Messages | 3 |
+| 39 | IOSurfaceAccelerator | 3 |
+| 40 | CUPS | 3 |
+| 41 | Contacts | 3 |
+| 42 | Accounts | 3 |
+| 43 | GPU Drivers | 3 |
+| 44 | FileProvider | 3 |
+| 45 | Photos Storage | 3 |
+| 46 | Pro Res | 3 |
+| 47 | WindowServer | 3 |
+| 48 | DiskArbitration | 2 |
+| 49 | iCloud | 2 |
+| 50 | Windows Installer | 2 |
+| 51 | Crash Reporter | 2 |
+| 52 | Archive Utility | 2 |
+| 53 | ColorSync | 2 |
+| 54 | Calendar | 2 |
+| 55 | SharedFileList | 2 |
+| 56 | NetworkExtension | 2 |
+| 57 | WebKit Web Inspector | 2 |
+| 58 | Apple Music on Android | 2 |
+| 59 | libxml2 | 2 |
+| 60 | iTunes | 2 |
+| 61 | Quick Look | 2 |
+| 62 | StorageKit | 2 |
+| 63 | IOAcceleratorFamily | 2 |
+| 64 | Shell | 2 |
+| 65 | DesktopServices | 2 |
+| 66 | Grapher | 2 |
+| 67 | SQLite | 2 |
+| 68 | Assets | 2 |
+| 69 | OpenSSH | 2 |
+| 70 | Music | 2 |
+| 71 | Image Capture | 2 |
+| 72 | CFNetwork | 2 |
+| 73 | WebKit Process Model | 2 |
+| 74 | Printing | 2 |
+| 75 | libc | 2 |
+| 76 | Game Center | 2 |
+| 77 | Passkeys | 2 |
+| 78 | CoreAnimation | 2 |
+| 79 | App Store | 2 |
+| 80 | MobileStorageMounter | 2 |
+| 81 | AppleVA | 2 |
+| 82 | Safari Private Browsing | 2 |
+| 83 | AppleAVD | 1 |
+| 84 | DriverKit | 1 |
+| 85 | otool | 1 |
+| 86 | Magnifier | 1 |
+| 87 | tcpdump | 1 |
+| 88 | sudo | 1 |
+| 89 | CarPlay | 1 |
+| 90 | Mail Exchange | 1 |
+| 91 | Screen Time | 1 |
+| 92 | Intel Graphics Driver | 1 |
+| 93 | Core Bluetooth | 1 |
+| 94 | Carbon Core | 1 |
+| 95 | Camera | 1 |
+| 96 | Identity Services | 1 |
+| 97 | CommCenter | 1 |
+| 98 | Podcasts | 1 |
+| 99 | XPC | 1 |
+| 100 | Display | 1 |
+| 101 | AppleScript | 1 |
+| 102 | CoreCapture | 1 |
+| 103 | TextKit | 1 |
+| 104 | FaceTime | 1 |
+| 105 | MediaRemote | 1 |
+| 106 | Pro Video Formats | 1 |
+| 107 | OpenLDAP | 1 |
+| 108 | App Support | 1 |
+| 109 | WebKit PDF | 1 |
+| 110 | AuthKit | 1 |
+| 111 | Screen Saver | 1 |
+| 112 | Associated Domains | 1 |
+| 113 | PDFKit | 1 |
+| 114 | GeoServices | 1 |
+| 115 | Perl | 1 |
+| 116 | Core Location | 1 |
+| 117 | Metal | 1 |
+| 118 | TV App | 1 |
+| 119 | IOSurface | 1 |
+| 120 | Telephony | 1 |
+| 121 | Face Gallery | 1 |
+| 122 | Cellular | 1 |
+| 123 | MallocStackLogging | 1 |
+| 124 | SystemMigration | 1 |
+| 125 | NSURLSession | 1 |
+| 126 | sips | 1 |
+| 127 | NSSpellChecker | 1 |
+| 128 | Time Zone | 1 |
+| 129 | Power Management | 1 |
+| 130 | iperf3 | 1 |
+| 131 | Net-SNMP | 1 |
+| 132 | Voice Memos | 1 |
+| 133 | Ask to Buy | 1 |
+| 134 | Airport | 1 |
+| 135 | Notes | 1 |
+| 136 | Transparency | 1 |
+| 137 | Logging | 1 |
+| 138 | IOUserEthernet | 1 |
+| 139 | libpcap | 1 |
+| 140 | libxslt | 1 |
+| 141 | Networking | 1 |
+| 142 | Mail Drafts | 1 |
+| 143 | Passcode | 1 |
+| 144 | Simulator | 1 |
+| 145 | talagent | 1 |
+| 146 | QuartzCore | 1 |
+| 147 | IOTextEncryptionFamily | 1 |
+| 148 | iCloud Photo Library | 1 |
+| 149 | iTMSTransporter | 1 |
+| 150 | Core Image | 1 |
+| 151 | Spotlight | 1 |
+| 152 | Status Bar | 1 |
+| 153 | System Preferences | 1 |
+| 154 | NetFSFramework | 1 |
+| 155 | Core Data | 1 |
+| 156 | Wallet | 1 |
+| 157 | bootp | 1 |
+| 158 | Windows Server | 1 |
+| 159 | Face ID | 1 |
+| 160 | libpthread | 1 |
+| 161 | Screen Sharing | 1 |
+| 162 | Biometric Authentication | 1 |
+| 163 | XProtectFramework | 1 |
+| 164 | Emoji | 1 |
+| 165 | CoreMedia | 1 |
+| 166 | Core Recents | 1 |
+| 167 | crontabs | 1 |
+| 168 | Software Update | 1 |
+| 169 | RemoteViewServices | 1 |
+| 170 | quarantine | 1 |
+| 171 | mDNSResponder | 1 |
+| 172 | Setup Assistant | 1 |
+| 173 | Login Window | 1 |
+| 174 | BOM | 1 |
+| 175 | AVEVideoEncoder | 1 |
+| 176 | NSOpenPanel | 1 |
+| 177 | IOKit | 1 |
+| 178 | FileURL | 1 |
+| 179 | Libsystem | 1 |
+| 180 | AppleEvents | 1 |
+| 181 | CoreMedia Playback | 1 |
+| 182 | FairPlay | 1 |
+| 183 | LoginWindow | 1 |
+| 184 | Mobile Device Service | 1 |
+| 185 | Clock | 1 |
+| 186 | Automation | 1 |
+| 187 | Graphics Drivers | 1 |
+| 188 | Intents | 1 |
+| 189 | CallKit | 1 |
+| 190 | IOUSBDeviceFamily | 1 |
+| 191 | Power Services | 1 |
+| 192 | WebRTC | 1 |
