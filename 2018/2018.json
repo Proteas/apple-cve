@@ -360,6 +360,25 @@
         "rsr": ""
     }, 
     {
+        "impact": "Spectre", 
+        "available": [
+            "OS X El Capitan 10.11.6 and macOS Sierra 10.12.6", 
+            "iPhone 5s and later, iPad Air and later, and iPod touch 6th generation", 
+            "macOS High Sierra 10.13.2"
+        ], 
+        "description": "macOS High Sierra 10.13.2 Supplemental Update includes security improvements to Safari and WebKit to mitigate the effects of Spectre (CVE-2017-5753 and CVE-2017-5715).", 
+        "links": [
+            "https://support.apple.com/en-us/HT208397", 
+            "https://support.apple.com/en-us/HT208401", 
+            "https://support.apple.com/en-us/HT208403"
+        ], 
+        "update": "", 
+        "module": "CPU", 
+        "id": "CVE-2017-5715", 
+        "credit": "Jann Horn of Google Project Zero; and Paul Kocher in collaboration with Daniel Genkin of University of Pennsylvania and University of Maryland, Daniel Gruss of Graz University of Technology, Werner Haas of Cyberus Technology, Mike Hamburg of Rambus (Cryptography Research Division), Moritz Lipp of Graz University of Technology, Stefan Mangard of Graz University of Technology, Thomas Prescher of Cyberus Technology, Michael Schwarz of Graz University of Technology, and Yuval Yarom of University of Adelaide and Data61", 
+        "rsr": ""
+    }, 
+    {
         "impact": "An application may be able to read restricted memory", 
         "available": [
             "iMac (21.5-inch, Late 2012), iMac (27-inch, Late 2012), iMac (21.5-inch, Late 2013), iMac (21.5-inch, Mid 2014), iMac (Retina 5K, 27-inch, Late 2014), iMac (21.5-inch, Late 2015), Mac mini (Mid 2011), Mac mini Server (Mid 2011), Mac mini (Late 2012), Mac mini Server (Late 2012), Mac mini (Late 2014), Mac Pro (Late 2013), MacBook Air (11-inch, Mid 2011), MacBook Air (13-inch, Mid 2011), MacBook Air (11-inch, Mid 2012), MacBook Air (13-inch, Mid 2012), MacBook Air (11-inch, Mid 2013), MacBook Air (13-inch, Mid 2013), MacBook Air (11-inch, Early 2015), MacBook Air (13-inch, Early 2015), MacBook Pro (13-inch, Mid 2012), MacBook Pro (15-inch, Mid 2012), MacBook Pro (Retina, 13-inch, Early 2013), MacBook Pro (Retina, 15-inch, Early 2013), MacBook Pro (Retina, 13-inch, Late 2013), and MacBook Pro (Retina, 15-inch, Late 2013)"
@@ -432,6 +451,25 @@
         "module": "Bluetooth", 
         "id": "CVE-2017-5735", 
         "credit": "Intel and Eclypsium", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Spectre", 
+        "available": [
+            "OS X El Capitan 10.11.6 and macOS Sierra 10.12.6", 
+            "iPhone 5s and later, iPad Air and later, and iPod touch 6th generation", 
+            "macOS High Sierra 10.13.2"
+        ], 
+        "description": "macOS High Sierra 10.13.2 Supplemental Update includes security improvements to Safari and WebKit to mitigate the effects of Spectre (CVE-2017-5753 and CVE-2017-5715).", 
+        "links": [
+            "https://support.apple.com/en-us/HT208397", 
+            "https://support.apple.com/en-us/HT208401", 
+            "https://support.apple.com/en-us/HT208403"
+        ], 
+        "update": "", 
+        "module": "CPU", 
+        "id": "CVE-2017-5753", 
+        "credit": "Jann Horn of Google Project Zero; and Paul Kocher in collaboration with Daniel Genkin of University of Pennsylvania and University of Maryland, Daniel Gruss of Graz University of Technology, Werner Haas of Cyberus Technology, Mike Hamburg of Rambus (Cryptography Research Division), Moritz Lipp of Graz University of Technology, Stefan Mangard of Graz University of Technology, Thomas Prescher of Cyberus Technology, Michael Schwarz of Graz University of Technology, and Yuval Yarom of University of Adelaide and Data61", 
         "rsr": ""
     }, 
     {
@@ -7634,6 +7672,7 @@
             "Apple TV 4K", 
             "MacBook Pro (15-inch, 2018) and MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)", 
             "MacBook Pro (Retina, 15-inch, Mid 2015), MacBook Pro (Retina, 15-inch, 2015), MacBook Pro (Retina, 13-inch, Early 2015), MacBook Pro (15-inch, 2017), MacBook Pro (15-inch, 2016), MacBook Pro (13-inch, Late 2016, Two Thunderbolt 3 Ports), MacBook Pro (13-inch, Late 2016, Four Thunderbolt 3 Ports), MacBook Pro (13-inch, 2017, Four Thunderbolt 3 Ports), MacBook (Retina, 12-inch, Early 2016), MacBook (Retina, 12-inch, Early 2015), MacBook (Retina, 12-inch, 2017), iMac Pro, iMac (Retina 5K, 27-inch, Late 2015), iMac (Retina 5K, 27-inch, 2017), iMac (Retina 4K, 21.5-inch, Late 2015), iMac (Retina 4K, 21.5-inch, 2017), iMac (21.5-inch, Late 2015), and iMac (21.5-inch, 2017)", 
+            "Not impacted: Apple Watch Series 3", 
             "iMac (21.5-inch, Late 2012), iMac (27-inch, Late 2012), iMac (21.5-inch, Late 2013), iMac (21.5-inch, Mid 2014), iMac (Retina 5K, 27-inch, Late 2014), iMac (21.5-inch, Late 2015), Mac mini (Mid 2011), Mac mini Server (Mid 2011), Mac mini (Late 2012), Mac mini Server (Late 2012), Mac mini (Late 2014), Mac Pro (Late 2013), MacBook Air (11-inch, Mid 2011), MacBook Air (13-inch, Mid 2011), MacBook Air (11-inch, Mid 2012), MacBook Air (13-inch, Mid 2012), MacBook Air (11-inch, Mid 2013), MacBook Air (13-inch, Mid 2013), MacBook Air (11-inch, Early 2015), MacBook Air (13-inch, Early 2015), MacBook Pro (13-inch, Mid 2012), MacBook Pro (15-inch, Mid 2012), MacBook Pro (Retina, 13-inch, Early 2013), MacBook Pro (Retina, 15-inch, Early 2013), MacBook Pro (Retina, 13-inch, Late 2013), and MacBook Pro (Retina, 15-inch, Late 2013)", 
             "iPhone SE, iPhone 6s, iPhone 6s Plus, iPhone 7, iPhone 7 Plus, iPad Mini 4, 12.9-inch iPad Pro 1st generation, 12.9-inch iPad Pro 2nd generation, 10.5-inch iPad Pro, 9.7-inch iPad Pro, iPad 5th generation, and iPod Touch 6th generation", 
             "iPhone X, iPhone 8, iPhone 8 Plus, iPad 6th generation, and iPad Air 2"
@@ -7643,6 +7682,7 @@
             "https://support.apple.com/en-us/HT208848", 
             "https://support.apple.com/en-us/HT208849", 
             "https://support.apple.com/en-us/HT208850", 
+            "https://support.apple.com/en-us/HT208851", 
             "https://support.apple.com/en-us/HT208937", 
             "https://support.apple.com/en-us/HT209106", 
             "https://support.apple.com/en-us/HT209107", 
