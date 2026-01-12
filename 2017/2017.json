@@ -11563,6 +11563,21 @@
         ], 
         "update": "", 
         "module": "ld64", 
+        "id": "CVE-2017-7076", 
+        "credit": "riusksk (\u6cc9\u54e5) of Tencent Security Platform Department", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted Mach-O file may lead to arbitrary code execution", 
+        "available": [
+            "macOS Sierra 10.12.6 or later"
+        ], 
+        "description": "Multiple memory corruption issues were addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/HT208103"
+        ], 
+        "update": "", 
+        "module": "ld64", 
         "id": "CVE-2017-7076, CVE-2017-7134, CVE-2017-7135, CVE-2017-7136, CVE-2017-7137", 
         "credit": "riusksk (\u6cc9\u54e5) of Tencent Security Platform Department", 
         "rsr": ""
@@ -12630,6 +12645,66 @@
         "module": "MobileBackup", 
         "id": "CVE-2017-7133", 
         "credit": "Don Sparks of HackediOS.com", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted Mach-O file may lead to arbitrary code execution", 
+        "available": [
+            "macOS Sierra 10.12.6 or later"
+        ], 
+        "description": "Multiple memory corruption issues were addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/HT208103"
+        ], 
+        "update": "", 
+        "module": "ld64", 
+        "id": "CVE-2017-7134", 
+        "credit": "riusksk (\u6cc9\u54e5) of Tencent Security Platform Department", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted Mach-O file may lead to arbitrary code execution", 
+        "available": [
+            "macOS Sierra 10.12.6 or later"
+        ], 
+        "description": "Multiple memory corruption issues were addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/HT208103"
+        ], 
+        "update": "", 
+        "module": "ld64", 
+        "id": "CVE-2017-7135", 
+        "credit": "riusksk (\u6cc9\u54e5) of Tencent Security Platform Department", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted Mach-O file may lead to arbitrary code execution", 
+        "available": [
+            "macOS Sierra 10.12.6 or later"
+        ], 
+        "description": "Multiple memory corruption issues were addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/HT208103"
+        ], 
+        "update": "", 
+        "module": "ld64", 
+        "id": "CVE-2017-7136", 
+        "credit": "riusksk (\u6cc9\u54e5) of Tencent Security Platform Department", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "Parsing a maliciously crafted Mach-O file may lead to arbitrary code execution", 
+        "available": [
+            "macOS Sierra 10.12.6 or later"
+        ], 
+        "description": "Multiple memory corruption issues were addressed with improved memory handling.", 
+        "links": [
+            "https://support.apple.com/en-us/HT208103"
+        ], 
+        "update": "", 
+        "module": "ld64", 
+        "id": "CVE-2017-7137", 
+        "credit": "riusksk (\u6cc9\u54e5) of Tencent Security Platform Department", 
         "rsr": ""
     }, 
     {
