@@ -18,7 +18,7 @@
 ## Modules
 | Index | Module Name        | CVE Count |
 |:-----:|:------------------ |:---------:|
-| 1 | WebKit | 71 |
+| 1 | WebKit | 73 |
 | 2 | AppleMobileFileIntegrity | 29 |
 | 3 | Kernel | 21 |
 | 4 | Safari | 15 |
@@ -84,81 +84,81 @@
 | 64 | sudo | 3 |
 | 65 | Admin Framework | 3 |
 | 66 | Power Management | 3 |
-| 67 | Bluetooth | 3 |
-| 68 | Apple Neural Engine | 3 |
-| 69 | Apple Account | 2 |
-| 70 | Contacts | 2 |
-| 71 | libarchive | 2 |
-| 72 | ICU | 2 |
-| 73 | ASP TCP | 2 |
-| 74 | AppKit | 2 |
-| 75 | NSDocument | 2 |
-| 76 | SDK | 2 |
-| 77 | Photos Storage | 2 |
-| 78 | WebKit Web Inspector | 2 |
-| 79 | CoreText | 2 |
-| 80 | Perl | 2 |
-| 81 | RPAC | 2 |
-| 82 | Web Extensions | 2 |
-| 83 | Calendar | 2 |
-| 84 | Sandbox Profiles | 2 |
-| 85 | Focus | 2 |
-| 86 | NetworkExtension | 2 |
-| 87 | Share Sheet | 2 |
-| 88 | dyld | 2 |
-| 89 | CoreGraphics | 2 |
-| 90 | zip | 2 |
-| 91 | Pro Res | 2 |
-| 92 | quarantine | 2 |
-| 93 | AppleJPEG | 2 |
-| 94 | Mail Drafts | 2 |
-| 95 | Find My | 2 |
-| 96 | CFNetwork | 2 |
-| 97 | AMD | 2 |
-| 98 | Archive Utility | 2 |
-| 99 | File Bookmark | 2 |
-| 100 | NSSpellChecker | 2 |
-| 101 | AppSandbox | 2 |
-| 102 | libc | 2 |
-| 103 | Icons | 2 |
-| 104 | ATS | 2 |
-| 105 | Dev Tools | 2 |
-| 106 | configd | 2 |
-| 107 | Assets | 2 |
-| 108 | Multi-Touch | 2 |
-| 109 | Networking | 2 |
-| 110 | Screen Time | 2 |
-| 111 | Python | 1 |
-| 112 | GarageBand | 1 |
-| 113 | QuartzCore | 1 |
-| 114 | libexpat | 1 |
-| 115 | Safari Downloads | 1 |
-| 116 | Passkeys | 1 |
-| 117 | Libnotify | 1 |
-| 118 | TV App | 1 |
-| 119 | RepairKit | 1 |
-| 120 | AirDrop | 1 |
-| 121 | CoreRoutine | 1 |
-| 122 | Display | 1 |
-| 123 | AppleGraphicsControl | 1 |
-| 124 | ARKit | 1 |
-| 125 | System Extensions | 1 |
-| 126 | Login Window | 1 |
-| 127 | iCloud | 1 |
-| 128 | Time Zone | 1 |
-| 129 | Passwords | 1 |
-| 130 | Power Services | 1 |
-| 131 | iCloud Photo Library | 1 |
-| 132 | MobileLockdown | 1 |
-| 133 | Storage Management | 1 |
-| 134 | Summarization Services | 1 |
-| 135 | Accounts | 1 |
-| 136 | BOM | 1 |
-| 137 | Mail Addressing | 1 |
-| 138 | IDE Assets | 1 |
-| 139 | AccountPolicy | 1 |
-| 140 | Kerberos Helper | 1 |
-| 141 | BiometricKit | 1 |
+| 67 | AppSandbox | 3 |
+| 68 | Bluetooth | 3 |
+| 69 | Apple Neural Engine | 3 |
+| 70 | Apple Account | 2 |
+| 71 | Contacts | 2 |
+| 72 | libarchive | 2 |
+| 73 | ICU | 2 |
+| 74 | ASP TCP | 2 |
+| 75 | AppKit | 2 |
+| 76 | NSDocument | 2 |
+| 77 | SDK | 2 |
+| 78 | Photos Storage | 2 |
+| 79 | WebKit Web Inspector | 2 |
+| 80 | CoreText | 2 |
+| 81 | Perl | 2 |
+| 82 | RPAC | 2 |
+| 83 | Web Extensions | 2 |
+| 84 | Calendar | 2 |
+| 85 | Sandbox Profiles | 2 |
+| 86 | BiometricKit | 2 |
+| 87 | Focus | 2 |
+| 88 | NetworkExtension | 2 |
+| 89 | Share Sheet | 2 |
+| 90 | dyld | 2 |
+| 91 | CoreGraphics | 2 |
+| 92 | zip | 2 |
+| 93 | Pro Res | 2 |
+| 94 | quarantine | 2 |
+| 95 | AppleJPEG | 2 |
+| 96 | Mail Drafts | 2 |
+| 97 | Find My | 2 |
+| 98 | CFNetwork | 2 |
+| 99 | AMD | 2 |
+| 100 | Archive Utility | 2 |
+| 101 | File Bookmark | 2 |
+| 102 | NSSpellChecker | 2 |
+| 103 | libc | 2 |
+| 104 | Icons | 2 |
+| 105 | ATS | 2 |
+| 106 | Dev Tools | 2 |
+| 107 | configd | 2 |
+| 108 | Assets | 2 |
+| 109 | Multi-Touch | 2 |
+| 110 | Networking | 2 |
+| 111 | Screen Time | 2 |
+| 112 | Python | 1 |
+| 113 | GarageBand | 1 |
+| 114 | QuartzCore | 1 |
+| 115 | libexpat | 1 |
+| 116 | Safari Downloads | 1 |
+| 117 | Passkeys | 1 |
+| 118 | Libnotify | 1 |
+| 119 | TV App | 1 |
+| 120 | RepairKit | 1 |
+| 121 | AirDrop | 1 |
+| 122 | CoreRoutine | 1 |
+| 123 | Display | 1 |
+| 124 | AppleGraphicsControl | 1 |
+| 125 | ARKit | 1 |
+| 126 | System Extensions | 1 |
+| 127 | Login Window | 1 |
+| 128 | iCloud | 1 |
+| 129 | Time Zone | 1 |
+| 130 | Passwords | 1 |
+| 131 | Power Services | 1 |
+| 132 | iCloud Photo Library | 1 |
+| 133 | MobileLockdown | 1 |
+| 134 | Storage Management | 1 |
+| 135 | Summarization Services | 1 |
+| 136 | Accounts | 1 |
+| 137 | BOM | 1 |
+| 138 | Mail Addressing | 1 |
+| 139 | IDE Assets | 1 |
+| 140 | AccountPolicy | 1 |
+| 141 | Kerberos Helper | 1 |
 | 142 | IOGPUFamily | 1 |
 | 143 | Parental Controls | 1 |
 | 144 | smbx | 1 |
