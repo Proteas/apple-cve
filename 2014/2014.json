@@ -75,7 +75,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2012-2088", 
         "credit": "", 
         "rsr": ""
@@ -1036,7 +1036,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2013-6629", 
         "credit": "Michal Zalewski", 
         "rsr": ""
@@ -1838,7 +1838,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Configuration Profiles", 
         "id": "CVE-2014-1267", 
         "credit": "", 
         "rsr": ""
@@ -1914,7 +1914,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "CoreCapture", 
         "id": "CVE-2014-1271", 
         "credit": "Filippo Bigarella", 
         "rsr": ""
@@ -1931,7 +1931,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Crash Reporting", 
         "id": "CVE-2014-1272", 
         "credit": "evad3rs", 
         "rsr": ""
@@ -1948,7 +1948,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "dyld", 
         "id": "CVE-2014-1273", 
         "credit": "evad3rs", 
         "rsr": ""
@@ -1980,7 +1980,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2014-1275", 
         "credit": "Felix Groebert of the Google Security Team", 
         "rsr": ""
@@ -2012,7 +2012,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Kernel", 
         "id": "CVE-2014-1278", 
         "credit": "evad3rs", 
         "rsr": ""
@@ -2044,7 +2044,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Video Driver", 
         "id": "CVE-2014-1280", 
         "credit": "rg0rd", 
         "rsr": ""
@@ -2076,7 +2076,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Profiles", 
         "id": "CVE-2014-1282", 
         "credit": "Assaf Hefetz, Yair Amit and Adi Sharabani of Skycure", 
         "rsr": ""
@@ -2123,7 +2123,7 @@
             "http://support.apple.com/en-us/HT6163"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "USB Host", 
         "id": "CVE-2014-1287", 
         "credit": "Andy Davis of NCC Group", 
         "rsr": ""
@@ -2268,7 +2268,7 @@
             "http://support.apple.com/en-us/HT6209"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Security - Secure Transport", 
         "id": "CVE-2014-1295", 
         "credit": "Antoine Delignat-Lavaud, Karthikeyan Bhargavan and Alfredo Pironti of Prosecco at Inria Paris", 
         "rsr": ""
@@ -2724,7 +2724,7 @@
             "http://support.apple.com/en-us/HT6209"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "IOKit Kernel", 
         "id": "CVE-2014-1320", 
         "credit": "Ian Beer of Google Project Zero working with HP's Zero Day Initiative", 
         "rsr": ""
@@ -3337,7 +3337,7 @@
             "http://support.apple.com/en-us/HT6298"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Kernel", 
         "id": "CVE-2014-1355", 
         "credit": "cunzhang from Adlab of Venustech", 
         "rsr": ""
@@ -3356,7 +3356,7 @@
             "http://support.apple.com/en-us/HT6298"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "launchd", 
         "id": "CVE-2014-1356", 
         "credit": "Ian Beer of Google Project Zero", 
         "rsr": ""
@@ -3375,7 +3375,7 @@
             "http://support.apple.com/en-us/HT6298"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "launchd", 
         "id": "CVE-2014-1357", 
         "credit": "Ian Beer of Google Project Zero", 
         "rsr": ""
@@ -3394,7 +3394,7 @@
             "http://support.apple.com/en-us/HT6298"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "launchd", 
         "id": "CVE-2014-1358", 
         "credit": "Ian Beer of Google Project Zero", 
         "rsr": ""
@@ -3413,7 +3413,7 @@
             "http://support.apple.com/en-us/HT6298"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "launchd", 
         "id": "CVE-2014-1359", 
         "credit": "Ian Beer of Google Project Zero", 
         "rsr": ""
@@ -3436,7 +3436,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "Two bytes of memory could be disclosed to a remote attacker", 
+        "impact": "Two bytes of uninitialized memory could be disclosed to a remote attacker", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Mountain Lion v10.8.5, OS X Mavericks 10.9 to 10.9.3", 
@@ -3449,7 +3449,7 @@
             "http://support.apple.com/en-us/HT6298"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Secure Transport", 
         "id": "CVE-2014-1361", 
         "credit": "Thijs Alkemade of The Adium Project", 
         "rsr": ""
@@ -4217,7 +4217,7 @@
             "https://support.apple.com/en-us/HT6542"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Secure Transport", 
         "id": "CVE-2014-3566", 
         "credit": "Bodo Moeller, Thai Duong, and Krzysztof Kotowicz of Google Security Team", 
         "rsr": ""
@@ -4347,7 +4347,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with access to an device may access sensitive user information from logs", 
+        "impact": "An attacker with access to an iOS device may access sensitive user information from logs", 
         "available": [
             "Apple TV 3rd generation and later", 
             "iPhone 4s and later, iPod touch (5th generation) and later, iPad 2 and later"
@@ -4358,7 +4358,7 @@
             "http://support.apple.com/en-us/HT6442"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Accounts Framework", 
         "id": "CVE-2014-4357", 
         "credit": "Heli Myllykoski of OP-Pohjola Group", 
         "rsr": ""
@@ -4486,7 +4486,7 @@
             "http://support.apple.com/en-us/HT6442"
         ], 
         "update": "February 3, 2020", 
-        "module": "Apple TV", 
+        "module": "IOAcceleratorFamily", 
         "id": "CVE-2014-4369", 
         "credit": "Sarah aka winocm and Cererdlong of Alibaba Mobile Security Team", 
         "rsr": ""
@@ -4522,7 +4522,7 @@
             "http://support.apple.com/en-us/HT6442"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "syslog", 
         "id": "CVE-2014-4372", 
         "credit": "Tielei Wang and YeongJin Jang of Georgia Tech Information Security Center (GTISC)", 
         "rsr": ""
@@ -4693,7 +4693,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may be able to cause a device to think that it is up to date even when it is not", 
+        "impact": "An attacker with a privileged network position may be able to cause an iOS device to think that it is up to date even when it is not", 
         "available": [
             "Apple TV 3rd generation and later", 
             "iPhone 4s and later, iPod touch (5th generation) and later, iPad 2 and later"
@@ -4704,7 +4704,7 @@
             "http://support.apple.com/en-us/HT6442"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Assets", 
         "id": "CVE-2014-4383", 
         "credit": "Raul Siles of DinoSec", 
         "rsr": ""
@@ -5421,14 +5421,14 @@
             "Apple TV 3rd generation and later", 
             "iPhone 4s and later, iPod touch (5th generation) and later, iPad 2 and later"
         ], 
-        "description": "Unencrypted connections were permitted from Human Interface Device-class Bluetooth Low Energy accessories. If a device had paired with such an accessory, an attacker could spoof the legitimate accessory to establish a connection. The issue was addressed by denying unencrypted HID connections.", 
+        "description": "Unencrypted connections were permitted from Human Interface Device-class Bluetooth Low Energy accessories. If an iOS device had paired with such an accessory, an attacker could spoof the legitimate accessory to establish a connection. The issue was addressed by denying unencrypted HID connections.", 
         "links": [
             "https://support.apple.com/en-us/HT6535", 
             "https://support.apple.com/en-us/HT6541", 
             "https://support.apple.com/en-us/HT6542"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Bluetooth", 
         "id": "CVE-2014-4428", 
         "credit": "Mike Ryan of iSEC Partners", 
         "rsr": ""
@@ -5796,7 +5796,7 @@
             "https://support.apple.com/en-us/HT204420"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "dyld", 
         "id": "CVE-2014-4455", 
         "credit": "@PanguTeam", 
         "rsr": ""
@@ -5877,13 +5877,13 @@
             "https://support.apple.com/en-us/HT204420"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Kernel", 
         "id": "CVE-2014-4461", 
         "credit": "@PanguTeam", 
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 3rd generation and later", 
             "iPhone 4s and later, iPod touch (5th generation) and later, iPad 2 and later"
@@ -5894,7 +5894,7 @@
             "https://support.apple.com/en-us/HT204420"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2014-4462", 
         "credit": "", 
         "rsr": ""

@@ -5,23 +5,23 @@
 ## Modules
 | Index | Module Name        | CVE Count |
 |:-----:|:------------------ |:---------:|
-| 1 | WebKit | 255 |
+| 1 | WebKit | 264 |
 | 2 | Java | 45 |
-| 3 | QuickTime | 28 |
-| 4 | Apple TV | 24 |
-| 5 | PHP | 20 |
-| 6 | CoreGraphics | 19 |
-| 7 | Safari | 10 |
+| 3 | QuickTime | 29 |
+| 4 | PHP | 20 |
+| 5 | CoreGraphics | 19 |
+| 6 | Safari | 10 |
+| 7 | ImageIO | 8 |
 | 8 | Passcode Lock | 8 |
 | 9 | Apache | 7 |
 | 10 | SquirrelMail | 5 |
-| 11 | Ruby | 4 |
-| 12 | Kernel | 4 |
-| 13 | CFNetwork | 4 |
-| 14 | Mail | 4 |
-| 15 | Subversion | 3 |
-| 16 | libsecurity | 3 |
-| 17 | ImageIO | 2 |
+| 11 | Kernel | 5 |
+| 12 | Ruby | 4 |
+| 13 | libxml | 4 |
+| 14 | CFNetwork | 4 |
+| 15 | Mail | 4 |
+| 16 | Subversion | 3 |
+| 17 | libsecurity | 3 |
 | 18 | libarchive | 2 |
 | 19 | curl | 2 |
 | 20 | CoreText | 2 |
@@ -42,30 +42,33 @@
 | 35 | CoreMedia | 1 |
 | 36 | CoreUI | 1 |
 | 37 | Internet Sharing | 1 |
-| 38 | OpenGL | 1 |
-| 39 | WebDAV Sharing | 1 |
-| 40 | HFS | 1 |
-| 41 | Siri | 1 |
-| 42 | VPN | 1 |
-| 43 | Bluetooth | 1 |
-| 44 | DirectoryService | 1 |
-| 45 | Directory Service | 1 |
-| 46 | Installer | 1 |
-| 47 | LoginUIFramework | 1 |
-| 48 | Quartz Composer | 1 |
-| 49 | Security Framework | 1 |
-| 50 | QuickLook | 1 |
-| 51 | iTunes | 1 |
-| 52 | Apple Remote Desktop | 1 |
-| 53 | Messages Server | 1 |
-| 54 | Xcode | 1 |
-| 55 | LoginWindow | 1 |
-| 56 | Mobile Accounts | 1 |
-| 57 | Profile Manager | 1 |
-| 58 | USB | 1 |
-| 59 | IPSec | 1 |
-| 60 | Messages | 1 |
-| 61 | Office Viewer | 1 |
-| 62 | Restrictions | 1 |
-| 63 | System Logs | 1 |
-| 64 | UIKit | 1 |
+| 38 | libresolv | 1 |
+| 39 | OpenGL | 1 |
+| 40 | WebDAV Sharing | 1 |
+| 41 | International Components for Unicode | 1 |
+| 42 | HFS | 1 |
+| 43 | Siri | 1 |
+| 44 | VPN | 1 |
+| 45 | Bluetooth | 1 |
+| 46 | DirectoryService | 1 |
+| 47 | Directory Service | 1 |
+| 48 | Installer | 1 |
+| 49 | LoginUIFramework | 1 |
+| 50 | Quartz Composer | 1 |
+| 51 | Security Framework | 1 |
+| 52 | QuickLook | 1 |
+| 53 | iTunes | 1 |
+| 54 | Apple Remote Desktop | 1 |
+| 55 | Messages Server | 1 |
+| 56 | Xcode | 1 |
+| 57 | LoginWindow | 1 |
+| 58 | Mobile Accounts | 1 |
+| 59 | Profile Manager | 1 |
+| 60 | USB | 1 |
+| 61 | DHCP | 1 |
+| 62 | IPSec | 1 |
+| 63 | Messages | 1 |
+| 64 | Office Viewer | 1 |
+| 65 | Restrictions | 1 |
+| 66 | System Logs | 1 |
+| 67 | UIKit | 1 |

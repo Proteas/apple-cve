@@ -62,7 +62,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxml", 
         "id": "CVE-2011-3102", 
         "credit": "J\u00fcri Aedla", 
         "rsr": ""
@@ -244,7 +244,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxml", 
         "id": "CVE-2012-0841", 
         "credit": "", 
         "rsr": ""
@@ -370,7 +370,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "A remote attacker on the same Wi-Fi network may be able to cause an unexpected system termination", 
+        "impact": "A remote attacker on the same Wi-Fi network may be able to temporarily disable Wi-Fi", 
         "available": [
             "Apple TV 2nd generation", 
             "iPhone 3GS, iPhone 4, iPod touch (4th generation), iPad 2"
@@ -381,7 +381,7 @@
             "http://support.apple.com/en-us/HT5643"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Wi-Fi", 
         "id": "CVE-2012-2619", 
         "credit": "Andres Blanco and Matias Eissler of Core Security", 
         "rsr": ""
@@ -428,7 +428,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxml", 
         "id": "CVE-2012-2807", 
         "credit": "J\u00fcri Aedla", 
         "rsr": ""
@@ -464,7 +464,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxslt", 
         "id": "CVE-2012-2825", 
         "credit": "Nicolas Gregoire", 
         "rsr": ""
@@ -500,7 +500,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxslt", 
         "id": "CVE-2012-2870", 
         "credit": "Nicolas Gregoire", 
         "rsr": ""
@@ -517,7 +517,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxslt", 
         "id": "CVE-2012-2871", 
         "credit": "Kai Lu of Fortinet's FortiGuard Labs, Nicolas Gregoire", 
         "rsr": ""
@@ -872,7 +872,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxml", 
         "id": "CVE-2012-5134", 
         "credit": "Google Chrome Security Team (J\u00fcri Aedla)", 
         "rsr": ""
@@ -1487,7 +1487,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0879", 
         "credit": "Atte Kettunen of OUSPG", 
         "rsr": ""
@@ -1826,13 +1826,13 @@
             "Apple TV 2nd generation and later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "The kernel has checks to validate that the user-mode pointer and length passed to the copyin and copyout functions would not result in a user-mode process being able to directly access kernel memory. The checks were not being used if the length was smaller than one page. This issue was addressed through additional validation of the arguments to copyin and copyout.", 
+        "description": "The iOS kernel has checks to validate that the user-mode pointer and length passed to the copyin and copyout functions would not result in a user-mode process being able to directly access kernel memory. The checks were not being used if the length was smaller than one page. This issue was addressed through additional validation of the arguments to copyin and copyout.", 
         "links": [
             "http://support.apple.com/en-us/HT5642", 
             "http://support.apple.com/en-us/HT5643"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Kernel", 
         "id": "CVE-2013-0964", 
         "credit": "Mark Dowd of Azimuth Security", 
         "rsr": ""
@@ -1999,7 +1999,7 @@
             "http://support.apple.com/en-us/HT5704"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "dyld", 
         "id": "CVE-2013-0977", 
         "credit": "evad3rs", 
         "rsr": ""
@@ -2016,7 +2016,7 @@
             "http://support.apple.com/en-us/HT5704"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Kernel", 
         "id": "CVE-2013-0978", 
         "credit": "evad3rs", 
         "rsr": ""
@@ -2063,7 +2063,7 @@
             "http://support.apple.com/en-us/HT5704"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "USB", 
         "id": "CVE-2013-0981", 
         "credit": "evad3rs", 
         "rsr": ""
@@ -2227,7 +2227,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0991", 
         "credit": "Jay Civelli of the Chromium development community", 
         "rsr": ""
@@ -2248,7 +2248,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0992", 
         "credit": "Google Chrome Security Team (Martin Barbella)", 
         "rsr": ""
@@ -2269,7 +2269,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0993", 
         "credit": "Google Chrome Security Team (Inferno)", 
         "rsr": ""
@@ -2290,7 +2290,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0994", 
         "credit": "David German of Google", 
         "rsr": ""
@@ -2311,7 +2311,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0995", 
         "credit": "Google Chrome Security Team (Inferno)", 
         "rsr": ""
@@ -2332,7 +2332,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0996", 
         "credit": "Google Chrome Security Team (Inferno)", 
         "rsr": ""
@@ -2355,7 +2355,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0997", 
         "credit": "Vitaliy Toropov working with HP's Zero Day Initiative", 
         "rsr": ""
@@ -2376,7 +2376,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0998", 
         "credit": "pa_kt working with HP's Zero Day Initiative", 
         "rsr": ""
@@ -2397,7 +2397,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-0999", 
         "credit": "pa_kt working with HP's Zero Day Initiative", 
         "rsr": ""
@@ -2418,7 +2418,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1000", 
         "credit": "Fermin J. Serna of the Google Security Team", 
         "rsr": ""
@@ -2439,7 +2439,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1001", 
         "credit": "Ryan Humenick", 
         "rsr": ""
@@ -2460,7 +2460,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1002", 
         "credit": "Sergey Glazunov", 
         "rsr": ""
@@ -2481,7 +2481,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1003", 
         "credit": "Google Chrome Security Team (Inferno)", 
         "rsr": ""
@@ -2502,7 +2502,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1004", 
         "credit": "Google Chrome Security Team (Martin Barbella)", 
         "rsr": ""
@@ -2523,7 +2523,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1005", 
         "credit": "Google Chrome Security Team (Martin Barbella)", 
         "rsr": ""
@@ -2544,7 +2544,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1006", 
         "credit": "Google Chrome Security Team (Martin Barbella)", 
         "rsr": ""
@@ -2565,7 +2565,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1007", 
         "credit": "Google Chrome Security Team (Inferno)", 
         "rsr": ""
@@ -2586,7 +2586,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1008", 
         "credit": "Sergey Glazunov", 
         "rsr": ""
@@ -2622,7 +2622,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1010", 
         "credit": "miaubiz", 
         "rsr": ""
@@ -2641,9 +2641,9 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2013-1011", 
-        "credit": "", 
+        "credit": "Google Chrome Security Team (Inferno)", 
         "rsr": ""
     }, 
     {
@@ -2771,7 +2771,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "CoreMedia", 
         "id": "CVE-2013-1019", 
         "credit": "Tom Gallagher (Microsoft) & Paul Bates (Microsoft) working with HP's Zero Day Initiative", 
         "rsr": ""
@@ -2867,7 +2867,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "CoreGraphics", 
         "id": "CVE-2013-1025", 
         "credit": "Felix Groebert of the Google Security Team", 
         "rsr": ""
@@ -2886,7 +2886,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2013-1026", 
         "credit": "Felix Groebert of the Google Security Team", 
         "rsr": ""
@@ -4566,7 +4566,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Kernel", 
         "id": "CVE-2013-3953", 
         "credit": "Stefan Esser", 
         "rsr": ""
@@ -4802,7 +4802,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Data Security", 
         "id": "CVE-2013-5134", 
         "credit": "", 
         "rsr": ""
@@ -4905,7 +4905,7 @@
             "http://support.apple.com/en-us/HT5935"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Kernel", 
         "id": "CVE-2013-5140", 
         "credit": "Joonas Kuorilehto of Codenomicon, an anonymous researcher working with CERT-FI, Antti Levom\u00c3\u00a4ki and Lauri Virtanen of Vulnerability Analysis Group, Stonesoft", 
         "rsr": ""

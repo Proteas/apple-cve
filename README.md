@@ -45,8 +45,8 @@
 | 23 | CVE-2022-32894 | Kernel |
 | 24 | CVE-2022-42827 | Kernel |
 | 25 | CVE-2022-42856 | WebKit |
-| 26 | CVE-2022-48618 | Kernel |
-| 27 | CVE-2022-42856 | WebKit |
+| 26 | CVE-2022-42856 | WebKit |
+| 27 | CVE-2022-48618 | Kernel |
 | 28 | CVE-2023-23529 | WebKit |
 | 29 | CVE-2023-28204 | WebKit |
 | 30 | CVE-2023-28205 | WebKit |
@@ -66,8 +66,8 @@
 | 44 | CVE-2023-41993 | WebKit |
 | 45 | CVE-2023-42824 | Kernel |
 | 46 | CVE-2023-42916 | WebKit |
-| 47 | CVE-2023-42917 | WebKit |
-| 48 | CVE-2023-42916 | WebKit |
+| 47 | CVE-2023-42916 | WebKit |
+| 48 | CVE-2023-42917 | WebKit |
 | 49 | CVE-2023-42917 | WebKit |
 | 50 | CVE-2024-23222 | WebKit |
 | 51 | CVE-2024-23225 | Kernel |

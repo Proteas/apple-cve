@@ -552,11 +552,13 @@
     {
         "impact": "Opening a maliciously crafted Excel file may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
+            "iOS", 
             "iWork 9.0 through 9.0.5"
         ], 
         "description": "A buffer overflow existed in the handling of Excel files. Opening a maliciously crafted Excel file in Numbers may lead to an unexpected application termination or arbitrary code execution.", 
         "links": [
-            "http://support.apple.com/en-us/HT4830"
+            "http://support.apple.com/en-us/HT4830", 
+            "http://support.apple.com/en-us/HT5004"
         ], 
         "update": "", 
         "module": "Numbers", 
@@ -565,13 +567,15 @@
         "rsr": ""
     }, 
     {
-        "impact": "Opening a maliciously crafted Excel file may lead to an unexpected application termination or arbitrary code execution.", 
+        "impact": "Opening a maliciously crafted Excel file may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
+            "iOS", 
             "iWork 9.0 through 9.0.5."
         ], 
         "description": "A memory corruption issue existed in the handling of Excel files. Opening a maliciously crafted Excel file in Numbers may lead to an unexpected application termination or arbitrary code execution.", 
         "links": [
-            "http://support.apple.com/en-us/HT4830"
+            "http://support.apple.com/en-us/HT4830", 
+            "http://support.apple.com/en-us/HT5004"
         ], 
         "update": "", 
         "module": "Numbers", 
@@ -2198,7 +2202,7 @@
             "http://support.apple.com/en-us/HT4565"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Wi-Fi", 
         "id": "CVE-2011-0162", 
         "credit": "Scott Boyd of ePlus Technology, inc.", 
         "rsr": ""
@@ -2637,7 +2641,7 @@
             "http://support.apple.com/en-us/HT5001"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2011-0192", 
         "credit": "Apple", 
         "rsr": ""
@@ -3020,7 +3024,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 4.0 through 4.3", 
             "Windows 7, Vista, XP SP2 or later", 
@@ -3033,7 +3037,7 @@
             "http://support.apple.com/en-us/HT5001"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxml", 
         "id": "CVE-2011-0216", 
         "credit": "Billy Rios of the Google Security Team", 
         "rsr": ""
@@ -3417,7 +3421,7 @@
             "http://support.apple.com/en-us/HT5001"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2011-0241", 
         "credit": "Cyril CATTIAUX of Tessi Technologies", 
         "rsr": ""
@@ -4437,9 +4441,10 @@
         "rsr": ""
     }, 
     {
-        "impact": "Opening a maliciously crafted Microsoft Word document may lead to an unexpected application termination or arbitrary code execution.", 
+        "impact": "Opening a maliciously crafted Microsoft Word document may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Mac OS X v10.5.8, Mac OS X Server v10.5.8, Mac OS X v10.6 through v10.6.6, Mac OS X Server v10.6 through v10.6.6", 
+            "iOS", 
             "iOS 3.0 through 4.3.1 for iPhone 3GS and later, iOS 3.1 through 4.3.1 for iPod touch (3rd generation) and later, iOS 3.2 through 4.3.1 for iPad", 
             "iOS 4.2.5 through 4.2.6 for iPhone 4 (CDMA)", 
             "iWork 9.0 through 9.0.5"
@@ -4449,7 +4454,8 @@
             "http://support.apple.com/en-us/HT4581", 
             "http://support.apple.com/en-us/HT4606", 
             "http://support.apple.com/en-us/HT4607", 
-            "http://support.apple.com/en-us/HT4830"
+            "http://support.apple.com/en-us/HT4830", 
+            "http://support.apple.com/en-us/HT5003"
         ], 
         "update": "", 
         "module": "Pages", 
@@ -5570,20 +5576,20 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 4.0 through 4.3", 
             "Windows 7, Vista, XP SP2 or later", 
             "iOS 3.0 through 4.3.5 for iPhone 3GS and iPhone 4, iOS 3.1 through 4.3.5 for iPod touch (3rd generation) and later, iOS 3.2 through 4.3.5 for iPad"
         ], 
-        "description": "A memory corruption issue existed in JavaScriptCore.", 
+        "description": "Multiple memory corruption issues existed in WebKit.", 
         "links": [
             "http://support.apple.com/en-us/HT4981", 
             "http://support.apple.com/en-us/HT4999", 
             "http://support.apple.com/en-us/HT5001"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2011-3232", 
         "credit": "Aki Helin of OUSPG", 
         "rsr": ""
@@ -5959,7 +5965,7 @@
             "http://support.apple.com/en-us/HT5001"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Kernel", 
         "id": "CVE-2011-3259", 
         "credit": "Wouter van der Veer of Topicus I&I, and Josh Enders", 
         "rsr": ""
@@ -6040,7 +6046,7 @@
             "http://support.apple.com/en-us/HT5001"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Data Security", 
         "id": "CVE-2011-3427", 
         "credit": "", 
         "rsr": ""

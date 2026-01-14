@@ -3266,7 +3266,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An malicious application may be able to create folders in trusted locations in the file system", 
+        "impact": "A malicious application may be able to create folders in trusted locations in the file system", 
         "available": [
             "Apple TV 3rd generation and later", 
             "iPhone 4s and later, iPod touch (5th generation) and later, iPad 2 and later"
@@ -3277,7 +3277,7 @@
             "https://support.apple.com/en-us/HT204426"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "MobileStorageMounter", 
         "id": "CVE-2015-1062", 
         "credit": "TaiG Jailbreak Team", 
         "rsr": ""
@@ -3743,7 +3743,7 @@
             "https://support.apple.com/en-us/HT204662"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Audio Drivers", 
         "id": "CVE-2015-1086", 
         "credit": "", 
         "rsr": ""
@@ -3900,7 +3900,7 @@
             "https://support.apple.com/en-us/HT204662"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "IOHIDFamily", 
         "id": "CVE-2015-1095", 
         "credit": "Andrew Church", 
         "rsr": ""
@@ -3938,7 +3938,7 @@
             "https://support.apple.com/en-us/HT204662"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "IOMobileFramebuffer", 
         "id": "CVE-2015-1097", 
         "credit": "Barak Gabai of the IBM X-Force Application Security Research Team", 
         "rsr": ""
@@ -4179,7 +4179,7 @@
             "https://support.apple.com/en-us/HT204662"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Podcasts", 
         "id": "CVE-2015-1110", 
         "credit": "Alex Selivanov", 
         "rsr": ""
@@ -4243,7 +4243,7 @@
             "https://support.apple.com/en-us/HT204662"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Sandbox Profiles", 
         "id": "CVE-2015-1114", 
         "credit": "", 
         "rsr": ""
@@ -4313,7 +4313,7 @@
             "https://support.apple.com/en-us/HT204662"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libnetcore", 
         "id": "CVE-2015-1118", 
         "credit": "Zhaofeng Chen, Hui Xue, Yulong Zhang, and Tao Wei of FireEye, Inc.", 
         "rsr": ""
@@ -4414,7 +4414,7 @@
             "https://support.apple.com/en-us/HT204662"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2015-1123", 
         "credit": "Randy Luecke and Anoop Menon of Google Inc.", 
         "rsr": ""

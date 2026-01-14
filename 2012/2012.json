@@ -150,7 +150,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2011-1167", 
         "credit": "", 
         "rsr": ""
@@ -276,7 +276,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.3, OS X Lion Server v10.7 to v10.7.3", 
@@ -289,7 +289,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxml", 
         "id": "CVE-2011-1944", 
         "credit": "Chris Evans of Google Chrome Security Team", 
         "rsr": ""
@@ -385,7 +385,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.3, OS X Lion Server v10.7 to v10.7.3", 
@@ -398,7 +398,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxml", 
         "id": "CVE-2011-2821", 
         "credit": "Yang Dingning of NCNIPC, Graduate University of Chinese Academy of Sciences", 
         "rsr": ""
@@ -442,7 +442,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.3, OS X Lion Server v10.7 to v10.7.3", 
@@ -455,7 +455,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxml", 
         "id": "CVE-2011-2834", 
         "credit": "Yang Dingning of NCNIPC, Graduate University of Chinese Academy of Sciences", 
         "rsr": ""
@@ -837,14 +837,14 @@
             "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 to v10.7.4, OS X Lion Server v10.7 to v10.7.4", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in libpng's handling of PNG images. These issues were addressed through improved validation of PNG images.", 
+        "description": "Multiple memory corruption issues existed in libpng's handling of PNG images. These issues were addressed through improved validation of PNG images. These issues do not affect OS X Mountain Lion systems.", 
         "links": [
             "http://support.apple.com/en-us/HT5501", 
             "http://support.apple.com/en-us/HT5503", 
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2011-3026", 
         "credit": "J\u00fcri Aedla", 
         "rsr": ""
@@ -1120,14 +1120,14 @@
             "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 to v10.7.4, OS X Lion Server v10.7 to v10.7.4", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in libpng's handling of PNG images. These issues were addressed through improved validation of PNG images.", 
+        "description": "Multiple memory corruption issues existed in libpng's handling of PNG images. These issues were addressed through improved validation of PNG images. These issues do not affect OS X Mountain Lion systems.", 
         "links": [
             "http://support.apple.com/en-us/HT5501", 
             "http://support.apple.com/en-us/HT5503", 
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2011-3048", 
         "credit": "", 
         "rsr": ""
@@ -1691,7 +1691,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2011-3328", 
         "credit": "", 
         "rsr": ""
@@ -1911,7 +1911,7 @@
             "http://support.apple.com/en-us/HT5193"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libresolv", 
         "id": "CVE-2011-3453", 
         "credit": "Ilja van Sprundel of IOActive", 
         "rsr": ""
@@ -2193,7 +2193,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Viewing a maliciously crafted web page may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "Mac OS X 10.6.8, Mac OS X Server 10.6.8, OS X Lion v10.7 to v10.7.3, OS X Lion Server v10.7 to v10.7.3", 
@@ -2206,7 +2206,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "libxml", 
         "id": "CVE-2011-3919", 
         "credit": "J\u00fcri Aedla", 
         "rsr": ""
@@ -2413,14 +2413,14 @@
             "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 to v10.7.4, OS X Lion Server v10.7 to v10.7.4", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "A stack buffer overflow existed in the handling of ICU locale IDs. This issue was addressed through improved bounds checking.", 
+        "description": "A stack buffer overflow existed in the handling of ICU locale IDs. This issue was addressed through improved bounds checking. This issue does not affect OS X Mountain Lion systems.", 
         "links": [
             "http://support.apple.com/en-us/HT5501", 
             "http://support.apple.com/en-us/HT5503", 
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "International Components for Unicode", 
         "id": "CVE-2011-4599", 
         "credit": "", 
         "rsr": ""
@@ -4391,14 +4391,14 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Lion v10.7.4, OS X Lion Server v10.7.4", 
             "Windows 7, Vista, XP SP2 or later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in JavaScriptCore. These issues were addressed through improved memory handling.", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
         "links": [
             "http://support.apple.com/en-us/HT5400", 
             "http://support.apple.com/en-us/HT5485", 
@@ -4406,20 +4406,20 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2012-0682", 
         "credit": "Apple Product Security", 
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Lion v10.7.4, OS X Lion Server v10.7.4", 
             "Windows 7, Vista, XP SP2 or later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in JavaScriptCore. These issues were addressed through improved memory handling.", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
         "links": [
             "http://support.apple.com/en-us/HT5400", 
             "http://support.apple.com/en-us/HT5485", 
@@ -4427,7 +4427,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2012-0683", 
         "credit": "Dave Mandelin of Mozilla", 
         "rsr": ""
@@ -4791,9 +4791,9 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2012-1173", 
-        "credit": "", 
+        "credit": "Alexander Gavrun working with HP's Zero Day Initiative", 
         "rsr": ""
     }, 
     {
@@ -5346,14 +5346,14 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Lion v10.7.4, OS X Lion Server v10.7.4", 
             "Windows 7, Vista, XP SP2 or later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in JavaScriptCore. These issues were addressed through improved memory handling.", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
         "links": [
             "http://support.apple.com/en-us/HT5400", 
             "http://support.apple.com/en-us/HT5485", 
@@ -5361,20 +5361,20 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2012-3589", 
         "credit": "Dave Mandelin of Mozilla", 
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Lion v10.7.4, OS X Lion Server v10.7.4", 
             "Windows 7, Vista, XP SP2 or later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in JavaScriptCore. These issues were addressed through improved memory handling.", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
         "links": [
             "http://support.apple.com/en-us/HT5400", 
             "http://support.apple.com/en-us/HT5485", 
@@ -5382,20 +5382,20 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2012-3590", 
         "credit": "Apple Product Security", 
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Lion v10.7.4, OS X Lion Server v10.7.4", 
             "Windows 7, Vista, XP SP2 or later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in JavaScriptCore. These issues were addressed through improved memory handling.", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
         "links": [
             "http://support.apple.com/en-us/HT5400", 
             "http://support.apple.com/en-us/HT5485", 
@@ -5403,20 +5403,20 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2012-3591", 
         "credit": "Apple Product Security", 
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Lion v10.7.4, OS X Lion Server v10.7.4", 
             "Windows 7, Vista, XP SP2 or later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in JavaScriptCore. These issues were addressed through improved memory handling.", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
         "links": [
             "http://support.apple.com/en-us/HT5400", 
             "http://support.apple.com/en-us/HT5485", 
@@ -5424,7 +5424,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2012-3592", 
         "credit": "Apple Product Security", 
         "rsr": ""
@@ -6981,14 +6981,14 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Lion v10.7.4, OS X Lion Server v10.7.4", 
             "Windows 7, Vista, XP SP2 or later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in JavaScriptCore. These issues were addressed through improved memory handling.", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
         "links": [
             "http://support.apple.com/en-us/HT5400", 
             "http://support.apple.com/en-us/HT5485", 
@@ -6996,20 +6996,20 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2012-3678", 
         "credit": "Apple Product Security", 
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Lion v10.7.4, OS X Lion Server v10.7.4", 
             "Windows 7, Vista, XP SP2 or later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Multiple memory corruption issues existed in JavaScriptCore. These issues were addressed through improved memory handling.", 
+        "description": "Multiple memory corruption issues existed in WebKit. These issues were addressed through improved memory handling.", 
         "links": [
             "http://support.apple.com/en-us/HT5400", 
             "http://support.apple.com/en-us/HT5485", 
@@ -7017,7 +7017,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2012-3679", 
         "credit": "Chris Leary of Mozilla", 
         "rsr": ""
@@ -7737,14 +7737,14 @@
             "Mac OS X v10.6.8, Mac OS X Server v10.6.8, OS X Lion v10.7 to v10.7.4, OS X Lion Server v10.7 to v10.7.4", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "An uninitialized memory access existed in the handling of Sorenson encoded movie files. This issue was addressed through improved memory initialization.", 
+        "description": "An uninitialized memory access existed in the handling of Sorenson encoded movie files. This issue was addressed through improved memory initialization. This issue does not affect OS X Mountain Lion systems.", 
         "links": [
             "http://support.apple.com/en-us/HT5501", 
             "http://support.apple.com/en-us/HT5503", 
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "QuickTime", 
         "id": "CVE-2012-3722", 
         "credit": "Will Dormann of the CERT/CC", 
         "rsr": ""
@@ -7785,13 +7785,13 @@
             "Apple TV 2nd generation and later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "Upon connecting to a Wi-Fi network, iOS may broadcast MAC addresses of previously accessed networks per the DNAv4 protocol. This issue was addressed by disabling DNAv4 on unencrypted Wi-Fi networks", 
+        "description": "Upon connecting to a Wi-Fi network, iOS may broadcast MAC addresses of previously accessed networks per the DNAv4 protocol. This issue was addressed by disabling DNAv4 on unencrypted Wi-Fi networks.", 
         "links": [
             "http://support.apple.com/en-us/HT5503", 
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "DHCP", 
         "id": "CVE-2012-3725", 
         "credit": "Mark Wuergler of Immunity, Inc.", 
         "rsr": ""
@@ -7808,7 +7808,7 @@
             "http://support.apple.com/en-us/HT5504"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "ImageIO", 
         "id": "CVE-2012-3726", 
         "credit": "Phil of PKJE Consulting", 
         "rsr": ""
@@ -8129,7 +8129,7 @@
         "rsr": ""
     }, 
     {
-        "impact": "An attacker with a privileged network position may cause an unexpected application termination or arbitrary code execution", 
+        "impact": "Visiting a maliciously crafted website may lead to an unexpected application termination or arbitrary code execution", 
         "available": [
             "Apple TV 2nd generation and later", 
             "OS X Lion v10.7.5, OS X Lion Server v10.7.5, OS X Mountain Lion v10.8.2", 
@@ -8142,24 +8142,24 @@
             "http://support.apple.com/en-us/HT5598"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "WebKit", 
         "id": "CVE-2012-3748", 
         "credit": "Joost Pol and Daan Keuper of Certified Secure working with HP TippingPoint's Zero Day Initiative", 
         "rsr": ""
     }, 
     {
-        "impact": "Compromised applications may be able to determine addresses in the kernel", 
+        "impact": "Maliciously crafted or compromised iOS applications may be able to determine addresses in the kernel", 
         "available": [
             "Apple TV 2nd generation and later", 
             "iPhone 3GS and later, iPod touch (4th generation) and later, iPad 2 and later"
         ], 
-        "description": "An information disclosure issue existed in the handling of APIs related to kernel extensions. Responses containing a OSBundleMachOHeaders key may have included kernel addresses, which may aid in bypassing address space layout randomization protection. This issue was addressed by unsliding the addresses before returning them.", 
+        "description": "An information disclosure issue existed in the handling of APIs related to kernel extensions. Responses containing an OSBundleMachOHeaders key may have included kernel addresses, which may aid in bypassing address space layout randomization protection. This issue was addressed by unsliding the addresses before returning them.", 
         "links": [
             "http://support.apple.com/en-us/HT5567", 
             "http://support.apple.com/en-us/HT5598"
         ], 
         "update": "", 
-        "module": "Apple TV", 
+        "module": "Kernel", 
         "id": "CVE-2012-3749", 
         "credit": "Mark Dowd of Azimuth Security, Eric Monti of Square, and additional anonymous researchers", 
         "rsr": ""
