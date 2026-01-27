@@ -10,8 +10,8 @@
         ], 
         "update": "", 
         "module": "Python", 
-        "id": "CVE-2023-27043", 
         "credit": "", 
+        "id": "CVE-2023-27043", 
         "rsr": ""
     }, 
     {
@@ -29,8 +29,8 @@
         ], 
         "update": "", 
         "module": "Ruby", 
-        "id": "CVE-2024-27280", 
         "credit": "", 
+        "id": "CVE-2024-27280", 
         "rsr": ""
     }, 
     {
@@ -46,8 +46,8 @@
         ], 
         "update": "April 2, 2025", 
         "module": "Apple Account", 
-        "id": "CVE-2024-40864", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2024-40864", 
         "rsr": ""
     }, 
     {
@@ -65,8 +65,8 @@
         ], 
         "update": "", 
         "module": "Ruby", 
-        "id": "CVE-2024-43398", 
         "credit": "", 
+        "id": "CVE-2024-43398", 
         "rsr": ""
     }, 
     {
@@ -80,8 +80,8 @@
         ], 
         "update": "", 
         "module": "GarageBand", 
-        "id": "CVE-2024-44142", 
         "credit": "Marc Schoenefeld, Dr. rer. nat.", 
+        "id": "CVE-2024-44142", 
         "rsr": ""
     }, 
     {
@@ -97,8 +97,8 @@
         ], 
         "update": "", 
         "module": "Contacts", 
-        "id": "CVE-2024-44172", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2024-44172", 
         "rsr": ""
     }, 
     {
@@ -112,8 +112,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2024-44243", 
         "credit": "Jonathan Bar Or (@yo_yo_yo_jbo) of Microsoft, Mickey Jin (@patch1t)", 
+        "id": "CVE-2024-44243", 
         "rsr": ""
     }, 
     {
@@ -135,8 +135,8 @@
         ], 
         "update": "", 
         "module": "libarchive", 
-        "id": "CVE-2024-48958", 
         "credit": "", 
+        "id": "CVE-2024-48958", 
         "rsr": ""
     }, 
     {
@@ -154,8 +154,8 @@
         ], 
         "update": "", 
         "module": "Ruby", 
-        "id": "CVE-2024-49761", 
         "credit": "", 
+        "id": "CVE-2024-49761", 
         "rsr": ""
     }, 
     {
@@ -169,8 +169,8 @@
         ], 
         "update": "", 
         "module": "ICU", 
-        "id": "CVE-2024-54478", 
         "credit": "Gary Kwong", 
+        "id": "CVE-2024-54478", 
         "rsr": ""
     }, 
     {
@@ -188,8 +188,8 @@
         ], 
         "update": "", 
         "module": "QuartzCore", 
-        "id": "CVE-2024-54497", 
         "credit": "Anonymous working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2024-54497", 
         "rsr": ""
     }, 
     {
@@ -203,9 +203,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-54502", 
         "credit": "Brendon Tiszka of Google Project Zero", 
         "bugzilla": "281912", 
+        "id": "CVE-2024-54502", 
         "rsr": ""
     }, 
     {
@@ -219,9 +219,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-54508", 
         "credit": "Xiangwei Zhang of Tencent Security YUNDING LAB, linjy of HKUS3Lab and chluo of WHUSecLab, and an anonymous researcher", 
         "bugzilla": "282180", 
+        "id": "CVE-2024-54508", 
         "rsr": ""
     }, 
     {
@@ -235,8 +235,8 @@
         ], 
         "update": "", 
         "module": "ASP TCP", 
-        "id": "CVE-2024-54509", 
         "credit": "CertiK SkyFall Team", 
+        "id": "CVE-2024-54509", 
         "rsr": ""
     }, 
     {
@@ -252,8 +252,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2024-54533", 
         "credit": "Csaba Fitzl (@theevilbit) of OffSec", 
+        "id": "CVE-2024-54533", 
         "rsr": ""
     }, 
     {
@@ -267,9 +267,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-54534", 
         "credit": "Tashita Software Security", 
         "bugzilla": "277967", 
+        "id": "CVE-2024-54534", 
         "rsr": ""
     }, 
     {
@@ -283,9 +283,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2024-54543", 
         "credit": "Lukas Bernhard, Gary Kwong, and an anonymous researcher", 
         "bugzilla": "282450", 
+        "id": "CVE-2024-54543", 
         "rsr": ""
     }, 
     {
@@ -313,8 +313,8 @@
         ], 
         "update": "May 16, 2025", 
         "module": "libxslt", 
-        "id": "CVE-2024-55549", 
         "credit": "Ivan Fratric of Google Project Zero", 
+        "id": "CVE-2024-55549", 
         "rsr": ""
     }, 
     {
@@ -342,8 +342,8 @@
         ], 
         "update": "", 
         "module": "libxml2", 
-        "id": "CVE-2024-56171", 
         "credit": "", 
+        "id": "CVE-2024-56171", 
         "rsr": ""
     }, 
     {
@@ -371,8 +371,8 @@
         ], 
         "update": "", 
         "module": "curl", 
-        "id": "CVE-2024-7264", 
         "credit": "", 
+        "id": "CVE-2024-7264", 
         "rsr": ""
     }, 
     {
@@ -400,8 +400,8 @@
         ], 
         "update": "", 
         "module": "libexpat", 
-        "id": "CVE-2024-8176", 
         "credit": "", 
+        "id": "CVE-2024-8176", 
         "rsr": ""
     }, 
     {
@@ -417,8 +417,8 @@
         ], 
         "update": "", 
         "module": "Safari Downloads", 
-        "id": "CVE-2024-8906", 
         "credit": "@retsew0x01", 
+        "id": "CVE-2024-8906", 
         "rsr": ""
     }, 
     {
@@ -446,8 +446,8 @@
         ], 
         "update": "", 
         "module": "curl", 
-        "id": "CVE-2024-9681", 
         "credit": "", 
+        "id": "CVE-2024-9681", 
         "rsr": ""
     }, 
     {
@@ -461,8 +461,8 @@
         ], 
         "update": "", 
         "module": "Passkeys", 
-        "id": "CVE-2024-9956", 
         "credit": "mastersplinter", 
+        "id": "CVE-2024-9956", 
         "rsr": ""
     }, 
     {
@@ -488,9 +488,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-14174", 
         "credit": "Apple and Google Threat Analysis Group", 
         "bugzilla": "303614", 
+        "id": "CVE-2025-14174", 
         "rsr": ""
     }, 
     {
@@ -518,8 +518,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-24085", 
         "credit": "", 
+        "id": "CVE-2025-24085", 
         "rsr": ""
     }, 
     {
@@ -547,8 +547,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2025-24086", 
         "credit": "DongJun Kim (@smlijun) and JongSeong Kim (@nevul37) in Enki WhiteHat, D4m0n", 
+        "id": "CVE-2025-24086", 
         "rsr": ""
     }, 
     {
@@ -562,8 +562,8 @@
         ], 
         "update": "", 
         "module": "AppKit", 
-        "id": "CVE-2025-24087", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24087", 
         "rsr": ""
     }, 
     {
@@ -577,8 +577,38 @@
         ], 
         "update": "", 
         "module": "CoreServices", 
-        "id": "CVE-2025-24088", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-24088", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to enumerate a user's installed apps", 
+        "available": [
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later"
+        ], 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/122066"
+        ], 
+        "update": "January 16, 2026", 
+        "module": "Icons", 
+        "credit": "Denis Tokarev (@illusionofcha0s), Zikan Wang (@Lakr233)", 
+        "id": "CVE-2025-24089", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to enumerate a user's installed apps", 
+        "available": [
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later"
+        ], 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/122066"
+        ], 
+        "update": "January 16, 2026", 
+        "module": "Icons", 
+        "credit": "Denis Tokarev (@illusionofcha0s)", 
+        "id": "CVE-2025-24090", 
         "rsr": ""
     }, 
     {
@@ -592,8 +622,8 @@
         ], 
         "update": "April 30, 2025", 
         "module": "Libnotify", 
-        "id": "CVE-2025-24091", 
         "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)", 
+        "id": "CVE-2025-24091", 
         "rsr": ""
     }, 
     {
@@ -609,8 +639,8 @@
         ], 
         "update": "", 
         "module": "TV App", 
-        "id": "CVE-2025-24092", 
         "credit": "Adam M.", 
+        "id": "CVE-2025-24092", 
         "rsr": ""
     }, 
     {
@@ -628,8 +658,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-24093", 
         "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)", 
+        "id": "CVE-2025-24093", 
         "rsr": ""
     }, 
     {
@@ -647,8 +677,8 @@
         ], 
         "update": "", 
         "module": "LaunchServices", 
-        "id": "CVE-2025-24094", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24094", 
         "rsr": ""
     }, 
     {
@@ -664,8 +694,8 @@
         ], 
         "update": "", 
         "module": "RepairKit", 
-        "id": "CVE-2025-24095", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24095", 
         "rsr": ""
     }, 
     {
@@ -679,8 +709,8 @@
         ], 
         "update": "", 
         "module": "NSDocument", 
-        "id": "CVE-2025-24096", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24096", 
         "rsr": ""
     }, 
     {
@@ -704,8 +734,8 @@
         ], 
         "update": "", 
         "module": "AirDrop", 
-        "id": "CVE-2025-24097", 
         "credit": "Ron Masas of BREAKPOINT.SH", 
+        "id": "CVE-2025-24097", 
         "rsr": ""
     }, 
     {
@@ -723,8 +753,8 @@
         ], 
         "update": "January 29, 2025", 
         "module": "PackageKit", 
-        "id": "CVE-2025-24099", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24099", 
         "rsr": ""
     }, 
     {
@@ -742,8 +772,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-24100", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24100", 
         "rsr": ""
     }, 
     {
@@ -757,8 +787,8 @@
         ], 
         "update": "", 
         "module": "Messages", 
-        "id": "CVE-2025-24101", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24101", 
         "rsr": ""
     }, 
     {
@@ -778,8 +808,8 @@
         ], 
         "update": "", 
         "module": "CoreRoutine", 
-        "id": "CVE-2025-24102", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24102", 
         "rsr": ""
     }, 
     {
@@ -797,8 +827,8 @@
         ], 
         "update": "", 
         "module": "Security", 
-        "id": "CVE-2025-24103", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2025-24103", 
         "rsr": ""
     }, 
     {
@@ -814,8 +844,8 @@
         ], 
         "update": "", 
         "module": "Managed Configuration", 
-        "id": "CVE-2025-24104", 
         "credit": "Hichem Maloufi, Hakim Boukhadra", 
+        "id": "CVE-2025-24104", 
         "rsr": ""
     }, 
     {
@@ -833,8 +863,8 @@
         ], 
         "update": "August 28, 2025", 
         "module": "Audio", 
-        "id": "CVE-2025-24106", 
         "credit": "Wang Yu of Cyberserval", 
+        "id": "CVE-2025-24106", 
         "rsr": ""
     }, 
     {
@@ -854,8 +884,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-24107", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24107", 
         "rsr": ""
     }, 
     {
@@ -869,8 +899,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2025-24108", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24108", 
         "rsr": ""
     }, 
     {
@@ -888,8 +918,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-24109", 
         "credit": "Bohdan Stasiuk (@Bohdan_Stasiuk)", 
+        "id": "CVE-2025-24109", 
         "rsr": ""
     }, 
     {
@@ -917,8 +947,8 @@
         ], 
         "update": "", 
         "module": "Display", 
-        "id": "CVE-2025-24111", 
         "credit": "Wang Yu of Cyberserval", 
+        "id": "CVE-2025-24111", 
         "rsr": ""
     }, 
     {
@@ -934,8 +964,8 @@
         ], 
         "update": "", 
         "module": "AppleGraphicsControl", 
-        "id": "CVE-2025-24112", 
         "credit": "D4m0n", 
+        "id": "CVE-2025-24112", 
         "rsr": ""
     }, 
     {
@@ -963,8 +993,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-24113", 
         "credit": "@RenwaX23", 
+        "id": "CVE-2025-24113", 
         "rsr": ""
     }, 
     {
@@ -982,8 +1012,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-24114", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24114", 
         "rsr": ""
     }, 
     {
@@ -1001,8 +1031,8 @@
         ], 
         "update": "", 
         "module": "LaunchServices", 
-        "id": "CVE-2025-24115", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24115", 
         "rsr": ""
     }, 
     {
@@ -1020,8 +1050,8 @@
         ], 
         "update": "", 
         "module": "LaunchServices", 
-        "id": "CVE-2025-24116", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24116", 
         "rsr": ""
     }, 
     {
@@ -1043,8 +1073,8 @@
         ], 
         "update": "", 
         "module": "LaunchServices", 
-        "id": "CVE-2025-24117", 
         "credit": "Michael (Biscuit) Thomas (@biscuit@social.lol)", 
+        "id": "CVE-2025-24117", 
         "rsr": ""
     }, 
     {
@@ -1062,8 +1092,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-24118", 
         "credit": "Joseph Ravichandran (@0xjprx) of MIT CSAIL", 
+        "id": "CVE-2025-24118", 
         "rsr": ""
     }, 
     {
@@ -1081,8 +1111,8 @@
         ], 
         "update": "", 
         "module": "Finder", 
-        "id": "CVE-2025-24119", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24119", 
         "rsr": ""
     }, 
     {
@@ -1100,8 +1130,8 @@
         ], 
         "update": "", 
         "module": "WindowServer", 
-        "id": "CVE-2025-24120", 
         "credit": "PixiePoint Security", 
+        "id": "CVE-2025-24120", 
         "rsr": ""
     }, 
     {
@@ -1119,8 +1149,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-24121", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24121", 
         "rsr": ""
     }, 
     {
@@ -1138,8 +1168,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-24122", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24122", 
         "rsr": ""
     }, 
     {
@@ -1167,8 +1197,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-24123", 
         "credit": "Desmond working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24123", 
         "rsr": ""
     }, 
     {
@@ -1196,8 +1226,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-24124", 
         "credit": "Pwn2car & Rotiple (HyeongSeok Jang) working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24124", 
         "rsr": ""
     }, 
     {
@@ -1221,8 +1251,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24126", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24126", 
         "rsr": ""
     }, 
     {
@@ -1248,8 +1278,8 @@
         ], 
         "update": "", 
         "module": "ARKit", 
-        "id": "CVE-2025-24127", 
         "credit": "Minghao Lin (@Y1nKoc), babywu, and Xingwei Lin of Zhejiang University", 
+        "id": "CVE-2025-24127", 
         "rsr": ""
     }, 
     {
@@ -1267,8 +1297,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-24128", 
         "credit": "@RenwaX23", 
+        "id": "CVE-2025-24128", 
         "rsr": ""
     }, 
     {
@@ -1292,8 +1322,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24129", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24129", 
         "rsr": ""
     }, 
     {
@@ -1311,8 +1341,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-24130", 
         "credit": "Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2025-24130", 
         "rsr": ""
     }, 
     {
@@ -1338,8 +1368,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24131", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24131", 
         "rsr": ""
     }, 
     {
@@ -1353,8 +1383,8 @@
         ], 
         "update": "", 
         "module": "SDK", 
-        "id": "CVE-2025-24132", 
         "credit": "Oligo Security Research Team", 
+        "id": "CVE-2025-24132", 
         "rsr": ""
     }, 
     {
@@ -1368,8 +1398,8 @@
         ], 
         "update": "", 
         "module": "FaceTime", 
-        "id": "CVE-2025-24134", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24134", 
         "rsr": ""
     }, 
     {
@@ -1383,8 +1413,8 @@
         ], 
         "update": "", 
         "module": "System Extensions", 
-        "id": "CVE-2025-24135", 
         "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2025-24135", 
         "rsr": ""
     }, 
     {
@@ -1402,8 +1432,8 @@
         ], 
         "update": "May 16, 2025", 
         "module": "Login Window", 
-        "id": "CVE-2025-24136", 
         "credit": "\u98ce(binary_fmyy) and Minghao Lin@(Y1nKoc)", 
+        "id": "CVE-2025-24136", 
         "rsr": ""
     }, 
     {
@@ -1427,8 +1457,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24137", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24137", 
         "rsr": ""
     }, 
     {
@@ -1446,8 +1476,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2025-24138", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova", 
+        "id": "CVE-2025-24138", 
         "rsr": ""
     }, 
     {
@@ -1466,8 +1496,8 @@
         ], 
         "update": "", 
         "module": "sips", 
-        "id": "CVE-2025-24139", 
         "credit": "Junsung <3, Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24139", 
         "rsr": ""
     }, 
     {
@@ -1481,8 +1511,8 @@
         ], 
         "update": "", 
         "module": "iCloud", 
-        "id": "CVE-2025-24140", 
         "credit": "Matej Moravec (@MacejkoMoravec)", 
+        "id": "CVE-2025-24140", 
         "rsr": ""
     }, 
     {
@@ -1496,8 +1526,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2025-24141", 
         "credit": "Abhay Kailasia (@abhay_kailasia) from C-DAC Thiruvananthapuram India", 
+        "id": "CVE-2025-24141", 
         "rsr": ""
     }, 
     {
@@ -1515,8 +1545,8 @@
         ], 
         "update": "", 
         "module": "Notification Center", 
-        "id": "CVE-2025-24142", 
         "credit": "LFY@secsys from Fudan University", 
+        "id": "CVE-2025-24142", 
         "rsr": ""
     }, 
     {
@@ -1536,9 +1566,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-24143", 
         "credit": "an anonymous researcher", 
         "bugzilla": "283117", 
+        "id": "CVE-2025-24143", 
         "rsr": ""
     }, 
     {
@@ -1566,8 +1596,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-24144", 
         "credit": "Mateusz Krzywicki (@krzywix)", 
+        "id": "CVE-2025-24144", 
         "rsr": ""
     }, 
     {
@@ -1583,8 +1613,8 @@
         ], 
         "update": "", 
         "module": "Time Zone", 
-        "id": "CVE-2025-24145", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24145", 
         "rsr": ""
     }, 
     {
@@ -1602,8 +1632,8 @@
         ], 
         "update": "", 
         "module": "Photos Storage", 
-        "id": "CVE-2025-24146", 
         "credit": "\u795e\u7f5a(@Pwnrin)", 
+        "id": "CVE-2025-24146", 
         "rsr": ""
     }, 
     {
@@ -1621,8 +1651,8 @@
         ], 
         "update": "", 
         "module": "LaunchServices", 
-        "id": "CVE-2025-24148", 
         "credit": "Kenneth Chew", 
+        "id": "CVE-2025-24148", 
         "rsr": ""
     }, 
     {
@@ -1650,8 +1680,8 @@
         ], 
         "update": "", 
         "module": "SceneKit", 
-        "id": "CVE-2025-24149", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24149", 
         "rsr": ""
     }, 
     {
@@ -1669,9 +1699,9 @@
         ], 
         "update": "", 
         "module": "WebKit Web Inspector", 
-        "id": "CVE-2025-24150", 
         "credit": "Johan Carlsson (joaxcar)", 
         "bugzilla": "283718", 
+        "id": "CVE-2025-24150", 
         "rsr": ""
     }, 
     {
@@ -1689,8 +1719,8 @@
         ], 
         "update": "", 
         "module": "SMB", 
-        "id": "CVE-2025-24151", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24151", 
         "rsr": ""
     }, 
     {
@@ -1704,8 +1734,8 @@
         ], 
         "update": "", 
         "module": "SMB", 
-        "id": "CVE-2025-24152", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24152", 
         "rsr": ""
     }, 
     {
@@ -1719,8 +1749,8 @@
         ], 
         "update": "", 
         "module": "SMB", 
-        "id": "CVE-2025-24153", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24153", 
         "rsr": ""
     }, 
     {
@@ -1742,8 +1772,8 @@
         ], 
         "update": "", 
         "module": "WebContentFilter", 
-        "id": "CVE-2025-24154", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24154", 
         "rsr": ""
     }, 
     {
@@ -1761,8 +1791,8 @@
         ], 
         "update": "", 
         "module": "WebContentFilter", 
-        "id": "CVE-2025-24155", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24155", 
         "rsr": ""
     }, 
     {
@@ -1780,8 +1810,8 @@
         ], 
         "update": "", 
         "module": "Xsan", 
-        "id": "CVE-2025-24156", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24156", 
         "rsr": ""
     }, 
     {
@@ -1799,8 +1829,8 @@
         ], 
         "update": "", 
         "module": "Xsan", 
-        "id": "CVE-2025-24157", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24157", 
         "rsr": ""
     }, 
     {
@@ -1824,9 +1854,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-24158", 
         "credit": "Q1IQ (@q1iqF) of NUS CuriOSity and P1umer (@p1umer) of Imperial Global Singapore", 
         "bugzilla": "283889", 
+        "id": "CVE-2025-24158", 
         "rsr": ""
     }, 
     {
@@ -1852,8 +1882,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-24159", 
         "credit": "pattern-f (@pattern_F_)", 
+        "id": "CVE-2025-24159", 
         "rsr": ""
     }, 
     {
@@ -1879,8 +1909,8 @@
         ], 
         "update": "", 
         "module": "CoreAudio", 
+        "credit": "Google Threat Analysis Group", 
         "id": "CVE-2025-24160", 
-        "credit": "Google Threat Analysis Group", 
         "rsr": ""
     }, 
     {
@@ -1906,8 +1936,8 @@
         ], 
         "update": "", 
         "module": "CoreAudio", 
-        "id": "CVE-2025-24161", 
         "credit": "Google Threat Analysis Group", 
+        "id": "CVE-2025-24161", 
         "rsr": ""
     }, 
     {
@@ -1931,9 +1961,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-24162", 
         "credit": "linjy of HKUS3Lab and chluo of WHUSecLab", 
         "bugzilla": "284159", 
+        "id": "CVE-2025-24162", 
         "rsr": ""
     }, 
     {
@@ -1964,8 +1994,8 @@
         ], 
         "update": "", 
         "module": "CoreAudio", 
-        "id": "CVE-2025-24163", 
         "credit": "Google Threat Analysis Group", 
+        "id": "CVE-2025-24163", 
         "rsr": ""
     }, 
     {
@@ -1983,8 +2013,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-24164", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24164", 
         "rsr": ""
     }, 
     {
@@ -2004,8 +2034,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-24167", 
         "credit": "Syarif Muhammad Sajjad", 
+        "id": "CVE-2025-24167", 
         "rsr": ""
     }, 
     {
@@ -2021,8 +2051,8 @@
         ], 
         "update": "", 
         "module": "Passwords", 
-        "id": "CVE-2025-24169", 
         "credit": "Josh Parnham (@joshparnham)", 
+        "id": "CVE-2025-24169", 
         "rsr": ""
     }, 
     {
@@ -2038,8 +2068,8 @@
         ], 
         "update": "", 
         "module": "CoreServices", 
-        "id": "CVE-2025-24170", 
         "credit": "YingQi Shi (@Mas0nShi) of DBAppSecurity's WeBin lab and Minghao Lin (@Y1nKoc), Stephan Casas", 
+        "id": "CVE-2025-24170", 
         "rsr": ""
     }, 
     {
@@ -2057,8 +2087,8 @@
         ], 
         "update": "", 
         "module": "Mail", 
-        "id": "CVE-2025-24172", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24172", 
         "rsr": ""
     }, 
     {
@@ -2086,8 +2116,8 @@
         ], 
         "update": "", 
         "module": "Power Services", 
-        "id": "CVE-2025-24173", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24173", 
         "rsr": ""
     }, 
     {
@@ -2105,8 +2135,8 @@
         ], 
         "update": "", 
         "module": "iCloud Photo Library", 
-        "id": "CVE-2025-24174", 
         "credit": "Arsenii Kostromin (0x3c3e), Joshua Jones", 
+        "id": "CVE-2025-24174", 
         "rsr": ""
     }, 
     {
@@ -2124,8 +2154,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-24176", 
         "credit": "Yann GASCUEL of Alter Solutions", 
+        "id": "CVE-2025-24176", 
         "rsr": ""
     }, 
     {
@@ -2147,8 +2177,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24177", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24177", 
         "rsr": ""
     }, 
     {
@@ -2174,8 +2204,8 @@
         ], 
         "update": "", 
         "module": "libxpc", 
-        "id": "CVE-2025-24178", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24178", 
         "rsr": ""
     }, 
     {
@@ -2201,8 +2231,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24179", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24179", 
         "rsr": ""
     }, 
     {
@@ -2224,8 +2254,8 @@
         ], 
         "update": "", 
         "module": "Authentication Services", 
-        "id": "CVE-2025-24180", 
         "credit": "Martin Kreichgauer of Google Chrome", 
+        "id": "CVE-2025-24180", 
         "rsr": ""
     }, 
     {
@@ -2243,8 +2273,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-24181", 
         "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2025-24181", 
         "rsr": ""
     }, 
     {
@@ -2266,8 +2296,8 @@
         ], 
         "update": "", 
         "module": "CoreText", 
-        "id": "CVE-2025-24182", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24182", 
         "rsr": ""
     }, 
     {
@@ -2285,8 +2315,8 @@
         ], 
         "update": "May 16, 2025", 
         "module": "Perl", 
-        "id": "CVE-2025-24183", 
         "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2025-24183", 
         "rsr": ""
     }, 
     {
@@ -2310,8 +2340,8 @@
         ], 
         "update": "May 16, 2025", 
         "module": "CoreMedia Playback", 
-        "id": "CVE-2025-24184", 
         "credit": "Song Hyun Bae (@bshyuunn) and Lee Dong Ha (Who4mI)", 
+        "id": "CVE-2025-24184", 
         "rsr": ""
     }, 
     {
@@ -2329,8 +2359,8 @@
         ], 
         "update": "March 17, 2025", 
         "module": "sips", 
-        "id": "CVE-2025-24185", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24185", 
         "rsr": ""
     }, 
     {
@@ -2346,8 +2376,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-24188", 
         "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
+        "id": "CVE-2025-24188", 
         "rsr": ""
     }, 
     {
@@ -2371,9 +2401,9 @@
         ], 
         "update": "May 16, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-24189", 
         "credit": "an anonymous researcher", 
         "bugzilla": "284332", 
+        "id": "CVE-2025-24189", 
         "rsr": ""
     }, 
     {
@@ -2401,8 +2431,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-24190", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24190", 
         "rsr": ""
     }, 
     {
@@ -2416,8 +2446,8 @@
         ], 
         "update": "", 
         "module": "RPAC", 
-        "id": "CVE-2025-24191", 
         "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos", 
+        "id": "CVE-2025-24191", 
         "rsr": ""
     }, 
     {
@@ -2437,8 +2467,8 @@
         ], 
         "update": "", 
         "module": "Web Extensions", 
-        "id": "CVE-2025-24192", 
         "credit": "Vsevolod Kokorin (Slonser) of Solidlab", 
+        "id": "CVE-2025-24192", 
         "rsr": ""
     }, 
     {
@@ -2452,8 +2482,8 @@
         ], 
         "update": "", 
         "module": "MobileLockdown", 
-        "id": "CVE-2025-24193", 
         "credit": "Florian Draschbacher", 
+        "id": "CVE-2025-24193", 
         "rsr": ""
     }, 
     {
@@ -2475,8 +2505,8 @@
         ], 
         "update": "", 
         "module": "libnetcore", 
-        "id": "CVE-2025-24194", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24194", 
         "rsr": ""
     }, 
     {
@@ -2494,8 +2524,8 @@
         ], 
         "update": "", 
         "module": "Libinfo", 
-        "id": "CVE-2025-24195", 
         "credit": "Pawe\u0142 P\u0142atek (Trail of Bits)", 
+        "id": "CVE-2025-24195", 
         "rsr": ""
     }, 
     {
@@ -2511,8 +2541,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-24196", 
         "credit": "Joseph Ravichandran (@0xjprx) of MIT CSAIL", 
+        "id": "CVE-2025-24196", 
         "rsr": ""
     }, 
     {
@@ -2530,8 +2560,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2025-24197", 
         "credit": "Rodolphe Brunetti (@eisw0lf) of Lupus Nova", 
+        "id": "CVE-2025-24197", 
         "rsr": ""
     }, 
     {
@@ -2553,8 +2583,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-24198", 
         "credit": "Richard Hyunho Im (@richeeta) with routezero.security", 
+        "id": "CVE-2025-24198", 
         "rsr": ""
     }, 
     {
@@ -2572,8 +2602,8 @@
         ], 
         "update": "", 
         "module": "Foundation", 
-        "id": "CVE-2025-24199", 
         "credit": "Manuel Fernandez (Stackhopper Security)", 
+        "id": "CVE-2025-24199", 
         "rsr": ""
     }, 
     {
@@ -2593,8 +2623,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2025-24200", 
         "credit": "Bill Marczak of The Citizen Lab at The University of Toronto\u2019s Munk School", 
+        "id": "CVE-2025-24200", 
         "rsr": ""
     }, 
     {
@@ -2622,9 +2652,9 @@
         ], 
         "update": "April 9, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-24201", 
         "credit": "Apple", 
         "bugzilla": "285858", 
+        "id": "CVE-2025-24201", 
         "rsr": ""
     }, 
     {
@@ -2640,8 +2670,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2025-24202", 
         "credit": "Zhongcheng Li from IES Red Team of ByteDance", 
+        "id": "CVE-2025-24202", 
         "rsr": ""
     }, 
     {
@@ -2669,8 +2699,8 @@
         ], 
         "update": "November 11, 2025", 
         "module": "Kernel", 
-        "id": "CVE-2025-24203", 
         "credit": "Ian Beer of Google Project Zero", 
+        "id": "CVE-2025-24203", 
         "rsr": ""
     }, 
     {
@@ -2684,8 +2714,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-24204", 
         "credit": "Koh M. Nakagawa (@tsunek0h) of FFRI Security, Inc.", 
+        "id": "CVE-2025-24204", 
         "rsr": ""
     }, 
     {
@@ -2707,8 +2737,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-24205", 
         "credit": "YingQi Shi(@Mas0nShi) of DBAppSecurity's WeBin lab and Minghao Lin (@Y1nKoc)", 
+        "id": "CVE-2025-24205", 
         "rsr": ""
     }, 
     {
@@ -2734,8 +2764,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24206", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24206", 
         "rsr": ""
     }, 
     {
@@ -2753,8 +2783,8 @@
         ], 
         "update": "", 
         "module": "Storage Management", 
-        "id": "CVE-2025-24207", 
         "credit": "YingQi Shi (@Mas0nShi) of DBAppSecurity's WeBin lab, \u98ce\u6c90\u4e91\u70df (binary_fmyy) and Minghao Lin (@Y1nKoc)", 
+        "id": "CVE-2025-24207", 
         "rsr": ""
     }, 
     {
@@ -2770,9 +2800,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-24208", 
         "credit": "Muhammad Zaid Ghifari (Mr.ZheeV) and Kalimantan Utara", 
         "bugzilla": "286381", 
+        "id": "CVE-2025-24208", 
         "rsr": ""
     }, 
     {
@@ -2796,9 +2826,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-24209", 
         "credit": "Francisco Alonso (@revskills), and an anonymous researcher", 
         "bugzilla": "286462", 
+        "id": "CVE-2025-24209", 
         "rsr": ""
     }, 
     {
@@ -2826,8 +2856,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2025-24210", 
         "credit": "Anonymous working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24210", 
         "rsr": ""
     }, 
     {
@@ -2853,8 +2883,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-24211", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24211", 
         "rsr": ""
     }, 
     {
@@ -2882,8 +2912,8 @@
         ], 
         "update": "", 
         "module": "Calendar", 
-        "id": "CVE-2025-24212", 
         "credit": "Denis Tokarev (@illusionofcha0s)", 
+        "id": "CVE-2025-24212", 
         "rsr": ""
     }, 
     {
@@ -2909,9 +2939,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-24213", 
         "credit": "Google V8 Security Team", 
         "bugzilla": "286694", 
+        "id": "CVE-2025-24213", 
         "rsr": ""
     }, 
     {
@@ -2933,8 +2963,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-24214", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24214", 
         "rsr": ""
     }, 
     {
@@ -2954,8 +2984,8 @@
         ], 
         "update": "", 
         "module": "CloudKit", 
-        "id": "CVE-2025-24215", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24215", 
         "rsr": ""
     }, 
     {
@@ -2981,9 +3011,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-24216", 
         "credit": "Paul Bakker of ParagonERP", 
         "bugzilla": "284055", 
+        "id": "CVE-2025-24216", 
         "rsr": ""
     }, 
     {
@@ -3003,8 +3033,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-24217", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24217", 
         "rsr": ""
     }, 
     {
@@ -3018,8 +3048,8 @@
         ], 
         "update": "", 
         "module": "Summarization Services", 
-        "id": "CVE-2025-24218", 
         "credit": "Kirin and FlowerCode, Bohdan Stasiuk (@bohdan_stasiuk)", 
+        "id": "CVE-2025-24218", 
         "rsr": ""
     }, 
     {
@@ -3035,8 +3065,8 @@
         ], 
         "update": "", 
         "module": "Sandbox Profiles", 
-        "id": "CVE-2025-24220", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2025-24220", 
         "rsr": ""
     }, 
     {
@@ -3054,8 +3084,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "Accounts", 
-        "id": "CVE-2025-24221", 
         "credit": "Lehan Dilusha (@zafer), and an anonymous researcher", 
+        "id": "CVE-2025-24221", 
         "rsr": ""
     }, 
     {
@@ -3069,8 +3099,8 @@
         ], 
         "update": "", 
         "module": "BOM", 
-        "id": "CVE-2025-24222", 
         "credit": "wac working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24222", 
         "rsr": ""
     }, 
     {
@@ -3094,9 +3124,9 @@
         ], 
         "update": "November 21, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-24223", 
         "credit": "rheza (@ginggilBesel), Edouard Bochin (@le_douds) and Tao Yan (@Ga1ois) of Palo Alto Networks", 
         "bugzilla": "287577", 
+        "id": "CVE-2025-24223", 
         "rsr": ""
     }, 
     {
@@ -3122,8 +3152,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-24224", 
         "credit": "Tony Iskow (@Tybbow)", 
+        "id": "CVE-2025-24224", 
         "rsr": ""
     }, 
     {
@@ -3139,8 +3169,8 @@
         ], 
         "update": "", 
         "module": "Mail Addressing", 
-        "id": "CVE-2025-24225", 
         "credit": "Richard Hyunho Im (@richeeta)", 
+        "id": "CVE-2025-24225", 
         "rsr": ""
     }, 
     {
@@ -3154,8 +3184,8 @@
         ], 
         "update": "", 
         "module": "IDE Assets", 
-        "id": "CVE-2025-24226", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24226", 
         "rsr": ""
     }, 
     {
@@ -3173,8 +3203,8 @@
         ], 
         "update": "", 
         "module": "SMB", 
-        "id": "CVE-2025-24228", 
         "credit": "Joseph Ravichandran (@0xjprx) of MIT CSAIL", 
+        "id": "CVE-2025-24228", 
         "rsr": ""
     }, 
     {
@@ -3192,8 +3222,8 @@
         ], 
         "update": "", 
         "module": "Installer", 
-        "id": "CVE-2025-24229", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24229", 
         "rsr": ""
     }, 
     {
@@ -3221,8 +3251,8 @@
         ], 
         "update": "", 
         "module": "CoreAudio", 
-        "id": "CVE-2025-24230", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24230", 
         "rsr": ""
     }, 
     {
@@ -3240,8 +3270,8 @@
         ], 
         "update": "", 
         "module": "Software Update", 
-        "id": "CVE-2025-24231", 
         "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos", 
+        "id": "CVE-2025-24231", 
         "rsr": ""
     }, 
     {
@@ -3259,8 +3289,8 @@
         ], 
         "update": "", 
         "module": "NSDocument", 
-        "id": "CVE-2025-24232", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24232", 
         "rsr": ""
     }, 
     {
@@ -3278,8 +3308,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-24233", 
         "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos.", 
+        "id": "CVE-2025-24233", 
         "rsr": ""
     }, 
     {
@@ -3297,8 +3327,8 @@
         ], 
         "update": "", 
         "module": "AccountPolicy", 
-        "id": "CVE-2025-24234", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24234", 
         "rsr": ""
     }, 
     {
@@ -3316,8 +3346,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "Kerberos Helper", 
-        "id": "CVE-2025-24235", 
         "credit": "Dave G. of Supernetworks", 
+        "id": "CVE-2025-24235", 
         "rsr": ""
     }, 
     {
@@ -3333,8 +3363,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-24236", 
         "credit": "Csaba Fitzl (@theevilbit) and Nolan Astrein of Kandji", 
+        "id": "CVE-2025-24236", 
         "rsr": ""
     }, 
     {
@@ -3360,8 +3390,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "BiometricKit", 
-        "id": "CVE-2025-24237", 
         "credit": "Yutong Xiu (@Sou1gh0st)", 
+        "id": "CVE-2025-24237", 
         "rsr": ""
     }, 
     {
@@ -3385,8 +3415,8 @@
         ], 
         "update": "", 
         "module": "libxpc", 
-        "id": "CVE-2025-24238", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24238", 
         "rsr": ""
     }, 
     {
@@ -3400,8 +3430,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-24239", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2025-24239", 
         "rsr": ""
     }, 
     {
@@ -3419,8 +3449,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-24240", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24240", 
         "rsr": ""
     }, 
     {
@@ -3438,8 +3468,8 @@
         ], 
         "update": "", 
         "module": "WindowServer", 
-        "id": "CVE-2025-24241", 
         "credit": "Andreas Hegenberg (folivora.AI GmbH)", 
+        "id": "CVE-2025-24241", 
         "rsr": ""
     }, 
     {
@@ -3453,8 +3483,8 @@
         ], 
         "update": "", 
         "module": "System Settings", 
-        "id": "CVE-2025-24242", 
         "credit": "Koh M. Nakagawa (@tsunek0h) of FFRI Security, Inc.", 
+        "id": "CVE-2025-24242", 
         "rsr": ""
     }, 
     {
@@ -3482,8 +3512,8 @@
         ], 
         "update": "", 
         "module": "Audio", 
-        "id": "CVE-2025-24243", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24243", 
         "rsr": ""
     }, 
     {
@@ -3509,8 +3539,8 @@
         ], 
         "update": "", 
         "module": "Audio", 
-        "id": "CVE-2025-24244", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-24244", 
         "rsr": ""
     }, 
     {
@@ -3524,8 +3554,8 @@
         ], 
         "update": "", 
         "module": "Authentication Services", 
-        "id": "CVE-2025-24245", 
         "credit": "Ian Mckay (@iann0036)", 
+        "id": "CVE-2025-24245", 
         "rsr": ""
     }, 
     {
@@ -3543,8 +3573,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "OpenSSH", 
-        "id": "CVE-2025-24246", 
         "credit": "Mickey Jin (@patch1t), and Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-24246", 
         "rsr": ""
     }, 
     {
@@ -3562,8 +3592,8 @@
         ], 
         "update": "", 
         "module": "WindowServer", 
-        "id": "CVE-2025-24247", 
         "credit": "PixiePoint Security", 
+        "id": "CVE-2025-24247", 
         "rsr": ""
     }, 
     {
@@ -3577,8 +3607,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-24248", 
         "credit": "Minghao Lin (@Y1nKoc) and Tong Liu@Lyutoon_ and \u98ce(binary_fmyy) and F00L", 
+        "id": "CVE-2025-24248", 
         "rsr": ""
     }, 
     {
@@ -3596,8 +3626,8 @@
         ], 
         "update": "", 
         "module": "Installer", 
-        "id": "CVE-2025-24249", 
         "credit": "YingQi Shi(@Mas0nShi) of DBAppSecurity's WeBin lab and Minghao Lin (@Y1nKoc)", 
+        "id": "CVE-2025-24249", 
         "rsr": ""
     }, 
     {
@@ -3615,8 +3645,8 @@
         ], 
         "update": "", 
         "module": "Security", 
-        "id": "CVE-2025-24250", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2025-24250", 
         "rsr": ""
     }, 
     {
@@ -3644,8 +3674,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24251", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24251", 
         "rsr": ""
     }, 
     {
@@ -3671,8 +3701,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24252", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24252", 
         "rsr": ""
     }, 
     {
@@ -3690,8 +3720,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-24253", 
         "credit": "Mickey Jin (@patch1t), Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-24253", 
         "rsr": ""
     }, 
     {
@@ -3709,8 +3739,8 @@
         ], 
         "update": "", 
         "module": "Software Update", 
-        "id": "CVE-2025-24254", 
         "credit": "Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2025-24254", 
         "rsr": ""
     }, 
     {
@@ -3728,8 +3758,8 @@
         ], 
         "update": "", 
         "module": "Disk Images", 
-        "id": "CVE-2025-24255", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24255", 
         "rsr": ""
     }, 
     {
@@ -3747,8 +3777,8 @@
         ], 
         "update": "", 
         "module": "GPU Drivers", 
-        "id": "CVE-2025-24256", 
         "credit": "Anonymous working with Trend Micro Zero Day Initiative, Murray Mike", 
+        "id": "CVE-2025-24256", 
         "rsr": ""
     }, 
     {
@@ -3768,8 +3798,8 @@
         ], 
         "update": "", 
         "module": "IOGPUFamily", 
-        "id": "CVE-2025-24257", 
         "credit": "Wang Yu of Cyberserval", 
+        "id": "CVE-2025-24257", 
         "rsr": ""
     }, 
     {
@@ -3787,8 +3817,8 @@
         ], 
         "update": "", 
         "module": "DiskArbitration", 
-        "id": "CVE-2025-24258", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji, an anonymous researcher", 
+        "id": "CVE-2025-24258", 
         "rsr": ""
     }, 
     {
@@ -3808,8 +3838,8 @@
         ], 
         "update": "", 
         "module": "Parental Controls", 
-        "id": "CVE-2025-24259", 
         "credit": "Noah Gregory (wts.dev)", 
+        "id": "CVE-2025-24259", 
         "rsr": ""
     }, 
     {
@@ -3827,8 +3857,8 @@
         ], 
         "update": "", 
         "module": "smbx", 
-        "id": "CVE-2025-24260", 
         "credit": "zbleet of QI-ANXIN TianGong Team", 
+        "id": "CVE-2025-24260", 
         "rsr": ""
     }, 
     {
@@ -3846,8 +3876,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-24261", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24261", 
         "rsr": ""
     }, 
     {
@@ -3861,8 +3891,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2025-24262", 
         "credit": "LFY@secsys from Fudan University", 
+        "id": "CVE-2025-24262", 
         "rsr": ""
     }, 
     {
@@ -3876,8 +3906,8 @@
         ], 
         "update": "", 
         "module": "StickerKit", 
-        "id": "CVE-2025-24263", 
         "credit": "Cristian Dinca of \"Tudor Vianu\" National High School of Computer Science, Romania", 
+        "id": "CVE-2025-24263", 
         "rsr": ""
     }, 
     {
@@ -3903,9 +3933,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-24264", 
         "credit": "Gary Kwong, and an anonymous researcher", 
         "bugzilla": "285892", 
+        "id": "CVE-2025-24264", 
         "rsr": ""
     }, 
     {
@@ -3923,8 +3953,8 @@
         ], 
         "update": "", 
         "module": "Xsan", 
-        "id": "CVE-2025-24265", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24265", 
         "rsr": ""
     }, 
     {
@@ -3942,8 +3972,8 @@
         ], 
         "update": "", 
         "module": "Xsan", 
-        "id": "CVE-2025-24266", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24266", 
         "rsr": ""
     }, 
     {
@@ -3961,8 +3991,8 @@
         ], 
         "update": "May 12, 2025", 
         "module": "DiskArbitration", 
-        "id": "CVE-2025-24267", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24267", 
         "rsr": ""
     }, 
     {
@@ -3976,8 +4006,8 @@
         ], 
         "update": "", 
         "module": "SMB", 
-        "id": "CVE-2025-24269", 
         "credit": "Alex Radocea of Supernetworks", 
+        "id": "CVE-2025-24269", 
         "rsr": ""
     }, 
     {
@@ -4003,8 +4033,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24270", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24270", 
         "rsr": ""
     }, 
     {
@@ -4030,8 +4060,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-24271", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-24271", 
         "rsr": ""
     }, 
     {
@@ -4049,8 +4079,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-24272", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24272", 
         "rsr": ""
     }, 
     {
@@ -4068,8 +4098,8 @@
         ], 
         "update": "", 
         "module": "GPU Drivers", 
-        "id": "CVE-2025-24273", 
         "credit": "Wang Yu of Cyberserval", 
+        "id": "CVE-2025-24273", 
         "rsr": ""
     }, 
     {
@@ -4087,8 +4117,8 @@
         ], 
         "update": "", 
         "module": "Mobile Device Service", 
-        "id": "CVE-2025-24274", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24274", 
         "rsr": ""
     }, 
     {
@@ -4106,8 +4136,8 @@
         ], 
         "update": "", 
         "module": "App Store", 
-        "id": "CVE-2025-24276", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-24276", 
         "rsr": ""
     }, 
     {
@@ -4125,8 +4155,8 @@
         ], 
         "update": "", 
         "module": "Crash Reporter", 
-        "id": "CVE-2025-24277", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji and Gergely Kalman (@gergely_kalman), and an anonymous researcher", 
+        "id": "CVE-2025-24277", 
         "rsr": ""
     }, 
     {
@@ -4144,8 +4174,8 @@
         ], 
         "update": "", 
         "module": "System Settings", 
-        "id": "CVE-2025-24278", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2025-24278", 
         "rsr": ""
     }, 
     {
@@ -4163,8 +4193,8 @@
         ], 
         "update": "", 
         "module": "Voice Control", 
-        "id": "CVE-2025-24279", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-24279", 
         "rsr": ""
     }, 
     {
@@ -4180,8 +4210,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2025-24280", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24280", 
         "rsr": ""
     }, 
     {
@@ -4195,8 +4225,8 @@
         ], 
         "update": "", 
         "module": "FeedbackLogger", 
-        "id": "CVE-2025-24281", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf)", 
+        "id": "CVE-2025-24281", 
         "rsr": ""
     }, 
     {
@@ -4210,8 +4240,8 @@
         ], 
         "update": "", 
         "module": "Software Update", 
-        "id": "CVE-2025-24282", 
         "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos", 
+        "id": "CVE-2025-24282", 
         "rsr": ""
     }, 
     {
@@ -4231,8 +4261,8 @@
         ], 
         "update": "", 
         "module": "Focus", 
-        "id": "CVE-2025-24283", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-24283", 
         "rsr": ""
     }, 
     {
@@ -4260,8 +4290,8 @@
         ], 
         "update": "May 16, 2025", 
         "module": "libxslt", 
-        "id": "CVE-2025-24855", 
         "credit": "Ivan Fratric of Google Project Zero", 
+        "id": "CVE-2025-24855", 
         "rsr": ""
     }, 
     {
@@ -4277,8 +4307,8 @@
         ], 
         "update": "", 
         "module": "OpenSSH", 
+        "credit": "", 
         "id": "CVE-2025-26465", 
-        "credit": "", 
         "rsr": ""
     }, 
     {
@@ -4294,8 +4324,8 @@
         ], 
         "update": "", 
         "module": "OpenSSH", 
-        "id": "CVE-2025-26466", 
         "credit": "", 
+        "id": "CVE-2025-26466", 
         "rsr": ""
     }, 
     {
@@ -4323,8 +4353,8 @@
         ], 
         "update": "", 
         "module": "libxml2", 
-        "id": "CVE-2025-27113", 
         "credit": "", 
+        "id": "CVE-2025-27113", 
         "rsr": ""
     }, 
     {
@@ -4338,8 +4368,8 @@
         ], 
         "update": "", 
         "module": "SDK", 
-        "id": "CVE-2025-30422", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-30422", 
         "rsr": ""
     }, 
     {
@@ -4357,8 +4387,8 @@
         ], 
         "update": "", 
         "module": "Photos Storage", 
-        "id": "CVE-2025-30424", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-30424", 
         "rsr": ""
     }, 
     {
@@ -4382,9 +4412,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-30425", 
         "credit": "an anonymous researcher", 
         "bugzilla": "286580", 
+        "id": "CVE-2025-30425", 
         "rsr": ""
     }, 
     {
@@ -4408,8 +4438,8 @@
         ], 
         "update": "", 
         "module": "NetworkExtension", 
-        "id": "CVE-2025-30426", 
         "credit": "Jimmy", 
+        "id": "CVE-2025-30426", 
         "rsr": ""
     }, 
     {
@@ -4435,9 +4465,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-30427", 
         "credit": "rheza (@ginggilBesel)", 
         "bugzilla": "285643", 
+        "id": "CVE-2025-30427", 
         "rsr": ""
     }, 
     {
@@ -4453,8 +4483,8 @@
         ], 
         "update": "", 
         "module": "Photos", 
-        "id": "CVE-2025-30428", 
         "credit": "Jax Reissner", 
+        "id": "CVE-2025-30428", 
         "rsr": ""
     }, 
     {
@@ -4482,8 +4512,8 @@
         ], 
         "update": "", 
         "module": "Calendar", 
-        "id": "CVE-2025-30429", 
         "credit": "Denis Tokarev (@illusionofcha0s)", 
+        "id": "CVE-2025-30429", 
         "rsr": ""
     }, 
     {
@@ -4503,8 +4533,8 @@
         ], 
         "update": "", 
         "module": "Authentication Services", 
-        "id": "CVE-2025-30430", 
         "credit": "Dominik Rath", 
+        "id": "CVE-2025-30430", 
         "rsr": ""
     }, 
     {
@@ -4530,8 +4560,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-30432", 
         "credit": "Michael (Biscuit) Thomas - @biscuit@social.lol", 
+        "id": "CVE-2025-30432", 
         "rsr": ""
     }, 
     {
@@ -4557,8 +4587,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2025-30433", 
         "credit": "Andrew James Gonzalez", 
+        "id": "CVE-2025-30433", 
         "rsr": ""
     }, 
     {
@@ -4572,8 +4602,8 @@
         ], 
         "update": "", 
         "module": "Journal", 
-        "id": "CVE-2025-30434", 
         "credit": "Muhammad Zaid Ghifari (Mr.ZheeV) and Kalimantan Utara", 
+        "id": "CVE-2025-30434", 
         "rsr": ""
     }, 
     {
@@ -4587,8 +4617,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-30435", 
         "credit": "K\u5b9d (@Pwnrin) and luckyu (@uuulucky)", 
+        "id": "CVE-2025-30435", 
         "rsr": ""
     }, 
     {
@@ -4602,8 +4632,8 @@
         ], 
         "update": "May 12, 2025", 
         "module": "Siri", 
-        "id": "CVE-2025-30436", 
         "credit": "Abhay Kailasia (@abhay_kailasia) from C-DAC Thiruvananthapuram India, Chi Yuan Chang of ZUSO ART and taikosoup", 
+        "id": "CVE-2025-30436", 
         "rsr": ""
     }, 
     {
@@ -4617,8 +4647,8 @@
         ], 
         "update": "", 
         "module": "IOMobileFrameBuffer", 
-        "id": "CVE-2025-30437", 
         "credit": "Ye Zhang (@VAR10CK) of Baidu Security", 
+        "id": "CVE-2025-30437", 
         "rsr": ""
     }, 
     {
@@ -4644,8 +4674,8 @@
         ], 
         "update": "", 
         "module": "Share Sheet", 
-        "id": "CVE-2025-30438", 
         "credit": "Halle Winkler, Politepix theoffcuts.org", 
+        "id": "CVE-2025-30438", 
         "rsr": ""
     }, 
     {
@@ -4665,8 +4695,8 @@
         ], 
         "update": "", 
         "module": "Focus", 
-        "id": "CVE-2025-30439", 
         "credit": "Andr.Ess", 
+        "id": "CVE-2025-30439", 
         "rsr": ""
     }, 
     {
@@ -4684,8 +4714,8 @@
         ], 
         "update": "", 
         "module": "Libinfo", 
-        "id": "CVE-2025-30440", 
         "credit": "Pawe\u0142 P\u0142atek (Trail of Bits)", 
+        "id": "CVE-2025-30440", 
         "rsr": ""
     }, 
     {
@@ -4699,8 +4729,8 @@
         ], 
         "update": "", 
         "module": "Instruments", 
-        "id": "CVE-2025-30441", 
         "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos", 
+        "id": "CVE-2025-30441", 
         "rsr": ""
     }, 
     {
@@ -4718,8 +4748,8 @@
         ], 
         "update": "", 
         "module": "SoftwareUpdate", 
-        "id": "CVE-2025-30442", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-30442", 
         "rsr": ""
     }, 
     {
@@ -4738,8 +4768,8 @@
         ], 
         "update": "", 
         "module": "Found in Apps", 
-        "id": "CVE-2025-30443", 
         "credit": "Bohdan Stasiuk (@bohdan_stasiuk)", 
+        "id": "CVE-2025-30443", 
         "rsr": ""
     }, 
     {
@@ -4757,8 +4787,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "SMB", 
-        "id": "CVE-2025-30444", 
         "credit": "Dave G. of Supernetworks", 
+        "id": "CVE-2025-30444", 
         "rsr": ""
     }, 
     {
@@ -4784,8 +4814,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-30445", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-30445", 
         "rsr": ""
     }, 
     {
@@ -4803,8 +4833,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-30446", 
         "credit": "Pedro T\u00f4rres (@t0rr3sp3dr0)", 
+        "id": "CVE-2025-30446", 
         "rsr": ""
     }, 
     {
@@ -4832,8 +4862,8 @@
         ], 
         "update": "", 
         "module": "Foundation", 
-        "id": "CVE-2025-30447", 
         "credit": "LFY@secsys from Fudan University", 
+        "id": "CVE-2025-30447", 
         "rsr": ""
     }, 
     {
@@ -4857,8 +4887,8 @@
         ], 
         "update": "", 
         "module": "iCloud Document Sharing", 
-        "id": "CVE-2025-30448", 
         "credit": "Dayton Pidhirney of Atredis Partners, Lyutoon and YenKoc", 
+        "id": "CVE-2025-30448", 
         "rsr": ""
     }, 
     {
@@ -4876,8 +4906,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-30449", 
         "credit": "Arsenii Kostromin (0x3c3e), and an anonymous researcher", 
+        "id": "CVE-2025-30449", 
         "rsr": ""
     }, 
     {
@@ -4895,8 +4925,8 @@
         ], 
         "update": "", 
         "module": "manpages", 
-        "id": "CVE-2025-30450", 
         "credit": "Pwn2car", 
+        "id": "CVE-2025-30450", 
         "rsr": ""
     }, 
     {
@@ -4910,8 +4940,8 @@
         ], 
         "update": "", 
         "module": "FaceTime", 
-        "id": "CVE-2025-30451", 
         "credit": "Kirin (@Pwnrin) and luckyu (@uuulucky)", 
+        "id": "CVE-2025-30451", 
         "rsr": ""
     }, 
     {
@@ -4929,8 +4959,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-30452", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-30452", 
         "rsr": ""
     }, 
     {
@@ -4948,8 +4978,8 @@
         ], 
         "update": "", 
         "module": "DiskArbitration", 
-        "id": "CVE-2025-30453", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji, an anonymous researcher", 
+        "id": "CVE-2025-30453", 
         "rsr": ""
     }, 
     {
@@ -4971,8 +5001,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia Playback", 
-        "id": "CVE-2025-30454", 
         "credit": "pattern-f (@pattern_F_)", 
+        "id": "CVE-2025-30454", 
         "rsr": ""
     }, 
     {
@@ -4988,8 +5018,8 @@
         ], 
         "update": "", 
         "module": "Dock", 
-        "id": "CVE-2025-30455", 
         "credit": "Mickey Jin (@patch1t), and an anonymous researcher", 
+        "id": "CVE-2025-30455", 
         "rsr": ""
     }, 
     {
@@ -5009,8 +5039,8 @@
         ], 
         "update": "", 
         "module": "DiskArbitration", 
-        "id": "CVE-2025-30456", 
         "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-30456", 
         "rsr": ""
     }, 
     {
@@ -5028,8 +5058,8 @@
         ], 
         "update": "", 
         "module": "SystemMigration", 
-        "id": "CVE-2025-30457", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-30457", 
         "rsr": ""
     }, 
     {
@@ -5043,8 +5073,8 @@
         ], 
         "update": "", 
         "module": "SceneKit", 
-        "id": "CVE-2025-30458", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-30458", 
         "rsr": ""
     }, 
     {
@@ -5062,8 +5092,8 @@
         ], 
         "update": "", 
         "module": "Automator", 
-        "id": "CVE-2025-30460", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-30460", 
         "rsr": ""
     }, 
     {
@@ -5077,8 +5107,8 @@
         ], 
         "update": "", 
         "module": "Foundation", 
-        "id": "CVE-2025-30461", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-30461", 
         "rsr": ""
     }, 
     {
@@ -5096,8 +5126,8 @@
         ], 
         "update": "", 
         "module": "dyld", 
-        "id": "CVE-2025-30462", 
         "credit": "Pietro Francesco Tirenna, Davide Silvetti, Abdel Adim Oisfi of Shielder (shielder.com)", 
+        "id": "CVE-2025-30462", 
         "rsr": ""
     }, 
     {
@@ -5113,8 +5143,8 @@
         ], 
         "update": "", 
         "module": "Handoff", 
-        "id": "CVE-2025-30463", 
         "credit": "mzzzz__", 
+        "id": "CVE-2025-30463", 
         "rsr": ""
     }, 
     {
@@ -5132,8 +5162,8 @@
         ], 
         "update": "", 
         "module": "GPU Drivers", 
-        "id": "CVE-2025-30464", 
         "credit": "ABC Research s.r.o.", 
+        "id": "CVE-2025-30464", 
         "rsr": ""
     }, 
     {
@@ -5157,8 +5187,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2025-30465", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-30465", 
         "rsr": ""
     }, 
     {
@@ -5178,8 +5208,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "Safari", 
-        "id": "CVE-2025-30466", 
         "credit": "Jaydev Ahire, @RenwaX23", 
+        "id": "CVE-2025-30466", 
         "rsr": ""
     }, 
     {
@@ -5199,8 +5229,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-30467", 
         "credit": "@RenwaX23", 
+        "id": "CVE-2025-30467", 
         "rsr": ""
     }, 
     {
@@ -5214,8 +5244,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-30468", 
         "credit": "Richard Hyunho Im (@richeeta)", 
+        "id": "CVE-2025-30468", 
         "rsr": ""
     }, 
     {
@@ -5229,8 +5259,8 @@
         ], 
         "update": "", 
         "module": "Photos", 
-        "id": "CVE-2025-30469", 
         "credit": "Dalibor Milanovic", 
+        "id": "CVE-2025-30469", 
         "rsr": ""
     }, 
     {
@@ -5254,8 +5284,8 @@
         ], 
         "update": "", 
         "module": "Maps", 
-        "id": "CVE-2025-30470", 
         "credit": "LFY@secsys from Fudan University", 
+        "id": "CVE-2025-30470", 
         "rsr": ""
     }, 
     {
@@ -5283,8 +5313,8 @@
         ], 
         "update": "", 
         "module": "Security", 
-        "id": "CVE-2025-30471", 
         "credit": "Bing Shi, Wenchao Li, Xiaolong Bai of Alibaba Group, Luyi Xing of Indiana University Bloomington", 
+        "id": "CVE-2025-30471", 
         "rsr": ""
     }, 
     {
@@ -5310,8 +5340,8 @@
         ], 
         "update": "", 
         "module": "libxpc", 
-        "id": "CVE-2025-31182", 
         "credit": "Alex Radocea and Dave G. of Supernetworks, \u98ce\u6c90\u4e91\u70df(@binary_fmyy) and Minghao Lin(@Y1nKoc)", 
+        "id": "CVE-2025-31182", 
         "rsr": ""
     }, 
     {
@@ -5333,8 +5363,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-31183", 
         "credit": "Kirin (@Pwnrin), Bohdan Stasiuk (@bohdan_stasiuk)", 
+        "id": "CVE-2025-31183", 
         "rsr": ""
     }, 
     {
@@ -5354,8 +5384,8 @@
         ], 
         "update": "", 
         "module": "Web Extensions", 
-        "id": "CVE-2025-31184", 
         "credit": "Alexander Heinrich (@Sn0wfreeze), SEEMOO, TU Darmstadt  & Mathy Vanhoef (@vanhoefm) and Jeroen Robben (@RobbenJeroen), DistriNet, KU Leuven", 
+        "id": "CVE-2025-31184", 
         "rsr": ""
     }, 
     {
@@ -5369,8 +5399,23 @@
         ], 
         "update": "May 16, 2025", 
         "module": "Safari", 
-        "id": "CVE-2025-31185", 
         "credit": "Jason Gendron (@gendron_jason), \uc774\uc900\uc131 (Junsung Lee)", 
+        "id": "CVE-2025-31185", 
+        "rsr": ""
+    }, 
+    {
+        "impact": "An app may be able to bypass Privacy preferences", 
+        "available": [
+            "macOS Sequoia 15.2 and later"
+        ], 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "links": [
+            "https://support.apple.com/en-us/122380"
+        ], 
+        "update": "January 16, 2026", 
+        "module": "Playgrounds", 
+        "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2025-31186", 
         "rsr": ""
     }, 
     {
@@ -5388,8 +5433,8 @@
         ], 
         "update": "", 
         "module": "Dock", 
-        "id": "CVE-2025-31187", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova", 
+        "id": "CVE-2025-31187", 
         "rsr": ""
     }, 
     {
@@ -5407,8 +5452,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-31188", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-31188", 
         "rsr": ""
     }, 
     {
@@ -5426,8 +5471,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "Disk Images", 
-        "id": "CVE-2025-31189", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-31189", 
         "rsr": ""
     }, 
     {
@@ -5451,8 +5496,8 @@
         ], 
         "update": "", 
         "module": "CoreServices", 
-        "id": "CVE-2025-31191", 
         "credit": "Jonathan Bar Or (@yo_yo_yo_jbo) of Microsoft, and an anonymous researcher", 
+        "id": "CVE-2025-31191", 
         "rsr": ""
     }, 
     {
@@ -5470,8 +5515,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-31192", 
         "credit": "Jaydev Ahire", 
+        "id": "CVE-2025-31192", 
         "rsr": ""
     }, 
     {
@@ -5489,8 +5534,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "Shortcuts", 
-        "id": "CVE-2025-31194", 
         "credit": "Dolf Hoegaerts, Michiel Devliegere", 
+        "id": "CVE-2025-31194", 
         "rsr": ""
     }, 
     {
@@ -5504,8 +5549,8 @@
         ], 
         "update": "May 12, 2025", 
         "module": "TCC", 
-        "id": "CVE-2025-31195", 
         "credit": "Pedro Jos\u00e9 Pereira Vieito (@pvieito / pvieito.com) and an anonymous researcher", 
+        "id": "CVE-2025-31195", 
         "rsr": ""
     }, 
     {
@@ -5533,8 +5578,8 @@
         ], 
         "update": "", 
         "module": "CoreGraphics", 
-        "id": "CVE-2025-31196", 
         "credit": "wac working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-31196", 
         "rsr": ""
     }, 
     {
@@ -5560,8 +5605,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-31197", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-31197", 
         "rsr": ""
     }, 
     {
@@ -5579,8 +5624,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "zip", 
-        "id": "CVE-2025-31198", 
         "credit": "Jonathan Bar Or (@yo_yo_yo_jbo) of Microsoft", 
+        "id": "CVE-2025-31198", 
         "rsr": ""
     }, 
     {
@@ -5600,8 +5645,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2025-31199", 
         "credit": "Jonathan Bar Or (@yo_yo_yo_jbo) of Microsoft, Alexia Wilson of Microsoft, Christine Fossaceca of Microsoft", 
+        "id": "CVE-2025-31199", 
         "rsr": ""
     }, 
     {
@@ -5623,8 +5668,8 @@
         ], 
         "update": "", 
         "module": "CoreAudio", 
-        "id": "CVE-2025-31200", 
         "credit": "Apple and Google Threat Analysis Group", 
+        "id": "CVE-2025-31200", 
         "rsr": ""
     }, 
     {
@@ -5644,8 +5689,8 @@
         ], 
         "update": "", 
         "module": "RPAC", 
-        "id": "CVE-2025-31201", 
         "credit": "Apple", 
+        "id": "CVE-2025-31201", 
         "rsr": ""
     }, 
     {
@@ -5665,8 +5710,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "AirPlay", 
-        "id": "CVE-2025-31202", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-31202", 
         "rsr": ""
     }, 
     {
@@ -5692,8 +5737,8 @@
         ], 
         "update": "April 28, 2025", 
         "module": "CoreUtils", 
-        "id": "CVE-2025-31203", 
         "credit": "Uri Katz (Oligo Security)", 
+        "id": "CVE-2025-31203", 
         "rsr": ""
     }, 
     {
@@ -5717,9 +5762,9 @@
         ], 
         "update": "November 21, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-31204", 
         "credit": "Nan Wang(@eternalsakura13)", 
         "bugzilla": "291506", 
+        "id": "CVE-2025-31204", 
         "rsr": ""
     }, 
     {
@@ -5743,9 +5788,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-31205", 
         "credit": "Ivan Fratric of Google Project Zero", 
         "bugzilla": "290992", 
+        "id": "CVE-2025-31205", 
         "rsr": ""
     }, 
     {
@@ -5771,9 +5816,9 @@
         ], 
         "update": "November 21, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-31206", 
         "credit": "Yuhao Hu, Yan Kang, Chenggang Wu, Xiaojie Wei", 
         "bugzilla": "290834", 
+        "id": "CVE-2025-31206", 
         "rsr": ""
     }, 
     {
@@ -5787,8 +5832,8 @@
         ], 
         "update": "", 
         "module": "FrontBoard", 
-        "id": "CVE-2025-31207", 
         "credit": "YingQi Shi (@Mas0nShi) of DBAppSecurity's WeBin lab, Duy Tr\u1ea7n (@khanhduytran0)", 
+        "id": "CVE-2025-31207", 
         "rsr": ""
     }, 
     {
@@ -5816,8 +5861,8 @@
         ], 
         "update": "", 
         "module": "CoreAudio", 
-        "id": "CVE-2025-31208", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-31208", 
         "rsr": ""
     }, 
     {
@@ -5845,8 +5890,8 @@
         ], 
         "update": "", 
         "module": "CoreGraphics", 
-        "id": "CVE-2025-31209", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-31209", 
         "rsr": ""
     }, 
     {
@@ -5862,8 +5907,8 @@
         ], 
         "update": "", 
         "module": "FaceTime", 
-        "id": "CVE-2025-31210", 
         "credit": "Andrew James Gonzalez", 
+        "id": "CVE-2025-31210", 
         "rsr": ""
     }, 
     {
@@ -5885,8 +5930,8 @@
         ], 
         "update": "", 
         "module": "Core Bluetooth", 
-        "id": "CVE-2025-31212", 
         "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)", 
+        "id": "CVE-2025-31212", 
         "rsr": ""
     }, 
     {
@@ -5906,8 +5951,8 @@
         ], 
         "update": "", 
         "module": "Security", 
-        "id": "CVE-2025-31213", 
         "credit": "Kirin (@Pwnrin) and 7feilee", 
+        "id": "CVE-2025-31213", 
         "rsr": ""
     }, 
     {
@@ -5921,8 +5966,8 @@
         ], 
         "update": "", 
         "module": "Baseband", 
-        "id": "CVE-2025-31214", 
         "credit": "\u79e6\u82e5\u6db5, \u5d14\u5fd7\u4f1f, and \u5d14\u5b9d\u6c5f", 
+        "id": "CVE-2025-31214", 
         "rsr": ""
     }, 
     {
@@ -5948,9 +5993,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-31215", 
         "credit": "Jiming Wang and Jikai Ren", 
         "bugzilla": "288814", 
+        "id": "CVE-2025-31215", 
         "rsr": ""
     }, 
     {
@@ -5966,8 +6011,8 @@
         ], 
         "update": "November 21, 2025", 
         "module": "Wi-Fi", 
-        "id": "CVE-2025-31216", 
         "credit": "Thibaud Kehler", 
+        "id": "CVE-2025-31216", 
         "rsr": ""
     }, 
     {
@@ -5993,9 +6038,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-31217", 
         "credit": "Ignacio Sanmillan (@ulexec)", 
         "bugzilla": "289677", 
+        "id": "CVE-2025-31217", 
         "rsr": ""
     }, 
     {
@@ -6009,8 +6054,8 @@
         ], 
         "update": "", 
         "module": "NetworkExtension", 
-        "id": "CVE-2025-31218", 
         "credit": "Adam M.", 
+        "id": "CVE-2025-31218", 
         "rsr": ""
     }, 
     {
@@ -6038,8 +6083,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-31219", 
         "credit": "Michael DePlante (@izobashi) and Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-31219", 
         "rsr": ""
     }, 
     {
@@ -6059,8 +6104,8 @@
         ], 
         "update": "", 
         "module": "Weather", 
-        "id": "CVE-2025-31220", 
         "credit": "Adam M.", 
+        "id": "CVE-2025-31220", 
         "rsr": ""
     }, 
     {
@@ -6088,8 +6133,8 @@
         ], 
         "update": "", 
         "module": "Security", 
-        "id": "CVE-2025-31221", 
         "credit": "Dave G.", 
+        "id": "CVE-2025-31221", 
         "rsr": ""
     }, 
     {
@@ -6115,8 +6160,8 @@
         ], 
         "update": "", 
         "module": "mDNSResponder", 
-        "id": "CVE-2025-31222", 
         "credit": "Pawe\u0142 P\u0142atek (Trail of Bits)", 
+        "id": "CVE-2025-31222", 
         "rsr": ""
     }, 
     {
@@ -6140,9 +6185,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-31223", 
         "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
         "bugzilla": "289387", 
+        "id": "CVE-2025-31223", 
         "rsr": ""
     }, 
     {
@@ -6160,8 +6205,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-31224", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-31224", 
         "rsr": ""
     }, 
     {
@@ -6175,8 +6220,8 @@
         ], 
         "update": "", 
         "module": "Call History", 
-        "id": "CVE-2025-31225", 
         "credit": "Deval Jariwala", 
+        "id": "CVE-2025-31225", 
         "rsr": ""
     }, 
     {
@@ -6200,8 +6245,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2025-31226", 
         "credit": "Saagar Jha", 
+        "id": "CVE-2025-31226", 
         "rsr": ""
     }, 
     {
@@ -6215,8 +6260,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2025-31227", 
         "credit": "Shehab Khan", 
+        "id": "CVE-2025-31227", 
         "rsr": ""
     }, 
     {
@@ -6232,8 +6277,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2025-31228", 
         "credit": "Andr.Ess", 
+        "id": "CVE-2025-31228", 
         "rsr": ""
     }, 
     {
@@ -6247,8 +6292,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2025-31229", 
         "credit": "Wong Wee Xiang", 
+        "id": "CVE-2025-31229", 
         "rsr": ""
     }, 
     {
@@ -6262,8 +6307,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "libnetcore", 
-        "id": "CVE-2025-31231", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2025-31231", 
         "rsr": ""
     }, 
     {
@@ -6281,8 +6326,8 @@
         ], 
         "update": "", 
         "module": "Installer", 
-        "id": "CVE-2025-31232", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-31232", 
         "rsr": ""
     }, 
     {
@@ -6310,8 +6355,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-31233", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-31233", 
         "rsr": ""
     }, 
     {
@@ -6331,8 +6376,8 @@
         ], 
         "update": "", 
         "module": "Pro Res", 
-        "id": "CVE-2025-31234", 
         "credit": "CertiK (@CertiK)", 
+        "id": "CVE-2025-31234", 
         "rsr": ""
     }, 
     {
@@ -6352,8 +6397,8 @@
         ], 
         "update": "", 
         "module": "Audio", 
-        "id": "CVE-2025-31235", 
         "credit": "Dillon Franke working with Google Project Zero", 
+        "id": "CVE-2025-31235", 
         "rsr": ""
     }, 
     {
@@ -6367,8 +6412,8 @@
         ], 
         "update": "", 
         "module": "Finder", 
-        "id": "CVE-2025-31236", 
         "credit": "Kirin@Pwnrin and LFY@secsys from Fudan University", 
+        "id": "CVE-2025-31236", 
         "rsr": ""
     }, 
     {
@@ -6386,8 +6431,8 @@
         ], 
         "update": "", 
         "module": "afpfs", 
-        "id": "CVE-2025-31237", 
         "credit": "Dave G.", 
+        "id": "CVE-2025-31237", 
         "rsr": ""
     }, 
     {
@@ -6411,9 +6456,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-31238", 
         "credit": "wac working with Trend Micro Zero Day Initiative", 
         "bugzilla": "289653", 
+        "id": "CVE-2025-31238", 
         "rsr": ""
     }, 
     {
@@ -6441,8 +6486,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-31239", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-31239", 
         "rsr": ""
     }, 
     {
@@ -6460,8 +6505,8 @@
         ], 
         "update": "", 
         "module": "afpfs", 
-        "id": "CVE-2025-31240", 
         "credit": "Dave G.", 
+        "id": "CVE-2025-31240", 
         "rsr": ""
     }, 
     {
@@ -6489,8 +6534,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-31241", 
         "credit": "Christian Kohlsch\u00fctter", 
+        "id": "CVE-2025-31241", 
         "rsr": ""
     }, 
     {
@@ -6520,8 +6565,8 @@
         ], 
         "update": "November 21, 2025", 
         "module": "StoreKit", 
-        "id": "CVE-2025-31242", 
         "credit": "Eric Dorphy of Twin Cities App Dev LLC", 
+        "id": "CVE-2025-31242", 
         "rsr": ""
     }, 
     {
@@ -6539,8 +6584,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-31243", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-31243", 
         "rsr": ""
     }, 
     {
@@ -6554,8 +6599,8 @@
         ], 
         "update": "", 
         "module": "quarantine", 
-        "id": "CVE-2025-31244", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-31244", 
         "rsr": ""
     }, 
     {
@@ -6581,8 +6626,8 @@
         ], 
         "update": "", 
         "module": "Pro Res", 
-        "id": "CVE-2025-31245", 
         "credit": "wac", 
+        "id": "CVE-2025-31245", 
         "rsr": ""
     }, 
     {
@@ -6598,8 +6643,8 @@
         ], 
         "update": "", 
         "module": "afpfs", 
-        "id": "CVE-2025-31246", 
         "credit": "Joseph Ravichandran (@0xjprx) of MIT CSAIL", 
+        "id": "CVE-2025-31246", 
         "rsr": ""
     }, 
     {
@@ -6617,8 +6662,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2025-31247", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-31247", 
         "rsr": ""
     }, 
     {
@@ -6636,8 +6681,8 @@
         ], 
         "update": "November 21, 2025", 
         "module": "UserAccountUpdater", 
-        "id": "CVE-2025-31248", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-31248", 
         "rsr": ""
     }, 
     {
@@ -6651,8 +6696,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-31249", 
         "credit": "Ryan Dowd (@_rdowd)", 
+        "id": "CVE-2025-31249", 
         "rsr": ""
     }, 
     {
@@ -6666,8 +6711,8 @@
         ], 
         "update": "", 
         "module": "TCC", 
-        "id": "CVE-2025-31250", 
         "credit": "Noah Gregory (wts.dev)", 
+        "id": "CVE-2025-31250", 
         "rsr": ""
     }, 
     {
@@ -6695,8 +6740,8 @@
         ], 
         "update": "", 
         "module": "AppleJPEG", 
-        "id": "CVE-2025-31251", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-31251", 
         "rsr": ""
     }, 
     {
@@ -6710,8 +6755,8 @@
         ], 
         "update": "", 
         "module": "FaceTime", 
-        "id": "CVE-2025-31253", 
         "credit": "Dalibor Milanovic", 
+        "id": "CVE-2025-31253", 
         "rsr": ""
     }, 
     {
@@ -6727,8 +6772,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-31254", 
         "credit": "Evan Waelde", 
+        "id": "CVE-2025-31254", 
         "rsr": ""
     }, 
     {
@@ -6752,8 +6797,8 @@
         ], 
         "update": "", 
         "module": "IOKit", 
-        "id": "CVE-2025-31255", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-31255", 
         "rsr": ""
     }, 
     {
@@ -6767,8 +6812,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2025-31256", 
         "credit": "Sourabhkumar Mishra", 
+        "id": "CVE-2025-31256", 
         "rsr": ""
     }, 
     {
@@ -6792,9 +6837,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-31257", 
         "credit": "Juergen Schmied of Lynck GmbH", 
         "bugzilla": "290985", 
+        "id": "CVE-2025-31257", 
         "rsr": ""
     }, 
     {
@@ -6808,8 +6853,8 @@
         ], 
         "update": "", 
         "module": "RemoteViewServices", 
-        "id": "CVE-2025-31258", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-31258", 
         "rsr": ""
     }, 
     {
@@ -6828,8 +6873,8 @@
         ], 
         "update": "", 
         "module": "Screenshots", 
-        "id": "CVE-2025-31259", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-31259", 
         "rsr": ""
     }, 
     {
@@ -6843,8 +6888,8 @@
         ], 
         "update": "", 
         "module": "Apple Intelligence Reports", 
-        "id": "CVE-2025-31260", 
         "credit": "Thomas V\u00f6lkl (@vollkorntomate), SEEMOO, TU Darmstadt", 
+        "id": "CVE-2025-31260", 
         "rsr": ""
     }, 
     {
@@ -6862,8 +6907,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "StorageKit", 
-        "id": "CVE-2025-31261", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-31261", 
         "rsr": ""
     }, 
     {
@@ -6885,8 +6930,8 @@
         ], 
         "update": "May 16, 2025", 
         "module": "PackageKit", 
-        "id": "CVE-2025-31262", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-31262", 
         "rsr": ""
     }, 
     {
@@ -6900,8 +6945,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "IOMobileFrameBuffer", 
-        "id": "CVE-2025-31263", 
         "credit": "Ye Zhang (@VAR10CK) of Baidu Security", 
+        "id": "CVE-2025-31263", 
         "rsr": ""
     }, 
     {
@@ -6919,8 +6964,8 @@
         ], 
         "update": "May 28, 2025", 
         "module": "macOS Recovery", 
-        "id": "CVE-2025-31264", 
         "credit": "Diamant Osmani & Valdrin Haliti [Kosov\u00eb], dbpeppe, Solitechworld", 
+        "id": "CVE-2025-31264", 
         "rsr": ""
     }, 
     {
@@ -6936,8 +6981,8 @@
         ], 
         "update": "November 21, 2025", 
         "module": "Safari", 
-        "id": "CVE-2025-31266", 
         "credit": "@RenwaX23", 
+        "id": "CVE-2025-31266", 
         "rsr": ""
     }, 
     {
@@ -6951,8 +6996,8 @@
         ], 
         "update": "", 
         "module": "App Store Connect", 
-        "id": "CVE-2025-31267", 
         "credit": "Adam Sot\u00e1k, Tim Kl\u00f6\u00df", 
+        "id": "CVE-2025-31267", 
         "rsr": ""
     }, 
     {
@@ -6970,8 +7015,8 @@
         ], 
         "update": "", 
         "module": "Apple Online Store Kit", 
-        "id": "CVE-2025-31268", 
         "credit": "Csaba Fitzl (@theevilbit) and Nolan Astrein of Kandji", 
+        "id": "CVE-2025-31268", 
         "rsr": ""
     }, 
     {
@@ -6987,8 +7032,8 @@
         ], 
         "update": "", 
         "module": "Printing", 
-        "id": "CVE-2025-31269", 
         "credit": "Zhongcheng Li from IES Red Team of ByteDance", 
+        "id": "CVE-2025-31269", 
         "rsr": ""
     }, 
     {
@@ -7002,8 +7047,8 @@
         ], 
         "update": "", 
         "module": "Foundation", 
-        "id": "CVE-2025-31270", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-31270", 
         "rsr": ""
     }, 
     {
@@ -7017,8 +7062,8 @@
         ], 
         "update": "", 
         "module": "FaceTime", 
-        "id": "CVE-2025-31271", 
         "credit": "Shantanu Thakur", 
+        "id": "CVE-2025-31271", 
         "rsr": ""
     }, 
     {
@@ -7042,9 +7087,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-31273", 
         "credit": "Yuhao Hu, Yan Kang, Chenggang Wu, and Xiaojie Wei", 
         "bugzilla": "293579", 
+        "id": "CVE-2025-31273", 
         "rsr": ""
     }, 
     {
@@ -7058,8 +7103,8 @@
         ], 
         "update": "", 
         "module": "MediaRemote", 
-        "id": "CVE-2025-31275", 
         "credit": "Dora Orak", 
+        "id": "CVE-2025-31275", 
         "rsr": ""
     }, 
     {
@@ -7075,8 +7120,8 @@
         ], 
         "update": "", 
         "module": "Mail Drafts", 
-        "id": "CVE-2025-31276", 
         "credit": "Himanshu Bharti (@Xpl0itme)", 
+        "id": "CVE-2025-31276", 
         "rsr": ""
     }, 
     {
@@ -7100,9 +7145,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-31277", 
         "credit": "Yuhao Hu, Yan Kang, Chenggang Wu, and Xiaojie Wei", 
         "bugzilla": "291745", 
+        "id": "CVE-2025-31277", 
         "rsr": ""
     }, 
     {
@@ -7128,9 +7173,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-31278", 
         "credit": "Yuhao Hu, Yan Kang, Chenggang Wu, and Xiaojie Wei", 
         "bugzilla": "291742", 
+        "id": "CVE-2025-31278", 
         "rsr": ""
     }, 
     {
@@ -7150,8 +7195,8 @@
         ], 
         "update": "", 
         "module": "Find My", 
-        "id": "CVE-2025-31279", 
         "credit": "Dawuge of Shuffle Team", 
+        "id": "CVE-2025-31279", 
         "rsr": ""
     }, 
     {
@@ -7165,8 +7210,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-31280", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-31280", 
         "rsr": ""
     }, 
     {
@@ -7186,8 +7231,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-31281", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-31281", 
         "rsr": ""
     }, 
     {
@@ -7201,8 +7246,8 @@
         ], 
         "update": "", 
         "module": "sudo", 
-        "id": "CVE-2025-32462", 
         "credit": "", 
+        "id": "CVE-2025-32462", 
         "rsr": ""
     }, 
     {
@@ -7220,8 +7265,8 @@
         ], 
         "update": "", 
         "module": "Perl", 
-        "id": "CVE-2025-40909", 
         "credit": "", 
+        "id": "CVE-2025-40909", 
         "rsr": ""
     }, 
     {
@@ -7239,8 +7284,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2025-43184", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43184", 
         "rsr": ""
     }, 
     {
@@ -7254,8 +7299,8 @@
         ], 
         "update": "", 
         "module": "Voice Control", 
-        "id": "CVE-2025-43185", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43185", 
         "rsr": ""
     }, 
     {
@@ -7281,8 +7326,8 @@
         ], 
         "update": "", 
         "module": "afclip", 
-        "id": "CVE-2025-43186", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43186", 
         "rsr": ""
     }, 
     {
@@ -7300,8 +7345,8 @@
         ], 
         "update": "", 
         "module": "Disk Images", 
-        "id": "CVE-2025-43187", 
         "credit": "\u98ce\u6c90\u4e91\u70df (@binary_fmyy) and Minghao Lin (@Y1nKoc)", 
+        "id": "CVE-2025-43187", 
         "rsr": ""
     }, 
     {
@@ -7315,8 +7360,8 @@
         ], 
         "update": "", 
         "module": "DiskArbitration", 
-        "id": "CVE-2025-43188", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43188", 
         "rsr": ""
     }, 
     {
@@ -7332,8 +7377,8 @@
         ], 
         "update": "", 
         "module": "WebContentFilter", 
-        "id": "CVE-2025-43189", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43189", 
         "rsr": ""
     }, 
     {
@@ -7357,8 +7402,8 @@
         ], 
         "update": "", 
         "module": "Spell Check", 
-        "id": "CVE-2025-43190", 
         "credit": "Noah Gregory (wts.dev)", 
+        "id": "CVE-2025-43190", 
         "rsr": ""
     }, 
     {
@@ -7376,8 +7421,8 @@
         ], 
         "update": "", 
         "module": "Admin Framework", 
-        "id": "CVE-2025-43191", 
         "credit": "Ryan Dowd (@_rdowd)", 
+        "id": "CVE-2025-43191", 
         "rsr": ""
     }, 
     {
@@ -7393,8 +7438,8 @@
         ], 
         "update": "", 
         "module": "Managed Configuration", 
-        "id": "CVE-2025-43192", 
         "credit": "Pyrophoria", 
+        "id": "CVE-2025-43192", 
         "rsr": ""
     }, 
     {
@@ -7412,8 +7457,8 @@
         ], 
         "update": "", 
         "module": "SecurityAgent", 
-        "id": "CVE-2025-43193", 
         "credit": "Dawuge of Shuffle Team", 
+        "id": "CVE-2025-43193", 
         "rsr": ""
     }, 
     {
@@ -7431,8 +7476,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-43194", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43194", 
         "rsr": ""
     }, 
     {
@@ -7450,8 +7495,8 @@
         ], 
         "update": "", 
         "module": "CoreServices", 
-        "id": "CVE-2025-43195", 
         "credit": "\u98ce\u6c90\u4e91\u70df (@binary_fmyy) and Minghao Lin (@Y1nKoc)", 
+        "id": "CVE-2025-43195", 
         "rsr": ""
     }, 
     {
@@ -7469,8 +7514,8 @@
         ], 
         "update": "", 
         "module": "libxpc", 
-        "id": "CVE-2025-43196", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43196", 
         "rsr": ""
     }, 
     {
@@ -7488,8 +7533,8 @@
         ], 
         "update": "", 
         "module": "Single Sign-On", 
-        "id": "CVE-2025-43197", 
         "credit": "Shang-De Jiang and Kazma Ye of CyCraft Technology", 
+        "id": "CVE-2025-43197", 
         "rsr": ""
     }, 
     {
@@ -7505,8 +7550,8 @@
         ], 
         "update": "", 
         "module": "Dock", 
-        "id": "CVE-2025-43198", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43198", 
         "rsr": ""
     }, 
     {
@@ -7524,8 +7569,8 @@
         ], 
         "update": "", 
         "module": "Core Services", 
-        "id": "CVE-2025-43199", 
         "credit": "Gergely Kalman (@gergely_kalman), an anonymous researcher", 
+        "id": "CVE-2025-43199", 
         "rsr": ""
     }, 
     {
@@ -7555,8 +7600,8 @@
         ], 
         "update": "June 11, 2025", 
         "module": "Messages", 
-        "id": "CVE-2025-43200", 
         "credit": "Apple", 
+        "id": "CVE-2025-43200", 
         "rsr": ""
     }, 
     {
@@ -7570,8 +7615,8 @@
         ], 
         "update": "", 
         "module": "Apple Music Classical", 
-        "id": "CVE-2025-43201", 
         "credit": "Pankaj Kumar Thakur (linkedin.com/in/pankaj1261/)", 
+        "id": "CVE-2025-43201", 
         "rsr": ""
     }, 
     {
@@ -7587,8 +7632,8 @@
         ], 
         "update": "", 
         "module": "libnetcore", 
-        "id": "CVE-2025-43202", 
         "credit": "Brian Carpenter", 
+        "id": "CVE-2025-43202", 
         "rsr": ""
     }, 
     {
@@ -7604,8 +7649,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2025-43203", 
         "credit": "Tom Brzezinski", 
+        "id": "CVE-2025-43203", 
         "rsr": ""
     }, 
     {
@@ -7619,8 +7664,8 @@
         ], 
         "update": "", 
         "module": "RemoteViewServices", 
-        "id": "CVE-2025-43204", 
         "credit": "@zlluny, Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43204", 
         "rsr": ""
     }, 
     {
@@ -7648,8 +7693,8 @@
         ], 
         "update": "July 29, 2025", 
         "module": "Audio", 
-        "id": "CVE-2025-43205", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43205", 
         "rsr": ""
     }, 
     {
@@ -7667,8 +7712,8 @@
         ], 
         "update": "", 
         "module": "System Settings", 
-        "id": "CVE-2025-43206", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2025-43206", 
         "rsr": ""
     }, 
     {
@@ -7682,8 +7727,8 @@
         ], 
         "update": "", 
         "module": "Music", 
-        "id": "CVE-2025-43207", 
         "credit": "Rodolphe Brunetti (@eisw0lf) of Lupus Nova, an anonymous researcher", 
+        "id": "CVE-2025-43207", 
         "rsr": ""
     }, 
     {
@@ -7697,8 +7742,8 @@
         ], 
         "update": "", 
         "module": "Airport", 
-        "id": "CVE-2025-43208", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji, Kirin (@Pwnrin)", 
+        "id": "CVE-2025-43208", 
         "rsr": ""
     }, 
     {
@@ -7726,8 +7771,8 @@
         ], 
         "update": "", 
         "module": "ICU", 
-        "id": "CVE-2025-43209", 
         "credit": "Gary Kwong working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43209", 
         "rsr": ""
     }, 
     {
@@ -7755,8 +7800,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-43210", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43210", 
         "rsr": ""
     }, 
     {
@@ -7782,9 +7827,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43211", 
         "credit": "Yuhao Hu, Yan Kang, Chenggang Wu, and Xiaojie Wei", 
         "bugzilla": "293730", 
+        "id": "CVE-2025-43211", 
         "rsr": ""
     }, 
     {
@@ -7808,9 +7853,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43212", 
         "credit": "Nan Wang (@eternalsakura13) and Ziling Chen", 
         "bugzilla": "293197", 
+        "id": "CVE-2025-43212", 
         "rsr": ""
     }, 
     {
@@ -7834,9 +7879,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43213", 
         "credit": "Google V8 Security Team", 
         "bugzilla": "292621", 
+        "id": "CVE-2025-43213", 
         "rsr": ""
     }, 
     {
@@ -7860,9 +7905,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43214", 
         "credit": "shandikri working with Trend Micro Zero Day Initiative, Google V8 Security Team", 
         "bugzilla": "292599", 
+        "id": "CVE-2025-43214", 
         "rsr": ""
     }, 
     {
@@ -7876,8 +7921,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-43215", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43215", 
         "rsr": ""
     }, 
     {
@@ -7903,9 +7948,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43216", 
         "credit": "Ignacio Sanmillan (@ulexec)", 
         "bugzilla": "295382", 
+        "id": "CVE-2025-43216", 
         "rsr": ""
     }, 
     {
@@ -7921,8 +7966,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2025-43217", 
         "credit": "Himanshu Bharti (@Xpl0itme)", 
+        "id": "CVE-2025-43217", 
         "rsr": ""
     }, 
     {
@@ -7936,8 +7981,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-43218", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43218", 
         "rsr": ""
     }, 
     {
@@ -7951,8 +7996,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-43219", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43219", 
         "rsr": ""
     }, 
     {
@@ -7972,8 +8017,8 @@
         ], 
         "update": "", 
         "module": "copyfile", 
-        "id": "CVE-2025-43220", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43220", 
         "rsr": ""
     }, 
     {
@@ -7993,8 +8038,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-43221", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43221", 
         "rsr": ""
     }, 
     {
@@ -8014,8 +8059,8 @@
         ], 
         "update": "", 
         "module": "CFNetwork", 
-        "id": "CVE-2025-43222", 
         "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
+        "id": "CVE-2025-43222", 
         "rsr": ""
     }, 
     {
@@ -8043,8 +8088,8 @@
         ], 
         "update": "", 
         "module": "CFNetwork", 
-        "id": "CVE-2025-43223", 
         "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
+        "id": "CVE-2025-43223", 
         "rsr": ""
     }, 
     {
@@ -8064,8 +8109,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-43224", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43224", 
         "rsr": ""
     }, 
     {
@@ -8085,8 +8130,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2025-43225", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-43225", 
         "rsr": ""
     }, 
     {
@@ -8112,8 +8157,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2025-43226", 
         "credit": "", 
+        "id": "CVE-2025-43226", 
         "rsr": ""
     }, 
     {
@@ -8137,9 +8182,9 @@
         ], 
         "update": "October 15, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-43227", 
         "credit": "Gilad Moav, Yehuda Afek, Anat Bremler-Barr, and Amit Klein", 
         "bugzilla": "292888", 
+        "id": "CVE-2025-43227", 
         "rsr": ""
     }, 
     {
@@ -8155,9 +8200,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43228", 
         "credit": "Jaydev Ahire", 
         "bugzilla": "294374", 
+        "id": "CVE-2025-43228", 
         "rsr": ""
     }, 
     {
@@ -8173,9 +8218,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43229", 
         "credit": "Martin Bajanik of Fingerprint, Ammar Askar", 
         "bugzilla": "285927", 
+        "id": "CVE-2025-43229", 
         "rsr": ""
     }, 
     {
@@ -8199,8 +8244,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia Playback", 
-        "id": "CVE-2025-43230", 
         "credit": "Chi Yuan Chang of ZUSO ART and taikosoup", 
+        "id": "CVE-2025-43230", 
         "rsr": ""
     }, 
     {
@@ -8214,8 +8259,8 @@
         ], 
         "update": "", 
         "module": "LaunchServices", 
-        "id": "CVE-2025-43231", 
         "credit": "Mickey Jin (@patch1t), Kirin@Pwnrin and LFY@secsys from Fudan University, an anonymous researcher", 
+        "id": "CVE-2025-43231", 
         "rsr": ""
     }, 
     {
@@ -8233,8 +8278,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-43232", 
         "credit": "Koh M. Nakagawa (@tsunek0h), Csaba Fitzl (@theevilbit) of Kandji and Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-43232", 
         "rsr": ""
     }, 
     {
@@ -8252,8 +8297,8 @@
         ], 
         "update": "", 
         "module": "Security", 
-        "id": "CVE-2025-43233", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2025-43233", 
         "rsr": ""
     }, 
     {
@@ -8275,8 +8320,8 @@
         ], 
         "update": "", 
         "module": "Metal", 
-        "id": "CVE-2025-43234", 
         "credit": "Vlad Stolyarov of Google's Threat Analysis Group", 
+        "id": "CVE-2025-43234", 
         "rsr": ""
     }, 
     {
@@ -8290,8 +8335,8 @@
         ], 
         "update": "", 
         "module": "Power Management", 
-        "id": "CVE-2025-43235", 
         "credit": "Dawuge of Shuffle Team", 
+        "id": "CVE-2025-43235", 
         "rsr": ""
     }, 
     {
@@ -8309,8 +8354,8 @@
         ], 
         "update": "", 
         "module": "Power Management", 
-        "id": "CVE-2025-43236", 
         "credit": "Dawuge of Shuffle Team", 
+        "id": "CVE-2025-43236", 
         "rsr": ""
     }, 
     {
@@ -8324,8 +8369,8 @@
         ], 
         "update": "", 
         "module": "WebContentFilter", 
-        "id": "CVE-2025-43237", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43237", 
         "rsr": ""
     }, 
     {
@@ -8343,8 +8388,8 @@
         ], 
         "update": "", 
         "module": "Xsan", 
-        "id": "CVE-2025-43238", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43238", 
         "rsr": ""
     }, 
     {
@@ -8362,8 +8407,8 @@
         ], 
         "update": "", 
         "module": "sips", 
-        "id": "CVE-2025-43239", 
         "credit": "Nikolai Skliarenko of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43239", 
         "rsr": ""
     }, 
     {
@@ -8379,9 +8424,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43240", 
         "credit": "Syarif Muhammad Sajjad", 
         "bugzilla": "293994", 
+        "id": "CVE-2025-43240", 
         "rsr": ""
     }, 
     {
@@ -8399,8 +8444,8 @@
         ], 
         "update": "", 
         "module": "SceneKit", 
-        "id": "CVE-2025-43241", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43241", 
         "rsr": ""
     }, 
     {
@@ -8418,8 +8463,8 @@
         ], 
         "update": "", 
         "module": "Software Update", 
-        "id": "CVE-2025-43243", 
         "credit": "Keith Yeo (@kyeojy) from Team Orca of Sea Security, Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43243", 
         "rsr": ""
     }, 
     {
@@ -8437,8 +8482,8 @@
         ], 
         "update": "", 
         "module": "AMD", 
-        "id": "CVE-2025-43244", 
         "credit": "ABC Research s.r.o.", 
+        "id": "CVE-2025-43244", 
         "rsr": ""
     }, 
     {
@@ -8456,8 +8501,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43245", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43245", 
         "rsr": ""
     }, 
     {
@@ -8473,8 +8518,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2025-43246", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43246", 
         "rsr": ""
     }, 
     {
@@ -8492,8 +8537,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-43247", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43247", 
         "rsr": ""
     }, 
     {
@@ -8509,8 +8554,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43248", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43248", 
         "rsr": ""
     }, 
     {
@@ -8528,8 +8573,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43249", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43249", 
         "rsr": ""
     }, 
     {
@@ -8547,8 +8592,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2025-43250", 
         "credit": "Mickey Jin (@patch1t), Yuebin Sun (@yuebinsun2020)", 
+        "id": "CVE-2025-43250", 
         "rsr": ""
     }, 
     {
@@ -8562,8 +8607,8 @@
         ], 
         "update": "", 
         "module": "User Management", 
-        "id": "CVE-2025-43251", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43251", 
         "rsr": ""
     }, 
     {
@@ -8577,8 +8622,8 @@
         ], 
         "update": "", 
         "module": "zip", 
-        "id": "CVE-2025-43252", 
         "credit": "Jonathan Bar Or (@yo_yo_yo_jbo) of Microsoft", 
+        "id": "CVE-2025-43252", 
         "rsr": ""
     }, 
     {
@@ -8594,8 +8639,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43253", 
         "credit": "Noah Gregory (wts.dev)", 
+        "id": "CVE-2025-43253", 
         "rsr": ""
     }, 
     {
@@ -8613,8 +8658,8 @@
         ], 
         "update": "", 
         "module": "file", 
-        "id": "CVE-2025-43254", 
         "credit": "2ourc3 | Salim Largo", 
+        "id": "CVE-2025-43254", 
         "rsr": ""
     }, 
     {
@@ -8632,8 +8677,8 @@
         ], 
         "update": "August 28, 2025", 
         "module": "GPU Drivers", 
-        "id": "CVE-2025-43255", 
         "credit": "Anonymous working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43255", 
         "rsr": ""
     }, 
     {
@@ -8649,8 +8694,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-43256", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43256", 
         "rsr": ""
     }, 
     {
@@ -8664,8 +8709,8 @@
         ], 
         "update": "", 
         "module": "Archive Utility", 
-        "id": "CVE-2025-43257", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43257", 
         "rsr": ""
     }, 
     {
@@ -8683,8 +8728,8 @@
         ], 
         "update": "", 
         "module": "WindowServer", 
-        "id": "CVE-2025-43259", 
         "credit": "Martti H\u00fctt", 
+        "id": "CVE-2025-43259", 
         "rsr": ""
     }, 
     {
@@ -8700,8 +8745,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-43260", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2025-43260", 
         "rsr": ""
     }, 
     {
@@ -8719,8 +8764,8 @@
         ], 
         "update": "", 
         "module": "File Bookmark", 
-        "id": "CVE-2025-43261", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43261", 
         "rsr": ""
     }, 
     {
@@ -8734,8 +8779,8 @@
         ], 
         "update": "November 3, 2025", 
         "module": "Trusted Device", 
-        "id": "CVE-2025-43262", 
         "credit": "Pyrophoria, an anonymous researcher of GrapheneOS, James J Kalafus, Michel Migdal, ken super", 
+        "id": "CVE-2025-43262", 
         "rsr": ""
     }, 
     {
@@ -8749,8 +8794,8 @@
         ], 
         "update": "", 
         "module": "IDE CoreML", 
-        "id": "CVE-2025-43263", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43263", 
         "rsr": ""
     }, 
     {
@@ -8764,8 +8809,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-43264", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43264", 
         "rsr": ""
     }, 
     {
@@ -8789,9 +8834,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43265", 
         "credit": "HexRabbit (@h3xr4bb1t) from DEVCORE Research Team", 
         "bugzilla": "294182", 
+        "id": "CVE-2025-43265", 
         "rsr": ""
     }, 
     {
@@ -8809,8 +8854,8 @@
         ], 
         "update": "", 
         "module": "NSSpellChecker", 
-        "id": "CVE-2025-43266", 
         "credit": "Noah Gregory (wts.dev)", 
+        "id": "CVE-2025-43266", 
         "rsr": ""
     }, 
     {
@@ -8824,8 +8869,8 @@
         ], 
         "update": "", 
         "module": "Directory Utility", 
-        "id": "CVE-2025-43267", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43267", 
         "rsr": ""
     }, 
     {
@@ -8839,8 +8884,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-43268", 
         "credit": "Gergely Kalman (@gergely_kalman), Arsenii Kostromin (0x3c3e)", 
+        "id": "CVE-2025-43268", 
         "rsr": ""
     }, 
     {
@@ -8858,8 +8903,8 @@
         ], 
         "update": "October 15, 2025", 
         "module": "Notes", 
-        "id": "CVE-2025-43270", 
         "credit": "Minghao Lin and Jiaxun Zhu", 
+        "id": "CVE-2025-43270", 
         "rsr": ""
     }, 
     {
@@ -8881,9 +8926,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43272", 
         "credit": "Big Bear", 
         "bugzilla": "294550", 
+        "id": "CVE-2025-43272", 
         "rsr": ""
     }, 
     {
@@ -8899,8 +8944,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-43273", 
         "credit": "Seo Hyun-gyu (@wh1te4ever), Minghao Lin (@Y1nKoc), \u98ce (binaryfmyy), BochengXiang(@Crispr), and YingQi Shi (@Mas0nShi), Dora Orak", 
+        "id": "CVE-2025-43273", 
         "rsr": ""
     }, 
     {
@@ -8914,8 +8959,8 @@
         ], 
         "update": "", 
         "module": "RemoteViewServices", 
-        "id": "CVE-2025-43274", 
         "credit": "an anonymous researcher, Hikerell of Loadshine Lab, @zlluny", 
+        "id": "CVE-2025-43274", 
         "rsr": ""
     }, 
     {
@@ -8933,8 +8978,8 @@
         ], 
         "update": "", 
         "module": "NetAuth", 
-        "id": "CVE-2025-43275", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43275", 
         "rsr": ""
     }, 
     {
@@ -8948,8 +8993,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-43276", 
         "credit": "Willey Lin", 
+        "id": "CVE-2025-43276", 
         "rsr": ""
     }, 
     {
@@ -8973,8 +9018,8 @@
         ], 
         "update": "", 
         "module": "CoreAudio", 
-        "id": "CVE-2025-43277", 
         "credit": "Google's Threat Analysis Group", 
+        "id": "CVE-2025-43277", 
         "rsr": ""
     }, 
     {
@@ -8988,8 +9033,8 @@
         ], 
         "update": "", 
         "module": "Notification Center", 
-        "id": "CVE-2025-43279", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-43279", 
         "rsr": ""
     }, 
     {
@@ -9003,8 +9048,8 @@
         ], 
         "update": "October 15, 2025", 
         "module": "Mail Drafts", 
-        "id": "CVE-2025-43280", 
         "credit": "Himanshu Bharti @Xpl0itme", 
+        "id": "CVE-2025-43280", 
         "rsr": ""
     }, 
     {
@@ -9018,8 +9063,8 @@
         ], 
         "update": "October 15, 2025", 
         "module": "Application Firewall", 
-        "id": "CVE-2025-43281", 
         "credit": "MRHAX, Aditya Rana", 
+        "id": "CVE-2025-43281", 
         "rsr": ""
     }, 
     {
@@ -9047,8 +9092,8 @@
         ], 
         "update": "October 15, 2025", 
         "module": "Kernel", 
-        "id": "CVE-2025-43282", 
         "credit": "Christian Kohlsch\u00fctter", 
+        "id": "CVE-2025-43282", 
         "rsr": ""
     }, 
     {
@@ -9062,8 +9107,8 @@
         ], 
         "update": "", 
         "module": "GPU Drivers", 
-        "id": "CVE-2025-43283", 
         "credit": "Anonymous working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43283", 
         "rsr": ""
     }, 
     {
@@ -9081,8 +9126,8 @@
         ], 
         "update": "August 28, 2025", 
         "module": "GPU Drivers", 
-        "id": "CVE-2025-43284", 
         "credit": "Anonymous working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43284", 
         "rsr": ""
     }, 
     {
@@ -9100,8 +9145,8 @@
         ], 
         "update": "", 
         "module": "AppSandbox", 
-        "id": "CVE-2025-43285", 
         "credit": "Zhongquan Li (@Guluisacat), Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43285", 
         "rsr": ""
     }, 
     {
@@ -9119,8 +9164,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2025-43286", 
         "credit": "pattern-f (@pattern_F_), @zlluny", 
+        "id": "CVE-2025-43286", 
         "rsr": ""
     }, 
     {
@@ -9134,8 +9179,8 @@
         ], 
         "update": "November 3, 2025", 
         "module": "ImageIO", 
-        "id": "CVE-2025-43287", 
         "credit": "\uc774\ub3d9\ud558 (Lee Dong Ha) of SSA Lab, Yi\u011fit Can YILMAZ (@yilmazcanyigit)", 
+        "id": "CVE-2025-43287", 
         "rsr": ""
     }, 
     {
@@ -9151,8 +9196,8 @@
         ], 
         "update": "November 3, 2025", 
         "module": "Archive Utility", 
-        "id": "CVE-2025-43288", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova", 
+        "id": "CVE-2025-43288", 
         "rsr": ""
     }, 
     {
@@ -9170,8 +9215,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2025-43291", 
         "credit": "Ye Zhang of Baidu Security", 
+        "id": "CVE-2025-43291", 
         "rsr": ""
     }, 
     {
@@ -9188,8 +9233,8 @@
         ], 
         "update": "", 
         "module": "CoreMedia", 
-        "id": "CVE-2025-43292", 
         "credit": "Csaba Fitzl (@theevilbit) and Nolan Astrein of Kandji", 
+        "id": "CVE-2025-43292", 
         "rsr": ""
     }, 
     {
@@ -9207,8 +9252,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2025-43293", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43293", 
         "rsr": ""
     }, 
     {
@@ -9228,8 +9273,8 @@
         ], 
         "update": "", 
         "module": "MallocStackLogging", 
-        "id": "CVE-2025-43294", 
         "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-43294", 
         "rsr": ""
     }, 
     {
@@ -9249,8 +9294,8 @@
         ], 
         "update": "", 
         "module": "libc", 
-        "id": "CVE-2025-43295", 
         "credit": "Nathaniel Oh (@calysteon)", 
+        "id": "CVE-2025-43295", 
         "rsr": ""
     }, 
     {
@@ -9264,8 +9309,8 @@
         ], 
         "update": "October 9, 2025", 
         "module": "System Settings", 
-        "id": "CVE-2025-43296", 
         "credit": "Ferdous Saljooki (@malwarezoo) of Jamf", 
+        "id": "CVE-2025-43296", 
         "rsr": ""
     }, 
     {
@@ -9279,8 +9324,8 @@
         ], 
         "update": "", 
         "module": "Power Management", 
-        "id": "CVE-2025-43297", 
         "credit": "Dawuge of Shuffle Team", 
+        "id": "CVE-2025-43297", 
         "rsr": ""
     }, 
     {
@@ -9298,8 +9343,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-43298", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43298", 
         "rsr": ""
     }, 
     {
@@ -9319,8 +9364,8 @@
         ], 
         "update": "", 
         "module": "libc", 
-        "id": "CVE-2025-43299", 
         "credit": "Nathaniel Oh (@calysteon)", 
+        "id": "CVE-2025-43299", 
         "rsr": ""
     }, 
     {
@@ -9346,8 +9391,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2025-43300", 
         "credit": "Apple", 
+        "id": "CVE-2025-43300", 
         "rsr": ""
     }, 
     {
@@ -9365,8 +9410,8 @@
         ], 
         "update": "", 
         "module": "Notification Center", 
-        "id": "CVE-2025-43301", 
         "credit": "LFY@secsys from Fudan University", 
+        "id": "CVE-2025-43301", 
         "rsr": ""
     }, 
     {
@@ -9394,8 +9439,8 @@
         ], 
         "update": "", 
         "module": "IOHIDFamily", 
-        "id": "CVE-2025-43302", 
         "credit": "Keisuke Hosoda", 
+        "id": "CVE-2025-43302", 
         "rsr": ""
     }, 
     {
@@ -9417,8 +9462,8 @@
         ], 
         "update": "", 
         "module": "Bluetooth", 
-        "id": "CVE-2025-43303", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43303", 
         "rsr": ""
     }, 
     {
@@ -9436,8 +9481,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-43304", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43304", 
         "rsr": ""
     }, 
     {
@@ -9455,8 +9500,8 @@
         ], 
         "update": "", 
         "module": "CoreServices", 
-        "id": "CVE-2025-43305", 
         "credit": "an anonymous researcher, Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43305", 
         "rsr": ""
     }, 
     {
@@ -9470,8 +9515,8 @@
         ], 
         "update": "", 
         "module": "Bluetooth", 
-        "id": "CVE-2025-43307", 
         "credit": "Dawuge of Shuffle Team", 
+        "id": "CVE-2025-43307", 
         "rsr": ""
     }, 
     {
@@ -9489,8 +9534,8 @@
         ], 
         "update": "", 
         "module": "Touch Bar Controls", 
-        "id": "CVE-2025-43308", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43308", 
         "rsr": ""
     }, 
     {
@@ -9504,8 +9549,8 @@
         ], 
         "update": "November 3, 2025", 
         "module": "Notifications", 
-        "id": "CVE-2025-43309", 
         "credit": "Abhay Kailasia (@abhay_kailasia) from C-DAC Thiruvananthapuram India", 
+        "id": "CVE-2025-43309", 
         "rsr": ""
     }, 
     {
@@ -9523,8 +9568,8 @@
         ], 
         "update": "", 
         "module": "WindowServer", 
-        "id": "CVE-2025-43310", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43310", 
         "rsr": ""
     }, 
     {
@@ -9542,8 +9587,8 @@
         ], 
         "update": "", 
         "module": "Touch Bar", 
-        "id": "CVE-2025-43311", 
         "credit": "Justin Elliot Fu, an anonymous researcher", 
+        "id": "CVE-2025-43311", 
         "rsr": ""
     }, 
     {
@@ -9561,8 +9606,8 @@
         ], 
         "update": "", 
         "module": "AMD", 
-        "id": "CVE-2025-43312", 
         "credit": "ABC Research s.r.o.", 
+        "id": "CVE-2025-43312", 
         "rsr": ""
     }, 
     {
@@ -9580,8 +9625,8 @@
         ], 
         "update": "October 15, 2025", 
         "module": "CoreServices", 
-        "id": "CVE-2025-43313", 
         "credit": "\u98ce\u6c90\u4e91\u70df@binary_fmyy", 
+        "id": "CVE-2025-43313", 
         "rsr": ""
     }, 
     {
@@ -9599,8 +9644,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-43314", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43314", 
         "rsr": ""
     }, 
     {
@@ -9618,8 +9663,8 @@
         ], 
         "update": "", 
         "module": "MigrationKit", 
-        "id": "CVE-2025-43315", 
         "credit": "Rodolphe Brunetti (@eisw0lf) of Lupus Nova", 
+        "id": "CVE-2025-43315", 
         "rsr": ""
     }, 
     {
@@ -9635,8 +9680,8 @@
         ], 
         "update": "", 
         "module": "DiskArbitration", 
-        "id": "CVE-2025-43316", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji, an anonymous researcher", 
+        "id": "CVE-2025-43316", 
         "rsr": ""
     }, 
     {
@@ -9658,8 +9703,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43317", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43317", 
         "rsr": ""
     }, 
     {
@@ -9673,8 +9718,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-43318", 
         "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)", 
+        "id": "CVE-2025-43318", 
         "rsr": ""
     }, 
     {
@@ -9692,8 +9737,8 @@
         ], 
         "update": "", 
         "module": "MediaLibrary", 
-        "id": "CVE-2025-43319", 
         "credit": "Hikerell (Loadshine Lab)", 
+        "id": "CVE-2025-43319", 
         "rsr": ""
     }, 
     {
@@ -9709,8 +9754,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43320", 
         "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos", 
+        "id": "CVE-2025-43320", 
         "rsr": ""
     }, 
     {
@@ -9728,8 +9773,8 @@
         ], 
         "update": "", 
         "module": "AppKit", 
-        "id": "CVE-2025-43321", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43321", 
         "rsr": ""
     }, 
     {
@@ -9747,8 +9792,8 @@
         ], 
         "update": "", 
         "module": "Admin Framework", 
-        "id": "CVE-2025-43322", 
         "credit": "Ryan Dowd (@_rdowd)", 
+        "id": "CVE-2025-43322", 
         "rsr": ""
     }, 
     {
@@ -9770,8 +9815,8 @@
         ], 
         "update": "November 3, 2025", 
         "module": "CloudKit", 
-        "id": "CVE-2025-43323", 
         "credit": "Yinyi Wu (@_3ndy1) from Dawn Security Lab of JD.com, Inc", 
+        "id": "CVE-2025-43323", 
         "rsr": ""
     }, 
     {
@@ -9785,8 +9830,8 @@
         ], 
         "update": "", 
         "module": "Icons", 
-        "id": "CVE-2025-43325", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43325", 
         "rsr": ""
     }, 
     {
@@ -9804,8 +9849,8 @@
         ], 
         "update": "", 
         "module": "GPU Drivers", 
-        "id": "CVE-2025-43326", 
         "credit": "Wang Yu of Cyberserval", 
+        "id": "CVE-2025-43326", 
         "rsr": ""
     }, 
     {
@@ -9821,8 +9866,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-43327", 
         "credit": "@RenwaX23", 
+        "id": "CVE-2025-43327", 
         "rsr": ""
     }, 
     {
@@ -9836,8 +9881,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-43328", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43328", 
         "rsr": ""
     }, 
     {
@@ -9857,8 +9902,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-43329", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43329", 
         "rsr": ""
     }, 
     {
@@ -9874,8 +9919,8 @@
         ], 
         "update": "", 
         "module": "ATS", 
-        "id": "CVE-2025-43330", 
         "credit": "Bilal Siddiqui", 
+        "id": "CVE-2025-43330", 
         "rsr": ""
     }, 
     {
@@ -9889,8 +9934,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43331", 
         "credit": "Mickey Jin (@patch1t), Kirin (@Pwnrin), Claudio Bozzato and Francesco Benvenuto of Cisco Talos", 
+        "id": "CVE-2025-43331", 
         "rsr": ""
     }, 
     {
@@ -9908,8 +9953,8 @@
         ], 
         "update": "", 
         "module": "Security Initialization", 
-        "id": "CVE-2025-43332", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43332", 
         "rsr": ""
     }, 
     {
@@ -9923,8 +9968,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2025-43333", 
         "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-43333", 
         "rsr": ""
     }, 
     {
@@ -9942,8 +9987,8 @@
         ], 
         "update": "", 
         "module": "sudo", 
-        "id": "CVE-2025-43334", 
         "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-43334", 
         "rsr": ""
     }, 
     {
@@ -9961,8 +10006,8 @@
         ], 
         "update": "", 
         "module": "Security", 
-        "id": "CVE-2025-43335", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43335", 
         "rsr": ""
     }, 
     {
@@ -9980,8 +10025,8 @@
         ], 
         "update": "", 
         "module": "SoftwareUpdate", 
-        "id": "CVE-2025-43336", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova", 
+        "id": "CVE-2025-43336", 
         "rsr": ""
     }, 
     {
@@ -9997,8 +10042,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43337", 
         "credit": "Csaba Fitzl (@theevilbit) and Nolan Astrein of Kandji", 
+        "id": "CVE-2025-43337", 
         "rsr": ""
     }, 
     {
@@ -10016,8 +10061,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2025-43338", 
         "credit": "\uc774\ub3d9\ud558 (Lee Dong Ha) of SSA Lab", 
+        "id": "CVE-2025-43338", 
         "rsr": ""
     }, 
     {
@@ -10031,8 +10076,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43340", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43340", 
         "rsr": ""
     }, 
     {
@@ -10048,8 +10093,8 @@
         ], 
         "update": "", 
         "module": "Storage", 
-        "id": "CVE-2025-43341", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43341", 
         "rsr": ""
     }, 
     {
@@ -10075,9 +10120,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43342", 
         "credit": "an anonymous researcher", 
         "bugzilla": "296042", 
+        "id": "CVE-2025-43342", 
         "rsr": ""
     }, 
     {
@@ -10101,9 +10146,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43343", 
         "credit": "an anonymous researcher", 
         "bugzilla": "296490", 
+        "id": "CVE-2025-43343", 
         "rsr": ""
     }, 
     {
@@ -10125,8 +10170,8 @@
         ], 
         "update": "", 
         "module": "Apple Neural Engine", 
-        "id": "CVE-2025-43344", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43344", 
         "rsr": ""
     }, 
     {
@@ -10154,8 +10199,8 @@
         ], 
         "update": "November 3, 2025", 
         "module": "Kernel", 
-        "id": "CVE-2025-43345", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43345", 
         "rsr": ""
     }, 
     {
@@ -10179,8 +10224,8 @@
         ], 
         "update": "", 
         "module": "Audio", 
-        "id": "CVE-2025-43346", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43346", 
         "rsr": ""
     }, 
     {
@@ -10202,8 +10247,8 @@
         ], 
         "update": "", 
         "module": "System", 
-        "id": "CVE-2025-43347", 
         "credit": "JZ, Seo Hyun-gyu (@wh1te4ever), Luke Roberts (@rookuu)", 
+        "id": "CVE-2025-43347", 
         "rsr": ""
     }, 
     {
@@ -10221,8 +10266,8 @@
         ], 
         "update": "", 
         "module": "Finder", 
-        "id": "CVE-2025-43348", 
         "credit": "Ferdous Saljooki (@malwarezoo) of Jamf", 
+        "id": "CVE-2025-43348", 
         "rsr": ""
     }, 
     {
@@ -10250,8 +10295,8 @@
         ], 
         "update": "", 
         "module": "CoreAudio", 
-        "id": "CVE-2025-43349", 
         "credit": "@zlluny working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43349", 
         "rsr": ""
     }, 
     {
@@ -10265,8 +10310,8 @@
         ], 
         "update": "", 
         "module": "Control Center", 
-        "id": "CVE-2025-43350", 
         "credit": "Lukaah Marlowe", 
+        "id": "CVE-2025-43350", 
         "rsr": ""
     }, 
     {
@@ -10280,8 +10325,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-43351", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova", 
+        "id": "CVE-2025-43351", 
         "rsr": ""
     }, 
     {
@@ -10299,8 +10344,8 @@
         ], 
         "update": "", 
         "module": "Libinfo", 
-        "id": "CVE-2025-43353", 
         "credit": "Nathaniel Oh (@calysteon)", 
+        "id": "CVE-2025-43353", 
         "rsr": ""
     }, 
     {
@@ -10322,8 +10367,8 @@
         ], 
         "update": "", 
         "module": "Bluetooth", 
-        "id": "CVE-2025-43354", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43354", 
         "rsr": ""
     }, 
     {
@@ -10351,8 +10396,8 @@
         ], 
         "update": "", 
         "module": "MobileStorageMounter", 
-        "id": "CVE-2025-43355", 
         "credit": "Dawuge of Shuffle Team", 
+        "id": "CVE-2025-43355", 
         "rsr": ""
     }, 
     {
@@ -10378,9 +10423,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43356", 
         "credit": "Jaydev Ahire", 
         "bugzilla": "296153", 
+        "id": "CVE-2025-43356", 
         "rsr": ""
     }, 
     {
@@ -10396,8 +10441,8 @@
         ], 
         "update": "", 
         "module": "Call History", 
-        "id": "CVE-2025-43357", 
         "credit": "Rosyna Keller of Totally Not Malicious Software, Guilherme Rambo of Best Buddy Apps (rambo.codes)", 
+        "id": "CVE-2025-43357", 
         "rsr": ""
     }, 
     {
@@ -10419,8 +10464,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2025-43358", 
         "credit": "\uc815\ub2f5\uc774 \uc544\ub2cc \ud574\ub2f5", 
+        "id": "CVE-2025-43358", 
         "rsr": ""
     }, 
     {
@@ -10448,8 +10493,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-43359", 
         "credit": "Viktor Oreshkin", 
+        "id": "CVE-2025-43359", 
         "rsr": ""
     }, 
     {
@@ -10463,8 +10508,8 @@
         ], 
         "update": "November 3, 2025", 
         "module": "Authentication Services", 
-        "id": "CVE-2025-43360", 
         "credit": "Nikita Sakalouski", 
+        "id": "CVE-2025-43360", 
         "rsr": ""
     }, 
     {
@@ -10490,8 +10535,8 @@
         ], 
         "update": "", 
         "module": "Audio", 
-        "id": "CVE-2025-43361", 
         "credit": "Michael Reeves (@IntegralPilot)", 
+        "id": "CVE-2025-43361", 
         "rsr": ""
     }, 
     {
@@ -10507,8 +10552,8 @@
         ], 
         "update": "", 
         "module": "LaunchServices", 
-        "id": "CVE-2025-43362", 
         "credit": "Philipp Baldauf", 
+        "id": "CVE-2025-43362", 
         "rsr": ""
     }, 
     {
@@ -10526,8 +10571,8 @@
         ], 
         "update": "", 
         "module": "NetFSFramework", 
-        "id": "CVE-2025-43364", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43364", 
         "rsr": ""
     }, 
     {
@@ -10543,8 +10588,8 @@
         ], 
         "update": "", 
         "module": "MetricKit", 
-        "id": "CVE-2025-43365", 
         "credit": "Minghao Lin (@Y1nKoc) and Lyutoon (@Lyutoon_) and YingQi Shi (@Mas0n)", 
+        "id": "CVE-2025-43365", 
         "rsr": ""
     }, 
     {
@@ -10558,8 +10603,8 @@
         ], 
         "update": "", 
         "module": "IOMobileFrameBuffer", 
-        "id": "CVE-2025-43366", 
         "credit": "Ye Zhang (@VAR10CK) of Baidu Security", 
+        "id": "CVE-2025-43366", 
         "rsr": ""
     }, 
     {
@@ -10575,8 +10620,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-43367", 
         "credit": "Kirin (@Pwnrin), Cristian Dinca of \"Tudor Vianu\" National High School of Computer Science, Romania", 
+        "id": "CVE-2025-43367", 
         "rsr": ""
     }, 
     {
@@ -10594,9 +10639,9 @@
         ], 
         "update": "November 3, 2025", 
         "module": "WebKit Process Model", 
-        "id": "CVE-2025-43368", 
         "credit": "Pawel Wylecial of REDTEAM.PL working with Trend Micro Zero Day Initiative, Ignacio Sanmillan (@ulexec)", 
         "bugzilla": "296276", 
+        "id": "CVE-2025-43368", 
         "rsr": ""
     }, 
     {
@@ -10610,8 +10655,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2025-43369", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43369", 
         "rsr": ""
     }, 
     {
@@ -10625,8 +10670,8 @@
         ], 
         "update": "", 
         "module": "Dev Tools", 
-        "id": "CVE-2025-43370", 
         "credit": "Nathaniel Oh (@calysteon)", 
+        "id": "CVE-2025-43370", 
         "rsr": ""
     }, 
     {
@@ -10640,8 +10685,8 @@
         ], 
         "update": "", 
         "module": "Xcode", 
-        "id": "CVE-2025-43371", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43371", 
         "rsr": ""
     }, 
     {
@@ -10665,8 +10710,8 @@
         ], 
         "update": "", 
         "module": "ImageIO", 
-        "id": "CVE-2025-43372", 
         "credit": "\uc774\ub3d9\ud558 (Lee Dong Ha) of SSA Lab", 
+        "id": "CVE-2025-43372", 
         "rsr": ""
     }, 
     {
@@ -10684,8 +10729,8 @@
         ], 
         "update": "", 
         "module": "Wi-Fi", 
-        "id": "CVE-2025-43373", 
         "credit": "Wang Yu of Cyberserval", 
+        "id": "CVE-2025-43373", 
         "rsr": ""
     }, 
     {
@@ -10713,8 +10758,8 @@
         ], 
         "update": "November 21, 2025", 
         "module": "Wi-Fi", 
-        "id": "CVE-2025-43374", 
         "credit": "jioundai of 360 Vulnerability Research Institute, chen fengjiao of HBC", 
+        "id": "CVE-2025-43374", 
         "rsr": ""
     }, 
     {
@@ -10728,8 +10773,8 @@
         ], 
         "update": "", 
         "module": "Dev Tools", 
-        "id": "CVE-2025-43375", 
         "credit": "Nathaniel Oh (@calysteon)", 
+        "id": "CVE-2025-43375", 
         "rsr": ""
     }, 
     {
@@ -10753,9 +10798,9 @@
         ], 
         "update": "November 3, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-43376", 
         "credit": "Mike Cardwell of grepular.com, Bob Lord", 
         "bugzilla": "295943", 
+        "id": "CVE-2025-43376", 
         "rsr": ""
     }, 
     {
@@ -10773,8 +10818,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-43377", 
         "credit": "BynarIO AI (bynar.io)", 
+        "id": "CVE-2025-43377", 
         "rsr": ""
     }, 
     {
@@ -10790,8 +10835,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43378", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43378", 
         "rsr": ""
     }, 
     {
@@ -10817,8 +10862,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43379", 
         "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-43379", 
         "rsr": ""
     }, 
     {
@@ -10836,8 +10881,8 @@
         ], 
         "update": "", 
         "module": "sips", 
-        "id": "CVE-2025-43380", 
         "credit": "Nikolai Skliarenko of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43380", 
         "rsr": ""
     }, 
     {
@@ -10851,8 +10896,8 @@
         ], 
         "update": "", 
         "module": "CoreServicesUIAgent", 
-        "id": "CVE-2025-43381", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43381", 
         "rsr": ""
     }, 
     {
@@ -10870,8 +10915,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43382", 
         "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-43382", 
         "rsr": ""
     }, 
     {
@@ -10895,8 +10940,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
+        "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
         "id": "CVE-2025-43383", 
-        "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
         "rsr": ""
     }, 
     {
@@ -10920,8 +10965,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
+        "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
         "id": "CVE-2025-43384", 
-        "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
         "rsr": ""
     }, 
     {
@@ -10945,8 +10990,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-43385", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43385", 
         "rsr": ""
     }, 
     {
@@ -10968,8 +11013,8 @@
         ], 
         "update": "", 
         "module": "Model I/O", 
-        "id": "CVE-2025-43386", 
         "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43386", 
         "rsr": ""
     }, 
     {
@@ -10985,8 +11030,8 @@
         ], 
         "update": "", 
         "module": "DiskArbitration", 
-        "id": "CVE-2025-43387", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43387", 
         "rsr": ""
     }, 
     {
@@ -11000,8 +11045,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43388", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43388", 
         "rsr": ""
     }, 
     {
@@ -11025,8 +11070,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2025-43389", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-43389", 
         "rsr": ""
     }, 
     {
@@ -11042,8 +11087,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43390", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43390", 
         "rsr": ""
     }, 
     {
@@ -11063,8 +11108,8 @@
         ], 
         "update": "", 
         "module": "Photos", 
-        "id": "CVE-2025-43391", 
         "credit": "Asaf Cohen", 
+        "id": "CVE-2025-43391", 
         "rsr": ""
     }, 
     {
@@ -11090,9 +11135,9 @@
         ], 
         "update": "", 
         "module": "WebKit Canvas", 
-        "id": "CVE-2025-43392", 
         "credit": "Tom Van Goethem", 
         "bugzilla": "297566", 
+        "id": "CVE-2025-43392", 
         "rsr": ""
     }, 
     {
@@ -11106,8 +11151,8 @@
         ], 
         "update": "", 
         "module": "quarantine", 
-        "id": "CVE-2025-43393", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43393", 
         "rsr": ""
     }, 
     {
@@ -11125,8 +11170,8 @@
         ], 
         "update": "", 
         "module": "bootp", 
-        "id": "CVE-2025-43394", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43394", 
         "rsr": ""
     }, 
     {
@@ -11144,8 +11189,8 @@
         ], 
         "update": "", 
         "module": "configd", 
-        "id": "CVE-2025-43395", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43395", 
         "rsr": ""
     }, 
     {
@@ -11163,8 +11208,8 @@
         ], 
         "update": "", 
         "module": "Installer", 
-        "id": "CVE-2025-43396", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43396", 
         "rsr": ""
     }, 
     {
@@ -11182,8 +11227,8 @@
         ], 
         "update": "", 
         "module": "SoftwareUpdate", 
-        "id": "CVE-2025-43397", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43397", 
         "rsr": ""
     }, 
     {
@@ -11211,8 +11256,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-43398", 
         "credit": "Cristian Dinca (icmd.tech)", 
+        "id": "CVE-2025-43398", 
         "rsr": ""
     }, 
     {
@@ -11230,8 +11275,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-43399", 
         "credit": "Kirin (@Pwnrin), Cristian Dinca (icmd.tech)", 
+        "id": "CVE-2025-43399", 
         "rsr": ""
     }, 
     {
@@ -11259,8 +11304,8 @@
         ], 
         "update": "", 
         "module": "FontParser", 
-        "id": "CVE-2025-43400", 
         "credit": "Apple", 
+        "id": "CVE-2025-43400", 
         "rsr": ""
     }, 
     {
@@ -11278,8 +11323,8 @@
         ], 
         "update": "", 
         "module": "CoreAnimation", 
-        "id": "CVE-2025-43401", 
         "credit": "\uc774\ub3d9\ud558 (Lee Dong Ha of BoB 14th), wac working with Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43401", 
         "rsr": ""
     }, 
     {
@@ -11293,8 +11338,8 @@
         ], 
         "update": "", 
         "module": "WindowServer", 
-        "id": "CVE-2025-43402", 
         "credit": "@cloudlldb of @pixiepointsec", 
+        "id": "CVE-2025-43402", 
         "rsr": ""
     }, 
     {
@@ -11308,8 +11353,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-43404", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2025-43404", 
         "rsr": ""
     }, 
     {
@@ -11327,8 +11372,8 @@
         ], 
         "update": "", 
         "module": "Photos", 
-        "id": "CVE-2025-43405", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43405", 
         "rsr": ""
     }, 
     {
@@ -11342,8 +11387,8 @@
         ], 
         "update": "", 
         "module": "Sandbox", 
-        "id": "CVE-2025-43406", 
         "credit": "Zhongquan Li (@Guluisacat)", 
+        "id": "CVE-2025-43406", 
         "rsr": ""
     }, 
     {
@@ -11367,8 +11412,8 @@
         ], 
         "update": "", 
         "module": "Assets", 
-        "id": "CVE-2025-43407", 
         "credit": "JZ", 
+        "id": "CVE-2025-43407", 
         "rsr": ""
     }, 
     {
@@ -11386,8 +11431,8 @@
         ], 
         "update": "", 
         "module": "Share Sheet", 
-        "id": "CVE-2025-43408", 
         "credit": "Vivek Dhar, ASI (RM) in Border Security Force, FTR HQ BSF Kashmir", 
+        "id": "CVE-2025-43408", 
         "rsr": ""
     }, 
     {
@@ -11403,8 +11448,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2025-43409", 
         "credit": "an anonymous researcher, Kirin (@Pwnrin), Jonathan Bar Or (@yo_yo_yo_jbo) of Microsoft", 
+        "id": "CVE-2025-43409", 
         "rsr": ""
     }, 
     {
@@ -11422,8 +11467,8 @@
         ], 
         "update": "", 
         "module": "Notes", 
-        "id": "CVE-2025-43410", 
         "credit": "Atul R V", 
+        "id": "CVE-2025-43410", 
         "rsr": ""
     }, 
     {
@@ -11441,8 +11486,8 @@
         ], 
         "update": "", 
         "module": "PackageKit", 
-        "id": "CVE-2025-43411", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43411", 
         "rsr": ""
     }, 
     {
@@ -11460,8 +11505,8 @@
         ], 
         "update": "", 
         "module": "TCC", 
-        "id": "CVE-2025-43412", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43412", 
         "rsr": ""
     }, 
     {
@@ -11487,8 +11532,8 @@
         ], 
         "update": "", 
         "module": "libxpc", 
-        "id": "CVE-2025-43413", 
         "credit": "Dave G. and Alex Radocea of supernetworks.org", 
+        "id": "CVE-2025-43413", 
         "rsr": ""
     }, 
     {
@@ -11506,8 +11551,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2025-43414", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43414", 
         "rsr": ""
     }, 
     {
@@ -11525,8 +11570,8 @@
         ], 
         "update": "", 
         "module": "sudo", 
-        "id": "CVE-2025-43416", 
         "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-43416", 
         "rsr": ""
     }, 
     {
@@ -11542,8 +11587,8 @@
         ], 
         "update": "", 
         "module": "Spotlight", 
-        "id": "CVE-2025-43418", 
         "credit": "Dalibor Milanovic", 
+        "id": "CVE-2025-43418", 
         "rsr": ""
     }, 
     {
@@ -11567,9 +11612,9 @@
         ], 
         "update": "November 3, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-43419", 
         "credit": "Ignacio Sanmillan (@ulexec)", 
         "bugzilla": "293895", 
+        "id": "CVE-2025-43419", 
         "rsr": ""
     }, 
     {
@@ -11587,8 +11632,8 @@
         ], 
         "update": "", 
         "module": "Dock", 
-        "id": "CVE-2025-43420", 
         "credit": "Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova", 
+        "id": "CVE-2025-43420", 
         "rsr": ""
     }, 
     {
@@ -11608,9 +11653,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43421", 
         "credit": "Nan Wang (@eternalsakura13)", 
         "bugzilla": "300718", 
+        "id": "CVE-2025-43421", 
         "rsr": ""
     }, 
     {
@@ -11624,8 +11669,8 @@
         ], 
         "update": "", 
         "module": "Stolen Device Protection", 
-        "id": "CVE-2025-43422", 
         "credit": "Will Caine", 
+        "id": "CVE-2025-43422", 
         "rsr": ""
     }, 
     {
@@ -11647,8 +11692,8 @@
         ], 
         "update": "", 
         "module": "Audio", 
-        "id": "CVE-2025-43423", 
         "credit": "Duy Tr\u1ea7n (@khanhduytran0)", 
+        "id": "CVE-2025-43423", 
         "rsr": ""
     }, 
     {
@@ -11664,8 +11709,8 @@
         ], 
         "update": "", 
         "module": "Multi-Touch", 
-        "id": "CVE-2025-43424", 
         "credit": "Google Threat Analysis Group", 
+        "id": "CVE-2025-43424", 
         "rsr": ""
     }, 
     {
@@ -11689,9 +11734,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43425", 
         "credit": "an anonymous researcher", 
         "bugzilla": "298851", 
+        "id": "CVE-2025-43425", 
         "rsr": ""
     }, 
     {
@@ -11707,8 +11752,8 @@
         ], 
         "update": "December 12, 2025", 
         "module": "Contacts", 
-        "id": "CVE-2025-43426", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog), Kirin (@Pwnrin) and LFY (@secsys) from Fudan University", 
+        "id": "CVE-2025-43426", 
         "rsr": ""
     }, 
     {
@@ -11730,9 +11775,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43427", 
         "credit": "Gary Kwong, rheza (@ginggilBesel)", 
         "bugzilla": "298628", 
+        "id": "CVE-2025-43427", 
         "rsr": ""
     }, 
     {
@@ -11750,8 +11795,8 @@
         ], 
         "update": "", 
         "module": "Photos", 
-        "id": "CVE-2025-43428", 
         "credit": "an anonymous researcher, Michael Schmutzer of Technische Hochschule Ingolstadt", 
+        "id": "CVE-2025-43428", 
         "rsr": ""
     }, 
     {
@@ -11777,9 +11822,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43429", 
         "credit": "Google Big Sleep", 
         "bugzilla": "298232", 
+        "id": "CVE-2025-43429", 
         "rsr": ""
     }, 
     {
@@ -11803,9 +11848,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43430", 
         "credit": "Google Big Sleep", 
         "bugzilla": "298196", 
+        "id": "CVE-2025-43430", 
         "rsr": ""
     }, 
     {
@@ -11831,9 +11876,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43431", 
         "credit": "Google Big Sleep", 
         "bugzilla": "298194", 
+        "id": "CVE-2025-43431", 
         "rsr": ""
     }, 
     {
@@ -11857,9 +11902,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43432", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
         "bugzilla": "299313", 
+        "id": "CVE-2025-43432", 
         "rsr": ""
     }, 
     {
@@ -11885,9 +11930,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43433", 
         "credit": "Google Big Sleep", 
         "bugzilla": "298093", 
+        "id": "CVE-2025-43433", 
         "rsr": ""
     }, 
     {
@@ -11911,9 +11956,9 @@
         ], 
         "update": "December 12, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-43434", 
         "credit": "Google Big Sleep", 
         "bugzilla": "297958", 
+        "id": "CVE-2025-43434", 
         "rsr": ""
     }, 
     {
@@ -11939,9 +11984,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43435", 
         "credit": "Justin Cohen of Google", 
         "bugzilla": "299391", 
+        "id": "CVE-2025-43435", 
         "rsr": ""
     }, 
     {
@@ -11963,8 +12008,8 @@
         ], 
         "update": "", 
         "module": "CoreServices", 
-        "id": "CVE-2025-43436", 
         "credit": "Zhongcheng Li from IES Red Team of ByteDance", 
+        "id": "CVE-2025-43436", 
         "rsr": ""
     }, 
     {
@@ -11978,8 +12023,8 @@
         ], 
         "update": "December 12, 2025", 
         "module": "Managed Configuration", 
-        "id": "CVE-2025-43437", 
         "credit": "Rosyna Keller of Totally Not Malicious Software", 
+        "id": "CVE-2025-43437", 
         "rsr": ""
     }, 
     {
@@ -12003,9 +12048,9 @@
         ], 
         "update": "December 12, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-43438", 
         "credit": "rheza (@ginggilBesel), shandikri working with Trend Micro Zero Day Initiative", 
         "bugzilla": "297662", 
+        "id": "CVE-2025-43438", 
         "rsr": ""
     }, 
     {
@@ -12023,8 +12068,8 @@
         ], 
         "update": "", 
         "module": "On-device Intelligence", 
-        "id": "CVE-2025-43439", 
         "credit": "Zhongcheng Li from IES Red Team of ByteDance", 
+        "id": "CVE-2025-43439", 
         "rsr": ""
     }, 
     {
@@ -12048,9 +12093,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43440", 
         "credit": "Nan Wang (@eternalsakura13)", 
         "bugzilla": "298126", 
+        "id": "CVE-2025-43440", 
         "rsr": ""
     }, 
     {
@@ -12074,9 +12119,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43441", 
         "credit": "rheza (@ginggilBesel)", 
         "bugzilla": "298496", 
+        "id": "CVE-2025-43441", 
         "rsr": ""
     }, 
     {
@@ -12092,8 +12137,8 @@
         ], 
         "update": "", 
         "module": "Accessibility", 
-        "id": "CVE-2025-43442", 
         "credit": "Zhongcheng Li from IES Red Team of ByteDance", 
+        "id": "CVE-2025-43442", 
         "rsr": ""
     }, 
     {
@@ -12119,9 +12164,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43443", 
         "credit": "an anonymous researcher", 
         "bugzilla": "299843", 
+        "id": "CVE-2025-43443", 
         "rsr": ""
     }, 
     {
@@ -12145,8 +12190,8 @@
         ], 
         "update": "", 
         "module": "App Store", 
-        "id": "CVE-2025-43444", 
         "credit": "Zhongcheng Li from IES Red Team of ByteDance", 
+        "id": "CVE-2025-43444", 
         "rsr": ""
     }, 
     {
@@ -12174,8 +12219,8 @@
         ], 
         "update": "", 
         "module": "CoreText", 
-        "id": "CVE-2025-43445", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
+        "id": "CVE-2025-43445", 
         "rsr": ""
     }, 
     {
@@ -12193,8 +12238,8 @@
         ], 
         "update": "", 
         "module": "Assets", 
-        "id": "CVE-2025-43446", 
         "credit": "Zhongcheng Li from IES Red Team of ByteDance", 
+        "id": "CVE-2025-43446", 
         "rsr": ""
     }, 
     {
@@ -12214,8 +12259,8 @@
         ], 
         "update": "", 
         "module": "Apple Neural Engine", 
-        "id": "CVE-2025-43447", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43447", 
         "rsr": ""
     }, 
     {
@@ -12243,8 +12288,8 @@
         ], 
         "update": "", 
         "module": "CloudKit", 
-        "id": "CVE-2025-43448", 
         "credit": "Hikerell (Loadshine Lab)", 
+        "id": "CVE-2025-43448", 
         "rsr": ""
     }, 
     {
@@ -12258,8 +12303,8 @@
         ], 
         "update": "", 
         "module": "Apple TV Remote", 
-        "id": "CVE-2025-43449", 
         "credit": "Rosyna Keller of Totally Not Malicious Software", 
+        "id": "CVE-2025-43449", 
         "rsr": ""
     }, 
     {
@@ -12275,8 +12320,8 @@
         ], 
         "update": "", 
         "module": "Camera", 
-        "id": "CVE-2025-43450", 
         "credit": "Dennis Briner", 
+        "id": "CVE-2025-43450", 
         "rsr": ""
     }, 
     {
@@ -12290,8 +12335,8 @@
         ], 
         "update": "December 12, 2025", 
         "module": "Text Input", 
-        "id": "CVE-2025-43452", 
         "credit": "Thomas Salomon, Sufiyan Gouri (TU Darmstadt), Phil Scott (@MrPeriPeri) & Richard Hyunho Im (@richeeta), Mark Bowers, Joey Hewitt, Dylan Rollins, Arthur Baudoin, an anonymous researcher, Andr.Ess, Mikael Kinnman", 
+        "id": "CVE-2025-43452", 
         "rsr": ""
     }, 
     {
@@ -12307,8 +12352,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-43454", 
         "credit": "Joshua Thomas", 
+        "id": "CVE-2025-43454", 
         "rsr": ""
     }, 
     {
@@ -12328,8 +12373,8 @@
         ], 
         "update": "", 
         "module": "Apple Account", 
-        "id": "CVE-2025-43455", 
         "credit": "Ron Masas of BreakPoint.SH, Pinak Oza", 
+        "id": "CVE-2025-43455", 
         "rsr": ""
     }, 
     {
@@ -12351,9 +12396,9 @@
         ], 
         "update": "December 12, 2025", 
         "module": "WebKit", 
-        "id": "CVE-2025-43457", 
         "credit": "Gary Kwong, Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
         "bugzilla": "298606", 
+        "id": "CVE-2025-43457", 
         "rsr": ""
     }, 
     {
@@ -12379,9 +12424,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43458", 
         "credit": "Phil Beauvoir", 
         "bugzilla": "296693", 
+        "id": "CVE-2025-43458", 
         "rsr": ""
     }, 
     {
@@ -12395,8 +12440,8 @@
         ], 
         "update": "", 
         "module": "Phone", 
-        "id": "CVE-2025-43459", 
         "credit": "Dalibor Milanovic", 
+        "id": "CVE-2025-43459", 
         "rsr": ""
     }, 
     {
@@ -12410,8 +12455,8 @@
         ], 
         "update": "", 
         "module": "Status Bar", 
-        "id": "CVE-2025-43460", 
         "credit": "Isaiah Wan", 
+        "id": "CVE-2025-43460", 
         "rsr": ""
     }, 
     {
@@ -12425,8 +12470,8 @@
         ], 
         "update": "", 
         "module": "configd", 
-        "id": "CVE-2025-43461", 
         "credit": "Csaba Fitzl (@theevilbit) of Kandji", 
+        "id": "CVE-2025-43461", 
         "rsr": ""
     }, 
     {
@@ -12448,8 +12493,8 @@
         ], 
         "update": "", 
         "module": "Apple Neural Engine", 
-        "id": "CVE-2025-43462", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43462", 
         "rsr": ""
     }, 
     {
@@ -12467,8 +12512,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-43463", 
         "credit": "Mickey Jin (@patch1t), Amy (@asentientbot)", 
+        "id": "CVE-2025-43463", 
         "rsr": ""
     }, 
     {
@@ -12482,8 +12527,8 @@
         ], 
         "update": "", 
         "module": "dyld", 
-        "id": "CVE-2025-43464", 
         "credit": "Duy Tr\u1ea7n (@khanhduytran0), @EthanArbuckle", 
+        "id": "CVE-2025-43464", 
         "rsr": ""
     }, 
     {
@@ -12497,8 +12542,8 @@
         ], 
         "update": "", 
         "module": "ATS", 
-        "id": "CVE-2025-43465", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43465", 
         "rsr": ""
     }, 
     {
@@ -12512,8 +12557,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43466", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43466", 
         "rsr": ""
     }, 
     {
@@ -12527,8 +12572,8 @@
         ], 
         "update": "", 
         "module": "Installer", 
-        "id": "CVE-2025-43467", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43467", 
         "rsr": ""
     }, 
     {
@@ -12546,8 +12591,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43468", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43468", 
         "rsr": ""
     }, 
     {
@@ -12565,8 +12610,8 @@
         ], 
         "update": "", 
         "module": "NSSpellChecker", 
-        "id": "CVE-2025-43469", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43469", 
         "rsr": ""
     }, 
     {
@@ -12580,8 +12625,8 @@
         ], 
         "update": "December 12, 2025", 
         "module": "Disk Images", 
-        "id": "CVE-2025-43470", 
         "credit": "Kenneth Chew", 
+        "id": "CVE-2025-43470", 
         "rsr": ""
     }, 
     {
@@ -12595,8 +12640,8 @@
         ], 
         "update": "", 
         "module": "Admin Framework", 
-        "id": "CVE-2025-43471", 
         "credit": "Gergely Kalman (@gergely_kalman)", 
+        "id": "CVE-2025-43471", 
         "rsr": ""
     }, 
     {
@@ -12614,8 +12659,8 @@
         ], 
         "update": "", 
         "module": "zsh", 
-        "id": "CVE-2025-43472", 
         "credit": "Morris Richman (@morrisinlife)", 
+        "id": "CVE-2025-43472", 
         "rsr": ""
     }, 
     {
@@ -12629,8 +12674,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2025-43473", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-43473", 
         "rsr": ""
     }, 
     {
@@ -12648,8 +12693,8 @@
         ], 
         "update": "", 
         "module": "GPU Drivers", 
-        "id": "CVE-2025-43474", 
         "credit": "Murray Mike", 
+        "id": "CVE-2025-43474", 
         "rsr": ""
     }, 
     {
@@ -12663,8 +12708,8 @@
         ], 
         "update": "", 
         "module": "MediaExperience", 
-        "id": "CVE-2025-43475", 
         "credit": "Rosyna Keller of Totally Not Malicious Software", 
+        "id": "CVE-2025-43475", 
         "rsr": ""
     }, 
     {
@@ -12682,8 +12727,8 @@
         ], 
         "update": "", 
         "module": "SharedFileList", 
-        "id": "CVE-2025-43476", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43476", 
         "rsr": ""
     }, 
     {
@@ -12701,8 +12746,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-43477", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-43477", 
         "rsr": ""
     }, 
     {
@@ -12720,8 +12765,8 @@
         ], 
         "update": "", 
         "module": "ASP TCP", 
-        "id": "CVE-2025-43478", 
         "credit": "Joseph Ravichandran (@0xjprx) of MIT CSAIL, Dave G. (supernetworks.org)", 
+        "id": "CVE-2025-43478", 
         "rsr": ""
     }, 
     {
@@ -12739,8 +12784,8 @@
         ], 
         "update": "", 
         "module": "CoreServices", 
-        "id": "CVE-2025-43479", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43479", 
         "rsr": ""
     }, 
     {
@@ -12764,9 +12809,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43480", 
         "credit": "Aleksejs Popovs", 
         "bugzilla": "276208", 
+        "id": "CVE-2025-43480", 
         "rsr": ""
     }, 
     {
@@ -12782,8 +12827,8 @@
         ], 
         "update": "December 12, 2025", 
         "module": "Disk Images", 
-        "id": "CVE-2025-43481", 
         "credit": "Adwiteeya Agrawal, Mickey Jin (@patch1t), and an anonymous researcher", 
+        "id": "CVE-2025-43481", 
         "rsr": ""
     }, 
     {
@@ -12801,8 +12846,8 @@
         ], 
         "update": "", 
         "module": "Audio", 
-        "id": "CVE-2025-43482", 
         "credit": "Jex Amro, Michael Reeves (@IntegralPilot)", 
+        "id": "CVE-2025-43482", 
         "rsr": ""
     }, 
     {
@@ -12824,8 +12869,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-43493", 
         "credit": "@RenwaX23", 
+        "id": "CVE-2025-43493", 
         "rsr": ""
     }, 
     {
@@ -12851,8 +12896,8 @@
         ], 
         "update": "December 12, 2025", 
         "module": "Mail", 
-        "id": "CVE-2025-43494", 
         "credit": "Taavi Eom\u00e4e of Zone Media (zone.ee)", 
+        "id": "CVE-2025-43494", 
         "rsr": ""
     }, 
     {
@@ -12868,9 +12913,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43495", 
         "credit": "Lehan Dilusha Jayasinghe", 
         "bugzilla": "300095", 
+        "id": "CVE-2025-43495", 
         "rsr": ""
     }, 
     {
@@ -12894,8 +12939,8 @@
         ], 
         "update": "", 
         "module": "Mail", 
-        "id": "CVE-2025-43496", 
         "credit": "Romain Lebesle, Himanshu Bharti @Xpl0itme From Khatima", 
+        "id": "CVE-2025-43496", 
         "rsr": ""
     }, 
     {
@@ -12909,8 +12954,8 @@
         ], 
         "update": "", 
         "module": "BackBoardServices", 
-        "id": "CVE-2025-43497", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43497", 
         "rsr": ""
     }, 
     {
@@ -12932,8 +12977,8 @@
         ], 
         "update": "", 
         "module": "FileProvider", 
-        "id": "CVE-2025-43498", 
         "credit": "pattern-f (@pattern_F_)", 
+        "id": "CVE-2025-43498", 
         "rsr": ""
     }, 
     {
@@ -12953,8 +12998,8 @@
         ], 
         "update": "", 
         "module": "Shortcuts", 
-        "id": "CVE-2025-43499", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43499", 
         "rsr": ""
     }, 
     {
@@ -12974,8 +13019,8 @@
         ], 
         "update": "", 
         "module": "Sandbox Profiles", 
-        "id": "CVE-2025-43500", 
         "credit": "Stanislav Jelezoglo", 
+        "id": "CVE-2025-43500", 
         "rsr": ""
     }, 
     {
@@ -12997,9 +13042,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43501", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
         "bugzilla": "301371", 
+        "id": "CVE-2025-43501", 
         "rsr": ""
     }, 
     {
@@ -13019,8 +13064,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-43502", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43502", 
         "rsr": ""
     }, 
     {
@@ -13044,8 +13089,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-43503", 
         "credit": "@RenwaX23", 
+        "id": "CVE-2025-43503", 
         "rsr": ""
     }, 
     {
@@ -13059,8 +13104,8 @@
         ], 
         "update": "", 
         "module": "lldb", 
-        "id": "CVE-2025-43504", 
         "credit": "Nathaniel Oh (@calysteon)", 
+        "id": "CVE-2025-43504", 
         "rsr": ""
     }, 
     {
@@ -13074,8 +13119,8 @@
         ], 
         "update": "", 
         "module": "GNU", 
-        "id": "CVE-2025-43505", 
         "credit": "Nathaniel Oh (@calysteon)", 
+        "id": "CVE-2025-43505", 
         "rsr": ""
     }, 
     {
@@ -13089,8 +13134,8 @@
         ], 
         "update": "", 
         "module": "Networking", 
-        "id": "CVE-2025-43506", 
         "credit": "Doug Hogan", 
+        "id": "CVE-2025-43506", 
         "rsr": ""
     }, 
     {
@@ -13112,8 +13157,8 @@
         ], 
         "update": "", 
         "module": "Find My", 
-        "id": "CVE-2025-43507", 
         "credit": "iisBuri", 
+        "id": "CVE-2025-43507", 
         "rsr": ""
     }, 
     {
@@ -13131,8 +13176,8 @@
         ], 
         "update": "", 
         "module": "Networking", 
-        "id": "CVE-2025-43509", 
         "credit": "Haoling Zhou, Shixuan Zhao (@NSKernel), Chao Wang (@evi0s), Zhiqiang Lin from SecLab of The Ohio State University", 
+        "id": "CVE-2025-43509", 
         "rsr": ""
     }, 
     {
@@ -13160,8 +13205,8 @@
         ], 
         "update": "December 12, 2025", 
         "module": "Kernel", 
-        "id": "CVE-2025-43510", 
         "credit": "Apple", 
+        "id": "CVE-2025-43510", 
         "rsr": ""
     }, 
     {
@@ -13185,9 +13230,9 @@
         ], 
         "update": "", 
         "module": "WebKit Web Inspector", 
-        "id": "CVE-2025-43511", 
         "credit": "\uc774\ub3d9\ud558 (Lee Dong Ha of BoB 14th)", 
         "bugzilla": "300926", 
+        "id": "CVE-2025-43511", 
         "rsr": ""
     }, 
     {
@@ -13207,8 +13252,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-43512", 
         "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
+        "id": "CVE-2025-43512", 
         "rsr": ""
     }, 
     {
@@ -13226,8 +13271,8 @@
         ], 
         "update": "", 
         "module": "MDM Configuration Tools", 
-        "id": "CVE-2025-43513", 
         "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
+        "id": "CVE-2025-43513", 
         "rsr": ""
     }, 
     {
@@ -13241,8 +13286,8 @@
         ], 
         "update": "", 
         "module": "Siri", 
-        "id": "CVE-2025-43514", 
         "credit": "Morris Richman (@morrisinlife)", 
+        "id": "CVE-2025-43514", 
         "rsr": ""
     }, 
     {
@@ -13256,8 +13301,8 @@
         ], 
         "update": "", 
         "module": "Compressor", 
-        "id": "CVE-2025-43515", 
         "credit": "CodeColorist and Pedro T\u00f4rres(@t0rr3sp3dr0)", 
+        "id": "CVE-2025-43515", 
         "rsr": ""
     }, 
     {
@@ -13275,8 +13320,8 @@
         ], 
         "update": "", 
         "module": "Voice Control", 
-        "id": "CVE-2025-43516", 
         "credit": "Kay Belardinelli (Harvard University)", 
+        "id": "CVE-2025-43516", 
         "rsr": ""
     }, 
     {
@@ -13294,8 +13339,8 @@
         ], 
         "update": "", 
         "module": "Call History", 
-        "id": "CVE-2025-43517", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
+        "id": "CVE-2025-43517", 
         "rsr": ""
     }, 
     {
@@ -13317,8 +13362,8 @@
         ], 
         "update": "", 
         "module": "Foundation", 
-        "id": "CVE-2025-43518", 
         "credit": "Noah Gregory (wts.dev)", 
+        "id": "CVE-2025-43518", 
         "rsr": ""
     }, 
     {
@@ -13336,8 +13381,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43519", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43519", 
         "rsr": ""
     }, 
     {
@@ -13365,8 +13410,8 @@
         ], 
         "update": "December 12, 2025", 
         "module": "Kernel", 
-        "id": "CVE-2025-43520", 
         "credit": "Apple", 
+        "id": "CVE-2025-43520", 
         "rsr": ""
     }, 
     {
@@ -13382,8 +13427,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43521", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43521", 
         "rsr": ""
     }, 
     {
@@ -13399,8 +13444,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43522", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43522", 
         "rsr": ""
     }, 
     {
@@ -13416,8 +13461,8 @@
         ], 
         "update": "", 
         "module": "AppleMobileFileIntegrity", 
-        "id": "CVE-2025-43523", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43523", 
         "rsr": ""
     }, 
     {
@@ -13433,8 +13478,8 @@
         ], 
         "update": "", 
         "module": "Safari", 
-        "id": "CVE-2025-43526", 
         "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
+        "id": "CVE-2025-43526", 
         "rsr": ""
     }, 
     {
@@ -13450,8 +13495,8 @@
         ], 
         "update": "", 
         "module": "StorageKit", 
-        "id": "CVE-2025-43527", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-43527", 
         "rsr": ""
     }, 
     {
@@ -13477,9 +13522,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43529", 
         "credit": "Google Threat Analysis Group", 
         "bugzilla": "302502", 
+        "id": "CVE-2025-43529", 
         "rsr": ""
     }, 
     {
@@ -13499,8 +13544,8 @@
         ], 
         "update": "", 
         "module": "Settings", 
-        "id": "CVE-2025-43530", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-43530", 
         "rsr": ""
     }, 
     {
@@ -13526,9 +13571,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43531", 
         "credit": "Phil Pizlo of Epic Games", 
         "bugzilla": "301940", 
+        "id": "CVE-2025-43531", 
         "rsr": ""
     }, 
     {
@@ -13556,8 +13601,8 @@
         ], 
         "update": "", 
         "module": "Foundation", 
-        "id": "CVE-2025-43532", 
         "credit": "Andrew Calvano and Lucas Pinheiro of Meta Product Security", 
+        "id": "CVE-2025-43532", 
         "rsr": ""
     }, 
     {
@@ -13579,8 +13624,8 @@
         ], 
         "update": "", 
         "module": "Multi-Touch", 
-        "id": "CVE-2025-43533", 
         "credit": "Google Threat Analysis Group", 
+        "id": "CVE-2025-43533", 
         "rsr": ""
     }, 
     {
@@ -13602,9 +13647,9 @@
         ], 
         "update": "January 9, 2026", 
         "module": "WebKit", 
-        "id": "CVE-2025-43535", 
         "credit": "Google Big Sleep, Nan Wang (@eternalsakura13)", 
         "bugzilla": "300774", 
+        "id": "CVE-2025-43535", 
         "rsr": ""
     }, 
     {
@@ -13624,9 +13669,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43536", 
         "credit": "Nan Wang (@eternalsakura13)", 
         "bugzilla": "301726", 
+        "id": "CVE-2025-43536", 
         "rsr": ""
     }, 
     {
@@ -13650,8 +13695,8 @@
         ], 
         "update": "", 
         "module": "Screen Time", 
-        "id": "CVE-2025-43538", 
         "credit": "Iv\u00e1n Savransky", 
+        "id": "CVE-2025-43538", 
         "rsr": ""
     }, 
     {
@@ -13679,8 +13724,8 @@
         ], 
         "update": "", 
         "module": "AppleJPEG", 
-        "id": "CVE-2025-43539", 
         "credit": "Michael Reeves (@IntegralPilot)", 
+        "id": "CVE-2025-43539", 
         "rsr": ""
     }, 
     {
@@ -13702,9 +13747,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-43541", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative", 
         "bugzilla": "301257", 
+        "id": "CVE-2025-43541", 
         "rsr": ""
     }, 
     {
@@ -13726,8 +13771,8 @@
         ], 
         "update": "", 
         "module": "FaceTime", 
-        "id": "CVE-2025-43542", 
         "credit": "Yi\u011fit Ocak", 
+        "id": "CVE-2025-43542", 
         "rsr": ""
     }, 
     {
@@ -13753,8 +13798,8 @@
         ], 
         "update": "", 
         "module": "Messages", 
-        "id": "CVE-2025-46276", 
         "credit": "Rosyna Keller of Totally Not Malicious Software", 
+        "id": "CVE-2025-46276", 
         "rsr": ""
     }, 
     {
@@ -13772,8 +13817,8 @@
         ], 
         "update": "", 
         "module": "Screen Time", 
-        "id": "CVE-2025-46277", 
         "credit": "Kirin (@Pwnrin)", 
+        "id": "CVE-2025-46277", 
         "rsr": ""
     }, 
     {
@@ -13787,8 +13832,8 @@
         ], 
         "update": "", 
         "module": "Game Center", 
-        "id": "CVE-2025-46278", 
         "credit": "Kirin (@Pwnrin) and LFY (@secsys) of Fudan University", 
+        "id": "CVE-2025-46278", 
         "rsr": ""
     }, 
     {
@@ -13812,8 +13857,8 @@
         ], 
         "update": "", 
         "module": "Icons", 
-        "id": "CVE-2025-46279", 
         "credit": "Duy Tr\u1ea7n (@khanhduytran0)", 
+        "id": "CVE-2025-46279", 
         "rsr": ""
     }, 
     {
@@ -13827,8 +13872,8 @@
         ], 
         "update": "", 
         "module": "File Bookmark", 
-        "id": "CVE-2025-46281", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-46281", 
         "rsr": ""
     }, 
     {
@@ -13844,9 +13889,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-46282", 
         "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)", 
         "bugzilla": "295941", 
+        "id": "CVE-2025-46282", 
         "rsr": ""
     }, 
     {
@@ -13860,8 +13905,8 @@
         ], 
         "update": "", 
         "module": "CoreServices", 
-        "id": "CVE-2025-46283", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-46283", 
         "rsr": ""
     }, 
     {
@@ -13889,8 +13934,8 @@
         ], 
         "update": "", 
         "module": "Kernel", 
-        "id": "CVE-2025-46285", 
         "credit": "Kaitao Xie and Xiaolong Bai of Alibaba Group", 
+        "id": "CVE-2025-46285", 
         "rsr": ""
     }, 
     {
@@ -13904,8 +13949,8 @@
         ], 
         "update": "January 9, 2026", 
         "module": "BiometricKit", 
-        "id": "CVE-2025-46286", 
         "credit": "Andrei Simion", 
+        "id": "CVE-2025-46286", 
         "rsr": ""
     }, 
     {
@@ -13931,8 +13976,8 @@
         ], 
         "update": "", 
         "module": "Calling Framework", 
-        "id": "CVE-2025-46287", 
         "credit": "an anonymous researcher, Riley Walz", 
+        "id": "CVE-2025-46287", 
         "rsr": ""
     }, 
     {
@@ -13952,8 +13997,8 @@
         ], 
         "update": "", 
         "module": "App Store", 
-        "id": "CVE-2025-46288", 
         "credit": "floeki, Zhongcheng Li from IES Red Team of ByteDance", 
+        "id": "CVE-2025-46288", 
         "rsr": ""
     }, 
     {
@@ -13971,8 +14016,8 @@
         ], 
         "update": "", 
         "module": "AppSandbox", 
-        "id": "CVE-2025-46289", 
         "credit": "an anonymous researcher", 
+        "id": "CVE-2025-46289", 
         "rsr": ""
     }, 
     {
@@ -13986,8 +14031,8 @@
         ], 
         "update": "", 
         "module": "LaunchServices", 
-        "id": "CVE-2025-46291", 
         "credit": "Kenneth Chew", 
+        "id": "CVE-2025-46291", 
         "rsr": ""
     }, 
     {
@@ -14003,8 +14048,8 @@
         ], 
         "update": "", 
         "module": "Telephony", 
-        "id": "CVE-2025-46292", 
         "credit": "Rosyna Keller of Totally Not Malicious Software", 
+        "id": "CVE-2025-46292", 
         "rsr": ""
     }, 
     {
@@ -14018,48 +14063,60 @@
         ], 
         "update": "January 9, 2026", 
         "module": "AppSandbox", 
-        "id": "CVE-2025-46297", 
         "credit": "Mickey Jin (@patch1t)", 
+        "id": "CVE-2025-46297", 
         "rsr": ""
     }, 
     {
         "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
         "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "description": "The issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/125884", 
             "https://support.apple.com/en-us/125886", 
-            "https://support.apple.com/en-us/125891"
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
         ], 
         "update": "January 9, 2026", 
         "module": "WebKit", 
-        "id": "CVE-2025-46298", 
         "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative, Nan Wang (@eternalsakura13)", 
         "bugzilla": "301468", 
+        "id": "CVE-2025-46298", 
         "rsr": ""
     }, 
     {
         "impact": "Processing maliciously crafted web content may disclose internal states of the app", 
         "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "description": "A memory initialization issue was addressed with improved memory handling.", 
         "links": [
             "https://support.apple.com/en-us/125884", 
             "https://support.apple.com/en-us/125886", 
-            "https://support.apple.com/en-us/125891"
+            "https://support.apple.com/en-us/125889", 
+            "https://support.apple.com/en-us/125890", 
+            "https://support.apple.com/en-us/125891", 
+            "https://support.apple.com/en-us/125892"
         ], 
         "update": "January 9, 2026", 
         "module": "WebKit", 
-        "id": "CVE-2025-46299", 
         "credit": "Google Big Sleep", 
         "bugzilla": "299518", 
+        "id": "CVE-2025-46299", 
         "rsr": ""
     }, 
     {
@@ -14073,8 +14130,8 @@
         ], 
         "update": "", 
         "module": "Git", 
-        "id": "CVE-2025-48384", 
         "credit": "", 
+        "id": "CVE-2025-48384", 
         "rsr": ""
     }, 
     {
@@ -14088,8 +14145,8 @@
         ], 
         "update": "", 
         "module": "Vim", 
-        "id": "CVE-2025-53906", 
         "credit": "", 
+        "id": "CVE-2025-53906", 
         "rsr": ""
     }, 
     {
@@ -14111,8 +14168,8 @@
         ], 
         "update": "", 
         "module": "libarchive", 
-        "id": "CVE-2025-5918", 
         "credit": "", 
+        "id": "CVE-2025-5918", 
         "rsr": ""
     }, 
     {
@@ -14130,8 +14187,8 @@
         ], 
         "update": "", 
         "module": "Ruby", 
-        "id": "CVE-2025-6442", 
         "credit": "", 
+        "id": "CVE-2025-6442", 
         "rsr": ""
     }, 
     {
@@ -14157,9 +14214,9 @@
         ], 
         "update": "", 
         "module": "WebKit", 
-        "id": "CVE-2025-6558", 
         "credit": "Cl\u00e9ment Lecigne and Vlad Stolyarov of Google's Threat Analysis Group", 
         "bugzilla": "296459", 
+        "id": "CVE-2025-6558", 
         "rsr": ""
     }, 
     {
@@ -14188,8 +14245,8 @@
         ], 
         "update": "", 
         "module": "SQLite", 
-        "id": "CVE-2025-6965", 
         "credit": "", 
+        "id": "CVE-2025-6965", 
         "rsr": ""
     }, 
     {
@@ -14217,8 +14274,8 @@
         ], 
         "update": "", 
         "module": "libxslt", 
-        "id": "CVE-2025-7424", 
         "credit": "Ivan Fratric of Google Project Zero", 
+        "id": "CVE-2025-7424", 
         "rsr": ""
     }, 
     {
@@ -14242,8 +14299,8 @@
         ], 
         "update": "", 
         "module": "libxml2", 
-        "id": "CVE-2025-7425", 
         "credit": "Sergei Glazunov of Google Project Zero", 
+        "id": "CVE-2025-7425", 
         "rsr": ""
     }, 
     {
@@ -14271,8 +14328,8 @@
         ], 
         "update": "", 
         "module": "curl", 
-        "id": "CVE-2025-9086", 
         "credit": "", 
+        "id": "CVE-2025-9086", 
         "rsr": ""
     }
 ]
