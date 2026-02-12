@@ -24,7 +24,7 @@
 | 6 | Siri | 18 |
 | 7 | ImageIO | 16 |
 | 8 | Sandbox | 12 |
-| 9 | IOMobileFrameBuffer | 10 |
+| 9 | IOMobileFrameBuffer | 11 |
 | 10 | Safari | 9 |
 | 11 | Accessibility | 9 |
 | 12 | SharedFileList | 8 |
@@ -33,12 +33,12 @@
 | 15 | Wi-Fi | 6 |
 | 16 | Safari Private Browsing | 6 |
 | 17 | System Settings | 6 |
-| 18 | sips | 6 |
-| 19 | Perl | 5 |
-| 20 | OpenSSH | 5 |
-| 21 | Notes | 5 |
-| 22 | Spotlight | 5 |
-| 23 | StorageKit | 5 |
+| 18 | StorageKit | 6 |
+| 19 | sips | 6 |
+| 20 | Perl | 5 |
+| 21 | OpenSSH | 5 |
+| 22 | Notes | 5 |
+| 23 | Spotlight | 5 |
 | 24 | AppleVA | 5 |
 | 25 | Accounts | 5 |
 | 26 | LaunchServices | 5 |
@@ -207,6 +207,7 @@
 | 189 | Calendar | 1 |
 | 190 | MobileAccessoryUpdater | 1 |
 | 191 | QuickTime Player | 1 |
-| 192 | AirDrop | 1 |
-| 193 | ATS | 1 |
-| 194 | Libnotify | 1 |
+| 192 | WidgetKit | 1 |
+| 193 | AirDrop | 1 |
+| 194 | ATS | 1 |
+| 195 | Libnotify | 1 |
