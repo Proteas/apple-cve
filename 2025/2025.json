@@ -7742,7 +7742,7 @@
         "links": [
             "https://support.apple.com/en-us/125110"
         ], 
-        "module": "Airport", 
+        "module": "AirPort", 
         "rsr": "", 
         "update": ""
     }, 
@@ -13660,6 +13660,21 @@
     }, 
     {
         "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later"
+        ], 
+        "credit": "iG0x72 and JJ of XiguaSec, Lehan Dilusha Jayasinghe", 
+        "description": "A path handling issue was addressed with improved validation.", 
+        "id": "CVE-2025-43534", 
+        "impact": "A user with physical access to an iOS device may be able to bypass Activation Lock", 
+        "links": [
+            "https://support.apple.com/en-us/125884"
+        ], 
+        "module": "iTunes Store", 
+        "rsr": "", 
+        "update": "March 24, 2026"
+    }, 
+    {
+        "available": [
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
@@ -13708,7 +13723,7 @@
         "available": [
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later"
         ], 
-        "credit": "piffz, Daniel Nurkin, Mohamed Hamdadou & Mahran Alhazmi, Sadman Adib, Gerson Aldaz, qwerty j0y & Ricardo Garcia, Dorian Del Valle, Hichem Maloufi, Christian Mina", 
+        "credit": "piffz, Daniel Nurkin, Al Sadman Awal, Mohamed Hamdadou & Mahran Alhazmi, Hichem Maloufi, Christian Mina, Gerson Aldaz, qwerty j0y & Ricardo Garcia, Dorian Del Valle", 
         "description": "A path handling issue was addressed with improved validation.", 
         "id": "CVE-2025-43537", 
         "impact": "Restoring a maliciously crafted backup file may lead to modification of protected system files", 
@@ -13717,7 +13732,7 @@
         ], 
         "module": "Books", 
         "rsr": "", 
-        "update": "February 11, 2026"
+        "update": "February 11, 2026, updated March 24, 2026"
     }, 
     {
         "available": [
@@ -14070,6 +14085,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS and later, iPad Pro 13-inch, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 7th generation and later, and iPad mini 5th generation and later", 
             "macOS Tahoe"
         ], 
         "credit": "Bing Shi, Wenchao Li and Xiaolong Bai of Alibaba Group, and Luyi Xing of Indiana University Bloomington", 
@@ -14078,6 +14094,7 @@
         "impact": "A remote attacker may be able to cause a denial-of-service", 
         "links": [
             "https://support.apple.com/en-us/125884", 
+            "https://support.apple.com/en-us/125885", 
             "https://support.apple.com/en-us/125886", 
             "https://support.apple.com/en-us/125890", 
             "https://support.apple.com/en-us/125891"
@@ -14187,6 +14204,7 @@
     }, 
     {
         "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
@@ -14199,6 +14217,7 @@
         "links": [
             "https://support.apple.com/en-us/125884", 
             "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
             "https://support.apple.com/en-us/125890", 
             "https://support.apple.com/en-us/125891"
         ], 
@@ -14208,6 +14227,7 @@
     }, 
     {
         "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
@@ -14220,6 +14240,7 @@
         "links": [
             "https://support.apple.com/en-us/125884", 
             "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
             "https://support.apple.com/en-us/125890", 
             "https://support.apple.com/en-us/125891"
         ], 
@@ -14229,6 +14250,7 @@
     }, 
     {
         "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
@@ -14241,6 +14263,7 @@
         "links": [
             "https://support.apple.com/en-us/125884", 
             "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
             "https://support.apple.com/en-us/125890", 
             "https://support.apple.com/en-us/125891"
         ], 
@@ -14250,6 +14273,7 @@
     }, 
     {
         "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
@@ -14262,6 +14286,7 @@
         "links": [
             "https://support.apple.com/en-us/125884", 
             "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
             "https://support.apple.com/en-us/125890", 
             "https://support.apple.com/en-us/125891"
         ], 
@@ -14271,6 +14296,7 @@
     }, 
     {
         "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
@@ -14283,6 +14309,7 @@
         "links": [
             "https://support.apple.com/en-us/125884", 
             "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
             "https://support.apple.com/en-us/125890", 
             "https://support.apple.com/en-us/125891"
         ], 
@@ -14292,6 +14319,7 @@
     }, 
     {
         "available": [
+            "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
@@ -14304,6 +14332,7 @@
         "links": [
             "https://support.apple.com/en-us/125884", 
             "https://support.apple.com/en-us/125886", 
+            "https://support.apple.com/en-us/125889", 
             "https://support.apple.com/en-us/125890", 
             "https://support.apple.com/en-us/125891"
         ], 
@@ -14330,6 +14359,7 @@
     }, 
     {
         "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Tahoe"
         ], 
         "credit": "KPC of Cisco Talos", 
@@ -14337,6 +14367,7 @@
         "id": "CVE-2025-46316", 
         "impact": "Processing a maliciously crafted Pages document may result in unexpected termination or disclosure of process memory", 
         "links": [
+            "https://support.apple.com/en-us/125632", 
             "https://support.apple.com/en-us/125634"
         ], 
         "module": "QuickLook", 
