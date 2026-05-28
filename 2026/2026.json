@@ -3059,6 +3059,7 @@
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "308707", 
@@ -3072,7 +3073,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -3739,6 +3741,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "313939", 
@@ -3751,7 +3754,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -3961,6 +3965,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "310207", 
@@ -3973,7 +3978,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -3985,6 +3991,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "309861", 
@@ -3997,7 +4004,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4010,6 +4018,7 @@
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "310303", 
@@ -4023,7 +4032,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4036,6 +4046,7 @@
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "309601", 
@@ -4049,7 +4060,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4060,6 +4072,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "308545", 
@@ -4071,7 +4084,8 @@
             "https://support.apple.com/en-us/127110", 
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4109,6 +4123,7 @@
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "308675", 
@@ -4122,7 +4137,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4167,6 +4183,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "311631", 
@@ -4178,7 +4195,8 @@
             "https://support.apple.com/en-us/127110", 
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
-            "https://support.apple.com/en-us/127119"
+            "https://support.apple.com/en-us/127119", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4225,6 +4243,7 @@
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "310527", 
@@ -4238,7 +4257,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4500,6 +4520,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "312180", 
@@ -4512,7 +4533,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4549,6 +4571,7 @@
         "available": [
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "311131", 
@@ -4559,7 +4582,8 @@
         "links": [
             "https://support.apple.com/en-us/127110", 
             "https://support.apple.com/en-us/127115", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebRTC", 
         "rsr": "", 
@@ -4567,6 +4591,7 @@
     }, 
     {
         "available": [
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "310544", 
@@ -4575,7 +4600,8 @@
         "id": "CVE-2026-28946", 
         "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
         "links": [
-            "https://support.apple.com/en-us/127115"
+            "https://support.apple.com/en-us/127115", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4587,6 +4613,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "310234", 
@@ -4599,7 +4626,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4679,6 +4707,7 @@
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "309628", 
@@ -4692,7 +4721,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4726,6 +4756,7 @@
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "310880", 
@@ -4739,7 +4770,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4795,6 +4827,7 @@
         "available": [
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "311228", 
@@ -4805,7 +4838,8 @@
         "links": [
             "https://support.apple.com/en-us/127110", 
             "https://support.apple.com/en-us/127115", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4860,6 +4894,7 @@
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "309698", 
@@ -4871,7 +4906,8 @@
             "https://support.apple.com/en-us/127110", 
             "https://support.apple.com/en-us/127111", 
             "https://support.apple.com/en-us/127115", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -4974,9 +5010,9 @@
         "available": [
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "bugzilla": "311288", 
         "credit": "Khiem Tran", 
         "description": "The issue was addressed with improved UI handling.", 
         "id": "CVE-2026-28971", 
@@ -4984,7 +5020,8 @@
         "links": [
             "https://support.apple.com/en-us/127110", 
             "https://support.apple.com/en-us/127115", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -5593,6 +5630,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "307669", 
@@ -5605,7 +5643,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -5643,6 +5682,7 @@
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "308906", 
@@ -5656,7 +5696,8 @@
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/127121"
         ], 
         "module": "WebKit", 
         "rsr": "", 
