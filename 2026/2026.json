@@ -95,6 +95,21 @@
     }, 
     {
         "available": [
+            "Beats Studio Buds"
+        ], 
+        "credit": "Dennis Heinze and Frieder Steinmetz of ERNW GmbH", 
+        "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.", 
+        "id": "CVE-2025-20701", 
+        "impact": "An attacker within Bluetooth range may be able to listen through the microphone of a device which is not yet paired and actively seeking pair requests", 
+        "links": [
+            "https://support.apple.com/en-us/127557"
+        ], 
+        "module": "Bluetooth", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
             "macOS Sonoma"
         ], 
         "credit": "\uc774\ub3d9\ud558 (Lee Dong Ha) of SSA Lab", 
@@ -5146,6 +5161,26 @@
     }, 
     {
         "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317324", 
+        "credit": "", 
+        "description": "An out-of-bounds access issue was addressed with improved bounds checking.", 
+        "id": "CVE-2026-28979", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebRTC", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
@@ -5448,6 +5483,23 @@
     }, 
     {
         "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Vladislav Shevchenko (Positive Technologies), Ye Zhang (@VAR10CK) of Baidu Security, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd.", 
+        "description": "This issue was addressed with improved input validation.", 
+        "id": "CVE-2026-39868", 
+        "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595"
+        ], 
+        "module": "Kernel", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
@@ -5510,6 +5562,26 @@
             "https://support.apple.com/en-us/127117"
         ], 
         "module": "TV App", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313528", 
+        "credit": "Utkarsh Pal, Ignacio Sanmillan (@ulexec)", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-39872", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
         "rsr": "", 
         "update": ""
     }, 
@@ -5726,6 +5798,26 @@
     }, 
     {
         "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "312781", 
+        "credit": "Soyeon Park, Amy Burnett, Khai Tran, sherkito, Kota Toda, HexRabbit (@h3xr4bb1t) and NiNi (@terrynini38514) of DEVCORE Research Team, Using GLM From Z.AI, Tristan Madani (@TristanInSec) from Talence Security, Brian Carpenter", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-43663", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
@@ -5779,6 +5871,651 @@
             "https://support.apple.com/en-us/127120"
         ], 
         "module": "mDNSResponder", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317231", 
+        "credit": "Mateusz Krzywicki (iVerify.io), dr3dd, Tommy DeVoss from Braze Security Team (@thedawgyg)", 
+        "description": "An out-of-bounds access issue was addressed with improved bounds checking.", 
+        "id": "CVE-2026-43676", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317227", 
+        "credit": "Tommy DeVoss from Braze Security Team (@thedawgyg)", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43699", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "315368", 
+        "credit": "Vitaly Simonovich, Christian Meurer Xavier", 
+        "description": "A cross-origin issue was addressed with improved tracking of security origins.", 
+        "id": "CVE-2026-43700", 
+        "impact": "Processing maliciously crafted web content may disclose sensitive user information", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "315004", 
+        "credit": "Aaron Grattafiori - NVIDIA AI Red Team", 
+        "description": "The issue was addressed with improved checks.", 
+        "id": "CVE-2026-43701", 
+        "impact": "A malicious website may be able to process restricted web content outside the sandbox", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Tristan Madani (@TristanInSec) from Talence Security", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-43703", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595"
+        ], 
+        "module": "libxslt", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "314642", 
+        "credit": "dr3dd", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43704", 
+        "impact": "A malicious web extension may be able to cause an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "Web Extensions", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "314528", 
+        "credit": "dr3dd", 
+        "description": "A type confusion issue was addressed with improved checks.", 
+        "id": "CVE-2026-43705", 
+        "impact": "Processing maliciously crafted web content may lead to memory corruption", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Tristan Madani (@TristanInSec) from Talence Security", 
+        "description": "A double free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43706", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595"
+        ], 
+        "module": "libxslt", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "315951", 
+        "credit": "OpenAI Codex Security - Amy Burnett", 
+        "description": "A memory corruption issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-43707", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "315306", 
+        "credit": "Behzad Najjarpour Jabbari (@_G4ru_)", 
+        "description": "The issue was addressed with improved input validation.", 
+        "id": "CVE-2026-43708", 
+        "impact": "A malicious website may exfiltrate data cross-origin", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "314398", 
+        "credit": "", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43709", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "314235", 
+        "credit": "Kwak Kiyong, Song Nuri, Tristan Madani (@TristanInSec) from Talence Security", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-43712", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "314806", 
+        "credit": "Jody Ritonga", 
+        "description": "A permissions issue was addressed with additional restrictions.", 
+        "id": "CVE-2026-43713", 
+        "impact": "Visiting a website may leak sensitive data", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313577", 
+        "credit": "Milad Nasr and Nicholas Carlini with Claude, Anthropic", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43715", 
+        "impact": "Processing maliciously crafted web content may lead to memory corruption", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "315047", 
+        "credit": "Tuan and Duc from Calif.io, OpenAI Codex Security - Amy Burnett, Evan Lambert", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-43716", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313351", 
+        "credit": "Nan Wang (@eternalsakura13)", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43717", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebRTC", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313350", 
+        "credit": "Nan Wang (@eternalsakura13)", 
+        "description": "A stack overflow was addressed with improved input validation.", 
+        "id": "CVE-2026-43718", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebRTC", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313175", 
+        "credit": "Gia Bui (@yabeow) from Calif.io, Josef Korbel", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43720", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit Canvas", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313478", 
+        "credit": "Idan Masas", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-43721", 
+        "impact": "A malicious website may be able to silently hijack clipboard data", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit Storage", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Feng Xue and XGPT of ThreatBook, Hyunwoo Kim (@v4bel)", 
+        "description": "The issue was addressed with improved input sanitization.", 
+        "id": "CVE-2026-43722", 
+        "impact": "An app may be able to leak sensitive kernel state", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595"
+        ], 
+        "module": "Kernel", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Hyunwoo Kim (@v4bel)", 
+        "description": "The issue was addressed with improved input sanitization.", 
+        "id": "CVE-2026-43724", 
+        "impact": "An app may be able to cause unexpected system termination or write kernel memory", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595"
+        ], 
+        "module": "Kernel", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "312832", 
+        "credit": "Luke Francis", 
+        "description": "The issue was addressed with improved input validation.", 
+        "id": "CVE-2026-43725", 
+        "impact": "A malicious website may be able to process restricted web content outside the sandbox", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313857", 
+        "credit": "Josef Korbel (Citadelo), Tristan Madani (@TristanInSec) from Talence Security, Gia Bui (@yabeow) from Calif.io, Narendra Singh (@_3P1C)", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43726", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313691", 
+        "credit": "Tommy DeVoss from Braze Security Team (@thedawgyg), Gia Bui (@yabeow) from Calif.io, Gurpreet Shergill", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43727", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "314115", 
+        "credit": "dr3dd", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43731", 
+        "impact": "Processing maliciously crafted web content may lead to memory corruption", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313085", 
+        "credit": "Nan Wang (@eternalsakura13)", 
+        "description": "A path handling issue was addressed with improved validation.", 
+        "id": "CVE-2026-43732", 
+        "impact": "Processing maliciously crafted web content may disclose sensitive user information", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313693", 
+        "credit": "Jonathan Alush-Aben", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43734", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313357", 
+        "credit": "Merrick Hare, Drinor Selmanaj (Sentry), Khai Tran, John Lussier, Rhyru9, Kwak Kiyong, Song Nuri", 
+        "description": "The issue was addressed with improved checks.", 
+        "id": "CVE-2026-43735", 
+        "impact": "A malicious website may exfiltrate data cross-origin", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "308046", 
+        "credit": "Nathaniel Oh (@calysteon), Arni Hardarson", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-43740", 
+        "impact": "Processing maliciously crafted web content may result in the disclosure of process memory", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "315161", 
+        "credit": "\u042e\u043b\u0438\u044f \u041c\u0435\u0440\u0446\u0430\u043b\u043e\u0432\u0430", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43742", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Lyutoon, Dun", 
+        "description": "A race condition was addressed with improved state handling.", 
+        "id": "CVE-2026-43743", 
+        "impact": "An app may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595"
+        ], 
+        "module": "IOGPUFamily", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "315365", 
+        "credit": "OpenAI Codex Security - Amy Burnett, Khai Tran", 
+        "description": "An out-of-bounds write issue was addressed with improved input validation.", 
+        "id": "CVE-2026-43745", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sonoma and macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "314090", 
+        "credit": "dr3dd", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-43746", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/127594", 
+            "https://support.apple.com/en-us/127595", 
+            "https://support.apple.com/en-us/127685"
+        ], 
+        "module": "WebRTC", 
         "rsr": "", 
         "update": ""
     }
