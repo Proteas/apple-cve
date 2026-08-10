@@ -6509,15 +6509,13 @@
     {
         "available": [
             "macOS Sequoia", 
-            "macOS Sonoma", 
-            "macOS Tahoe"
+            "macOS Sonoma"
         ], 
         "credit": "Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs", 
         "description": "An injection issue was addressed with improved validation.", 
         "id": "CVE-2026-43698", 
         "impact": "An app may be able to gain root privileges", 
         "links": [
-            "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
             "https://support.apple.com/en-us/128072"
         ], 
@@ -7451,12 +7449,9 @@
             "https://support.apple.com/en-us/127594", 
             "https://support.apple.com/en-us/127595", 
             "https://support.apple.com/en-us/127685", 
-            "https://support.apple.com/en-us/128066", 
-            "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070", 
-            "https://support.apple.com/en-us/128073"
+            "https://support.apple.com/en-us/128070"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -10356,6 +10351,25 @@
             "https://support.apple.com/en-us/128073"
         ], 
         "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "macOS Sequoia", 
+            "macOS Sonoma", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Alfredo Pesoli (@__rev) via Bynario Atlas (bynar.io)", 
+        "description": "An authentication issue was addressed with improved state management.", 
+        "id": "CVE-2026-65400", 
+        "impact": "An attacker on the network may be able to authenticate to Screen Sharing without valid credentials", 
+        "links": [
+            "https://support.apple.com/en-us/148170", 
+            "https://support.apple.com/en-us/148171", 
+            "https://support.apple.com/en-us/148172"
+        ], 
+        "module": "Screen Sharing", 
         "rsr": "", 
         "update": ""
     }
