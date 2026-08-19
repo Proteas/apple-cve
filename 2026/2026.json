@@ -4870,6 +4870,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -4884,7 +4885,8 @@
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
             "https://support.apple.com/en-us/127120", 
-            "https://support.apple.com/en-us/127121"
+            "https://support.apple.com/en-us/127121", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -5084,6 +5086,7 @@
         "available": [
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -5096,7 +5099,8 @@
             "https://support.apple.com/en-us/127110", 
             "https://support.apple.com/en-us/127115", 
             "https://support.apple.com/en-us/127120", 
-            "https://support.apple.com/en-us/127121"
+            "https://support.apple.com/en-us/127121", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -5321,6 +5325,7 @@
         "available": [
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -5334,7 +5339,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "libc", 
         "rsr": "", 
@@ -5434,6 +5440,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -5448,7 +5455,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebRTC", 
         "rsr": "", 
@@ -5518,6 +5526,22 @@
             "https://support.apple.com/en-us/128072"
         ], 
         "module": "LaunchServices", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation"
+        ], 
+        "bugzilla": "311883", 
+        "credit": "Artem Dinaburg of Trail of Bits via Anthropic CVD", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-28984", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
         "rsr": "", 
         "update": ""
     }, 
@@ -5621,6 +5645,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -5636,7 +5661,8 @@
             "https://support.apple.com/en-us/127117", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "ImageIO", 
         "rsr": "", 
@@ -5777,6 +5803,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -5792,7 +5819,8 @@
             "https://support.apple.com/en-us/127117", 
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
-            "https://support.apple.com/en-us/127120"
+            "https://support.apple.com/en-us/127120", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Storage", 
         "rsr": "", 
@@ -5803,6 +5831,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -5817,7 +5846,8 @@
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "curl", 
         "rsr": "", 
@@ -5828,6 +5858,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -5842,7 +5873,8 @@
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "curl", 
         "rsr": "", 
@@ -5854,6 +5886,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -5869,7 +5902,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -5948,6 +5982,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -5962,7 +5997,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -6027,6 +6063,7 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma"
         ], 
@@ -6036,7 +6073,8 @@
         "impact": "An app may be able to disclose kernel memory", 
         "links": [
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "IOSkywalkFamily", 
         "rsr": "", 
@@ -6161,6 +6199,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -6175,7 +6214,8 @@
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
             "https://support.apple.com/en-us/127120", 
-            "https://support.apple.com/en-us/127121"
+            "https://support.apple.com/en-us/127121", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -6239,6 +6279,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -6253,7 +6294,8 @@
             "https://support.apple.com/en-us/127118", 
             "https://support.apple.com/en-us/127119", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "ImageIO", 
         "rsr": "", 
@@ -6265,11 +6307,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "312781", 
-        "credit": "stratan (@5tratan) of Almamater Technologies, Soyeon Park, Amy Burnett, Khai Tran, sherkito, Kota Toda, HexRabbit (@h3xr4bb1t) and NiNi (@terrynini38514) of DEVCORE Research Team, Using GLM From Z.AI, Tristan Madani (@TristanInSec) from Talence Security, Brian Carpenter", 
+        "credit": "Using GLM From Z.AI, Tristan Madani (@TristanInSec) from Talence Security, stratan (@5tratan) of Almamater Technologies, Soyeon Park, Amy Burnett, Khai Tran, sherkito, Kota Toda, HexRabbit (@h3xr4bb1t) and NiNi (@terrynini38514) of DEVCORE Research Team, Brian Carpenter", 
         "description": "The issue was addressed with improved memory handling.", 
         "id": "CVE-2026-43663", 
         "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
@@ -6279,7 +6322,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -6328,6 +6372,21 @@
             "https://support.apple.com/en-us/127120"
         ], 
         "module": "mDNSResponder", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation"
+        ], 
+        "credit": "Arash Ale Ebrahim from SCy-Phy research group of CISPA Helmholtz Center for Information Security", 
+        "description": "A reachable assertion was addressed with improved input validation.", 
+        "id": "CVE-2026-43667", 
+        "impact": "An attacker in a privileged network position may be able to cause a denial-of-service", 
+        "links": [
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "AirDrop", 
         "rsr": "", 
         "update": ""
     }, 
@@ -6385,6 +6444,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -6400,7 +6460,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "CoreAudio", 
         "rsr": "", 
@@ -6411,11 +6472,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "317231", 
-        "credit": "Mateusz Krzywicki (iVerify.io), dr3dd, Tommy DeVoss from Braze Security Team (@thedawgyg)", 
+        "credit": "Tommy DeVoss from Braze Security Team (@thedawgyg), Mateusz Krzywicki (iVerify.io), dr3dd", 
         "description": "An out-of-bounds access issue was addressed with improved bounds checking.", 
         "id": "CVE-2026-43676", 
         "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
@@ -6424,7 +6486,8 @@
             "https://support.apple.com/en-us/127595", 
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -6529,6 +6592,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -6543,7 +6607,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -6555,11 +6620,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "315368", 
-        "credit": "Vitaly Simonovich, Christian Meurer Xavier", 
+        "credit": "Vitaly Simonovich, Muhamad Syaiful, Christian Meurer Xavier", 
         "description": "A cross-origin issue was addressed with improved tracking of security origins.", 
         "id": "CVE-2026-43700", 
         "impact": "Processing maliciously crafted web content may disclose sensitive user information", 
@@ -6569,7 +6635,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -6581,6 +6648,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -6595,7 +6663,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -6660,6 +6729,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -6674,7 +6744,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -6739,6 +6810,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -6753,7 +6825,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -6810,6 +6883,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -6825,7 +6899,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "CoreMedia", 
         "rsr": "", 
@@ -6888,6 +6963,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -6902,7 +6978,8 @@
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Foundation", 
         "rsr": "", 
@@ -6959,6 +7036,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -6972,7 +7050,8 @@
             "https://support.apple.com/en-us/127595", 
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
-            "https://support.apple.com/en-us/128069"
+            "https://support.apple.com/en-us/128069", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebRTC", 
         "rsr": "", 
@@ -7010,11 +7089,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "313175", 
-        "credit": "Gia Bui (@yabeow) from Calif.io, Josef Korbel", 
+        "credit": "Josef Korbel, Gia Bui (@yabeow) from Calif.io", 
         "description": "A use-after-free issue was addressed with improved memory management.", 
         "id": "CVE-2026-43720", 
         "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
@@ -7024,7 +7104,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit Canvas", 
         "rsr": "", 
@@ -7059,6 +7140,7 @@
     {
         "available": [
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -7071,7 +7153,8 @@
             "https://support.apple.com/en-us/127594", 
             "https://support.apple.com/en-us/127595", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -7083,6 +7166,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -7098,7 +7182,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "MediaRemote", 
         "rsr": "", 
@@ -7110,6 +7195,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -7125,7 +7211,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -7137,6 +7224,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -7151,7 +7239,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -7163,11 +7252,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "313857", 
-        "credit": "stratan (@5tratan) of Almamater Technologies, Josef Korbel (Citadelo), Tristan Madani (@TristanInSec) from Talence Security, Gia Bui (@yabeow) from Calif.io, Narendra Singh (@_3P1C)", 
+        "credit": "Utkarsh Pal, Tristan Madani (@TristanInSec) from Talence Security, stratan (@5tratan) of Almamater Technologies, Narendra Singh (@_3P1C), Josef Korbel (Citadelo), Gia Bui (@yabeow) from Calif.io", 
         "description": "A use-after-free issue was addressed with improved memory management.", 
         "id": "CVE-2026-43726", 
         "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
@@ -7177,7 +7267,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -7188,11 +7279,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "313691", 
-        "credit": "Tommy DeVoss from Braze Security Team (@thedawgyg), Gia Bui (@yabeow) from Calif.io, Gurpreet Shergill", 
+        "credit": "Tommy DeVoss from Braze Security Team (@thedawgyg), Gurpreet Shergill, Gia Bui (@yabeow) from Calif.io", 
         "description": "A use-after-free issue was addressed with improved memory management.", 
         "id": "CVE-2026-43727", 
         "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
@@ -7201,7 +7293,8 @@
             "https://support.apple.com/en-us/127595", 
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -7227,6 +7320,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -7239,7 +7333,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
-            "https://support.apple.com/en-us/128071"
+            "https://support.apple.com/en-us/128071", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Model I/O", 
         "rsr": "", 
@@ -7274,6 +7369,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -7288,7 +7384,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -7323,6 +7420,7 @@
     {
         "available": [
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -7333,7 +7431,8 @@
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
-            "https://support.apple.com/en-us/128071"
+            "https://support.apple.com/en-us/128071", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Model I/O", 
         "rsr": "", 
@@ -7345,6 +7444,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -7359,7 +7459,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -7371,11 +7472,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
         "bugzilla": "313357", 
-        "credit": "Gurpreet Shergill, Merrick Hare, Drinor Selmanaj (Sentry), Khai Tran, John Lussier, Rhyru9, Kwak Kiyong, Song Nuri", 
+        "credit": "Rhyru9, Merrick Hare, Kwak Kiyong, Song Nuri, Khai Tran, John Lussier, Gurpreet Shergill, Drinor Selmanaj (Sentry)", 
         "description": "The issue was addressed with improved checks.", 
         "id": "CVE-2026-43735", 
         "impact": "A malicious website may exfiltrate data cross-origin", 
@@ -7385,7 +7487,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -7393,6 +7496,7 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma"
         ], 
@@ -7402,7 +7506,8 @@
         "impact": "Processing a maliciously crafted asset catalog may result in disclosure of process memory", 
         "links": [
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "CoreUI", 
         "rsr": "", 
@@ -7463,6 +7568,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -7477,7 +7583,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -7510,11 +7617,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
         ], 
-        "credit": "Mathis Mansi\u00e8re, an anonymous researcher", 
+        "credit": "ret2happy, Mathis Mansi\u00e8re, an anonymous researcher", 
         "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
         "id": "CVE-2026-43744", 
         "impact": "Processing an audio stream in a maliciously crafted media file may terminate the process", 
@@ -7525,7 +7633,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "CoreAudio", 
         "rsr": "", 
@@ -7537,6 +7646,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -7551,7 +7661,8 @@
             "https://support.apple.com/en-us/127685", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -7674,18 +7785,20 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
         ], 
-        "credit": "Calif Research, Ernesto Mart\u00ednez Garc\u00eda", 
+        "credit": "Ernesto Mart\u00ednez Garc\u00eda, Calif Research", 
         "description": "This issue was addressed with improved redaction of sensitive information.", 
         "id": "CVE-2026-43754", 
         "impact": "An app may be able to leak sensitive kernel state", 
         "links": [
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -7729,6 +7842,7 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -7740,7 +7854,8 @@
         "links": [
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -7921,6 +8036,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -7936,7 +8052,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -8059,17 +8176,19 @@
     {
         "available": [
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "Irvin Wang, Peter Malone, Nicolas Rabrenovic", 
+        "credit": "Peter Malone, Nicolas Rabrenovic, Irvin Wang", 
         "description": "A buffer overflow was addressed with improved bounds checking.", 
         "id": "CVE-2026-43776", 
         "impact": "Processing a maliciously crafted file may lead to unexpected app termination or arbitrary code execution", 
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
-            "https://support.apple.com/en-us/128071"
+            "https://support.apple.com/en-us/128071", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "AppleDouble", 
         "rsr": "", 
@@ -8100,11 +8219,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
         ], 
-        "credit": "f0r of MurphySec, Feng Xue and XGPT of ThreatBook, Mahmoud Abdelmoniem, an anonymous researcher, Wang Yu, Lyutoon, Hiroki Imai (LAC Co., Ltd.), DARKNAVY (@DarkNavyOrg), F\u00e1bio Lu\u00eds @scanpt, Nicolas Rabrenovic", 
+        "credit": "Ashish Kunwar, f0r of MurphySec, Mahmoud Abdelmoniem, Feng Xue and XGPT of ThreatBook, Wang Yu, Nicolas Rabrenovic, Lyutoon, Hiroki Imai (LAC Co., Ltd.), F\u00e1bio Lu\u00eds @scanpt, DARKNAVY (@DarkNavyOrg), an anonymous researcher", 
         "description": "A use after free issue was addressed with improved memory management.", 
         "id": "CVE-2026-43778", 
         "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
@@ -8115,7 +8235,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -8243,18 +8364,59 @@
     }, 
     {
         "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317317", 
+        "credit": "Dung Do (@_piers2) of Calif.io", 
+        "description": "A memory corruption issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-43794", 
+        "impact": "Processing maliciously crafted web content may lead to memory corruption", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313452", 
+        "credit": "wwwlk", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-43795", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
         ], 
-        "credit": "Ilya Andr (andrd3v) of Positive Technologies, Stanislav Jelezoglo", 
+        "credit": "Stanislav Jelezoglo, Ilya Andr (andrd3v) of Positive Technologies", 
         "description": "This issue was addressed with improved data protection.", 
         "id": "CVE-2026-43796", 
-        "impact": "An app may be able to access sensitive user data", 
+        "impact": "An app may be able to read a persistent device identifier", 
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
@@ -8262,7 +8424,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Game Center", 
         "rsr": "", 
@@ -8271,6 +8434,7 @@
     {
         "available": [
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Tahoe"
         ], 
         "credit": "Arni Hardarson (Neonix Security)", 
@@ -8279,7 +8443,8 @@
         "impact": "An app may be able to access information about a user's contacts", 
         "links": [
             "https://support.apple.com/en-us/128066", 
-            "https://support.apple.com/en-us/128067"
+            "https://support.apple.com/en-us/128067", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Contacts", 
         "rsr": "", 
@@ -8291,6 +8456,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8306,7 +8472,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -8317,6 +8484,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Tahoe"
         ], 
         "credit": "Stanislav Jelezoglo", 
@@ -8327,7 +8495,8 @@
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128068", 
-            "https://support.apple.com/en-us/128069"
+            "https://support.apple.com/en-us/128069", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Siri", 
         "rsr": "", 
@@ -8339,6 +8508,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8354,7 +8524,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "App Store", 
         "rsr": "", 
@@ -8362,6 +8533,7 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8373,7 +8545,8 @@
         "links": [
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "CoreVideo", 
         "rsr": "", 
@@ -8385,6 +8558,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8400,7 +8574,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "CoreAudio", 
         "rsr": "", 
@@ -8472,6 +8647,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8487,7 +8663,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "MobileAccessoryUpdater", 
         "rsr": "", 
@@ -8495,6 +8672,7 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8506,7 +8684,8 @@
         "links": [
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -8518,6 +8697,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8533,7 +8713,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -8541,14 +8722,16 @@
     }, 
     {
         "available": [
-            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later"
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation"
         ], 
         "credit": "Rodolphe Brunetti (@eisw0lf) of Lupus Nova", 
         "description": "A race condition was addressed with improved checks.", 
         "id": "CVE-2026-43811", 
         "impact": "An app may be able to modify protected parts of the file system", 
         "links": [
-            "https://support.apple.com/en-us/128066"
+            "https://support.apple.com/en-us/128066", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Books", 
         "rsr": "", 
@@ -8559,6 +8742,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -8571,7 +8755,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
-            "https://support.apple.com/en-us/128071"
+            "https://support.apple.com/en-us/128071", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Pro Res", 
         "rsr": "", 
@@ -8670,6 +8855,7 @@
     {
         "available": [
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8682,7 +8868,8 @@
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "ImageIO", 
         "rsr": "", 
@@ -8709,6 +8896,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -8723,9 +8911,10 @@
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
-            "https://support.apple.com/en-us/128073"
+            "https://support.apple.com/en-us/128073", 
+            "https://support.apple.com/en-us/148287"
         ], 
-        "module": "WebKit", 
+        "module": "WebKit Process Model", 
         "rsr": "", 
         "update": ""
     }, 
@@ -8735,11 +8924,12 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
         ], 
-        "credit": "Eddy Tsalolikhin, Michal Kosiorek", 
+        "credit": "Michal Kosiorek, Eddy Tsalolikhin", 
         "description": "A use after free issue was addressed with improved memory management.", 
         "id": "CVE-2026-43822", 
         "impact": "An app may be able to cause unexpected system termination", 
@@ -8750,7 +8940,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -8760,6 +8951,7 @@
         "available": [
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8773,7 +8965,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "libarchive", 
         "rsr": "", 
@@ -8800,6 +8993,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8815,7 +9009,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Heimdal", 
         "rsr": "", 
@@ -8827,6 +9022,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8842,7 +9038,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "ImageIO", 
         "rsr": "", 
@@ -8869,18 +9066,20 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
         ], 
-        "credit": "Peter Malone", 
+        "credit": "Narendra Singh (@_3P1C), Peter Malone", 
         "description": "The issue was addressed with improved memory handling.", 
         "id": "CVE-2026-64695", 
         "impact": "A remote user may be able to cause unexpected system termination or corrupt kernel memory", 
         "links": [
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "APFS", 
         "rsr": "", 
@@ -8968,6 +9167,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -8983,7 +9183,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -9050,6 +9251,7 @@
         "available": [
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9063,7 +9265,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "BackgroundAssets", 
         "rsr": "", 
@@ -9094,6 +9297,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9109,7 +9313,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -9183,15 +9388,36 @@
     }, 
     {
         "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "316347", 
+        "credit": "Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-64715", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
         ], 
-        "credit": "Arni Hardarson, Jonathan Alush-Aben, Peter Malone", 
+        "credit": "Peter Malone, Jonathan Alush-Aben, Arni Hardarson", 
         "description": "The issue was addressed with improved memory handling.", 
         "id": "CVE-2026-64716", 
         "impact": "Processing a maliciously crafted image may corrupt process memory", 
@@ -9202,7 +9428,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "ImageIO", 
         "rsr": "", 
@@ -9240,6 +9467,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -9254,7 +9482,8 @@
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
-            "https://support.apple.com/en-us/128073"
+            "https://support.apple.com/en-us/128073", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebRTC", 
         "rsr": "", 
@@ -9287,6 +9516,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9302,7 +9532,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -9311,6 +9542,7 @@
     {
         "available": [
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -9321,7 +9553,8 @@
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
-            "https://support.apple.com/en-us/128071"
+            "https://support.apple.com/en-us/128071", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Model I/O", 
         "rsr": "", 
@@ -9329,6 +9562,7 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9340,7 +9574,8 @@
         "links": [
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -9352,6 +9587,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9367,7 +9603,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "mDNSResponder", 
         "rsr": "", 
@@ -9379,6 +9616,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9394,7 +9632,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Audio", 
         "rsr": "", 
@@ -9406,9 +9645,10 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Tahoe"
         ], 
-        "credit": "Mathis Mansi\u00e8re, Peter Malone", 
+        "credit": "Peter Malone, Mathis Mansi\u00e8re", 
         "description": "The issue was addressed with improved memory handling.", 
         "id": "CVE-2026-64726", 
         "impact": "An attacker in physical proximity may be able to corrupt process memory", 
@@ -9417,7 +9657,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Wi-Fi", 
         "rsr": "", 
@@ -9534,14 +9775,16 @@
     }, 
     {
         "available": [
-            "iPhone 11 and later"
+            "iPhone 11 and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation"
         ], 
         "credit": "Jorge Welch (@jorgwelch)", 
         "description": "This issue was addressed through improved state management.", 
         "id": "CVE-2026-64732", 
         "impact": "An attacker with physical access may be able to access sensitive user data during iPhone Mirroring", 
         "links": [
-            "https://support.apple.com/en-us/128066"
+            "https://support.apple.com/en-us/128066", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Accessibility", 
         "rsr": "", 
@@ -9575,6 +9818,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9589,7 +9833,8 @@
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Contacts", 
         "rsr": "", 
@@ -9601,6 +9846,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9616,7 +9862,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -9643,18 +9890,20 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
         ], 
-        "credit": "Nathaniel Oh (@calysteon), Robert Mindo", 
+        "credit": "Robert Mindo, Nathaniel Oh (@calysteon)", 
         "description": "A permissions issue was addressed with additional restrictions.", 
         "id": "CVE-2026-64738", 
         "impact": "A malicious app may be able to break out of its sandbox", 
         "links": [
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Maps", 
         "rsr": "", 
@@ -9666,6 +9915,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9681,7 +9931,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Libnotify", 
         "rsr": "", 
@@ -9691,6 +9942,7 @@
         "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9704,7 +9956,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Game Center", 
         "rsr": "", 
@@ -9736,7 +9989,8 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
-            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later"
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation"
         ], 
         "credit": "Hu\u1ef3nh T\u1ea5n Ng\u00e0n", 
         "description": "This issue was addressed by using HTTPS when sending information over the network.", 
@@ -9746,7 +10000,8 @@
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "FrontBoard", 
         "rsr": "", 
@@ -9758,6 +10013,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Tahoe"
         ], 
         "credit": "Daniel Febrero", 
@@ -9769,7 +10025,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Managed Configuration", 
         "rsr": "", 
@@ -9777,6 +10034,7 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9788,7 +10046,8 @@
         "links": [
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -9816,9 +10075,10 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Tahoe"
         ], 
-        "credit": "Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova, Daniel Febrero", 
+        "credit": "Rodolphe Brunetti (@eisw0lf) of Lupus Nova, Daniel Febrero", 
         "description": "An authorization issue was addressed with improved validation.", 
         "id": "CVE-2026-64746", 
         "impact": "An app may be able to add contacts without user authorization", 
@@ -9826,7 +10086,8 @@
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128068", 
-            "https://support.apple.com/en-us/128070"
+            "https://support.apple.com/en-us/128070", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Contacts", 
         "rsr": "", 
@@ -9838,6 +10099,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -9853,7 +10115,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "AVEVideoEncoder", 
         "rsr": "", 
@@ -9863,10 +10126,11 @@
         "available": [
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Ashish Kunwar, Hiroki Imai (LAC Co., Ltd.), hxr1", 
+        "credit": "hxr1, Hiroki Imai (LAC Co., Ltd.), Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Ashish Kunwar", 
         "description": "The issue was addressed with improved memory handling.", 
         "id": "CVE-2026-64749", 
         "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
@@ -9874,7 +10138,8 @@
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128070", 
-            "https://support.apple.com/en-us/128071"
+            "https://support.apple.com/en-us/128071", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Kernel", 
         "rsr": "", 
@@ -9932,14 +10197,16 @@
     }, 
     {
         "available": [
-            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later"
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation"
         ], 
         "credit": "Stuart Wallace", 
         "description": "An authorization issue was addressed with improved state management.", 
         "id": "CVE-2026-64755", 
         "impact": "An app may be able to access sensitive user data", 
         "links": [
-            "https://support.apple.com/en-us/128066"
+            "https://support.apple.com/en-us/128066", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WorkoutKit", 
         "rsr": "", 
@@ -9950,6 +10217,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -9963,7 +10231,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128070", 
-            "https://support.apple.com/en-us/128073"
+            "https://support.apple.com/en-us/128073", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "WebKit", 
         "rsr": "", 
@@ -9994,18 +10263,35 @@
     }, 
     {
         "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation"
+        ], 
+        "credit": "Seiji Sakurai (@HeapSmasher), Franco Belman at Blackwing Intelligence, an anonymous researcher", 
+        "description": "An information leakage was addressed with additional validation.", 
+        "id": "CVE-2026-64760", 
+        "impact": "An app may be able to leak sensitive kernel state", 
+        "links": [
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "IOSurfaceAccelerator", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
         ], 
-        "credit": "Dun, Franco Belman at Blackwing Intelligence", 
+        "credit": "Franco Belman at Blackwing Intelligence, Dun", 
         "description": "An out-of-bounds read was addressed with improved bounds checking.", 
         "id": "CVE-2026-64762", 
         "impact": "An app may be able to cause unexpected system termination", 
         "links": [
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "AVEVideoEncoder", 
         "rsr": "", 
@@ -10017,6 +10303,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -10032,7 +10319,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "SceneKit", 
         "rsr": "", 
@@ -10044,6 +10332,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -10059,7 +10348,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "SceneKit", 
         "rsr": "", 
@@ -10071,6 +10361,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -10086,7 +10377,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "SceneKit", 
         "rsr": "", 
@@ -10098,6 +10390,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -10113,7 +10406,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "SceneKit", 
         "rsr": "", 
@@ -10143,6 +10437,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -10157,7 +10452,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Model I/O", 
         "rsr": "", 
@@ -10168,6 +10464,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -10182,7 +10479,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Model I/O", 
         "rsr": "", 
@@ -10193,6 +10491,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -10207,7 +10506,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Model I/O", 
         "rsr": "", 
@@ -10218,6 +10518,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -10230,7 +10531,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
-            "https://support.apple.com/en-us/128071"
+            "https://support.apple.com/en-us/128071", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Model I/O", 
         "rsr": "", 
@@ -10241,10 +10543,11 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "stratan (@5tratan), wh0am1i", 
+        "credit": "wh0am1i, stratan (@5tratan)", 
         "description": "An out-of-bounds write issue was addressed with improved input validation.", 
         "id": "CVE-2026-64772", 
         "impact": "A remote attacker may be able to cause unexpected application termination or heap corruption", 
@@ -10253,7 +10556,8 @@
             "https://support.apple.com/en-us/128067", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
-            "https://support.apple.com/en-us/128071"
+            "https://support.apple.com/en-us/128071", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Model I/O", 
         "rsr": "", 
@@ -10264,6 +10568,7 @@
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Sonoma", 
             "macOS Tahoe"
@@ -10278,7 +10583,8 @@
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
-            "https://support.apple.com/en-us/128072"
+            "https://support.apple.com/en-us/128072", 
+            "https://support.apple.com/en-us/148287"
         ], 
         "module": "Model I/O", 
         "rsr": "", 
@@ -10332,6 +10638,106 @@
     }, 
     {
         "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "315528", 
+        "credit": "Mohit Negi", 
+        "description": "The issue was addressed with improved checks.", 
+        "id": "CVE-2026-64778", 
+        "impact": "Visiting a maliciously crafted website may leak sensitive data", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit History", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "321485", 
+        "credit": "Shubham Chaskar, Tommy DeVoss from Braze Security Team (@thedawgyg)", 
+        "description": "A memory corruption vulnerability was addressed with improved locking.", 
+        "id": "CVE-2026-64779", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit Storage", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "316918", 
+        "credit": "OpenAI Codex Security - Amy Burnett", 
+        "description": "The issue was addressed with improved checks.", 
+        "id": "CVE-2026-64780", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "321484", 
+        "credit": "Thomas Guillem", 
+        "description": "The issue was addressed with improved input validation.", 
+        "id": "CVE-2026-64781", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "321480", 
+        "credit": "Seonwook Kim, Shubham Chaskar, lattice, Josef Korbel", 
+        "description": "A memory corruption vulnerability was addressed with improved locking.", 
+        "id": "CVE-2026-64782", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
@@ -10349,6 +10755,396 @@
             "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128073"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317632", 
+        "credit": "Janggoon Lee of Out of Bounds, OpenAI Codex Security - Amy Burnett", 
+        "description": "An out-of-bounds access issue was addressed with improved bounds checking.", 
+        "id": "CVE-2026-64784", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "313703", 
+        "credit": "\u6749\u5c71 \u58ee\u592a, Shubham Chaskar", 
+        "description": "A use-after-free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-64787", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected process termination", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "f00l (@PPPF00L) and 3ndy1(@_3ndy1) and Minghao Lin@Y1nkoc and \u4e91\u6563\u82b1\u6298, Arjanit Isufi", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-64788", 
+        "impact": "Processing maliciously crafted web content may lead to memory corruption", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282"
+        ], 
+        "module": "IOGPUFamily", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later"
+        ], 
+        "credit": "Bedran Karakoc, Tobias Funke, Jacopo Clark, Katharina Kohls of Ruhr University Bochum", 
+        "description": "An authentication issue was addressed with improved state management.", 
+        "id": "CVE-2026-65329", 
+        "impact": "An attacker in a privileged network position may be able to bypass IPSec authentication and intercept network traffic", 
+        "links": [
+            "https://support.apple.com/en-us/148282"
+        ], 
+        "module": "Telephony", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Bhaswanth Chigurupati, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd.", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-65330", 
+        "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282"
+        ], 
+        "module": "Kernel", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317611", 
+        "credit": "OpenAI Codex Security - Amy Burnett", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-65331", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317450", 
+        "credit": "OpenAI Codex Security - Amy Burnett", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-65332", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317603", 
+        "credit": "OpenAI Codex Security - Amy Burnett", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-65333", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "316791", 
+        "credit": "OpenAI Codex Security - Amy Burnett", 
+        "description": "A memory corruption issue was addressed with improved state management.", 
+        "id": "CVE-2026-65334", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "316723", 
+        "credit": "OpenAI Codex Security - Amy Burnett", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-65335", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317349", 
+        "credit": "Josef Korbel", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-65336", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "317142", 
+        "credit": "OpenAI Codex Security - Amy Burnett", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-65337", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "318348", 
+        "credit": "OpenAI Codex Security - Amy Burnett", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-65338", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Meta Red Team X - Nik Tsytsarkin", 
+        "description": "A logic issue was addressed with improved checks.", 
+        "id": "CVE-2026-65339", 
+        "impact": "An app may be able to leak sensitive user information", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282"
+        ], 
+        "module": "Audio", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "316996", 
+        "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Josef Korbel (Citadelo)", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-65340", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "318405", 
+        "credit": "Henock Habte", 
+        "description": "The issue was addressed with improved memory handling.", 
+        "id": "CVE-2026-65341", 
+        "impact": "Processing maliciously crafted web content may lead to memory corruption", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
+            "https://support.apple.com/en-us/148287"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Drinor Selmanaj (Sentry), Surya Narayan Kushwaha", 
+        "description": "A use after free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-65343", 
+        "impact": "A remote attacker may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282"
+        ], 
+        "module": "Kernel", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Meta Red Team X - Nik Tsytsarkin", 
+        "description": "An integer overflow was addressed with improved input validation.", 
+        "id": "CVE-2026-65346", 
+        "impact": "Processing an image may lead to arbitrary code execution", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282"
+        ], 
+        "module": "ImageIO", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Geonha Lee (@leegn4a)", 
+        "description": "The issue was addressed with improved checks.", 
+        "id": "CVE-2026-65347", 
+        "impact": "Processing an image may lead to a denial-of-service", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282"
+        ], 
+        "module": "ImageIO", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "an anonymous researcher", 
+        "description": "An out-of-bounds read was addressed with improved input validation.", 
+        "id": "CVE-2026-65349", 
+        "impact": "An app may be able to cause unexpected system termination or read kernel memory", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282"
+        ], 
+        "module": "Kernel", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "bugzilla": "321517", 
+        "credit": "Niels Hofmans", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-65351", 
+        "impact": "Processing maliciously crafted web content may lead to an unexpected Safari crash", 
+        "links": [
+            "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282"
         ], 
         "module": "WebKit", 
         "rsr": "", 
