@@ -1,0 +1,1331 @@
+[
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0989, CAN-2004-0055, and CAN-2004-0057 by updating tcpdump to version 3.8.1 and libpcap to version 0.8.1", 
+        "id": "CAN-2004-0055", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "tcpdump"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0989, CAN-2004-0055, and CAN-2004-0057 by updating tcpdump to version 3.8.1 and libpcap to version 0.8.1", 
+        "id": "CAN-2004-0057", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "tcpdump"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0079 and CAN-2004-0112 to improve the handling of encryption choices.", 
+        "id": "CAN-2004-0079", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0085 to deliver security enhancements to Apple's mail application.", 
+        "id": "CAN-2004-0085", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Jim Roepcke", 
+        "description": "Fixes CAN-2004-0086 to deliver security enhancements to Apple's mail application", 
+        "id": "CAN-2004-0086", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. from @stake", 
+        "description": "Fixes CAN-2004-0087 and CAN-2004-0088 where the SystemConfiguration subsystem allowed remote non-admin users to change network setting and make configuration changes to configd", 
+        "id": "CAN-2004-0087", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "System Configuration"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. from @stake", 
+        "description": "Fixes CAN-2004-0087 and CAN-2004-0088 where the SystemConfiguration subsystem allowed remote non-admin users to change network setting and make configuration changes to configd", 
+        "id": "CAN-2004-0088", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "System Configuration"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. of @stake", 
+        "description": "Fixes CAN-2004-0089 to improve the handling of environment variables", 
+        "id": "CAN-2004-0089", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Classic"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0090 where Windows file sharing did not shutdown properly.", 
+        "id": "CAN-2004-0090", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Windows File Sharing"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0092 by delivering security enhancements to the Safari web browser.", 
+        "id": "CAN-2004-0092", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0110 to improve the handling of uniform resource locators.", 
+        "id": "CAN-2004-0110", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "libxml2"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0079 and CAN-2004-0112 to improve the handling of encryption choices.", 
+        "id": "CAN-2004-0112", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0020, CAN-2004-0113 and CAN-2004-0174 by updating to Apache 2 to version 2.0.49.", 
+        "id": "CAN-2004-0113", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0155 and CAN-2004-0403 to improve the security of VPN tunnels. IPSec in Mac OS X is not vulnerable to CAN-2004-0392.", 
+        "id": "CAN-2004-0155", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "IPSec"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0164 to improve checking in key exchange.", 
+        "id": "CAN-2004-0164", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "IPSec"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. of @stake and Justin Tibbs of Secure Network Operations (SRT)", 
+        "description": "Fixes CAN-2004-0165 to improve the handling of error messages", 
+        "id": "CAN-2004-0165", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Point-to-Point-Protocol"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0166 to improve the display of URLs in the status bar.", 
+        "id": "CAN-2004-0166", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "Fixes CAN-2004-0167 to more securely handle the initialization of writeable removable media", 
+        "id": "CAN-2004-0167", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "DiskArbitration"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "Fixes CAN-2004-0168 to improve notification logging", 
+        "id": "CAN-2004-0168", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "CoreFoundation"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "iDEFENSE Labs", 
+        "description": "Fixes CAN-2004-0169 to improve checking of request data", 
+        "id": "CAN-2004-0169", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0171 to improve the handling of out-of-sequence TCP packets.", 
+        "id": "CAN-2004-0171", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "TCP/IP"
+    }, 
+    {
+        "available": [
+            "", 
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "The Apache Group fixed a number of vulnerabilities between versions 1.3.29 and 1.3.33. The Apache Group security page for Apache 1.3 is located at http://www.apacheweek.com/features/security-13. The previously installed version of Apache was 1.3.29. The default installation of Apache does not enable mod_ssl. This update fixes all of applicable issues by updating Apache to version 1.3.33 and the companion mod_ssl to version 2.8.22.", 
+        "id": "CAN-2004-0174", 
+        "impact": "Multiple vulnerabilities in Apache and mod_ssl including local privilege escalation, remote denial of service and in some modified configurations execution of arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "A directory traversal vulnerability in the scp program permits a malicious remote server to overwrite local files. The security fix was backported and applied to the Mac OS X versions of OpenSSH.", 
+        "id": "CAN-2004-0175", 
+        "impact": "A malicious ssh/scp server can overwrite local files.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSH"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "The detailed printing functions for ISAKMP packets do not perform correct bounds checking and cause an out-of-bounds read which results in a crash. The fix updates tcpdump to version 3.8.3.", 
+        "id": "CAN-2004-0183", 
+        "impact": "Maliciously crafted packets can cause a crash of a running tcpdump.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "tcpdump"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "The detailed printing functions for ISAKMP packets do not perform correct bounds checking and cause an out-of-bounds read which results in a crash. The fix updates tcpdump to version 3.8.3.", 
+        "id": "CAN-2004-0184", 
+        "impact": "Maliciously crafted packets can cause a crash of a running tcpdump.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "tcpdump"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X Server 10.2.8"
+        ], 
+        "credit": "", 
+        "description": "Storing objects into a JavaScript array allocated with negative size can overwrite memory. Safari now stops processing JavaScript programs if an array allocation fails. This security enhancement was previously made available in Safari 1.0.3, and is being applied inside the Mac OS X 10.2.8 operating system as an extra layer of protection for customers who have not installed that version of Safari. This is a specific fix for Mac OS X 10.2.8 and the issue does not exist in Mac OS X 10.3 or later systems.", 
+        "id": "CAN-2004-0361", 
+        "impact": "A JavaScript array of negative size can cause Safari to access out of bounds memory resulting in an application crash.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "Fixes CAN-2004-0382 to improve the security of the printing system. This is a configuration file change that does not affect the underlying Printing system", 
+        "id": "CAN-2004-0382", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "CUPS Printing"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "Fixes CAN-2004-0383 to improve the handling of HTML-formatted email", 
+        "id": "CAN-2004-0383", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0155 and CAN-2004-0403 to improve the security of VPN tunnels. IPSec in Mac OS X is not vulnerable to CAN-2004-0392.", 
+        "id": "CAN-2004-0392", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "IPSec"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0155 and CAN-2004-0403 to improve the security of VPN tunnels. IPSec in Mac OS X is not vulnerable to CAN-2004-0392.", 
+        "id": "CAN-2004-0403", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "IPSec"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "A number of buffer overflows, null pointer dereferences and integer overflows have been discovered in the reference library for reading and writing PNG images. These vulnerabilities have been corrected in libpng which is used by the CoreGraphics and AppKit frameworks in Mac OS X. After installing this update, applications that use the PNG image format via these frameworks will be protected against these flaws.", 
+        "id": "CAN-2004-0421", 
+        "impact": "Malicious PNG images can cause application crashes and could execute arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "libpng (Portable Network Graphics)"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "rsync before version 2.6.1 does not properly sanitize paths when running a read/write daemon with the chroot option turned off. The fix updates rsync to version 2.6.2.", 
+        "id": "CAN-2004-0426", 
+        "impact": "When rsync is run in daemon mode a remote attacker can write outside of the module path unless the chroot option has been set.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "rsync"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "Fixes CAN-2004-0428 to improve the handling of an environment variable", 
+        "id": "CAN-2004-0428", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "CoreFoundation"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0429 to improve the handling of large requests.", 
+        "id": "CAN-2004-0429", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Server Settings daemon"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. from @stake", 
+        "description": "Fixes CAN-2004-0430 to improve the handling of long passwords", 
+        "id": "CAN-2004-0430", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "AppleFileServer"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0431 where playing a malformed .mov (movie) file could cause QuickTime to terminate.", 
+        "id": "CAN-2004-0431", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "QuickTime 6.5.1"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Ren\u00cc\u00a9 Puls (rpuls@gmx.net)", 
+        "description": "Fixes CAN-2004-0485 to improve the handling of URLs", 
+        "id": "CAN-2004-0485", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Terminal"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "lixlpixel <me@lixlpixel.com>", 
+        "description": "Fixes CAN-2004-0486 to ensure that HelpViewer will only process scripts that it initiated", 
+        "id": "CAN-2004-0486", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "HelpViewer"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5", 
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "The Apache Group fixed a number of vulnerabilities between versions 1.3.29 and 1.3.33. The Apache Group security page for Apache 1.3 is located at http://www.apacheweek.com/features/security-13. The previously installed version of Apache was 1.3.29. The default installation of Apache does not enable mod_ssl. This update fixes all of applicable issues by updating Apache to version 1.3.33 and the companion mod_ssl to version 2.8.22.", 
+        "id": "CAN-2004-0488", 
+        "impact": "Multiple vulnerabilities in Apache and mod_ssl including local privilege escalation, remote denial of service and in some modified configurations execution of arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "The Apache Group fixed a number of vulnerabilities between versions 1.3.29 and 1.3.33. The Apache Group security page for Apache 1.3 is located at http://www.apacheweek.com/features/security-13. The previously installed version of Apache was 1.3.29. The default installation of Apache does not enable mod_ssl. This update fixes all of applicable issues by updating Apache to version 1.3.33 and the companion mod_ssl to version 2.8.22.", 
+        "id": "CAN-2004-0492", 
+        "impact": "Multiple vulnerabilities in Apache and mod_ssl including local privilege escalation, remote denial of service and in some modified configurations execution of arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "The Apache Organization has released Apache version 2.0.50. This release fixes a number of denial of service vulnerabilities. We have updated Apache to version 2.0.50 which only ships with Mac OS X Server, and is off by default.", 
+        "id": "CAN-2004-0493", 
+        "impact": "Exposure to a potential Denial of Service", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "David Brown (dave@spoonguard.org)", 
+        "description": "Fixes CAN-2004-0513 to improve logging when tracing system calls", 
+        "id": "CAN-2004-0513", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "NFS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0514 to improve the handling of directory services lookups.", 
+        "id": "CAN-2004-0514", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "LoginWindow"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "Fixes CAN-2004-0515 to improve the handling of console log files", 
+        "id": "CAN-2004-0515", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "LoginWindow"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "Fixes CAN-2004-0516 to improve package installation scripts", 
+        "id": "CAN-2004-0516", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Packaging"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "Fixes CAN-2004-0517 to improve the handling of process IDs during package installation", 
+        "id": "CAN-2004-0517", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Packaging"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2004-0518 to improve the use of SSH and reporting errors.", 
+        "id": "CAN-2004-0518", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "AppleFileServer"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "SquirrelMail before 1.4.3 RC1 is vulnerable to SQL injection which permits unauthorized SQL statements to be run. The fix updates SquirrelMail to version 1.4.3a", 
+        "id": "CAN-2004-0521", 
+        "impact": "SquirrelMail before 1.4.3 RC1 allows remote attackers to execute unauthorized SQL statements.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "SquirrelMail"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "the MIT Kerberos Development Team", 
+        "description": "The buffer overflow can only be exploited if \"auth_to_local_names\" or \"auth_to_local\" support is also configured in the edu.mit.Kerberos file. Apple does not enable this by default. The security fix was back ported and applied to the Mac OS X versions of Kerberos. The Mac OS X and Mac OS X Server version of Kerberos is not susceptible to the recent \"double-free\" issue reported in the CERT vulnerability note VU#350792 (CAN-2004-0772)", 
+        "id": "CAN-2004-0523", 
+        "impact": "Multiple buffer overflows in krb5_aname_to_localname for MIT Kerberos 5 (krb5) 1.3.3 and earlier could permit remote attackers to execute arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "LaunchServices is a system component that discovers and opens applications. This system component has been modified to only open applications that have previously been explicitly run on the system. Attempts to run an application that has not previously been explicitly run will result in a user alert. Further information is available in this article.", 
+        "id": "CAN-2004-0538", 
+        "impact": "LaunchServices automatically registers applications, which could be used to cause the system to run unexpected applications.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "LaunchServices"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "", 
+        "id": "CAN-2004-0539", 
+        "impact": "The \"Show in Finder\" button would open certain downloaded files, in some cases executing downloaded applications.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.5, Mac OS X Server v10.3.5, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "The Internet Printing Protocol (IPP) implementation in CUPS can hang when a certain UDP packet is sent to the IPP port.", 
+        "id": "CAN-2004-0558", 
+        "impact": "A denial of service causing the printing system to hang", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "A number of buffer overflows, null pointer dereferences and integer overflows have been discovered in the reference library for reading and writing PNG images. These vulnerabilities have been corrected in libpng which is used by the CoreGraphics and AppKit frameworks in Mac OS X. After installing this update, applications that use the PNG image format via these frameworks will be protected against these flaws.", 
+        "id": "CAN-2004-0597", 
+        "impact": "Malicious PNG images can cause application crashes and could execute arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "libpng (Portable Network Graphics)"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "A number of buffer overflows, null pointer dereferences and integer overflows have been discovered in the reference library for reading and writing PNG images. These vulnerabilities have been corrected in libpng which is used by the CoreGraphics and AppKit frameworks in Mac OS X. After installing this update, applications that use the PNG image format via these frameworks will be protected against these flaws.", 
+        "id": "CAN-2004-0598", 
+        "impact": "Malicious PNG images can cause application crashes and could execute arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "libpng (Portable Network Graphics)"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "A number of buffer overflows, null pointer dereferences and integer overflows have been discovered in the reference library for reading and writing PNG images. These vulnerabilities have been corrected in libpng which is used by the CoreGraphics and AppKit frameworks in Mac OS X. After installing this update, applications that use the PNG image format via these frameworks will be protected against these flaws.", 
+        "id": "CAN-2004-0599", 
+        "impact": "Malicious PNG images can cause application crashes and could execute arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "libpng (Portable Network Graphics)"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "When configured to use X.509 certificates to authenticate remote hosts, a certificate verification failure does not abort the key exchange. Mac OS X does not use certificates for IPSec by default so this issue only affects configurations that have been manually configured. IPSec now verifies and aborts a key exchange if a certificate verification failure occurs.", 
+        "id": "CAN-2004-0607", 
+        "impact": "When using certificates, unauthenticated hosts may be able to negotiate an IPSec connection.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "IPSec"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "the MIT Kerberos Development Team", 
+        "description": "MIT has released a new version of Kerberos that addresses a denial of service and three double free errors. Mac OS X contains protection against double free errors. This update applies the fix for the denial of service problem. As a precautionary measure the double free patches have also been applied", 
+        "id": "CAN-2004-0642", 
+        "impact": "Exposure to a potential denial of service when Kerberos authentication is used.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "the MIT Kerberos Development Team", 
+        "description": "MIT has released a new version of Kerberos that addresses a denial of service and three double free errors. Mac OS X contains protection against double free errors. This update applies the fix for the denial of service problem. As a precautionary measure the double free patches have also been applied", 
+        "id": "CAN-2004-0643", 
+        "impact": "Exposure to a potential denial of service when Kerberos authentication is used.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "the MIT Kerberos Development Team", 
+        "description": "MIT has released a new version of Kerberos that addresses a denial of service and three double free errors. Mac OS X contains protection against double free errors. This update applies the fix for the denial of service problem. As a precautionary measure the double free patches have also been applied", 
+        "id": "CAN-2004-0644", 
+        "impact": "Exposure to a potential denial of service when Kerberos authentication is used.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "A web site that uses multiple frames can have some of its frames replaced with content from a malicious site if the malicious site is visited first. The fix imposes a set of parent/child rules preventing the attack.", 
+        "id": "CAN-2004-0720", 
+        "impact": "An untrusted web site can inject content into a frame intended to be used by another domain.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Rick Osterberg of Harvard University FAS Computer Services", 
+        "description": "This is for a situation where a web form is sent to a server using a POST method which issues an HTTP redirect to a GET method url. Using the forward/backward buttons will cause Safari to re-POST the form data to the GET url. Safari has been modified so that in this situation forward/backward navigation will result in only a GET method", 
+        "id": "CAN-2004-0743", 
+        "impact": "In a special situation, navigation using the forward/backward buttons can re-send form data to a GET url.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Ken Hollis (gandalf@digital.net) and Chuck McAuley (chuck-at-lemure-dot-net), from a discussion about the \"Rose Attack.\"", 
+        "description": "The \"Rose Attack\" describes a specially constructed sequence of IP fragments designed to consume system resources. The TCP/IP implementation has been modified to limit the resources consumed and prevents this denial of service attack", 
+        "id": "CAN-2004-0744", 
+        "impact": "Maliciously crafted IP fragments can use too many system resources preventing normal network operation.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "TCP/IP Networking"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.6, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "A customer-modified Apache 2 configuration, where AllowOverride has been enabled, could permit a local user to execute arbitrary code as the Apache (www) user. An unmodified configuration is not vulnerable to this problem. This update also addresses bugs in Apache that could allow certain types of requests to crash the server. Apache is updated to version 2.0.52. Apache 2 ships only with Mac OS X Server, and is off by default.", 
+        "id": "CAN-2004-0747", 
+        "impact": "Modified Apache 2 configurations could permit a privilege escalation for local users and remote denial of service.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.6, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "A customer-modified Apache 2 configuration, where AllowOverride has been enabled, could permit a local user to execute arbitrary code as the Apache (www) user. An unmodified configuration is not vulnerable to this problem. This update also addresses bugs in Apache that could allow certain types of requests to crash the server. Apache is updated to version 2.0.52. Apache 2 ships only with Mac OS X Server, and is off by default.", 
+        "id": "CAN-2004-0748", 
+        "impact": "Modified Apache 2 configurations could permit a privilege escalation for local users and remote denial of service.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.6, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "A customer-modified Apache 2 configuration, where AllowOverride has been enabled, could permit a local user to execute arbitrary code as the Apache (www) user. An unmodified configuration is not vulnerable to this problem. This update also addresses bugs in Apache that could allow certain types of requests to crash the server. Apache is updated to version 2.0.52. Apache 2 ships only with Mac OS X Server, and is off by default.", 
+        "id": "CAN-2004-0751", 
+        "impact": "Modified Apache 2 configurations could permit a privilege escalation for local users and remote denial of service.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "the MIT Kerberos Development Team", 
+        "description": "MIT has released a new version of Kerberos that addresses a denial of service and three double free errors. Mac OS X contains protection against double free errors. This update applies the fix for the denial of service problem. As a precautionary measure the double free patches have also been applied", 
+        "id": "CAN-2004-0772", 
+        "impact": "Exposure to a potential denial of service when Kerberos authentication is used.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.6, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "A customer-modified Apache 2 configuration, where AllowOverride has been enabled, could permit a local user to execute arbitrary code as the Apache (www) user. An unmodified configuration is not vulnerable to this problem. This update also addresses bugs in Apache that could allow certain types of requests to crash the server. Apache is updated to version 2.0.52. Apache 2 ships only with Mac OS X Server, and is off by default.", 
+        "id": "CAN-2004-0786", 
+        "impact": "Modified Apache 2 configurations could permit a privilege escalation for local users and remote denial of service.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "Luke Mewburn of the NetBSD Foundation", 
+        "description": "If the FTP service has been enabled, and a remote attacker can correctly authenticate, then a race condition would permit them to stop the FTP service or execute arbitrary code. The fix is to replace the lukemftpd FTP service with tnftpd. lukemftp is installed but not activated in Mac OS X Server, which instead uses xftp", 
+        "id": "CAN-2004-0794", 
+        "impact": "A race condition that can permit an authenticated remote attacker to cause a denial of service or execute arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "lukemftpd"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "Flaws in decoding tiff images could overwrite memory, cause arithmetic errors resulting in a crash, or permit the execution of arbitrary code. This update corrects the problems in the handling of tiff images.", 
+        "id": "CAN-2004-0803", 
+        "impact": "Integer overflows and poor range checking in tiff handling could allow execution of arbitrary code or denial of service.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Appkit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "Flaws in decoding tiff images could overwrite memory, cause arithmetic errors resulting in a crash, or permit the execution of arbitrary code. This update corrects the problems in the handling of tiff images.", 
+        "id": "CAN-2004-0804", 
+        "impact": "Integer overflows and poor range checking in tiff handling could allow execution of arbitrary code or denial of service.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Appkit"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "Kikuchi Masashi (kik@ms.u-tokyo.ac.jp)", 
+        "description": "Bundles using the CoreFoundation CFPlugIn facilities can include directions to automatically load plugin executables. With a specially crafted bundle this could also occur for privileged programs, permitting a local privilege escalation. CoreFoundation now prevents automatic executable loading for bundles that already have a loaded executable", 
+        "id": "CAN-2004-0821", 
+        "impact": "Privileged programs using CoreFoundation can be made to load a user supplied library.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "CoreFoundation"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "By manipulating an environment variable a program could potentially be made to execute arbitrary code by a local attacker. This can only be exploited with access to a local account. Stricter validity checks are now performed for this environment variable", 
+        "id": "CAN-2004-0822", 
+        "impact": "An environment variable can be manipulated to cause a buffer overflow which can result in a privilege escalation.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "CoreFoundation"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "Steve Revilak of Kayak Software Corporation", 
+        "description": "Backwards compatibility with older LDAP implementations permits the storing of a crypt password in the userPassword attribute. Some authentication validation schemes can use this value as if it were a plain text password. The fix removes the ambiguity and always uses this type of field as a crypt password. This issue does not occur in Mac OS X 10.2.8", 
+        "id": "CAN-2004-0823", 
+        "impact": "A crypt password can be used as if it were a plain text password.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenLDAP"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.2.8, Mac OS X 10.3.4, Mac OS X 10.3.5, Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "PPP components performed insecure accesses of a file stored in a world-writeable location. The fix moves the log files to a non-world-writeable location.", 
+        "id": "CAN-2004-0824", 
+        "impact": "A malicious user can overwrite system files resulting in a local privilege escalation.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "PPPDialer"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server 10.2.8, Mac OS X Server 10.3.4, Mac OS X Server 10.3.5"
+        ], 
+        "credit": "", 
+        "description": "A particular sequence of client operations can cause a deadlock on the QuickTime Streaming Server. The fix updates the code to eliminate this deadlock condition.", 
+        "id": "CAN-2004-0825", 
+        "impact": "A denial of service requiring a restart of the QuickTime Streaming Server", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "A remote iChat participant can send a \"link\" that references a program on the local system. If the \"link\" is activated by clicking on it, and the \"link\" points to a local program, then the program will run. iChat has been modified so that \"links\" of this type will open a Finder window that displays the program instead of running it", 
+        "id": "CAN-2004-0873", 
+        "impact": "Remote iChat participants can send \"links\" that can start local programs if clicked.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "iChat"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "The Apache Group fixed a number of vulnerabilities between versions 1.3.29 and 1.3.33. The Apache Group security page for Apache 1.3 is located at http://www.apacheweek.com/features/security-13. The previously installed version of Apache was 1.3.29. The default installation of Apache does not enable mod_ssl. This update fixes all of applicable issues by updating Apache to version 1.3.33 and the companion mod_ssl to version 2.8.22.", 
+        "id": "CAN-2004-0885", 
+        "impact": "Multiple vulnerabilities in Apache and mod_ssl including local privilege escalation, remote denial of service and in some modified configurations execution of arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "Flaws in decoding tiff images could overwrite memory, cause arithmetic errors resulting in a crash, or permit the execution of arbitrary code. This update corrects the problems in the handling of tiff images.", 
+        "id": "CAN-2004-0886", 
+        "impact": "Integer overflows and poor range checking in tiff handling could allow execution of arbitrary code or denial of service.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Appkit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.5 and Mac OS X Server v10.3.5"
+        ], 
+        "credit": "", 
+        "description": "An AFP volume mounted by a guest could be used to terminate authenticated user mounts from the same server by modifying SessionDestroy packets. This issue does not affect systems prior to Mac OS X v10.3 or Mac OS X Server v10.3.", 
+        "id": "CAN-2004-0921", 
+        "impact": "A denial of service permitting a guest to disconnect AFP volumes", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.5 and Mac OS X Server v10.3.5"
+        ], 
+        "credit": "", 
+        "description": "A write-only Drop Box on an AFP volume mounted by a guest could sometimes be read-write due to an incorrect setting of the guest group id. This issue does not affect systems prior to Mac OS X v10.3 or Mac OS X Server v10.3.", 
+        "id": "CAN-2004-0922", 
+        "impact": "Write-only AFP Drop Box may be set as read-write.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.5, Mac OS X Server v10.3.5, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "Gary Smith of the IT Services department at Glasgow Caledonian University", 
+        "description": "Certain methods of authenticated remote printing could disclose user passwords in the printing system log files", 
+        "id": "CAN-2004-0923", 
+        "impact": "Local disclosure of user passwords", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.5 and Mac OS X Server v10.3.5"
+        ], 
+        "credit": "", 
+        "description": "The NetInfo Manager utility can enable the \"root\" account, but after a single \"root\" login it is no longer possible to use NetInfo Manager to disable the account and it incorrectly appears to be disabled. This issue does not affect systems prior to Mac OS X v10.3 or Mac OS X Server v10.3.", 
+        "id": "CAN-2004-0924", 
+        "impact": "Incorrect indication of account status", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "NetInfo Manager"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.5 and Mac OS X Server v10.3.5"
+        ], 
+        "credit": "Michael Rondinelli of EyeSee360", 
+        "description": "When SMTPD AUTH has been enabled in postfix, a buffer containing the username is not correctly cleared between authentication attempts. Only users with the longest usernames will be able to authenticate. This issue does not affect systems prior to Mac OS X v10.3 or Mac OS X Server v10.3", 
+        "id": "CAN-2004-0925", 
+        "impact": "A denial of service when SMTPD AUTH has been enabled", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "postfix"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.5, Mac OS X Server v10.3.5, Mac OS X v10.2.8, Mac OS X Server v10.2.8", 
+            "Mac OS X v10.3.x, Mac OS X Server v10.3.x, Mac OS X v10.2.8, Mac OS X Server v10.2.8, Microsoft Windows XP, Microsoft Windows 2000, Microsoft Windows ME and Microsoft Windows 98"
+        ], 
+        "credit": "", 
+        "description": "Flaws in decoding the BMP image type could overwrite heap memory and potentially allow the execution of arbitrary code hidden in an image. This is the same security enhancement that was made available in Security Update 2004-09-30, and can be deployed on the additional system configurations covered by this QuickTime update.", 
+        "id": "CAN-2004-0926", 
+        "impact": "A heap buffer overflow could allow attackers to execute arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.5 and Mac OS X Server v10.2.8"
+        ], 
+        "credit": "Michael Bartosh of 4am Media, Inc.", 
+        "description": "Client - Server communication with ServerAdmin uses SSL. All systems come installed with the same example self signed certificate. If that certificate has not been replaced, then ServerAdmin communication may be decrypted. The fix replaces the existing self-signed certificate with one that has been locally and uniquely generated", 
+        "id": "CAN-2004-0927", 
+        "impact": "Client - Server communication with ServerAdmin can be read by decoding captured sessions.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "ServerAdmin"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "The Apache Group fixed a number of vulnerabilities between versions 1.3.29 and 1.3.33. The Apache Group security page for Apache 1.3 is located at http://www.apacheweek.com/features/security-13. The previously installed version of Apache was 1.3.29. The default installation of Apache does not enable mod_ssl. This update fixes all of applicable issues by updating Apache to version 1.3.33 and the companion mod_ssl to version 2.8.22.", 
+        "id": "CAN-2004-0940", 
+        "impact": "Multiple vulnerabilities in Apache and mod_ssl including local privilege escalation, remote denial of service and in some modified configurations execution of arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            "Apple Remote Desktop Client 1.2.4 with Mac OS X 10.3.x"
+        ], 
+        "credit": "Andrew Nakhla and Secunia Research", 
+        "description": "For a system with these following conditions: Apple Remote Desktop client installed A user on the client system has been enabled with the Open and quit applications privilege The username and password of the ARD user is known Fast user switching has been enabled A user is logged in, and loginwindow is active via Fast User Switching If the Apple Remote Desktop Administrator application on another system is used to start a GUI application on the client, then the GUI application would run as root behind the loginwindow. This update prevents Apple Remote Desktop from launching applications when the loginwindow is active. This security enhancement is also present in Apple Remote Desktop v2.1. This issue does not affect systems prior to Mac OS X 10.3", 
+        "id": "CAN-2004-0962", 
+        "impact": "An application can be started behind the loginwindow and it will run as root.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apple Remote Desktop"
+    }, 
+    {
+        "available": [
+            "Microsoft Windows XP, Microsoft Windows 2000, Microsoft Windows ME and Microsoft Windows 98"
+        ], 
+        "credit": "John Heasman of Next Generation Security Software Ltd.", 
+        "description": "A sign extension of an overflowed small integer can result in a very large number being passed to a memory move function. The fix prevents the small integer from overflowing. This issue does not exist in QuickTime for Mac OS X systems", 
+        "id": "CAN-2004-0988", 
+        "impact": "An integer overflow that may be exploitable in an HTML environment.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "aaron@vtty.com", 
+        "description": "iCal calendars may include notification of events via alarms. These alarms may open programs and send e-mail. iCal has been updated to show an alert window when importing or opening calendars containing alarms. iCal 1.5.4 is available for Mac OS X 10.2.3 or later", 
+        "id": "CAN-2004-1021", 
+        "impact": "New iCal calendars may add alarms without approval.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "iCal 1.5.4"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "In some circumstances a secure text input field will not correctly enable secure input. This can allow other applications in the same window session to see some input characters and keyboard events. Input to secure text fields is now enabled in a way to prevent the leakage of key press information.", 
+        "id": "CAN-2004-1081", 
+        "impact": "Characters entered into a secure text field can be read by other applications in the same window session.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Appkit"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.6, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "The Mac OS X Server specific mod_digest_apple is based on Apache's mod_digest. Multiple corrections for a replay problem in mod_digest were made in versions 1.3.31 and 1.3.32 of Apache (CAN-2003-0987). This update corrects the replay problem in mod_digest_apple authentication using the modifications made to Apache 1.3.32.", 
+        "id": "CAN-2004-1082", 
+        "impact": "Apache mod_digest_apple authentication is vulnerable to replay attacks.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "A default Apache configuration blocks access to files starting with \".ht\" in a case sensitive way. The Apple HFS+ filesystem performs file access in a case insensitive way. The Finder may also create .DS_Store files containing the names of files in locations used to serve web pages. This update modifies the Apache configuration to restricts access to all files beginning with \".ht\" or \".DS_S\" regardless of capitalization. More...", 
+        "id": "CAN-2004-1083", 
+        "impact": "Apache configurations did not fully block access to \".DS_Store\" files or those starting with \".ht.\"", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "NetSec", 
+        "description": "The Apple HFS+ filesystem permits files to have multiple data streams. These data streams can be directly accessed using special filenames. A specially crafted HTTP request can bypass an Apache file handler and directly access file data or resource fork content. This update modifies the Apache configuration to deny requests for file data or resource fork content via their special filenames. For more information, see this document", 
+        "id": "CAN-2004-1084", 
+        "impact": "File data and resource fork content can be retrieved via HTTP bypassing normal Apache file handlers.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6"
+        ], 
+        "credit": "Glenn Blauvelt of University of Colorado at Boulder", 
+        "description": "A special key combination allowed users to bring up the force quit window even in kiosk mode. This update will block all force-quit key combinations not to work while in kiosk mode. This issue is not present in Mac OS X v10.2.8 or Mac OS X Server v10.2.8", 
+        "id": "CAN-2004-1085", 
+        "impact": "Users can quit applications in kiosk mode.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "HIToolbox"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6"
+        ], 
+        "credit": "", 
+        "description": "A buffer overflow in the handling of PostScript to PDF conversion could potentially allow the execution of arbitrary code. This updates corrects the PostScript to PDF conversion code to prevent the buffer overflow. This issue is not present in Mac OS X v10.2.8 or Mac OS X Server v10.2.8.", 
+        "id": "CAN-2004-1086", 
+        "impact": "A buffer overflow in PostScript to PDF conversion could allow execution of arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "PSNormalizer"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6 and Mac OS X Server v10.3.6"
+        ], 
+        "credit": "Jonathan 'Wolf' Rentzsch of Red Shed Software", 
+        "description": "The 'Secure Keyboard Entry' menu setting was not properly restored when launching Terminal.app. A check mark would be displayed next to 'Secure Keyboard Entry' even though it was not enabled. This update fixes the behavior of the 'Secure Keyboard Entry'. This issue is not present in Mac OS X v10.2.8 or Mac OS X Server v10.2.8", 
+        "id": "CAN-2004-1087", 
+        "impact": "Terminal may indicate that 'Secure Keyboard Entry' is active when it is not.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Terminal"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6"
+        ], 
+        "credit": "Victor Duchovni of Morgan Stanley", 
+        "description": "Postfix servers using CRAM-MD5 to authenticate senders were vulnerable to a replay attack. Under some circumstances, the credentials used to successfully authenticate a user could be re-used for a small time period. The CRAM-MD5 algorithm used to authenticate users has been updated to prevent the replay window. This issue is not present in Mac OS X v10.2.8 or Mac OS X Server v10.2.8", 
+        "id": "CAN-2004-1088", 
+        "impact": "Postfix using CRAM-MD5 may allow a remote user to send mail without properly authenticating.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Postfix"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.6"
+        ], 
+        "credit": "johan.gradvall@gothia.se", 
+        "description": "When using the Kerberos authentication mechanism with the Cyrus IMAP server a user could switch mailboxes after authenticating and gain access to other mailboxes on the same system. This update binds the mailbox to the authenticated user. This server-specific issue is not present in Mac OS X Server v10.2.8", 
+        "id": "CAN-2004-1089", 
+        "impact": "When using Kerberos authentication with Cyrus IMAP an authenticated user could gain unauthorized access to other mailboxes on the same system.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Cyrus IMAP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "Safari could be tricked into displaying a URI in its status bar that was not the same as the destination of a link. This update corrects Safari so that it now displays the URI that will be activated when selected.", 
+        "id": "CAN-2004-1121", 
+        "impact": "Specially crafted HTML can display a misleading URI the Safari status bar.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "Secunia Research", 
+        "description": "When multiple Safari windows are open, a carefully timed pop-up could mislead a user into thinking it was activated by a different site. In this update Safari now places a window that activates a pop-up in front of all other browser windows", 
+        "id": "CAN-2004-1122", 
+        "impact": "With multiple browser windows active Safari users could be mislead about which window activated a pop-up window.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.6, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "iDEFENSE", 
+        "description": "QuickTime Streaming Server was vulnerable to a denial of service attack when handling DESCRIBE requests. This update corrects the handling of these requests", 
+        "id": "CAN-2004-1123", 
+        "impact": "Specially crafted requests could cause a denial of service.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Sean de Regge (seanderegge[at]hotmail.com)", 
+        "description": "iTunes supports several common playlist formats. iTunes 4.7.1 fixes a buffer overflow in the parsing of m3u and pls playlist files that could allow earlier versions of iTunes to crash and execute arbitrary code", 
+        "id": "CAN-2005-0043", 
+        "impact": "Malicious playlists can cause iTunes to crash and could execute arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "iTunes"
+    }
+]

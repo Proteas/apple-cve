@@ -1,0 +1,2304 @@
+[
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Gael Delalleau and iDEFENSE", 
+        "description": "When connected to a TELNET server, the client may send the contents of arbitrary environment variables to the server if the server requests them. Some environment variables may contain sensitive information that should not be sent over the network. This update addresses the issue by ensuring that only non-sensitive variables and variables that the user has explicitly requested are are shared with the server", 
+        "id": "CVE-2005-0488", 
+        "impact": "When the command line tool telnet is used to connect to a malicious TELNET server, environmental variables may be disclosed", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "telnet"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "A race condition may allow a malicious local user to modify the permissions of files owned by another user executing gunzip. This issue is only exploitable when executing gunzip on files in directories that are modifiable by other users. This update addresses the issue by properly handling files while decompressing", 
+        "id": "CVE-2005-0988", 
+        "impact": "Malicious local users may be able to modify permissions of files owned by another user when the command line tool gunzip is run", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "gunzip"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "A directory traversal vulnerability is present in the command line utility gunzip when it is used with the non-default \"-N\" option. By carefully crafting a malicious compressed file and persuading a user to open it with \"gunzip -N\", an attacker may replace or create arbitrary files with the privileges of the victim. This update addresses the issue by properly stripping paths from files when decompressing", 
+        "id": "CVE-2005-1228", 
+        "impact": "Decompressing maliciously-crafted files with \"gunzip -N\" may lead to arbitrary file replacement or creation", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "gunzip"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Several issues in the fetchmail utility were discovered. The most serious issue could lead to arbitrary code execution when fetching mail from a malicious POP3 mail server. All issues are described at the fetchmail website (fetchmail.berlios.de). This update addresses the issues by updating fetchmail to version 6.3.4. In addition, fetchmail is no longer distributed as a privileged utility", 
+        "id": "CVE-2005-2335", 
+        "impact": "Multiple issues in the fetchmail utility may lead to denial of service or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "fetchmail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "The Ruby scripting language contains a mechanism called \"safe levels\" that is used to restrict certain operations. This mechanism is most commonly used when running privileged Ruby applications or Ruby network applications. In certain circumstances, an attacker may be able to bypass the restrictions in such applications. Applications that do not rely on safe levels are unaffected. This update addresses the issue by ensuring that safe levels cannot be bypassed", 
+        "id": "CVE-2005-2337", 
+        "impact": "Ruby safe level restrictions may be bypassed", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "Ruby"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Varun Uppal of Kanbay, Dennis Rand of CIRT.DK, and Fang Xing of eEye Digital Security (eeye.com)", 
+        "description": "By carefully crafting a corrupt JPEG image, an attacker can trigger a heap buffer overflow which may result in arbitrary code execution.  This update addresses the issue by performing additional validation of JPEG images", 
+        "id": "CVE-2005-2340", 
+        "impact": "A maliciously-crafted JPEG image may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011929/http://support.apple.com/kb/TA23845"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "Adobe Flash Player contains critical vulnerabilities that may lead to arbitrary code execution when specially-crafted files are loaded. Further information is available via the Adobe web site at http://www.adobe.com/devnet/security/security_zone/apsb06-03.html. This update addresses the issue by incorporating Flash Player version 8.0.24.0", 
+        "id": "CVE-2005-2628", 
+        "impact": "Playing Flash content may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "Flash Player"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Ilja van Sprundel of Suresec LTD, vade79, and iDefense (idefense.com)", 
+        "description": "The passwd program is vulnerable to temporary file attacks.  This could lead to privilege elevation. This update addresses the issue by anticipating a hostile environment and by creating temporary files securely", 
+        "id": "CVE-2005-2713", 
+        "impact": "Malicious local users may create and manipulate files as root", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "Directory Services"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Ilja van Sprundel of Suresec LTD, vade79, and iDefense (idefense.com)", 
+        "description": "The passwd program is vulnerable to temporary file attacks.  This could lead to privilege elevation. This update addresses the issue by anticipating a hostile environment and by creating temporary files securely", 
+        "id": "CVE-2005-2714", 
+        "impact": "Malicious local users may create and manipulate files as root", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "Directory Services"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Several issues in the fetchmail utility were discovered. The most serious issue could lead to arbitrary code execution when fetching mail from a malicious POP3 mail server. All issues are described at the fetchmail website (fetchmail.berlios.de). This update addresses the issues by updating fetchmail to version 6.3.4. In addition, fetchmail is no longer distributed as a privileged utility", 
+        "id": "CVE-2005-3088", 
+        "impact": "Multiple issues in the fetchmail utility may lead to denial of service or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "fetchmail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "PHP 4.4.1 fixes several security issues in the Apache module and scripting environment. Details of the fixes are available via the PHP web site (www.php.net). PHP ships with Mac OS X but is disabled by default", 
+        "id": "CVE-2005-3319", 
+        "impact": "Multiple security issues in PHP 4.4", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "apache_mod_php"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "PHP 4.4.1 fixes several security issues in the Apache module and scripting environment. Details of the fixes are available via the PHP web site (www.php.net). PHP ships with Mac OS X but is disabled by default", 
+        "id": "CVE-2005-3353", 
+        "impact": "Multiple security issues in PHP 4.4", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "apache_mod_php"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "PHP 4.4.1 fixes several security issues in the Apache module and scripting environment. Details of the fixes are available via the PHP web site (www.php.net). PHP ships with Mac OS X but is disabled by default", 
+        "id": "CVE-2005-3391", 
+        "impact": "Multiple security issues in PHP 4.4", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "apache_mod_php"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "PHP 4.4.1 fixes several security issues in the Apache module and scripting environment. Details of the fixes are available via the PHP web site (www.php.net). PHP ships with Mac OS X but is disabled by default", 
+        "id": "CVE-2005-3392", 
+        "impact": "Multiple security issues in PHP 4.4", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "apache_mod_php"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Neil Archibald of Suresec LTD", 
+        "description": "An attacker able to cause an application to make requests for large amounts of memory may also be able to trigger a heap buffer overflow.  This could cause the targeted application to crash or execute arbitrary code.  This update addresses the issue by correctly handling these memory requests.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-3706", 
+        "impact": "Attackers may cause crashes or arbitrary code execution depending upon the application", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "LibSystem"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Dejun Meng of Fortinet", 
+        "description": "By carefully crafting a corrupt TGA image, an attacker can trigger a buffer overflow, integer overflow, or integer underflow that may result in a denial-of-service or arbitrary code execution.  This update addresses the issue by performing additional validation of images", 
+        "id": "CVE-2005-3707", 
+        "impact": "Viewing a maliciously-crafted TGA image may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011929/http://support.apple.com/kb/TA23845"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Dejun Meng of Fortinet", 
+        "description": "By carefully crafting a corrupt TGA image, an attacker can trigger a buffer overflow, integer overflow, or integer underflow that may result in a denial-of-service or arbitrary code execution.  This update addresses the issue by performing additional validation of images", 
+        "id": "CVE-2005-3708", 
+        "impact": "Viewing a maliciously-crafted TGA image may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011929/http://support.apple.com/kb/TA23845"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Dejun Meng of Fortinet", 
+        "description": "By carefully crafting a corrupt TGA image, an attacker can trigger a buffer overflow, integer overflow, or integer underflow that may result in a denial-of-service or arbitrary code execution.  This update addresses the issue by performing additional validation of images", 
+        "id": "CVE-2005-3709", 
+        "impact": "Viewing a maliciously-crafted TGA image may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011929/http://support.apple.com/kb/TA23845"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Dejun Meng of Fortinet", 
+        "description": "By carefully crafting a corrupt TIFF image, an attacker can trigger an integer overflow which may result in a denial-of-service or arbitrary code execution.  This update addresses the issue by performing additional validation of TIFF images", 
+        "id": "CVE-2005-3710", 
+        "impact": "Viewing a maliciously-crafted TIFF image may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011929/http://support.apple.com/kb/TA23845"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Dejun Meng of Fortinet", 
+        "description": "By carefully crafting a corrupt TIFF image, an attacker can trigger an integer overflow which may result in a denial-of-service or arbitrary code execution.  This update addresses the issue by performing additional validation of TIFF images", 
+        "id": "CVE-2005-3711", 
+        "impact": "Viewing a maliciously-crafted TIFF image may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011929/http://support.apple.com/kb/TA23845"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Jan-Derk Bakker", 
+        "description": "A heap-based buffer overflow may be triggered when the rsync server is used with the flag that allows extended attributes to be transferred. It may be possible for a malicious user with access to an rsync server to cause denial of service or code execution.  This update addresses the problem by ensuring that the destination buffer is large enough to hold the extended attributes.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-3712", 
+        "impact": "Authenticated users may cause an rsync server to crash or execute arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "rsync"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Karl Lynn of eEye Digital Security (eeye.com)", 
+        "description": "By carefully crafting a corrupt GIF image, an attacker can trigger a heap buffer overflow which may result in arbitrary code execution.  This update addresses the issue by performing additional validation of GIF images", 
+        "id": "CVE-2005-3713", 
+        "impact": "A maliciously-crafted GIF image may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011929/http://support.apple.com/kb/TA23845"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "N/A"
+        ], 
+        "credit": "Michael Zanetta of NETwork Security Consortium", 
+        "description": "A malicious network attacker that can generate specially crafted packets may be able to cause an AirPort base station's network interface to stop responding normally, resulting in a denial-of-service. This update addresses the issue by discarding the malformed packets", 
+        "id": "CVE-2005-3714", 
+        "impact": "AirPort network interface becomes unresponsive", 
+        "links": [
+            "https://web.archive.org/web/20130702014145/http://support.apple.com/kb/TA23839"
+        ], 
+        "module": "N/A"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "An integer overflow exists in Perl's format string functionality. This integer overflow may lead to arbitrary code execution in Perl applications which use format strings unsafely. This update addresses the issue by performing additional validation of uses of format strings", 
+        "id": "CVE-2005-3962", 
+        "impact": "Perl applications with unsafe string handling may be vulnerable to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "perl"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "The open source HTTP library libcurl contains buffer overflows in URL handling. Applications using curl for URL handling may trigger the issue and lead to arbitrary code execution. This update addresses the issue by incorporating libcurl version 7.15.1. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-4077", 
+        "impact": "URL handling in libcurl may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "libcurl"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Karl Lynn of eEye Digital Security (eeye.com)", 
+        "description": "By carefully crafting a corrupt media file, an attacker can trigger a heap buffer overflow which may result in arbitrary code execution.  This update addresses the issue by performing additional validation of media files", 
+        "id": "CVE-2005-4092", 
+        "impact": "A maliciously-crafted media file may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011929/http://support.apple.com/kb/TA23845"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Jason Self", 
+        "description": "When a perl program running as root attempts to switch to another user ID, the operation may fail without notification to the program.  This may cause a program to continue to run with root privileges, assuming they have been dropped. This can cause security issues in third-party tools. This update addresses the issue by preventing such applications from continuing if the operation fails. This issue does not affect Mac OS X v10.4 or later systems", 
+        "id": "CVE-2005-4217", 
+        "impact": "Perl programs may fail to drop privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "perl"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Several issues in the fetchmail utility were discovered. The most serious issue could lead to arbitrary code execution when fetching mail from a malicious POP3 mail server. All issues are described at the fetchmail website (fetchmail.berlios.de). This update addresses the issues by updating fetchmail to version 6.3.4. In addition, fetchmail is no longer distributed as a privileged utility", 
+        "id": "CVE-2005-4348", 
+        "impact": "Multiple issues in the fetchmail utility may lead to denial of service or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "fetchmail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Suresec LTD", 
+        "description": "A heap-based buffer overflow in WebKit's handling of certain HTML could allow a malicious web site to cause a crash or execute arbitrary code as the user viewing the site. This update addresses the issue by preventing the condition causing the overflow", 
+        "id": "CVE-2005-4504", 
+        "impact": "Viewing a maliciously-crafted web page may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "Adobe Flash Player contains critical vulnerabilities that may lead to arbitrary code execution when specially-crafted files are loaded. Further information is available via the Adobe web site at http://www.adobe.com/devnet/security/security_zone/apsb06-03.html. This update addresses the issue by incorporating Flash Player version 8.0.24.0", 
+        "id": "CVE-2006-0024", 
+        "impact": "Playing Flash content may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "Flash Player"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Several issues in the fetchmail utility were discovered. The most serious issue could lead to arbitrary code execution when fetching mail from a malicious POP3 mail server. All issues are described at the fetchmail website (fetchmail.berlios.de). This update addresses the issues by updating fetchmail to version 6.3.4. In addition, fetchmail is no longer distributed as a privileged utility", 
+        "id": "CVE-2006-0321", 
+        "impact": "Multiple issues in the fetchmail utility may lead to denial of service or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "fetchmail"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.4 through 10.4.4, Mac OS X Server 10.4 through 10.4.4"
+        ], 
+        "credit": "David Goldsmith of Matasano", 
+        "description": "A malicious local user may trigger a system crash by invoking an undocumented system call. This update addresses the issue by removing the system call from the kernel", 
+        "id": "CVE-2006-0382", 
+        "impact": "A malicious local user can cause a system crash", 
+        "links": [
+            "https://web.archive.org/web/20140817025310/http://support.apple.com/kb/TA23928"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "OUSPG from the University of Oulu, NISCC, and CERT-FI for coordinating and reporting this issue", 
+        "description": "Incorrect handling of error conditions for virtual private networks based on IPSec may allow a remote attacker to cause a service interruption. This update addresses the issues by correctly handling the conditions that may cause crashes", 
+        "id": "CVE-2006-0383", 
+        "impact": "Remote denial of service against VPN connections", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "IPSec"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "File servers on the local network may be able to cause Mac OS X systems to mount file systems with reserved names.  This could cause the systems to become unresponsive, or possibly allow arbitrary code delivered from the file servers to run on the target system", 
+        "id": "CVE-2006-0384", 
+        "impact": "Malicious network servers may cause a denial of service or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "automount"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "User directories are mounted in an unsafe fashion when a FileVault image is created. This update secures the method in which a FileVault image is created", 
+        "id": "CVE-2006-0386", 
+        "impact": "FileVault may permit access to files during when it is first enabled", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "FileVault"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "By preparing a web page including specially-crafted JavaScript, an attacker may trigger a stack buffer overflow that could lead to arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional bounds checking", 
+        "id": "CVE-2006-0387", 
+        "impact": "Viewing a malicious web page may cause arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "Safari's security model prevents remote resources from causing redirection to local resources. An issue involving HTTP redirection can cause the browser to access a local file, bypassing certain restrictions. This update addresses the issue by preventing cross-domain HTTP redirects", 
+        "id": "CVE-2006-0388", 
+        "impact": "Remote web sites can redirect to local resources, allowing JavaScript to execute in the local domain", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "Syndication (Safari RSS) may allow JavaScript code embedded in feeds to run within the context of the RSS reader document, allowing malicious feeds to circumvent Safari's security model.  This update addresses the issue by properly removing JavaScript code from feeds. Syndication is only available in Mac OS X v10.4 and later", 
+        "id": "CVE-2006-0389", 
+        "impact": "Subscriptions to malicious RSS content can lead to cross-site scripting", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "Syndication"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Suresec LTD", 
+        "description": "A heap-based buffer overflow in WebKit's handling of certain HTML could allow a malicious web site to cause a crash or execute arbitrary code as the user viewing the site. This update addresses the issue by preventing the condition causing the overflow", 
+        "id": "CVE-2006-0390", 
+        "impact": "Viewing a maliciously-crafted web page may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "St\u00e9phane Kardas of CERTA", 
+        "description": "The BOM framework handles the unpacking of certain types of archives.  This framework is vulnerable to a directory traversal attack that can allow archived files to be unpacked into arbitrary locations that are writable by the current user.  This update addresses the issue by properly sanitizing those paths", 
+        "id": "CVE-2006-0391", 
+        "impact": "Directory traversal may occur while unpacking archives with BOM", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "BOM"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a corrupt Canon RAW image, an attacker can trigger a buffer overflow which may lead to an application crash or arbitrary code execution. This update addresses the issue by performing additional validation of Canon RAW images. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-0392", 
+        "impact": "Viewing a maliciously-crafted Canon RAW image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "Image RAW"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7 Build 8K1079, Mac OS X Server v10.4.7 Build 8K1079", 
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Rob Middleton of the Centenary Institute (Sydney, Australia)", 
+        "description": "Attempting to log in to an OpenSSH server (\"Remote Login\") using a nonexistent account causes the authentication process to hang. An attacker can exploit this behavior to detect the existence of a particular account. A large number of such attempts may lead to a denial of service. This update addresses the issue by properly handling attempted logins by nonexistent users. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-0393", 
+        "impact": "When remote login is enabled, remote attackers may cause a denial of service or determine whether an account exists", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252", 
+            "https://web.archive.org/web/20140817031919/http://support.apple.com/kb/TA24292"
+        ], 
+        "module": "OpenSSH"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "In Mac OS X v10.4 Tiger, when an email attachment is double-clicked in Mail, Download Validation is used to warn the user if the file type is not \"safe\".  Certain techniques can be used to disguise the file's type so that Download Validation is bypassed.  This update addresses the issue by presenting Download Validation with the entire file, providing more information for Download Validation to detect unknown or unsafe file types in attachments", 
+        "id": "CVE-2006-0395", 
+        "impact": "Download Validation fails to warn about unsafe file types", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Kevin Finisterre of DigitalMunition", 
+        "description": "By preparing a specially-crafted email message with attachments, and enticing a user to double-click on that attachment within Mail, an attacker may trigger a buffer overflow.  This could result in the execution of arbitrary code with the privileges of the user running Mail. This update addresses the issue by performing additional bounds checking. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-0396", 
+        "impact": "Double-clicking an attachment in Mail may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817024651/http://support.apple.com/kb/TA23996"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Will Dormann of CERT/CC and Andris Baumberger", 
+        "description": "Security Update 2006-001 addressed an issue where Safari could automatically open a file which appears to be a safe file type, such as an image or movie, but is actually an application.  This update provides additional checks to identify variations of the malicious file types addressed in Security Update 2006-001 so that they are not automatically opened.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-0397", 
+        "impact": "Viewing a malicious web site may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817024651/http://support.apple.com/kb/TA23996"
+        ], 
+        "module": "Safari, LaunchServices, CoreTypes"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Will Dormann of CERT/CC and Andris Baumberger", 
+        "description": "Security Update 2006-001 addressed an issue where Safari could automatically open a file which appears to be a safe file type, such as an image or movie, but is actually an application.  This update provides additional checks to identify variations of the malicious file types addressed in Security Update 2006-001 so that they are not automatically opened.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-0398", 
+        "impact": "Viewing a malicious web site may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817024651/http://support.apple.com/kb/TA23996"
+        ], 
+        "module": "Safari, LaunchServices, CoreTypes"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "Will Dormann of CERT/CC and Andris Baumberger", 
+        "description": "Security Update 2006-001 addressed an issue where Safari could automatically open a file which appears to be a safe file type, such as an image or movie, but is actually an application.  This update provides additional checks to identify variations of the malicious file types addressed in Security Update 2006-001 so that they are not automatically opened.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-0399", 
+        "impact": "Viewing a malicious web site may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817024651/http://support.apple.com/kb/TA23996"
+        ], 
+        "module": "Safari, LaunchServices, CoreTypes"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "When documents containing Javascript are loaded from a remote site, data access is restricted by the same-origin policy. However, under certain situations, maliciously-crafted archives can cause these restrictions to be bypassed.  This update addresses the issue by flagging these documents as unsafe", 
+        "id": "CVE-2006-0400", 
+        "impact": "Remote web sites can cause JavaScript to bypass the same-origin policy", 
+        "links": [
+            "https://web.archive.org/web/20140817024651/http://support.apple.com/kb/TA23996"
+        ], 
+        "module": "CoreTypes"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.4.5"
+        ], 
+        "credit": "David Pugh of the University of Michigan", 
+        "description": "Intel-based Macintosh computers support the firmware password feature.  Prior to this update, a person with physical access to the computer could bypass the firmware password and access Single User Mode. This update addresses the issue by enhancing the security provided by the firmware password", 
+        "id": "CVE-2006-0401", 
+        "impact": "Firmware password can be bypassed on Intel-based Macintosh computers", 
+        "links": [
+            "https://web.archive.org/web/20130309011911/http://support.apple.com/kb/TA24050"
+        ], 
+        "module": "Firmware"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "A security vulnerability in Java Web Start may allow an untrusted application to elevate its privileges.  This update addresses the issue by providing  J2SE version 1.5.0_06, which is not susceptible to this vulnerability. For additional information on this issue see Sun Alert 102170 ( http://sunsolve.sun.com/search/document.do?assetkey=1-26-102170-1 )", 
+        "id": "CVE-2006-0613", 
+        "impact": "Untrusted Java applications may obtain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309011905/http://support.apple.com/kb/TA24083"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "Security vulnerabilities  related to the use of \"reflection\" APIs in the Java Runtime Environment may allow an untrusted applet to elevate its privileges.  This update addresses these issues by providing  J2SE version 1.5.0_06, which is not susceptible to these vulnerabilities. For additional information on these issues see Sun Alert 102171 ( http://sunsolve.sun.com/search/document.do?assetkey=1-26-102171-1 )", 
+        "id": "CVE-2006-0614", 
+        "impact": "Untrusted Java applets may obtain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309011905/http://support.apple.com/kb/TA24083"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "Security vulnerabilities  related to the use of \"reflection\" APIs in the Java Runtime Environment may allow an untrusted applet to elevate its privileges.  This update addresses these issues by providing  J2SE version 1.5.0_06, which is not susceptible to these vulnerabilities. For additional information on these issues see Sun Alert 102171 ( http://sunsolve.sun.com/search/document.do?assetkey=1-26-102171-1 )", 
+        "id": "CVE-2006-0615", 
+        "impact": "Untrusted Java applets may obtain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309011905/http://support.apple.com/kb/TA24083"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "Security vulnerabilities  related to the use of \"reflection\" APIs in the Java Runtime Environment may allow an untrusted applet to elevate its privileges.  This update addresses these issues by providing  J2SE version 1.5.0_06, which is not susceptible to these vulnerabilities. For additional information on these issues see Sun Alert 102171 ( http://sunsolve.sun.com/search/document.do?assetkey=1-26-102171-1 )", 
+        "id": "CVE-2006-0616", 
+        "impact": "Untrusted Java applets may obtain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309011905/http://support.apple.com/kb/TA24083"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "Security vulnerabilities  related to the use of \"reflection\" APIs in the Java Runtime Environment may allow an untrusted applet to elevate its privileges.  This update addresses these issues by providing  J2SE version 1.5.0_06, which is not susceptible to these vulnerabilities. For additional information on these issues see Sun Alert 102171 ( http://sunsolve.sun.com/search/document.do?assetkey=1-26-102171-1 )", 
+        "id": "CVE-2006-0617", 
+        "impact": "Untrusted Java applets may obtain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309011905/http://support.apple.com/kb/TA24083"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.5, Mac OS X Server v10.4.5"
+        ], 
+        "credit": "", 
+        "description": "It is possible to construct a file which appears to be a safe file type, such as an image or movie, but is actually an application.  When the \"Open `safe' files after downloading\" option is enabled in Safari's General preferences, visiting a malicious web site may result in the automatic download and execution of such a file. A proof-of-concept has been detected on public web sites that demonstrates the automatic execution of shell scripts. This update addresses the issue by performing additional download validation so that the user is warned (in Mac OS X v10.4.5) or the download is not automatically opened (in Mac OS X v10.3.9)", 
+        "id": "CVE-2006-0848", 
+        "impact": "Viewing a malicious web site may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011921/http://support.apple.com/kb/TA23971"
+        ], 
+        "module": "Safari, LaunchServices"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "eEye Digital Security and Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt FlashPix image, an attacker can trigger an integer overflow which may result in an application crash or arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional validation of FlashPix images", 
+        "id": "CVE-2006-1249", 
+        "impact": "Viewing a maliciously-crafted FlashPix image may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "Under certain circumstances when switching between text input fields, NSSecureTextField may fail to re-enable secure event input. This may allow other applications in the same window session to see some input characters and keyboard events. This update addresses the issue by ensuring secure event input is properly enabled. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1439", 
+        "impact": "Characters entered into a secure text field can be read by other applications in the same window session", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "AppKit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "An issue in the handling of directory traversal symbolic links encountered in archives may cause BOM to create or overwrite files in arbitrary locations accessible to the user expanding the archive. BOM handles archives on behalf of Finder and other applications. This update addresses the issue by ensuring that files expanded from an archive are not placed outside the destination directory", 
+        "id": "CVE-2006-1440", 
+        "impact": "Expanding a malicious archive may cause arbitrary files to be created or overwritten", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "BOM"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "An integer overflow in the handling of chunked transfer encoding could lead to arbitrary code execution. CFNetwork is used by Safari and other applications. This update addresses the issue by performing additional validation. The issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1441", 
+        "impact": "Visiting malicious web sites may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "CFNetwork"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "Under certain circumstances, bundles are implicitly registered by applications or the system. A feature of the bundle API allows dynamic libraries to load and execute when a bundle is registered, even if the client application does not explicitly request it. As a result, arbitrary code may be executed from an untrusted bundle without explicit user interaction. This update addresses the issue by only loading and executing libraries from the bundle at the appropriate time", 
+        "id": "CVE-2006-1442", 
+        "impact": "Registration of an untrusted bundle may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "CoreFoundation"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "An integer underflow during the processing of a boundary condition in CFStringGetFileSystemRepresentation may lead to arbitrary code execution. Applications that use this API or one of the related APIs such as NSFileManager's getFileSystemRepresentation:maxLength:withPath: may trigger the issue and lead to arbitrary code execution. This update addresses the issue by properly handling the boundary conditions", 
+        "id": "CVE-2006-1443", 
+        "impact": "String conversions to file system representation may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "CoreFoundation"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "Damien Bobillot", 
+        "description": "Quartz Event Services provides applications with the ability to observe and alter low-level user input events. Normally, applications cannot intercept events when secure event input is enabled. However, if \"Enable access for assistive devices\" is on, Quartz Event Services can be used to intercept events even when secure event input is enabled. This update addresses the issue by filtering events when secure event input is enabled. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1444", 
+        "impact": "Characters entered into a secure text field can be read by other applications in the same window session", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "CoreGraphics"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "Multiple issues in FTP server path name handling could result in a buffer overflow. A malicious authenticated user may be able to trigger this overflow which may lead to arbitrary code execution with the privileges of the FTP server. This update addresses the issue by properly handling the boundary conditions", 
+        "id": "CVE-2006-1445", 
+        "impact": "FTP operations by authenticated FTP users may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "FTPServer"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "Tobias Hahn of HU Berlin", 
+        "description": "When a Keychain is locked, it is not possible for applications to access the Keychain items it contains without first requesting that the Keychain be unlocked. However, an application that has obtained a reference to a Keychain item prior to the Keychain being locked may, in certain circumstances, be able to continue using that Keychain item regardless of whether the Keychain is locked or unlocked. This update addresses the issue by rejecting requests to use Keychain items when the Keychain is locked", 
+        "id": "CVE-2006-1446", 
+        "impact": "An application may be able to use Keychain items when the Keychain is locked", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "Keychain"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "Long file name extensions may prevent Download Validation from correctly determining the application with which an item may be opened. As a result, an attacker may be able to bypass Download Validation and cause Safari to automatically open unsafe content if the \"Open `safe' files after downloading\" option is enabled and certain applications are not installed. This update addresses the issue through improved checking of the file name extension. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1447", 
+        "impact": "Viewing a malicious web site may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "LaunchServices"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "Internet Location items are simple URL containers which may reference http://, ftp://, and file:// URLs, as well as a few other URL schemes. These different types of Internet Location items are visually distinct, and meant to be safe to explicitly launch. However, the scheme of the URL may be different than the Internet Location type. As a result, an attacker may be able to convince a user to launch a supposedly benign item (such as a Web Internet Location, http://), with the result that some other URL scheme is actually used. In certain circumstances, this may lead to arbitrary code execution. This update addresses the issues by restricting the URL scheme based on the Internet Location type", 
+        "id": "CVE-2006-1448", 
+        "impact": "Launching an Internet Location item may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "Finder"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "By preparing a specially-crafted email message with MacMIME encapsulated attachments, an attacker may trigger an integer overflow. This may lead to arbitrary code execution with the privileges of the user running Mail. This issue corrects the issue by performing additional validation of messages", 
+        "id": "CVE-2006-1449", 
+        "impact": "Viewing a malicious mail message may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "The handling of invalid color information in enriched text email messages could cause the allocation and initialization of arbitrary classes. This may lead to arbitrary code execution with the privileges of the user running Mail. This update addresses the issue by properly handling malformed enriched text data", 
+        "id": "CVE-2006-1450", 
+        "impact": "Viewing a malicious mail message may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4.6"
+        ], 
+        "credit": "Ben Low of the University of New South Wales", 
+        "description": "During the initial setup of a MySQL database server using MySQL Manager, the \"New MySQL root password\" may be supplied. However, this password is not actually used. As a result, the MySQL root password will remain empty. A local user may then obtain access to the MySQL database with full privileges. This update addresses the issue by ensuring that the entered password is saved. This issue does not affect systems prior to Mac OS X Server v10.4", 
+        "id": "CVE-2006-1451", 
+        "impact": "MySQL database may be accessed with an empty password", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "MySQL Manager"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "When navigating very deep directory hierarchies in Preview, a stack buffer overflow may be trigger. By carefully crafting such a directory hierarchy, it may be possible for an attacker to cause arbitrary code execution if the directories are opened in Preview. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1452", 
+        "impact": "Navigating a maliciously-crafted directory hierarchy may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "Preview"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000", 
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "Two issues affect QuickDraw when processing PICT images. Malformed font information may cause a stack buffer overflow, and malformed image data may cause a heap buffer overflow. By carefully crafting a malicious PICT image, an attacker may be able to cause arbitrary code execution when the image is viewed. This update addresses the issue by performing additional validation of PICT images", 
+        "id": "CVE-2006-1453", 
+        "impact": "Viewing a maliciously-crafted PICT image may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524", 
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickDraw"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000", 
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "Two issues affect QuickDraw when processing PICT images. Malformed font information may cause a stack buffer overflow, and malformed image data may cause a heap buffer overflow. By carefully crafting a malicious PICT image, an attacker may be able to cause arbitrary code execution when the image is viewed. This update addresses the issue by performing additional validation of PICT images", 
+        "id": "CVE-2006-1454", 
+        "impact": "Viewing a maliciously-crafted PICT image may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524", 
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickDraw"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "A QuickTime movie that has a missing track may cause a null pointer dereference, causing the server process to crash. This causes active client connections to be interrupted. However, the server is restarted automatically. This update addresses the issue by producing an error when malformed movies are encountered", 
+        "id": "CVE-2006-1455", 
+        "impact": "A malformed QuickTime movie can cause QuickTime Streaming Server to crash", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "the Mu Security research team", 
+        "description": "By carefully crafting an RTSP request, an attacker may be able to trigger a buffer overflow during message logging. This may lead to the arbitrary code execution with the privileges of the QuickTime Streaming Server. This update addresses the issue by properly handling the boundary conditions", 
+        "id": "CVE-2006-1456", 
+        "impact": "Maliciously-crafted RTSP requests may lead to crashes or arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "When Safari's \"Open `safe' files after downloading\" option is enabled, archives will be automatically expanded. If the archive contains a symbolic link, the target symlink may be moved to the user's desktop and launched. This update addresses the issue by not resolving downloaded symbolic links. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1457", 
+        "impact": "Visiting malicious web sites may lead to file manipulation or arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a corrupt JPEG image, an attacker can trigger an integer overflow which may result in an application crash or arbitrary code execution with the privileges of the user. This update addresses the issue by performing additional validation of JPEG images", 
+        "id": "CVE-2006-1458", 
+        "impact": "Viewing a maliciously-crafted JPEG image may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt QuickTime movie, an attacker can trigger an integer overflow or buffer overflow which may result in an application crash or arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional validation of QuickTime movies", 
+        "id": "CVE-2006-1459", 
+        "impact": "Viewing a maliciously-crafted QuickTime movie may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt QuickTime movie, an attacker can trigger an integer overflow or buffer overflow which may result in an application crash or arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional validation of QuickTime movies", 
+        "id": "CVE-2006-1460", 
+        "impact": "Viewing a maliciously-crafted QuickTime movie may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt Flash movie, an attacker can trigger a buffer overflow which may result in an application crash or arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional validation of QuickTime movies", 
+        "id": "CVE-2006-1461", 
+        "impact": "Viewing a maliciously-crafted Flash movie may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs and ATmaCA working through TippingPoint and the Zero Day Initiative", 
+        "description": "By carefully crafting a corrupt H.264 movie, an attacker can trigger an integer overflow or buffer overflow which may result in an application crash or arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional validation of H.264 movies", 
+        "id": "CVE-2006-1462", 
+        "impact": "Viewing a maliciously-crafted H.264 movie may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs and ATmaCA working through TippingPoint and the Zero Day Initiative", 
+        "description": "By carefully crafting a corrupt H.264 movie, an attacker can trigger an integer overflow or buffer overflow which may result in an application crash or arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional validation of H.264 movies", 
+        "id": "CVE-2006-1463", 
+        "impact": "Viewing a maliciously-crafted H.264 movie may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt MPEG4 movie, an attacker can trigger a buffer overflow which may result in an application crash or arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional validation of MPEG4 movies", 
+        "id": "CVE-2006-1464", 
+        "impact": "Viewing a maliciously-crafted MPEG4 movie may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt AVI movie, an attacker can trigger a buffer overflow which may result in an application crash or arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional validation of AVI movies", 
+        "id": "CVE-2006-1465", 
+        "impact": "Viewing a maliciously-crafted AVI movie may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4 and later"
+        ], 
+        "credit": "Mike Schrag of mDimension Technology", 
+        "description": "The WebObjects Xcode plug-in provides the ability to manipulate projects through a network service.  This service is accessible to remote systems while Xcode is running.  This update addresses the issue by limiting this service to the local system.  This issue does not affect default installations of Xcode Tools.  Only systems with the WebObjects plug-in installed are affected", 
+        "id": "CVE-2006-1466", 
+        "impact": "If you install WebObjects developer tools, remote attackers may be able to obtain or modify WebObjects projects while Xcode is running", 
+        "links": [
+            "https://web.archive.org/web/20140817023008/http://support.apple.com/kb/TA24156"
+        ], 
+        "module": "WebObjects"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.2.8 or later, Windows XP / 2000"
+        ], 
+        "credit": "ATmaCA working with TippingPoint and the Zero Day Initiative", 
+        "description": "The AAC file parsing code in iTunes versions prior to 6.0.5 contains an integer overflow vulnerability.  Parsing a maliciously-crafted AAC file could cause iTunes to terminate or potentially execute arbitrary code.  iTunes 6.0.5 addresses this issue by improving the validation checks used when loading AAC files.  iTunes 6.0.5 is freely available from http://www.apple.com/itunes/download/ ", 
+        "id": "CVE-2006-1467", 
+        "impact": "An integer overflow in iTunes could cause a denial of service or lead to the execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309011843/http://support.apple.com/kb/TA24223"
+        ], 
+        "module": "iTunes"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "An issue in AFP server allows search results to include the names of files and folders for which the user performing the search has no access. This could result in information disclosure if the names themselves are sensitive information. This update addresses the issue by ensuring that search results only include items for which the user is authorized. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1468", 
+        "impact": "File and folder names may be disclosed to unauthorized users", 
+        "links": [
+            "http://support.apple.com/en-us/HT2677"
+        ], 
+        "module": "AFP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a corrupt TIFF image, an attacker can trigger a stack-based buffer overflow which may result in an application crash or arbitrary code execution. This update addresses the issue by performing additional validation of TIFF images. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1469", 
+        "impact": "Viewing a maliciously-crafted TIFF image may result in an application crash or arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2677"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "the Mu Security research team", 
+        "description": "By carefully crafting an invalid LDAP request, a remote attacker may be able to trigger an assertion in the OpenLDAP server, resulting in a denial-of-service. This update addresses the issue by discarding the invalid request. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1470", 
+        "impact": "Remote attackers may cause Open Directory server to crash", 
+        "links": [
+            "http://support.apple.com/en-us/HT2677"
+        ], 
+        "module": "OpenLDAP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "Kevin Finisterre of DigitalMunition", 
+        "description": "A format string vulnerability in the setuid program launchd may allow an authenticated local user to execute arbitrary code with system privileges. The issue is present in launchd's logging facility. This update addresses the issue by performing additional validation when logging messages. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1471", 
+        "impact": "Local users may gain elevated privileges", 
+        "links": [
+            "http://support.apple.com/en-us/HT2677"
+        ], 
+        "module": "launchd"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "An issue in the AFP server allows search results to include files and folders for which the user performing the search has no access. This may lead to information disclosure if the names themselves are sensitive information. If the permissions of the items allow it, the contents may also be accessible. This update addresses the issue in Mac OS X v10.3.9 by ensuring that search results only include items for which the user is authorized. For Mac OS X v10.4 systems, the issue was addressed in Mac OS X v10.4.7", 
+        "id": "CVE-2006-1472", 
+        "impact": "When file sharing is enabled, file and folder items may be disclosed to unauthorized users", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Dino Dai Zovi of Matasano Security", 
+        "description": "The AFP server contains an integer overflow that can be triggered by an authenticated user. A malicious user with access to the AFP server may be able to cause a denial of service attack or aribtrary code execution with system privileges. The AFP server is not enabled by default on Mac OS X. This update addresses the issue by performing additional validation", 
+        "id": "CVE-2006-1473", 
+        "impact": "When file sharing is enabled, authenticated users may cause a crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.4.4 to address several security issues in the Apache module and scripting environment. Applications using affected APIs may be vulnerable. The most severe of the vulnerabilities may lead to arbitrary code execution. Further information is available on the PHP project web site (www.php.net)", 
+        "id": "CVE-2006-1490", 
+        "impact": "PHP applications may be vulnerable to denial of service or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "Brent Simmons of NewsGator Technologies, Inc.", 
+        "description": "An integer overflow in the processing of JPEG metadata may result in a heap buffer overflow. By carefully crafting an image with malformed JPEG metadata, an attacker may be able to cause arbitrary code execution when the image is viewed. This update addresses the issue by performing additional validation of images. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1552", 
+        "impact": "Viewing a maliciously-crafted JPEG image may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "The ClamAV virus scanning software has been updated to incorporate security fixes in the latest release. ClamAV was introduced in Mac OS X Server v10.4 for email scanning. The most severe of these issues could lead to arbitrary code execution with the privileges of ClamAV. For more information, see the project web site at http://www.clamav.net", 
+        "id": "CVE-2006-1614", 
+        "impact": "Processing maliciously-crafted email messages with ClamAV may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "ClamAV"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "The ClamAV virus scanning software has been updated to incorporate security fixes in the latest release. ClamAV was introduced in Mac OS X Server v10.4 for email scanning. The most severe of these issues could lead to arbitrary code execution with the privileges of ClamAV. For more information, see the project web site at http://www.clamav.net", 
+        "id": "CVE-2006-1615", 
+        "impact": "Processing maliciously-crafted email messages with ClamAV may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "ClamAV"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "The ClamAV virus scanning software has been updated to incorporate security fixes in the latest release. ClamAV was introduced in Mac OS X Server v10.4 for email scanning. The most severe of these issues could lead to arbitrary code execution with the privileges of ClamAV. For more information, see the project web site at http://www.clamav.net", 
+        "id": "CVE-2006-1630", 
+        "impact": "Processing maliciously-crafted email messages with ClamAV may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "ClamAV"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "An issue in the DIGEST-MD5 negotiation support in Cyrus SASL can lead to a segmentation fault in the IMAP server with a maliciously-crafted realm header. This update addresses the issue through improved handling of realm headers in authentication attempts", 
+        "id": "CVE-2006-1721", 
+        "impact": "Remote attackers may be able to cause an IMAP server denial of service", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "SASL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "The handling of malformed GIF or TIFF image may lead to arbitrary code execution when parsing a maliciously-crafted image. This affects applications that use the ImageIO (Mac OS X v10.4 Tiger) or AppKit (Mac OS X v10.3 Panther) framework to read images. This update addresses the issue by performing additional validation of GIF and TIFF images", 
+        "id": "CVE-2006-1982", 
+        "impact": "Viewing a maliciously-crafted GIF or TIFF image may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "AppKit, ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "The handling of malformed GIF or TIFF image may lead to arbitrary code execution when parsing a maliciously-crafted image. This affects applications that use the ImageIO (Mac OS X v10.4 Tiger) or AppKit (Mac OS X v10.3 Panther) framework to read images. This update addresses the issue by performing additional validation of GIF and TIFF images", 
+        "id": "CVE-2006-1983", 
+        "impact": "Viewing a maliciously-crafted GIF or TIFF image may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "AppKit, ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "The handling of malformed GIF or TIFF image may lead to arbitrary code execution when parsing a maliciously-crafted image. This affects applications that use the ImageIO (Mac OS X v10.4 Tiger) or AppKit (Mac OS X v10.3 Panther) framework to read images. This update addresses the issue by performing additional validation of GIF and TIFF images", 
+        "id": "CVE-2006-1984", 
+        "impact": "Viewing a maliciously-crafted GIF or TIFF image may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "AppKit, ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.6, Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting an archive (such as a Zip archive) containing long path names, an attacker may be able to trigger a heap buffer overflow in BOM. This may result in arbitrary code execution. BOM is used to handle archives in Finder and other applications. This update addresses the issue by properly handling the boundary conditions", 
+        "id": "CVE-2006-1985", 
+        "impact": "Expanding an archive may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2524"
+        ], 
+        "module": "BOM"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4.6"
+        ], 
+        "credit": "", 
+        "description": "An issue in ClamAV's automatic virus database updating may result in a stack-based buffer overflow. A malicious or spoofed ClamAV database mirror may be able to cause arbitrary code execution with the privileges of ClamAV. The Mail service, virus scanning, and automatic virus database updates are off by default. This update addresses the issue by incorporating ClamAV 0.88.2. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-1989", 
+        "impact": "When virus scanning is configured to update automatically, a malicious database mirror may cause arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2677"
+        ], 
+        "module": "ClamAV"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.4.4 to address several security issues in the Apache module and scripting environment. Applications using affected APIs may be vulnerable. The most severe of the vulnerabilities may lead to arbitrary code execution. Further information is available on the PHP project web site (www.php.net)", 
+        "id": "CVE-2006-1990", 
+        "impact": "PHP applications may be vulnerable to denial of service or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a corrupt BMP image, an attacker can trigger a buffer overflow which may result in an application crash or arbitrary code execution with the privileges of the user.  This update addresses the issue by performing additional validation of BMP images. This issue was originally identified in CVE-2006-1983, but a new CVE name was assigned", 
+        "id": "CVE-2006-2238", 
+        "impact": "Viewing a maliciously-crafted BMP image may result in an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817033333/http://support.apple.com/kb/TA24130"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "OpenSSL is updated to version 0.9.7l to address several critical vulnerabilities. The most severe of these vulnerabilities may lead to impersonation of services using SSL or TLS, or to arbitrary code execution. Further information is available via OpenSSL advisories at http://www.openssl.org/news/vulnerabilities.html ", 
+        "id": "CVE-2006-2937", 
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "OpenSSL is updated to version 0.9.7l to address several critical vulnerabilities. The most severe of these vulnerabilities may lead to impersonation of services using SSL or TLS, or to arbitrary code execution. Further information is available via OpenSSL advisories at http://www.openssl.org/news/vulnerabilities.html ", 
+        "id": "CVE-2006-2940", 
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Adobe Flash Player contains critical vulnerabilities that may lead to arbitrary code execution when handling maliciously-crafted content. This update addresses the issues by incorporating Flash Player version 9.0.16.0 on Mac OS X v10.3.9 and Flash Player version 9.0.20.0 on Mac OS X v10.4 systems. Further information is available via the Adobe web site at http://www.adobe.com/support/security/bulletins/apsb06-11.html ", 
+        "id": "CVE-2006-3311", 
+        "impact": "Playing Flash content may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "Flash Player"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "The list of active connections tracked by Windows Sharing may grow unbounded. An attacker may be able to create many connections, leading to memory exhaustion and a denial of service. This update addresses the issue by limiting the number of active connections. Windows Sharing is not enabled by default", 
+        "id": "CVE-2006-3403", 
+        "impact": "When Windows Sharing is enabled, remote attackers may cause a denial of service", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "Samba"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7", 
+            "Mac OS X v10.4.7 Build 8K1079, Mac OS X Server v10.4.7 Build 8K1079"
+        ], 
+        "credit": "Tavis Ormandy, Google Security Team", 
+        "description": "Buffer overflows were discovered in TIFF tag handling (CVE-2006-3459, CVE-2006-3465), the TIFF PixarLog decoder (CVE-2006-3461), and the TIFF NeXT RLE decoder (CVE-2006-3462). By carefully crafting a corrupt TIFF image, an attacker can trigger a buffer overflow which may lead to an application crash or arbitrary code execution. This update addresses the issue by performing additional validation of TIFF images. Systems prior to Mac OS X v10.4 are affected only by the TIFF NeXT RLE decoder issue (CVE-2006-3462)", 
+        "id": "CVE-2006-3459", 
+        "impact": "Viewing a maliciously-crafted TIFF image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252", 
+            "https://web.archive.org/web/20140817031919/http://support.apple.com/kb/TA24292"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7", 
+            "Mac OS X v10.4.7 Build 8K1079, Mac OS X Server v10.4.7 Build 8K1079"
+        ], 
+        "credit": "Tavis Ormandy, Google Security Team", 
+        "description": "Buffer overflows were discovered in TIFF tag handling (CVE-2006-3459, CVE-2006-3465), the TIFF PixarLog decoder (CVE-2006-3461), and the TIFF NeXT RLE decoder (CVE-2006-3462). By carefully crafting a corrupt TIFF image, an attacker can trigger a buffer overflow which may lead to an application crash or arbitrary code execution. This update addresses the issue by performing additional validation of TIFF images. Systems prior to Mac OS X v10.4 are affected only by the TIFF NeXT RLE decoder issue (CVE-2006-3462)", 
+        "id": "CVE-2006-3461", 
+        "impact": "Viewing a maliciously-crafted TIFF image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252", 
+            "https://web.archive.org/web/20140817031919/http://support.apple.com/kb/TA24292"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7", 
+            "Mac OS X v10.4.7 Build 8K1079, Mac OS X Server v10.4.7 Build 8K1079"
+        ], 
+        "credit": "Tavis Ormandy, Google Security Team", 
+        "description": "Buffer overflows were discovered in TIFF tag handling (CVE-2006-3459, CVE-2006-3465), the TIFF PixarLog decoder (CVE-2006-3461), and the TIFF NeXT RLE decoder (CVE-2006-3462). By carefully crafting a corrupt TIFF image, an attacker can trigger a buffer overflow which may lead to an application crash or arbitrary code execution. This update addresses the issue by performing additional validation of TIFF images. Systems prior to Mac OS X v10.4 are affected only by the TIFF NeXT RLE decoder issue (CVE-2006-3462)", 
+        "id": "CVE-2006-3462", 
+        "impact": "Viewing a maliciously-crafted TIFF image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252", 
+            "https://web.archive.org/web/20140817031919/http://support.apple.com/kb/TA24292"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7", 
+            "Mac OS X v10.4.7 Build 8K1079, Mac OS X Server v10.4.7 Build 8K1079"
+        ], 
+        "credit": "Tavis Ormandy, Google Security Team", 
+        "description": "Buffer overflows were discovered in TIFF tag handling (CVE-2006-3459, CVE-2006-3465), the TIFF PixarLog decoder (CVE-2006-3461), and the TIFF NeXT RLE decoder (CVE-2006-3462). By carefully crafting a corrupt TIFF image, an attacker can trigger a buffer overflow which may lead to an application crash or arbitrary code execution. This update addresses the issue by performing additional validation of TIFF images. Systems prior to Mac OS X v10.4 are affected only by the TIFF NeXT RLE decoder issue (CVE-2006-3462)", 
+        "id": "CVE-2006-3465", 
+        "impact": "Viewing a maliciously-crafted TIFF image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252", 
+            "https://web.archive.org/web/20140817031919/http://support.apple.com/kb/TA24292"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "On Mac OS X Server, the AFP server supports reconnection of file sharing sessions after a network outage. The storage of reconnect keys is world-readable. It may be possible for an authenticated local user to read the reconnect keys, use them to impersonate another user over AFP, and access files or folders with the privileges of the impersonated user. This update addresses the issue by protecting the reconnect keys with appropriate file system permissions. This issue only affects Mac OS X Server", 
+        "id": "CVE-2006-3495", 
+        "impact": "When file sharing is enabled, authenticated local users may be able to access files or folders of other users through AFP", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "An unchecked error condition exists in the AFP server that may lead to a crash. By carefully crafting an invalid AFP request, an attacker may be able to trigger this condition and cause a denial of service. This update addresses the issue by handling the formerly unchecked error condition", 
+        "id": "CVE-2006-3496", 
+        "impact": "When file sharing is enabled, a maliciously-crafted AFP request may cause the AFP server to crash", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Tom Ferris of Security-Protocols.com", 
+        "description": "An issue in Bom's compression state handling may cause heap corruption. By carefully crafting a corrupt Zip archive and persuading a victim to open it, an attacker may be able to trigger this condition which could lead to an application crash or arbitrary code execution. Note that Safari will automatically open archives when \"Open `safe' files after downloading\" is enabled. This update addresses the issue by properly handling such malformed Zip archives", 
+        "id": "CVE-2006-3497", 
+        "impact": "Opening a maliciously-crafted archive may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "Bom"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "A stack buffer overflow exists in bootpd's request processing. By carefully crafting a malicious BOOTP request, a remote attacker may be able to trigger the overflow and cause arbitrary code execution with the privileges of the system. Note that bootpd is not enabled by default in Mac OS X, and must be manually configured in order to be enabled. This update addresses the issue by performing additional bounds checking", 
+        "id": "CVE-2006-3498", 
+        "impact": "When bootpd is enabled, a maliciously-crafted BOOTP request may cause arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "DHCP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Neil Archibald of Suresec LTD", 
+        "description": "Malicious local system users may specify dynamic linker options that cause output to standard error. This output contains informational content and potentially user-specified content. As a result, privileged applications that parse or reuse standard error may be influenced inappropriately. This update addresses the issue by ignoring the problematic dynamic linker options in privileged applications", 
+        "id": "CVE-2006-3499", 
+        "impact": "Malicious local users may influence dynamic linker output with undesirable consequences", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "dyld"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Neil Archibald of Suresec LTD", 
+        "description": "An improperly handled condition in the dynamic linker may lead to including dangerous paths when searching for libraries to load into privileged applications. As a result, malicious local users may cause the dynamic linker to load and execute arbitrary code with elevated privileges. This update addresses the issue by properly selecting search paths when executing privileged applications", 
+        "id": "CVE-2006-3500", 
+        "impact": "Malicious local users may influence the loading of dynamic libraries in order to gain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "dyld"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a corrupt Radiance image, an attacker can trigger an integer overflow which may lead to an application crash or arbitrary code execution. This update addresses the issue by performing additional validation of Radiance images. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-3501", 
+        "impact": "Viewing a maliciously-crafted Radiance image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a corrupt GIF image, an attacker can trigger an undetected memory allocation failure which may lead to an application crash or arbitrary code execution. This update addresses the issue by performing additional validation of GIF images. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-3502", 
+        "impact": "Viewing a maliciously-crafted GIF image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Tom Ferris of Security-Protocols.com", 
+        "description": "By carefully crafting a corrupt GIF image, an attacker can trigger an integer overflow which may lead to an application crash or arbitrary code execution. This update addresses the issue by performing additional validation of GIF images. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-3503", 
+        "impact": "Viewing a maliciously-crafted GIF image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Download Validation may erroneously identify certain files containing HTML as \"safe\". If such a file is downloaded in Safari and Safari's \"Open `safe' files after downloading\" option is enabled, the HTML document will automatically be opened from a local URI. This would allow any JavaScript code embedded in the document to bypass access restrictions normally imposed on remote content. This update provides additional checks to identify potentially malicious file types so that they are not automatically opened. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-3504", 
+        "impact": "Visiting a malicious web site could cause JavaScript to execute in the local domain", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "LaunchServices"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Jesse Ruderman of Mozilla Corporation", 
+        "description": "A maliciously-crafted HTML document could cause a previously deallocated object to be accessed. This may lead to an application crash or arbitrary code execution. This update addresses the issue by properly handling such documents", 
+        "id": "CVE-2006-3505", 
+        "impact": "Visiting a malicious web site may lead to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011840/http://support.apple.com/kb/TA24252"
+        ], 
+        "module": "WebKit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Andrew Wellington of the Australian National University", 
+        "description": "A buffer overflow may occur in the Xsan Filesystem driver when processing a path name. A malicious user with write access to an Xsan volume may be able to trigger the overflow on systems directly attached to Xsan. This could lead to a system crash or arbitrary code execution with system privileges. This update addresses the issue by performing additional validation of path names", 
+        "id": "CVE-2006-3506", 
+        "impact": "Malicious users may be able to cause systems using Xsan to crash or execute arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20140309175411/http://support.apple.com/kb/TA24300"
+        ], 
+        "module": "Xsan"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Two separate stack buffer overflows exist in the AirPort wireless driver's handling of malformed frames. An attacker in local proximity may be able to trigger an overflow by injecting a maliciously-crafted frame into a wireless network. When the AirPort is on, this could lead to arbitrary code execution with system privileges. This issue affects Power Mac, PowerBook, iBook, iMac, Mac Pro, Xserve, and PowerPC-based Mac mini computers equipped with wireless. Intel-based Mac mini, MacBook, and MacBook Pro computers are not affected. There is no known exploit for this issue. This update addresses the issues by performing additional validation of wireless frames", 
+        "id": "CVE-2006-3507", 
+        "impact": "Attackers on the wireless network may cause arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2697"
+        ], 
+        "module": "AirPort"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "A heap buffer overflow exists in the AirPort wireless driver's handling of scan cache updates. An attacker in local proximity may be able to trigger the overflow by injecting a maliciously-crafted frame into the wireless network. This could lead to a system crash, privilege elevation, or arbitrary code execution with system privileges. This issue affects Intel-based Mac mini, MacBook, and MacBook Pro computers equipped with wireless. Power Mac, PowerBook, iBook, iMac, Mac Pro, Xserve, and PowerPC-based Mac mini computers are not affected. This update addresses the issue by performing additional validation of wireless frames. There is no known exploit for this issue. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-3508", 
+        "impact": "Attackers on the wireless network may cause system crashes, privilege elevation, or arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2697"
+        ], 
+        "module": "AirPort"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.7, Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "An integer overflow exists in the Airport wireless driver's API for third-party wireless software. This could lead to a buffer overflow in such applications dependent upon API usage. No applications are known to be affected at this time. If an application is affected, then an attacker in local proximity may be able to trigger an overflow by injecting a maliciously-crafted frame into the wireless network. This may cause crashes or lead to arbitrary code execution with the privileges of the user running the application. This issue affects Intel-based Mac mini, MacBook, and MacBook Pro computers equipped with wireless. Power Mac, PowerBook, iBook, iMac, Mac Pro, Xserve, and PowerPC-based Mac mini computers are not affected. This update addresses the issues by performing additional validation of wireless frames. There is no known exploit for this issue. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-3509", 
+        "impact": "Depending upon third-party wireless software in use, attackers on the wireless network may cause crashes or arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2697"
+        ], 
+        "module": "AirPort"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Adobe Flash Player contains critical vulnerabilities that may lead to arbitrary code execution when handling maliciously-crafted content. This update addresses the issues by incorporating Flash Player version 9.0.16.0 on Mac OS X v10.3.9 and Flash Player version 9.0.20.0 on Mac OS X v10.4 systems. Further information is available via the Adobe web site at http://www.adobe.com/support/security/bulletins/apsb06-11.html ", 
+        "id": "CVE-2006-3587", 
+        "impact": "Playing Flash content may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "Flash Player"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Adobe Flash Player contains critical vulnerabilities that may lead to arbitrary code execution when handling maliciously-crafted content. This update addresses the issues by incorporating Flash Player version 9.0.16.0 on Mac OS X v10.3.9 and Flash Player version 9.0.20.0 on Mac OS X v10.4 systems. Further information is available via the Adobe web site at http://www.adobe.com/support/security/bulletins/apsb06-11.html ", 
+        "id": "CVE-2006-3588", 
+        "impact": "Playing Flash content may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "Flash Player"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "OpenSSL is updated to version 0.9.7l to address several critical vulnerabilities. The most severe of these vulnerabilities may lead to impersonation of services using SSL or TLS, or to arbitrary code execution. Further information is available via OpenSSL advisories at http://www.openssl.org/news/vulnerabilities.html ", 
+        "id": "CVE-2006-3738", 
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Jens Kutilek of Netzallee, Lurene Grenier - Senior Research Engineer at Sourcefire VRT, and Jose Avila III - Security Analyst at ONZRA", 
+        "description": "A memory management error in WebKit's handling of certain HTML could allow a malicious web site to cause a crash or potentially execute arbitrary code as the user viewing the site. This update addresses the issue by preventing the condition causing the overflow", 
+        "id": "CVE-2006-3946", 
+        "impact": "Viewing a maliciously-crafted web page may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "WebCore"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4 and later"
+        ], 
+        "credit": "Will Drewry and Tavis Ormandy of the Google Security Team", 
+        "description": "GDB, the GNU Debugger, is susceptible to multiple vulnerabilities that may lead to arbitrary code execution when loading maliciously-crafted DWARF binaries. This update addresses the issues by performing additional validation while handling DWARF binaries", 
+        "id": "CVE-2006-4146", 
+        "impact": "Opening a maliciously-crafted DWARF binary with GDB may lead to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011824/http://support.apple.com/kb/TA24462"
+        ], 
+        "module": "GDB"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "ClamAV is updated to version 0.88.5 to address several security issues. ClamAV was introduced in Mac OS X Server v10.4 for email scanning. The most severe of these issues could lead to arbitrary code execution with the privileges of ClamAV. Further information is available on the ClamAV project web site (www.clamav.net)", 
+        "id": "CVE-2006-4182", 
+        "impact": "Processing maliciously-crafted email messages with ClamAV may lead to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "ClamAV"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "Tavis Ormandy of the Google Security Team", 
+        "description": "By carefully crafting a malicious compressed file, an attacker may be able to trigger any of several vulnerabilities in gunzip when the file is processed. The most severe of these issues could lead to an application crash or arbitrary code execution. Many applications use the gunzip command for decompression, including command-line tools such as tar and services such as Mail Server. This update addresses the issue by performing additional validation of compressed files", 
+        "id": "CVE-2006-4334", 
+        "impact": "Uncompressing a file with gunzip may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "gnuzip"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "Tavis Ormandy of the Google Security Team", 
+        "description": "By carefully crafting a malicious compressed file, an attacker may be able to trigger any of several vulnerabilities in gunzip when the file is processed. The most severe of these issues could lead to an application crash or arbitrary code execution. Many applications use the gunzip command for decompression, including command-line tools such as tar and services such as Mail Server. This update addresses the issue by performing additional validation of compressed files", 
+        "id": "CVE-2006-4335", 
+        "impact": "Uncompressing a file with gunzip may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "gnuzip"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "Tavis Ormandy of the Google Security Team", 
+        "description": "By carefully crafting a malicious compressed file, an attacker may be able to trigger any of several vulnerabilities in gunzip when the file is processed. The most severe of these issues could lead to an application crash or arbitrary code execution. Many applications use the gunzip command for decompression, including command-line tools such as tar and services such as Mail Server. This update addresses the issue by performing additional validation of compressed files", 
+        "id": "CVE-2006-4336", 
+        "impact": "Uncompressing a file with gunzip may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "gnuzip"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "Tavis Ormandy of the Google Security Team", 
+        "description": "By carefully crafting a malicious compressed file, an attacker may be able to trigger any of several vulnerabilities in gunzip when the file is processed. The most severe of these issues could lead to an application crash or arbitrary code execution. Many applications use the gunzip command for decompression, including command-line tools such as tar and services such as Mail Server. This update addresses the issue by performing additional validation of compressed files", 
+        "id": "CVE-2006-4337", 
+        "impact": "Uncompressing a file with gunzip may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "gnuzip"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "Tavis Ormandy of the Google Security Team", 
+        "description": "By carefully crafting a malicious compressed file, an attacker may be able to trigger any of several vulnerabilities in gunzip when the file is processed. The most severe of these issues could lead to an application crash or arbitrary code execution. Many applications use the gunzip command for decompression, including command-line tools such as tar and services such as Mail Server. This update addresses the issue by performing additional validation of compressed files", 
+        "id": "CVE-2006-4338", 
+        "impact": "Uncompressing a file with gunzip may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "gnuzip"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "OpenSSL is updated to version 0.9.7l to address several critical vulnerabilities. The most severe of these vulnerabilities may lead to impersonation of services using SSL or TLS, or to arbitrary code execution. Further information is available via OpenSSL advisories at http://www.openssl.org/news/vulnerabilities.html ", 
+        "id": "CVE-2006-4339", 
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "OpenSSL is updated to version 0.9.7l to address several critical vulnerabilities. The most severe of these vulnerabilities may lead to impersonation of services using SSL or TLS, or to arbitrary code execution. Further information is available via OpenSSL advisories at http://www.openssl.org/news/vulnerabilities.html ", 
+        "id": "CVE-2006-4343", 
+        "impact": "Multiple vulnerabilities in OpenSSL", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Windows XP/2000"
+        ], 
+        "credit": "Sowhat of Nevis Labs, Mike Price of McAfee AVERT Labs, and Piotr Bania", 
+        "description": "By carefully crafting a corrupt H.264 movie, an attacker can trigger an integer overflow or buffer overflow which may lead to an application crash or arbitrary code execution with the privileges of the user. This update addresses the issue by performing additional validation of H.264 movies", 
+        "id": "CVE-2006-4381", 
+        "impact": "Viewing a maliciously-crafted H.264 movie may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011834/http://support.apple.com/kb/TA24355"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Windows XP/2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt QuickTime movie, an attacker can trigger a buffer overflow which may lead to an application crash or arbitrary code execution with the privileges of the user. This update addresses the issue by performing additional validation of QuickTime movies", 
+        "id": "CVE-2006-4382", 
+        "impact": "Viewing a maliciously-crafted QuickTime movie may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011834/http://support.apple.com/kb/TA24355"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Windows XP/2000"
+        ], 
+        "credit": "Ruben Santamarta of reversemode.com working with the iDefense VCP Program, and Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt FLC movie, an attacker can trigger a heap buffer overflow which may lead to an application crash or arbitrary code execution with the privileges of the user. This update addresses the issue by performing additional validation of FLC movies", 
+        "id": "CVE-2006-4384", 
+        "impact": "Viewing a maliciously-crafted FLC movie may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011834/http://support.apple.com/kb/TA24355"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Windows XP/2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt SGI image, an attacker can trigger a buffer overflow which may lead to an application crash or arbitrary code execution with the privileges of the user. This update addresses the issue by performing additional validation of SGI image files", 
+        "id": "CVE-2006-4385", 
+        "impact": "Viewing a maliciously-crafted SGI image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011834/http://support.apple.com/kb/TA24355"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Windows XP/2000"
+        ], 
+        "credit": "Sowhat of Nevis Labs, Mike Price of McAfee AVERT Labs, and Piotr Bania", 
+        "description": "By carefully crafting a corrupt H.264 movie, an attacker can trigger an integer overflow or buffer overflow which may lead to an application crash or arbitrary code execution with the privileges of the user. This update addresses the issue by performing additional validation of H.264 movies", 
+        "id": "CVE-2006-4386", 
+        "impact": "Viewing a maliciously-crafted H.264 movie may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011834/http://support.apple.com/kb/TA24355"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Phillip Tejada of Fruit Bat Software", 
+        "description": "Clearing the \"Allow user to administer this computer\" checkbox in System Preferences may fail to remove the account from the appserveradm or appserverusr groups. These groups allow an account to manage WebObjects applications. This update addresses the issue by ensuring the account is removed from the appropriate groups. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-4387", 
+        "impact": "After removing an account's Admin privileges, the account may still manage WebObjects applications", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "Preferences"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Windows XP/2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt FlashPix file, an attacker can trigger an integer overflow or buffer overflow which may lead to an application crash or arbitrary code execution with the privileges of the user. This update addresses the issue by performing additional validation of FlashPix files", 
+        "id": "CVE-2006-4388", 
+        "impact": "Viewing a maliciously-crafted FlashPix may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011834/http://support.apple.com/kb/TA24355"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Windows XP/2000"
+        ], 
+        "credit": "Mike Price of McAfee AVERT Labs", 
+        "description": "By carefully crafting a corrupt FlashPix file, an attacker can trigger an exception leaving an uninitialized object. This may lead to an application crash or arbitrary code execution with the privileges of the user. This update addresses the issue by performing additional validation of FlashPix files", 
+        "id": "CVE-2006-4389", 
+        "impact": "Viewing a maliciously-crafted FlashPix may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011834/http://support.apple.com/kb/TA24355"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Adam Bryzak of Queensland University of Technology", 
+        "description": "Connections created using SSL are normally authenticated and encrypted. When encryption is implemented without authentication, malicious sites may be able to pose as trusted sites. In the case of Safari this may lead to the lock icon being displayed when the identity of a remote site cannot be trusted. This update addresses the issue by disallowing anonymous SSL connections by default", 
+        "id": "CVE-2006-4390", 
+        "impact": "CFNetwork clients such as Safari may allow unauthenticated SSL sites to appear as authenticated", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "CFNetwork"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Tom Saxton of Idle Loop Software Design", 
+        "description": "By carefully crafting a corrupt JPEG2000 image, an attacker can trigger a buffer overflow which may lead to an application crash or arbitrary code execution. This update addresses the image by performing additional validation of JPEG2000 images. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-4391", 
+        "impact": "Viewing a maliciously-crafted JPEG2000 image may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Dino Dai Zovi of Matasano Security", 
+        "description": "An error handling mechanism in the kernel, known as Mach exception ports, provides the ability to control programs when certain types of errors are encountered. Malicious local users could use this mechanism to execute arbitrary code in privileged programs if an error is encountered. This update addresses the issue by restricting access to Mach exception ports for privileged programs", 
+        "id": "CVE-2006-4392", 
+        "impact": "Local users may be able to run arbitrary code with raised privileges", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Ragnar Sundblad of the Royal Institute of Technology, Stockholm, Sweden", 
+        "description": "An error in the handling of Fast User Switching may allow a local user to gain access to the Kerberos tickets of other local users. Fast User Switching has been updated to prevent this situation. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-4393", 
+        "impact": "Kerberos tickets may be accessible to other local users if Fast User Switching is enabled", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "LoginWindow"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Service access controls can be used to restrict which users are allowed to log in to a system via loginwindow. A logic error in loginwindow allows network accounts without GUIDs to bypass service access controls. This issue only affects systems that have been configured to use service access controls for loginwindow and to allow network accounts to authenticate users without a GUID. The issue has been resolved by properly handling service access controls in loginwindow. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-4394", 
+        "impact": "Network accounts may be able to bypass loginwindow service access controls", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "LoginWindow"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Certain applications invoke an unsupported QuickDraw operation to display PICT images. By carefully crafting a corrupt PICT image, an attacker can trigger memory corruption in these applications, which may lead to an application crash or arbitrary code execution. This update addresses the issue by preventing the unsupported operation", 
+        "id": "CVE-2006-4395", 
+        "impact": "Opening a malicious PICT image with certain applications may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "QuickDraw Manager"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "The Apple Type Services server insecurely creates error log files. As a result, a malicious local user may be able to overwrite or create files with system privileges. This update addresses the issue by creating error logs securely", 
+        "id": "CVE-2006-4396", 
+        "impact": "Local users may be able overwrite or create files with system privileges", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "ATS"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Patrick Gallagher of Digital Peaks Corporation", 
+        "description": "Due to an unchecked error condition, Kerberos tickets may not be properly destroyed after unsuccessfully attempting to log in to a network account via loginwindow. This could result in unauthorized access by other local users to a previous user's Kerberos tickets. This update addresses the issue by clearing the credentials cache after failed logins. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-4397", 
+        "impact": "After an unsuccessful attempt to log in to a network account, Kerberos tickets may be accessible to other local users", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "LoginWindow"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "Multiple buffer overflows were discovered in Apple Type Services server. By sending a maliciously-crafted service request, a local user may trigger these overflows. This may lead to a crash or arbitrary code execution with system privileges. This update addresses the issue by performing additional validation on service requests. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-4398", 
+        "impact": "Local users may be able to run arbitrary code with raised privileges", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "ATS"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "Chris Pepper of The Rockefeller University", 
+        "description": "Workgroup Manager appears to allow switching authentication type from crypt to ShadowHash passwords in a NetInfo parent, when in actuality it does not. Refreshing the view of an account in a NetInfo parent will properly indicate that crypt is still being used. This update addresses the issue by disallowing administrators from selecting ShadowHash passwords for accounts in a NetInfo parent", 
+        "id": "CVE-2006-4399", 
+        "impact": "Accounts in a NetInfo parent that appear to use ShadowHash passwords may still use crypt", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "Workgroup Manager"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "The Apple Type Services server contains a stack buffer overflow in font processing. By carefully crafting a corrupt font file, an attacker can trigger the buffer overflow which may lead to a crash or arbitrary code execution with system privileges. Font files are processed when opened or previewed in Finder. This update addresses the issue by performing additional validation of font files", 
+        "id": "CVE-2006-4400", 
+        "impact": "Viewing maliciously-crafted font files may lead to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "ATS"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "By enticing a user to access a maliciously-crafted FTP URI, an attacker can cause the user's FTP client to issue arbitrary FTP commands to any accessible FTP server, using the credentials of the victim. This issue may also facilitate attacks of other line oriented protocols, such as SMTP. This update addresses the issue by performing additional validation of URIs", 
+        "id": "CVE-2006-4401", 
+        "impact": "Visiting FTP URIs may inject arbitrary FTP commands", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "CFNetwork"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "A heap buffer overflow may be triggered when the Finder is used to browse a directory containing a corrupt \".DS_Store\" file. By enticing a user to browse a directory containing a maliciously-crafted \".DS_Store\" file, an attacker may be able to trigger the overflow. This could lead to an application crash or arbitrary code execution with the privileges of the user running Finder. \".DS_Store\" files may be included in archives, on disk images, and on network file systems. This update addresses the issue by performing additional validation of \".DS_Store\" files", 
+        "id": "CVE-2006-4402", 
+        "impact": "Browsing a shared directory may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "Finder"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9"
+        ], 
+        "credit": "Benjamin Williams of the University of Canterbury", 
+        "description": "When attempting to authenticate a valid user, the FTP server may crash during a failed login attempt. The crash does not occur when attempting to authenticate unknown users. This behavior can be used to determine if an account name is valid. This issue is addressed by resolving the crash condition. FTP Access is not enabled by default. Mac OS X Server v10.3.9, Mac OS X v10.4, Mac OS X Server v10.4, and later systems are not affected", 
+        "id": "CVE-2006-4403", 
+        "impact": "When FTP Access is enabled, unauthorized users may determine account name validity", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "ftpd"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "Admin users are normally required to authenticate before executing commands with system privileges. However, the Installer allows system privileges to be used by Admin users when installing certain packages without requiring authentication. This update addresses the issue by requiring authentication before installing software with system privileges", 
+        "id": "CVE-2006-4404", 
+        "impact": "When installing software as an Admin user, system privileges may be used without explicit authorization", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "Installer"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "the Mu Security research team", 
+        "description": "When PPPoE is enabled, an attacker on the local network may be able to trigger a buffer overflow. This could lead to a system crash or arbitrary code execution with system privileges. This update addresses the issue by performing better validation on PPPoE traffic. PPPoE is not enabled by default", 
+        "id": "CVE-2006-4406", 
+        "impact": "Using PPPoE on an untrusted local network may lead to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "PPP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Eric Cronin of gizmolabs", 
+        "description": "Secure Transport provides the ability to encrypt and authenticate data using several ciphers. When a connection is made, the best mutually-supported cipher should be used. Due to the order they are evaluated, it is possible for Secure Transport to use a cipher that provides no encryption or authentication when better ciphers are available. This update addresses the issue by giving priority to better ciphers. Applications using Secure Transport through CFNetwork, such as Safari, are not affected by this issue on systems with Security Update 2006-006 or later. This issue does not affect systems using Mac OS X v10.4.8 and later", 
+        "id": "CVE-2006-4407", 
+        "impact": "Secure Transport may not negotiate the best cipher available", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "Security Framework"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "Dr. Stephen N. Henson of Open Network Security", 
+        "description": "It is possible to create an X.509 certificate containing a public key that could consume a significant amount of system resources during signature verification. An attacker may cause a system to process such a certificate, leading to a denial of service. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-4408", 
+        "impact": "Processing X.509 certificates may lead to a denial of service", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "Security Framework"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "Timothy J. Miller of the MITRE Corporation for  reporting this issue", 
+        "description": "On systems that are configured to use an HTTP proxy, the Online Certificate Status Protocol (OCSP) service is unable to retrieve certificate revocation lists. This update addresses this issue by using the system proxy settings in ocpsd. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2006-4409", 
+        "impact": "When using an HTTP proxy, certificate revocation lists cannot be retrieved", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "Security Framework"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Jose Nazario of Arbor Networks", 
+        "description": "The revocation list from an issuing authority may not be consulted for certain leaf certificates. This update addresses the issue through improved handling of the certificate revocation list. This issue does not affect Mac OS X v10.4.7 and later systems", 
+        "id": "CVE-2006-4410", 
+        "impact": "Certain revoked certificates may be erroneously honored", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "Security Framework"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "Under certain circumstances, the VPN server may execute commands without properly cleaning the environment. This may allow a malicious local user to create files or execute commands with system privileges. This update addresses the issue by ignoring the user's environment when executing commands", 
+        "id": "CVE-2006-4411", 
+        "impact": "Malicious local users may gain system privileges", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "VPN"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "Tom Ferris of Security-Protocols", 
+        "description": "A maliciously-crafted HTML document could cause a previously deallocated object to be accessed. This may lead to an application crash or arbitrary code execution. This update addresses the issue by properly handling such documents", 
+        "id": "CVE-2006-4412", 
+        "impact": "Visiting a malicious web site may lead to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "WebKit"
+    }, 
+    {
+        "available": [
+            "Apple Remote Desktop 3.0"
+        ], 
+        "credit": "Andrew Mortensen of the University of Michigan", 
+        "description": "Apple Remote Desktop includes built-in packages used to install and upgrade client systems. The permissions on these packages could allow them to be altered by malicious local users on Apple Remote Desktop admin systems.  This could lead to the execution of arbitrary commands with root privileges on client systems when Apple Remote Desktop client software is installed or upgraded. This issue has been addressed by applying more restrictive permissions on the built-in installation packages", 
+        "id": "CVE-2006-4413", 
+        "impact": "Malicious local users may be able to modify packages used to install or upgrade client systems", 
+        "links": [
+            "https://web.archive.org/web/20130309011821/http://support.apple.com/kb/TA24492"
+        ], 
+        "module": "Apple Remote Desktop"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4 through Mac OS X v10.4.7, Mac OS X Server v10.4 through Mac OS X Server v10.4.7"
+        ], 
+        "credit": "", 
+        "description": "Adobe Flash Player contains critical vulnerabilities that may lead to arbitrary code execution when handling maliciously-crafted content. This update addresses the issues by incorporating Flash Player version 9.0.16.0 on Mac OS X v10.3.9 and Flash Player version 9.0.20.0 on Mac OS X v10.4 systems. Further information is available via the Adobe web site at http://www.adobe.com/support/security/bulletins/apsb06-11.html ", 
+        "id": "CVE-2006-4640", 
+        "impact": "Playing Flash content may lead to arbitrary code execution", 
+        "links": [
+            "http://support.apple.com/en-us/HT2696"
+        ], 
+        "module": "Flash Player"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "", 
+        "description": "Buffer overflows exist in the htmlentities() and htmlspecialchars() functions.  These buffer overflows may lead to arbitrary code execution in applications using the affected APIs.  This update addresses the issue by performing additional validation of input to the affected APIs", 
+        "id": "CVE-2006-5465", 
+        "impact": "PHP applications may be vulnerable to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "Geoff Beier", 
+        "description": "Java applets may use QuickTime for Java to obtain the images rendered on screen by embedded QuickTime objects and upload them to the originating web site. When this facility is used in conjunction with Quartz Composer, it becomes possible to capture images that may contain local information. This update addresses the issue by disallowing Quartz Composer compositions in unsigned Java applets. Quartz Composer compositions continue to function locally. Applications and signed Java applets that utilize QuickTime and QuickTime for Java are unaffected. This issue does not affect systems prior to Mac OS X v10.4. It also does not affect the Windows platform", 
+        "id": "CVE-2006-5681", 
+        "impact": "Visiting a malicious web site may lead to information disclosure", 
+        "links": [
+            "https://web.archive.org/web/20130309011817/http://support.apple.com/kb/TA24521"
+        ], 
+        "module": "QuickTime for Java, Quartz Composer"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.8, Mac OS X Server v10.4.8"
+        ], 
+        "credit": "H D Moore of Metasploit", 
+        "description": "A heap buffer overflow exists in the AirPort wireless driver's handling of probe response frames. An attacker in local proximity may be able to trigger the overflow by sending maliciously-crafted information elements in probe responses. This issue affects eMac, iBook, iMac, PowerBook G3, PowerBook G4, and Power Mac G4 systems equipped with an original AirPort card. This issue does not affect systems with the AirPort Extreme card. This update addresses the issue by performing additional validation of probe response frames", 
+        "id": "CVE-2006-5710", 
+        "impact": "Attackers on the wireless network may cause arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140825021552/http://support.apple.com/kb/TA24494"
+        ], 
+        "module": "AirPort"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 and later, Windows XP/2000"
+        ], 
+        "credit": "Ganesh Devaraja of TippingPoint DVLabs", 
+        "description": "By carefully crafting a corrupt QuickTime movie, an attacker can trigger a buffer overflow which may lead to an application crash or arbitrary code execution with the privileges of the user. This update addresses the issue by performing additional validation of QuickTime movies", 
+        "id": "CVE-2007-0754", 
+        "impact": "Viewing a maliciously-crafted QuickTime movie may lead to an application crash or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011834/http://support.apple.com/kb/TA24355"
+        ], 
+        "module": "QuickTime"
+    }
+]

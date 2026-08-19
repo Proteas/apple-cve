@@ -1,0 +1,849 @@
+[
+    {
+        "available": [
+            "", 
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "The Apache Group fixed a number of vulnerabilities between versions 1.3.29 and 1.3.33. The Apache Group security page for Apache 1.3 is located at http://www.apacheweek.com/features/security-13. The previously installed version of Apache was 1.3.29. The default installation of Apache does not enable mod_ssl. This update fixes all of applicable issues by updating Apache to version 1.3.33 and the companion mod_ssl to version 2.8.22.", 
+        "id": "CAN-2003-0020", 
+        "impact": "Multiple vulnerabilities in Apache and mod_ssl including local privilege escalation, remote denial of service and in some modified configurations execution of arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0049 \"AFP login permissions for the system administrator\". Provides an option whereby a system administrator may or may not be allowed to log in as a user, authenticating via their admin password. Previously, administrators could always log in as a user, authenticating via their own admin password.", 
+        "id": "CAN-2003-0049", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "AFP"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0050 QTSS Arbitrary command execution. The QuickTime Streaming Administration Server relies on the parse_xml.cgi application to authenticate and interface with the user. This CGI can pass unvalidated input which could allow a remote attacker to execute arbitrary code on the server and to gain root privileges", 
+        "id": "CAN-2003-0050", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "@stake, Inc.", 
+        "description": "Fixes CAN-2003-0051 QTSS Physical path revelation. The QuickTime Streaming Administration Server relies on the parse_xml.cgi application to authenticate and interface with the user. This CGI could be used to reveal the physical path upon which the Darwin/Quicktime Administration Servers are installed within", 
+        "id": "CAN-2003-0051", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Ollie Whitehouse from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0052 QTSS Directory listings. The QuickTime Streaming Administration Server relies on the parse_xml.cgi application to authenticate and interface with the user. This CGI could be used to reveal arbitrary directory listings due to the lack of user input validation within the application", 
+        "id": "CAN-2003-0052", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Ollie Whitehouse from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0053 QTSS Login credentials. The QuickTime Streaming Administration Server relies on the parse_xml.cgi application to authenticate and interface with the user. A vulnerability in the handling of error messages from this CGI could be used in a cross-site scripting attack to gain valid login credentials", 
+        "id": "CAN-2003-0053", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Ollie Whitehouse from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0054 Arbitrary command execution when viewing QTSS logs. If an unauthenticated user of QuickTime Streaming Server makes a request to the streaming port, the request is then written to the log file. It is possible to craft the request such that arbitrary code can be executed when the logs are viewed by the system administrator via a browser", 
+        "id": "CAN-2003-0054", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Ollie Whitehouse from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0055 Buffer overflow in MP3 Broadcasting application. There is a buffer overflow in the stand-alone MP3Broadcaster application. An MP3 file which has a filename of over 256 bytes will cause a buffer overflow to occur. This could be used by local/ftp users to obtain elevated privileges", 
+        "id": "CAN-2003-0055", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "QuickTime Streaming Server"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0078, in which it is theoretically possible for a third-party to extract the original plaintext of encrypted messages sent over a network. Security Update 2003-03-03 applies this fix for Mac OS X 10.2.4; customers of earlier Mac OS X versions may obtain the latest openssl version directly from the OpenSSL Web site: http://www.openssl.org/", 
+        "id": "CAN-2003-0078", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0085 and CAN-2003-0086 which could allow unauthorized remote access to the host system. The built-in Windows file sharing is based on the open source technology called Samba and is off by default in Mac OS X. This update only applies the security fixes to the currently-shipping 2.2.3 version of Samba on Mac OS X 10.2.4, and the Samba version is otherwise unchanged.", 
+        "id": "CAN-2003-0085", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Samba"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0085 and CAN-2003-0086 which could allow unauthorized remote access to the host system. The built-in Windows file sharing is based on the open source technology called Samba and is off by default in Mac OS X. This update only applies the security fixes to the currently-shipping 2.2.3 version of Samba on Mac OS X 10.2.4, and the Samba version is otherwise unchanged.", 
+        "id": "CAN-2003-0086", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Samba"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0088, where an attacker may change an environment variable to create arbitrary files or overwrite existing files, which could lead to obtaining elevated privileges", 
+        "id": "CAN-2003-0088", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Classic"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0107. While there were no functions in MacOS X that used the vulnerable gzprintf() function, the underlying issue in zlib has been fixed to protect any third-party applications that may potentially use this library.", 
+        "id": "CAN-2003-0107", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "zlib"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0131 Klima-Pokorny-Rosa attack on PKCS #1 v1.5 padding. The patch from the OpenSSL team, which addresses this vulnerability, is applied to Mac OS X and Mac OS X Server.", 
+        "id": "CAN-2003-0131", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0132, a denial of service vulnerability in Apache 2.0 versions through 2.0.44. Apache 2.0 is distributed only with Mac OS X Server, and is not enabled by default.", 
+        "id": "CAN-2003-0132", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Apache 2.0"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0147, to address an issue in which RSA private keys can be compromised when communicating over LANs, Internet2/Abilene, and interprocess communication on local machine.", 
+        "id": "CAN-2003-0147", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0161 where address parsing code in sendmail does not adequately check the length of email addresses. Only the patch from the sendmail team is applied to the currently-shipping version of sendmail in Mac OS X and Mac OS X Server.", 
+        "id": "CAN-2003-0161", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "sendmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0168, a potential vulnerability in QuickTime Player for Windows that could allow a remote attacker to compromise a target system. This exploit is only possible if the attacker can convince a user to load a specially crafted QuickTime URL. Upon successful exploitation, arbitrary code can be executed under the privileges of the QuickTime user.", 
+        "id": "CAN-2003-0168", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "QuickTime Player for Windows"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0171 DirectoryServices Privilege Escalation and DoS Attack. DirectoryServices is part of the Mac OS X and Mac OS X Server information services subsystem. It is launched at startup, setuid root and installed by default. It is possible for a local attacker to modify an environment variable that would allow the execution of arbitrary commands as root", 
+        "id": "CAN-2003-0171", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Directory Services"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0198 where the contents of the write-only DropBox folder can be revealed. When enabled, Personal File Sharing on Mac OS X or Apple File Service on Mac OS X Server, a \"DropBox\" folder is available by default to allow people to deposit files. This update no longer allows the permissions of the \"DropBox\" folder to be changed by a guest.", 
+        "id": "CAN-2003-0198", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "File Sharing/Service"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0201 which could allow an anonymous user to gain remote root access due to a buffer overflow. The built-in Windows file sharing is based on the open source technology called Samba and is off by default in Mac OS X.", 
+        "id": "CAN-2003-0201", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Samba"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0242, where incoming security policies that match by port would fail to match the correct traffic.", 
+        "id": "CAN-2003-0242", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "IPSec"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0245 by updating Apache 2.0.45 to 2.0.46 to address a security hole in the mod_dav module that could be exploited remotely causing an Apache Web server process to crash. Apache 1.3 is unaffected and is the primary web server on Mac OS X Server. Apache 2.0 is installed with Mac OS X Server, but off by default.", 
+        "id": "CAN-2003-0245", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Apache 2.0"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0355 in which Safari does not validate the Common Name field on X.509 certificates. Details are available from (http://www.securityfocus.com/archive/1/320707).", 
+        "id": "CAN-2003-0355", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0378. When logging in via Kerberos on an LDAPv3 server, the account password may be sent in cleartext format when Login Window falls back to trying a simple bind on the server.", 
+        "id": "CAN-2003-0378", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Directory Services"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0379. When Apple File Service (AFP Server) in Mac OS X Server is serving files on a UFS or re-shared NFS volume, there is a potential vulnerability that can allow a remote user to overwrite arbitrary files.", 
+        "id": "CAN-2003-0379", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "AFP"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0386 where \"from=\" and \"user@hosts\" restrictions are potentially spoofable via reverse DNS for numerically specified IP addresses. Mac OS X 10.3 also incorporates prior fixes released for OpenSSH, and the version of OpenSSH as obtained via the \"ssh -V\" command is: OpenSSH_3.6.1p1+CAN-2003-0693, SSH protocols 1.5/2.0, OpenSSL 0x0090702f", 
+        "id": "CAN-2003-0386", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSH"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0420 in which a logged-in user could potentially view the name and password of the account running the dsimportexport tool", 
+        "id": "CAN-2003-0420", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "dsimportexport"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0466 which is an off-by-one error in the fb_realpath() function that may allow attackers to execute arbitrary code.", 
+        "id": "CAN-2003-0466", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682", 
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "fb_realpath()"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Denis Ahrens", 
+        "description": "Fixes CAN-2003-0518, a potential vulnerability when a password is required upon waking from the Screen Effects feature, which could allow an unauthorized user access to the desktop of the logged in user", 
+        "id": "CAN-2003-0518", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Screen Effects Password"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0542, a buffer overflow in the mod_alias and mod_rewrite modules of the Apache webserver.", 
+        "id": "CAN-2003-0542", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache 1.3"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0543, CAN-2003-0544, CAN-2003-0545 to address potential issues in certain ASN.1 structures and in certificate verification code. To deliver the update in a rapid and reliable manner, only the patches for the CVE IDs listed above were applied, and not the entire latest OpenSSL library. Thus, the OpenSSL version in Mac OS X 10.2.8, as obtained via the \"openssl version\" command, is: OpenSSL 0.9.6i Feb 19 2003", 
+        "id": "CAN-2003-0543", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0543, CAN-2003-0544, CAN-2003-0545 to address potential issues in certain ASN.1 structures and in certificate verification code. To deliver the update in a rapid and reliable manner, only the patches for the CVE IDs listed above were applied, and not the entire latest OpenSSL library. Thus, the OpenSSL version in Mac OS X 10.2.8, as obtained via the \"openssl version\" command, is: OpenSSL 0.9.6i Feb 19 2003", 
+        "id": "CAN-2003-0544", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0543, CAN-2003-0544, CAN-2003-0545 to address potential issues in certain ASN.1 structures and in certificate verification code. To deliver the update in a rapid and reliable manner, only the patches for the CVE IDs listed above were applied, and not the entire latest OpenSSL library. Thus, the OpenSSL version in Mac OS X 10.2.8, as obtained via the \"openssl version\" command, is: OpenSSL 0.9.6i Feb 19 2003", 
+        "id": "CAN-2003-0545", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0601 to improve the security of your system by assigning a \"disabled\" password to a new account created by Workgroup Manager until that account has been saved for the first time. This ensures the new account cannot be accessed by an unauthorized individual.", 
+        "id": "CAN-2003-0601", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Workgroup Manager"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0694 and CAN-2003-0681 to fix a buffer overflow in address parsing, as well as a potential buffer overflow in ruleset parsing.", 
+        "id": "CAN-2003-0681", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "sendmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0693, CAN-2003-0695, and CAN-2003-0682 to fix buffer management errors in OpenSSH's sshd versions prior to 3.7.1. To deliver the update in a rapid and reliable manner, only the patches for CVE IDs listed above were applied, and not the entire set of patches for OpenSSH 3.7.1. Thus, the OpenSSH version in Mac OS X 10.2.8, as obtained via the \"ssh -V\" command, is: OpenSSH_3.4p1+CAN-2003-0693, SSH protocols 1.5/2.0, OpenSSL 0x0090609f", 
+        "id": "CAN-2003-0682", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSH"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0386 where \"from=\" and \"user@hosts\" restrictions are potentially spoofable via reverse DNS for numerically specified IP addresses. Mac OS X 10.3 also incorporates prior fixes released for OpenSSH, and the version of OpenSSH as obtained via the \"ssh -V\" command is: OpenSSH_3.6.1p1+CAN-2003-0693, SSH protocols 1.5/2.0, OpenSSL 0x0090702f", 
+        "id": "CAN-2003-0693", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSH"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0694 and CAN-2003-0681 to fix a buffer overflow in address parsing, as well as a potential buffer overflow in ruleset parsing.", 
+        "id": "CAN-2003-0694", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "sendmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0693, CAN-2003-0695, and CAN-2003-0682 to fix buffer management errors in OpenSSH's sshd versions prior to 3.7.1. To deliver the update in a rapid and reliable manner, only the patches for CVE IDs listed above were applied, and not the entire set of patches for OpenSSH 3.7.1. Thus, the OpenSSH version in Mac OS X 10.2.8, as obtained via the \"ssh -V\" command, is: OpenSSH_3.4p1+CAN-2003-0693, SSH protocols 1.5/2.0, OpenSSL 0x0090609f", 
+        "id": "CAN-2003-0695", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "OpenSSH"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0542 and CAN-2003-0789 by updating Apache 2.0.47 to 2.0.48. For details on the update see: http://www.apache.org/dist/httpd/Announcement2.html", 
+        "id": "CAN-2003-0789", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0792. Updates are provided to fetch mail that improve its stability under certain conditions.", 
+        "id": "CAN-2003-0792", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Fetchmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0804. The arplookup() function caches ARP requests for routes on a local link. On a local subnet only, it is possible for an attacker to send a sufficient number of spoofed ARP requests which will exhaust kernel memory, leading to a denial of service.", 
+        "id": "CAN-2003-0804", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "arplookup()"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-1005 which could cause a potential denial of service when receiving malformed ASN.1 sequences. This is related but separate from CAN-2003-0851.", 
+        "id": "CAN-2003-0851", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "ASN.1 Decoding for PKI"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0871 a potential vulnerability that could allow unauthorized access to a system.", 
+        "id": "CAN-2003-0871", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "QuickTime for Java"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0876 where folder permissions may not be preserved when copying a folder from a mounted volume such as a diskimage", 
+        "id": "CAN-2003-0876", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Finder"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G.from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0877 where if a system is running with core files enabled, a user with interactive shell access can overwrite arbitrary files, and read core files created by root-owned processes. This may result in sensitive information such as authentication credentials being compromised. Core file creation is disabled by default on Mac OS X", 
+        "id": "CAN-2003-0877", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0878 when Personal File Sharing is enabled, the slpd daemon can no longer create a root-owned file in the /tmp directory to gain elevated privileges.", 
+        "id": "CAN-2003-0878", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Personal File Sharing"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0880 when Full Keyboard Access is turned on via the Keyboard pane in System Preferences, Dock functions can be accessed blindly from behind Screen Effects.", 
+        "id": "CAN-2003-0880", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Dock"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0881 the Mac OS X Mail application will no longer fall back to plain text login when an account is configured to use MD5 Challenge Response.", 
+        "id": "CAN-2003-0881", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Aaron Linville", 
+        "description": "Fixes CAN-2003-0882 where the TCP timestamp is initialized with a constant number. This could allow a person to discover how long the system has been up based upon the ID in TCP packets. In Mac OS X 10.3, the TCP timestamp is now initialized with a random number", 
+        "id": "CAN-2003-0882", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "TCP timestamp"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Anthony Holder", 
+        "description": "Fixes CAN-2003-0883 where after authenticating with an administrator password, the system will continue to allow access to secure Preference Panes for a short period of time. This could allow a local user to access Preference Panes that they would not normally be able to use. In Mac OS X 10.3 Security preferences, there is now a choice to \"Require password to unlock each secure system preference.\"", 
+        "id": "CAN-2003-0883", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "System Preferences"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. from @stake, Inc.", 
+        "description": "Fixes CAN-2003-0895 where it may be possible for a local user to cause the Mac OS X kernel to crash by specifying a long command line argument. The machine will reboot on its own after several minutes", 
+        "id": "CAN-2003-0895", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0913 a potential vulnerability with the Terminal application in Mac OS X 10.3 and Mac OS X Server 10.3 that could allow unauthorized access to a system. Mac OS X versions earlier than 10.3 are not affected.", 
+        "id": "CAN-2003-0913", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Terminal"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0962 by improving the security of the rsyncserver.", 
+        "id": "CAN-2003-0962", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "rsync"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0975 to ensure that Safari will provide access to a user's cookie information only to authorized websites. The update is available for both Mac OS X 10.3.1 and Mac OS X 10.2.8.", 
+        "id": "CAN-2003-0975", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.6, Mac OS X Server v10.3.6, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "The Apache Group fixed a number of vulnerabilities between versions 1.3.29 and 1.3.33. The Apache Group security page for Apache 1.3 is located at http://www.apacheweek.com/features/security-13. The previously installed version of Apache was 1.3.29. The default installation of Apache does not enable mod_ssl. This update fixes all of applicable issues by updating Apache to version 1.3.33 and the companion mod_ssl to version 2.8.22.", 
+        "id": "CAN-2003-0987", 
+        "impact": "Multiple vulnerabilities in Apache and mod_ssl including local privilege escalation, remote denial of service and in some modified configurations execution of arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-0989, CAN-2004-0055, and CAN-2004-0057 by updating tcpdump to version 3.8.1 and libpcap to version 0.8.1", 
+        "id": "CAN-2003-0989", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "tcpdump"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2003-1005: ASN.1 Decoding for PKI", 
+        "id": "CAN-2003-1005", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "ASN.1 Decoding for PKI"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "KF of Secure Network Operations", 
+        "description": "Fixes CAN-2003-1006, a buffer overflow vulnerability in the filesystem utility cd9660.util", 
+        "id": "CAN-2003-1006", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "cd9660.util"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-1007 to improve the handling of malformed requests.", 
+        "id": "CAN-2003-1007", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "AppleFileServer"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2003-1008: Screen Saver text clippings", 
+        "id": "CAN-2003-1008", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Screen Saver"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "William A. Carrel", 
+        "description": "Fixes CAN-2003-1009. The default settings are changed to prevent an inadvertent connection in the event of a malicious DHCP server on the computer's local subnet. Further information is provided in Apple's Knowledge Base article: http://docs.info.apple.com/article.html?artnum=32478", 
+        "id": "CAN-2003-1009", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "Directory Services"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "Dave G. of @stake", 
+        "description": "Fixes CAN-2003-1010. The fs_usage tool has been improved to prevent a local privilege escalation vulnerability. This tool is used to collect system performance information and requires admin privileges to run", 
+        "id": "CAN-2003-1010", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "fs_usage"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2003-1011. The system initialization process has been improved to restrict root access on a system that uses a USB keyboard.", 
+        "id": "CAN-2003-1011", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "System initialization"
+    }
+]

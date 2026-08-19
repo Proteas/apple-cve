@@ -1,0 +1,2308 @@
+[
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Cyrus SASL is updated to address several security holes caused by improper data validation, memory allocation, and data handling", 
+        "id": "CAN-2002-1347", 
+        "impact": "Multiple vulnerabilities in Cyrus SASL, including remote denial of service and possible remote code execution in applications that use this library", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Cyrus SASL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2003-0860", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2003-0863", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "OpenSSL is updated to version 0.9.7g to address several issues.  The OpenSSL advisory for these issues is located at http://www.openssl.org/news/secadv_20040317.txt", 
+        "id": "CAN-2004-0079", 
+        "impact": "Multiple denial of service vulnerabilities in OpenSSL", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "OpenSSL is updated to version 0.9.7g to address several issues.  The OpenSSL advisory for these issues is located at http://www.openssl.org/news/secadv_20040317.txt", 
+        "id": "CAN-2004-0112", 
+        "impact": "Multiple denial of service vulnerabilities in OpenSSL", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2004-0594", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2004-0595", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Chris Evans <chris@scary.beasts.org>", 
+        "description": "The xpmParseColors() function in the XFree86 libXpm library contains a vulnerability in the parsing of malformed image files that may lead to a stack overflow, and could allow arbitrary code execution. Images downloaded via a web browser may use the XPM format and allow remote exploitability. libXpm is not installed by default on Mac OS X or Mac OS X Server systems. It is an optional install item via the X11 package", 
+        "id": "CAN-2004-0687", 
+        "impact": "A vulnerability in the parsing of malformed XPM files could allow arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "libXpm"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Chris Evans <chris@scary.beasts.org>", 
+        "description": "Multiple libXpm routines contain integer overflow vulnerabilities that may allow an attacker to cause a denial-of-service condition or execute arbitrary code. Images downloaded via a web browser may use the XPM format and allow remote exploitability. libXpm is not installed by default on Mac OS X or Mac OS X Server systems. It is an optional install item via the X11 package", 
+        "id": "CAN-2004-0688", 
+        "impact": "A vulnerability in the parsing of malformed XPM files could allow arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "libXpm"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Several security vulnerabilities were addressed in\nrecent Samba releases.  Security Update 2005-003 installs Samba\nversion 3.0.10 to provide these fixes.  Further information is\navailable from the Samba security site located at\nhttp://www.samba.org/samba/history/security.html", 
+        "id": "CAN-2004-0882", 
+        "impact": "Multiple vulnerabilities in Samba including remote denial of\nservice and possible remote execution of arbitrary commands", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Samba"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Cyrus SASL is updated to address several security holes caused by improper data validation, memory allocation, and data handling", 
+        "id": "CAN-2004-0884", 
+        "impact": "Multiple vulnerabilities in Cyrus SASL, including remote denial of service and possible remote code execution in applications that use this library", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Cyrus SASL"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "The Apache Group fixed two vulnerabilities between versions 2.0.52 and 2.0.53 (the Apache Group security page for Apache 2 is located at http://httpd.apache.org/security/vulnerabilities_20.html). Apache 2 is updated to version 2.0.53 (the previous version was 2.0.52). Apache 2 ships only with Mac OS X Server, and is off by default", 
+        "id": "CAN-2004-0885", 
+        "impact": "Multiple security issues in Apache 2", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Several security vulnerabilities were addressed in\nrecent Samba releases.  Security Update 2005-003 installs Samba\nversion 3.0.10 to provide these fixes.  Further information is\navailable from the Samba security site located at\nhttp://www.samba.org/samba/history/security.html", 
+        "id": "CAN-2004-0930", 
+        "impact": "Multiple vulnerabilities in Samba including remote denial of\nservice and possible remote execution of arbitrary commands", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Samba"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "The Apache Group fixed two vulnerabilities between versions 2.0.52 and 2.0.53 (the Apache Group security page for Apache 2 is located at http://httpd.apache.org/security/vulnerabilities_20.html). Apache 2 is updated to version 2.0.53 (the previous version was 2.0.52). Apache 2 ships only with Mac OS X Server, and is off by default", 
+        "id": "CAN-2004-0942", 
+        "impact": "Multiple security issues in Apache 2", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7"
+        ], 
+        "credit": "", 
+        "description": "This update fixes several functions in the libxml2 library that have been identified as unsafe due to potentially exploitable buffer overflows. Mail", 
+        "id": "CAN-2004-0989", 
+        "impact": "The libxml2 library contains unsafe code that may be exploited in applications linked against it", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "libxml2"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Cyrus IMAP is updated to version 2.2.12, which includes fixes for buffer overflows in fetchnews, backend, proxyd, and imapd. Further information is available from http://asg.web.cmu.edu/cyrus/download/imapd/changes.html", 
+        "id": "CAN-2004-1011", 
+        "impact": "Multiple vulnerabilities in Cyrus IMAP, including remotely exploitable denial of service and buffer overflows", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Cyrus IMAP"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Cyrus IMAP is updated to version 2.2.12, which includes fixes for buffer overflows in fetchnews, backend, proxyd, and imapd. Further information is available from http://asg.web.cmu.edu/cyrus/download/imapd/changes.html", 
+        "id": "CAN-2004-1012", 
+        "impact": "Multiple vulnerabilities in Cyrus IMAP, including remotely exploitable denial of service and buffer overflows", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Cyrus IMAP"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Cyrus IMAP is updated to version 2.2.12, which includes fixes for buffer overflows in fetchnews, backend, proxyd, and imapd. Further information is available from http://asg.web.cmu.edu/cyrus/download/imapd/changes.html", 
+        "id": "CAN-2004-1013", 
+        "impact": "Multiple vulnerabilities in Cyrus IMAP, including remotely exploitable denial of service and buffer overflows", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Cyrus IMAP"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Cyrus IMAP is updated to version 2.2.12, which includes fixes for buffer overflows in fetchnews, backend, proxyd, and imapd. Further information is available from http://asg.web.cmu.edu/cyrus/download/imapd/changes.html", 
+        "id": "CAN-2004-1015", 
+        "impact": "Multiple vulnerabilities in Cyrus IMAP, including remotely exploitable denial of service and buffer overflows", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Cyrus IMAP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2004-1018", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2004-1019", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2004-1020", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Java 1.4.2"
+        ], 
+        "credit": "Sun for reporting the issue, and to Dino Dai Zovi for assisting us in the analysis.", 
+        "description": "A vulnerability in the Java Plug-in may allow an untrusted applet to escalate privileges, through JavaScript calling into Java code, including reading and writing files with the privileges of the user running the applet", 
+        "id": "CAN-2004-1029", 
+        "impact": "Updates Java to address an issue where an untrusted applet could gain elevated privileges and potentially execute arbitrary code.", 
+        "links": [
+            "https://web.archive.org/web/20130309012050/http://support.apple.com/kb/TA22931"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server 10.3.7", 
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "SquirrelMail 1.4.4 addresses several security issues\nincluding various cross-site scripting exposures and the possibility\nof using webmail.php to include web pages from remote servers.\nCAN-2005-0075 is an issue fixed in SquirrelMail 1.4.4, but which does\nnot affect the default configuration of Mac OS X Server since\nregister_globals is not enabled.  Further information is available\nfrom the SquirrelMail security site located at\nhttp://www.squirrelmail.org/changelog.php", 
+        "id": "CAN-2004-1036", 
+        "impact": "Multiple vulnerabilities in Squirrelmail including\ncross-site scripting and html injection", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859", 
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "SquirrelMail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "Sudo versions prior to 1.6.8p2 do not properly sanitize their environment. A malicious local user with permission to run a bash shell script could exploit this to run arbitrary commands. Apple does not provide any pre-authorized bash shell scripts by default. This issue is addressed by removing bash shell functions from the environment before running subsequent commands", 
+        "id": "CAN-2004-1051", 
+        "impact": "Bash scripts run via sudo can be subverted", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "sudo"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2004-1063", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2004-1064", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.10 to address several issues.  The PHP release announcement for version 4.3.10 is located at http://www.php.net/release_4_3_10.php. Safari", 
+        "id": "CAN-2004-1065", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Cyrus IMAP is updated to version 2.2.12, which includes fixes for buffer overflows in fetchnews, backend, proxyd, and imapd. Further information is available from http://asg.web.cmu.edu/cyrus/download/imapd/changes.html", 
+        "id": "CAN-2004-1067", 
+        "impact": "Multiple vulnerabilities in Cyrus IMAP, including remotely exploitable denial of service and buffer overflows", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Cyrus IMAP"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "Apache 2 ships only with Mac OS X Server, and is off by default. It is important that administrators who enable this server manually are aware of the files that should be blocked to avoid security exposures. A default Apache 2 configuration blocks access to files starting with \".ht\" in a case-sensitive way. The Apple HFS+ filesystem isn't case-sensitive when performing file access, and maps resource forks of files to path names. The Finder may also create .DS_Store files containing the names of files in locations used to serve webpages. This update modifies the sample Apache 2 configuration to show how to restrict access to these files and resource forks. This issue was fixed for Apache 1.3 in Security Update 2004-12-02.  Additional information is available here ", 
+        "id": "CAN-2004-1083", 
+        "impact": "Apache 2 example configurations do not fully block access to resource forks, \".ht\" files, or \".DS_Store\" files", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "Apache 2 ships only with Mac OS X Server, and is off by default. It is important that administrators who enable this server manually are aware of the files that should be blocked to avoid security exposures. A default Apache 2 configuration blocks access to files starting with \".ht\" in a case-sensitive way. The Apple HFS+ filesystem isn't case-sensitive when performing file access, and maps resource forks of files to path names. The Finder may also create .DS_Store files containing the names of files in locations used to serve webpages. This update modifies the sample Apache 2 configuration to show how to restrict access to these files and resource forks. This issue was fixed for Apache 1.3 in Security Update 2004-12-02.  Additional information is available here ", 
+        "id": "CAN-2004-1084", 
+        "impact": "Apache 2 example configurations do not fully block access to resource forks, \".ht\" files, or \".DS_Store\" files", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Several security vulnerabilities were addressed in\nrecent Samba releases.  Security Update 2005-003 installs Samba\nversion 3.0.10 to provide these fixes.  Further information is\navailable from the Samba security site located at\nhttp://www.samba.org/samba/history/security.html", 
+        "id": "CAN-2004-1154", 
+        "impact": "Multiple vulnerabilities in Samba including remote denial of\nservice and possible remote execution of arbitrary commands", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Samba"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "the MIT Kerberos team", 
+        "description": "A heap buffer overflow in password history handling code could be exploited to execute arbitrary code on a Key Distribution Center (KDC).  This issue does not affect Mac OS X 10.4", 
+        "id": "CAN-2004-1189", 
+        "impact": "An authenticated user could execute arbitrary code on the KDC host, compromising a Kerberos realm", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "A malformed TIFF image could contain parameters that result in image data overwriting the heap. This issue has been addressed by adding additional tests when calculating the space needed for an image", 
+        "id": "CAN-2004-1307", 
+        "impact": "An integer overflow in the handling of TIFF files could permit arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "AppKit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "A malformed TIFF image could contain parameters that result in image data overwriting the heap. This issue has been addressed by adding additional tests when calculating the space needed for an image", 
+        "id": "CAN-2004-1308", 
+        "impact": "An integer overflow in the handling of TIFF files could permit arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "AppKit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "Secunia Research", 
+        "description": "If the \"Block Pop-Up Windows\" feature is enabled, then this issue does not occur.  If the \"Block Pop-Up Windows\" feature is not enabled, a user can be mislead about the content of a Pop-up window if they used an untrusted link to navigate to a site they wanted to view.  This update corrects the issue regardless of the \"Block Pop-Up Windows\" setting", 
+        "id": "CAN-2004-1314", 
+        "impact": "When Safari's \"Block Pop-Up Windows\" feature is not enabled, a malicious pop-up window could appear as being from a trusted site", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "SquirrelMail 1.4.4 addresses several security issues\nincluding various cross-site scripting exposures and the possibility\nof using webmail.php to include web pages from remote servers.\nCAN-2005-0075 is an issue fixed in SquirrelMail 1.4.4, but which does\nnot affect the default configuration of Mac OS X Server since\nregister_globals is not enabled.  Further information is available\nfrom the SquirrelMail security site located at\nhttp://www.squirrelmail.org/changelog.php", 
+        "id": "CAN-2005-0075", 
+        "impact": "Multiple vulnerabilities in Squirrelmail including\ncross-site scripting and html injection", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "SquirrelMail"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "SquirrelMail 1.4.4 addresses several security issues\nincluding various cross-site scripting exposures and the possibility\nof using webmail.php to include web pages from remote servers.\nCAN-2005-0075 is an issue fixed in SquirrelMail 1.4.4, but which does\nnot affect the default configuration of Mac OS X Server since\nregister_globals is not enabled.  Further information is available\nfrom the SquirrelMail security site located at\nhttp://www.squirrelmail.org/changelog.php", 
+        "id": "CAN-2005-0103", 
+        "impact": "Multiple vulnerabilities in Squirrelmail including\ncross-site scripting and html injection", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "SquirrelMail"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "SquirrelMail 1.4.4 addresses several security issues\nincluding various cross-site scripting exposures and the possibility\nof using webmail.php to include web pages from remote servers.\nCAN-2005-0075 is an issue fixed in SquirrelMail 1.4.4, but which does\nnot affect the default configuration of Mac OS X Server since\nregister_globals is not enabled.  Further information is available\nfrom the SquirrelMail security site located at\nhttp://www.squirrelmail.org/changelog.php", 
+        "id": "CAN-2005-0104", 
+        "impact": "Multiple vulnerabilities in Squirrelmail including\ncross-site scripting and html injection", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "SquirrelMail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7"
+        ], 
+        "credit": "kf_lists[at]digitalmunition[dot]com", 
+        "description": "The \"at\" family of commands did not properly drop privileges.  This could allow a local user to remove files not owned by them, run programs with added privileges, or read the contents of normally unreadable files.  This update patches the commands at, atrm, batch, atq, and atrun", 
+        "id": "CAN-2005-0125", 
+        "impact": "Updates the \"at\" commands to address a local privilege escalation vulnerability", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "at commands"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7, Mac OS X Server v10.3.7, Mac OS X v10.2.8, Mac OS X Server v10.2.8"
+        ], 
+        "credit": "", 
+        "description": "An out-of-specification or improperly embedded ICC color profile could overwrite the program heap and allow arbitrary code execution.  There are no known exploits for this issue.  With this update, ColorSync will reject incorrectly-formed ICC color profiles. libxml2", 
+        "id": "CAN-2005-0126", 
+        "impact": "Malformed ICC color profiles could overwrite the program heap, resulting in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "ColorSync"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.7 Client, Mac OS X Server v10.3.7"
+        ], 
+        "credit": "Carl Purvis", 
+        "description": "A GUUID containing an identifier associated with the Ethernet networking hardware was used in the construction of an RFC-822 required Message-ID header.  Mail now hides this information by computing the Message-ID using a cryptographic hash of the GUUID concatenated with data from /dev/random", 
+        "id": "CAN-2005-0127", 
+        "impact": "Email messages sent from a single machine can be identified", 
+        "links": [
+            "https://web.archive.org/web/20130309012056/http://support.apple.com/kb/TA22859"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            "iSync 1.5 on Mac OS X v10.2.8 and Mac OS X v10.3.x"
+        ], 
+        "credit": "Braden Thomas", 
+        "description": "The iSync helper tool mRouter contains a buffer overflow vulnerability. This could result in the execution of arbitrary commands as root by local system users.  Security Update 2005-004 fixes this issue by providing a patched version of mRouter", 
+        "id": "CAN-2005-0193", 
+        "impact": "A buffer overflow in iSync could lead to local privilege escalation", 
+        "links": [
+            "https://web.archive.org/web/20140817025256/http://support.apple.com/kb/TA23083"
+        ], 
+        "module": "iSync"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.8"
+        ], 
+        "credit": "", 
+        "description": "Mailman is a software package that provides mailing list management. This update addresses an exposure in Mailman's private archive handling that allowed remote access to arbitrary files on the system. Further information is available from http://www.gnu.org/software/mailman/security.html", 
+        "id": "CAN-2005-0202", 
+        "impact": "Directory traversal issue in Mailman that could allow access to arbitrary files", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Mailman"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "Eric Johanson (ericj@shmoo.com)", 
+        "description": "Support for Unicode characters within domain names (International Domain Name support) can allow maliciously registered domain names to visually appear as legitimate sites. Safari has been modified so that it consults a user-customizable list of scripts that are allowed to be displayed natively. Characters based on scripts that are not in the allowed list are displayed in their Punycode equivalent. The default list of allowed scripts does not include Roman look-alike scripts", 
+        "id": "CAN-2005-0234", 
+        "impact": "Maliciously registered International Domain Names (IDN) can make URLs visually appear as legitimate sites", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "Braden Thomas", 
+        "description": "A specially crafted packet will terminate the operation of the AFP Server due to an incorrect memory reference", 
+        "id": "CAN-2005-0340", 
+        "impact": "A specially crafted packet can cause a Denial of Service against the AFP Server", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "Finder uses .DS_Store files to store and retrieve information used to display folders on the system. When writing these files, Finder could follow a link resulting in the overwrite of an arbitrary file. In addition, these files could contain data supplied by malicious users, allowing them to gain privileges by altering system configuration files. Security Update 2005-005 addresses this issue by updating Finder to check that .DS_Store files are not links before writing to them", 
+        "id": "CAN-2005-0342", 
+        "impact": "Unsafe handling of .DS_Store files could be used by local attackers to overwrite files and lead to privilege escalation", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "Finder"
+    }, 
+    {
+        "available": [
+            "Java 1.4.2"
+        ], 
+        "credit": "", 
+        "description": "A vulnerability in Java Web Start allows an untrusted application to elevate its privileges. For example an application may grant itself permissions to read and write local files or execute local applications that are accessible to the user running the Java Web Start application. Releases prior to Java 1.4.2 are not affected by this vulnerability.", 
+        "id": "CAN-2005-0418", 
+        "impact": "Updates Java to address an issue in Java Web Start that allows an untrusted application to elevate its privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309012050/http://support.apple.com/kb/TA22931"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "iDEFENSE", 
+        "description": "This update addresses two buffer overflows in the telnet client that could lead to local code execution by a malicious telnet server", 
+        "id": "CAN-2005-0468", 
+        "impact": "Malicious telnet servers may cause local code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Telnet"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "iDEFENSE", 
+        "description": "This update addresses two buffer overflows in the telnet client that could lead to local code execution by a malicious telnet server", 
+        "id": "CAN-2005-0469", 
+        "impact": "Malicious telnet servers may cause local code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Telnet"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1, Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.11 to address several issues. The PHP release announcement for version 4.3.11 is located at http://www.php.net/release_4_3_11.php", 
+        "id": "CAN-2005-0524", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1, Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.11 to address several issues. The PHP release announcement for version 4.3.11 is located at http://www.php.net/release_4_3_11.php", 
+        "id": "CAN-2005-0525", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9"
+        ], 
+        "credit": "iDEFENSE Labs", 
+        "description": "NeST is a SUID tool. It contains a buffer overflow that could permit arbitrary code execution. This update prevents the buffer overflow from occurring", 
+        "id": "CAN-2005-0594", 
+        "impact": "The Netinfo Setup Tool (NeST) contains a buffer overflow that could permit arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "NetInfo"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "An error in LibXPM may allow attackers to execute arbitrary code via a negative bitmap_unit value that leads to a buffer overflow.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-0605", 
+        "impact": "A buffer overflow could result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "X11"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "MySQL is updated to version 4.0.24 to address several issues.  This does not affect systems running Mac OS X v10.4 as Tiger shipped with MySQL version 4.1.10a, which is patched against this issue. The MySQL announcement for version 4.0.24 is located at http://dev.mysql.com/doc/mysql/en/news-4-0-24.html", 
+        "id": "CAN-2005-0709", 
+        "impact": "Multiple vulnerabilities in MySQL, including arbitrary code execution by remote authenticated users", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "MySQL"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "MySQL is updated to version 4.0.24 to address several issues.  This does not affect systems running Mac OS X v10.4 as Tiger shipped with MySQL version 4.1.10a, which is patched against this issue. The MySQL announcement for version 4.0.24 is located at http://dev.mysql.com/doc/mysql/en/news-4-0-24.html", 
+        "id": "CAN-2005-0710", 
+        "impact": "Multiple vulnerabilities in MySQL, including arbitrary code execution by remote authenticated users", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "MySQL"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "MySQL is updated to version 4.0.24 to address several issues.  This does not affect systems running Mac OS X v10.4 as Tiger shipped with MySQL version 4.1.10a, which is patched against this issue. The MySQL announcement for version 4.0.24 is located at http://dev.mysql.com/doc/mysql/en/news-4-0-24.html", 
+        "id": "CAN-2005-0711", 
+        "impact": "Multiple vulnerabilities in MySQL, including arbitrary code execution by remote authenticated users", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "MySQL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "Eric Hall of DarkArt Consulting Services, Michael Haller (info@cilly.com), and (root at addcom.de)", 
+        "description": "Secure folder permissions are applied to protect the installer's receipt cache and system-level ColorSync profiles", 
+        "id": "CAN-2005-0712", 
+        "impact": "World-writable permissions on several directories, allowing potential file race conditions or local privilege escalation", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Folder permissions"
+    }, 
+    {
+        "available": [
+            "Mac OS X 10.3.8, Mac OS X Server 10.3.8"
+        ], 
+        "credit": "", 
+        "description": "The Bluetooth Setup Assistant may be launched on systems without a keyboard or a preconfigured Bluetooth input device. In these cases, access to certain privileged functions has been disabled within the Bluetooth Setup Assistant", 
+        "id": "CAN-2005-0713", 
+        "impact": "Local security bypass when using a Bluetooth input device", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Bluetooth Setup Assistant"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "John M. Glenn of San Francisco", 
+        "description": "Fixes the checking of file permissions for access to Drop Boxes", 
+        "id": "CAN-2005-0715", 
+        "impact": "The contents of a Drop Box can be discovered", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.8, Mac OS X Server v10.3.8"
+        ], 
+        "credit": "iDEFENSE and Adriano Lima of SeedSecurity.com", 
+        "description": "The incorrect handling of an environment variable within Core Foundation can result in a buffer overflow that may be used to execute arbitrary code. This issue has been addressed by correctly handling the environment variable", 
+        "id": "CAN-2005-0716", 
+        "impact": "Buffer overflow via an environment variable", 
+        "links": [
+            "https://web.archive.org/web/20140817023653/http://support.apple.com/kb/TA22971"
+        ], 
+        "module": "Core Foundation"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Dino Dai Zovi", 
+        "description": "The kernel contains syscall emulation functionality that is not used in Mac OS X.  Insufficient validation of an input parameter list could result in a heap overflow and a local denial of service through a kernel panic.  The issue is addressed by removing the syscall emulation functionality", 
+        "id": "CAN-2005-0969", 
+        "impact": "A kernel input validation issue can lead to a local denial of service", 
+        "links": [
+            "https://web.archive.org/web/20140817024023/http://support.apple.com/kb/TA23084"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Bruce Murphy of rattus.net and Justin Walker", 
+        "description": "Mac OS X inherited the ability to run SUID/SGID scripts from FreeBSD.  Apple does not distribute any SUID/SGID scripts, but the system would allow them to be installed or created.  This update removes the ability of Mac OS X to run SUID/SGID scripts", 
+        "id": "CAN-2005-0970", 
+        "impact": "Permitting SUID/SGID scripts to be installed could lead to privilege escalation", 
+        "links": [
+            "https://web.archive.org/web/20140817024023/http://support.apple.com/kb/TA23084"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "The incorrect handling of system call arguments could be used to obtain elevated privileges. This update includes a fix to check access to the kernel object. Kernel", 
+        "id": "CAN-2005-0971", 
+        "impact": "A kernel stack overflow in the semop() system call could lead to a local privilege escalation", 
+        "links": [
+            "https://web.archive.org/web/20140817024023/http://support.apple.com/kb/TA23084"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "The searchfs() system call contains an integer overflow vulnerability that could allow an unprivileged local user to execute arbitrary code with elevated privileges. This update adds input validation on the parameters passed to searchfs() to correct the issue. Kernel", 
+        "id": "CAN-2005-0972", 
+        "impact": "An integer overflow in the searchfs() system call could allow an unprivileged local user to execute arbitrary code with elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20140817024023/http://support.apple.com/kb/TA23084"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Robert Stump (rds3792@cs.rit.com)", 
+        "description": "A vulnerability in the handling of values passed to the setsockopt() call could allow unprivileged local users to exhaust available memory", 
+        "id": "CAN-2005-0973", 
+        "impact": "Local system users can cause a system resource starvation", 
+        "links": [
+            "https://web.archive.org/web/20140817024023/http://support.apple.com/kb/TA23084"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9", 
+            "Mac OS X v10.4, Mac OS X Server v10.4"
+        ], 
+        "credit": "", 
+        "description": "A vulnerability in the nfs_mount() call due to insufficient checks on input values could allow unprivileged local users to create a denial of service via a kernel panic", 
+        "id": "CAN-2005-0974", 
+        "impact": "Local system users can cause a local denial of service", 
+        "links": [
+            "https://web.archive.org/web/20140817024023/http://support.apple.com/kb/TA23084", 
+            "https://web.archive.org/web/20150123042402/http://support.apple.com/kb/TA23244"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Neil Archibald", 
+        "description": "A vulnerability in the parsing of certain executable files could allow unprivileged local users to temporarily suspend system operations", 
+        "id": "CAN-2005-0975", 
+        "impact": "Local system users can cause a temporary interruption of system operation", 
+        "links": [
+            "https://web.archive.org/web/20140817024023/http://support.apple.com/kb/TA23084"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "David Remahl", 
+        "description": "This update closes a vulnerability that allowed remote websites to load javascript to execute in the local domain", 
+        "id": "CAN-2005-0976", 
+        "impact": "Remote sites could cause html and javascript to run in the local domain", 
+        "links": [
+            "https://web.archive.org/web/20140817024023/http://support.apple.com/kb/TA23084"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "N/A"
+        ], 
+        "credit": "Marcel Bresink of Marcel Bresink Software-Systeme", 
+        "description": "An issue with the handling of requests to the fan control unit (FCU) driver could allow unprivileged local users to hang a system", 
+        "id": "CAN-2005-0985", 
+        "impact": "Local system users can cause a temporary system stall", 
+        "links": [
+            "https://web.archive.org/web/20140817023934/http://support.apple.com/kb/TA23081"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1, Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.11 to address several issues. The PHP release announcement for version 4.3.11 is located at http://www.php.net/release_4_3_11.php", 
+        "id": "CAN-2005-1042", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1, Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "PHP is updated to version 4.3.11 to address several issues. The PHP release announcement for version 4.3.11 is located at http://www.php.net/release_4_3_11.php", 
+        "id": "CAN-2005-1043", 
+        "impact": "Multiple vulnerabilities in PHP, including remote denial of service and execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "This update upgrades Kerberos for Macintosh to version 5.5.1, which contains fixes for this issue.  The Kerberos security advisories for these issues are located at http://web.mit.edu/kerberos/www/advisories/", 
+        "id": "CAN-2005-1174", 
+        "impact": "Multiple buffer overflow vulnerabilities could result in denial of service or remote compromise of a KDC", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "This update upgrades Kerberos for Macintosh to version 5.5.1, which contains fixes for this issue.  The Kerberos security advisories for these issues are located at http://web.mit.edu/kerberos/www/advisories/", 
+        "id": "CAN-2005-1175", 
+        "impact": "Multiple buffer overflow vulnerabilities could result in denial of service or remote compromise of a KDC", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.2.8 or later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Mark Litchfield of NGS Software", 
+        "description": "The MPEG4 file parsing code in iTunes versions prior to 4.8 contains a buffer overflow vulnerability. Parsing a maliciously-crafted MPEG4 file could cause iTunes to terminate or potentially execute arbitrary code. iTunes 4.8 addresses this issue by improving the validation checks used when loading MPEG4 files. iTunes 4.8 is available here", 
+        "id": "CAN-2005-1248", 
+        "impact": "A buffer overflow in iTunes could cause a denial of service and lead to the execution of arbitrary code.", 
+        "links": [
+            "https://web.archive.org/web/20130309012027/http://support.apple.com/kb/TA23223"
+        ], 
+        "module": "iTunes"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Henrik Dalgaard of Echo One", 
+        "description": "A malformed TIFF image can cause a call to NXSeek() with an offset outside the image. This raises an exception which is not handled. The default handler then causes the application to exit. This update causes an error to be returned to the application", 
+        "id": "CAN-2005-1330", 
+        "impact": "A Cocoa application will quit through an unhandled exception from NXSeek()", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "AppKit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "David Remahl of www.remahl.se/david", 
+        "description": "The applescript: URI mechanism is a feature that allows AppleScript code to be distributed via a hyperlink. When an applescript: URI is clicked, the AppleScript Editor opens and displays the code that has been downloaded. If the code is then compiled and run, it may not execute exactly as it is displayed. This issue has been addressed by rejecting URIs containing characters that could be used to mislead the user", 
+        "id": "CAN-2005-1331", 
+        "impact": "Scripts created using the applescript: URI mechanism could display code differently than that which would actually run", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "AppleScript"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "kf_lists[at]digitalmunition[dot]com", 
+        "description": "The Bluetooth file exchange service is enabled by default on systems with Bluetooth capability. This could allow files to be shared without properly notifying the user. In addition, the default directory for file sharing may be used by other applications, leading to unintentional file sharing. Security Update 2005-005 disables Bluetooth file exchange and changes the location of the default transfer directory on systems where the old default directory is set. In addition, new users of a system must now enable Bluetooth file exchange before it is allowed. Users with Bluetooth-enabled systems should read this article for more information on the changes provided by this update", 
+        "id": "CAN-2005-1332", 
+        "impact": "Bluetooth-enabled systems may allow file exchange without prompting users", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "Bluetooth"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9", 
+            "Mac OS X v10.4, Mac OS X Server v10.4", 
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1, Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "kf_lists[at]digitalmunition[dot]com", 
+        "description": "Due to insufficient input checking, the Bluetooth object exchange services could be used to access files outside of the default file exchange directory.  This update provides an additional security improvement over the previous release by adding enhanced filtering for path-delimiting characters", 
+        "id": "CAN-2005-1333", 
+        "impact": "Directory traversal via Bluetooth object exchange", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304", 
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185", 
+            "https://web.archive.org/web/20150123042402/http://support.apple.com/kb/TA23244"
+        ], 
+        "module": "Bluetooth"
+    }, 
+    {
+        "available": [
+            "QuickTime 7.0"
+        ], 
+        "credit": "David Remahl (www.remahl.se/david)", 
+        "description": "Quartz Composer objects can be wrapped in a QuickTime track and delivered as a QuickTime movie. With QuickTime 7.0, a Quartz Composer object can gather local data and send it using an encoded URL to an arbitrary web location. The QuickTime 7.0.1 update modifies the QuickTime Quartz Composer Plugin to prevent access to remote web locations", 
+        "id": "CAN-2005-1334", 
+        "impact": "With QuickTime 7.0, a QuickTime movie containing a maliciously crafted Quartz Composer object can leak data to an arbitrary web location.", 
+        "links": [
+            "https://web.archive.org/web/20130309012015/http://support.apple.com/kb/TA23292"
+        ], 
+        "module": "QuickTime Quartz Composer Plugin"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "chfn/chpass/chsh is a hard-linked set of SUID programs. Certain code paths use external helper programs in an insecure manner which could lead to a privilege escalation. This update provides secure mechanisms for running helper programs", 
+        "id": "CAN-2005-1335", 
+        "impact": "chfn/chpass/chsh could be manipulated to give privileges to an unprivileged user", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "Directory Services"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "The incorrect handling of an environment variable within the Foundation framework can result in a buffer overflow that may be used to execute arbitrary code. This issue has been addressed by improved handling of the environment variable", 
+        "id": "CAN-2005-1336", 
+        "impact": "Buffer overflow via an environment variable for applications using the Foundation framework", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "Foundation"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "David Remahl of www.remahl.se/david", 
+        "description": "When Javascript is loaded for a remote site, it is executed in a restricted environment. The environment restrictions are not applied for local Javascript files loaded by the Help Viewer. Security Update 2005-005 addresses this by only allowing Help Viewer to load registered pages", 
+        "id": "CAN-2005-1337", 
+        "impact": "Help Viewer could be used to run Javascript without the restrictions normally imposed", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "Help Viewer"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "When a system is bound to an LDAP server that has \"ldap_extended_operation\" disabled or not supported, and new accounts are created using the Workgroup Manager, then the initial password can be stored in the clear. If the password is modified using the Inspector, it will be correctly stored in a hashed form. This issue does not occur when using the Apple supplied Open Directory server. For servers not supporting \"ldap_extended_operation,\" this update now stores new passwords in the hashed form", 
+        "id": "CAN-2005-1338", 
+        "impact": "Passwords could initially be stored into LDAP in plain text when using an LDAP server not running on Mac OS X", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "LDAP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Rob Griffiths of macosxhints.com", 
+        "description": "The ftp server allows users to login with either their full name or their short name. In order to restrict users to their home directory, all permitted login names must be listed in /etc/ftpchroot. Users are permitted to change their full name. This issue has been addressed by mapping full names to short names before checking the /etc/ftpchroot restriction list", 
+        "id": "CAN-2005-1339", 
+        "impact": "When using the chroot feature of ftp, users can bypass the restriction by using their full name", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "lukemftpd"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "When the HTTP proxy service is enabled in Server Admin, it does not restrict which networks can access it. If there are no external access controls, then users on the Internet can also use the proxy. The HTTP proxy service is disabled by default. This update adds a user interface component to Server Admin, which allows the HTTP proxy to be restricted to local networks", 
+        "id": "CAN-2005-1340", 
+        "impact": "Enabling the HTTP proxy service also enables it for users not on your network if there are no access restrictions", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "Server Admin"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "David Remahl of www.remahl.se/david", 
+        "description": "The Terminal utility allows window titles to be read as input via a particular escape sequence. This could allow malicious content to inject data when it is displayed in a Terminal session. Security Update 2005-005 addresses the issue by removing handlers for this insecure escape sequence", 
+        "id": "CAN-2005-1341", 
+        "impact": "Malicious input could cause data to be inserted into a user's Terminal command line", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "Terminal"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "David Remahl of www.remahl.se/david", 
+        "description": "The x-man-page URI scheme provides support for displaying manual pages via the Terminal utility. Insufficient validation of these URIs can allow data to be inserted in a Terminal session. Security Update 2005-005 addresses this by adding escape sequence validation to the URI handler", 
+        "id": "CAN-2005-1342", 
+        "impact": "Escape characters embedded in x-man-page URIs could insert commands into a user's Terminal session", 
+        "links": [
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "Terminal"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9", 
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "Pieter de Boer of the master SNB at the Universiteit van Amsterdam (UvA)", 
+        "description": "A buffer overflow in \"vpnd\" could be used by a local user to obtain root privileges if the system is configured as a VPN server. This issue does not occur on systems that are configured as a VPN client. This issue cannot be exploited remotely. This update prevents the buffer overflow from occurring. This issue was fixed for Mac OS X v10.3.9 via Security Update 2005-005", 
+        "id": "CAN-2005-1343", 
+        "impact": "A local user can obtain root privileges if the system is being used as a VPN server", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304", 
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "VPN"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9", 
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "JxT of SNOsoft", 
+        "description": "The htdigest program contains a buffer overflow, and could be used in a CGI application to manage user access controls to a web server. This update fixes the buffer overflow in htdigest. Apple does not provide any CGI applications that use the htdigest program. Apache 2 ships only with Mac OS X Server, and is off by default. This issue was fixed for Apache 1.3 in Security Update 2005-005", 
+        "id": "CAN-2005-1344", 
+        "impact": "The htdigest program contains a buffer overflow, which, if used improperly in a CGI application, could allow a remote system compromise", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465", 
+            "https://web.archive.org/web/20130309012033/http://support.apple.com/kb/TA23185"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            "Keynote 2, Keynote 2.0.1"
+        ], 
+        "credit": "David Remahl (www.remahl.se/david)", 
+        "description": "With a specially crafted Keynote presentation and the use of the \"keynote:\" URI handler, it is possible that local files could be read and then sent to an arbitrary network location. This issue has been addressed in two ways: References to external resources have been limited, and the registration of the \"keynote:\" URI handler has been removed. This issue does not affect Keynote versions prior to Keynote 2", 
+        "id": "CAN-2005-1408", 
+        "impact": "A maliciously modified Keynote presentation could be constructed to retrieve files from the local system.", 
+        "links": [
+            "http://support.apple.com/en-us/HT2921"
+        ], 
+        "module": "Keynote"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4, Mac OS X Server v10.4"
+        ], 
+        "credit": "John M. Glenn of San Francisco", 
+        "description": "Two system calls designed to allow efficient searching of filesystem objects incorrectly checked the permissions on enclosing directories and would reveal the names of files. The incorrect checking only occurred for directories without the POSIX read, but with the POSIX execute bits set for group and other. In practice this issue only affects files stored in users ~/Public/Drop Box. This update addresses the issue by correctly honoring the POSIX permission bits on directories", 
+        "id": "CAN-2005-1472", 
+        "impact": "Users can discover the names of files placed in normally unsearchable places", 
+        "links": [
+            "https://web.archive.org/web/20150123042402/http://support.apple.com/kb/TA23244"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4, Mac OS X Server v10.4"
+        ], 
+        "credit": "", 
+        "description": "A contextual menu feature in Mac OS X 10.4 allows URLs to be opened from a text input field. This could be used to launch an application behind a locked screensaver window. This update addresses the issue by removing the contextual menu from screensaver text input fields", 
+        "id": "CAN-2005-1473", 
+        "impact": "Users with physical access to a system with a locked screensaver can start background applications", 
+        "links": [
+            "https://web.archive.org/web/20150123042402/http://support.apple.com/kb/TA23244"
+        ], 
+        "module": "SecurityAgent"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4, Mac OS X Server v10.4"
+        ], 
+        "credit": "", 
+        "description": "Dashboard is distributed with Apple-supplied widgets, and users have the ability to add new ones.  It is possible for a user to install a new widget with the same internal identifier as an Apple-supplied widget.  If this occurs, the newly-installed widget will run in place of the system widget. It may not be clear to users that they are running a widget that they installed as opposed to the Apple-supplied one.  This update addresses the issue by alerting users if they try to install widgets that would cause this sort of conflict.  This issue does not affect previous releases of Mac OS X", 
+        "id": "CAN-2005-1474", 
+        "impact": "Users may install widgets that override Apple-supplied widgets", 
+        "links": [
+            "https://web.archive.org/web/20130706132227/http://support.apple.com/kb/TA23385", 
+            "https://web.archive.org/web/20150123042402/http://support.apple.com/kb/TA23244"
+        ], 
+        "module": "Dashboard"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "This update upgrades Kerberos for Macintosh to version 5.5.1, which contains fixes for this issue.  The Kerberos security advisories for these issues are located at http://web.mit.edu/kerberos/www/advisories/", 
+        "id": "CAN-2005-1689", 
+        "impact": "Multiple buffer overflow vulnerabilities could result in denial of service or remote compromise of a KDC", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "", 
+        "description": "When copying a local file to an AFP Server that is using an ACL-enabled volume for storage, a temporary ACL is attached to the remote object during the copy process. This ACL can be left behind if the file copy went into a directory that was not using ACLs. The ACL that is left behind could cause confusion, as it will override the POSIX file permissions for the file owner. The ACL does not permit other users to access the file. This update modifies the AFP Server so that it correctly removes the ACL that is used for copying the file. This issue does not affect systems prior to Mac OS X 10.4", 
+        "id": "CAN-2005-1720", 
+        "impact": "On an AFP Server that uses an ACL-enabled volume for storage, copying a file with POSIX-only permissions can leave an ACL attached", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "", 
+        "description": "The Mac OS X AFP Server supports a number of legacy clients. A buffer overflow in support for one of these clients could permit arbitrary code to run. This update modifies the AFP Server to correct this buffer overflow. This issue does not affect systems prior to Mac OS X 10.4", 
+        "id": "CAN-2005-1721", 
+        "impact": "A buffer overflow in support for legacy clients could permit the running of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "AFP Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "Chris Evans", 
+        "description": "If a poorly-formed PDF document is passed to PDFKit or CoreGraphics for rendering, the rending engine will detect an error and stop processing. As part of the cleanup process, a check for a NULL pointer is omitted.  This omission can cause an application that handles PDF documents to abort, requiring that the application be restarted. CoreGraphics is updated to correctly handle the cleanup of poorly-formed PDF documents. This issue does not affect systems prior to Mac OS X 10.4", 
+        "id": "CAN-2005-1722", 
+        "impact": "Applications that use either PDFKit or CoreGraphics to render poorly-formed PDF documents could abort due to a NULL pointer dereference", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "CoreGraphics"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "", 
+        "description": "Mac OS X 10.4 contains a database of known unsafe file extensions and mime types. If an addition to the unsafe types database was made without a corresponding Apple UTI (Uniform Type Identifier), then a query on certain forms of the file extension or mime type would not be marked as unsafe. All entries in the current unsafe type database are mapped to an Apple UTI. This update corrects the query code to correctly identify unsafe file extensions and mime types regardless of the presence of an Apple UTI. This issue does not affect systems prior to Mac OS X 10.4", 
+        "id": "CAN-2005-1723", 
+        "impact": "File extensions and mime types marked as unsafe but not mapped to an Apple UTI could bypass download safety checks", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "LaunchServices"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "", 
+        "description": "The use of -network and -mask on a filesystem listed in the NFS exports file would result in that filesystem being exported to \"everyone.\" This update modifies the NFS exporting code to correctly set the network and mask parameters. This issue does not affect systems prior to Mac OS X 10.4", 
+        "id": "CAN-2005-1724", 
+        "impact": "An NFS export that's restricted using -network and -mask flags will export to \"everyone.\"", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "NFS"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "Neil Archibald of Suresec LTD", 
+        "description": "A vulnerability in launchd allows local users to gain ownership of arbitrary files. The launchd command is updated to safely change ownership of files", 
+        "id": "CAN-2005-1725", 
+        "impact": "The setuid program launchd can allow local privilege escalation", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "launchd"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "", 
+        "description": "The CoreGraphics Window Server is updated to disallow unprivileged users from launching commands into root sessions. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-1726", 
+        "impact": "Console users can gain root privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "CoreGraphics"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "Michael Haller at info@cilly.com", 
+        "description": "Secure folder permissions are applied to protect the system's cache folder and Dashboard system widgets. This exposure does not exist in systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-1727", 
+        "impact": "Potential file race condition via world- and group-writable permissions on two directories", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "Folder Permissions"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.1, Mac OS X Server v10.4.1"
+        ], 
+        "credit": "", 
+        "description": "MCX Client is updated to not log portable home directory mounting credentials. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-1728", 
+        "impact": "Portable Home Directory credentials may be available to local system users", 
+        "links": [
+            "https://web.archive.org/web/20130309012012/http://support.apple.com/kb/TA23304"
+        ], 
+        "module": "MCX Client"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "There are multiple vulnerabilities in SquirreMail prior to version 1.4.5.  These fixes address cross-site scripting and an exposure that may allow attackers to modify user preferences.  This update upgrades SquirrelMail to version 1.4.5. For more information, see http://www.squirrelmail.org", 
+        "id": "CAN-2005-1769", 
+        "impact": "Multiple vulnerabilities in SquirrelMail, including cross-site scripting and SquirrelMail user preference modification", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "SquirrelMail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a corrupt compressed data stream, an attacker can overwrite data structures in a zlib-using application, resulting in denial of service or possible arbitrary code execution.   This update address the issue by updating zlib to version 1.2.3", 
+        "id": "CAN-2005-1849", 
+        "impact": "Applications linked against zlib are susceptible to denial of service attacks and potential execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "zlib"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "The Ruby xmlrpc/utils module utilizes the method Module#public_instance_methods to determine which methods may be invoked remotely using XML-RPC.  A change between different versions of Ruby caused this method list to unintentionally include methods that may be used to execute arbitrary Ruby code.  This update addresses the issue by updating the xmlrpc/utils module. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-1992", 
+        "impact": "Ruby applications utilizing the xmlrpc module may be vulnerable to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535"
+        ], 
+        "module": "Ruby"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "There are multiple vulnerabilities in SquirreMail prior to version 1.4.5.  These fixes address cross-site scripting and an exposure that may allow attackers to modify user preferences.  This update upgrades SquirrelMail to version 1.4.5. For more information, see http://www.squirrelmail.org", 
+        "id": "CAN-2005-2095", 
+        "impact": "Multiple vulnerabilities in SquirrelMail, including cross-site scripting and SquirrelMail user preference modification", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "SquirrelMail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a corrupt compressed data stream, an attacker can overwrite data structures in a zlib-using application, resulting in denial of service or possible arbitrary code execution.   This update address the issue by updating zlib to version 1.2.3", 
+        "id": "CAN-2005-2096", 
+        "impact": "Applications linked against zlib are susceptible to denial of service attacks and potential execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "zlib"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4, Mac OS X Server v10.4"
+        ], 
+        "credit": "Julian Y. Koh and colleagues of Northwestern University", 
+        "description": "A specifically crafted TCP/IP packet can cause the kernel to panic due to a null pointer dereference, and require a reboot.  Multiple conditions are required to trigger this problem.  The common practice of filtering source-routed and loose source-routed packets on network infrastructure, ingress routers, and firewalls can prevent systems from being affected.  This issue does not affect previous releases of Mac OS X", 
+        "id": "CAN-2005-2194", 
+        "impact": "A specifically crafted TCP/IP packet can cause a denial of service", 
+        "links": [
+            "https://web.archive.org/web/20130706132227/http://support.apple.com/kb/TA23385"
+        ], 
+        "module": "TCP/IP"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.3 through Mac OS X v10.3.9, and Mac OS X v10.4.2"
+        ], 
+        "credit": "Dino Dai Zovi", 
+        "description": "When not associated with a known or trusted network, the original AirPort Card connects to a randomly generated network with a default WEP key. This can allow mobile users to automatically associate with untrusted networks without warning. This does not affect AirPort Express Cards, which currently ship in systems. This update addresses the issue by selecting a randomly-generated 128-bit WEP key", 
+        "id": "CAN-2005-2196", 
+        "impact": "Mobile users with the original AirPort Card enabled could automatically associate to an unsecure network.", 
+        "links": [
+            "https://web.archive.org/web/20140817030707/http://support.apple.com/kb/TA23400"
+        ], 
+        "module": "AirPort"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "A buffer overflow in the handling of maliciously crafted rich text files could lead to arbitrary code execution.  This update prevents the buffer overflow from occurring", 
+        "id": "CAN-2005-2501", 
+        "impact": "Opening a malicious, rich text file could lead to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "AppKit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "A buffer overflow in AppKit that is responsible for reading Word documents could allow arbitrary code execution.  Only applications such as TextEdit that use AppKit to open Word documents are vulnerable. Microsoft Word for Mac OS X is not vulnerable.  This update prevents the buffer overflow", 
+        "id": "CAN-2005-2502", 
+        "impact": "Opening a maliciously crafted Microsoft Word .doc file could result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "AppKit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "A malicious user who has full physical access to a system could create additional accounts by forcing an error condition. This update prevents the error conditions from occurring at the login window", 
+        "id": "CAN-2005-2503", 
+        "impact": "A malicious user with physical access to a system could create additional local accounts", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "AppKit"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "John M. Glenn of San Francisco", 
+        "description": "Selecting \"Require pairing for security\" in Bluetooth preferences correctly sets the device to require authentication, but in System Profiler the device is labeled with \"Requires Authentication: No.\" This update changes System Profiler to accurately reflect the Bluetooth security settings.  This issue does not affect systems prior to Mac OS X 10.4", 
+        "id": "CAN-2005-2504", 
+        "impact": "The System Profiler information about whether or not a Bluetooth device requires authentication is misleading", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Bluetooth"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "David Remahl of www.remahl.se/david", 
+        "description": "The incorrect handling of a command line argument within the CoreFoundation framework can result in a buffer overflow that may be used to execute arbitrary code. This issue has been addressed by improved handling of command line arguments. This issue does not affect Mac OS X 10.4", 
+        "id": "CAN-2005-2505", 
+        "impact": "Buffer overflow via a command line argument for applications using the CoreFoundation framework", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "CoreFoundation"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "David Remahl of www.remahl.se/david", 
+        "description": "The parsing of Gregorian dates in the CoreFoundation framework is vulnerable to an algorithmic complexity attack that could result in a denial of service. This update modifies the algorithm to parse all valid dates within a fixed processing time", 
+        "id": "CAN-2005-2506", 
+        "impact": "Passing a malformed date to the CoreFoundation framework can cause applications to stall", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "CoreFoundation"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "A buffer overflow in the handling of authentication can lead to arbitrary code execution by a remote attacker.   This update prevents the buffer overflow from occurring", 
+        "id": "CAN-2005-2507", 
+        "impact": "A buffer overflow in Directory Services could lead to remote execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Directory Services"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "kf_lists[at]digitalmunition[dot]com and Neil Archibald of Suresec LTD", 
+        "description": "This update addresses this issue by removing dsidentity and its documentation.  This issue does not affect systems prior to Mac OS X 10.4", 
+        "id": "CAN-2005-2508", 
+        "impact": "The privileged tool dsidentity has several security flaws that can result in non-administrative users adding or removing identity user accounts in Directory Services", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Directory Services"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Sam McCandlish", 
+        "description": "An error in the handling of Fast User Switching can allow a local user who knows the password for two accounts to log into a third account without knowing the password. This update corrects the authentication error. This issue does not affect systems prior to Mac OS X 10.4", 
+        "id": "CAN-2005-2509", 
+        "impact": "A user can gain access to other logged-in accounts if Fast User Switching is enabled", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "loginwindow"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Matt Richard of Franklin & Marshall College and Chris Pepper of The Rockefeller University", 
+        "description": "When using multiple subnets and Address Groups, the firewall rules are not always written to the Active Rules, depending on the order in which the IP subnets were entered into the Address Group. This update addresses the issue by generating correct rules irrespective of any ordering within the Address Group. This issue does not affect systems prior to Mac OS X 10.4", 
+        "id": "CAN-2005-2510", 
+        "impact": "Certain firewall policies created with the Server Admin tool are not always written to the Active Rules", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "servermgr_ipfilter"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Jim Foraker of Carnegie Mellon University and colleagues at MacEnterprise.Org", 
+        "description": "When Kerberos authentication is enabled in addition to LDAP, it was possible to gain access to a root Terminal window.  Kerberos authentication has been updated to prevent this situation. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-2511", 
+        "impact": "Kerberos-enabled logins when using LDAP can result in root compromise", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Brad Miller of CynicalPeak and John Pell of Foreseeable Solutions", 
+        "description": "When Mail.app is used to print or forward an HTML message, it will attempt to load remote images even if a user's preferences disallow it.  As this network traffic is not expected, it may be considered a privacy leak.  This update addresses the issue by having Mail.app only load remote images in HTML messages when the preferences allow it. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-2512", 
+        "impact": "Loss of privacy due to Mail loading remote images in HTML emails", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "Under certain circumstances, secure input fields may be read by VoiceOver services.  This update stops VoiceOver from exposing the content of these fields. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-2513", 
+        "impact": "VoiceOver may read content from secure input fields", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "HItoolbox"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Ilja van Sprundel of Suresec LTD", 
+        "description": "The ping utility is vulnerable to a buffer overflow. This update prevents the buffer overflow from occurring.  This issue does not affect systems running Mac OS X v10.4", 
+        "id": "CAN-2005-2514", 
+        "impact": "A buffer overflow could result in local privilege escalation and arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "ping"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Jay Craft of GrooVault Entertainment, LLC", 
+        "description": "It is possible to open displayed links from the RSS Visualizer in the background when the screen saver is configured to require a password.  This update prevents the RSS Visualizer screen saver from opening a URL if a password is required to exit the screen saver", 
+        "id": "CAN-2005-2515", 
+        "impact": "Users could open webpages while the RSS Visualizer screen saver is locked", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "QuartzComposerScreenSaver"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "Safari renders rich text content using code that allows URLs to be called directly, which bypasses the normal browser security checks.  This update addresses the issue by handling all links in rich text through Safari", 
+        "id": "CAN-2005-2516", 
+        "impact": "Clicking on a link in a maliciously-crafted rich text file in Safari could lead to arbitrary command execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Bill Kuker", 
+        "description": "When submitting forms in Safari on an XSL formatted page, data is sent to the next page browsed.  This update addresses the issue by ensuring that form contents are submitted correctly", 
+        "id": "CAN-2005-2517", 
+        "impact": "Information can be inadvertently submitted to the wrong site", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "A buffer overflow in the handling of authentication can lead to arbitrary code execution by a remote attacker. This update prevents the buffer overflow from occurring", 
+        "id": "CAN-2005-2518", 
+        "impact": "A buffer overflow in servermgrd could lead to remote execution of arbitrary code", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "servermgrd"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9"
+        ], 
+        "credit": "", 
+        "description": "slpd insecurely creates a root-owned file in the world-writable /tmp directory. This update moves the creation of the file to a directory that is not world-writable. This issue does not affect Mac OS X v10.4", 
+        "id": "CAN-2005-2519", 
+        "impact": "Insecure temporary file creation could lead to a local privilege escalation", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Directory Services"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Andrew Langmead of Boston.com", 
+        "description": "The password assistant provides an easy mechanism for selecting a good password.  If an administrator uses the password assistant while adding multiple accounts, they will be able to view previously suggested passwords.  This only occurs when password assistant is used more than once from the same process.  This update addresses the issue by resetting the suggested password list each time the password assistant is displayed.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-2520", 
+        "impact": "Recently-used passwords are visible via the password assistant", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "SecurityInterface"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Ilja van Sprundel of Suresec LTD", 
+        "description": "The traceroute utility  is vulnerable to a buffer overflow.  This update prevents the buffer overflow from occurring. This issue does not affect systems running Mac OS X v10.4", 
+        "id": "CAN-2005-2521", 
+        "impact": "A buffer overflow could result in local privilege escalation and arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "traceroute"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "Safari renders PDF content using code that allows URLs to be called directly, which bypasses the normal browser security checks.  This Safari issue does not affect systems prior to Mac OS X v10.4. This update addresses the issue by handling all links in PDF through Safari", 
+        "id": "CAN-2005-2522", 
+        "impact": "Clicking on a link in a maliciously-crafted PDF file in Safari could lead to arbitrary command execution", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "WebKit"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Donnie Werner (wood@exploitlabs.com) of Exploitlabs.com and Atsushi MATSUO", 
+        "description": "Several cross-site scripting problems were discovered in the Weblog Server. This update improves the sanitizing of user input before redisplaying it.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-2523", 
+        "impact": "Multiple cross-site scripting issues in Weblog Server", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Weblog Server"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9", 
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "It is possible to view web archives served from remote sites in Safari.  Maliciously crafted web archives may be rendered as content from sites they did not server them.  This update prevents remote web archives from being loaded. Safari web archives were introduced in Safari 2.0.  This issue was resolved in Mac OS X v10.4.2 by Security Update 2005-007", 
+        "id": "CAN-2005-2524", 
+        "impact": "Maliciously crafted web archives could potentially allow cross-site scripting", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535", 
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "When handling multiple, simultaneous, print jobs, the CUPS printing service can stop printing because it incorrectly tracks open file descriptors. In addition, if CUPS receives a partial IPP request and a client terminates the connection, the printing service will then consume all available CPUs. If the service is restarted, then printing will resume. This update corrects the handling of multiple, simultaneous print jobs and partial requests", 
+        "id": "CAN-2005-2525", 
+        "impact": "The CUPS printing service will not print unless it is restarted", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "When handling multiple, simultaneous, print jobs, the CUPS printing service can stop printing because it incorrectly tracks open file descriptors. In addition, if CUPS receives a partial IPP request and a client terminates the connection, the printing service will then consume all available CPUs. If the service is restarted, then printing will resume. This update corrects the handling of multiple, simultaneous print jobs and partial requests", 
+        "id": "CAN-2005-2526", 
+        "impact": "The CUPS printing service will not print unless it is restarted", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            "Java 1.4.2"
+        ], 
+        "credit": "", 
+        "description": "This is specific to the implementation of Java on Mac OS X.  Under certain conditions, Java may insecurely handle a temporary directory.  Subsequent file operations inside that directory could be exposed to file race conditions. This update addresses the issue by adding validation when operating in the temporary directory", 
+        "id": "CAN-2005-2527", 
+        "impact": "A file race condition can lead to file corruption or the creation of arbitrary files", 
+        "links": [
+            "https://web.archive.org/web/20130309012000/http://support.apple.com/kb/TA23501", 
+            "https://web.archive.org/web/20130309012001/http://support.apple.com/kb/TA23502"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Java 1.3.1, Java 1.4.2"
+        ], 
+        "credit": "kf_lists[at]digitalmunition[dot]com", 
+        "description": "This is specific to the implementation of Java on Mac OS X.  The privileged helper used to update Java shared archives insecurely creates temporary files, which can lead to a file race condition.  This update addresses the issue by avoiding file operations in user-accessible locations. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-2528", 
+        "impact": "Insecure temporary file handling can lead to file corruption or the creation of arbitrary files", 
+        "links": [
+            "https://web.archive.org/web/20130309012001/http://support.apple.com/kb/TA23502"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Java 1.4.2"
+        ], 
+        "credit": "Dino Dai Zovi", 
+        "description": "This is specific to the implementation of Java on Mac OS X.  The utility used to update Java shared archives is susceptible to a privilege escalation vulnerability from local system users.  This update addresses the issue by performing additional clean-up before launching the utility on behalf of unprivileged users.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-2529", 
+        "impact": "Malicious system users can gain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309012001/http://support.apple.com/kb/TA23502"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Java 1.3.1"
+        ], 
+        "credit": "", 
+        "description": "This is specific to the implementation of Java on Mac OS X.  A vulnerability in Apple's implementation of Java allows an untrusted applet to elevate privileges when using Mac OS X specific extensions.  This update addresses the issue by implementing additional security checks.  This issue does not affect Java on Mac OS X v10.4 or later", 
+        "id": "CAN-2005-2530", 
+        "impact": "An untrusted applet could gain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309012000/http://support.apple.com/kb/TA23501"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Java 1.4.2"
+        ], 
+        "credit": "Jeremy Pfeifer of the University of Saskatchewan", 
+        "description": "This is specific to the implementation of Java on Mac OS X.  It is possible for the same port to be opened as a Java ServerSocket multiple times without reporting an error.  This can allow a Java program to intercept data intended for the ServerSocket of a different Java program.  This update causes an exception to be thrown if a port is already in use.  This issue does not affect Java on Mac OS X v10.4 or later", 
+        "id": "CAN-2005-2738", 
+        "impact": "Network traffic intended for a particular Java ServerSocket could be intercepted by another one", 
+        "links": [
+            "https://web.archive.org/web/20130309012000/http://support.apple.com/kb/TA23501"
+        ], 
+        "module": "Java"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "Authorization Services allows unprivileged users to grant certain rights that should be restricted to administrators, which may lead to privilege escalation.  This update addresses the issue by adding restrictions to which rights unprivileged users can grant themselves", 
+        "id": "CAN-2005-2741", 
+        "impact": "Malicious users may grant themselves rights to manipulate arbitrary files or perform other privileged actions", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535"
+        ], 
+        "module": "securityd"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Luke Fowler of the Indiana University Global Research Network Operations Center", 
+        "description": "Under certain situations, the \"Switch User...\" button may appear even though the \"Enable fast user switching\" setting is disabled. This could cause the currently logged-in user's desktop to be displayed without authentication. This update prevents the \"Switch User...\" button from appearing when inappropriate. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CAN-2005-2742", 
+        "impact": "A user with physical access to the system may be able to bypass the \"Require password to wake this computer from sleep or screen saver\" setting", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535"
+        ], 
+        "module": "SecurityAgent"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9"
+        ], 
+        "credit": "Dino Dai Zovi", 
+        "description": "The Java extensions bundled with QuickTime 6.52 and earlier allow untrusted applets to call arbitrary functions from system libraries.  This update addresses the issue by limiting these calls to trusted applets.  Systems running QuickTime 7 or later are not affected by this issue.  Systems running Mac OS X v10.4 or later are also not affected by this issue", 
+        "id": "CAN-2005-2743", 
+        "impact": "An untrusted applet may gain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535"
+        ], 
+        "module": "QuickTime for Java"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Henrik Dalgaard of Echo One", 
+        "description": "By carefully crafting a corrupt PICT image, an attacker can trigger a buffer overflow in QuickDraw Manager which may result in arbitrary code execution.  Several components of Mac OS X utilize QuickDraw Manager, including Safari, Mail, and Finder.  This update addresses the issue by performing additional validation of images", 
+        "id": "CAN-2005-2744", 
+        "impact": "Viewing a maliciously-crafted PICT image may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535"
+        ], 
+        "module": "QuickDraw Manager"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9", 
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "the MIT Kerberos team", 
+        "description": "When using SMTP authentication with Kerberos Version 5, Mail.app may append un-initialized memory to a message.  This update addresses the issue by updating Mail.app", 
+        "id": "CAN-2005-2745", 
+        "impact": "Using Kerberos Version 5 for SMTP authentication Mail.app may disclose sensitive information", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535", 
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Norbert Rittel of Rittel Consulting", 
+        "description": "Mail.app includes the contents of messages when processing auto-reply rules.  If a message being processed was encrypted, the automatically generated response will include the decrypted message contents.  This could allow an attacker to intercept the message.  This update addresses the issue by ensuring that unencrypted responses to encrypted messages are not generated", 
+        "id": "CAN-2005-2746", 
+        "impact": "When using auto-reply rules, Mail.app may expose the contents of encrypted messages", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535"
+        ], 
+        "module": "Mail"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a corrupt GIF image, an attacker can trigger a buffer overflow in ImageIO which may result in arbitrary code execution.  Several components of Mac OS X utilize ImageIO including WebCore and Safari.  This update addresses the issue by performing additional validation of images", 
+        "id": "CAN-2005-2747", 
+        "impact": "Viewing a maliciously-crafted GIF image may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535"
+        ], 
+        "module": "ImageIO"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Ilja van Sprundel of Suresec LTD", 
+        "description": "When certain environmental variables are set to enable debugging of application memory allocation, files with diagnostic information are created insecurely.  This could allow a malicious local user to alter arbitrary files.  This update addresses the issue by disallowing malloc debugging in privileged programs", 
+        "id": "CAN-2005-2748", 
+        "impact": "Insecure file handling may result in local privilege escalation", 
+        "links": [
+            "https://web.archive.org/web/20130309011958/http://support.apple.com/kb/TA23535"
+        ], 
+        "module": "malloc"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "This update upgrades Kerberos for Macintosh to version 5.5.1, which contains fixes for this issue.  The Kerberos security advisories for these issues are located at http://web.mit.edu/kerberos/www/advisories/", 
+        "id": "CVE-", 
+        "impact": "Multiple buffer overflow vulnerabilities could result in denial of service or remote compromise of a KDC", 
+        "links": [
+            "https://web.archive.org/web/20130309012003/http://support.apple.com/kb/TA23465"
+        ], 
+        "module": "Kerberos"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Ilja van Sprundel and Neil Archibald of Suresec LTD and Colin Percival of the FreeBSD team", 
+        "description": "Certain kernel interfaces may return data that includes sensitive information in uninitialized memory.  These issues affect Mac OS X v10.4.2 and earlier", 
+        "id": "CVE-2005-1126", 
+        "impact": "Kernel memory may be disclosed to local users", 
+        "links": [
+            "https://web.archive.org/web/20140817030212/http://support.apple.com/kb/TA23698"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Ilja van Sprundel and Neil Archibald of Suresec LTD and Colin Percival of the FreeBSD team", 
+        "description": "Certain kernel interfaces may return data that includes sensitive information in uninitialized memory.  These issues affect Mac OS X v10.4.2 and earlier", 
+        "id": "CVE-2005-1406", 
+        "impact": "Kernel memory may be disclosed to local users", 
+        "links": [
+            "https://web.archive.org/web/20140817030212/http://support.apple.com/kb/TA23698"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS Xv10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "Sudo allows system administrators to grant users the ability to run specific commands with elevated privileges.  Although the default configuration is not vulnerable to this issue, custom sudo configurations may not properly restrict users.  Further information on this issue is available at http://www.sudo.ws/sudo/alerts/path_race.html.  This update addresses the issue by incorporating sudo version 1.6.8p9", 
+        "id": "CVE-2005-1993", 
+        "impact": "Local users may be able to gain elevated privileges in certain sudo configurations", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "sudo"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "The Apache 2 web server may allow an attacker to bypass protections using specially-crafted HTTP headers.  This behavior is only present when Apache is used in conjunction with certain proxy servers, caching servers, or web application firewalls.  This update addresses the issue by incorporating Apache version 2.0.55", 
+        "id": "CVE-2005-2088", 
+        "impact": "Cross-site scripting may be possible in certain configurations", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "Apache2"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "The JavaScript engine in Safari uses a version of the PCRE library that is vulnerable to a potentially exploitable heap overflow.  This may lead to the execution of arbitrary code.  This update addresses the issue by providing a new version of the JavaScript engine that incorporates more robust input validation", 
+        "id": "CVE-2005-2491", 
+        "impact": "Processing a regular expressions may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS Xv10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "The Apache web server's mod_ssl module may allow an attacker unauthorized access to a resource that is configured to require SSL client authentication.  Only Apache configurations that include the \"SSLVerifyClient require\" directive may be affected. This update addresses the issue by incorporating mod_ssl 2.8.24 and Apache version 2.0.55 (Mac OS X Server)", 
+        "id": "CVE-2005-2700", 
+        "impact": "SSL client authentication may be bypassed in certain configurations", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "apache_mod_ssl"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server    v10.4.2"
+        ], 
+        "credit": "Eric Hall      of DarkArt Consulting Services", 
+        "description": "Keychain Access is a utility distributed with Mac OS X      that is used to view keychain items and change keychain      settings. If a keychain automatically locks due to a timeout      while viewing a password stored inside it, that password will      remain visible. This update patches Keychain Access so that      passwords are hidden when keychains lock. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-2739", 
+        "impact": "Keychain Access will continue displaying plaintext    passwords after lock timeout", 
+        "links": [
+            "https://web.archive.org/web/20140817030212/http://support.apple.com/kb/TA23698"
+        ], 
+        "module": "Keychain"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server    v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "Under certain situations, the file and group ownership      information displayed in the Finder Get Info window may not      be correct. This update addresses the issue by synchronizing      the displayed ownership with the actual ownership in all      situations.      This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-2749", 
+        "impact": "File ownership information may be misleading", 
+        "links": [
+            "https://web.archive.org/web/20140817030212/http://support.apple.com/kb/TA23698"
+        ], 
+        "module": "Finder"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server    v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "Software Update can be instructed by the user to ignore      specific updates. If all applicable updates have been marked      in this way, Software Update will exit without providing an      an opportunity to reset the status of these updates so that      they may be installed. This update addresses the issue by      asking whether the ignored updates list should be reset when      this situation is encountered.      This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-2750", 
+        "impact": "Important Software Updates may not install", 
+        "links": [
+            "https://web.archive.org/web/20140817030212/http://support.apple.com/kb/TA23698"
+        ], 
+        "module": "Software Update"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.4.2"
+        ], 
+        "credit": "", 
+        "description": "In certain situations, changes to a group's membership may      not be immediately reflected in access control checks. This      may result in an authenticated user being able to access      files or other resources even after they have been removed      from a group. This update addresses the issue by invalidating      the group membership cache at appropriate times. This issue      does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-2751", 
+        "impact": "Changes to group membership are delayed for    hours", 
+        "links": [
+            "https://web.archive.org/web/20140817030212/http://support.apple.com/kb/TA23698"
+        ], 
+        "module": "memberd"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.2, Mac OS X Server v10.4.2"
+        ], 
+        "credit": "Ilja van Sprundel and Neil Archibald of Suresec LTD and Colin Percival of the FreeBSD team", 
+        "description": "Certain kernel interfaces may return data that includes sensitive information in uninitialized memory.  These issues affect Mac OS X v10.4.2 and earlier", 
+        "id": "CVE-2005-2752", 
+        "impact": "Kernel memory may be disclosed to local users", 
+        "links": [
+            "https://web.archive.org/web/20140817030212/http://support.apple.com/kb/TA23698"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 or later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Piotr Bania (bania.piotr@gmail.com)", 
+        "description": "A sign extension of an embedded \"Pascal\" style string could result in a very large memory copy.  The update treats the string as having unsigned length", 
+        "id": "CVE-2005-2753", 
+        "impact": "An integer overflow may be exploitable via remotely originated content", 
+        "links": [
+            "https://web.archive.org/web/20140817023045/http://support.apple.com/kb/TA23702"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 or later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Piotr Bania (bania.piotr@gmail.com)", 
+        "description": "Improper movie attributes could result in a very large memory copy.  The update checks for a valid non-zero size before copying", 
+        "id": "CVE-2005-2754", 
+        "impact": "An integer overflow may be exploitable via remotely originated content", 
+        "links": [
+            "https://web.archive.org/web/20140817023045/http://support.apple.com/kb/TA23702"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 or later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Piotr Bania (bania.piotr@gmail.com)", 
+        "description": "A missing movie attribute is interpreted as an extension, but the absence of the extension is not flagged as an error, resulting in a de-reference of a NULL pointer. The update requires either the movie attribute or the extension to be present for a well-formed movie", 
+        "id": "CVE-2005-2755", 
+        "impact": "A denial of service against any application loading remotely-originated content", 
+        "links": [
+            "https://web.archive.org/web/20140817023045/http://support.apple.com/kb/TA23702"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9 or later, Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "Piotr Bania (bania.piotr@gmail.com)", 
+        "description": "Expansion of compressed PICT data could exceed the size of the destination buffer.  The update prevents decompressed data from exceeding the destination buffer size", 
+        "id": "CVE-2005-2756", 
+        "impact": "Compressed PICT data may overwrite application memory from remotely originated content", 
+        "links": [
+            "https://web.archive.org/web/20140817023045/http://support.apple.com/kb/TA23702"
+        ], 
+        "module": "QuickTime"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "By carefully crafting a URL, an attacker can trigger a heap buffer overflow in CoreFoundation which may result in a crash or arbitrary code execution.  CoreFoundation is used by Safari and other applications.  This update addresses the issue by performing additional validation of URLs.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-2757", 
+        "impact": "Resolving a maliciously-crafted URL may result in crashes or arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "CoreFoundation"
+    }, 
+    {
+        "available": [
+            "Microsoft Windows XP, Microsoft Windows 2000"
+        ], 
+        "credit": "", 
+        "description": "Due to the way iTunes 5 for Windows launches its helper application, multiple system paths are searched to determine which program to run. This may allow a malicious user on the local system to create an environment where an alternate program will be executed by iTunes. This has already been addressed in the iTunes 6 release for Windows (2005-10-12), available from: (http://www.apple.com/itunes/download/).", 
+        "id": "CVE-2005-2938", 
+        "impact": "iTunes 5 for Windows may launch the wrong helper program", 
+        "links": [
+            "https://web.archive.org/web/20140817024501/http://support.apple.com/kb/TA23743"
+        ], 
+        "module": "iTunes"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS Xv10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "Applications that do not disable SSLv2 or that enable certain compatibility options when using OpenSSL may be vulnerable to a protocol downgrade attack.  Such attacks may cause an SSL connection to use the SSLv2 protocol which provides less protection than SSLv3 or TLS.  Further information on this issue is available at http://www.openssl.org/news/secadv_20051011.txt.  This update addresses the issue by incorporating OpenSSL version 0.9.7i", 
+        "id": "CVE-2005-2969", 
+        "impact": "Applications using OpenSSL may be forced to use the weaker SSLv2 protocol", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "Using curl with NTLM authentication enabled to download an HTTP resource may allow an attacker to supply an overlong user or domain name.  This may cause a stack buffer overflow and lead to arbitrary code execution.  This update addresses the issue by performing additional validation when using NTLM authentication. This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-3185", 
+        "impact": "Visiting a malicious HTTP server and using NTLM authentication may result in arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "curl"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "The ODBC Administrator utility includes a helper tool called iodbcadmintool that executes with raised privileges.  This helper tool contains a vulnerability that may allow local users to execute arbitrary commands with raised privileges.  This update addresses the issue by providing an updated iodbcadmintool that is not susceptible", 
+        "id": "CVE-2005-3700", 
+        "impact": "Local users may gain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "iodbcadmintool"
+    }, 
+    {
+        "available": [
+            "Mac OS X Server v10.3.9, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "When creating an Open Directory master server, credentials may be compromised.  This could lead to unprivileged local users gaining elevated privileges on the server.  This update addresses the issue by ensuring the credentials are protected", 
+        "id": "CVE-2005-3701", 
+        "impact": "Local users on Open Directory master servers may gain elevated privileges", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "passwordserver"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS Xv10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "", 
+        "description": "When files are downloaded in Safari they are normally placed in the location specified as the download directory.  However, if a web site suggests an overlong filename for a download, it is possible for Safari to create this file in other locations.  Although the filename and location of the downloaded file content cannot be directly specified by remote servers, this may still lead to downloading content into locations accessible to other users.  This update addresses the issue by rejecting overlong filenames", 
+        "id": "CVE-2005-3702", 
+        "impact": "Safari may download files outside of the designated downloaddirectory", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "Jakob Balle of Secunia Research", 
+        "description": "In Safari, JavaScript dialog boxes do not indicate the web site that created them.  This could mislead users into unintentionally disclosing information to a web site.  This update addresses the issue by displaying the originating site name in JavaScript dialog boxes", 
+        "id": "CVE-2005-3703", 
+        "impact": "JavaScript dialog boxes in Safari may be misleading", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "Safari"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "HELIOS Software GmbH", 
+        "description": "The system log server records syslog messages verbatim. By supplying control characters such as the newline character, a local attacker could forge entries with the intention to mislead the system administrator.  This update addresses the issue by specially handling control characters and other non-printable characters.  This issue does not affect systems prior to Mac OS X v10.4", 
+        "id": "CVE-2005-3704", 
+        "impact": "System log entries may be forged", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "syslog"
+    }, 
+    {
+        "available": [
+            "Mac OS X v10.3.9, Mac OS X Server v10.3.9, Mac OS X v10.4.3, Mac OS X Server v10.4.3"
+        ], 
+        "credit": "Neil Archibald of Suresec LTD and Marco Mella", 
+        "description": "WebKit contains a heap overflow that may lead to the execution of arbitrary code.  This may be triggered by content downloaded from malicious web sites in applications that use WebKit such as Safari.  This update addresses the issue by removing the heap overflow from WebKit", 
+        "id": "CVE-2005-3705", 
+        "impact": "Visiting malicious web sites with WebKit-based applications may lead to arbitrary code execution", 
+        "links": [
+            "https://web.archive.org/web/20140817032031/http://support.apple.com/kb/TA23742"
+        ], 
+        "module": "Safari"
+    }
+]

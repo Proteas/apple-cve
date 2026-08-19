@@ -1,0 +1,54 @@
+[
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2001-1411 a format string vulnerability in the gm4 utility. No set uid root programs relied on gm4 and this fix is a preventive measure against a possible future exploit.", 
+        "id": "CAN-2001-1411", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "gm4"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2001-1412 where the nidump utility provides access to the crypted passwords used to authenticate logins.", 
+        "id": "CAN-2001-1412", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "nidump"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CVE-2001-0653, where an input validation error exists in Sendmail's debugging functionality which could lead to a system compromise.", 
+        "id": "CVE-2001-0653", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "sendmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CVE-2001-1022 where the groff component pic contained a format-string vulnerability.", 
+        "id": "CVE-2001-1022", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "groff"
+    }
+]

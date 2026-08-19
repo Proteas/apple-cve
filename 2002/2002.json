@@ -1,0 +1,691 @@
+[
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "updated to version 1.17.2 to address the vulnerability CAN-2002-0003, where an attacker could gain rights as the 'lp' user remotely. Further details at: http://online.securityfocus.com/advisories/3859", 
+        "id": "CAN-2002-0003", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "groff"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1219, CAN-2002-1220, CAN-2002-1221, CAN-2002-0029, Updated to version 8.3.4 to fix potential vulnerabilities in the domain server and client library from Internet Software Consortium (ISC) that comes with Mac OS X and Mac OS X Server. BIND is not turned on by default on Mac OS X or Mac OS X Server.", 
+        "id": "CAN-2002-0029", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "BIND"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "updated to version 1.6.5p2 to address the vulnerability CAN-2002-0043, where a local user may obtain superuser privileges. Further details at: ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:06.sudo.asc", 
+        "id": "CAN-2002-0043", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "sudo"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "updated to version 2.5.2 to address the vulnerability CAN-2002-0048 which could lead to corruption of the stack and possibly to execution of arbitrary code as the root user. Further details at: ftp://ftp.FreeBSD.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-02:10.rsync.asc", 
+        "id": "CAN-2002-0048", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "rsync"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "updated to version 4.1.2 to address the vulnerability CAN-2002-0081, which could allow an intruder to execute arbitrary code with the privileges of the web server. Further details at: http://www.cert.org/advisories/CA-2002-05.html", 
+        "id": "CAN-2002-0081", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "PHP"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "updated to version 2.8.7-1.3.23 to address the buffer overflow vulnerability CAN-2002-0082 which could potentially be used to run arbitrary code. Further Details at: http://archives.neohapsis.com/archives/bugtraq/2002-02/0313.html", 
+        "id": "CAN-2002-0082", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Apache Mod_SSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "updated to version 3.1p1 to address the vulnerability CAN-2002-0083, where an attacker could influence the contents of the memory. Further details at: http://www.pine.nl/advisories/pine-cert-20020301.html", 
+        "id": "CAN-2002-0083", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSH"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-0184, where a heap overflow in sudo may allow local users to gain root privileges via special characters in the -p (prompt) argument.", 
+        "id": "CAN-2002-0184", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "sudo"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-0370. This update resolves a potential security vulnerability in versions 6.5.2 and earlier of Stuffit Expander. Further information is available at: http://www.kb.cert.org/vuls/id/383779 .", 
+        "id": "CAN-2002-0370", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Stuffit Expander"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Addresses CAN-2002-0381 such that TCP/IP connections now check and block broadcast or multicast IP destination addresses. Further details at: http://www.FreeBSD.org/cgi/query-pr.cgi?pr=35022", 
+        "id": "CAN-2002-0381", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "TCP/IP broadcast"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-039, a buffer overflow in the Sun RPC XDR decoder. Details are available via: http://bvlive01.iss.net/issEn/delivery/xforce/alertdetail.jsp?oid=20823", 
+        "id": "CAN-2002-039", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Sun RPC"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CVE ID CAN-2002-0392 which allows remote attackers to cause a denial of service and possibly execute arbitrary code. Further details are available from: http://www.cert.org/advisories/CA-2002-17.html", 
+        "id": "CAN-2002-0392", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes two vulnerabilities, CAN-2002-0639 and CAN-2002-0640, where a remote intruder may be able to execute arbitrary code on the local system. Further details are available from: http://www.cert.org/advisories/CA-2002-18.html", 
+        "id": "CAN-2002-0639", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSH"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes two vulnerabilities, CAN-2002-0639 and CAN-2002-0640, where a remote intruder may be able to execute arbitrary code on the local system. Further details are available from: http://www.cert.org/advisories/CA-2002-18.html", 
+        "id": "CAN-2002-0640", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSH"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-0653, an off-by-one buffer overflow in mod_ssl Apache module. Details are available via: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2002-0653", 
+        "id": "CAN-2002-0653", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "mod_ssl"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-0661, CAN-2002-0654, CAN-2002-0654, Apache 2 is provided with Mac OS X Server, but not enabled by default. The version is updated to Apache 2.0.42 to address a number of issues.", 
+        "id": "CAN-2002-0654", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes security vulnerabilities CAN-2002-0656, CAN-2002-0657, CAN-2002-0655, and CAN-2002-0659. Details are available via: http://www.cert.org/advisories/CA-2002-23.html", 
+        "id": "CAN-2002-0655", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes security vulnerabilities CAN-2002-0656, CAN-2002-0657, CAN-2002-0655, and CAN-2002-0659. Details are available via: http://www.cert.org/advisories/CA-2002-23.html", 
+        "id": "CAN-2002-0656", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes security vulnerabilities CAN-2002-0656, CAN-2002-0657, CAN-2002-0655, and CAN-2002-0659. Details are available via: http://www.cert.org/advisories/CA-2002-23.html", 
+        "id": "CAN-2002-0657", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes security vulnerabilities CAN-2002-0656, CAN-2002-0657, CAN-2002-0655, and CAN-2002-0659. Details are available via: http://www.cert.org/advisories/CA-2002-23.html", 
+        "id": "CAN-2002-0659", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "OpenSSL"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-0661, CAN-2002-0654, CAN-2002-0654, Apache 2 is provided with Mac OS X Server, but not enabled by default. The version is updated to Apache 2.0.42 to address a number of issues.", 
+        "id": "CAN-2002-0661", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Apache 2"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CVE ID CAN-2002-0676 to increase the security of the Software Update process for systems with Software Update client 1.4.5 or earlier. Packages presented via the Software Update mechanism are now cryptographically signed, and the new Software Update client 1.4.6 checks for a valid signature before installing new packages.", 
+        "id": "CAN-2002-0676", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Software Update"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-0830: This is FreeBSD-SA-02:36.nfs, a potential vulnerability in the Network File System (NFS) where a remote attacker could cause a denial of service.", 
+        "id": "CAN-2002-0830", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "nfs"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-0839, CAN-2002-0840, CAN-2002-0843: Apache Apache is updated to version 1.3.27 to address a number of issues.", 
+        "id": "CAN-2002-0839", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-0839, CAN-2002-0840, CAN-2002-0843: Apache Apache is updated to version 1.3.27 to address a number of issues.", 
+        "id": "CAN-2002-0840", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-0839, CAN-2002-0840, CAN-2002-0843: Apache Apache is updated to version 1.3.27 to address a number of issues.", 
+        "id": "CAN-2002-0843", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Apache"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-0906 Buffer overflow in Sendmail before 8.12.5, when configured to use a custom DNS map to query TXT records, could permit a denial of service attack and possibly allow execution of arbitrary code. Mac OS X 10.2.4 contains Sendmail 8.12.6 with the SMRSH fix applied to also address CAN-2002-1165.", 
+        "id": "CAN-2002-0906", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Sendmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-0906 Buffer overflow in Sendmail before 8.12.5, when configured to use a custom DNS map to query TXT records, could permit a denial of service attack and possibly allow execution of arbitrary code. Mac OS X 10.2.4 contains Sendmail 8.12.6 with the SMRSH fix applied to also address CAN-2002-1165.", 
+        "id": "CAN-2002-1165", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Sendmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1174 and CAN-2002-1175 that could lead to a potential denial of service when using the fetchmail command-line tool. fetchmail is updated to version 6.1.2+IMAP-GSS+SSL+INET6", 
+        "id": "CAN-2002-1174", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "fetchmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1174 and CAN-2002-1175 that could lead to a potential denial of service when using the fetchmail command-line tool. fetchmail is updated to version 6.1.2+IMAP-GSS+SSL+INET6", 
+        "id": "CAN-2002-1175", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "fetchmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1219, CAN-2002-1220, CAN-2002-1221, CAN-2002-0029, Updated to version 8.3.4 to fix potential vulnerabilities in the domain server and client library from Internet Software Consortium (ISC) that comes with Mac OS X and Mac OS X Server. BIND is not turned on by default on Mac OS X or Mac OS X Server.", 
+        "id": "CAN-2002-1219", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "BIND"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1219, CAN-2002-1220, CAN-2002-1221, CAN-2002-0029, Updated to version 8.3.4 to fix potential vulnerabilities in the domain server and client library from Internet Software Consortium (ISC) that comes with Mac OS X and Mac OS X Server. BIND is not turned on by default on Mac OS X or Mac OS X Server.", 
+        "id": "CAN-2002-1220", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "BIND"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1219, CAN-2002-1220, CAN-2002-1221, CAN-2002-0029, Updated to version 8.3.4 to fix potential vulnerabilities in the domain server and client library from Internet Software Consortium (ISC) that comes with Mac OS X and Mac OS X Server. BIND is not turned on by default on Mac OS X or Mac OS X Server.", 
+        "id": "CAN-2002-1221", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "BIND"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-1265: TCP issue in RPC The RPC-based libc implementation could fail to properly read data from TCP connections. As a result, a remote attacker could deny service to system daemons. Further information is available in CERT VU#266817 at: http://www.kb.cert.org/vuls/id/266817", 
+        "id": "CAN-2002-1265", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "TCP"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-1266: Local User Privilege Elevation via Disk Image File It is possible for a local user to obtain elevated privileges on a system by opening a disk image file that was created on another computer with administrator level privileges.", 
+        "id": "CAN-2002-1266", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Disk Image File"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-1267: CUPS Printing Web Administration is Remotely Accessible A malicious user could access the port to run the CUPS Printing Web Administration utility. It would then be possible to cause a denial of service to a printer.", 
+        "id": "CAN-2002-1267", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-1268: User Privilege Elevation via Mounting an ISO 9600 CD Users could gain elevated privileges when logged into a system that has an ISO 9600 CD available to the file system.", 
+        "id": "CAN-2002-1268", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Mounting"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-1269: NetInfo Manager Application could allow filesystem access A security vulnerability in the NetInfo Manager application could allow a malicious user to navigate the file system.", 
+        "id": "CAN-2002-1269", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "NetInfo Manager"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "CAN-2002-1270: map_fd() Mach system call can allow a file to be read The map_fd() Mach system call can allow a caller to read a file for which they only have write access.", 
+        "id": "CAN-2002-1270", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Kernel"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Previous releases of Mac OS X are not vulnerable to CAN-2002-1318, an issue in Samba's length checking for encrypted password changes. Mac OS X currently uses Directory Services for authentication, and does not call the vulnerable Samba function. However, to prevent a potential future exploit via this function, the patch from Samba 2.2.7 was applied although the version of Samba was not changed for this update release. Further information is available from: http://samba.org/", 
+        "id": "CAN-2002-1318", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Samba"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1337 in which a remote attacker could gain elevated privileges on affected hosts. Sendmail is not enabled by default on Mac OS X, so only those systems which have explicitly enabled sendmail are vulnerable. All Mac OS X users, however, are encouraged to apply this update. The sendmail fix is available in Security Update 2003-03-03.", 
+        "id": "CAN-2002-1337", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "Sendmail"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "A number of buffer overflows, null pointer dereferences and integer overflows have been discovered in the reference library for reading and writing PNG images. These vulnerabilities have been corrected in libpng which is used by the CoreGraphics and AppKit frameworks in Mac OS X. After installing this update, applications that use the PNG image format via these frameworks will be protected against these flaws.", 
+        "id": "CAN-2002-1363", 
+        "impact": "Malicious PNG images can cause application crashes and could execute arbitrary code.", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "libpng (Portable Network Graphics)"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1366, /etc/cups/certs/ Race Condition, could be exploited remotely when Printer Sharing is enabled.", 
+        "id": "CAN-2002-1366", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1367, Adding Printers with UDP Packets, could be exploited remotely when Printer Sharing is enabled.", 
+        "id": "CAN-2002-1367", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1368, Negative Length Memcpy() Calls, could be exploited remotely when Printer Sharing is enabled.", 
+        "id": "CAN-2002-1368", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1369, Unsafe Strncat Function Call in jobs.c, could be exploited remotely when Printer Sharing is enabled.", 
+        "id": "CAN-2002-1369", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1370, Root Certificate Design Flaw, could be exploited remotely when Printer Sharing is enabled.", 
+        "id": "CAN-2002-1370", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1371, Zero Width Images in filters/image-gif.c, could be exploited remotely when Printer Sharing is enabled.", 
+        "id": "CAN-2002-1371", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1372, File Descriptor Resource Leaks, could be exploited remotely when Printer Sharing is enabled.", 
+        "id": "CAN-2002-1372", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1383, Multiple Integer Overflows, could be exploited remotely when Printer Sharing is enabled.", 
+        "id": "CAN-2002-1383", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CAN-2002-1384, Integer Overflows in pdftops Filter and Xpdf, could be exploited remotely when Printer Sharing is enabled.", 
+        "id": "CAN-2002-1384", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/104191"
+        ], 
+        "module": "CUPS"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CVE-2002-0701 a theoretical exploit when ktrace is enabled through the KTRACE kernel option, a local user might be able to obtain sensitive information. No specific utility is currently known to be vulnerable to this particular problem.", 
+        "id": "CVE-2002-0701", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "ktrace"
+    }, 
+    {
+        "available": [
+            ""
+        ], 
+        "credit": "", 
+        "description": "Fixes CVE-2002-0830 for the Network File System where a remote user may be able to send RPC messages that cause the system to lock up.", 
+        "id": "CVE-2002-0830", 
+        "impact": "", 
+        "links": [
+            "https://support.apple.com/en-us/101682"
+        ], 
+        "module": "nfs"
+    }
+]
