@@ -10,184 +10,240 @@
 ## Modules
 | Index | Module Name        | CVE Count |
 |:-----:|:------------------ |:---------:|
-| 1 | WebKit | 87 |
-| 2 | Kernel | 51 |
-| 3 | ImageIO | 15 |
-| 4 | Model I/O | 12 |
-| 5 | HFS | 8 |
-| 6 | Multi-Touch | 7 |
-| 7 | CoreServices | 7 |
-| 8 | Spotlight | 7 |
-| 9 | Security | 6 |
-| 10 | PackageKit | 6 |
-| 11 | apache | 6 |
-| 12 | CoreMedia | 6 |
-| 13 | Siri | 6 |
-| 14 | Audio | 6 |
-| 15 | SMB | 6 |
-| 16 | SceneKit | 6 |
-| 17 | WebRTC | 6 |
-| 18 | mDNSResponder | 6 |
-| 19 | Wi-Fi | 5 |
-| 20 | AppleMobileFileIntegrity | 5 |
-| 21 | LaunchServices | 5 |
-| 22 | Contacts | 5 |
-| 23 | CUPS | 5 |
-| 24 | Disk Images | 5 |
-| 25 | Foundation | 4 |
-| 26 | CoreAudio | 4 |
-| 27 | GPU Drivers | 4 |
-| 28 | Printing | 4 |
-| 29 | Accounts | 4 |
-| 30 | Screen Sharing Server | 4 |
-| 31 | curl | 3 |
-| 32 | libxpc | 3 |
-| 33 | System Settings | 3 |
-| 34 | Shortcuts | 3 |
-| 35 | Accessibility | 3 |
-| 36 | Game Center | 3 |
-| 37 | Sandbox Profiles | 3 |
-| 38 | NetAuth | 3 |
-| 39 | StorageKit | 3 |
-| 40 | WebDAV | 3 |
-| 41 | iCloud | 3 |
-| 42 | Telephony | 3 |
-| 43 | Bluetooth | 2 |
-| 44 | Icons | 2 |
-| 45 | WindowServer | 2 |
-| 46 | Books | 2 |
-| 47 | AppleJPEG | 2 |
-| 48 | UIKit | 2 |
-| 49 | Remote Management | 2 |
-| 50 | Sandbox | 2 |
-| 51 | Archive Utility | 2 |
-| 52 | Messages | 2 |
-| 53 | Safari | 2 |
-| 54 | Admin Framework | 2 |
-| 55 | Mail | 2 |
-| 56 | Screenshots | 2 |
-| 57 | NSColorPanel | 2 |
-| 58 | NetFSFramework | 2 |
-| 59 | IOGraphics | 2 |
-| 60 | Baseband | 2 |
-| 61 | Crash Reporter | 2 |
-| 62 | libarchive | 2 |
-| 63 | Apple Neural Engine | 2 |
-| 64 | IOHIDFamily | 2 |
-| 65 | APFS | 2 |
-| 66 | IOKit | 2 |
-| 67 | IOSurfaceAccelerator | 2 |
-| 68 | libxslt | 2 |
-| 69 | WebKit Canvas | 2 |
-| 70 | WebKit Storage | 2 |
-| 71 | IOGPUFamily | 2 |
-| 72 | DriverKit | 2 |
-| 73 | Apple Account | 2 |
-| 74 | AVEVideoEncoder | 2 |
-| 75 | Compression | 1 |
-| 76 | File Bookmark | 1 |
-| 77 | iTunes Store | 1 |
-| 78 | Keynote | 1 |
-| 79 | Pages | 1 |
-| 80 | libexpat | 1 |
-| 81 | Notification Center | 1 |
-| 82 | Voice Control | 1 |
-| 83 | Setup Assistant | 1 |
-| 84 | Music | 1 |
-| 85 | AppleKeyStore | 1 |
-| 86 | Call History | 1 |
-| 87 | configd | 1 |
-| 88 | StoreKit | 1 |
-| 89 | Photos | 1 |
-| 90 | Weather | 1 |
-| 91 | Live Captions | 1 |
-| 92 | Vision | 1 |
-| 93 | CFNetwork | 1 |
-| 94 | VoiceOver | 1 |
-| 95 | NSOpenPanel | 1 |
-| 96 | Focus | 1 |
-| 97 | AppleEvents | 1 |
-| 98 | AppleScript | 1 |
-| 99 | WebKit Sandboxing | 1 |
-| 100 | MigrationKit | 1 |
-| 101 | dyld | 1 |
-| 102 | Notes | 1 |
-| 103 | TCC | 1 |
-| 104 | File System | 1 |
-| 105 | SystemMigration | 1 |
-| 106 | BOM | 1 |
-| 107 | UIFoundation | 1 |
-| 108 | Screen Time | 1 |
-| 109 | Phone | 1 |
-| 110 | 802.1X | 1 |
-| 111 | Clipboard | 1 |
-| 112 | GeoServices | 1 |
-| 113 | Calendar | 1 |
-| 114 | Privacy | 1 |
-| 115 | DeviceLink | 1 |
-| 116 | CoreUtils | 1 |
-| 117 | Simulator | 1 |
-| 118 | otool | 1 |
-| 119 | Diagnostics | 1 |
-| 120 | Calling Framework | 1 |
-| 121 | App Protection | 1 |
-| 122 | ppp | 1 |
-| 123 | Networking | 1 |
-| 124 | Metal | 1 |
-| 125 | zip | 1 |
-| 126 | CoreSymbolication | 1 |
-| 127 | zlib | 1 |
-| 128 | Sync Services | 1 |
-| 129 | Mail Drafts | 1 |
-| 130 | xar | 1 |
-| 131 | Notification Services | 1 |
-| 132 | Status Bar | 1 |
-| 133 | Network Extensions | 1 |
-| 134 | CoreAnimation | 1 |
-| 135 | WidgetKit | 1 |
-| 136 | libc | 1 |
-| 137 | UserAccountUpdater | 1 |
-| 138 | Installer | 1 |
-| 139 | Accelerate | 1 |
-| 140 | App Intents | 1 |
-| 141 | Storage | 1 |
-| 142 | TV App | 1 |
-| 143 | IOSkywalkFamily | 1 |
-| 144 | Quick Look | 1 |
-| 145 | FileProvider | 1 |
-| 146 | AirDrop | 1 |
-| 147 | Assets | 1 |
-| 148 | AppleRAID | 1 |
-| 149 | Core Services | 1 |
-| 150 | quarantine | 1 |
-| 151 | Web Extensions | 1 |
-| 152 | MediaRemote | 1 |
-| 153 | AuthKit | 1 |
-| 154 | CoreUI | 1 |
-| 155 | SecurityAgent | 1 |
-| 156 | Control Center | 1 |
-| 157 | Data Detectors UI | 1 |
-| 158 | ATS | 1 |
-| 159 | LoginWindow | 1 |
-| 160 | udf | 1 |
-| 161 | Net-SNMP | 1 |
-| 162 | AppleDouble | 1 |
-| 163 | App Store | 1 |
-| 164 | CoreVideo | 1 |
-| 165 | MobileAccessoryUpdater | 1 |
-| 166 | Pro Res | 1 |
-| 167 | CloudAttestation | 1 |
-| 168 | WebKit Process Model | 1 |
-| 169 | Heimdal | 1 |
-| 170 | cd9660 | 1 |
-| 171 | BackgroundAssets | 1 |
-| 172 | DesktopServices | 1 |
-| 173 | Accounts Framework | 1 |
-| 174 | Maps | 1 |
-| 175 | Libnotify | 1 |
-| 176 | FrontBoard | 1 |
-| 177 | Managed Configuration | 1 |
-| 178 | WorkoutKit | 1 |
-| 179 | afpfs | 1 |
-| 180 | WebKit History | 1 |
-| 181 | Screen Sharing | 1 |
+| 1 | WebKit | 92 |
+| 2 | Kernel | 89 |
+| 3 | ImageIO | 19 |
+| 4 | SMB | 15 |
+| 5 | CUPS | 15 |
+| 6 | SceneKit | 14 |
+| 7 | Model I/O | 13 |
+| 8 | HFS | 11 |
+| 9 | CoreServices | 10 |
+| 10 | CoreMedia | 10 |
+| 11 | Spotlight | 10 |
+| 12 | Disk Images | 10 |
+| 13 | Security | 9 |
+| 14 | Multi-Touch | 8 |
+| 15 | LaunchServices | 8 |
+| 16 | WebRTC | 8 |
+| 17 | Foundation | 7 |
+| 18 | Siri | 7 |
+| 19 | WebDAV | 7 |
+| 20 | PackageKit | 6 |
+| 21 | apache | 6 |
+| 22 | AppleMobileFileIntegrity | 6 |
+| 23 | CoreUI | 6 |
+| 24 | Audio | 6 |
+| 25 | mDNSResponder | 6 |
+| 26 | curl | 5 |
+| 27 | Bluetooth | 5 |
+| 28 | Shortcuts | 5 |
+| 29 | libxpc | 5 |
+| 30 | System Settings | 5 |
+| 31 | Wi-Fi | 5 |
+| 32 | Sandbox | 5 |
+| 33 | Accessibility | 5 |
+| 34 | Sandbox Profiles | 5 |
+| 35 | Contacts | 5 |
+| 36 | Apple Account | 5 |
+| 37 | Accounts | 5 |
+| 38 | Screen Sharing Server | 5 |
+| 39 | AVEVideoEncoder | 5 |
+| 40 | CoreAudio | 4 |
+| 41 | GPU Drivers | 4 |
+| 42 | Archive Utility | 4 |
+| 43 | Game Center | 4 |
+| 44 | Messages | 4 |
+| 45 | Mail | 4 |
+| 46 | Printing | 4 |
+| 47 | StorageKit | 4 |
+| 48 | TCC | 4 |
+| 49 | iCloud | 4 |
+| 50 | Baseband | 4 |
+| 51 | APFS | 4 |
+| 52 | Heimdal | 3 |
+| 53 | File Bookmark | 3 |
+| 54 | Safari | 3 |
+| 55 | NetAuth | 3 |
+| 56 | Telephony | 3 |
+| 57 | libarchive | 3 |
+| 58 | Apple Neural Engine | 3 |
+| 59 | Storage | 3 |
+| 60 | quarantine | 3 |
+| 61 | NetworkExtension | 3 |
+| 62 | ATS | 3 |
+| 63 | udf | 3 |
+| 64 | exFAT | 3 |
+| 65 | Icons | 2 |
+| 66 | WindowServer | 2 |
+| 67 | Books | 2 |
+| 68 | AppleJPEG | 2 |
+| 69 | UIKit | 2 |
+| 70 | Remote Management | 2 |
+| 71 | Music | 2 |
+| 72 | AppleKeyStore | 2 |
+| 73 | Admin Framework | 2 |
+| 74 | Screenshots | 2 |
+| 75 | NSColorPanel | 2 |
+| 76 | NetFSFramework | 2 |
+| 77 | IOGraphics | 2 |
+| 78 | Crash Reporter | 2 |
+| 79 | ppp | 2 |
+| 80 | Watch App | 2 |
+| 81 | IOHIDFamily | 2 |
+| 82 | RealityKit | 2 |
+| 83 | IOKit | 2 |
+| 84 | IOSurfaceAccelerator | 2 |
+| 85 | Quick Look | 2 |
+| 86 | AppleRAID | 2 |
+| 87 | libxslt | 2 |
+| 88 | WebKit Canvas | 2 |
+| 89 | WebKit Storage | 2 |
+| 90 | MediaRemote | 2 |
+| 91 | AuthKit | 2 |
+| 92 | IOGPUFamily | 2 |
+| 93 | DriverKit | 2 |
+| 94 | AppleDouble | 2 |
+| 95 | DesktopServices | 2 |
+| 96 | App Store | 2 |
+| 97 | MobileAccessoryUpdater | 2 |
+| 98 | afpfs | 2 |
+| 99 | cd9660 | 2 |
+| 100 | BackgroundAssets | 2 |
+| 101 | IOMobileFrameBuffer | 2 |
+| 102 | Managed Configuration | 2 |
+| 103 | Authentication Services | 2 |
+| 104 | MobileBackup | 2 |
+| 105 | CoreText | 2 |
+| 106 | Photos Storage | 2 |
+| 107 | FontParser | 2 |
+| 108 | autofs | 2 |
+| 109 | CloudKit | 2 |
+| 110 | Compression | 1 |
+| 111 | iTunes Store | 1 |
+| 112 | Keynote | 1 |
+| 113 | Pages | 1 |
+| 114 | libexpat | 1 |
+| 115 | Notification Center | 1 |
+| 116 | Voice Control | 1 |
+| 117 | Setup Assistant | 1 |
+| 118 | Call History | 1 |
+| 119 | configd | 1 |
+| 120 | StoreKit | 1 |
+| 121 | Photos | 1 |
+| 122 | Weather | 1 |
+| 123 | Live Captions | 1 |
+| 124 | Vision | 1 |
+| 125 | CFNetwork | 1 |
+| 126 | VoiceOver | 1 |
+| 127 | NSOpenPanel | 1 |
+| 128 | Focus | 1 |
+| 129 | AppleEvents | 1 |
+| 130 | AppleScript | 1 |
+| 131 | WebKit Sandboxing | 1 |
+| 132 | MigrationKit | 1 |
+| 133 | dyld | 1 |
+| 134 | Notes | 1 |
+| 135 | File System | 1 |
+| 136 | Find My | 1 |
+| 137 | SystemMigration | 1 |
+| 138 | BOM | 1 |
+| 139 | UIFoundation | 1 |
+| 140 | Screen Time | 1 |
+| 141 | Phone | 1 |
+| 142 | 802.1X | 1 |
+| 143 | Clipboard | 1 |
+| 144 | GeoServices | 1 |
+| 145 | Calendar | 1 |
+| 146 | Privacy | 1 |
+| 147 | DeviceLink | 1 |
+| 148 | CoreUtils | 1 |
+| 149 | Simulator | 1 |
+| 150 | otool | 1 |
+| 151 | Diagnostics | 1 |
+| 152 | Calling Framework | 1 |
+| 153 | App Protection | 1 |
+| 154 | Networking | 1 |
+| 155 | Metal | 1 |
+| 156 | zip | 1 |
+| 157 | CoreSymbolication | 1 |
+| 158 | zlib | 1 |
+| 159 | Sync Services | 1 |
+| 160 | Mail Drafts | 1 |
+| 161 | xar | 1 |
+| 162 | Terminal | 1 |
+| 163 | Notification Services | 1 |
+| 164 | Status Bar | 1 |
+| 165 | Network Extensions | 1 |
+| 166 | CoreAnimation | 1 |
+| 167 | WidgetKit | 1 |
+| 168 | libc | 1 |
+| 169 | UserAccountUpdater | 1 |
+| 170 | Installer | 1 |
+| 171 | Accelerate | 1 |
+| 172 | App Intents | 1 |
+| 173 | TV App | 1 |
+| 174 | IOSkywalkFamily | 1 |
+| 175 | FileProvider | 1 |
+| 176 | AirDrop | 1 |
+| 177 | Assets | 1 |
+| 178 | Wi-Fi3 | 1 |
+| 179 | FaceTime | 1 |
+| 180 | CoreDrag | 1 |
+| 181 | Filters | 1 |
+| 182 | Core Services | 1 |
+| 183 | Touch Bar | 1 |
+| 184 | CoreMedia Video Toolbox | 1 |
+| 185 | Web Extensions | 1 |
+| 186 | CoreMotion | 1 |
+| 187 | SecurityAgent | 1 |
+| 188 | Control Center | 1 |
+| 189 | Data Detectors UI | 1 |
+| 190 | Single Sign-On | 1 |
+| 191 | LoginWindow | 1 |
+| 192 | Net-SNMP | 1 |
+| 193 | CoreVideo | 1 |
+| 194 | Pro Res | 1 |
+| 195 | CloudAttestation | 1 |
+| 196 | WebKit Process Model | 1 |
+| 197 | odproxyd | 1 |
+| 198 | Accounts Framework | 1 |
+| 199 | Maps | 1 |
+| 200 | Libnotify | 1 |
+| 201 | FrontBoard | 1 |
+| 202 | WorkoutKit | 1 |
+| 203 | Image Capture | 1 |
+| 204 | WebKit History | 1 |
+| 205 | iWork | 1 |
+| 206 | SoftwareUpdate | 1 |
+| 207 | Xcode IDE | 1 |
+| 208 | copyfile | 1 |
+| 209 | Reminders | 1 |
+| 210 | AppleAVD | 1 |
+| 211 | Graphics | 1 |
+| 212 | Directory Utility | 1 |
+| 213 | Symptom Framework | 1 |
+| 214 | Kext Management | 1 |
+| 215 | AppleFDEKeyStore | 1 |
+| 216 | file_cmds | 1 |
+| 217 | Automator | 1 |
+| 218 | smbx | 1 |
+| 219 | Keychain Access | 1 |
+| 220 | Virtualization | 1 |
+| 221 | QuartzCore | 1 |
+| 222 | AppKit | 1 |
+| 223 | Apple Intelligence | 1 |
+| 224 | Software Update | 1 |
+| 225 | DeviceCheck | 1 |
+| 226 | XPC | 1 |
+| 227 | Power Management | 1 |
+| 228 | CoreML | 1 |
+| 229 | Wi-Fi Connectivity | 1 |
+| 230 | Camera | 1 |
+| 231 | Accelerate Framework | 1 |
+| 232 | Time Zone | 1 |
+| 233 | Siri Suggestions | 1 |
+| 234 | Core Bluetooth | 1 |
+| 235 | SpringBoard | 1 |
+| 236 | Safe Browsing | 1 |
+| 237 | NSDocument | 1 |
