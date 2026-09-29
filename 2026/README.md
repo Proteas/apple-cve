@@ -6,6 +6,7 @@
 | Index | CVE ID | Module             |
 |:-----:|:------:|:------------------ |
 | 1 | CVE-2026-20700 | dyld |
+| 2 | CVE-2026-86950 | CoreGraphics |
 
 ## Modules
 | Index | Module Name        | CVE Count |
@@ -247,3 +248,4 @@
 | 235 | SpringBoard | 1 |
 | 236 | Safe Browsing | 1 |
 | 237 | NSDocument | 1 |
+| 238 | CoreGraphics | 1 |

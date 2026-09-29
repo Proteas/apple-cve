@@ -4956,6 +4956,7 @@
             "Apple TV 4K 2nd generation and later", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 9 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -4965,6 +4966,7 @@
         "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
         "links": [
             "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
             "https://support.apple.com/en-us/149036", 
             "https://support.apple.com/en-us/149037", 
             "https://support.apple.com/en-us/149038", 
@@ -7492,6 +7494,7 @@
     {
         "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Sequoia", 
             "macOS Tahoe"
@@ -7503,6 +7506,7 @@
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
+            "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/149041", 
             "https://support.apple.com/en-us/149042", 
@@ -9794,6 +9798,7 @@
     {
         "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
+            "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Tahoe"
         ], 
@@ -9804,6 +9809,7 @@
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
+            "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069"
         ], 
         "module": "Kernel", 
@@ -10682,6 +10688,7 @@
         "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
@@ -10694,6 +10701,7 @@
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
+            "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/128071", 
@@ -11152,6 +11160,7 @@
             "Apple TV 4K 2nd generation and later", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 9 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -11161,6 +11170,7 @@
         "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
         "links": [
             "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
             "https://support.apple.com/en-us/149036", 
             "https://support.apple.com/en-us/149037", 
             "https://support.apple.com/en-us/149038", 
@@ -12797,6 +12807,7 @@
     {
         "available": [
             "Apple Vision Pro (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Tahoe"
         ], 
         "bugzilla": "321065", 
@@ -12806,6 +12817,7 @@
         "impact": "A website may be able to determine a user's IP address with Private Relay turned on", 
         "links": [
             "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
             "https://support.apple.com/en-us/148353"
         ], 
         "module": "WebKit", 
@@ -12849,6 +12861,7 @@
     {
         "available": [
             "Apple Vision Pro (all models)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Tahoe"
         ], 
@@ -12858,6 +12871,7 @@
         "impact": "A website may be able to determine a user's IP address with Private Relay turned on", 
         "links": [
             "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
             "https://support.apple.com/en-us/148287", 
             "https://support.apple.com/en-us/148353"
         ], 
@@ -12869,6 +12883,7 @@
         "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Tahoe"
         ], 
@@ -12879,6 +12894,7 @@
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
+            "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070"
         ], 
@@ -13087,6 +13103,7 @@
         "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Sequoia", 
             "macOS Tahoe"
@@ -13098,6 +13115,7 @@
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
+            "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/149043"
@@ -13284,6 +13302,7 @@
             "Apple TV 4K 2nd generation and later", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 9 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -13293,6 +13312,7 @@
         "impact": "Processing maliciously crafted web content may lead to memory corruption", 
         "links": [
             "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
             "https://support.apple.com/en-us/148286", 
             "https://support.apple.com/en-us/149036", 
             "https://support.apple.com/en-us/149037", 
@@ -13307,6 +13327,7 @@
             "Apple TV 4K 2nd generation and later", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 9 and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Sonoma and macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -13317,6 +13338,7 @@
         "impact": "Processing maliciously crafted web content may lead to memory corruption", 
         "links": [
             "https://support.apple.com/en-us/148281", 
+            "https://support.apple.com/en-us/148282", 
             "https://support.apple.com/en-us/148286", 
             "https://support.apple.com/en-us/149036", 
             "https://support.apple.com/en-us/149037", 
@@ -13599,6 +13621,7 @@
             "Apple TV 4K 2nd generation and later", 
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
+            "Apple Watch Series 6 and later", 
             "Apple Watch Series 9 and later", 
             "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
@@ -13613,6 +13636,7 @@
         "links": [
             "https://support.apple.com/en-us/128066", 
             "https://support.apple.com/en-us/128067", 
+            "https://support.apple.com/en-us/128068", 
             "https://support.apple.com/en-us/128069", 
             "https://support.apple.com/en-us/128070", 
             "https://support.apple.com/en-us/149034", 
@@ -16689,7 +16713,7 @@
             "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
             "macOS Sequoia and macOS Tahoe"
         ], 
-        "bugzilla": "3182711", 
+        "bugzilla": "318271", 
         "credit": "Tomi Garcia (archyxsec)", 
         "description": "A logic issue was addressed with improved state management.", 
         "id": "CVE-2026-86898", 
@@ -16898,6 +16922,25 @@
             "https://support.apple.com/en-us/149042"
         ], 
         "module": "MobileAccessoryUpdater", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Meta Product Security", 
+        "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
+        "id": "CVE-2026-86950", 
+        "impact": "Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.", 
+        "links": [
+            "https://support.apple.com/en-us/149226", 
+            "https://support.apple.com/en-us/149228", 
+            "https://support.apple.com/en-us/149229"
+        ], 
+        "module": "CoreGraphics", 
         "rsr": "", 
         "update": ""
     }
