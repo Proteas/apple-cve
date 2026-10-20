@@ -3377,6 +3377,21 @@
     }, 
     {
         "available": [
+            "Apple Vision Pro (all models)"
+        ], 
+        "credit": "OSORI", 
+        "description": "An authorization issue was addressed with improved state management", 
+        "id": "CVE-2026-28850", 
+        "impact": "An app may be able to access sensitive user data", 
+        "links": [
+            "https://support.apple.com/en-us/149038"
+        ], 
+        "module": "Shortcuts", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
@@ -3401,6 +3416,38 @@
         "module": "UIFoundation", 
         "rsr": "", 
         "update": ""
+    }, 
+    {
+        "available": [
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "f00l (@PPPF00L) and 3ndy1(@_3ndy1)", 
+        "description": "The issue was addressed with improved checks.", 
+        "id": "CVE-2026-28853", 
+        "impact": "An app may be able to elevate privileges", 
+        "links": [
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "AMD", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)"
+        ], 
+        "credit": "deepsec of DARKNAVY (@DarkNavyOrg), Mickey Jin (@patch1t), Rohit Chatterjee, Zhongquan Li (@Guluisacat), Lance Cain - Senior Consultant at SpecterOps Inc., Csaba Fitzl (@theevilbit) of Iru", 
+        "description": "The issue was addressed with additional app bundle integrity checks.", 
+        "id": "CVE-2026-28854", 
+        "impact": "A maliciously modified app may not be prevented from launching", 
+        "links": [
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "System Settings", 
+        "rsr": "", 
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -5619,7 +5666,7 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "genter0, Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, Dun", 
+        "credit": "genter0, Svetoslav Stolarov, Josh Maine of Calif.io, Dun", 
         "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
         "id": "CVE-2026-28968", 
         "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
@@ -5635,7 +5682,7 @@
         ], 
         "module": "Kernel", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -6996,7 +7043,7 @@
         "links": [
             "https://support.apple.com/en-us/149034"
         ], 
-        "module": "Wi-Fi3", 
+        "module": "Wi-Fi", 
         "rsr": "", 
         "update": ""
     }, 
@@ -7032,7 +7079,7 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "bubu, Omar Cerrito, HE WEI\uff08\u30ae\u30ab\u30af\uff09, Roman Zabicki, Richard Zana, Chris Bailey - Short Circuit, Aswin Kumar Gokulakannan, Surya Narayan Kushwaha, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research", 
+        "credit": "Joseph Semaan, bubu, Omar Cerrito, HE WEI (\u30ae\u30ab\u30af), Roman Zabicki, Richard Zana, Chris Bailey - Short Circuit, Aswin Kumar Gokulakannan, Surya Narayan Kushwaha, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research", 
         "description": "An out-of-bounds write issue was addressed by removing the vulnerable code.", 
         "id": "CVE-2026-43677", 
         "impact": "Connecting to a malicious WebDAV server may lead to unexpected app termination", 
@@ -7043,7 +7090,7 @@
         ], 
         "module": "WebDAV", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -9335,7 +9382,7 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "Kujtim Kryeziu (Sentry)", 
+        "credit": "Richard Zana, Kujtim Kryeziu (Sentry)", 
         "description": "This issue was addressed with additional entitlement checks.", 
         "id": "CVE-2026-43786", 
         "impact": "An app may be able to gain root privileges", 
@@ -9346,7 +9393,7 @@
         ], 
         "module": "CoreServices", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -12248,7 +12295,7 @@
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Tahoe"
         ], 
-        "credit": "an anonymous researcher, f00l (@PPPF00L) and 3ndy1(@_3ndy1) and Minghao Lin@Y1nkoc and \u4e91\u6563\u82b1\u6298, Arjanit Isufi", 
+        "credit": "Chanwit Muenprakoddee (ChemIndy), an anonymous researcher, f00l (@PPPF00L) and 3ndy1(@_3ndy1) and Minghao Lin@Y1nkoc and \u4e91\u6563\u82b1\u6298, Arjanit Isufi", 
         "description": "The issue was addressed with improved memory handling.", 
         "id": "CVE-2026-64788", 
         "impact": "Processing maliciously crafted web content may lead to memory corruption", 
@@ -12260,7 +12307,7 @@
         ], 
         "module": "IOGPUFamily", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -12881,6 +12928,25 @@
     }, 
     {
         "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Ricardo Prado", 
+        "description": "An access issue was addressed with improved access controls.", 
+        "id": "CVE-2026-65356", 
+        "impact": "An app may be able to access sensitive user data", 
+        "links": [
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "Siri", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
             "Apple TV HD and Apple TV 4K (all models)", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 6 and later", 
@@ -13130,6 +13196,25 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
+        "credit": "\uc774\uc7ac\uc601", 
+        "description": "A race condition was addressed with additional validation.", 
+        "id": "CVE-2026-65372", 
+        "impact": "A malicious application may be able to bypass Privacy preferences", 
+        "links": [
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "Multi-Touch", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
         "credit": "HE WEI\uff08\u30ae\u30ab\u30af\uff09, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research", 
         "description": "A memory corruption issue was addressed with improved validation.", 
         "id": "CVE-2026-65374", 
@@ -13216,7 +13301,7 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "Abodi Dawoud, Sindre Sorhus, \u7cd6\u8c46\u7238\u7238(@\u6674\u5929\u7ec4\u7ec7), Niels Hofmans, Robert Mindo", 
+        "credit": "AL Najafi, Richard Zana, Abodi Dawoud, Sindre Sorhus, \u7cd6\u8c46\u7238\u7238(@\u6674\u5929\u7ec4\u7ec7), Niels Hofmans, Robert Mindo", 
         "description": "An authorization issue was addressed with improved state management.", 
         "id": "CVE-2026-65378", 
         "impact": "An app may be able to access sensitive user data", 
@@ -13227,7 +13312,26 @@
         ], 
         "module": "Spotlight", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Ricardo Prado", 
+        "description": "The issue was addressed with improved handling of secure input state.", 
+        "id": "CVE-2026-65379", 
+        "impact": "An app may be able to access sensitive user data", 
+        "links": [
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "WindowServer", 
+        "rsr": "", 
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -13391,6 +13495,25 @@
         "module": "ImageIO", 
         "rsr": "", 
         "update": ""
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Bhaswanth Chigurupati", 
+        "description": "A buffer overflow was addressed with improved size validation.", 
+        "id": "CVE-2026-65396", 
+        "impact": "An app may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "APFS", 
+        "rsr": "", 
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -13902,6 +14025,21 @@
     }, 
     {
         "available": [
+            "iPhone 11 and later"
+        ], 
+        "credit": "Aaron Schlitt (@aaron_sfn) of Hasso Plattner Institute, Cybersecurity - Mobile & Wireless, Jacob Prezant (prezant.us)", 
+        "description": "This issue was addressed through improved state management.", 
+        "id": "CVE-2026-84490", 
+        "impact": "An attacker with physical access to a locked device may be able to bypass Digital ID authentication when iPhone Mirroring is active", 
+        "links": [
+            "https://support.apple.com/en-us/149034"
+        ], 
+        "module": "Wallet", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
             "Apple TV 4K 2nd generation and later", 
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 9 and later", 
@@ -14009,7 +14147,7 @@
         "credit": "Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd.", 
         "description": "A use after free issue was addressed with improved memory management.", 
         "id": "CVE-2026-84506", 
-        "impact": "An app may be able to execute arbitrary code with kernel privileges", 
+        "impact": "An app may be able to cause unexpected system termination or corrupt kernel memory", 
         "links": [
             "https://support.apple.com/en-us/149035", 
             "https://support.apple.com/en-us/149042", 
@@ -14017,7 +14155,7 @@
         ], 
         "module": "udf", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -14047,6 +14185,27 @@
         "module": "Kernel", 
         "rsr": "", 
         "update": ""
+    }, 
+    {
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Abodi Dawoud, Merrick Hare, Roelof van Dijk", 
+        "description": "This issue was addressed with improved validation of the caller's access.", 
+        "id": "CVE-2026-84508", 
+        "impact": "An app may be able to access protected user data", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149038", 
+            "https://support.apple.com/en-us/149042"
+        ], 
+        "module": "Security", 
+        "rsr": "", 
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -14209,7 +14368,7 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "\u7ae0\u9c7c\u54e5@aipy (aipyaipy.com\uff09", 
+        "credit": "\u7ae0\u9c7c\u54e5@aipy (aipyaipy.com)", 
         "description": "An out-of-bounds read was addressed with improved bounds checking.", 
         "id": "CVE-2026-84516", 
         "impact": "Processing a maliciously crafted file may result in unexpected app termination or disclosure of process memory", 
@@ -14775,6 +14934,25 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
+        "credit": "Marc Newlin of SkySafe", 
+        "description": "A memory corruption issue was addressed with improved input validation.", 
+        "id": "CVE-2026-84547", 
+        "impact": "An attacker in physical proximity may be able to corrupt process memory", 
+        "links": [
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "Bluetooth", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
         "credit": "Peter Malone", 
         "description": "An integer overflow was addressed with improved input validation.", 
         "id": "CVE-2026-84548", 
@@ -14957,7 +15135,7 @@
         ], 
         "module": "Kernel", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -14965,7 +15143,7 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "Ryan Hughes", 
+        "credit": "Merrick Hare, Ryan Hughes", 
         "description": "A permissions issue was addressed with improved validation.", 
         "id": "CVE-2026-84559", 
         "impact": "A malicious application may be able to access restricted files", 
@@ -14976,7 +15154,7 @@
         ], 
         "module": "CoreServices", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -15075,7 +15253,7 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "Justin O'Leary", 
+        "credit": "Justin O'Leary (@olearysec) of olearysec.com", 
         "description": "An uninitialized memory issue was addressed with improved memory initialization.", 
         "id": "CVE-2026-84564", 
         "impact": "Processing a maliciously crafted image may result in disclosure of process memory", 
@@ -15091,7 +15269,7 @@
         ], 
         "module": "ImageIO", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -15375,6 +15553,25 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
+        "credit": "Thiago Mayllart", 
+        "description": "A logic issue was addressed with improved checks.", 
+        "id": "CVE-2026-84579", 
+        "impact": "Opening a file referencing a network share may lead to unexpected software execution", 
+        "links": [
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "DesktopServices", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
         "credit": "an anonymous researcher", 
         "description": "The issue was addressed with improved checks.", 
         "id": "CVE-2026-84580", 
@@ -15406,6 +15603,29 @@
         "module": "HFS", 
         "rsr": "", 
         "update": ""
+    }, 
+    {
+        "available": [
+            "Apple TV 4K 2nd generation and later", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 9 and later", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
+        ], 
+        "credit": "Zhongcheng Li (CK01)", 
+        "description": "A privacy issue was addressed with improved access restrictions.", 
+        "id": "CVE-2026-84582", 
+        "impact": "An app may be able to access sensitive user data", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149036", 
+            "https://support.apple.com/en-us/149037", 
+            "https://support.apple.com/en-us/149038"
+        ], 
+        "module": "App Intents", 
+        "rsr": "", 
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -15833,6 +16053,35 @@
         "available": [
             "Apple TV 4K 2nd generation and later", 
             "Apple Vision Pro (all models)", 
+            "Apple Watch Series 9 and later", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "jioundai", 
+        "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
+        "id": "CVE-2026-84613", 
+        "impact": "An attacker in radio range may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149036", 
+            "https://support.apple.com/en-us/149037", 
+            "https://support.apple.com/en-us/149038", 
+            "https://support.apple.com/en-us/149041", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "Bluetooth", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "Apple TV 4K 2nd generation and later", 
+            "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
         ], 
@@ -16097,7 +16346,7 @@
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
-        "credit": "Sindre Sorhus, Hoffcona of IES Red Team", 
+        "credit": "Hoffcona of IES Red Team", 
         "description": "An information disclosure issue was addressed with improved state management.", 
         "id": "CVE-2026-84626", 
         "impact": "An app may be able to identify what other apps a user has installed", 
@@ -16113,7 +16362,7 @@
         ], 
         "module": "NetworkExtension", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -16265,7 +16514,7 @@
             "Apple Watch Series 9 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
         ], 
-        "credit": "Jian Lee (@speedyfriend433)", 
+        "credit": "Sindre Sorhus, Jian Lee (@speedyfriend433)", 
         "description": "An authorization issue was addressed with improved state management.", 
         "id": "CVE-2026-84636", 
         "impact": "An app may be able to access sensitive user data", 
@@ -16277,7 +16526,26 @@
         ], 
         "module": "Wi-Fi Connectivity", 
         "rsr": "", 
-        "update": ""
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Redon Gashi of Sentry", 
+        "description": "An authentication issue was addressed with improved state management.", 
+        "id": "CVE-2026-86868", 
+        "impact": "An attacker may be able to impersonate other users", 
+        "links": [
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "Heimdal", 
+        "rsr": "", 
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -16318,6 +16586,75 @@
         "module": "libarchive", 
         "rsr": "", 
         "update": ""
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Ashish Kunwar, Cem Onat Karagun, John Lussier", 
+        "description": "An integer underflow was addressed with improved input validation.", 
+        "id": "CVE-2026-86871", 
+        "impact": "An attacker with control of a network file server may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "SMB", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 9 and later", 
+            "macOS Sequoia and macOS Tahoe"
+        ], 
+        "bugzilla": "318807", 
+        "credit": "Junhyuk Im of S2W Inc, Seungyun Lee of S2W Inc", 
+        "description": "A logic issue was addressed with improved state management.", 
+        "id": "CVE-2026-86872", 
+        "impact": "Processing maliciously crafted web content may lead to unexpected behavior", 
+        "links": [
+            "https://support.apple.com/en-us/149037", 
+            "https://support.apple.com/en-us/149038", 
+            "https://support.apple.com/en-us/149039"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "macOS Tahoe 26.6 and later"
+        ], 
+        "credit": "Eddy T", 
+        "description": "An out-of-bounds read was addressed with improved input validation.", 
+        "id": "CVE-2026-86874", 
+        "impact": "Parsing a maliciously crafted binary may lead to unexpected tool termination", 
+        "links": [
+            "https://support.apple.com/en-us/149040"
+        ], 
+        "module": "otool", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "macOS Tahoe 26.6 and later"
+        ], 
+        "credit": "Egor Saltykov", 
+        "description": "An input validation issue was addressed with improved input validation.", 
+        "id": "CVE-2026-86875", 
+        "impact": "Parsing a maliciously crafted binary may lead to unexpected app termination", 
+        "links": [
+            "https://support.apple.com/en-us/149040"
+        ], 
+        "module": "CoreSymbolication", 
+        "rsr": "", 
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -16838,6 +17175,23 @@
     }, 
     {
         "available": [
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Roman Zabicki", 
+        "description": "An authorization issue was addressed with improved entitlement checks.", 
+        "id": "CVE-2026-86907", 
+        "impact": "An app with admin privileges may be able to modify the System Keychain", 
+        "links": [
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "configd", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
             "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)"
         ], 
         "credit": "Koh M. Nakagawa (@tsunek0h) of FFRI Security, Inc.", 
@@ -16887,6 +17241,69 @@
     }, 
     {
         "available": [
+            "Apple TV 4K 2nd generation and later", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 9 and later", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Meta Product Security", 
+        "description": "A use after free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-86913", 
+        "impact": "Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149036", 
+            "https://support.apple.com/en-us/149037", 
+            "https://support.apple.com/en-us/149038", 
+            "https://support.apple.com/en-us/149041", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "CoreMedia", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Richard Zana", 
+        "description": "An information disclosure issue was addressed with improved state management.", 
+        "id": "CVE-2026-86914", 
+        "impact": "An app may be able to access sensitive network connection information", 
+        "links": [
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "mDNSResponder", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)"
+        ], 
+        "credit": "Roman Zabicki", 
+        "description": "A race condition was addressed with improved locking.", 
+        "id": "CVE-2026-86915", 
+        "impact": "An app may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "Heimdal", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
             "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
             "macOS Sequoia", 
             "macOS Tahoe"
@@ -16903,6 +17320,97 @@
         "module": "Kernel", 
         "rsr": "", 
         "update": ""
+    }, 
+    {
+        "available": [
+            "Apple TV 4K 2nd generation and later", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 9 and later", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
+        ], 
+        "credit": "Arni Hardarson (Neonix Security)", 
+        "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
+        "id": "CVE-2026-86918", 
+        "impact": "Processing a maliciously crafted image may lead to unexpected app termination", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149036", 
+            "https://support.apple.com/en-us/149037", 
+            "https://support.apple.com/en-us/149038"
+        ], 
+        "module": "Accelerate Framework", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Mathis Mansi\u00e8re", 
+        "description": "A stack overflow was addressed with improved input validation.", 
+        "id": "CVE-2026-86919", 
+        "impact": "An attacker with a paired Bluetooth device may be able to execute arbitrary code", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149038", 
+            "https://support.apple.com/en-us/149041", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "Core Bluetooth", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
+        ], 
+        "credit": "Jonghoon Han (Aegis), bubu, \uc774\uc7ac\uc601, Tae Woo Kim, Dawuge of Shuffle Team", 
+        "description": "A permissions issue was addressed with improved validation.", 
+        "id": "CVE-2026-86921", 
+        "impact": "A local attacker may be able to overwrite restricted files", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149038", 
+            "https://support.apple.com/en-us/149041"
+        ], 
+        "module": "Siri", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "Apple Vision Pro (all models)", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "macOS Sequoia and macOS Tahoe"
+        ], 
+        "bugzilla": "308231", 
+        "credit": "Nathaniel Oh (@calysteon), Kwak Kiyong / kakaogames", 
+        "description": "A type confusion issue was addressed with improved state management.", 
+        "id": "CVE-2026-86922", 
+        "impact": "Processing maliciously crafted web content may lead to arbitrary code execution", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149038", 
+            "https://support.apple.com/en-us/149039"
+        ], 
+        "module": "WebKit", 
+        "rsr": "", 
+        "update": "October 19, 2026"
     }, 
     {
         "available": [
@@ -16927,6 +17435,130 @@
     }, 
     {
         "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)"
+        ], 
+        "credit": "Andrey Chernykh", 
+        "description": "A path handling issue was addressed with improved validation.", 
+        "id": "CVE-2026-86928", 
+        "impact": "An app may be able to access protected user data", 
+        "links": [
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "GPUTools", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)"
+        ], 
+        "credit": "Shuiliang Xie", 
+        "description": "An authorization issue was addressed with improved state management.", 
+        "id": "CVE-2026-86932", 
+        "impact": "An app may be able to access sensitive user data", 
+        "links": [
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "LaunchServices", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)"
+        ], 
+        "credit": "@08Tc3wBB of Jamf", 
+        "description": "A permissions issue was addressed with additional sandbox restrictions.", 
+        "id": "CVE-2026-86933", 
+        "impact": "An app may be able to access information about a user's contacts", 
+        "links": [
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "Sandbox", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)"
+        ], 
+        "credit": "Joshua Jewett (@JoshJewett33)", 
+        "description": "This issue was addressed by removing additional entitlements.", 
+        "id": "CVE-2026-86935", 
+        "impact": "An app may be able to access user-sensitive data", 
+        "links": [
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "TV App", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)"
+        ], 
+        "credit": "Dave G.", 
+        "description": "This issue was addressed by removing the vulnerable code.", 
+        "id": "CVE-2026-86940", 
+        "impact": "An app may be able to disclose kernel memory", 
+        "links": [
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "afpfs", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "f00l (@PPPF00L) and 3ndy1(@_3ndy1)", 
+        "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
+        "id": "CVE-2026-86944", 
+        "impact": "An app may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/149041", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "IOAcceleratorFamily", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "macOS Tahoe 26.6 and later"
+        ], 
+        "credit": "Ilya Andr (andrd3v) of Positive Technologies", 
+        "description": "This issue was addressed by enforcing library validation on the affected binaries.", 
+        "id": "CVE-2026-86948", 
+        "impact": "An app may be able to break out of its sandbox", 
+        "links": [
+            "https://support.apple.com/en-us/149040"
+        ], 
+        "module": "App Store", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "macOS Tahoe 26.6 and later"
+        ], 
+        "credit": "Ilya Andr (andrd3v) of Positive Technologies", 
+        "description": "This issue was addressed by enforcing library validation on the affected binaries.", 
+        "id": "CVE-2026-86949", 
+        "impact": "A malicious app may be able to break out of its sandbox", 
+        "links": [
+            "https://support.apple.com/en-us/149040"
+        ], 
+        "module": "Xcode", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "macOS Sequoia", 
             "macOS Tahoe"
@@ -16943,5 +17575,244 @@
         "module": "CoreGraphics", 
         "rsr": "", 
         "update": ""
+    }, 
+    {
+        "available": [
+            "Apple TV 4K 2nd generation and later", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 9 and later", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
+        ], 
+        "credit": "Jakob Pammer", 
+        "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
+        "id": "CVE-2026-86953", 
+        "impact": "An attacker in physical proximity may be able to cause a denial-of-service", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149036", 
+            "https://support.apple.com/en-us/149037", 
+            "https://support.apple.com/en-us/149038"
+        ], 
+        "module": "Wi-Fi", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "iPhone 15 Pro and later, iPad Pro 12.9-inch 5th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 5th generation and later, and iPad mini 7th generation"
+        ], 
+        "credit": "Abodi Dawoud", 
+        "description": "An authorization issue was addressed with improved state management.", 
+        "id": "CVE-2026-86955", 
+        "impact": "An app may be able to access sensitive user data", 
+        "links": [
+            "https://support.apple.com/en-us/149034"
+        ], 
+        "module": "Apple Intelligence", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "Apple TV 4K 2nd generation and later", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 9 and later", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "Drin Raci of sentry.security, Niels Hofmans", 
+        "description": "An out-of-bounds read was addressed with improved bounds checking.", 
+        "id": "CVE-2026-86957", 
+        "impact": "An attacker in wireless proximity may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149036", 
+            "https://support.apple.com/en-us/149037", 
+            "https://support.apple.com/en-us/149038", 
+            "https://support.apple.com/en-us/149041", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "Wi-Fi", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "an anonymous researcher", 
+        "description": "An input validation issue was addressed with improved input validation.", 
+        "id": "CVE-2026-86959", 
+        "impact": "Processing a maliciously crafted image may lead to unexpected process termination", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149041", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "Messages", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
+        ], 
+        "credit": "an anonymous researcher", 
+        "description": "A race condition was addressed with additional validation.", 
+        "id": "CVE-2026-86961", 
+        "impact": "A malicious app may be able to break out of its sandbox", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "Foundation", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "Apple TV 4K 2nd generation and later", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 9 and later", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "OpenAI, H\u00fcseyin Kabasakal @HuseyinK01", 
+        "description": "A double free issue was addressed with improved memory management.", 
+        "id": "CVE-2026-86962", 
+        "impact": "An app may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149036", 
+            "https://support.apple.com/en-us/149037", 
+            "https://support.apple.com/en-us/149038", 
+            "https://support.apple.com/en-us/149041", 
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "Kernel", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later"
+        ], 
+        "credit": "Beomseok Oh (@KAIST), Yongdae Kim (@KAIST)", 
+        "description": "A denial-of-service issue was addressed with improved input validation.", 
+        "id": "CVE-2026-86963", 
+        "impact": "An attacker in a privileged network position may be able to cause a denial-of-service", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149041"
+        ], 
+        "module": "Baseband", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "Apple TV 4K 2nd generation and later", 
+            "Apple Vision Pro (all models)", 
+            "Apple Watch Series 9 and later", 
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
+        ], 
+        "credit": "Tommy DeVoss from Braze Security Team (@thedawgyg), an anonymous researcher", 
+        "description": "An out-of-bounds read was addressed with improved bounds checking.", 
+        "id": "CVE-2026-86975", 
+        "impact": "Processing a maliciously crafted image may lead to unexpected process termination", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035", 
+            "https://support.apple.com/en-us/149036", 
+            "https://support.apple.com/en-us/149037", 
+            "https://support.apple.com/en-us/149038"
+        ], 
+        "module": "ImageIO", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)", 
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
+        ], 
+        "credit": "Kirin (@Pwnrin)", 
+        "description": "An authorization issue was addressed with improved state management.", 
+        "id": "CVE-2026-86976", 
+        "impact": "An app may be able to access sensitive user data", 
+        "links": [
+            "https://support.apple.com/en-us/149034", 
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "Sync Services", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later"
+        ], 
+        "credit": "James Gill (@jjtech@infosec.exchange)", 
+        "description": "An authorization issue was addressed with improved network restrictions.", 
+        "id": "CVE-2026-86977", 
+        "impact": "An app may be able to initiate calls or send messages", 
+        "links": [
+            "https://support.apple.com/en-us/149034"
+        ], 
+        "module": "Telephony", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023)"
+        ], 
+        "credit": "Paul Montgomery (@nullevent), Alan Banderas (@creeper4004)", 
+        "description": "A privacy issue was addressed with improved checks.", 
+        "id": "CVE-2026-86979", 
+        "impact": "An app may be able to access sensitive user data", 
+        "links": [
+            "https://support.apple.com/en-us/149035"
+        ], 
+        "module": "Spotlight", 
+        "rsr": "", 
+        "update": "October 19, 2026"
+    }, 
+    {
+        "available": [
+            "macOS Sequoia", 
+            "macOS Tahoe"
+        ], 
+        "credit": "f00l (@PPPF00L) and 3ndy1 (@_3ndy1)", 
+        "description": "An out-of-bounds write issue was addressed with improved bounds checking.", 
+        "id": "CVE-2026-86981", 
+        "impact": "An app may be able to cause unexpected system termination", 
+        "links": [
+            "https://support.apple.com/en-us/149042", 
+            "https://support.apple.com/en-us/149043"
+        ], 
+        "module": "GPU Drivers", 
+        "rsr": "", 
+        "update": "October 19, 2026"
     }
 ]
