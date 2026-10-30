@@ -3642,6 +3642,21 @@
     }, 
     {
         "available": [
+            "macOS Tahoe 26.6 and later"
+        ], 
+        "credit": "Roelof van Dijk", 
+        "description": "An authorization issue was addressed with improved state management.", 
+        "id": "CVE-2026-112602", 
+        "impact": "An app may be able to access sensitive user data", 
+        "links": [
+            "https://support.apple.com/en-us/149589"
+        ], 
+        "module": "Instruments", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
             "macOS Golden Gate", 
             "macOS Tahoe"
         ], 
@@ -3654,6 +3669,21 @@
             "https://support.apple.com/en-us/149522"
         ], 
         "module": "CoreSymbolication", 
+        "rsr": "", 
+        "update": ""
+    }, 
+    {
+        "available": [
+            "macOS Tahoe 26.6 and later"
+        ], 
+        "credit": "Vladislav Shevchenko (Positive Technologies)", 
+        "description": "This issue was addressed with improved handling of symlinks.", 
+        "id": "CVE-2026-112605", 
+        "impact": "An app may be able to read arbitrary files", 
+        "links": [
+            "https://support.apple.com/en-us/149589"
+        ], 
+        "module": "CoreDevice", 
         "rsr": "", 
         "update": ""
     }, 
@@ -18154,7 +18184,7 @@
             "Apple Vision Pro (all models)", 
             "Apple Watch Series 9 and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
-            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generationAir 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -24039,7 +24069,7 @@
     {
         "available": [
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
-            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generationAir 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Sequoia", 
             "macOS Tahoe"
         ], 
@@ -24709,7 +24739,7 @@
             "Apple Vision Pro (all models)", 
             "iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later", 
             "iPhone 11 and later, iPad Pro 12.9-inch 4th generation and later, iPad Pro 11-inch 2nd generation and later, iPad Air 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
-            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generationAir 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later", 
+            "iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation", 
             "macOS Golden Gate", 
             "macOS Tahoe"
         ], 
